@@ -14,7 +14,7 @@ For example (replacing the path to the FreeCAD executable with a real path):
 1. Save the FCStd file in the Data/CADFiles directory
 2. Using a known-good version of FreeCAD, run
 ```
-FreeCADCmd.exe Scripts/EvaluateFile.FCMacro Data/SomeDescriptiveName.FCStd --out SomeDescriptiveName.json 
+FreeCADCmd.exe Scripts/EvaluateFile.FCMacro Data/SomeDescriptiveName.FCStd --out SomeDescriptiveName.json
 ```
 3. Store the resulting `SomeDescriptiveName.json` file in Data/BaselineResults
 4. Add test information to Tests.md

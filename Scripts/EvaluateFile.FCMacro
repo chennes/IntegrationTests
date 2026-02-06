@@ -48,10 +48,18 @@ def get_solids_from_shape(shape):
 
 def compute_metrics_for_solid(solid) -> dict:
     """
-    Future expansion point: add additional fields here (e.g., area_mm2, bbox_mm, mass_g, etc).
+    Future expansion point: add additional fields here (e.g., area_mm2, mass_g, etc).
     """
     return {
-        "volume_mm3": float(solid.Volume)
+        "volume_mm3": float(solid.Volume),
+        "bounding_box": {
+            "x_min": float(solid.BoundBox.XMin),
+            "y_min": float(solid.BoundBox.YMin),
+            "z_min": float(solid.BoundBox.ZMin),
+            "x_max": float(solid.BoundBox.XMax),
+            "y_max": float(solid.BoundBox.YMax),
+            "z_max": float(solid.BoundBox.ZMax),
+        },
     }
 
 
@@ -61,7 +69,7 @@ def get_freecad_version_string():
         return ".".join(v[:3]) + (" " + v[3] if len(v) > 3 else "")
     except Exception:
         return "unknown"
-    
+
 
 def build_report_dict(doc, source_path: str) -> dict:
     report = {
@@ -71,7 +79,7 @@ def build_report_dict(doc, source_path: str) -> dict:
             "document_name": doc.Name,
             "document_label": getattr(doc, "Label", doc.Name),
             "freecad_version": get_freecad_version_string(),
-            "data_creation_date": datetime.datetime.now(datetime.timezone.utc).isoformat()
+            "data_creation_date": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         },
         "objects": {},
         "summary": {
@@ -99,7 +107,7 @@ def build_report_dict(doc, source_path: str) -> dict:
             "name": obj.Name,
             "label": obj.Label,
             "type_id": getattr(obj, "TypeId", None),
-            "solids": []
+            "solids": [],
         }
 
         for idx, solid in enumerate(solids, start=1):
@@ -115,10 +123,12 @@ def build_report_dict(doc, source_path: str) -> dict:
             total_volume += vol
             solid_count += 1
 
-            obj_entry["solids"].append({
-                "index": idx,
-                "metrics": metrics,
-            })
+            obj_entry["solids"].append(
+                {
+                    "index": idx,
+                    "metrics": metrics,
+                }
+            )
 
         if obj_entry["solids"]:
             report["objects"][obj.Name] = obj_entry
@@ -135,7 +145,7 @@ def parse_args(argv):
     # argument 2, not 1.
     p = argparse.ArgumentParser(
         prog=os.path.basename(argv[1]),
-        description="Compute per-solid metrics from an FCStd file and output JSON."
+        description="Compute per-solid metrics from an FCStd file and output JSON.",
     )
     p.add_argument("fcstd", help="Path to .FCStd file")
     p.add_argument("--out", "-o", default=None, help="Write JSON to this file instead of stdout")
