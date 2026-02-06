@@ -1,0 +1,68 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "volume_mm3": 5551.918424200843
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Chamfer": {
+      "label": "Chamfer",
+      "name": "Chamfer",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "volume_mm3": 5551.918424200853
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "name": "Fillet",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "volume_mm3": 5623.704153132384
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "volume_mm3": 5644.6489144069965
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "data_creation_date": "2026-02-06T04:26:53.153573+00:00",
+    "document_label": "PD_SketchAllEdgeTypes",
+    "document_name": "PD_SketchAllEdgeTypes",
+    "freecad_version": "1.2.0 45273 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_SketchAllEdgeTypes.FCStd"
+  },
+  "summary": {
+    "solid_count": 4,
+    "total_volume_mm3": 22372.189915941075
+  }
+}

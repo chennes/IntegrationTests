@@ -1,0 +1,177 @@
+#!/usr/bin/env python3
+#
+# Usage:
+#   freecadcmd EvaluateFile.FCMacro /path/to/model.FCStd
+#   freecadcmd EvaluateFile.FCMacro /path/to/model.FCStd --out results.json
+#
+# Notes:
+# - Outputs JSON dictionary.
+# - Metrics container supports future expansion beyond volume (only volume implemented now)
+
+import datetime
+import sys
+import os
+import json
+import argparse
+
+import FreeCAD as App
+
+
+def is_shape_valid(shape) -> bool:
+    try:
+        return (shape is not None) and (not shape.isNull()) and shape.isValid()
+    except Exception:
+        return False
+
+
+def get_solids_from_shape(shape):
+    """
+    Return a list of solids from any shape.
+    - For compounds/compsolids/etc: returns shape.Solids when present
+    - If shape itself is a Solid: returns [shape]
+    """
+    try:
+        solids = list(shape.Solids)
+        if solids:
+            return solids
+    except Exception:
+        pass
+
+    try:
+        if getattr(shape, "ShapeType", "") == "Solid":
+            return [shape]
+    except Exception:
+        pass
+
+    return []
+
+
+def compute_metrics_for_solid(solid) -> dict:
+    """
+    Future expansion point: add additional fields here (e.g., area_mm2, bbox_mm, mass_g, etc).
+    """
+    return {
+        "volume_mm3": float(solid.Volume)
+    }
+
+
+def get_freecad_version_string():
+    try:
+        v = App.Version()
+        return ".".join(v[:3]) + (" " + v[3] if len(v) > 3 else "")
+    except Exception:
+        return "unknown"
+    
+
+def build_report_dict(doc, source_path: str) -> dict:
+    report = {
+        "schema_version": 1,
+        "source": {
+            "path": source_path,
+            "document_name": doc.Name,
+            "document_label": getattr(doc, "Label", doc.Name),
+            "freecad_version": get_freecad_version_string(),
+            "data_creation_date": datetime.datetime.now(datetime.timezone.utc).isoformat()
+        },
+        "objects": {},
+        "summary": {
+            "solid_count": 0,
+            "total_volume_mm3": 0.0,
+        },
+    }
+
+    total_volume = 0.0
+    solid_count = 0
+
+    for obj in doc.Objects:
+        if not hasattr(obj, "Shape"):
+            continue
+
+        shape = obj.Shape
+        if not is_shape_valid(shape):
+            continue
+
+        solids = get_solids_from_shape(shape)
+        if not solids:
+            continue
+
+        obj_entry = {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": getattr(obj, "TypeId", None),
+            "solids": []
+        }
+
+        for idx, solid in enumerate(solids, start=1):
+            if not is_shape_valid(solid):
+                continue
+
+            try:
+                metrics = compute_metrics_for_solid(solid)
+            except Exception:
+                continue
+
+            vol = float(metrics.get("volume_mm3", 0.0))
+            total_volume += vol
+            solid_count += 1
+
+            obj_entry["solids"].append({
+                "index": idx,
+                "metrics": metrics,
+            })
+
+        if obj_entry["solids"]:
+            report["objects"][obj.Name] = obj_entry
+
+    report["summary"]["solid_count"] = solid_count
+    report["summary"]["total_volume_mm3"] = float(total_volume)
+
+    return report
+
+
+def parse_args(argv):
+    # This is a little strange because the intended use is to pass this script itself as an
+    # argument to FreeCADCmd, so the argument parser actually has to start parsing from
+    # argument 2, not 1.
+    p = argparse.ArgumentParser(
+        prog=os.path.basename(argv[1]),
+        description="Compute per-solid metrics from an FCStd file and output JSON."
+    )
+    p.add_argument("fcstd", help="Path to .FCStd file")
+    p.add_argument("--out", "-o", default=None, help="Write JSON to this file instead of stdout")
+    return p.parse_args(argv[2:])
+
+
+def main(argv):
+    args = parse_args(argv)
+
+    fcstd_path = os.path.abspath(args.fcstd)
+    if not os.path.isfile(fcstd_path):
+        raise SystemExit(f"Input file not found: {fcstd_path}")
+
+    doc = App.openDocument(fcstd_path)
+    try:
+        doc.recompute()
+    except Exception:
+        pass
+
+    report = build_report_dict(doc, fcstd_path)
+
+    json_text = json.dumps(report, indent=2, sort_keys=True)
+
+    if args.out:
+        out_path = os.path.abspath(args.out)
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(json_text)
+            f.write("\n")
+    else:
+        print(json_text)
+
+    try:
+        App.closeDocument(doc.Name)
+    except Exception:
+        pass
+
+
+if __name__ == "__main__":
+    main(sys.argv)

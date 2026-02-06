@@ -1,0 +1,42 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "volume_mm3": 8000.000000000
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "volume_mm3": 8000.000000000
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "data_creation_date": "2026-02-06T04:04:17.585706+00:00",
+    "document_label": "PD_Cube",
+    "document_name": "PD_Cube",
+    "freecad_version": "1.2.0 45273 (Git)",
+    "path": "PD_Cube.FCStd"
+  },
+  "summary": {
+    "solid_count": 2,
+    "total_volume_mm3": 16000.00000000
+  }
+}
