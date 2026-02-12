@@ -1,0 +1,205 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Schrank\u00f6se",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.164784400584788,
+              "x_min": -11.164784400584788,
+              "y_max": 5.403721781432732,
+              "y_min": -5.40372178143273,
+              "z_max": 12.903721781432733,
+              "z_min": -1.5500000000000001e-15
+            },
+            "volume_mm3": 782.0790044527441
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "name": "Fillet",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 5.000000000000005,
+              "y_min": -5.0,
+              "z_max": 12.500000000000002,
+              "z_min": -2.220446049250313e-15
+            },
+            "volume_mm3": 838.1275720501382
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet001": {
+      "label": "Fillet001",
+      "name": "Fillet001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 5.000000000000003,
+              "y_min": -5.0,
+              "z_max": 12.5,
+              "z_min": -2.220446049250313e-15
+            },
+            "volume_mm3": 796.9068512755201
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet002": {
+      "label": "Fillet002",
+      "name": "Fillet002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 5.612000000000003,
+              "y_min": -5.612,
+              "z_max": 12.556860718813578,
+              "z_min": -2.6645352591003757e-15
+            },
+            "volume_mm3": 804.9588997442004
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet003": {
+      "label": "Fillet003",
+      "name": "Fillet003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.164784400584788,
+              "x_min": -11.164784400584788,
+              "y_max": 5.403721781432734,
+              "y_min": -5.403721781432728,
+              "z_max": 12.903721781432733,
+              "z_min": -2.6645352591003757e-15
+            },
+            "volume_mm3": 783.6453202600507
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Hole": {
+      "label": "Hole",
+      "name": "Hole",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 5.000000000000005,
+              "y_min": -5.0,
+              "z_max": 12.500000000000002,
+              "z_min": -2.220446049250313e-15
+            },
+            "volume_mm3": 887.1681469282039
+          }
+        }
+      ],
+      "type_id": "PartDesign::Hole"
+    },
+    "Hole001": {
+      "label": "Hole001",
+      "name": "Hole001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 5.000000000000005,
+              "y_min": -5.0,
+              "z_max": 12.500000000000002,
+              "z_min": -2.220446049250313e-15
+            },
+            "volume_mm3": 858.893813045896
+          }
+        }
+      ],
+      "type_id": "PartDesign::Hole"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 5.000000000000005,
+              "y_min": -5.0,
+              "z_max": 12.500000000000002,
+              "z_min": -2.220446049250313e-15
+            },
+            "volume_mm3": 949.9999999999999
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.164784400584788,
+              "x_min": -11.164784400584788,
+              "y_max": 5.403721781432734,
+              "y_min": -5.403721781432728,
+              "z_max": 12.903721781432733,
+              "z_min": -2.6645352591003757e-15
+            },
+            "volume_mm3": 782.0790044527441
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "data_creation_date": "2026-02-12T17:35:06.503585+00:00",
+    "document_label": "PD_Oese",
+    "document_name": "PD_Oese",
+    "freecad_version": "1.2.0 20260210 (Git shallow)",
+    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_Oese.FCStd"
+  },
+  "summary": {
+    "solid_count": 9,
+    "total_volume_mm3": 7483.858612209498
+  }
+}

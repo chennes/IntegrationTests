@@ -1,0 +1,163 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 17.5,
+              "x_min": -17.5,
+              "y_max": 17.500387282914765,
+              "y_min": -17.500387282914765,
+              "z_max": 15.5,
+              "z_min": -1.5
+            },
+            "volume_mm3": 3167.886155119054
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Chamfer": {
+      "label": "Chamfer",
+      "name": "Chamfer",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 17.5,
+              "x_min": -17.5,
+              "y_max": 17.5,
+              "y_min": -17.5,
+              "z_max": 15.5,
+              "z_min": -1.5
+            },
+            "volume_mm3": 3197.2770561254374
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13.75,
+              "x_min": -13.75,
+              "y_max": 13.75,
+              "y_min": -13.75,
+              "z_max": 15.5,
+              "z_min": 0.0
+            },
+            "volume_mm3": 1809.3423657204899
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad001",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 17.5,
+              "x_min": -17.5,
+              "y_max": 17.5,
+              "y_min": -17.5,
+              "z_max": 15.5,
+              "z_min": -1.5
+            },
+            "volume_mm3": 3252.511490963302
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Part": {
+      "label": "Part",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 17.5,
+              "x_min": -17.5,
+              "y_max": 17.500387282914765,
+              "y_min": -17.500387282914765,
+              "z_max": 15.5,
+              "z_min": -1.5
+            },
+            "volume_mm3": 3167.886155119054
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 17.5,
+              "x_min": -17.5,
+              "y_max": 17.5,
+              "y_min": -17.5,
+              "z_max": 15.5,
+              "z_min": -1.5
+            },
+            "volume_mm3": 3182.415277377353
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "PolarPattern": {
+      "label": "PolarPattern",
+      "name": "PolarPattern",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 17.5,
+              "x_min": -17.5,
+              "y_max": 17.500387282914765,
+              "y_min": -17.500387282914765,
+              "z_max": 15.5,
+              "z_min": -1.5
+            },
+            "volume_mm3": 3167.886155119054
+          }
+        }
+      ],
+      "type_id": "PartDesign::PolarPattern"
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "data_creation_date": "2026-02-12T17:33:20.260333+00:00",
+    "document_label": "PD_PipeEndCap",
+    "document_name": "PD_PipeEndCap",
+    "freecad_version": "1.2.0 20260210 (Git shallow)",
+    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_PipeEndCap.FCStd"
+  },
+  "summary": {
+    "solid_count": 7,
+    "total_volume_mm3": 20945.20465554374
+  }
+}

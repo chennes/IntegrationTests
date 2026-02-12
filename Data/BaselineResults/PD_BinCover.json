@@ -1,0 +1,289 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 32.45,
+              "x_min": -32.45,
+              "y_max": 50.099999999999994,
+              "y_min": -47.0,
+              "z_max": 0.0,
+              "z_min": -7.200000000000005
+            },
+            "volume_mm3": 12681.329186699752
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Chamfer": {
+      "label": "Chamfer",
+      "name": "Chamfer",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 32.45,
+              "x_min": -32.45,
+              "y_max": 50.099999999999994,
+              "y_min": -45.0,
+              "z_max": 0.0,
+              "z_min": -7.200000000000005
+            },
+            "volume_mm3": 12384.369978921699
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer001": {
+      "label": "Chamfer001",
+      "name": "Chamfer001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 32.45,
+              "x_min": -32.45,
+              "y_max": 50.099999999999994,
+              "y_min": -45.0,
+              "z_max": 0.0,
+              "z_min": -7.200000000000005
+            },
+            "volume_mm3": 12499.789859290871
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Draft": {
+      "label": "Draft",
+      "name": "Draft",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 32.45,
+              "x_min": -32.45,
+              "y_max": 50.099999999999994,
+              "y_min": -45.0,
+              "z_max": 0.0,
+              "z_min": -7.200000000000001
+            },
+            "volume_mm3": 12414.195904061093
+          }
+        }
+      ],
+      "type_id": "PartDesign::Draft"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "name": "Fillet",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 32.45,
+              "x_min": -32.45,
+              "y_max": 50.099999999999994,
+              "y_min": -47.0,
+              "z_max": 0.0,
+              "z_min": -7.200000000000005
+            },
+            "volume_mm3": 12681.329186699752
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Mirrored": {
+      "label": "Mirrored",
+      "name": "Mirrored",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 30.45,
+              "x_min": -30.45,
+              "y_max": 48.099999999999994,
+              "y_min": -43.0,
+              "z_max": 0.0,
+              "z_min": -7.2
+            },
+            "volume_mm3": 36551.321766529145
+          }
+        }
+      ],
+      "type_id": "PartDesign::Mirrored"
+    },
+    "Mirrored001": {
+      "label": "Mirrored001",
+      "name": "Mirrored001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 30.45,
+              "x_min": -30.45,
+              "y_max": 48.099999999999994,
+              "y_min": -43.0,
+              "z_max": 0.0,
+              "z_min": -7.2
+            },
+            "volume_mm3": 36551.321766529145
+          }
+        }
+      ],
+      "type_id": "Part::Refine"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 1.2485999999999995e-14,
+              "x_min": -30.45,
+              "y_max": 48.099999999999994,
+              "y_min": -43.0,
+              "z_max": 0.0,
+              "z_min": -7.2
+            },
+            "volume_mm3": 18275.660883264565
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad001",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 32.45,
+              "x_min": -32.45,
+              "y_max": 50.099999999999994,
+              "y_min": -45.0,
+              "z_max": 0.0,
+              "z_min": -7.2
+            },
+            "volume_mm3": 12911.251386374854
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad002": {
+      "label": "Pad002",
+      "name": "Pad002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 32.45,
+              "x_min": -32.45,
+              "y_max": 50.099999999999994,
+              "y_min": -47.0,
+              "z_max": 0.0,
+              "z_min": -7.200000000000005
+            },
+            "volume_mm3": 12681.366425317094
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 32.45,
+              "x_min": -32.45,
+              "y_max": 50.099999999999994,
+              "y_min": -45.0,
+              "z_max": 0.0,
+              "z_min": -7.200000000000001
+            },
+            "volume_mm3": 12476.667400647091
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "Pocket001",
+      "name": "Pocket001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 32.45,
+              "x_min": -32.45,
+              "y_max": 50.099999999999994,
+              "y_min": -45.0,
+              "z_max": 0.0,
+              "z_min": -7.200000000000001
+            },
+            "volume_mm3": 12414.195904061093
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Thickness": {
+      "label": "Thickness",
+      "name": "Thickness",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 30.45,
+              "x_min": -30.45,
+              "y_max": 48.099999999999994,
+              "y_min": -43.0,
+              "z_max": 0.0,
+              "z_min": -7.2
+            },
+            "volume_mm3": 8002.905746622324
+          }
+        }
+      ],
+      "type_id": "PartDesign::Thickness"
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "data_creation_date": "2026-02-12T17:35:35.083309+00:00",
+    "document_label": "PD_BinCover",
+    "document_name": "PD_BinCover",
+    "freecad_version": "1.2.0 20260210 (Git shallow)",
+    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_BinCover.FCStd"
+  },
+  "summary": {
+    "solid_count": 13,
+    "total_volume_mm3": 212525.70539501848
+  }
+}

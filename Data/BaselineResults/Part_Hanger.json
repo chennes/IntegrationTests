@@ -1,0 +1,121 @@
+{
+  "objects": {
+    "Fillet002": {
+      "label": "Fillet002",
+      "name": "Fillet002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.000000000000484,
+              "x_min": -5.000000000000484,
+              "y_max": 42.22,
+              "y_min": -15.102204000000004,
+              "z_max": 39.870000000000005,
+              "z_min": -1.583000000289548e-14
+            },
+            "volume_mm3": 1908.654070046238
+          }
+        }
+      ],
+      "type_id": "Part::Fillet"
+    },
+    "Fillet003": {
+      "label": "Fillet003",
+      "name": "Fillet003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.000000000000484,
+              "x_min": -5.000000000000484,
+              "y_max": 42.22,
+              "y_min": -35.62864899813728,
+              "z_max": 39.870000000000005,
+              "z_min": -44.073953316034874
+            },
+            "volume_mm3": 2386.933858812804
+          }
+        }
+      ],
+      "type_id": "Part::Fillet"
+    },
+    "Fusion": {
+      "label": "Fusion",
+      "name": "Fusion",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.000000000000484,
+              "x_min": -5.000000000000484,
+              "y_max": 42.22,
+              "y_min": -15.102204000000004,
+              "z_max": 39.870000000000005,
+              "z_min": -15.0
+            },
+            "volume_mm3": 2397.819508265555
+          }
+        }
+      ],
+      "type_id": "Part::Fuse"
+    },
+    "Offset": {
+      "label": "Offset",
+      "name": "Offset",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.000000000000484,
+              "x_min": -5.000000000000484,
+              "y_max": 42.22,
+              "y_min": -15.0,
+              "z_max": 39.870000000000005,
+              "z_min": -1.583000000289548e-14
+            },
+            "volume_mm3": 1911.5211518274514
+          }
+        }
+      ],
+      "type_id": "Part::Offset"
+    },
+    "Offset001": {
+      "label": "Offset001",
+      "name": "Offset001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.0,
+              "x_min": -5.0,
+              "y_max": 0.0,
+              "y_min": -10.0,
+              "z_max": 5.0,
+              "z_min": -15.0
+            },
+            "volume_mm3": 544.0693770233541
+          }
+        }
+      ],
+      "type_id": "Part::Offset"
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "data_creation_date": "2026-02-12T17:23:15.789762+00:00",
+    "document_label": "Part_Hanger",
+    "document_name": "Part_Hanger",
+    "freecad_version": "1.2.0 20260210 (Git shallow)",
+    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\Part_Hanger.FCStd"
+  },
+  "summary": {
+    "solid_count": 5,
+    "total_volume_mm3": 9148.997965975403
+  }
+}

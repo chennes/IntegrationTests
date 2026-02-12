@@ -1,0 +1,163 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Trichter",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 40.0,
+              "x_min": -40.0,
+              "y_max": 40.00000000000002,
+              "y_min": -39.99999999999998,
+              "z_max": 55.000000000000014,
+              "z_min": -4.642e-15
+            },
+            "volume_mm3": 8767.626305823156
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Trichter_Luftschlauch",
+      "name": "Body001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 39.80000000000005,
+              "x_min": -40.00000000000001,
+              "y_max": 40.00000000000003,
+              "y_min": -39.999999999999986,
+              "z_max": 55.00000000000002,
+              "z_min": -4.6629367034256575e-15
+            },
+            "volume_mm3": 10646.862654110542
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Clone": {
+      "label": "Clone",
+      "name": "Clone",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 40.0,
+              "x_min": -40.0,
+              "y_max": 40.00000000000002,
+              "y_min": -39.99999999999998,
+              "z_max": 55.000000000000014,
+              "z_min": -4.642e-15
+            },
+            "volume_mm3": 98373.21697862667
+          }
+        }
+      ],
+      "type_id": "PartDesign::FeatureBase"
+    },
+    "Revolution": {
+      "label": "Revolution",
+      "name": "Revolution",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 40.0,
+              "x_min": -40.0,
+              "y_max": 40.00000000000002,
+              "y_min": -39.99999999999998,
+              "z_max": 55.000000000000014,
+              "z_min": -4.642e-15
+            },
+            "volume_mm3": 98373.21697862667
+          }
+        }
+      ],
+      "type_id": "PartDesign::Revolution"
+    },
+    "SubtractivePipe": {
+      "label": "SubtractivePipe",
+      "name": "SubtractivePipe",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 39.80000000000005,
+              "x_min": -40.00000000000001,
+              "y_max": 40.00000000000003,
+              "y_min": -39.999999999999986,
+              "z_max": 55.00000000000002,
+              "z_min": -4.642e-15
+            },
+            "volume_mm3": 97057.89871923575
+          }
+        }
+      ],
+      "type_id": "PartDesign::SubtractivePipe"
+    },
+    "Thickness": {
+      "label": "Thickness",
+      "name": "Thickness",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 40.0,
+              "x_min": -40.0,
+              "y_max": 40.00000000000002,
+              "y_min": -39.99999999999998,
+              "z_max": 55.000000000000014,
+              "z_min": -4.642e-15
+            },
+            "volume_mm3": 8767.626305823156
+          }
+        }
+      ],
+      "type_id": "PartDesign::Thickness"
+    },
+    "Thickness001": {
+      "label": "Thickness001",
+      "name": "Thickness001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 39.80000000000005,
+              "x_min": -40.00000000000001,
+              "y_max": 40.00000000000003,
+              "y_min": -39.999999999999986,
+              "z_max": 55.00000000000002,
+              "z_min": -4.6629367034256575e-15
+            },
+            "volume_mm3": 10646.862654110551
+          }
+        }
+      ],
+      "type_id": "PartDesign::Thickness"
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "data_creation_date": "2026-02-12T17:31:13.456798+00:00",
+    "document_label": "PD_Funnels",
+    "document_name": "PD_Funnels",
+    "freecad_version": "1.2.0 20260210 (Git shallow)",
+    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_Funnels.FCStd"
+  },
+  "summary": {
+    "solid_count": 7,
+    "total_volume_mm3": 332633.31059635646
+  }
+}

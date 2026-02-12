@@ -1,0 +1,268 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Pozidriv-Bit",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 16.5,
+              "x_min": -7.0,
+              "y_max": 3.464101615137751,
+              "y_min": -3.46410161513775,
+              "z_max": 3.464101615137749,
+              "z_min": -3.464101615137751
+            },
+            "volume_mm3": 531.7327875045225
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Groove": {
+      "label": "Groove",
+      "name": "Groove",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.464101615137751,
+              "x_min": -3.464101615137749,
+              "y_max": 3.464101615137751,
+              "y_min": -3.4641016151377495,
+              "z_max": 7.0,
+              "z_min": -7.0
+            },
+            "volume_mm3": 433.4708245629521
+          }
+        }
+      ],
+      "type_id": "PartDesign::Groove"
+    },
+    "Groove001": {
+      "label": "Groove001",
+      "name": "Groove001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.464101615137751,
+              "x_min": -3.464101615137749,
+              "y_max": 3.464101615137751,
+              "y_min": -3.4641016151377495,
+              "z_max": 16.5,
+              "z_min": -7.0
+            },
+            "volume_mm3": 531.9329828668241
+          }
+        }
+      ],
+      "type_id": "PartDesign::Groove"
+    },
+    "Groove002": {
+      "label": "Groove002",
+      "name": "Groove002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.464101615137751,
+              "x_min": -3.464101615137749,
+              "y_max": 3.464101615137751,
+              "y_min": -3.46410161513775,
+              "z_max": 16.5,
+              "z_min": -7.0
+            },
+            "volume_mm3": 531.7327875045224
+          }
+        }
+      ],
+      "type_id": "PartDesign::Groove"
+    },
+    "Mirrored": {
+      "label": "Mirrored",
+      "name": "Mirrored",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.464101615137751,
+              "x_min": -3.464101615137749,
+              "y_max": 3.464101615137751,
+              "y_min": -3.4641016151377495,
+              "z_max": 7.0,
+              "z_min": -7.0
+            },
+            "volume_mm3": 430.46484561560356
+          }
+        }
+      ],
+      "type_id": "PartDesign::Mirrored"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.0,
+              "x_min": -3.0,
+              "y_max": 3.4641016151377495,
+              "y_min": -3.4641016151377495,
+              "z_max": 7.0,
+              "z_min": -7.0
+            },
+            "volume_mm3": 436.4768035073564
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Part": {
+      "label": "Part",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.4641016151377517,
+              "x_min": -3.4641016151377526,
+              "y_max": 16.500000000000004,
+              "y_min": -7.000000000000002,
+              "z_max": 3.4641016151377495,
+              "z_min": -3.4641016151377513
+            },
+            "volume_mm3": 531.732787504523
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.464101615137751,
+              "x_min": -3.464101615137749,
+              "y_max": 3.464101615137751,
+              "y_min": -3.4641016151377495,
+              "z_max": 17.0,
+              "z_min": -7.0
+            },
+            "volume_mm3": 575.5865123357066
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "Pocket001",
+      "name": "Pocket001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.464101615137751,
+              "x_min": -3.464101615137749,
+              "y_max": 3.464101615137751,
+              "y_min": -3.4641016151377495,
+              "z_max": 17.0,
+              "z_min": -7.0
+            },
+            "volume_mm3": 544.4271771739623
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "PolarPattern": {
+      "label": "PolarPattern",
+      "name": "PolarPattern",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.464101615137751,
+              "x_min": -3.464101615137749,
+              "y_max": 3.464101615137751,
+              "y_min": -3.4641016151377495,
+              "z_max": 17.0,
+              "z_min": -7.0
+            },
+            "volume_mm3": 548.4350480415553
+          }
+        }
+      ],
+      "type_id": "PartDesign::PolarPattern"
+    },
+    "PolarPattern001": {
+      "label": "PolarPattern001",
+      "name": "PolarPattern001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.464101615137751,
+              "x_min": -3.464101615137749,
+              "y_max": 3.464101615137751,
+              "y_min": -3.4641016151377495,
+              "z_max": 17.0,
+              "z_min": -7.0
+            },
+            "volume_mm3": 532.4040711587731
+          }
+        }
+      ],
+      "type_id": "PartDesign::PolarPattern"
+    },
+    "Revolution": {
+      "label": "Revolution",
+      "name": "Revolution",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.464101615137751,
+              "x_min": -3.464101615137749,
+              "y_max": 3.464101615137751,
+              "y_min": -3.4641016151377495,
+              "z_max": 17.0,
+              "z_min": -7.0
+            },
+            "volume_mm3": 584.6368569503653
+          }
+        }
+      ],
+      "type_id": "PartDesign::Revolution"
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "data_creation_date": "2026-02-12T17:13:22.759942+00:00",
+    "document_label": "PD_PozidrivBit",
+    "document_name": "PD_PozidrivBit",
+    "freecad_version": "1.2.0 20260210 (Git shallow)",
+    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_PozidrivBit.FCStd"
+  },
+  "summary": {
+    "solid_count": 12,
+    "total_volume_mm3": 6213.033484726667
+  }
+}

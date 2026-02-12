@@ -1,0 +1,303 @@
+{
+  "objects": {
+    "Body": {
+      "label": "T\u00fcr",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -10.0,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 5184.140605539785
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Sockelleiste",
+      "name": "Body001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -6.508665730861658,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": -1.0693772352269448
+            },
+            "volume_mm3": 5294.0389285593465
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Draft": {
+      "label": "Draft",
+      "name": "Draft",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -10.0,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 5092.385759059158
+          }
+        }
+      ],
+      "type_id": "PartDesign::Draft"
+    },
+    "Draft001": {
+      "label": "Draft001",
+      "name": "Draft001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -6.508665730861658,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 5260.124721847353
+          }
+        }
+      ],
+      "type_id": "PartDesign::Draft"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "name": "Fillet",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -10.0,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 5184.140605539785
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet001": {
+      "label": "Fillet001",
+      "name": "Fillet001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -6.508665730861658,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": -1.0693772352269448
+            },
+            "volume_mm3": 5294.038928559347
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Mirrored": {
+      "label": "Mirrored",
+      "name": "Mirrored",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -6.508665730861658,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 5477.013618168488
+          }
+        }
+      ],
+      "type_id": "PartDesign::Mirrored"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -10.0,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 5654.820734834984
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad001",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -5.5317286652078765,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 5131.5395848897615
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad002": {
+      "label": "Pad002",
+      "name": "Pad002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -6.508665730861658,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 5304.2766015291245
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad003": {
+      "label": "Pad003",
+      "name": "Pad003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -6.508665730861658,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 5591.180198235367
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Part": {
+      "label": "Part",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -10.0,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 5184.140605539785
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -6.508665730861658,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": -1.0693772352269448
+            },
+            "volume_mm3": 5294.0389285593465
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "ShapeBinder": {
+      "label": "ShapeBinder",
+      "name": "ShapeBinder",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -10.0,
+              "y_max": 25.0,
+              "y_min": -25.0,
+              "z_max": 20.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 5184.140605539785
+          }
+        }
+      ],
+      "type_id": "PartDesign::ShapeBinder"
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "data_creation_date": "2026-02-12T17:22:42.219623+00:00",
+    "document_label": "PD_SnapFit",
+    "document_name": "PD_SnapFit",
+    "freecad_version": "1.2.0 20260210 (Git shallow)",
+    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_SnapFit.FCStd"
+  },
+  "summary": {
+    "solid_count": 14,
+    "total_volume_mm3": 74130.02042640142
+  }
+}

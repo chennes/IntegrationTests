@@ -1,0 +1,142 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Garnhalter_einzeln",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.750000000000001,
+              "x_min": -7.171650363785087,
+              "y_max": 28.000000000000007,
+              "y_min": -3.779322583748648,
+              "z_max": 50.5,
+              "z_min": -15.000000000000004
+            },
+            "volume_mm3": 3088.1204191477295
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "name": "Fillet",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.750000000000001,
+              "x_min": -7.171650363785087,
+              "y_max": 28.00000000000001,
+              "y_min": -3.7793225837486455,
+              "z_max": 50.5,
+              "z_min": -15.000000000000009
+            },
+            "volume_mm3": 3111.590220914567
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.750000000000001,
+              "x_min": -6.1,
+              "y_max": 11.05,
+              "y_min": -3.7793225837486455,
+              "z_max": 50.5,
+              "z_min": -11.05
+            },
+            "volume_mm3": 1339.8983822965465
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad001",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.750000000000001,
+              "x_min": -6.1,
+              "y_max": 28.00000000000001,
+              "y_min": -3.7793225837486455,
+              "z_max": 50.5,
+              "z_min": -15.000000000000009
+            },
+            "volume_mm3": 3170.0071514842966
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.750000000000001,
+              "x_min": -7.171650363785087,
+              "y_max": 28.00000000000001,
+              "y_min": -3.7793225837486455,
+              "z_max": 50.5,
+              "z_min": -15.000000000000009
+            },
+            "volume_mm3": 3088.1204191477286
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Revolution": {
+      "label": "Revolution",
+      "name": "Revolution",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.750000000000001,
+              "x_min": -5.750000000000001,
+              "y_max": 11.05,
+              "y_min": -3.7793225837486455,
+              "z_max": 11.05,
+              "z_min": -11.05
+            },
+            "volume_mm3": 609.5229636479486
+          }
+        }
+      ],
+      "type_id": "PartDesign::Revolution"
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "data_creation_date": "2026-02-12T17:27:40.048752+00:00",
+    "document_label": "PD_SpoolHolder",
+    "document_name": "PD_SpoolHolder",
+    "freecad_version": "1.2.0 20260210 (Git shallow)",
+    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_SpoolHolder.FCStd"
+  },
+  "summary": {
+    "solid_count": 6,
+    "total_volume_mm3": 14407.259556638817
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "objects": {
+    "Box": {
+      "label": "Box",
+      "name": "Box",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13200.0,
+              "x_min": 13000.0,
+              "y_max": 500.0,
+              "y_min": 0.0,
+              "z_max": 100.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 9999999.999999998
+          }
+        }
+      ],
+      "type_id": "Part::Box"
+    },
+    "Box001": {
+      "label": "Box001",
+      "name": "Box001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2218.7974732207335,
+              "x_min": 1960.3567451474546,
+              "y_max": 6474.165738677394,
+              "y_min": 5984.142698058982,
+              "z_max": 80.17837257372732,
+              "z_min": -320.7134902949092
+            },
+            "volume_mm3": 10000000.0
+          }
+        }
+      ],
+      "type_id": "Part::Box"
+    },
+    "Box002": {
+      "label": "Box002",
+      "name": "Box002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 4200.0,
+              "x_min": 4000.0,
+              "y_max": 6500.0,
+              "y_min": 6000.0,
+              "z_max": 100.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 9999999.999999998
+          }
+        }
+      ],
+      "type_id": "Part::Box"
+    },
+    "Facebinder": {
+      "label": "Facebinder",
+      "name": "Facebinder",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13200.0,
+              "x_min": 13000.0,
+              "y_max": 500.0,
+              "y_min": 0.0,
+              "z_max": 110.0,
+              "z_min": 100.0
+            },
+            "volume_mm3": 1000000.0
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13000.0,
+              "x_min": 12990.0,
+              "y_max": 500.0,
+              "y_min": 0.0,
+              "z_max": 100.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 499999.99999999994
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13200.0,
+              "x_min": 13000.0,
+              "y_max": 0.0,
+              "y_min": -10.0,
+              "z_max": 100.0,
+              "z_min": 0.0
+            },
+            "volume_mm3": 200000.0
+          }
+        }
+      ],
+      "type_id": "Part::FeaturePython"
+    },
+    "Sphere": {
+      "label": "Sphere",
+      "name": "Sphere",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 4500.0,
+              "x_min": 4300.0,
+              "y_max": 6350.0,
+              "y_min": 6150.0,
+              "z_max": 100.0,
+              "z_min": -100.0
+            },
+            "volume_mm3": 4188790.204786389
+          }
+        }
+      ],
+      "type_id": "Part::Sphere"
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "data_creation_date": "2026-02-12T18:39:00.614000+00:00",
+    "document_label": "draft_test_objects",
+    "document_name": "draft_test_objects",
+    "freecad_version": "1.2.0 20260210 (Git shallow)",
+    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\draft_test_objects.FCStd"
+  },
+  "summary": {
+    "solid_count": 7,
+    "total_volume_mm3": 35888790.20478639
+  }
+}
