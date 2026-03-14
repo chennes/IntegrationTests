@@ -10,13 +10,13 @@
             "bounding_box": {
               "x_max": 40.0,
               "x_min": -40.0,
-              "y_max": 40.00000000000002,
-              "y_min": -39.99999999999998,
-              "z_max": 55.000000000000014,
-              "z_min": -4.642e-15
+              "y_max": 40.000000000000014,
+              "y_min": -39.999999999999986,
+              "z_max": 55.00000000000001,
+              "z_min": -2.3425705819590805e-15
             },
             "is_valid": true,
-            "volume_mm3": 8767.626305823156
+            "volume_mm3": 8767.62630582317
           }
         }
       ],
@@ -30,15 +30,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 39.80000000000005,
+              "x_max": 39.800000000000004,
               "x_min": -40.00000000000001,
-              "y_max": 40.00000000000003,
-              "y_min": -39.999999999999986,
-              "z_max": 55.00000000000002,
-              "z_min": -4.6629367034256575e-15
+              "y_max": 40.00000000000002,
+              "y_min": -39.99999999999999,
+              "z_max": 55.000000000000014,
+              "z_min": -2.4424906541753444e-15
             },
             "is_valid": true,
-            "volume_mm3": 10646.862654110542
+            "volume_mm3": 10646.862653919125
           }
         }
       ],
@@ -54,10 +54,10 @@
             "bounding_box": {
               "x_max": 40.0,
               "x_min": -40.0,
-              "y_max": 40.00000000000002,
-              "y_min": -39.99999999999998,
-              "z_max": 55.000000000000014,
-              "z_min": -4.642e-15
+              "y_max": 40.000000000000014,
+              "y_min": -39.999999999999986,
+              "z_max": 55.00000000000001,
+              "z_min": -2.3425705819590805e-15
             },
             "is_valid": true,
             "volume_mm3": 98373.21697862667
@@ -76,10 +76,10 @@
             "bounding_box": {
               "x_max": 40.0,
               "x_min": -40.0,
-              "y_max": 40.00000000000002,
-              "y_min": -39.99999999999998,
-              "z_max": 55.000000000000014,
-              "z_min": -4.642e-15
+              "y_max": 40.000000000000014,
+              "y_min": -39.999999999999986,
+              "z_max": 55.00000000000001,
+              "z_min": -2.3425705819590805e-15
             },
             "is_valid": true,
             "volume_mm3": 98373.21697862667
@@ -96,15 +96,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 39.80000000000005,
+              "x_max": 39.800000000000004,
               "x_min": -40.00000000000001,
-              "y_max": 40.00000000000003,
-              "y_min": -39.999999999999986,
-              "z_max": 55.00000000000002,
-              "z_min": -4.642e-15
+              "y_max": 40.00000000000002,
+              "y_min": -39.99999999999999,
+              "z_max": 55.000000000000014,
+              "z_min": -2.3425705846060583e-15
             },
             "is_valid": true,
-            "volume_mm3": 97057.89871923575
+            "volume_mm3": 97057.89871923492
           }
         }
       ],
@@ -120,13 +120,13 @@
             "bounding_box": {
               "x_max": 40.0,
               "x_min": -40.0,
-              "y_max": 40.00000000000002,
-              "y_min": -39.99999999999998,
-              "z_max": 55.000000000000014,
-              "z_min": -4.642e-15
+              "y_max": 40.000000000000014,
+              "y_min": -39.999999999999986,
+              "z_max": 55.00000000000001,
+              "z_min": -2.3425705819590805e-15
             },
             "is_valid": true,
-            "volume_mm3": 8767.626305823156
+            "volume_mm3": 8767.62630582317
           }
         }
       ],
@@ -140,31 +140,149 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 39.80000000000005,
+              "x_max": 39.800000000000004,
               "x_min": -40.00000000000001,
-              "y_max": 40.00000000000003,
-              "y_min": -39.999999999999986,
-              "z_max": 55.00000000000002,
-              "z_min": -4.6629367034256575e-15
+              "y_max": 40.00000000000002,
+              "y_min": -39.99999999999999,
+              "z_max": 55.000000000000014,
+              "z_min": -2.4424906541753444e-15
             },
             "is_valid": true,
-            "volume_mm3": 10646.862654110551
+            "volume_mm3": 10646.862653919132
           }
         }
       ],
       "type_id": "PartDesign::Thickness"
     }
   },
-  "schema_version": 1,
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Trichter",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 7,
+        "feature_count": 3,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Thickness",
+        "vertex_count": 7
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Trichter_Luftschlauch",
+      "metrics": {
+        "edge_count": 26,
+        "face_count": 12,
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Thickness001",
+        "vertex_count": 16
+      },
+      "name": "Body001",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "Clone": {
+      "label": "Clone",
+      "metrics": {
+        "edge_count": 5,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 3
+      },
+      "name": "Clone",
+      "type_id": "PartDesign::FeatureBase"
+    },
+    "Revolution": {
+      "label": "Revolution",
+      "metrics": {
+        "edge_count": 5,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 3
+      },
+      "name": "Revolution",
+      "type_id": "PartDesign::Revolution"
+    },
+    "SubtractivePipe": {
+      "label": "SubtractivePipe",
+      "metrics": {
+        "edge_count": 10,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 6
+      },
+      "name": "SubtractivePipe",
+      "type_id": "PartDesign::SubtractivePipe"
+    },
+    "Thickness": {
+      "label": "Thickness",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 7,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 7
+      },
+      "name": "Thickness",
+      "type_id": "PartDesign::Thickness"
+    },
+    "Thickness001": {
+      "label": "Thickness001",
+      "metrics": {
+        "edge_count": 26,
+        "face_count": 12,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 16
+      },
+      "name": "Thickness001",
+      "type_id": "PartDesign::Thickness"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch",
+      "metrics": {
+        "constraint_count": 14,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 5,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch001",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
   "source": {
-    "data_creation_date": "2026-02-22T16:03:49.312128+00:00",
+    "data_creation_date": "2026-03-13T14:53:03.908396+00:00",
     "document_label": "PD_Funnels",
     "document_name": "PD_Funnels",
-    "freecad_version": "1.2.0 20260217 (Git shallow)",
-    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_Funnels.FCStd"
-  },
-  "summary": {
-    "solid_count": 7,
-    "total_volume_mm3": 332633.31059635646
+    "freecad_version": "1.2.0 45706 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Funnels.FCStd"
   }
 }

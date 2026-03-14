@@ -1,4 +1,15 @@
 {
+  "app_parts": {
+    "Part": {
+      "label": "Part",
+      "metrics": {
+        "child_count": 1,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "Body": {
       "label": "Body",
@@ -26,7 +37,7 @@
               "y_max": 42.22,
               "y_min": -15.102204000000004,
               "z_max": 39.870000000000005,
-              "z_min": -1.583000000289548e-14
+              "z_min": -1.5827815253461605e-14
             },
             "is_valid": true,
             "volume_mm3": 1908.654070046238
@@ -73,7 +84,7 @@
               "z_min": -15.0
             },
             "is_valid": true,
-            "volume_mm3": 2397.819508265555
+            "volume_mm3": 2397.819508265556
           }
         }
       ],
@@ -92,7 +103,7 @@
               "y_max": 42.22,
               "y_min": -15.0,
               "z_max": 39.870000000000005,
-              "z_min": -1.583000000289548e-14
+              "z_min": -1.5827815253461605e-14
             },
             "is_valid": true,
             "volume_mm3": 1911.5211518274514
@@ -124,16 +135,210 @@
       "type_id": "Part::Offset"
     }
   },
-  "schema_version": 1,
+  "part_extrusions": {
+    "Extrude": {
+      "label": "Extrude",
+      "metrics": {
+        "direction": {
+          "x": -1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 10.0,
+        "length_reverse": 0.0,
+        "solid": false,
+        "symmetric": true
+      },
+      "name": "Extrude",
+      "type_id": "Part::Extrusion"
+    },
+    "Extrude001": {
+      "label": "Extrude001",
+      "metrics": {
+        "direction": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 10.0,
+        "length_reverse": 0.0,
+        "solid": false,
+        "symmetric": true
+      },
+      "name": "Extrude001",
+      "type_id": "Part::Extrusion"
+    }
+  },
+  "part_features": {
+    "Extrude": {
+      "label": "Extrude",
+      "metrics": {
+        "edge_count": 22,
+        "face_count": 7,
+        "is_valid": true,
+        "shape_type": "Shell",
+        "shell_is_closed": false,
+        "vertex_count": 16
+      },
+      "name": "Extrude",
+      "type_id": "Part::Extrusion"
+    },
+    "Extrude001": {
+      "label": "Extrude001",
+      "metrics": {
+        "edge_count": 7,
+        "face_count": 2,
+        "is_valid": true,
+        "shape_type": "Shell",
+        "shell_is_closed": false,
+        "vertex_count": 6
+      },
+      "name": "Extrude001",
+      "type_id": "Part::Extrusion"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "metrics": {
+        "edge_count": 25,
+        "face_count": 8,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": false,
+        "vertex_count": 18
+      },
+      "name": "Fillet",
+      "type_id": "Part::Fillet"
+    },
+    "Fillet001": {
+      "label": "Fillet001",
+      "metrics": {
+        "edge_count": 28,
+        "face_count": 9,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": false,
+        "vertex_count": 20
+      },
+      "name": "Fillet001",
+      "type_id": "Part::Fillet"
+    },
+    "Fillet002": {
+      "label": "Fillet002",
+      "metrics": {
+        "edge_count": 82,
+        "face_count": 40,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 44
+      },
+      "name": "Fillet002",
+      "type_id": "Part::Fillet"
+    },
+    "Fillet003": {
+      "label": "Fillet003",
+      "metrics": {
+        "edge_count": 117,
+        "face_count": 51,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 66
+      },
+      "name": "Fillet003",
+      "type_id": "Part::Fillet"
+    },
+    "Fusion": {
+      "label": "Fusion",
+      "metrics": {
+        "edge_count": 102,
+        "face_count": 48,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 54
+      },
+      "name": "Fusion",
+      "type_id": "Part::Fuse"
+    },
+    "Offset": {
+      "label": "Offset",
+      "metrics": {
+        "edge_count": 76,
+        "face_count": 38,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 40
+      },
+      "name": "Offset",
+      "type_id": "Part::Offset"
+    },
+    "Offset001": {
+      "label": "Offset001",
+      "metrics": {
+        "edge_count": 20,
+        "face_count": 10,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 12
+      },
+      "name": "Offset001",
+      "type_id": "Part::Offset"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "feature_count": 2,
+        "is_valid": true,
+        "tip_is_valid": false,
+        "tip_name": null
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch",
+      "metrics": {
+        "constraint_count": 21,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 7,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch001",
+      "metrics": {
+        "constraint_count": 6,
+        "degrees_of_freedom": 1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
   "source": {
-    "data_creation_date": "2026-02-22T16:22:23.107121+00:00",
+    "data_creation_date": "2026-03-13T14:53:14.766084+00:00",
     "document_label": "Part_Hanger",
     "document_name": "Part_Hanger",
-    "freecad_version": "1.2.0 20260217 (Git shallow)",
-    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\Part_Hanger.FCStd"
-  },
-  "summary": {
-    "solid_count": 5,
-    "total_volume_mm3": 9148.997965975403
+    "freecad_version": "1.2.0 45706 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Part_Hanger.FCStd"
   }
 }

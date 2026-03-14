@@ -8,15 +8,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 5.750000000000001,
+              "x_max": 5.75,
               "x_min": -7.171650363785087,
               "y_max": 28.000000000000007,
-              "y_min": -3.779322583748648,
+              "y_min": -3.7793225837486464,
               "z_max": 50.5,
-              "z_min": -15.000000000000004
+              "z_min": -15.000000000000005
             },
             "is_valid": true,
-            "volume_mm3": 3088.1204191477295
+            "volume_mm3": 3088.1204191477304
           }
         }
       ],
@@ -30,15 +30,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 5.750000000000001,
+              "x_max": 5.75,
               "x_min": -7.171650363785087,
-              "y_max": 28.00000000000001,
-              "y_min": -3.7793225837486455,
+              "y_max": 28.000000000000007,
+              "y_min": -3.7793225837486473,
               "z_max": 50.5,
-              "z_min": -15.000000000000009
+              "z_min": -15.000000000000005
             },
             "is_valid": true,
-            "volume_mm3": 3111.590220914567
+            "volume_mm3": 3111.5902209145684
           }
         }
       ],
@@ -55,12 +55,12 @@
               "x_max": 5.750000000000001,
               "x_min": -6.1,
               "y_max": 11.05,
-              "y_min": -3.7793225837486455,
+              "y_min": -3.7793225837486473,
               "z_max": 50.5,
               "z_min": -11.05
             },
             "is_valid": true,
-            "volume_mm3": 1339.8983822965465
+            "volume_mm3": 1339.8983822965456
           }
         }
       ],
@@ -76,13 +76,13 @@
             "bounding_box": {
               "x_max": 5.750000000000001,
               "x_min": -6.1,
-              "y_max": 28.00000000000001,
-              "y_min": -3.7793225837486455,
+              "y_max": 28.000000000000007,
+              "y_min": -3.7793225837486473,
               "z_max": 50.5,
-              "z_min": -15.000000000000009
+              "z_min": -15.000000000000004
             },
             "is_valid": true,
-            "volume_mm3": 3170.0071514842966
+            "volume_mm3": 3170.0071514843
           }
         }
       ],
@@ -96,15 +96,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 5.750000000000001,
+              "x_max": 5.75,
               "x_min": -7.171650363785087,
-              "y_max": 28.00000000000001,
-              "y_min": -3.7793225837486455,
+              "y_max": 28.000000000000007,
+              "y_min": -3.7793225837486473,
               "z_max": 50.5,
-              "z_min": -15.000000000000009
+              "z_min": -15.000000000000005
             },
             "is_valid": true,
-            "volume_mm3": 3088.1204191477286
+            "volume_mm3": 3088.1204191477304
           }
         }
       ],
@@ -118,11 +118,11 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 5.750000000000001,
-              "x_min": -5.750000000000001,
+              "x_max": 5.75,
+              "x_min": -5.75,
               "y_max": 11.05,
-              "y_min": -3.7793225837486455,
-              "z_max": 11.05,
+              "y_min": -3.7793225837486473,
+              "z_max": 11.050000000000002,
               "z_min": -11.05
             },
             "is_valid": true,
@@ -133,16 +133,146 @@
       "type_id": "PartDesign::Revolution"
     }
   },
-  "schema_version": 1,
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Garnhalter_einzeln",
+      "metrics": {
+        "edge_count": 208,
+        "face_count": 87,
+        "feature_count": 9,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket",
+        "vertex_count": 109
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "DatumPlane": {
+      "label": "DatumPlane",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane",
+      "type_id": "PartDesign::Plane"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "metrics": {
+        "edge_count": 209,
+        "face_count": 87,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 110
+      },
+      "name": "Fillet",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Pad": {
+      "label": "Pad",
+      "metrics": {
+        "edge_count": 33,
+        "face_count": 13,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 22
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad001",
+      "metrics": {
+        "edge_count": 71,
+        "face_count": 26,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 47
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "metrics": {
+        "edge_count": 208,
+        "face_count": 87,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 109
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Revolution": {
+      "label": "Revolution",
+      "metrics": {
+        "edge_count": 24,
+        "face_count": 10,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 16
+      },
+      "name": "Revolution",
+      "type_id": "PartDesign::Revolution"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch",
+      "metrics": {
+        "constraint_count": 21,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 8,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch001",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "Sketch002",
+      "metrics": {
+        "constraint_count": 43,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 15,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
   "source": {
-    "data_creation_date": "2026-02-22T16:16:02.403828+00:00",
+    "data_creation_date": "2026-03-13T14:53:08.866588+00:00",
     "document_label": "PD_SpoolHolder",
     "document_name": "PD_SpoolHolder",
-    "freecad_version": "1.2.0 20260217 (Git shallow)",
-    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_SpoolHolder.FCStd"
-  },
-  "summary": {
-    "solid_count": 6,
-    "total_volume_mm3": 14407.259556638817
+    "freecad_version": "1.2.0 45706 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_SpoolHolder.FCStd"
   }
 }

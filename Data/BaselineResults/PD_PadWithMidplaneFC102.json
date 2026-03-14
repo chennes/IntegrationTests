@@ -45,16 +45,58 @@
       "type_id": "PartDesign::Pad"
     }
   },
-  "schema_version": 1,
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "feature_count": 2,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad",
+        "vertex_count": 8
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "Pad": {
+      "label": "Pad",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 8
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
   "source": {
-    "data_creation_date": "2026-02-06T19:14:30.275507+00:00",
+    "data_creation_date": "2026-03-13T14:52:11.379333+00:00",
     "document_label": "PD_PadWithMidplaneFC102",
     "document_name": "PD_PadWithMidplaneFC102",
-    "freecad_version": "1.0.2 39319 (Git)",
-    "path": "PD_PadWithMidplaneFC102.FCStd"
-  },
-  "summary": {
-    "solid_count": 2,
-    "total_volume_mm3": 7999.999999999998
+    "freecad_version": "1.0.2 39320 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_PadWithMidplaneFC102.FCStd"
   }
 }

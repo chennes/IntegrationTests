@@ -1,4 +1,23 @@
 {
+  "app_parts": {
+    "Part": {
+      "label": "Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 42.00000000000009,
+          "x_min": -42.0,
+          "y_max": 135.5,
+          "y_min": -41.99999999999978,
+          "z_max": 0.6,
+          "z_min": -5.5
+        },
+        "child_count": 2,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "Body": {
       "label": "Unterschrank_Abdeckung",
@@ -199,16 +218,172 @@
       "type_id": "PartDesign::Thickness"
     }
   },
-  "schema_version": 1,
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Unterschrank_Abdeckung",
+      "metrics": {
+        "edge_count": 66,
+        "face_count": 25,
+        "feature_count": 10,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet",
+        "vertex_count": 44
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "Chamfer": {
+      "label": "Chamfer",
+      "metrics": {
+        "edge_count": 60,
+        "face_count": 23,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 40
+      },
+      "name": "Chamfer",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "metrics": {
+        "edge_count": 66,
+        "face_count": 25,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 44
+      },
+      "name": "Fillet",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Mirrored": {
+      "label": "Mirrored",
+      "metrics": {
+        "edge_count": 48,
+        "face_count": 19,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 32
+      },
+      "name": "Mirrored",
+      "type_id": "PartDesign::Mirrored"
+    },
+    "Pad": {
+      "label": "Pad",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 8
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad001",
+      "metrics": {
+        "edge_count": 36,
+        "face_count": 14,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 24
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad002": {
+      "label": "Pad002",
+      "metrics": {
+        "edge_count": 42,
+        "face_count": 16,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 28
+      },
+      "name": "Pad002",
+      "type_id": "PartDesign::Pad"
+    },
+    "Thickness": {
+      "label": "Thickness",
+      "metrics": {
+        "edge_count": 24,
+        "face_count": 10,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 16
+      },
+      "name": "Thickness",
+      "type_id": "PartDesign::Thickness"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch001",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "Sketch002",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch003": {
+      "label": "Abfluss",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch003",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
   "source": {
-    "data_creation_date": "2026-02-22T16:00:20.798443+00:00",
+    "data_creation_date": "2026-03-13T14:53:02.610027+00:00",
     "document_label": "PD_Abdeckung",
     "document_name": "PD_Abdeckung",
-    "freecad_version": "1.2.0 20260217 (Git shallow)",
-    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_Abdeckung.FCStd"
-  },
-  "summary": {
-    "solid_count": 9,
-    "total_volume_mm3": 102112.68302459756
+    "freecad_version": "1.2.0 45706 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Abdeckung.FCStd"
   }
 }

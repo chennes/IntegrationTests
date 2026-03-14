@@ -1,4 +1,23 @@
 {
+  "app_parts": {
+    "Part": {
+      "label": "Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.3775,
+          "x_min": -10.377500000000003,
+          "y_max": 5.087155742747659,
+          "y_min": -8.000000000000002,
+          "z_max": 4.799999999999999,
+          "z_min": -4.800000000000001
+        },
+        "child_count": 7,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "AdditiveLoft": {
       "label": "AdditiveLoft",
@@ -10,13 +29,13 @@
             "bounding_box": {
               "x_max": 4.8,
               "x_min": -4.8,
-              "y_max": 2.000000000000002,
+              "y_max": 2.000000000000001,
               "y_min": -7.3,
-              "z_max": 4.8,
-              "z_min": -8.90000003757865e-16
+              "z_max": 4.799999999999999,
+              "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415842
+            "volume_mm3": 136.31161084415868
           }
         }
       ],
@@ -32,13 +51,13 @@
             "bounding_box": {
               "x_max": 4.8,
               "x_min": -4.8,
-              "y_max": 2.000000000000002,
+              "y_max": 2.000000000000001,
               "y_min": -7.3,
-              "z_max": 4.8,
-              "z_min": -8.90000003757865e-16
+              "z_max": 4.799999999999999,
+              "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415842
+            "volume_mm3": 136.3116108441584
           }
         }
       ],
@@ -54,13 +73,13 @@
             "bounding_box": {
               "x_max": 4.8,
               "x_min": -4.8,
-              "y_max": 2.000000000000002,
+              "y_max": 2.000000000000001,
               "y_min": -7.3,
-              "z_max": 4.8,
-              "z_min": -8.90000003757865e-16
+              "z_max": 4.799999999999999,
+              "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415865
+            "volume_mm3": 136.3116108441584
           }
         }
       ],
@@ -76,10 +95,10 @@
             "bounding_box": {
               "x_max": 4.75,
               "x_min": -4.75,
-              "y_max": 2.000000000000002,
-              "y_min": -6.300000000000002,
-              "z_max": 4.749999999999999,
-              "z_min": -4.750000000000001
+              "y_max": 2.000000000000001,
+              "y_min": -6.300000000000001,
+              "z_max": 4.75,
+              "z_min": -4.75
             },
             "is_valid": true,
             "volume_mm3": 126.69561686410104
@@ -98,13 +117,13 @@
             "bounding_box": {
               "x_max": 4.8,
               "x_min": -4.8,
-              "y_max": 2.000000000000002,
-              "y_min": -7.300000000000002,
+              "y_max": 2.000000000000001,
+              "y_min": -7.300000000000001,
               "z_max": 4.799999999999999,
               "z_min": -4.800000000000001
             },
             "is_valid": true,
-            "volume_mm3": 201.8102075285056
+            "volume_mm3": 201.81020752850557
           }
         }
       ],
@@ -121,12 +140,12 @@
               "x_max": 10.3775,
               "x_min": -10.377500000000003,
               "y_max": 5.087155742747659,
-              "y_min": -0.08715574274765804,
+              "y_min": -0.08715574274765805,
               "z_max": 3.8000000000000007,
-              "z_min": -1.578709906790136e-15
+              "z_min": -1.7763568394002505e-15
             },
             "is_valid": true,
-            "volume_mm3": 351.7160642582928
+            "volume_mm3": 351.71606425829293
           }
         }
       ],
@@ -144,11 +163,11 @@
               "x_min": -4.8,
               "y_max": 2.000000000000001,
               "y_min": -7.3,
-              "z_max": 4.800000000000001,
-              "z_min": -1.7763568394002505e-15
+              "z_max": 4.799999999999999,
+              "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415837
+            "volume_mm3": 136.31161084415865
           }
         }
       ],
@@ -188,11 +207,11 @@
               "x_min": -4.8,
               "y_max": 2.000000000000001,
               "y_min": -7.3,
-              "z_max": 4.800000000000001,
-              "z_min": -1.7763568394002505e-15
+              "z_max": 4.799999999999999,
+              "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415837
+            "volume_mm3": 136.3116108441584
           }
         }
       ],
@@ -210,11 +229,11 @@
               "x_min": -4.8,
               "y_max": 2.000000000000001,
               "y_min": -7.3,
-              "z_max": 4.800000000000001,
-              "z_min": -1.7763568394002505e-15
+              "z_max": 4.799999999999999,
+              "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415865
+            "volume_mm3": 136.3116108441584
           }
         }
       ],
@@ -232,11 +251,11 @@
               "x_min": -4.8,
               "y_max": 2.000000000000001,
               "y_min": -8.000000000000002,
-              "z_max": 4.8,
-              "z_min": -4.8
+              "z_max": 4.799999999999999,
+              "z_min": -4.800000000000001
             },
             "is_valid": true,
-            "volume_mm3": 176.26610389708134
+            "volume_mm3": 176.26610389708165
           }
         }
       ],
@@ -258,7 +277,7 @@
               "z_min": -2.318152881013018
             },
             "is_valid": true,
-            "volume_mm3": 117.94593174718791
+            "volume_mm3": 117.9459317471879
           }
         }
       ],
@@ -274,10 +293,10 @@
             "bounding_box": {
               "x_max": 10.3775,
               "x_min": -10.377500000000003,
-              "y_max": 5.000000000000002,
+              "y_max": 5.000000000000001,
               "y_min": 0.0,
               "z_max": 3.8000000000000007,
-              "z_min": -2.6864270042748655e-15
+              "z_min": -1.590777234384892e-15
             },
             "is_valid": true,
             "volume_mm3": 352.44230072174895
@@ -296,10 +315,10 @@
             "bounding_box": {
               "x_max": 3.635407258625066,
               "x_min": -3.635407258625066,
-              "y_max": 1.21e-15,
-              "y_min": -6.300000000000002,
-              "z_max": 3.6354072586250687,
-              "z_min": -3.6354072586250634
+              "y_max": 6.106226635438361e-16,
+              "y_min": -6.300000000000001,
+              "z_max": 3.6354072586250674,
+              "z_min": -3.6354072586250648
             },
             "is_valid": true,
             "volume_mm3": 130.45840448799862
@@ -318,10 +337,10 @@
             "bounding_box": {
               "x_max": 3.635407258625066,
               "x_min": -3.635407258625066,
-              "y_max": 1.21e-15,
-              "y_min": -6.300000000000002,
-              "z_max": 3.6354072586250687,
-              "z_min": -3.6354072586250634
+              "y_max": 6.106226635438361e-16,
+              "y_min": -6.300000000000001,
+              "z_max": 3.6354072586250674,
+              "z_min": -3.6354072586250648
             },
             "is_valid": true,
             "volume_mm3": 91.72796275368718
@@ -340,13 +359,13 @@
             "bounding_box": {
               "x_max": 3.8259480933274577,
               "x_min": -3.8259480933274577,
-              "y_max": 1.232e-15,
-              "y_min": -7.300000000000002,
-              "z_max": 3.8259480933274608,
-              "z_min": -3.8259480933274546
+              "y_max": 6.217248937900876e-16,
+              "y_min": -7.300000000000001,
+              "z_max": 3.8259480933274594,
+              "z_min": -3.825948093327456
             },
             "is_valid": true,
-            "volume_mm3": 165.17453976724582
+            "volume_mm3": 165.1745397672458
           }
         }
       ],
@@ -362,13 +381,13 @@
             "bounding_box": {
               "x_max": 3.8259480933274577,
               "x_min": -3.8259480933274577,
-              "y_max": 1.232e-15,
-              "y_min": -7.300000000000002,
-              "z_max": 3.8259480933274608,
-              "z_min": -3.8259480933274546
+              "y_max": 6.217248937900876e-16,
+              "y_min": -7.300000000000001,
+              "z_max": 3.8259480933274594,
+              "z_min": -3.825948093327456
             },
             "is_valid": true,
-            "volume_mm3": 166.3179074449422
+            "volume_mm3": 166.31790744494222
           }
         }
       ],
@@ -384,13 +403,13 @@
             "bounding_box": {
               "x_max": 10.3775,
               "x_min": -10.377500000000003,
-              "y_max": 5.08715574274766,
+              "y_max": 5.087155742747659,
               "y_min": -0.08715574274765805,
               "z_max": 3.8000000000000007,
-              "z_min": -2.677419759358984e-15
+              "z_min": -1.5817279527770503e-15
             },
             "is_valid": true,
-            "volume_mm3": 351.716064258293
+            "volume_mm3": 351.71606425829293
           }
         }
       ],
@@ -406,13 +425,13 @@
             "bounding_box": {
               "x_max": 4.8,
               "x_min": -4.8,
-              "y_max": 2.000000000000002,
-              "y_min": -8.000000000000004,
+              "y_max": 2.000000000000001,
+              "y_min": -8.000000000000002,
               "z_max": 4.799999999999999,
               "z_min": -4.800000000000001
             },
             "is_valid": true,
-            "volume_mm3": 177.08402217065395
+            "volume_mm3": 177.08402217065398
           }
         }
       ],
@@ -428,13 +447,13 @@
             "bounding_box": {
               "x_max": 4.8,
               "x_min": -4.8,
-              "y_max": 2.000000000000002,
-              "y_min": -8.000000000000004,
+              "y_max": 2.000000000000001,
+              "y_min": -8.000000000000002,
               "z_max": 4.799999999999999,
               "z_min": -4.800000000000001
             },
             "is_valid": true,
-            "volume_mm3": 176.2661038970814
+            "volume_mm3": 176.26610389708165
           }
         }
       ],
@@ -450,10 +469,10 @@
             "bounding_box": {
               "x_max": 2.318152881013018,
               "x_min": -2.318152881013018,
-              "y_max": 9.306e-16,
+              "y_max": 4.696243394164412e-16,
               "y_min": -7.0,
-              "z_max": 2.3181528810130194,
-              "z_min": -2.3181528810130168
+              "z_max": 2.318152881013018,
+              "z_min": -2.318152881013018
             },
             "is_valid": true,
             "volume_mm3": 93.77024530445917
@@ -472,13 +491,13 @@
             "bounding_box": {
               "x_max": 10.3775,
               "x_min": -10.3775,
-              "y_max": 5.000000000000002,
-              "y_min": 0.0,
+              "y_max": 5.000000000000001,
+              "y_min": -9.860761315262648e-32,
               "z_max": 3.8000000000000003,
-              "z_min": -2.6645352591003757e-15
+              "z_min": -1.3322676295501878e-15
             },
             "is_valid": true,
-            "volume_mm3": 361.57
+            "volume_mm3": 361.56999999999994
           }
         }
       ],
@@ -494,13 +513,13 @@
             "bounding_box": {
               "x_max": 2.8,
               "x_min": -2.8,
-              "y_max": 1.232e-15,
+              "y_max": 6.217248964370656e-16,
               "y_min": -7.3,
-              "z_max": 2.800000000000003,
+              "z_max": 2.8000000000000016,
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 89.89981537512521
+            "volume_mm3": 89.89981537512546
           }
         }
       ],
@@ -516,13 +535,13 @@
             "bounding_box": {
               "x_max": 2.75,
               "x_min": -2.75,
-              "y_max": 1.21e-15,
+              "y_max": 6.106226635438361e-16,
               "y_min": -6.300000000000001,
-              "z_max": 2.750000000000003,
+              "z_max": 2.7500000000000013,
               "z_min": -2.75
             },
             "is_valid": true,
-            "volume_mm3": 77.09541413938547
+            "volume_mm3": 77.09541413938548
           }
         }
       ],
@@ -538,9 +557,9 @@
             "bounding_box": {
               "x_max": 2.8,
               "x_min": -2.8,
-              "y_max": 1.232e-15,
+              "y_max": 6.217248964370656e-16,
               "y_min": -7.3,
-              "z_max": 2.800000000000003,
+              "z_max": 2.8000000000000016,
               "z_min": 0.0
             },
             "is_valid": true,
@@ -560,13 +579,13 @@
             "bounding_box": {
               "x_max": 2.8,
               "x_min": -2.8,
-              "y_max": 1.232e-15,
+              "y_max": 6.217248964370656e-16,
               "y_min": -7.3,
-              "z_max": 2.800000000000003,
+              "z_max": 2.8000000000000016,
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 89.89981537512546
+            "volume_mm3": 89.89981537512521
           }
         }
       ],
@@ -582,9 +601,9 @@
             "bounding_box": {
               "x_max": 2.8,
               "x_min": -2.8,
-              "y_max": 1.232e-15,
+              "y_max": 6.217248937900876e-16,
               "y_min": -7.300000000000001,
-              "z_max": 2.800000000000003,
+              "z_max": 2.8000000000000016,
               "z_min": -2.8
             },
             "is_valid": true,
@@ -604,9 +623,9 @@
             "bounding_box": {
               "x_max": 2.1149999999999998,
               "x_min": -2.1149999999999998,
-              "y_max": 9.306e-16,
+              "y_max": 4.696243394164412e-16,
               "y_min": -7.000000000000001,
-              "z_max": 2.115000000000003,
+              "z_max": 2.115000000000001,
               "z_min": -2.1149999999999998
             },
             "is_valid": true,
@@ -626,10 +645,10 @@
             "bounding_box": {
               "x_max": 2.318152881013018,
               "x_min": -2.318152881013018,
-              "y_max": 0.20000000000000095,
+              "y_max": 0.20000000000000048,
               "y_min": -7.0,
-              "z_max": 2.3181528810130194,
-              "z_min": -2.3181528810130168
+              "z_max": 2.318152881013018,
+              "z_min": -2.318152881013018
             },
             "is_valid": true,
             "volume_mm3": 96.4564326869846
@@ -648,13 +667,13 @@
             "bounding_box": {
               "x_max": 2.318152881013018,
               "x_min": -2.318152881013018,
-              "y_max": 1.800000000000001,
+              "y_max": 1.8000000000000005,
               "y_min": -7.0,
-              "z_max": 2.3181528810130194,
-              "z_min": -2.3181528810130168
+              "z_max": 2.318152881013018,
+              "z_min": -2.318152881013018
             },
             "is_valid": true,
-            "volume_mm3": 117.94593174718793
+            "volume_mm3": 117.9459317471879
           }
         }
       ],
@@ -671,12 +690,12 @@
               "x_max": 10.3775,
               "x_min": -10.377500000000003,
               "y_max": 5.087155742747659,
-              "y_min": -0.08715574274765804,
+              "y_min": -0.08715574274765805,
               "z_max": 3.8000000000000007,
-              "z_min": -1.578709906790136e-15
+              "z_min": -1.7763568394002505e-15
             },
             "is_valid": true,
-            "volume_mm3": 351.7160642582928
+            "volume_mm3": 351.71606425829293
           }
         },
         {
@@ -687,11 +706,11 @@
               "x_min": -4.8,
               "y_max": 2.000000000000001,
               "y_min": -7.3,
-              "z_max": 4.800000000000001,
-              "z_min": -1.7763568394002505e-15
+              "z_max": 4.799999999999999,
+              "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415837
+            "volume_mm3": 136.3116108441584
           }
         },
         {
@@ -702,11 +721,11 @@
               "x_min": -4.8,
               "y_max": 2.000000000000001,
               "y_min": -7.3,
-              "z_max": 4.800000000000001,
-              "z_min": -1.7763568394002505e-15
+              "z_max": 4.799999999999999,
+              "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415865
+            "volume_mm3": 136.3116108441584
           }
         },
         {
@@ -717,11 +736,11 @@
               "x_min": -4.8,
               "y_max": 2.000000000000001,
               "y_min": -8.000000000000002,
-              "z_max": 4.8,
-              "z_min": -4.8
+              "z_max": 4.799999999999999,
+              "z_min": -4.800000000000001
             },
             "is_valid": true,
-            "volume_mm3": 176.26610389708134
+            "volume_mm3": 176.26610389708165
           }
         },
         {
@@ -736,7 +755,7 @@
               "z_min": -2.318152881013018
             },
             "is_valid": true,
-            "volume_mm3": 117.94593174718791
+            "volume_mm3": 117.9459317471879
           }
         }
       ],
@@ -752,10 +771,10 @@
             "bounding_box": {
               "x_max": 4.75,
               "x_min": -4.75,
-              "y_max": 2.000000000000002,
+              "y_max": 2.000000000000001,
               "y_min": -8.300000000000002,
-              "z_max": 4.749999999999999,
-              "z_min": -4.750000000000001
+              "z_max": 4.75,
+              "z_min": -4.75
             },
             "is_valid": true,
             "volume_mm3": 123.89657564638685
@@ -774,13 +793,13 @@
             "bounding_box": {
               "x_max": 4.8,
               "x_min": -4.8,
-              "y_max": 2.000000000000002,
+              "y_max": 2.000000000000001,
               "y_min": -8.0,
               "z_max": 4.799999999999999,
               "z_min": -4.800000000000001
             },
             "is_valid": true,
-            "volume_mm3": 195.64501745586114
+            "volume_mm3": 195.6450174558612
           }
         }
       ],
@@ -796,13 +815,13 @@
             "bounding_box": {
               "x_max": 4.75,
               "x_min": -4.75,
-              "y_max": 2.000000000000002,
+              "y_max": 2.000000000000001,
               "y_min": -8.300000000000004,
-              "z_max": 4.749999999999999,
-              "z_min": -4.750000000000001
+              "z_max": 4.75,
+              "z_min": -4.75
             },
             "is_valid": true,
-            "volume_mm3": 115.4994521717067
+            "volume_mm3": 115.49945217170672
           }
         }
       ],
@@ -818,8 +837,8 @@
             "bounding_box": {
               "x_max": 4.8,
               "x_min": -4.8,
-              "y_max": 2.000000000000002,
-              "y_min": -8.000000000000004,
+              "y_max": 2.000000000000001,
+              "y_min": -8.000000000000002,
               "z_max": 4.799999999999999,
               "z_min": -4.800000000000001
             },
@@ -840,13 +859,13 @@
             "bounding_box": {
               "x_max": 2.318152881013018,
               "x_min": -2.318152881013018,
-              "y_max": 9.306e-16,
+              "y_max": 4.696243394164412e-16,
               "y_min": -7.000000000000001,
-              "z_max": 2.3181528810130194,
-              "z_min": -2.3181528810130168
+              "z_max": 2.318152881013018,
+              "z_min": -2.318152881013018
             },
             "is_valid": true,
-            "volume_mm3": 94.06772310620073
+            "volume_mm3": 94.0677231062007
           }
         }
       ],
@@ -864,27 +883,713 @@
               "x_min": -4.8,
               "y_max": 2.000000000000001,
               "y_min": -8.000000000000002,
-              "z_max": 4.8,
-              "z_min": -4.8
+              "z_max": 4.799999999999999,
+              "z_min": -4.800000000000001
             },
             "is_valid": true,
-            "volume_mm3": 176.26610389708134
+            "volume_mm3": 176.26610389708165
           }
         }
       ],
       "type_id": "PartDesign::ShapeBinder"
     }
   },
-  "schema_version": 1,
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Kleberblocker",
+      "metrics": {
+        "edge_count": 18,
+        "face_count": 8,
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet",
+        "vertex_count": 12
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Schraubenhalter V001",
+      "metrics": {
+        "edge_count": 10,
+        "face_count": 6,
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "AdditiveLoft",
+        "vertex_count": 6
+      },
+      "name": "Body001",
+      "type_id": "PartDesign::Body"
+    },
+    "Body002": {
+      "label": "Schraubenhalter V002",
+      "metrics": {
+        "edge_count": 58,
+        "face_count": 21,
+        "feature_count": 9,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "PolarPattern",
+        "vertex_count": 38
+      },
+      "name": "Body002",
+      "type_id": "PartDesign::Body"
+    },
+    "Body003": {
+      "label": "Schraubenhalter V003",
+      "metrics": {
+        "edge_count": 10,
+        "face_count": 6,
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "AdditiveLoft002",
+        "vertex_count": 6
+      },
+      "name": "Body003",
+      "type_id": "PartDesign::Body"
+    },
+    "Body004": {
+      "label": "Schraubenhalter V004",
+      "metrics": {
+        "edge_count": 10,
+        "face_count": 6,
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "AdditiveLoft003",
+        "vertex_count": 6
+      },
+      "name": "Body004",
+      "type_id": "PartDesign::Body"
+    },
+    "Body005": {
+      "label": "Schraubenhalter V005",
+      "metrics": {
+        "edge_count": 138,
+        "face_count": 47,
+        "feature_count": 12,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Groove",
+        "vertex_count": 92
+      },
+      "name": "Body005",
+      "type_id": "PartDesign::Body"
+    },
+    "Body006": {
+      "label": "Pin V005",
+      "metrics": {
+        "edge_count": 23,
+        "face_count": 11,
+        "feature_count": 9,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad008",
+        "vertex_count": 14
+      },
+      "name": "Body006",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "AdditiveLoft": {
+      "label": "AdditiveLoft",
+      "metrics": {
+        "edge_count": 10,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 6
+      },
+      "name": "AdditiveLoft",
+      "type_id": "PartDesign::AdditiveLoft"
+    },
+    "AdditiveLoft002": {
+      "label": "AdditiveLoft002",
+      "metrics": {
+        "edge_count": 10,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 6
+      },
+      "name": "AdditiveLoft002",
+      "type_id": "PartDesign::AdditiveLoft"
+    },
+    "AdditiveLoft003": {
+      "label": "AdditiveLoft003",
+      "metrics": {
+        "edge_count": 10,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 6
+      },
+      "name": "AdditiveLoft003",
+      "type_id": "PartDesign::AdditiveLoft"
+    },
+    "AdditiveLoft004": {
+      "label": "AdditiveLoft004",
+      "metrics": {
+        "edge_count": 10,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 6
+      },
+      "name": "AdditiveLoft004",
+      "type_id": "PartDesign::AdditiveLoft"
+    },
+    "AdditiveLoft005": {
+      "label": "AdditiveLoft005",
+      "metrics": {
+        "edge_count": 10,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 6
+      },
+      "name": "AdditiveLoft005",
+      "type_id": "PartDesign::AdditiveLoft"
+    },
+    "Draft": {
+      "label": "Draft",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 8
+      },
+      "name": "Draft",
+      "type_id": "PartDesign::Draft"
+    },
+    "Draft003": {
+      "label": "Draft003",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Draft003",
+      "type_id": "PartDesign::Draft"
+    },
+    "Draft004": {
+      "label": "Draft004",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Draft004",
+      "type_id": "PartDesign::Draft"
+    },
+    "Draft005": {
+      "label": "Draft005",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Draft005",
+      "type_id": "PartDesign::Draft"
+    },
+    "Draft006": {
+      "label": "Draft006",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Draft006",
+      "type_id": "PartDesign::Draft"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "metrics": {
+        "edge_count": 18,
+        "face_count": 8,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 12
+      },
+      "name": "Fillet",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet002": {
+      "label": "Fillet002",
+      "metrics": {
+        "edge_count": 114,
+        "face_count": 39,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 76
+      },
+      "name": "Fillet002",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Groove": {
+      "label": "Groove",
+      "metrics": {
+        "edge_count": 138,
+        "face_count": 47,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 92
+      },
+      "name": "Groove",
+      "type_id": "PartDesign::Groove"
+    },
+    "Groove001": {
+      "label": "Groove001",
+      "metrics": {
+        "edge_count": 15,
+        "face_count": 7,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 10
+      },
+      "name": "Groove001",
+      "type_id": "PartDesign::Groove"
+    },
+    "Pad": {
+      "label": "Pad",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 8
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad001",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad002": {
+      "label": "Pad002",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Pad002",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad003": {
+      "label": "Pad003",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Pad003",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad004": {
+      "label": "Pad004",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Pad004",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad005": {
+      "label": "Pad005",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Pad005",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad006": {
+      "label": "Pad006",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Pad006",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad007": {
+      "label": "Pad007",
+      "metrics": {
+        "edge_count": 19,
+        "face_count": 9,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 12
+      },
+      "name": "Pad007",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad008": {
+      "label": "Pad008",
+      "metrics": {
+        "edge_count": 23,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 14
+      },
+      "name": "Pad008",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "metrics": {
+        "edge_count": 22,
+        "face_count": 9,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 14
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "Pocket001",
+      "metrics": {
+        "edge_count": 24,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 14
+      },
+      "name": "Pocket001",
+      "type_id": "PartDesign::Pocket"
+    },
+    "PolarPattern": {
+      "label": "PolarPattern",
+      "metrics": {
+        "edge_count": 58,
+        "face_count": 21,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 38
+      },
+      "name": "PolarPattern",
+      "type_id": "PartDesign::PolarPattern"
+    },
+    "PolarPattern001": {
+      "label": "PolarPattern001",
+      "metrics": {
+        "edge_count": 62,
+        "face_count": 27,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 36
+      },
+      "name": "PolarPattern001",
+      "type_id": "PartDesign::PolarPattern"
+    },
+    "Revolution": {
+      "label": "Revolution",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 8
+      },
+      "name": "Revolution",
+      "type_id": "PartDesign::Revolution"
+    },
+    "ShapeBinder": {
+      "label": "ShapeBinder",
+      "metrics": {
+        "edge_count": 138,
+        "face_count": 47,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 92
+      },
+      "name": "ShapeBinder",
+      "type_id": "PartDesign::ShapeBinder"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch001",
+      "metrics": {
+        "constraint_count": 6,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "Sketch002",
+      "metrics": {
+        "constraint_count": 6,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch003": {
+      "label": "Sketch003",
+      "metrics": {
+        "constraint_count": 4,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch003",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch004": {
+      "label": "Sketch004",
+      "metrics": {
+        "constraint_count": 4,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch004",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch005": {
+      "label": "Sketch005",
+      "metrics": {
+        "constraint_count": 6,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch005",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch006": {
+      "label": "Sketch006",
+      "metrics": {
+        "constraint_count": 6,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch006",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch007": {
+      "label": "Sketch007",
+      "metrics": {
+        "constraint_count": 6,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch007",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch008": {
+      "label": "Sketch008",
+      "metrics": {
+        "constraint_count": 6,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch008",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch009": {
+      "label": "Sketch009",
+      "metrics": {
+        "constraint_count": 7,
+        "degrees_of_freedom": 4,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch009",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch010": {
+      "label": "Sketch010",
+      "metrics": {
+        "constraint_count": 4,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch010",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch011": {
+      "label": "Sketch011",
+      "metrics": {
+        "constraint_count": 4,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch011",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch012": {
+      "label": "Sketch012",
+      "metrics": {
+        "constraint_count": 7,
+        "degrees_of_freedom": 4,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch012",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch013": {
+      "label": "Sketch013",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 1,
+        "external_geometry_count": 1,
+        "fully_constrained": false,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch013",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch014": {
+      "label": "Sketch014",
+      "metrics": {
+        "constraint_count": 4,
+        "degrees_of_freedom": 1,
+        "external_geometry_count": 1,
+        "fully_constrained": false,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch014",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch015": {
+      "label": "Sketch015",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 2,
+        "external_geometry_count": 1,
+        "fully_constrained": false,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch015",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch016": {
+      "label": "Sketch016",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 6,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 3,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch016",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
   "source": {
-    "data_creation_date": "2026-02-22T16:04:18.097473+00:00",
+    "data_creation_date": "2026-03-13T14:53:05.546247+00:00",
     "document_label": "PD_Pins",
     "document_name": "PD_Pins",
-    "freecad_version": "1.2.0 20260217 (Git shallow)",
-    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_Pins.FCStd"
-  },
-  "summary": {
-    "solid_count": 41,
-    "total_volume_mm3": 6521.867755803721
+    "freecad_version": "1.2.0 45706 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Pins.FCStd"
   }
 }

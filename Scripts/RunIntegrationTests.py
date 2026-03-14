@@ -2,38 +2,21 @@
 """
 RunIntegrationTests.py
 
-Runs a FreeCADCmd/freecadcmd metrics script against a folder of .FCStd files,
-parses the JSON output, and compares per-solid volumes to baselines with a
-fuzzy tolerance expressed as a required "match percentage".
-
-Assumptions about the JSON schema:
-- Per-solid entries live under: report["objects"][obj_name]["solids"][i]
-- Each solid entry includes:
-{
-  "object_name": <internal obj.Name>,
-  "index": <int>,
-  "metrics": {
-    "volume_mm3": <float>,
-    "bounding_box": {
-      "x_min": <float>,
-      "y_min": <float>,
-      "z_min": <float>,
-      "x_max": <float>,
-      "y_max": <float>,
-      "z_max": <float>
-    }}}
+Runs a FreeCAD CLI metrics script against a folder of .FCStd files, parses the JSON output, and
+compares per-object metrics to baselines with a fuzzy tolerance expressed as a required "match
+percentage".
 
 Baseline JSON files are expected to be named like the .FCStd file stem:
-  model.FCStd  ->  <baseline_dir>/model.json
+  model.FCStd -> <baseline_dir>/model.json
 
 Usage:
   python RunIntegrationTests.py \
     --freecad /path/to/freecadcmd \
-    --script  /path/to/EvaluateFile.FCMacro \
+    --script /path/to/EvaluateFile.FCMacro \
     --fcstd-dir /path/to/fcstds \
     --baseline-dir /path/to/baselines \
-    --match-pct 99.999 \
-    --abs-tol-mm3 1e-9 \
+    --match-percentage 99.999 \
+    --absolute-tolerance-mm3 1e-9 \
     --filename model.FCStd
 
 Exit codes:
@@ -53,95 +36,160 @@ import subprocess
 import sys
 import tempfile
 import traceback
-from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Tuple, List, Any, Optional
+from typing import Dict, List, Any
 
-SolidKey = Tuple[str, int]  # (object_name, index)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+from metric_types import MetricKey, CompareConfig, MetricDiff  # noqa: E402
+from extractors import EXTRACTORS  # noqa: E402
+from accepted_changes import (
+    AcceptedChangeRule,
+    load_accepted_changes,
+    find_matching_rule,
+)  # noqa: E402
 
-@dataclass(frozen=True)
-class CompareConfig:
-    match_pct: float  # e.g. 99.999
-    abs_tol_mm3: float  # absolute floor tolerance for very small volumes
-
-
-@dataclass
-class SolidDiff:
-    key: SolidKey
-    baseline: Optional[float]
-    new: Optional[float]
-    rel_err: Optional[float]
-    ok: bool
-    reason: str
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
 
 
 def parse_args(argv: List[str]) -> argparse.Namespace:
-    p = argparse.ArgumentParser(
-        description="Regression-compare FreeCAD solid volumes vs baselines (JSON)."
+    """Parse command-line arguments for the test runner.
+
+    Args:
+        argv: Command-line arguments (typically sys.argv[1: ]).
+
+    Returns:
+        An argparse.Namespace with all configured options.
+    """
+    parser = argparse.ArgumentParser(
+        description="Regression-compare FreeCAD object metrics vs baselines (JSON)."
     )
-    p.add_argument("--freecad", required=True, help="Path to FreeCADCmd/freecadcmd executable")
-    p.add_argument(
+    parser.add_argument("--freecad", required=True, help="Path to FreeCADCmd/freecadcmd executable")
+    parser.add_argument(
         "--script",
         required=True,
         help="Path to the FreeCAD JSON-emitting macro file (EvaluateFile.FCMacro)",
     )
-    p.add_argument("--fcstd-dir", required=True, help="Folder containing .FCStd files")
-    p.add_argument(
-        "--baseline-dir", required=True, help="Folder containing baseline JSON files (stem-matched)"
+    parser.add_argument("--fcstd-dir", required=True, help="Folder containing .FCStd files")
+    parser.add_argument(
+        "--baseline-dir",
+        required=True,
+        help="Folder containing baseline JSON files (stem-matched)",
     )
-    p.add_argument(
-        "--match-pct",
+    parser.add_argument(
+        "--match-percentage",
         type=float,
         default=99.999,
         help="Required match percentage. 99.999 => relative tolerance = 1 - 0.99999 = 1e-5",
     )
-    p.add_argument(
-        "--abs-tol-mm3",
+    parser.add_argument(
+        "--absolute-tolerance-mm3",
         type=float,
         default=1e-9,
         help="Absolute tolerance in mm^3 used as a floor near zero (default: 1e-9)",
     )
-    p.add_argument("--recursive", action="store_true", help="Recurse into subfolders of fcstd-dir")
-    p.add_argument(
+    parser.add_argument(
+        "--recursive", action="store_true", help="Recurse into subfolders of fcstd-dir"
+    )
+    parser.add_argument(
         "--timeout",
         type=float,
         default=300.0,
         help="Per-file FreeCAD run timeout seconds (default: 300)",
     )
-    p.add_argument(
+    parser.add_argument(
         "--verbose",
         action="store_true",
         help="Print per-file diffs (otherwise only summary + failures)",
     )
-    p.add_argument(
+    parser.add_argument(
         "--filename", required=False, help="Individual file to test (FCStd name only, not path)"
     )
-    return p.parse_args(argv)
+    parser.add_argument(
+        "--exceptions-dir",
+        required=False,
+        default=None,
+        help="Folder containing accepted-change exception JSON files (optional)",
+    )
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="Ignore all accepted-change exceptions and report every mismatch as a failure",
+    )
+    return parser.parse_args(argv)
 
 
-def required_rel_tol(match_pct: float) -> float:
+# ---------------------------------------------------------------------------
+# Tolerance helpers
+# ---------------------------------------------------------------------------
+
+
+def required_relative_tolerance(match_percentage: float) -> float:
+    """Convert a match percentage to a relative tolerance value.
+
+    For example, 99.999% match yields a relative tolerance of 1e-5.
+
+    Args:
+        match_percentage: The required match percentage, in the range (0, 100].
+
+    Returns:
+        The relative tolerance as a float (1.0 - match_percentage / 100.0).
+
+    Raises:
+        ValueError: If match_percentage is not in (0, 100].
     """
-    Convert "match percentage" to relative tolerance.
-    Example: 99.999% match -> allowed relative difference = 1 - 0.99999 = 1e-5
-    """
-    if not (0.0 < match_pct <= 100.0):
-        raise ValueError("match_pct must be in (0, 100].")
-    return 1.0 - (match_pct / 100.0)
+    if not (0.0 < match_percentage <= 100.0):
+        raise ValueError("match_percentage must be in (0, 100].")
+    return 1.0 - (match_percentage / 100.0)
+
+
+# ---------------------------------------------------------------------------
+# FreeCAD invocation
+# ---------------------------------------------------------------------------
 
 
 def run_freecad_script(
     freecad_exe: Path, script_path: Path, fcstd_path: Path, timeout_s: float
 ) -> Dict[str, Any]:
+    """Run the EvaluateFile macro on a single FCStd file and return the parsed JSON report.
+
+    Launches FreeCADCmd as a subprocess with an isolated configuration directory to ensure pristine
+    settings and avoid overwriting the user's real config. Uses both FREECAD_USER_HOME (0.19+) and
+    --user-cfg/--system-cfg (all versions) for cross-version compatibility.
+
+    Args:
+        freecad_exe: Path to the FreeCADCmd executable.
+        script_path: Path to the EvaluateFile.FCMacro script.
+        fcstd_path: Path to the .FCStd file to evaluate.
+        timeout_s: Maximum time in seconds to wait for the subprocess.
+
+    Returns:
+        The parsed JSON report as a dictionary.
+
+    Raises:
+        RuntimeError: Raised if FreeCADCmd exits with a non-zero return code, produces no output, or
+        produces invalid JSON.
+        subprocess.TimeoutExpired: If the subprocess exceeds timeout_s.
+    """
     with tempfile.TemporaryDirectory() as temp_dir:
         output_file = os.path.join(temp_dir, "output.json")
+        config_dir = os.path.join(temp_dir, "config")
+        os.makedirs(config_dir)
+
         cmd = [str(freecad_exe), str(script_path), str(fcstd_path), "--out", output_file]
+
+        env = os.environ.copy()
+        env["FREECAD_USER_HOME"] = config_dir
+
         proc = subprocess.run(
             cmd,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
             timeout=timeout_s,
+            env=env,
         )
 
         if proc.returncode != 0:
@@ -167,98 +215,123 @@ def run_freecad_script(
 
 
 def load_json(path: Path) -> Dict[str, Any]:
+    """Load and parse a JSON file.
+
+    Args:
+        path: Path to the JSON file.
+
+    Returns:
+        The parsed JSON content as a dictionary.
+    """
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def extract_metrics(report: Dict[str, Any]) -> Dict[SolidKey, Dict]:
-    """
-    Returns mapping (object_name, index) -> metrics dictionary
-    """
-    out: Dict[SolidKey, Dict] = {}
-
-    objects = report.get("objects", {})
-    if not isinstance(objects, dict):
-        return out
-
-    for obj_name, obj_entry in objects.items():
-        if not isinstance(obj_entry, dict):
-            continue
-        solids = obj_entry.get("solids", [])
-        if not isinstance(solids, list):
-            continue
-
-        for s in solids:
-            if not isinstance(s, dict):
-                continue
-            object_name = s.get("object_name") or obj_name
-            idx = s.get("index")
-            metrics = s.get("metrics", {})
-            if not isinstance(metrics, dict):
-                continue
-
-            if isinstance(object_name, str) and isinstance(idx, int):
-                out[(object_name, idx)] = metrics
-
-    return out
+# ---------------------------------------------------------------------------
+# Comparison engine
+# ---------------------------------------------------------------------------
 
 
 def compare_maps(
-    baseline: Dict[SolidKey, Dict], new: Dict[SolidKey, Dict], cfg: CompareConfig
-) -> List[SolidDiff]:
+    baseline: Dict[MetricKey, Dict], new: Dict[MetricKey, Dict], config: CompareConfig
+) -> List[MetricDiff]:
+    """Compare two metric maps and return a list of diffs for all keys.
 
-    diffs: List[SolidDiff] = []
+    Keys present in one map but not the other are reported as missing. Keys present in both are
+    compared recursively via compare_individual_metrics.
+
+    Args:
+        baseline: Metric map from the baseline report.
+        new: Metric map from the newly generated report.
+        config: Tolerance configuration for fuzzy float comparisons.
+
+    Returns:
+        A list of MetricDiff objects, one per comparison (including passing ones).
+    """
+    diffs: List[MetricDiff] = []
 
     all_keys = set(baseline.keys()) | set(new.keys())
     for key in sorted(all_keys, key=lambda k: (k[0], k[1])):
-        b = baseline.get(key)
-        n = new.get(key)
+        baseline_metrics = baseline.get(key)
+        new_metrics = new.get(key)
 
-        if b is None:
+        if baseline_metrics is None:
             diffs.append(
-                SolidDiff(
+                MetricDiff(
                     key=key,
                     baseline=None,
-                    new=n,
-                    rel_err=None,
+                    new=new_metrics,
+                    relative_error=None,
                     ok=False,
                     reason="missing_in_baseline",
                 )
             )
             continue
-        if n is None:
+        if new_metrics is None:
             diffs.append(
-                SolidDiff(
+                MetricDiff(
                     key=key,
                     baseline=None,
                     new=None,
-                    rel_err=None,
+                    relative_error=None,
                     ok=False,
                     reason="missing_in_new",
                 )
             )
             continue
 
-        diffs.extend(compare_individual_metrics(cfg, key, "metric", b, n))
+        diffs.extend(
+            compare_individual_metrics(config, key, "metric", baseline_metrics, new_metrics)
+        )
 
     return diffs
 
 
 def compare_individual_metrics(
-    cfg: CompareConfig, key: SolidKey, metric: str, baseline: Any, new: Any
-) -> List[SolidDiff]:
+    config: CompareConfig, key: MetricKey, metric: str, baseline: Any, new: Any
+) -> List[MetricDiff]:
+    """Recursively compare a baseline metric value against a new value.
+
+    Handles floats (fuzzy comparison using config tolerances), ints, bools, and strings (exact
+    comparison), and dicts (recursive descent into sub-metrics).
+
+    Args:
+        config: Tolerance configuration for fuzzy float comparisons.
+        key: The (object_name, index) key this metric belongs to.
+        metric: A dot-path-style name for the metric being compared (e.g.
+            "metric_bounding_box_x_min"), used in diff reason strings.
+        baseline: The baseline metric value.
+        new: The newly computed metric value.
+
+    Returns:
+        A list of MetricDiff objects for this metric and any sub-metrics.
+
+    Raises:
+        ValueError: If the metric value is not a supported type (float, int, bool, str, or dict).
     """
-    Given a baseline and new version of some sort of metric, see if they are equal (or nearly
-    equal). Supports elements and dictionaries containing elements that ultimately result in floats,
-    ints, bools, or strings. Only the float comparison is fuzzy, the others must be exact matches.
-    """
-    if not isinstance(baseline, type(new)):
+    if baseline is None and new is None:
         return [
-            SolidDiff(
+            MetricDiff(key=key, baseline=None, new=None, relative_error=0, ok=True, reason="ok")
+        ]
+    if baseline is None or new is None:
+        ok = baseline == new
+        return [
+            MetricDiff(
                 key=key,
                 baseline=baseline,
                 new=new,
-                rel_err=0,
+                relative_error=0,
+                ok=ok,
+                reason="ok" if ok else f"{metric}_mismatch",
+            )
+        ]
+    if not isinstance(baseline, type(new)):
+        return [
+            MetricDiff(
+                key=key,
+                baseline=baseline,
+                new=new,
+                relative_error=0,
                 ok=False,
                 reason=f"value_type_mismatch_for_{metric}",
             )
@@ -266,31 +339,33 @@ def compare_individual_metrics(
     if isinstance(baseline, int) or isinstance(baseline, bool) or isinstance(baseline, str):
         ok = baseline == new
         return [
-            SolidDiff(
+            MetricDiff(
                 key=key,
                 baseline=baseline,
                 new=new,
-                rel_err=0,
+                relative_error=0,
                 ok=ok,
                 reason="ok" if ok else f"{metric}_mismatch",
             )
         ]
     elif isinstance(baseline, float):
-        # Fuzzy compare: pass if |n-b| <= max(abs_tol, rel_tol*max(|b|,|n|))
-        rel_tol = required_rel_tol(cfg.match_pct)
-        denom = max(abs(baseline), abs(new))
-        tol = max(cfg.abs_tol_mm3, rel_tol * denom)
-        err = abs(new - baseline)
+        # Fuzzy compare: pass if |new-baseline| <= max(absolute_tolerance, relative_tolerance*max(|baseline|,|new|))
+        relative_tolerance = required_relative_tolerance(config.match_percentage)
+        denominator = max(abs(baseline), abs(new))
+        tolerance = max(config.absolute_tolerance_mm3, relative_tolerance * denominator)
+        error = abs(new - baseline)
 
-        ok = err <= tol
-        rel_err = (err / denom) if denom > 0 else (0.0 if err == 0 else math.inf)
+        ok = error <= tolerance
+        relative_error = (
+            (error / denominator) if denominator > 0 else (0.0 if error == 0 else math.inf)
+        )
 
         return [
-            SolidDiff(
+            MetricDiff(
                 key=key,
                 baseline=baseline,
                 new=new,
-                rel_err=rel_err,
+                relative_error=relative_error,
                 ok=ok,
                 reason="ok" if ok else f"{metric}_mismatch",
             )
@@ -302,11 +377,11 @@ def compare_individual_metrics(
         for sub_metric in sub_metrics:
             if sub_metric not in new:
                 results.append(
-                    SolidDiff(
+                    MetricDiff(
                         key=key,
                         baseline=None,
                         new=new,
-                        rel_err=None,
+                        relative_error=None,
                         ok=False,
                         reason=f"{metric}_{sub_metric}_missing_in_new",
                     )
@@ -316,30 +391,109 @@ def compare_individual_metrics(
             else:
                 results.extend(
                     compare_individual_metrics(
-                        cfg, key, f"{metric}_{sub_metric}", baseline[sub_metric], new[sub_metric]
+                        config,
+                        key,
+                        f"{metric}_{sub_metric}",
+                        baseline[sub_metric],
+                        new[sub_metric],
                     )
                 )
         return results
     raise ValueError(f"Unrecognized data type for {metric}")
 
 
+# ---------------------------------------------------------------------------
+# File discovery
+# ---------------------------------------------------------------------------
+
+
 def find_fcstd_files(root: Path, recursive: bool) -> List[Path]:
+    """Find all .FCStd files in a directory, sorted alphabetically.
+
+    Args:
+        root: The directory to search.
+        recursive: If True, search subdirectories recursively.
+
+    Returns:
+        A sorted list of Path objects for each FreeCAD file that is found.
+    """
     if recursive:
-        return sorted([p for p in root.rglob("*.FCStd") if p.is_file()])
-    return sorted([p for p in root.glob("*.FCStd") if p.is_file()])
+        return sorted([path for path in root.rglob("*.FCStd") if path.is_file()])
+    return sorted([path for path in root.glob("*.FCStd") if path.is_file()])
 
 
-def scan_for_invalid():
-    pass
+# ---------------------------------------------------------------------------
+# Diff reporting
+# ---------------------------------------------------------------------------
+
+
+def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
+    """Print a single metric diff to stdout in a human-readable format.
+
+    Formats the output differently depending on the type of mismatch: missing objects, failed
+    recomputation, floating-point deviations, or exact-match failures.
+
+    Args:
+        diff: The MetricDiff to print.
+        config: The comparison config, used to display the required match percentage.
+    """
+    if diff.reason == "missing_in_baseline":
+        print(f"  - Feature exists in newly-recomputed file, but not in baseline: {diff.key[0]}")
+    elif diff.reason == "missing_in_new":
+        print(f"  - Feature exists in baseline, but not in newly-recomputed file: {diff.key[0]}")
+    elif isinstance(diff.new, dict) and not diff.new.get("is_valid", True):
+        print(f"  - Recomputation of {diff.key[0]} failed")
+    elif (
+        isinstance(diff.baseline, float)
+        and isinstance(diff.new, float)
+        and diff.relative_error != 0.0
+    ):
+        relative_error_percent = (
+            (diff.relative_error * 100.0)
+            if (diff.relative_error is not None and math.isfinite(diff.relative_error))
+            else None
+        )
+        relative_error_string = (
+            f"{relative_error_percent:.9f}%" if relative_error_percent is not None else "inf"
+        )
+        print(
+            f"  - {diff.reason} {diff.key}:"
+            f" baseline={diff.baseline:.12g} new={diff.new:.12g}"
+            f" relative_error={relative_error_string}"
+            f" (required match >= {config.match_percentage}%)"
+        )
+    else:
+        print(f"  - {diff.reason} {diff.key}: baseline={diff.baseline} new={diff.new}")
+
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
 
 
 def main(argv: List[str]) -> int:
+    """Run the integration test suite.
+
+    For each .FCStd file in the test directory, runs EvaluateFile.FCMacro via FreeCADCmd, extracts
+    metrics from the output, and compares them against stored baselines using fuzzy tolerances.
+    Prints per-file results and a summary.
+
+    Args:
+        argv: Command-line arguments (typically sys.argv[1: ]).
+
+    Returns:
+        0 if all tests pass, 2 if any mismatches are found, or 3 if errors
+        occurred (e.g. FreeCAD crashes, missing files).
+    """
     args = parse_args(argv)
 
     freecad_exe = Path(args.freecad)
     script_path = Path(args.script)
     fcstd_dir = Path(args.fcstd_dir)
     baseline_dir = Path(args.baseline_dir)
+    exceptions_dir = Path(args.exceptions_dir) if args.exceptions_dir else None
+    use_exceptions = exceptions_dir is not None and not args.strict
+
     single_test_to_run = None
     if args.filename:
         single_test_to_run = fcstd_dir / args.filename
@@ -347,12 +501,18 @@ def main(argv: List[str]) -> int:
             print(f"ERROR: File does not exist: {single_test_to_run}", file=sys.stderr)
             return 3
 
-    for p in (freecad_exe, script_path, fcstd_dir, baseline_dir):
-        if not p.exists():
-            print(f"ERROR: Path does not exist: {p}", file=sys.stderr)
+    required_paths = [freecad_exe, script_path, fcstd_dir, baseline_dir]
+    if exceptions_dir is not None:
+        required_paths.append(exceptions_dir)
+    for path in required_paths:
+        if not path.exists():
+            print(f"ERROR: Path does not exist: {path}", file=sys.stderr)
             return 3
 
-    cfg = CompareConfig(match_pct=float(args.match_pct), abs_tol_mm3=float(args.abs_tol_mm3))
+    config = CompareConfig(
+        match_percentage=float(args.match_percentage),
+        absolute_tolerance_mm3=float(args.absolute_tolerance_mm3),
+    )
 
     fcstd_files = find_fcstd_files(fcstd_dir, args.recursive)
     if not fcstd_files:
@@ -363,8 +523,9 @@ def main(argv: List[str]) -> int:
     ok_files = 0
     mismatch_files = 0
     error_files = 0
+    total_accepted = 0
 
-    date_str = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    date_string = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
     for fcstd_path in fcstd_files:
         if single_test_to_run and fcstd_path != single_test_to_run:
@@ -387,52 +548,87 @@ def main(argv: List[str]) -> int:
             )
             base_report = load_json(baseline_path)
 
-            new_map = extract_metrics(new_report)
-            base_map = extract_metrics(base_report)
+            # Run all extractors and collect diffs per section
+            section_diffs: Dict[str, List[MetricDiff]] = {}
+            for section_name, extract_function in EXTRACTORS:
+                new_map = extract_function(new_report)
+                base_map = extract_function(base_report)
+                diffs = compare_maps(base_map, new_map, config)
+                section_diffs[section_name] = diffs
 
-            diffs = compare_maps(base_map, new_map, cfg)
-            bad = [d for d in diffs if not d.ok]
+            # Collect all failing diffs with their section context
+            bad_with_section: List[tuple] = []
+            for section_name, diffs in section_diffs.items():
+                for diff in diffs:
+                    if not diff.ok:
+                        bad_with_section.append((section_name, diff))
 
-            if bad:
-                mismatch_files += 1
-                print(f"[FAIL] {fcstd_path.name}: {len(bad)} issue(s)")
-                for d in bad:
-                    if d.reason == "missing_in_baseline":
-                        print(
-                            f"  - Feature exists in newly-recomputed file, but not in baseline: {d.key[0]}"
-                        )
-                    elif d.reason == "missing_in_new":
-                        print(
-                            f"  - Feature exists in baseline, but not in newly-recomputed file: {d.key[0]}"
-                        )
-                    elif "is_valid" in d.new and not d.new["is_valid"]:
-                        print(f"  - Recomputation of {d.key[0]} failed")
-                    elif d.rel_err != 0.0:
-                        # For floating point comparisons report the calculated error metrics
-                        rel_pct = (
-                            (d.rel_err * 100.0)
-                            if (d.rel_err is not None and math.isfinite(d.rel_err))
-                            else None
-                        )
-                        rel_str = f"{rel_pct:.9f}%" if rel_pct is not None else "inf"
-                        print(
-                            f"  - {d.reason} {d.key}: baseline={d.baseline:.12g} new={d.new:.12g} "
-                            f"rel_err={rel_str} (required match >= {cfg.match_pct}%)"
-                        )
+            # Partition into truly-bad and accepted using exception rules
+            accepted: List[tuple] = []
+            truly_bad: List[tuple] = []
+            if use_exceptions and bad_with_section:
+                rules = load_accepted_changes(exceptions_dir, stem)
+                for section_name, diff in bad_with_section:
+                    rule = find_matching_rule(diff, section_name, rules)
+                    if rule is not None:
+                        accepted.append((section_name, diff, rule))
                     else:
-                        print(f"  - {d.reason} {d.key}: baseline={d.baseline} new={d.new}")
-                if args.verbose:
+                        truly_bad.append((section_name, diff))
+            else:
+                truly_bad = bad_with_section
+
+            total_accepted += len(accepted)
+
+            if truly_bad:
+                mismatch_files += 1
+                print(f"[FAIL] {fcstd_path.name}: {len(truly_bad)} failure(s)")
+                for _, diff in truly_bad:
+                    print_diff(diff, config)
+                if accepted:
                     print(
-                        f"  solids compared: {len(diffs)} (ok={len(diffs)-len(bad)} bad={len(bad)})"
+                        f"  ({len(accepted)} additional difference(s) accepted by exception rules)"
                     )
-                new_report_file = Path.cwd() / date_str / f"{stem}_new.json"
+                    if args.verbose:
+                        for section_name, diff, rule in accepted:
+                            print(
+                                f"    [accepted] {diff.reason} {diff.key}"
+                                f" -- {rule.description} ({rule.source})"
+                            )
+                if args.verbose:
+                    for section_name, _ in EXTRACTORS:
+                        diffs = section_diffs[section_name]
+                        bad_count = sum(1 for diff in diffs if not diff.ok)
+                        print(
+                            f"  {section_name} compared: {len(diffs)}"
+                            f" (ok={len(diffs) - bad_count}"
+                            f" bad={bad_count})"
+                        )
+                new_report_file = Path.cwd() / date_string / f"{stem}_new.json"
                 os.makedirs(new_report_file.parent, exist_ok=True)
                 with open(new_report_file, "w", encoding="utf-8") as f:
                     json.dump(new_report, f, indent=2)
+            elif accepted:
+                ok_files += 1
+                print(f"[OK]   {fcstd_path.name}: {len(accepted)} accepted change(s)")
+                if args.verbose:
+                    for section_name, diff, rule in accepted:
+                        print(
+                            f"    [accepted] {diff.reason} {diff.key}"
+                            f" -- {rule.description} ({rule.source})"
+                        )
+                    parts = ["         "]
+                    for section_name, _ in EXTRACTORS:
+                        diffs = section_diffs[section_name]
+                        parts.append(f"{section_name}={len(diffs)}")
+                    print(" ".join(parts))
             else:
                 ok_files += 1
                 if args.verbose:
-                    print(f"[OK]   {fcstd_path.name}: solids={len(diffs)}")
+                    parts = [f"[OK]   {fcstd_path.name}:"]
+                    for section_name, _ in EXTRACTORS:
+                        diffs = section_diffs[section_name]
+                        parts.append(f"{section_name}={len(diffs)}")
+                    print(" ".join(parts))
 
         except subprocess.TimeoutExpired:
             error_files += 1
@@ -447,8 +643,17 @@ def main(argv: List[str]) -> int:
     print(f"OK:            {ok_files}")
     print(f"Mismatched:    {mismatch_files}")
     print(f"Errors:        {error_files}")
-    print(f"Match pct:     {cfg.match_pct} (rel_tol={required_rel_tol(cfg.match_pct):.12g})")
-    print(f"Abs tol mm^3:  {cfg.abs_tol_mm3:.12g}")
+    if total_accepted > 0:
+        print(f"Accepted:      {total_accepted}")
+    print(
+        f"Match pct:     {config.match_percentage}"
+        f" (relative_tolerance={required_relative_tolerance(config.match_percentage):.12g})"
+    )
+    print(f"Abs tol mm^3:  {config.absolute_tolerance_mm3:.12g}")
+    if use_exceptions:
+        print(f"Exceptions:    {exceptions_dir}")
+    elif args.strict:
+        print("Exceptions:    disabled (--strict)")
     print(79 * "=")
 
     if mismatch_files or error_files:

@@ -4,9 +4,9 @@
 #   freecadcmd EvaluateFile.FCMacro /path/to/model.FCStd
 #   freecadcmd EvaluateFile.FCMacro /path/to/model.FCStd --out results.json
 #
-# Notes:
-# - Outputs JSON dictionary.
-# - Metrics container supports future expansion beyond volume (only volume implemented now)
+# Outputs a JSON report with per-object metrics, organized by analyzer section.
+# Each analyzer handles a specific category of FreeCAD objects (solids, sketches, etc.)
+# and multiple analyzers can contribute metrics for the same object.
 
 import datetime
 import sys
@@ -16,8 +16,21 @@ import argparse
 
 import FreeCAD as App
 
+# ---------------------------------------------------------------------------
+# Utility helpers
+# ---------------------------------------------------------------------------
+
 
 def is_shape_valid(shape) -> bool:
+    """Check whether a FreeCAD shape is non-null and geometrically valid.
+
+    Args:
+        shape: A FreeCAD Part.Shape (or subclass) instance.
+
+    Returns:
+        True if the shape is not None, not null, and passes OCC validity checks.
+        Returns False on any exception.
+    """
     try:
         return (shape is not None) and (not shape.isNull()) and shape.isValid()
     except Exception:
@@ -25,10 +38,17 @@ def is_shape_valid(shape) -> bool:
 
 
 def get_solids_from_shape(shape):
-    """
-    Return a list of solids from any shape.
-    - For compounds/compsolids/etc: returns shape.Solids when present
-    - If shape itself is a Solid: returns [shape]
+    """Extract all solid sub-shapes from a FreeCAD shape.
+
+    For compounds and compsolids, returns shape.Solids. If the shape itself is
+    a single Solid, returns it wrapped in a list. Returns an empty list if no
+    solids can be extracted.
+
+    Args:
+        shape: A FreeCAD Part.Shape (or subclass) instance.
+
+    Returns:
+        A list of Part.Solid objects, possibly empty.
     """
     try:
         solids = list(shape.Solids)
@@ -46,25 +66,12 @@ def get_solids_from_shape(shape):
     return []
 
 
-def compute_metrics_for_solid(solid) -> dict:
-    """
-    Future expansion point: add additional fields here (e.g., area_mm2, mass_g, etc).
-    """
-    return {
-        "is_valid": solid.isValid(),  # False when recompute fails
-        "volume_mm3": float(solid.Volume),
-        "bounding_box": {
-            "x_min": float(solid.BoundBox.XMin),
-            "y_min": float(solid.BoundBox.YMin),
-            "z_min": float(solid.BoundBox.ZMin),
-            "x_max": float(solid.BoundBox.XMax),
-            "y_max": float(solid.BoundBox.YMax),
-            "z_max": float(solid.BoundBox.ZMax),
-        },
-    }
-
-
 def get_freecad_version_string():
+    """Return a human-readable FreeCAD version string (e.g. "1.2.0 45273 (Git)").
+
+    Returns:
+        The version string, or "unknown" if it cannot be determined.
+    """
     try:
         v = App.Version()
         return ".".join(v[:3]) + (" " + v[3] if len(v) > 3 else "")
@@ -72,9 +79,603 @@ def get_freecad_version_string():
         return "unknown"
 
 
+# ---------------------------------------------------------------------------
+# Analyzer base and implementations
+# ---------------------------------------------------------------------------
+
+
+class Analyzer:
+    """Base class for object analyzers.
+
+    Subclasses must set ``section`` and implement ``can_handle`` and ``evaluate``.
+    The ``evaluate`` method returns a dict stored under ``report[section][obj.Name]``.
+    """
+
+    section: str = ""
+
+    def can_handle(self, obj) -> bool:
+        """Return True if this analyzer should process the given object.
+
+        Args:
+            obj: A FreeCAD document object.
+        """
+        raise NotImplementedError
+
+    def evaluate(self, obj) -> dict:
+        """Compute metrics for the given object and return them as a dict.
+
+        The returned dict is stored in the report under ``report[section][obj.Name]``.
+
+        Args:
+            obj: A FreeCAD document object that passed ``can_handle``.
+
+        Returns:
+            A dictionary containing at minimum "name", "label", and "type_id" keys,
+            plus analyzer-specific metric data.
+        """
+        raise NotImplementedError
+
+
+class SolidAnalyzer(Analyzer):
+    """Analyzer for objects that contain solid geometry (volumes, bounding boxes)."""
+
+    section = "objects"
+
+    def can_handle(self, obj) -> bool:
+        if not hasattr(obj, "Shape"):
+            return False
+        if not obj.isValid() or not is_shape_valid(obj.Shape):
+            return True
+        return bool(get_solids_from_shape(obj.Shape))
+
+    def evaluate(self, obj) -> dict:
+        entry = {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": getattr(obj, "TypeId", None),
+            "solids": [],
+        }
+
+        if not obj.isValid() or not is_shape_valid(obj.Shape):
+            entry["solids"].append({"index": 1, "metrics": {"is_valid": False}})
+            return entry
+
+        solids = get_solids_from_shape(obj.Shape)
+        for index, solid in enumerate(solids, start=1):
+            if not is_shape_valid(solid):
+                entry["solids"].append({"index": index, "metrics": {"is_valid": False}})
+                continue
+            try:
+                metrics = {
+                    "is_valid": solid.isValid(),
+                    "volume_mm3": float(solid.Volume),
+                    "bounding_box": {
+                        "x_min": float(solid.BoundBox.XMin),
+                        "y_min": float(solid.BoundBox.YMin),
+                        "z_min": float(solid.BoundBox.ZMin),
+                        "x_max": float(solid.BoundBox.XMax),
+                        "y_max": float(solid.BoundBox.YMax),
+                        "z_max": float(solid.BoundBox.ZMax),
+                    },
+                }
+            except Exception:
+                continue
+            entry["solids"].append({"index": index, "metrics": metrics})
+
+        return entry
+
+
+class SketchAnalyzer(Analyzer):
+    """Analyzer for Sketcher::SketchObject objects.
+
+    Extracts constraint solver status, degrees of freedom, geometry counts, and
+    whether the sketch is fully constrained.
+    """
+
+    section = "sketches"
+
+    def can_handle(self, obj) -> bool:
+        return obj.TypeId == "Sketcher::SketchObject"
+
+    def evaluate(self, obj) -> dict:
+        try:
+            metrics = {
+                "is_valid": obj.isValid(),
+                "fully_constrained": bool(getattr(obj, "FullyConstrained", False)),
+                "degrees_of_freedom": int(getattr(obj, "DoF", -1)),
+                "constraint_count": int(getattr(obj, "ConstraintCount", 0)),
+                "geometry_count": int(getattr(obj, "GeometryCount", 0)),
+            }
+            try:
+                metrics["external_geometry_count"] = len(obj.ExternalGeometry)
+            except Exception:
+                metrics["external_geometry_count"] = 0
+            try:
+                metrics["solver_status"] = int(obj.solve())
+            except Exception:
+                metrics["solver_status"] = -1
+        except Exception:
+            metrics = {"is_valid": False}
+
+        return {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": obj.TypeId,
+            "metrics": metrics,
+        }
+
+
+class PartDesignBodyAnalyzer(Analyzer):
+    """Analyzer for PartDesign::Body objects.
+
+    Extracts feature count, tip feature info, and topology fingerprint
+    (face/edge/vertex counts) from the body's overall shape.
+    """
+
+    section = "partdesign_bodies"
+
+    def can_handle(self, obj) -> bool:
+        return obj.TypeId == "PartDesign::Body"
+
+    def evaluate(self, obj) -> dict:
+        try:
+            metrics = {"is_valid": obj.isValid()}
+
+            group = getattr(obj, "Group", [])
+            metrics["feature_count"] = len(group)
+
+            tip = getattr(obj, "Tip", None)
+            if tip is not None:
+                metrics["tip_name"] = tip.Name
+                metrics["tip_is_valid"] = tip.isValid()
+            else:
+                metrics["tip_name"] = None
+                metrics["tip_is_valid"] = False
+
+            shape = getattr(obj, "Shape", None)
+            if shape is not None and is_shape_valid(shape):
+                metrics["face_count"] = len(shape.Faces)
+                metrics["edge_count"] = len(shape.Edges)
+                metrics["vertex_count"] = len(shape.Vertexes)
+        except Exception:
+            metrics = {"is_valid": False}
+
+        return {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": obj.TypeId,
+            "metrics": metrics,
+        }
+
+
+class PartDesignFeatureAnalyzer(Analyzer):
+    """Analyzer for individual PartDesign features (Pad, Pocket, Fillet, etc.).
+
+    Extracts shape type and topology fingerprint (face/edge/vertex counts) for
+    PartDesign features that are not the Body container itself.
+    """
+
+    section = "partdesign_features"
+
+    def can_handle(self, obj) -> bool:
+        return (
+            obj.TypeId.startswith("PartDesign::")
+            and obj.TypeId != "PartDesign::Body"
+            and hasattr(obj, "Shape")
+        )
+
+    def evaluate(self, obj) -> dict:
+        try:
+            metrics = {"is_valid": obj.isValid()}
+            shape = getattr(obj, "Shape", None)
+            if shape is not None and is_shape_valid(shape):
+                metrics["shape_type"] = shape.ShapeType
+                metrics["face_count"] = len(shape.Faces)
+                metrics["edge_count"] = len(shape.Edges)
+                metrics["vertex_count"] = len(shape.Vertexes)
+        except Exception:
+            metrics = {"is_valid": False}
+
+        return {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": obj.TypeId,
+            "metrics": metrics,
+        }
+
+
+class PartFeatureAnalyzer(Analyzer):
+    """Analyzer for Part workbench features (Cut, Fuse, Extrusion, primitives, etc.).
+
+    Extracts shape type, topology fingerprint, and shell closure status for
+    objects whose TypeId starts with "Part::".
+    """
+
+    section = "part_features"
+
+    def can_handle(self, obj) -> bool:
+        return obj.TypeId.startswith("Part::") and hasattr(obj, "Shape")
+
+    def evaluate(self, obj) -> dict:
+        try:
+            metrics = {"is_valid": obj.isValid()}
+            shape = getattr(obj, "Shape", None)
+            if shape is not None and is_shape_valid(shape):
+                metrics["shape_type"] = shape.ShapeType
+                metrics["face_count"] = len(shape.Faces)
+                metrics["edge_count"] = len(shape.Edges)
+                metrics["vertex_count"] = len(shape.Vertexes)
+                try:
+                    shells = shape.Shells
+                    if shells:
+                        metrics["shell_is_closed"] = all(shell.isClosed() for shell in shells)
+                except Exception:
+                    pass
+        except Exception:
+            metrics = {"is_valid": False}
+
+        return {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": obj.TypeId,
+            "metrics": metrics,
+        }
+
+
+class AppPartAnalyzer(Analyzer):
+    """Analyzer for App::Part container objects.
+
+    Extracts child object count and overall bounding box dimensions.
+    """
+
+    section = "app_parts"
+
+    def can_handle(self, obj) -> bool:
+        return obj.TypeId == "App::Part"
+
+    def evaluate(self, obj) -> dict:
+        try:
+            metrics = {"is_valid": obj.isValid()}
+
+            group = getattr(obj, "Group", [])
+            metrics["child_count"] = len(group)
+
+            shape = getattr(obj, "Shape", None)
+            if shape is not None and is_shape_valid(shape):
+                metrics["bounding_box"] = {
+                    "x_min": float(shape.BoundBox.XMin),
+                    "y_min": float(shape.BoundBox.YMin),
+                    "z_min": float(shape.BoundBox.ZMin),
+                    "x_max": float(shape.BoundBox.XMax),
+                    "y_max": float(shape.BoundBox.YMax),
+                    "z_max": float(shape.BoundBox.ZMax),
+                }
+        except Exception:
+            metrics = {"is_valid": False}
+
+        return {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": obj.TypeId,
+            "metrics": metrics,
+        }
+
+
+class AssemblyAnalyzer(Analyzer):
+    """Analyzer for Assembly::AssemblyObject containers.
+
+    Extracts joint count and joint type distribution from the assembly.
+    """
+
+    section = "assemblies"
+
+    def can_handle(self, obj) -> bool:
+        return obj.TypeId == "Assembly::AssemblyObject"
+
+    def evaluate(self, obj) -> dict:
+        try:
+            metrics = {"is_valid": obj.isValid()}
+
+            group = getattr(obj, "Group", [])
+            metrics["child_count"] = len(group)
+
+            joint_types = {}
+            for child in group:
+                child_group = getattr(child, "Group", [])
+                for grandchild in child_group:
+                    type_id = getattr(grandchild, "TypeId", "")
+                    if "Joint" in type_id:
+                        joint_types[type_id] = joint_types.get(type_id, 0) + 1
+
+            metrics["joint_count"] = sum(joint_types.values())
+            metrics["joint_types"] = joint_types
+        except Exception:
+            metrics = {"is_valid": False}
+
+        return {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": obj.TypeId,
+            "metrics": metrics,
+        }
+
+
+class TechDrawPageAnalyzer(Analyzer):
+    """Analyzer for TechDraw::DrawPage objects.
+
+    Extracts view count, view types, and whether a template is loaded.
+    """
+
+    section = "techdraw_pages"
+
+    def can_handle(self, obj) -> bool:
+        return obj.TypeId == "TechDraw::DrawPage"
+
+    def evaluate(self, obj) -> dict:
+        try:
+            metrics = {"is_valid": obj.isValid()}
+
+            views = getattr(obj, "Views", [])
+            metrics["view_count"] = len(views)
+
+            view_types = {}
+            for view in views:
+                type_id = getattr(view, "TypeId", "unknown")
+                view_types[type_id] = view_types.get(type_id, 0) + 1
+            metrics["view_types"] = view_types
+
+            template = getattr(obj, "Template", None)
+            metrics["template_loaded"] = template is not None
+
+            try:
+                if template is not None:
+                    metrics["template_name"] = getattr(template, "Template", "")
+            except Exception:
+                pass
+        except Exception:
+            metrics = {"is_valid": False}
+
+        return {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": obj.TypeId,
+            "metrics": metrics,
+        }
+
+
+class SpreadsheetAnalyzer(Analyzer):
+    """Analyzer for Spreadsheet::Sheet objects.
+
+    Extracts cell count and alias-to-value mappings for named cells.
+    """
+
+    section = "spreadsheets"
+
+    def can_handle(self, obj) -> bool:
+        return obj.TypeId == "Spreadsheet::Sheet"
+
+    def evaluate(self, obj) -> dict:
+        try:
+            metrics = {"is_valid": obj.isValid()}
+
+            try:
+                used_cells = obj.getUsedCells()
+                metrics["cell_count"] = len(used_cells)
+            except Exception:
+                metrics["cell_count"] = -1
+
+            try:
+                aliases = {}
+                alias_list = obj.getAliases()
+                for alias, address in alias_list:
+                    try:
+                        value = obj.get(alias)
+                        if isinstance(value, float):
+                            aliases[alias] = float(value)
+                        elif isinstance(value, int):
+                            aliases[alias] = int(value)
+                        elif isinstance(value, str):
+                            aliases[alias] = value
+                    except Exception:
+                        pass
+                if aliases:
+                    metrics["aliases"] = aliases
+            except Exception:
+                pass
+        except Exception:
+            metrics = {"is_valid": False}
+
+        return {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": obj.TypeId,
+            "metrics": metrics,
+        }
+
+
+class LinkAnalyzer(Analyzer):
+    """Analyzer for App::Link objects.
+
+    Checks whether the linked object exists and is valid, and whether the
+    link's shape matches the linked object's shape type.
+    """
+
+    section = "links"
+
+    def can_handle(self, obj) -> bool:
+        return obj.TypeId == "App::Link"
+
+    def evaluate(self, obj) -> dict:
+        try:
+            metrics = {"is_valid": obj.isValid()}
+
+            linked = getattr(obj, "LinkedObject", None)
+            metrics["linked_object_name"] = linked.Name if linked is not None else None
+            metrics["linked_object_is_valid"] = linked.isValid() if linked is not None else False
+
+            shape = getattr(obj, "Shape", None)
+            if shape is not None and is_shape_valid(shape):
+                metrics["shape_type"] = shape.ShapeType
+                metrics["face_count"] = len(shape.Faces)
+                metrics["edge_count"] = len(shape.Edges)
+                metrics["vertex_count"] = len(shape.Vertexes)
+        except Exception:
+            metrics = {"is_valid": False}
+
+        return {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": obj.TypeId,
+            "metrics": metrics,
+        }
+
+
+class PartExtrusionAnalyzer(Analyzer):
+    """Analyzer for Part::Extrusion and Part::Offset2D objects.
+
+    Extracts extrusion-specific parameters such as direction, lengths, and
+    offset values that go beyond the general Part feature topology.
+    """
+
+    section = "part_extrusions"
+
+    _handled_types = {"Part::Extrusion", "Part::Offset2D", "Part::Offset3D"}
+
+    def can_handle(self, obj) -> bool:
+        return obj.TypeId in self._handled_types
+
+    def evaluate(self, obj) -> dict:
+        try:
+            metrics = {"is_valid": obj.isValid()}
+
+            if obj.TypeId == "Part::Extrusion":
+                direction = getattr(obj, "Dir", None)
+                if direction is not None:
+                    metrics["direction"] = {
+                        "x": float(direction.x),
+                        "y": float(direction.y),
+                        "z": float(direction.z),
+                    }
+                try:
+                    metrics["length_forward"] = float(obj.LengthFwd)
+                except Exception:
+                    pass
+                try:
+                    metrics["length_reverse"] = float(obj.LengthRev)
+                except Exception:
+                    pass
+                try:
+                    metrics["solid"] = bool(obj.Solid)
+                except Exception:
+                    pass
+                try:
+                    metrics["symmetric"] = bool(obj.Symmetric)
+                except Exception:
+                    pass
+
+            elif obj.TypeId in ("Part::Offset2D", "Part::Offset3D"):
+                try:
+                    metrics["offset_value"] = float(obj.Value)
+                except Exception:
+                    pass
+                try:
+                    metrics["fill_type"] = str(obj.Fill)
+                except Exception:
+                    pass
+        except Exception:
+            metrics = {"is_valid": False}
+
+        return {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": obj.TypeId,
+            "metrics": metrics,
+        }
+
+
+class MaterialAnalyzer(Analyzer):
+    """Analyzer for material objects (App::MaterialObjectPython and similar).
+
+    Extracts material name and key physical properties such as density.
+    """
+
+    section = "materials"
+
+    def can_handle(self, obj) -> bool:
+        type_id = getattr(obj, "TypeId", "")
+        return "Material" in type_id or (
+            hasattr(obj, "Material") and isinstance(getattr(obj, "Material", None), dict)
+        )
+
+    def evaluate(self, obj) -> dict:
+        try:
+            metrics = {"is_valid": obj.isValid()}
+
+            material = getattr(obj, "Material", None)
+            if isinstance(material, dict):
+                if "Name" in material:
+                    metrics["material_name"] = str(material["Name"])
+                if "Density" in material:
+                    try:
+                        metrics["density"] = float(material["Density"].split()[0])
+                    except Exception:
+                        metrics["density_raw"] = str(material["Density"])
+                if "YoungsModulus" in material:
+                    metrics["youngs_modulus_raw"] = str(material["YoungsModulus"])
+                if "PoissonRatio" in material:
+                    try:
+                        metrics["poisson_ratio"] = float(material["PoissonRatio"])
+                    except Exception:
+                        pass
+        except Exception:
+            metrics = {"is_valid": False}
+
+        return {
+            "name": obj.Name,
+            "label": obj.Label,
+            "type_id": getattr(obj, "TypeId", "unknown"),
+            "metrics": metrics,
+        }
+
+
+# Registry -- add new analyzers here. All matching analyzers run for each object.
+ANALYZERS = [
+    SketchAnalyzer(),
+    SolidAnalyzer(),
+    PartDesignBodyAnalyzer(),
+    PartDesignFeatureAnalyzer(),
+    PartFeatureAnalyzer(),
+    AppPartAnalyzer(),
+    AssemblyAnalyzer(),
+    TechDrawPageAnalyzer(),
+    SpreadsheetAnalyzer(),
+    LinkAnalyzer(),
+    PartExtrusionAnalyzer(),
+    MaterialAnalyzer(),
+]
+
+
+# ---------------------------------------------------------------------------
+# Report builder
+# ---------------------------------------------------------------------------
+
+
 def build_report_dict(doc, source_path: str) -> dict:
+    """Build the complete metrics report for a FreeCAD document.
+
+    Iterates over all objects in the document and runs every registered analyzer that can handle
+    each object. Results are organized by analyzer section.
+
+    Args:
+        doc: An open FreeCAD document (App.Document).
+        source_path: The filesystem path to the .FCStd file, stored in the report for provenance.
+
+    Returns:
+        A dictionary containing "schema_version", "source" metadata, and one key per analyzer
+        section (e.g. "objects", "sketches") mapping object names to their metric entries.
+    """
     report = {
-        "schema_version": 1,
+        "schema_version": 2,
         "source": {
             "path": source_path,
             "document_name": doc.Name,
@@ -82,95 +683,56 @@ def build_report_dict(doc, source_path: str) -> dict:
             "freecad_version": get_freecad_version_string(),
             "data_creation_date": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         },
-        "objects": {},
-        "summary": {
-            "solid_count": 0,
-            "total_volume_mm3": 0.0,
-        },
     }
 
-    total_volume = 0.0
-    solid_count = 0
-
     for obj in doc.Objects:
-        if not hasattr(obj, "Shape"):
-            continue
-
-        shape = obj.Shape
-
-        obj_entry = {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": getattr(obj, "TypeId", None),
-            "solids": [],
-        }
-
-        if not obj.isValid() or not is_shape_valid(shape):
-            entry = {
-                "index": 1,
-                "metrics": {
-                    "is_valid": False
-                }
-            }
-            obj_entry["solids"].append(entry)
-            report["objects"][obj.Name] = obj_entry
-            continue
-
-        solids = get_solids_from_shape(shape)
-
-        if not solids:
-            continue
-
-        for idx, solid in enumerate(solids, start=1):
-            if not is_shape_valid(solid):
-                entry = {
-                    "index": idx,
-                    "metrics": {
-                        "is_valid": False
-                    }
-                }
-                obj_entry["solids"].append(entry)
-                continue
-
-            try:
-                metrics = compute_metrics_for_solid(solid)
-            except Exception:
-                continue
-
-            vol = float(metrics.get("volume_mm3", 0.0))
-            total_volume += vol
-            solid_count += 1
-
-            obj_entry["solids"].append(
-                {
-                    "index": idx,
-                    "metrics": metrics,
-                }
-            )
-
-        if obj_entry["solids"]:
-            report["objects"][obj.Name] = obj_entry
-
-    report["summary"]["solid_count"] = solid_count
-    report["summary"]["total_volume_mm3"] = float(total_volume)
+        for analyzer in ANALYZERS:
+            if analyzer.can_handle(obj):
+                entry = analyzer.evaluate(obj)
+                report.setdefault(analyzer.section, {})[obj.Name] = entry
 
     return report
 
 
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+
 def parse_args(argv):
-    # This is a little strange because the intended use is to pass this script itself as an
-    # argument to FreeCADCmd, so the argument parser actually has to start parsing from
-    # argument 2, not 1.
-    p = argparse.ArgumentParser(
+    """Parse command-line arguments for the macro.
+
+    Because this script is passed as an argument to FreeCADCmd, argument parsing starts from
+    argv[2] rather than argv[1].
+
+    Args:
+        argv: The full sys.argv list, where argv[0] is the FreeCADCmd executable and argv[1] is
+            this script's path.
+
+    Returns:
+        An argparse.Namespace with ``fcstd`` (path to .FCStd file) and ``out`` (optional output
+        file path, or None for stdout).
+    """
+    parser = argparse.ArgumentParser(
         prog=os.path.basename(argv[1]),
-        description="Compute per-solid metrics from an FCStd file and output JSON.",
+        description="Compute per-object metrics from an FCStd file and output JSON.",
     )
-    p.add_argument("fcstd", help="Path to .FCStd file")
-    p.add_argument("--out", "-o", default=None, help="Write JSON to this file instead of stdout")
-    return p.parse_args(argv[2:])
+    parser.add_argument("fcstd", help="Path to .FCStd file")
+    parser.add_argument(
+        "--out", "-o", default=None, help="Write JSON to this file instead of stdout"
+    )
+    return parser.parse_args(argv[2:])
 
 
 def main(argv):
+    """Open an FCStd file, force a full recompute, and write a JSON metrics report.
+
+    Marks every object as dirty via touch(), recomputes the document, then runs all registered
+    analyzers to produce a metrics report.
+
+    Args:
+        argv: The full sys.argv list (see parse_args for format).
+    """
     args = parse_args(argv)
 
     fcstd_path = os.path.abspath(args.fcstd)
@@ -178,6 +740,11 @@ def main(argv):
         raise SystemExit(f"Input file not found: {fcstd_path}")
 
     doc = App.openDocument(fcstd_path)
+    for obj in doc.Objects:
+        try:
+            obj.touch()
+        except Exception:
+            pass
     try:
         doc.recompute()
     except Exception:

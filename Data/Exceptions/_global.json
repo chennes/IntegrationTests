@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {
+      "section": "part_features",
+      "object_pattern": "Wall*",
+      "metric_pattern": "*shape_type*",
+      "accepted_values": ["Solid"],
+      "description": "BIM Wall shape representation changed from Compound to Solid between FreeCAD 1.0 and 1.2",
+      "added": "2026-03-13"
+    }
+  ]
+}

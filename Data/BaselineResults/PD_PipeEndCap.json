@@ -1,4 +1,23 @@
 {
+  "app_parts": {
+    "Part": {
+      "label": "Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.5,
+          "x_min": -17.5,
+          "y_max": 17.500387282914765,
+          "y_min": -17.500387282914765,
+          "z_max": 15.5,
+          "z_min": -1.5
+        },
+        "child_count": 1,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "Body": {
       "label": "Body",
@@ -16,7 +35,7 @@
               "z_min": -1.5
             },
             "is_valid": true,
-            "volume_mm3": 3167.886155119054
+            "volume_mm3": 3167.886155135616
           }
         }
       ],
@@ -104,7 +123,7 @@
               "z_min": -1.5
             },
             "is_valid": true,
-            "volume_mm3": 3167.886155119054
+            "volume_mm3": 3167.886155135616
           }
         }
       ],
@@ -126,7 +145,7 @@
               "z_min": -1.5
             },
             "is_valid": true,
-            "volume_mm3": 3182.415277377353
+            "volume_mm3": 3182.4152773939236
           }
         }
       ],
@@ -148,23 +167,141 @@
               "z_min": -1.5
             },
             "is_valid": true,
-            "volume_mm3": 3167.886155119054
+            "volume_mm3": 3167.886155135616
           }
         }
       ],
       "type_id": "PartDesign::PolarPattern"
     }
   },
-  "schema_version": 1,
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 59,
+        "face_count": 18,
+        "feature_count": 8,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "PolarPattern",
+        "vertex_count": 36
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "Chamfer": {
+      "label": "Chamfer",
+      "metrics": {
+        "edge_count": 11,
+        "face_count": 8,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 7
+      },
+      "name": "Chamfer",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Pad": {
+      "label": "Pad",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad001",
+      "metrics": {
+        "edge_count": 9,
+        "face_count": 7,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 6
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "metrics": {
+        "edge_count": 31,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 19
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    },
+    "PolarPattern": {
+      "label": "PolarPattern",
+      "metrics": {
+        "edge_count": 59,
+        "face_count": 18,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 36
+      },
+      "name": "PolarPattern",
+      "type_id": "PartDesign::PolarPattern"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch",
+      "metrics": {
+        "constraint_count": 4,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch001",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "Sketch002",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
   "source": {
-    "data_creation_date": "2026-02-22T16:05:15.345588+00:00",
+    "data_creation_date": "2026-03-13T14:53:07.598619+00:00",
     "document_label": "PD_PipeEndCap",
     "document_name": "PD_PipeEndCap",
-    "freecad_version": "1.2.0 20260217 (Git shallow)",
-    "path": "C:\\Users\\max\\Dev\\IntegrationTests\\Data\\CADFiles\\PD_PipeEndCap.FCStd"
-  },
-  "summary": {
-    "solid_count": 7,
-    "total_volume_mm3": 20945.20465554374
+    "freecad_version": "1.2.0 45706 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_PipeEndCap.FCStd"
   }
 }
