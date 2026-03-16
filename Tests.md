@@ -24,3 +24,5 @@
 | Sketcher_ArcOfHyperbola.FCStd | 2026-03-15 | 1.1                      | ArcOfHyperbola sketch geometry                           |
 | Profile_40x80L_Slot8.FCStd   | 2026-03-15 | 1.0                      | Aluminium profile with Block and Weight constraints      |
 | ATMEGA328P.FCStd             | 2026-03-15 | 0.18                     | Stress test: IC package with 1066 constraints, 999 geometry elements |
+| T8_housing_bracket.FCStd     | 2026-03-15 | 0.20                     | PartDesign::Hole with PolarPattern                       |
+| T8_antibacklash_nut.FCStd    | 2026-03-15 | 0.20                     | AdditiveHelix and SubtractiveHelix with Groove, Chamfer   |

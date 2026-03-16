@@ -1,0 +1,922 @@
+{
+  "app_parts": {
+    "Part": {
+      "label": "T8 antibacklash nut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.999999999999998,
+          "x_min": -10.999999999999998,
+          "y_max": 11.0,
+          "y_min": -10.999999999999998,
+          "z_max": 29.758845769893924,
+          "z_min": -1.5000000000000004
+        },
+        "child_count": 3,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
+  "objects": {
+    "AdditiveHelix": {
+      "label": "AdditiveHelix",
+      "name": "AdditiveHelix",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.800000001268927,
+              "x_min": -5.800000001094304,
+              "y_max": 5.8000000024225065,
+              "y_min": -5.80000000201153,
+              "z_max": 22.460044961611857,
+              "z_min": 3.6399550467031077
+            },
+            "is_valid": true,
+            "volume_mm3": 136.43739880775533
+          }
+        }
+      ],
+      "type_id": "PartDesign::AdditiveHelix"
+    },
+    "Body": {
+      "label": "Bottom",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.999999999999998,
+              "x_min": -10.999999999999998,
+              "y_max": 11.0,
+              "y_min": -10.999999999999998,
+              "z_max": 17.625512393280005,
+              "z_min": -1.5000000000000004
+            },
+            "is_valid": true,
+            "volume_mm3": 1504.4328064522053
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Top",
+      "name": "Body001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 7.0,
+              "x_min": -7.0,
+              "y_max": 6.999999999999995,
+              "y_min": -7.000000000000005,
+              "z_max": 29.758845769893924,
+              "z_min": 10.999999999999998
+            },
+            "is_valid": true,
+            "volume_mm3": 653.0986487784619
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body002": {
+      "label": "Spring",
+      "name": "Body002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.800000001268927,
+              "x_min": -5.800000001094304,
+              "y_max": 5.8000000024225065,
+              "y_min": -5.80000000201153,
+              "z_max": 22.460044961611857,
+              "z_min": 3.6399550467031077
+            },
+            "is_valid": true,
+            "volume_mm3": 136.4373988077555
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Chamfer": {
+      "label": "Chamfer",
+      "name": "Chamfer",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 11.0,
+              "y_min": -11.0,
+              "z_max": 15.000000000000002,
+              "z_min": -2.4424906541753444e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 2347.801856317974
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Groove": {
+      "label": "Groove",
+      "name": "Groove",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 11.000000000000004,
+              "y_min": -11.0,
+              "z_max": 17.625512393280005,
+              "z_min": -1.5000000000000007
+            },
+            "is_valid": true,
+            "volume_mm3": 1504.432806452205
+          }
+        }
+      ],
+      "type_id": "PartDesign::Groove"
+    },
+    "Groove001": {
+      "label": "Groove001",
+      "name": "Groove001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 7.0,
+              "x_min": -7.0,
+              "y_max": 6.999999999999995,
+              "y_min": -7.000000000000005,
+              "z_max": 29.758845769893924,
+              "z_min": 10.999999999999998
+            },
+            "is_valid": true,
+            "volume_mm3": 653.0986487784619
+          }
+        }
+      ],
+      "type_id": "PartDesign::Groove"
+    },
+    "Part": {
+      "label": "T8 antibacklash nut",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.999999999999998,
+              "x_min": -10.999999999999998,
+              "y_max": 11.0,
+              "y_min": -10.999999999999998,
+              "z_max": 17.625512393280005,
+              "z_min": -1.5000000000000004
+            },
+            "is_valid": true,
+            "volume_mm3": 1504.4328064522053
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 7.0,
+              "x_min": -7.0,
+              "y_max": 6.999999999999995,
+              "y_min": -7.000000000000005,
+              "z_max": 29.758845769893924,
+              "z_min": 10.999999999999998
+            },
+            "is_valid": true,
+            "volume_mm3": 653.0986487784619
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.800000001268927,
+              "x_min": -5.800000001094304,
+              "y_max": 5.8000000024225065,
+              "y_min": -5.80000000201153,
+              "z_max": 22.460044961611857,
+              "z_min": 3.6399550467031077
+            },
+            "is_valid": true,
+            "volume_mm3": 136.4373988077555
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 11.0,
+              "y_min": -11.0,
+              "z_max": 15.000000000000002,
+              "z_min": -2.4424906541753444e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 2348.152012999155
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "Pocket001",
+      "name": "Pocket001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 11.000000000000004,
+              "y_min": -11.0,
+              "z_max": 15.000000000000004,
+              "z_min": -1.22999268989065e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 1740.0548669948023
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket002": {
+      "label": "Pocket002",
+      "name": "Pocket002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 11.000000000000004,
+              "y_min": -11.0,
+              "z_max": 15.000000000000004,
+              "z_min": -1.22999268989065e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 1690.9072067830202
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket003": {
+      "label": "Pocket003",
+      "name": "Pocket003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 7.0,
+              "x_min": -7.0,
+              "y_max": 6.999999999999995,
+              "y_min": -7.000000000000005,
+              "z_max": 26.0,
+              "z_min": 10.999999999999998
+            },
+            "is_valid": true,
+            "volume_mm3": 981.9440537876599
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket004": {
+      "label": "Pocket004",
+      "name": "Pocket004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 7.0,
+              "x_min": -7.0,
+              "y_max": 6.999999999999995,
+              "y_min": -7.000000000000005,
+              "z_max": 26.0,
+              "z_min": 10.999999999999998
+            },
+            "is_valid": true,
+            "volume_mm3": 804.7016829163686
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "PolarPattern": {
+      "label": "PolarPattern",
+      "name": "PolarPattern",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 11.0,
+              "y_min": -11.0,
+              "z_max": 15.000000000000002,
+              "z_min": -2.4424906541753444e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 2237.8009530479353
+          }
+        }
+      ],
+      "type_id": "PartDesign::PolarPattern"
+    },
+    "PolarPattern001": {
+      "label": "PolarPattern001",
+      "name": "PolarPattern001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 11.000000000000004,
+              "y_min": -11.0,
+              "z_max": 17.625512393280005,
+              "z_min": -1.5000000000000007
+            },
+            "is_valid": true,
+            "volume_mm3": 1510.9319010809463
+          }
+        }
+      ],
+      "type_id": "PartDesign::PolarPattern"
+    },
+    "PolarPattern002": {
+      "label": "PolarPattern002",
+      "name": "PolarPattern002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 7.0,
+              "x_min": -7.0,
+              "y_max": 6.999999999999995,
+              "y_min": -7.000000000000005,
+              "z_max": 29.758845769893924,
+              "z_min": 10.999999999999998
+            },
+            "is_valid": true,
+            "volume_mm3": 660.963188805903
+          }
+        }
+      ],
+      "type_id": "PartDesign::PolarPattern"
+    },
+    "Revolution": {
+      "label": "Revolution",
+      "name": "Revolution",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 11.0,
+              "y_min": -11.0,
+              "z_max": 15.000000000000002,
+              "z_min": -2.4424906541753444e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 2384.468824074653
+          }
+        }
+      ],
+      "type_id": "PartDesign::Revolution"
+    },
+    "Revolution001": {
+      "label": "Revolution001",
+      "name": "Revolution001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 7.0,
+              "x_min": -7.0,
+              "y_max": 6.999999999999995,
+              "y_min": -7.000000000000005,
+              "z_max": 26.0,
+              "z_min": 10.999999999999998
+            },
+            "is_valid": true,
+            "volume_mm3": 1479.6901398407924
+          }
+        }
+      ],
+      "type_id": "PartDesign::Revolution"
+    },
+    "Sketch003": {
+      "label": "Sketch003",
+      "name": "Sketch003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "is_valid": false
+          }
+        }
+      ],
+      "type_id": "Sketcher::SketchObject"
+    },
+    "SubtractiveHelix": {
+      "label": "SubtractiveHelix",
+      "name": "SubtractiveHelix",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 11.0,
+              "x_min": -11.0,
+              "y_max": 11.000000000000004,
+              "y_min": -11.0,
+              "z_max": 15.999999999916612,
+              "z_min": -1.5
+            },
+            "is_valid": true,
+            "volume_mm3": 1645.9133823068753
+          }
+        }
+      ],
+      "type_id": "PartDesign::SubtractiveHelix"
+    },
+    "SubtractiveHelix001": {
+      "label": "SubtractiveHelix001",
+      "name": "SubtractiveHelix001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 7.0,
+              "x_min": -7.0,
+              "y_max": 6.999999999999995,
+              "y_min": -7.000000000000005,
+              "z_max": 29.758845769893924,
+              "z_min": 10.999999999999998
+            },
+            "is_valid": true,
+            "volume_mm3": 768.7670571619873
+          }
+        }
+      ],
+      "type_id": "PartDesign::SubtractiveHelix"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Bottom",
+      "metrics": {
+        "edge_count": 200,
+        "face_count": 74,
+        "feature_count": 15,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Groove",
+        "vertex_count": 128
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Top",
+      "metrics": {
+        "edge_count": 127,
+        "face_count": 52,
+        "feature_count": 11,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Groove001",
+        "vertex_count": 78
+      },
+      "name": "Body001",
+      "type_id": "PartDesign::Body"
+    },
+    "Body002": {
+      "label": "Spring",
+      "metrics": {
+        "edge_count": 17,
+        "face_count": 10,
+        "feature_count": 2,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "AdditiveHelix",
+        "vertex_count": 9
+      },
+      "name": "Body002",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "AdditiveHelix": {
+      "label": "AdditiveHelix",
+      "metrics": {
+        "edge_count": 17,
+        "face_count": 10,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 9
+      },
+      "name": "AdditiveHelix",
+      "type_id": "PartDesign::AdditiveHelix"
+    },
+    "Chamfer": {
+      "label": "Chamfer",
+      "metrics": {
+        "edge_count": 11,
+        "face_count": 7,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 7
+      },
+      "name": "Chamfer",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Groove": {
+      "label": "Groove",
+      "metrics": {
+        "edge_count": 200,
+        "face_count": 74,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 128
+      },
+      "name": "Groove",
+      "type_id": "PartDesign::Groove"
+    },
+    "Groove001": {
+      "label": "Groove001",
+      "metrics": {
+        "edge_count": 127,
+        "face_count": 52,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 78
+      },
+      "name": "Groove001",
+      "type_id": "PartDesign::Groove"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "metrics": {
+        "edge_count": 9,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 6
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "Pocket001",
+      "metrics": {
+        "edge_count": 29,
+        "face_count": 14,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 18
+      },
+      "name": "Pocket001",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket002": {
+      "label": "Pocket002",
+      "metrics": {
+        "edge_count": 53,
+        "face_count": 21,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 34
+      },
+      "name": "Pocket002",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket003": {
+      "label": "Pocket003",
+      "metrics": {
+        "edge_count": 9,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 6
+      },
+      "name": "Pocket003",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket004": {
+      "label": "Pocket004",
+      "metrics": {
+        "edge_count": 21,
+        "face_count": 10,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 14
+      },
+      "name": "Pocket004",
+      "type_id": "PartDesign::Pocket"
+    },
+    "PolarPattern": {
+      "label": "PolarPattern",
+      "metrics": {
+        "edge_count": 26,
+        "face_count": 13,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 16
+      },
+      "name": "PolarPattern",
+      "type_id": "PartDesign::PolarPattern"
+    },
+    "PolarPattern001": {
+      "label": "PolarPattern001",
+      "metrics": {
+        "edge_count": 199,
+        "face_count": 74,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 127
+      },
+      "name": "PolarPattern001",
+      "type_id": "PartDesign::PolarPattern"
+    },
+    "PolarPattern002": {
+      "label": "PolarPattern002",
+      "metrics": {
+        "edge_count": 126,
+        "face_count": 50,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 79
+      },
+      "name": "PolarPattern002",
+      "type_id": "PartDesign::PolarPattern"
+    },
+    "Revolution": {
+      "label": "Revolution",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 5,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Revolution",
+      "type_id": "PartDesign::Revolution"
+    },
+    "Revolution001": {
+      "label": "Revolution001",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 5,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Revolution001",
+      "type_id": "PartDesign::Revolution"
+    },
+    "SubtractiveHelix": {
+      "label": "SubtractiveHelix",
+      "metrics": {
+        "edge_count": 87,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 56
+      },
+      "name": "SubtractiveHelix",
+      "type_id": "PartDesign::SubtractiveHelix"
+    },
+    "SubtractiveHelix001": {
+      "label": "SubtractiveHelix001",
+      "metrics": {
+        "edge_count": 48,
+        "face_count": 20,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 31
+      },
+      "name": "SubtractiveHelix001",
+      "type_id": "PartDesign::SubtractiveHelix"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch001",
+      "metrics": {
+        "constraint_count": 17,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 6,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "Sketch002",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch003": {
+      "label": "Sketch003",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": false,
+        "solver_status": 0
+      },
+      "name": "Sketch003",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch004": {
+      "label": "Sketch004",
+      "metrics": {
+        "constraint_count": 13,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 5,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch004",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch005": {
+      "label": "Sketch005",
+      "metrics": {
+        "constraint_count": 18,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 6,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch005",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch006": {
+      "label": "Sketch006",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch006",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch007": {
+      "label": "Sketch007",
+      "metrics": {
+        "constraint_count": 13,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 5,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch007",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch008": {
+      "label": "ISO 2904",
+      "metrics": {
+        "constraint_count": 23,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 8,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch008",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch009": {
+      "label": "Sketch009",
+      "metrics": {
+        "constraint_count": 18,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 6,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch009",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch010": {
+      "label": "Sketch010",
+      "metrics": {
+        "constraint_count": 23,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 8,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch010",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch011": {
+      "label": "Sketch011",
+      "metrics": {
+        "constraint_count": 18,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 6,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch011",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-16T03:41:21.238277+00:00",
+    "document_label": "T8_antibacklash_nut",
+    "document_name": "T8_antibacklash_nut",
+    "freecad_version": "0.20.2 29603 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\T8_antibacklash_nut.FCStd"
+  }
+}
