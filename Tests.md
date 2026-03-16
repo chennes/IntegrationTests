@@ -13,3 +13,7 @@
 | ArchDetail.FCStd              | 2026-02-15 | 1.2-dev                  | ArchDetail example file                                  |
 | AssemblyExample.FCStd         | 2026-02-15 | 1.2-dev                  | Assembly Example file                                    |
 | BIMExample.FCStd              | 2026-02-15 | 1.2-dev                  | BIM Example file                                         |
+| Duct_linear_rectangular_complete.FCStd | 2026-03-15 | 1.0 | HVAC duct with TechDraw, Spreadsheet, Materials, Part booleans |
+| Precast_Beam_for_Slabs_BIM_Parametric.FCStd | 2026-03-15 | 1.0 | BIM parametric beam with Spreadsheet-driven dimensions   |
+| Hirth-joint-generator.FCStd   | 2026-03-15 | 0.20                     | Complex Hirth joint with Spreadsheet parameters          |
+| Parametric_LiPo.FCStd         | 2026-03-15 | 0.21                     | Parametric LiPo battery with App::Part and Spreadsheet   |

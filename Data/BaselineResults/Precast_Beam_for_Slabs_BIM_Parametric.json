@@ -1,0 +1,1528 @@
+{
+  "objects": {
+    "Array004": {
+      "label": "Array004",
+      "name": "Array004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": 1.7763568394002505e-15,
+              "y_min": -198.49894689187653,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.8240581728305
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -400.0,
+              "y_min": -598.4989468918765,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.8240581728305
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -800.0,
+              "y_min": -998.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 4,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -1200.0,
+              "y_min": -1398.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172828
+          }
+        },
+        {
+          "index": 5,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -1600.0,
+              "y_min": -1798.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        }
+      ],
+      "type_id": "Part::FeaturePython"
+    },
+    "Array005": {
+      "label": "Array005",
+      "name": "Array005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -201.5010531081235,
+              "y_min": -400.00000000000006,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172831
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -601.5010531081234,
+              "y_min": -800.0,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1001.5010531081234,
+              "y_min": -1200.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172831
+          }
+        },
+        {
+          "index": 4,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1401.5010531081234,
+              "y_min": -1600.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 5,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1801.5010531081234,
+              "y_min": -2000.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        }
+      ],
+      "type_id": "Part::FeaturePython"
+    },
+    "Body008": {
+      "label": "Banzo_Inf_003",
+      "name": "Body008",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -42.5,
+              "x_min": -47.5,
+              "y_max": 5.551115123125783e-16,
+              "y_min": -2000.0,
+              "z_max": 2.5000000000004547,
+              "z_min": -2.5
+            },
+            "is_valid": true,
+            "volume_mm3": 39269.908169872426
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body009": {
+      "label": "Banzo_Inf_004",
+      "name": "Body009",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 47.5,
+              "x_min": 42.5,
+              "y_max": 8.326672684688674e-16,
+              "y_min": -2000.0,
+              "z_max": 2.500000000000682,
+              "z_min": -2.5
+            },
+            "is_valid": true,
+            "volume_mm3": 39269.908169872426
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body010": {
+      "label": "Banzo_sup001",
+      "name": "Body010",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.0,
+              "x_min": -3.0,
+              "y_max": 2.7644553313166398e-14,
+              "y_min": -2000.0,
+              "z_max": 83.00000000000068,
+              "z_min": 77.0
+            },
+            "is_valid": true,
+            "volume_mm3": 56548.667764616286
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body011": {
+      "label": "Diagonal_002",
+      "name": "Body011",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": 1.7763568394002505e-15,
+              "y_min": -198.49894689187653,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.8240581728305
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body012": {
+      "label": "Base002",
+      "name": "Body012",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 72.5,
+              "x_min": -72.5,
+              "y_max": 0.0,
+              "y_min": -1999.9999999999998,
+              "z_max": 13.75,
+              "z_min": -13.75
+            },
+            "is_valid": true,
+            "volume_mm3": 7974999.999999998
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Chamfer001": {
+      "label": "Chamfer001",
+      "name": "Chamfer001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.62618844843968,
+              "x_min": -1.5205913269088187,
+              "y_max": -1.1102230246251565e-15,
+              "y_min": -198.49817600907514,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479502
+            },
+            "is_valid": true,
+            "volume_mm3": 2935.629310542486
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Clone001": {
+      "label": "Compound003",
+      "name": "Clone001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.626188448439684,
+              "y_max": -201.5010531081235,
+              "y_min": -400.0,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        }
+      ],
+      "type_id": "Part::FeaturePython"
+    },
+    "Component003": {
+      "label": "Trelica_Gerdau_",
+      "name": "Component003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 72.5,
+              "x_min": -72.5,
+              "y_max": 0.0,
+              "y_min": -1999.9999999999998,
+              "z_max": 13.75,
+              "z_min": -13.75
+            },
+            "is_valid": true,
+            "volume_mm3": 7974999.999999998
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.0,
+              "x_min": -3.0,
+              "y_max": 2.7644553313166398e-14,
+              "y_min": -2000.0,
+              "z_max": 83.00000000000068,
+              "z_min": 77.0
+            },
+            "is_valid": true,
+            "volume_mm3": 56548.667764616286
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 47.5,
+              "x_min": 42.5,
+              "y_max": 8.326672684688674e-16,
+              "y_min": -2000.0,
+              "z_max": 2.500000000000682,
+              "z_min": -2.5
+            },
+            "is_valid": true,
+            "volume_mm3": 39269.908169872426
+          }
+        },
+        {
+          "index": 4,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -42.5,
+              "x_min": -47.5,
+              "y_max": 5.551115123125783e-16,
+              "y_min": -2000.0,
+              "z_max": 2.5000000000004547,
+              "z_min": -2.5
+            },
+            "is_valid": true,
+            "volume_mm3": 39269.908169872426
+          }
+        },
+        {
+          "index": 5,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": 1.7763568394002505e-15,
+              "y_min": -198.49894689187653,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.8240581728305
+          }
+        },
+        {
+          "index": 6,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -400.0,
+              "y_min": -598.4989468918765,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.8240581728305
+          }
+        },
+        {
+          "index": 7,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -800.0,
+              "y_min": -998.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 8,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -1200.0,
+              "y_min": -1398.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172828
+          }
+        },
+        {
+          "index": 9,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -1600.0,
+              "y_min": -1798.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 10,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -201.5010531081235,
+              "y_min": -400.00000000000006,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172831
+          }
+        },
+        {
+          "index": 11,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -601.5010531081234,
+              "y_min": -800.0,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 12,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1001.5010531081234,
+              "y_min": -1200.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172831
+          }
+        },
+        {
+          "index": 13,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1401.5010531081234,
+              "y_min": -1600.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 14,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1801.5010531081234,
+              "y_min": -2000.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        }
+      ],
+      "type_id": "Part::FeaturePython"
+    },
+    "Compound003": {
+      "label": "Compound004",
+      "name": "Compound003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 72.5,
+              "x_min": -72.5,
+              "y_max": 0.0,
+              "y_min": -1999.9999999999998,
+              "z_max": 13.75,
+              "z_min": -13.75
+            },
+            "is_valid": true,
+            "volume_mm3": 7974999.999999998
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.0,
+              "x_min": -3.0,
+              "y_max": 2.7644553313166398e-14,
+              "y_min": -2000.0,
+              "z_max": 83.00000000000068,
+              "z_min": 77.0
+            },
+            "is_valid": true,
+            "volume_mm3": 56548.667764616286
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 47.5,
+              "x_min": 42.5,
+              "y_max": 8.326672684688674e-16,
+              "y_min": -2000.0,
+              "z_max": 2.500000000000682,
+              "z_min": -2.5
+            },
+            "is_valid": true,
+            "volume_mm3": 39269.908169872426
+          }
+        },
+        {
+          "index": 4,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -42.5,
+              "x_min": -47.5,
+              "y_max": 5.551115123125783e-16,
+              "y_min": -2000.0,
+              "z_max": 2.5000000000004547,
+              "z_min": -2.5
+            },
+            "is_valid": true,
+            "volume_mm3": 39269.908169872426
+          }
+        },
+        {
+          "index": 5,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": 1.7763568394002505e-15,
+              "y_min": -198.49894689187653,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.8240581728305
+          }
+        },
+        {
+          "index": 6,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -400.0,
+              "y_min": -598.4989468918765,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.8240581728305
+          }
+        },
+        {
+          "index": 7,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -800.0,
+              "y_min": -998.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 8,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -1200.0,
+              "y_min": -1398.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172828
+          }
+        },
+        {
+          "index": 9,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -1600.0,
+              "y_min": -1798.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 10,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -201.5010531081235,
+              "y_min": -400.00000000000006,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172831
+          }
+        },
+        {
+          "index": 11,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -601.5010531081234,
+              "y_min": -800.0,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 12,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1001.5010531081234,
+              "y_min": -1200.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172831
+          }
+        },
+        {
+          "index": 13,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1401.5010531081234,
+              "y_min": -1600.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 14,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1801.5010531081234,
+              "y_min": -2000.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        }
+      ],
+      "type_id": "Part::Compound"
+    },
+    "Compound004": {
+      "label": "Compound005",
+      "name": "Compound004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": 1.7763568394002505e-15,
+              "y_min": -198.49894689187653,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.8240581728305
+          }
+        }
+      ],
+      "type_id": "Part::Compound"
+    },
+    "Compound005": {
+      "label": "Trelica_Gerdau",
+      "name": "Compound005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 72.5,
+              "x_min": -72.5,
+              "y_max": 0.0,
+              "y_min": -1999.9999999999998,
+              "z_max": 13.75,
+              "z_min": -13.75
+            },
+            "is_valid": true,
+            "volume_mm3": 7974999.999999998
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.0,
+              "x_min": -3.0,
+              "y_max": 2.7644553313166398e-14,
+              "y_min": -2000.0,
+              "z_max": 83.00000000000068,
+              "z_min": 77.0
+            },
+            "is_valid": true,
+            "volume_mm3": 56548.667764616286
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 47.5,
+              "x_min": 42.5,
+              "y_max": 8.326672684688674e-16,
+              "y_min": -2000.0,
+              "z_max": 2.500000000000682,
+              "z_min": -2.5
+            },
+            "is_valid": true,
+            "volume_mm3": 39269.908169872426
+          }
+        },
+        {
+          "index": 4,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -42.5,
+              "x_min": -47.5,
+              "y_max": 5.551115123125783e-16,
+              "y_min": -2000.0,
+              "z_max": 2.5000000000004547,
+              "z_min": -2.5
+            },
+            "is_valid": true,
+            "volume_mm3": 39269.908169872426
+          }
+        },
+        {
+          "index": 5,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": 1.7763568394002505e-15,
+              "y_min": -198.49894689187653,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.8240581728305
+          }
+        },
+        {
+          "index": 6,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -400.0,
+              "y_min": -598.4989468918765,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.8240581728305
+          }
+        },
+        {
+          "index": 7,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -800.0,
+              "y_min": -998.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 8,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -1200.0,
+              "y_min": -1398.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172828
+          }
+        },
+        {
+          "index": 9,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439684,
+              "x_min": -46.6261884484397,
+              "y_max": -1600.0,
+              "y_min": -1798.4989468918766,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 10,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -201.5010531081235,
+              "y_min": -400.00000000000006,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172831
+          }
+        },
+        {
+          "index": 11,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -601.5010531081234,
+              "y_min": -800.0,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 12,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1001.5010531081234,
+              "y_min": -1200.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.824058172831
+          }
+        },
+        {
+          "index": 13,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1401.5010531081234,
+              "y_min": -1600.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        },
+        {
+          "index": 14,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.626188448439706,
+              "x_min": -46.62618844843968,
+              "y_max": -1801.5010531081234,
+              "y_min": -2000.0000000000002,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        }
+      ],
+      "type_id": "Part::Compound"
+    },
+    "Mirrored002": {
+      "label": "Mirrored002",
+      "name": "Mirrored002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.62618844843968,
+              "x_min": -46.62618844843969,
+              "y_max": 0.0,
+              "y_min": -198.49894689187653,
+              "z_max": 81.00514556499326,
+              "z_min": -1.1928737810479642
+            },
+            "is_valid": true,
+            "volume_mm3": 5868.82405817283
+          }
+        }
+      ],
+      "type_id": "PartDesign::Mirrored"
+    },
+    "Pad008": {
+      "label": "Pad008",
+      "name": "Pad008",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -42.5,
+              "x_min": -47.5,
+              "y_max": 5.551115123125783e-16,
+              "y_min": -2000.0,
+              "z_max": 2.500000000000444,
+              "z_min": -2.5
+            },
+            "is_valid": true,
+            "volume_mm3": 39269.908169872426
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad009": {
+      "label": "Pad009",
+      "name": "Pad009",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 47.5,
+              "x_min": 42.5,
+              "y_max": 8.326672684688674e-16,
+              "y_min": -2000.0,
+              "z_max": 2.500000000000666,
+              "z_min": -2.5
+            },
+            "is_valid": true,
+            "volume_mm3": 39269.908169872426
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad010": {
+      "label": "Pad010",
+      "name": "Pad010",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.0,
+              "x_min": -3.0,
+              "y_max": 2.7644553313166398e-14,
+              "y_min": -2000.0,
+              "z_max": 83.00000000000067,
+              "z_min": 77.0
+            },
+            "is_valid": true,
+            "volume_mm3": 56548.66776461627
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad011": {
+      "label": "Pad011",
+      "name": "Pad011",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 47.05562300961694,
+              "x_min": -1.5205913269088187,
+              "y_max": 0.8759300684245658,
+              "y_min": -198.49817600907514,
+              "z_max": 81.00514556499326,
+              "z_min": -1.956313000918629
+            },
+            "is_valid": true,
+            "volume_mm3": 2955.1794590395502
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad012": {
+      "label": "Pad012",
+      "name": "Pad012",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 72.5,
+              "x_min": -72.5,
+              "y_max": 0.0,
+              "y_min": -1999.9999999999998,
+              "z_max": 13.75,
+              "z_min": -13.75
+            },
+            "is_valid": true,
+            "volume_mm3": 7974999.999999998
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    }
+  },
+  "part_features": {
+    "Array004": {
+      "label": "Array004",
+      "metrics": {
+        "edge_count": 65,
+        "face_count": 25,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 40
+      },
+      "name": "Array004",
+      "type_id": "Part::FeaturePython"
+    },
+    "Array005": {
+      "label": "Array005",
+      "metrics": {
+        "edge_count": 65,
+        "face_count": 25,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 40
+      },
+      "name": "Array005",
+      "type_id": "Part::FeaturePython"
+    },
+    "Clone001": {
+      "label": "Compound003",
+      "metrics": {
+        "edge_count": 13,
+        "face_count": 5,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Clone001",
+      "type_id": "Part::FeaturePython"
+    },
+    "Component003": {
+      "label": "Trelica_Gerdau_",
+      "metrics": {
+        "edge_count": 151,
+        "face_count": 65,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 94
+      },
+      "name": "Component003",
+      "type_id": "Part::FeaturePython"
+    },
+    "Compound003": {
+      "label": "Compound004",
+      "metrics": {
+        "edge_count": 151,
+        "face_count": 65,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 94
+      },
+      "name": "Compound003",
+      "type_id": "Part::Compound"
+    },
+    "Compound004": {
+      "label": "Compound005",
+      "metrics": {
+        "edge_count": 13,
+        "face_count": 5,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Compound004",
+      "type_id": "Part::Compound"
+    },
+    "Compound005": {
+      "label": "Trelica_Gerdau",
+      "metrics": {
+        "edge_count": 151,
+        "face_count": 65,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 94
+      },
+      "name": "Compound005",
+      "type_id": "Part::Compound"
+    }
+  },
+  "partdesign_bodies": {
+    "Body008": {
+      "label": "Banzo_Inf_003",
+      "metrics": {
+        "edge_count": 3,
+        "face_count": 3,
+        "feature_count": 2,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad008",
+        "vertex_count": 2
+      },
+      "name": "Body008",
+      "type_id": "PartDesign::Body"
+    },
+    "Body009": {
+      "label": "Banzo_Inf_004",
+      "metrics": {
+        "edge_count": 3,
+        "face_count": 3,
+        "feature_count": 2,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad009",
+        "vertex_count": 2
+      },
+      "name": "Body009",
+      "type_id": "PartDesign::Body"
+    },
+    "Body010": {
+      "label": "Banzo_sup001",
+      "metrics": {
+        "edge_count": 3,
+        "face_count": 3,
+        "feature_count": 3,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad010",
+        "vertex_count": 2
+      },
+      "name": "Body010",
+      "type_id": "PartDesign::Body"
+    },
+    "Body011": {
+      "label": "Diagonal_002",
+      "metrics": {
+        "edge_count": 13,
+        "face_count": 5,
+        "feature_count": 7,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Mirrored002",
+        "vertex_count": 8
+      },
+      "name": "Body011",
+      "type_id": "PartDesign::Body"
+    },
+    "Body012": {
+      "label": "Base002",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "feature_count": 2,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad012",
+        "vertex_count": 8
+      },
+      "name": "Body012",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "Chamfer001": {
+      "label": "Chamfer001",
+      "metrics": {
+        "edge_count": 5,
+        "face_count": 3,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 3
+      },
+      "name": "Chamfer001",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "DatumPlane003": {
+      "label": "DatumPlane003",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane003",
+      "type_id": "PartDesign::Plane"
+    },
+    "DatumPlane004": {
+      "label": "DatumPlane004",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane004",
+      "type_id": "PartDesign::Plane"
+    },
+    "DatumPlane005": {
+      "label": "DatumPlane005",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane005",
+      "type_id": "PartDesign::Plane"
+    },
+    "Mirrored002": {
+      "label": "Mirrored002",
+      "metrics": {
+        "edge_count": 13,
+        "face_count": 5,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 8
+      },
+      "name": "Mirrored002",
+      "type_id": "PartDesign::Mirrored"
+    },
+    "Pad008": {
+      "label": "Pad008",
+      "metrics": {
+        "edge_count": 3,
+        "face_count": 3,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 2
+      },
+      "name": "Pad008",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad009": {
+      "label": "Pad009",
+      "metrics": {
+        "edge_count": 3,
+        "face_count": 3,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 2
+      },
+      "name": "Pad009",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad010": {
+      "label": "Pad010",
+      "metrics": {
+        "edge_count": 3,
+        "face_count": 3,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 2
+      },
+      "name": "Pad010",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad011": {
+      "label": "Pad011",
+      "metrics": {
+        "edge_count": 3,
+        "face_count": 3,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 2
+      },
+      "name": "Pad011",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad012": {
+      "label": "Pad012",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 8
+      },
+      "name": "Pad012",
+      "type_id": "PartDesign::Pad"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch010": {
+      "label": "Trelica001",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch010",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch011": {
+      "label": "Sketch011",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch011",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch012": {
+      "label": "Sketch012",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch012",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch013": {
+      "label": "Sketch013",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 2,
+        "fully_constrained": true,
+        "geometry_count": 3,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch013",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch014": {
+      "label": "Sketch014",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch014",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch015": {
+      "label": "Sketch015",
+      "metrics": {
+        "constraint_count": 12,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 4,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch015",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-16T01:47:15.117875+00:00",
+    "document_label": "Precast_Beam_for_Slabs_BIM_Parametric",
+    "document_name": "Precast_Beam_for_Slabs_BIM_Parametric",
+    "freecad_version": "1.0.2 39320 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Precast_Beam_for_Slabs_BIM_Parametric.FCStd"
+  },
+  "spreadsheets": {
+    "Spreadsheet005": {
+      "label": "Gerdau_Models",
+      "metrics": {
+        "cell_count": 88,
+        "is_valid": true
+      },
+      "name": "Spreadsheet005",
+      "type_id": "Spreadsheet::Sheet"
+    },
+    "Spreadsheet006": {
+      "label": "Dimentions",
+      "metrics": {
+        "cell_count": 4,
+        "is_valid": true
+      },
+      "name": "Spreadsheet006",
+      "type_id": "Spreadsheet::Sheet"
+    }
+  }
+}
