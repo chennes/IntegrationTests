@@ -17,3 +17,5 @@
 | Precast_Beam_for_Slabs_BIM_Parametric.FCStd | 2026-03-15 | 1.0 | BIM parametric beam with Spreadsheet-driven dimensions   |
 | Hirth-joint-generator.FCStd   | 2026-03-15 | 0.20                     | Complex Hirth joint with Spreadsheet parameters          |
 | Parametric_LiPo.FCStd         | 2026-03-15 | 0.21                     | Parametric LiPo battery with App::Part and Spreadsheet   |
+| Profile_Bosch_30x30mm.FCStd   | 2026-03-15 | 0.17                     | Extruded aluminium profile with BSpline sketch geometry  |
+| Googly_eyes.FCStd             | 2026-03-15 | 0.21                     | Parametric googly eyes with Ellipse sketch geometry      |
