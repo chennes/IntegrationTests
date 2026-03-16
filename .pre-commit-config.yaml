@@ -7,7 +7,6 @@ repos:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
     -   id: check-yaml
-    -   id: check-added-large-files
     -   id: mixed-line-ending
 -   repo: https://github.com/psf/black
     rev: 8a737e727ac5ab2f1d4cf5876720ed276dc8dc4b  # frozen: 25.1.0

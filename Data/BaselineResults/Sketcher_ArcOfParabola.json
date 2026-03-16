@@ -1,0 +1,116 @@
+{
+  "objects": {
+    "AdditivePipe": {
+      "label": "AdditivePipe",
+      "name": "AdditivePipe",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 76.8780032317366,
+              "x_min": -76.87800323160934,
+              "y_max": 36.77749816834552,
+              "y_min": -26.678819444444375,
+              "z_max": 2.85016857486853,
+              "z_min": -2.8501685748684715
+            },
+            "is_valid": true,
+            "volume_mm3": 2453.656727461893
+          }
+        }
+      ],
+      "type_id": "PartDesign::AdditivePipe"
+    },
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 76.8780032317366,
+              "x_min": -76.87800323160934,
+              "y_max": 36.77749816834552,
+              "y_min": -26.678819444444375,
+              "z_max": 2.85016857486853,
+              "z_min": -2.8501685748684715
+            },
+            "is_valid": true,
+            "volume_mm3": 2453.656727461893
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "feature_count": 3,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "AdditivePipe",
+        "vertex_count": 6
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "AdditivePipe": {
+      "label": "AdditivePipe",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 6
+      },
+      "name": "AdditivePipe",
+      "type_id": "PartDesign::AdditivePipe"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch",
+      "metrics": {
+        "constraint_count": 17,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 8,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch001",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-16T02:24:18.513654+00:00",
+    "document_label": "Sketcher_ArcOfParabola",
+    "document_name": "Sketcher_ArcOfParabola",
+    "freecad_version": "1.1.0 44609 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Sketcher_ArcOfParabola.FCStd"
+  }
+}

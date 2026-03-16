@@ -1,0 +1,569 @@
+{
+  "app_parts": {
+    "Part": {
+      "label": "Part",
+      "metrics": {
+        "child_count": 6,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 16.760000000000037,
+              "x_min": -16.76000000000003,
+              "y_max": 3.9350000000005823,
+              "y_min": -3.9349999999994547,
+              "z_max": 3.552713678800501e-14,
+              "z_min": -5.475000000000033
+            },
+            "is_valid": true,
+            "volume_mm3": 74.83129044228976
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Body001",
+      "name": "Body001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "is_valid": false
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "LinearPattern": {
+      "label": "LinearPattern",
+      "name": "LinearPattern",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "is_valid": false
+          }
+        }
+      ],
+      "type_id": "PartDesign::LinearPattern"
+    },
+    "Mirrored": {
+      "label": "Mirrored",
+      "name": "Mirrored",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "is_valid": false
+          }
+        }
+      ],
+      "type_id": "PartDesign::Mirrored"
+    },
+    "MultiTransform": {
+      "label": "MultiTransform",
+      "name": "MultiTransform",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 16.760000000000012,
+              "x_min": -16.760000000000005,
+              "y_max": 3.9350000000005756,
+              "y_min": -3.9349999999994507,
+              "z_max": 1.6542323066914832e-14,
+              "z_min": -5.4750000000000245
+            },
+            "is_valid": true,
+            "volume_mm3": 74.83129044228932
+          }
+        }
+      ],
+      "type_id": "PartDesign::MultiTransform"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 16.760000000000005,
+              "x_min": -16.76,
+              "y_max": 3.9350000000005716,
+              "y_min": -3.9349999999994454,
+              "z_max": 1.3711254354120683e-14,
+              "z_min": -5.475000000000016
+            },
+            "is_valid": true,
+            "volume_mm3": 148.73040278133283
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad001",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 17.5,
+              "x_min": -17.5,
+              "y_max": 3.1750000000000083,
+              "y_min": -3.1750000000000087,
+              "z_max": 1.7850000000000092,
+              "z_min": -1.785000000000009
+            },
+            "is_valid": true,
+            "volume_mm3": 773.9194003139944
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Part": {
+      "label": "Part",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "is_valid": false
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 16.760000000000012,
+              "x_min": -16.760000000000005,
+              "y_max": 3.9350000000005756,
+              "y_min": -3.9349999999994507,
+              "z_max": 1.6542323066914832e-14,
+              "z_min": -5.47500000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 145.8881292298296
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "Pocket001",
+      "name": "Pocket001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 17.500000000000007,
+              "x_min": -17.500000000000004,
+              "y_max": 3.175000000000016,
+              "y_min": -3.175000000000013,
+              "z_max": 1.7850000000000124,
+              "z_min": -1.7850000000000124
+            },
+            "is_valid": true,
+            "volume_mm3": 772.2073273643422
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket002": {
+      "label": "Pocket002",
+      "name": "Pocket002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 17.50000000000001,
+              "x_min": -17.500000000000007,
+              "y_max": 3.1750000000000203,
+              "y_min": -3.175000000000018,
+              "z_max": 1.7850000000000203,
+              "z_min": -1.7850000000000157
+            },
+            "is_valid": true,
+            "volume_mm3": 771.186309751926
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket003": {
+      "label": "Pocket003",
+      "name": "Pocket003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 17.500000000000014,
+              "x_min": -17.50000000000001,
+              "y_max": 3.1750000000000242,
+              "y_min": -3.1750000000000225,
+              "z_max": 1.7850000000000255,
+              "z_min": -1.7850000000000186
+            },
+            "is_valid": true,
+            "volume_mm3": 769.5483775901246
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket004": {
+      "label": "Pocket004",
+      "name": "Pocket004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "is_valid": false
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 1284,
+        "face_count": 430,
+        "feature_count": 8,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "MultiTransform",
+        "vertex_count": 856
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Body001",
+      "metrics": {
+        "feature_count": 10,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket004"
+      },
+      "name": "Body001",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "DatumPlane": {
+      "label": "DatumPlane",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane",
+      "type_id": "PartDesign::Plane"
+    },
+    "LinearPattern": {
+      "label": "LinearPattern",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "LinearPattern",
+      "type_id": "PartDesign::LinearPattern"
+    },
+    "Mirrored": {
+      "label": "Mirrored",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "Mirrored",
+      "type_id": "PartDesign::Mirrored"
+    },
+    "MultiTransform": {
+      "label": "MultiTransform",
+      "metrics": {
+        "edge_count": 1284,
+        "face_count": 430,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 856
+      },
+      "name": "MultiTransform",
+      "type_id": "PartDesign::MultiTransform"
+    },
+    "Pad": {
+      "label": "Pad",
+      "metrics": {
+        "edge_count": 36,
+        "face_count": 14,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 24
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad001",
+      "metrics": {
+        "edge_count": 18,
+        "face_count": 8,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 12
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket",
+      "metrics": {
+        "edge_count": 84,
+        "face_count": 30,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 56
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "Pocket001",
+      "metrics": {
+        "edge_count": 19,
+        "face_count": 9,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 12
+      },
+      "name": "Pocket001",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket002": {
+      "label": "Pocket002",
+      "metrics": {
+        "edge_count": 25,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 16
+      },
+      "name": "Pocket002",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket003": {
+      "label": "Pocket003",
+      "metrics": {
+        "edge_count": 34,
+        "face_count": 17,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 22
+      },
+      "name": "Pocket003",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket004": {
+      "label": "Pocket004",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "Pocket004",
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch",
+      "metrics": {
+        "constraint_count": 31,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 13,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch001",
+      "metrics": {
+        "constraint_count": 32,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 12,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "Sketch002",
+      "metrics": {
+        "constraint_count": 18,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 7,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch003": {
+      "label": "Sketch003",
+      "metrics": {
+        "constraint_count": 17,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 6,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch003",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch004": {
+      "label": "Sketch004",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch004",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch006": {
+      "label": "Sketch006",
+      "metrics": {
+        "constraint_count": 211,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 211,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch006",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch007": {
+      "label": "Sketch007",
+      "metrics": {
+        "constraint_count": 53,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 53,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch007",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch008": {
+      "label": "Sketch008",
+      "metrics": {
+        "constraint_count": 55,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 55,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch008",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch009": {
+      "label": "Sketch009",
+      "metrics": {
+        "constraint_count": 319,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 319,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch009",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch010": {
+      "label": "Sketch010",
+      "metrics": {
+        "constraint_count": 8,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 3,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch010",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch011": {
+      "label": "Sketch011",
+      "metrics": {
+        "constraint_count": 319,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 319,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch011",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-16T03:29:41.668402+00:00",
+    "document_label": "ATMEGA328P",
+    "document_name": "ATMEGA328P",
+    "freecad_version": "0.20.2 29603 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\ATMEGA328P.FCStd"
+  }
+}

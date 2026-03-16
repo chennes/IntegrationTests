@@ -19,3 +19,8 @@
 | Parametric_LiPo.FCStd         | 2026-03-15 | 0.21                     | Parametric LiPo battery with App::Part and Spreadsheet   |
 | Profile_Bosch_30x30mm.FCStd   | 2026-03-15 | 0.17                     | Extruded aluminium profile with BSpline sketch geometry  |
 | Googly_eyes.FCStd             | 2026-03-15 | 0.21                     | Parametric googly eyes with Ellipse sketch geometry      |
+| Sketcher_ArcOfEllipse.FCStd   | 2026-03-15 | 1.1                      | ArcOfEllipse sketch geometry                             |
+| Sketcher_ArcOfParabola.FCStd  | 2026-03-15 | 1.1                      | ArcOfParabola sketch geometry                            |
+| Sketcher_ArcOfHyperbola.FCStd | 2026-03-15 | 1.1                      | ArcOfHyperbola sketch geometry                           |
+| Profile_40x80L_Slot8.FCStd   | 2026-03-15 | 1.0                      | Aluminium profile with Block and Weight constraints      |
+| ATMEGA328P.FCStd             | 2026-03-15 | 0.18                     | Stress test: IC package with 1066 constraints, 999 geometry elements |
