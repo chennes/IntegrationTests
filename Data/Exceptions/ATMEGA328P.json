@@ -1,0 +1,11 @@
+{
+  "rules": [
+    {
+      "section": "*",
+      "object_pattern": "Part",
+      "metric_pattern": "missing_in_baseline",
+      "description": "App::Part container produces a solid entry in FreeCAD 1.2+ but not in 0.20.2 where the baseline was generated",
+      "added": "2026-03-16"
+    }
+  ]
+}

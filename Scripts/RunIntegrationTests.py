@@ -325,6 +325,13 @@ def compare_individual_metrics(
                 reason="ok" if ok else f"{metric}_mismatch",
             )
         ]
+    # A baseline value of -1 for int metrics is a sentinel meaning "not reported by this FreeCAD
+    # version" (e.g. Sketcher DoF was unavailable before 0.21, Spreadsheet cell_count before 1.0).
+    # Skip the comparison rather than flag a false mismatch.
+    if isinstance(baseline, int) and baseline == -1 and isinstance(new, int):
+        return [
+            MetricDiff(key=key, baseline=baseline, new=new, relative_error=0, ok=True, reason="ok")
+        ]
     if not isinstance(baseline, type(new)):
         return [
             MetricDiff(

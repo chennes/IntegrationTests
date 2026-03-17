@@ -10,6 +10,9 @@ on:
     # Run every day at 1am
     - cron: "0 1 * * *"
 
+permissions:
+  issues: write
+
 jobs:
   run_integration_tests:
     runs-on: ubuntu-latest
@@ -99,7 +102,7 @@ jobs:
       run: |
         set +e
         cd ${{ github.workspace }}
-        python3 IntegrationTests/Scripts/RunIntegrationTests.py --freecad FreeCAD/build/${{ env.config }}/bin/FreeCADCmd --script IntegrationTests/Scripts/EvaluateFile.FCMacro --fcstd-dir IntegrationTests/Data/CADFiles/ --baseline-dir IntegrationTests/Data/BaselineResults/ --verbose
+        python3 IntegrationTests/Scripts/RunIntegrationTests.py --freecad FreeCAD/build/${{ env.config }}/bin/FreeCADCmd --script IntegrationTests/Scripts/EvaluateFile.FCMacro --fcstd-dir IntegrationTests/Data/CADFiles/ --baseline-dir IntegrationTests/Data/BaselineResults/ --exceptions-dir IntegrationTests/Data/Exceptions/ --verbose
         rc=$?
         echo "exit_code=$rc" >> "$GITHUB_OUTPUT"
         echo "Integration test exit code: $rc"

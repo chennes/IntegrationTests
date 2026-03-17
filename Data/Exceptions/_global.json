@@ -7,6 +7,22 @@
       "accepted_values": ["Solid"],
       "description": "BIM Wall shape representation changed from Compound to Solid between FreeCAD 1.0 and 1.2",
       "added": "2026-03-13"
+    },
+    {
+      "section": "partdesign_features",
+      "object_pattern": "*",
+      "metric_pattern": "*shape_type*",
+      "accepted_values": ["Compound"],
+      "description": "Some PartDesign features return Compound instead of Solid in FreeCAD 1.2+ due to shape representation changes",
+      "added": "2026-03-16"
+    },
+    {
+      "section": "*",
+      "object_pattern": "*",
+      "metric_pattern": "*is_valid*",
+      "accepted_values": [true],
+      "description": "Shapes that were invalid in older FreeCAD may become valid in newer versions due to OCC and algorithm improvements",
+      "added": "2026-03-16"
     }
   ]
 }
