@@ -1,0 +1,2234 @@
+{
+  "app_parts": {
+    "Part": {
+      "label": "MABA-011095",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 151.714,
+          "x_min": 147.036,
+          "y_max": -97.16499999999999,
+          "y_min": -100.975,
+          "z_max": 3.91,
+          "z_min": 1.05
+        },
+        "child_count": 1,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    },
+    "Part001": {
+      "label": "antenna-pcb 1",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 167.91,
+          "x_min": 135.910001,
+          "y_max": -96.45,
+          "y_min": -102.45,
+          "z_max": 3.91,
+          "z_min": -0.035
+        },
+        "child_count": 38,
+        "is_valid": true
+      },
+      "name": "Part001",
+      "type_id": "App::Part"
+    }
+  },
+  "objects": {
+    "Compound": {
+      "label": "MABA-011094",
+      "name": "Compound",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 1.395,
+              "x_min": -1.395,
+              "y_max": 1.905,
+              "y_min": -1.905,
+              "z_max": 2.86,
+              "z_min": 0.1
+            },
+            "is_valid": true,
+            "volume_mm3": 29.338523999999992
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.339,
+              "x_min": 1.091,
+              "y_max": 1.574,
+              "y_min": 0.966,
+              "z_max": 0.1,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.07587840000000001
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.339,
+              "x_min": 1.091,
+              "y_max": 0.304,
+              "y_min": -0.304,
+              "z_max": 0.1,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.07587840000000001
+          }
+        },
+        {
+          "index": 4,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.339,
+              "x_min": 1.091,
+              "y_max": -0.966,
+              "y_min": -1.574,
+              "z_max": 0.1,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.07587840000000001
+          }
+        },
+        {
+          "index": 5,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -1.091,
+              "x_min": -2.339,
+              "y_max": -0.966,
+              "y_min": -1.574,
+              "z_max": 0.1,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.07587840000000001
+          }
+        },
+        {
+          "index": 6,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -1.091,
+              "x_min": -2.339,
+              "y_max": 1.574,
+              "y_min": 0.966,
+              "z_max": 0.1,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.07587840000000001
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Compound001": {
+      "label": "antenna-pcb_track_10",
+      "name": "Compound001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 156.56,
+              "x_min": 155.56,
+              "y_max": -96.86,
+              "y_min": -98.625,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0532067113465162
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 156.43544335414452,
+              "x_min": 155.68455664585025,
+              "y_max": -99.77021551723901,
+              "y_min": -99.94,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0012288921461899446
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Part": {
+      "label": "MABA-011095",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 150.77,
+              "x_min": 147.98,
+              "y_max": -97.16499999999999,
+              "y_min": -100.975,
+              "z_max": 3.91,
+              "z_min": 1.1500000000000001
+            },
+            "is_valid": true,
+            "volume_mm3": 29.33852400000008
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.284,
+              "x_min": 147.036,
+              "y_max": -100.03599999999999,
+              "y_min": -100.64399999999999,
+              "z_max": 1.1500000000000001,
+              "z_min": 1.05
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0758784
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.284,
+              "x_min": 147.036,
+              "y_max": -98.76599999999999,
+              "y_min": -99.374,
+              "z_max": 1.1500000000000001,
+              "z_min": 1.05
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0758784
+          }
+        },
+        {
+          "index": 4,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.284,
+              "x_min": 147.036,
+              "y_max": -97.496,
+              "y_min": -98.104,
+              "z_max": 1.1500000000000001,
+              "z_min": 1.05
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0758784
+          }
+        },
+        {
+          "index": 5,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 151.714,
+              "x_min": 150.466,
+              "y_max": -97.496,
+              "y_min": -98.104,
+              "z_max": 1.1500000000000001,
+              "z_min": 1.05
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0758784
+          }
+        },
+        {
+          "index": 6,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 151.714,
+              "x_min": 150.466,
+              "y_max": -100.03599999999999,
+              "y_min": -100.64399999999999,
+              "z_max": 1.1500000000000001,
+              "z_min": 1.05
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0758784
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "Part001": {
+      "label": "antenna-pcb 1",
+      "name": "Part001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 150.77,
+              "x_min": 147.98,
+              "y_max": -97.16499999999999,
+              "y_min": -100.975,
+              "z_max": 3.91,
+              "z_min": 1.1500000000000001
+            },
+            "is_valid": true,
+            "volume_mm3": 29.33852400000008
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.284,
+              "x_min": 147.036,
+              "y_max": -100.03599999999999,
+              "y_min": -100.64399999999999,
+              "z_max": 1.1500000000000001,
+              "z_min": 1.05
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0758784
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.284,
+              "x_min": 147.036,
+              "y_max": -98.76599999999999,
+              "y_min": -99.374,
+              "z_max": 1.1500000000000001,
+              "z_min": 1.05
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0758784
+          }
+        },
+        {
+          "index": 4,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.284,
+              "x_min": 147.036,
+              "y_max": -97.496,
+              "y_min": -98.104,
+              "z_max": 1.1500000000000001,
+              "z_min": 1.05
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0758784
+          }
+        },
+        {
+          "index": 5,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 151.714,
+              "x_min": 150.466,
+              "y_max": -97.496,
+              "y_min": -98.104,
+              "z_max": 1.1500000000000001,
+              "z_min": 1.05
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0758784
+          }
+        },
+        {
+          "index": 6,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 151.714,
+              "x_min": 150.466,
+              "y_max": -100.03599999999999,
+              "y_min": -100.64399999999999,
+              "z_max": 1.1500000000000001,
+              "z_min": 1.05
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0758784
+          }
+        },
+        {
+          "index": 7,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.16,
+              "x_min": 147.16,
+              "y_max": -99.84,
+              "y_min": -102.04,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.06948893571891068
+          }
+        },
+        {
+          "index": 8,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 160.090640353095,
+              "x_min": 157.820000345276,
+              "y_max": -99.76935912149,
+              "y_min": -102.039999654724,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.08097364088761977
+          }
+        },
+        {
+          "index": 9,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 164.45835768447,
+              "x_min": 161.36164431552,
+              "y_max": -98.94999999999436,
+              "y_min": -99.95000000000154,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.10255884145722315
+          }
+        },
+        {
+          "index": 10,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 158.820001,
+              "x_min": 147.16,
+              "y_max": -101.04,
+              "y_min": -102.04,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.4005889707189101
+          }
+        },
+        {
+          "index": 11,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 145.560000654724,
+              "x_min": 143.72936012149,
+              "y_max": -97.29999934527599,
+              "y_min": -99.13063935309499,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.05919474528761111
+          }
+        },
+        {
+          "index": 12,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.169999654724,
+              "x_min": 147.059999345276,
+              "y_max": -97.29999934527599,
+              "y_min": -98.409999654724,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.032933676631702685
+          }
+        },
+        {
+          "index": 13,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 142.45835768447,
+              "x_min": 139.36164431553,
+              "y_max": -98.94999999999847,
+              "y_min": -99.95000000000155,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.1025588414573719
+          }
+        },
+        {
+          "index": 14,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.06,
+              "x_min": 144.560001,
+              "y_max": -97.3,
+              "y_min": -98.3,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.11498890071891057
+          }
+        },
+        {
+          "index": 15,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 152.029999654724,
+              "x_min": 150.589999345276,
+              "y_max": -96.859999345276,
+              "y_min": -98.299999654724,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.049267848331695195
+          }
+        },
+        {
+          "index": 16,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 156.56,
+              "x_min": 155.56,
+              "y_max": -96.86,
+              "y_min": -98.625,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0532067113465162
+          }
+        },
+        {
+          "index": 17,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 156.43544335414452,
+              "x_min": 155.68455664585025,
+              "y_max": -99.77021551723901,
+              "y_min": -99.94,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.0012288921461899446
+          }
+        },
+        {
+          "index": 18,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 156.56,
+              "x_min": 151.03,
+              "y_max": -96.86,
+              "y_min": -97.86,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.1860389357189105
+          }
+        },
+        {
+          "index": 19,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 152.689999654724,
+              "x_min": 150.589999345276,
+              "y_max": -98.73999934527599,
+              "y_min": -100.83999965472401,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.08193619173167974
+          }
+        },
+        {
+          "index": 20,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 153.83,
+              "x_min": 151.69,
+              "y_max": -98.74,
+              "y_min": -99.74,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.04258017123259426
+          }
+        },
+        {
+          "index": 21,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 145.310001,
+              "x_min": 141.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.2698726264204063
+          }
+        },
+        {
+          "index": 22,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 145.310001,
+              "x_min": 141.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.26987262642040694
+          }
+        },
+        {
+          "index": 23,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 144.510001,
+              "x_min": 142.310001,
+              "y_max": -98.35000000000001,
+              "y_min": -100.55,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.18278178757665708
+          }
+        },
+        {
+          "index": 24,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.36,
+              "x_min": 146.96,
+              "y_max": -99.96,
+              "y_min": -100.72,
+              "z_max": 1.035,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.03724000000000038
+          }
+        },
+        {
+          "index": 25,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.36,
+              "x_min": 146.96,
+              "y_max": -98.69,
+              "y_min": -99.45,
+              "z_max": 1.035,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.03724000000000038
+          }
+        },
+        {
+          "index": 26,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.36,
+              "x_min": 146.96,
+              "y_max": -97.42,
+              "y_min": -98.18,
+              "z_max": 1.035,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.03724000000000037
+          }
+        },
+        {
+          "index": 27,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 151.79,
+              "x_min": 150.39,
+              "y_max": -97.42,
+              "y_min": -98.18,
+              "z_max": 1.035,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.03724000000000037
+          }
+        },
+        {
+          "index": 28,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 151.79,
+              "x_min": 150.39,
+              "y_max": -99.96,
+              "y_min": -100.72,
+              "z_max": 1.035,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.03724000000000037
+          }
+        },
+        {
+          "index": 29,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 140.310001,
+              "x_min": 136.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.2698726264204063
+          }
+        },
+        {
+          "index": 30,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 140.310001,
+              "x_min": 136.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.26987262642040694
+          }
+        },
+        {
+          "index": 31,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 139.510001,
+              "x_min": 137.310001,
+              "y_max": -98.35000000000001,
+              "y_min": -100.55,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.18278178757665708
+          }
+        },
+        {
+          "index": 32,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 167.310001,
+              "x_min": 163.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.2698726264204063
+          }
+        },
+        {
+          "index": 33,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 167.310001,
+              "x_min": 163.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.26987262642040694
+          }
+        },
+        {
+          "index": 34,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 166.510001,
+              "x_min": 164.310001,
+              "y_max": -98.35000000000001,
+              "y_min": -100.55,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.18278178757665708
+          }
+        },
+        {
+          "index": 35,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 162.310001,
+              "x_min": 158.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.2698726264204063
+          }
+        },
+        {
+          "index": 36,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 162.310001,
+              "x_min": 158.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.26987262642040694
+          }
+        },
+        {
+          "index": 37,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 161.510001,
+              "x_min": 159.310001,
+              "y_max": -98.35000000000001,
+              "y_min": -100.55,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.18278178757665708
+          }
+        },
+        {
+          "index": 38,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 154.33,
+              "x_min": 152.33,
+              "y_max": -98.24,
+              "y_min": -100.24,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.08514697838932599
+          }
+        },
+        {
+          "index": 39,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 154.33,
+              "x_min": 152.33,
+              "y_max": -98.24,
+              "y_min": -100.24,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.08514697838932613
+          }
+        },
+        {
+          "index": 40,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 153.83,
+              "x_min": 152.83,
+              "y_max": -98.74,
+              "y_min": -99.74,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.08193666339644312
+          }
+        },
+        {
+          "index": 41,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 157.31,
+              "x_min": 154.81,
+              "y_max": -97.9,
+              "y_min": -100.4,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.11401036089418218
+          }
+        },
+        {
+          "index": 42,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 157.31,
+              "x_min": 154.81,
+              "y_max": -97.9,
+              "y_min": -100.4,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.11401036089418243
+          }
+        },
+        {
+          "index": 43,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 156.81,
+              "x_min": 155.31,
+              "y_max": -98.4,
+              "y_min": -99.9,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.12395546513820466
+          }
+        },
+        {
+          "index": 44,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 167.91,
+              "x_min": 135.910001,
+              "y_max": -96.45,
+              "y_min": -102.45,
+              "z_max": 1.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 174.24214152558372
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "Solid": {
+      "label": "antenna-pcb_track_1",
+      "name": "Solid",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.16,
+              "x_min": 147.16,
+              "y_max": -99.84,
+              "y_min": -102.04,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.06948893571891068
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid001": {
+      "label": "antenna-pcb_track_2",
+      "name": "Solid001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 160.090640353095,
+              "x_min": 157.820000345276,
+              "y_max": -99.76935912149,
+              "y_min": -102.039999654724,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.08097364088761977
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid002": {
+      "label": "antenna-pcb_track_3",
+      "name": "Solid002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 164.45835768447,
+              "x_min": 161.36164431552,
+              "y_max": -98.94999999999436,
+              "y_min": -99.95000000000154,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.10255884145722315
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid003": {
+      "label": "antenna-pcb_track_4",
+      "name": "Solid003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 158.820001,
+              "x_min": 147.16,
+              "y_max": -101.04,
+              "y_min": -102.04,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.4005889707189101
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid004": {
+      "label": "antenna-pcb_track_5",
+      "name": "Solid004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 145.560000654724,
+              "x_min": 143.72936012149,
+              "y_max": -97.29999934527599,
+              "y_min": -99.13063935309499,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.05919474528761111
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid005": {
+      "label": "antenna-pcb_track_6",
+      "name": "Solid005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.169999654724,
+              "x_min": 147.059999345276,
+              "y_max": -97.29999934527599,
+              "y_min": -98.409999654724,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.032933676631702685
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid006": {
+      "label": "antenna-pcb_track_7",
+      "name": "Solid006",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 142.45835768447,
+              "x_min": 139.36164431553,
+              "y_max": -98.94999999999847,
+              "y_min": -99.95000000000155,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.1025588414573719
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid007": {
+      "label": "antenna-pcb_track_8",
+      "name": "Solid007",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.06,
+              "x_min": 144.560001,
+              "y_max": -97.3,
+              "y_min": -98.3,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.11498890071891057
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid008": {
+      "label": "antenna-pcb_track_9",
+      "name": "Solid008",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 152.029999654724,
+              "x_min": 150.589999345276,
+              "y_max": -96.859999345276,
+              "y_min": -98.299999654724,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.049267848331695195
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid009": {
+      "label": "antenna-pcb_track_11",
+      "name": "Solid009",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 156.56,
+              "x_min": 151.03,
+              "y_max": -96.86,
+              "y_min": -97.86,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.1860389357189105
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid010": {
+      "label": "antenna-pcb_track_12",
+      "name": "Solid010",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 152.689999654724,
+              "x_min": 150.589999345276,
+              "y_max": -98.73999934527599,
+              "y_min": -100.83999965472401,
+              "z_max": 1.035,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.08193619173167974
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid011": {
+      "label": "antenna-pcb_track_13",
+      "name": "Solid011",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 153.83,
+              "x_min": 151.69,
+              "y_max": -98.74,
+              "y_min": -99.74,
+              "z_max": 1.0350000000000001,
+              "z_min": 0.9999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 0.04258017123259426
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid012": {
+      "label": "antenna-pcb_pad_1",
+      "name": "Solid012",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 145.310001,
+              "x_min": 141.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.2698726264204063
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid013": {
+      "label": "antenna-pcb_pad_2",
+      "name": "Solid013",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 145.310001,
+              "x_min": 141.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.26987262642040694
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid014": {
+      "label": "antenna-pcb_pad_3",
+      "name": "Solid014",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 144.510001,
+              "x_min": 142.310001,
+              "y_max": -98.35000000000001,
+              "y_min": -100.55,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.18278178757665708
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid015": {
+      "label": "antenna-pcb_pad_4",
+      "name": "Solid015",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.36,
+              "x_min": 146.96,
+              "y_max": -99.96,
+              "y_min": -100.72,
+              "z_max": 1.035,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.03724000000000038
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid016": {
+      "label": "antenna-pcb_pad_5",
+      "name": "Solid016",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.36,
+              "x_min": 146.96,
+              "y_max": -98.69,
+              "y_min": -99.45,
+              "z_max": 1.035,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.03724000000000038
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid017": {
+      "label": "antenna-pcb_pad_6",
+      "name": "Solid017",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 148.36,
+              "x_min": 146.96,
+              "y_max": -97.42,
+              "y_min": -98.18,
+              "z_max": 1.035,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.03724000000000037
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid018": {
+      "label": "antenna-pcb_pad_7",
+      "name": "Solid018",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 151.79,
+              "x_min": 150.39,
+              "y_max": -97.42,
+              "y_min": -98.18,
+              "z_max": 1.035,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.03724000000000037
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid019": {
+      "label": "antenna-pcb_pad_8",
+      "name": "Solid019",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 151.79,
+              "x_min": 150.39,
+              "y_max": -99.96,
+              "y_min": -100.72,
+              "z_max": 1.035,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.03724000000000037
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid020": {
+      "label": "antenna-pcb_pad_9",
+      "name": "Solid020",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 140.310001,
+              "x_min": 136.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.2698726264204063
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid021": {
+      "label": "antenna-pcb_pad_10",
+      "name": "Solid021",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 140.310001,
+              "x_min": 136.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.26987262642040694
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid022": {
+      "label": "antenna-pcb_pad_11",
+      "name": "Solid022",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 139.510001,
+              "x_min": 137.310001,
+              "y_max": -98.35000000000001,
+              "y_min": -100.55,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.18278178757665708
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid023": {
+      "label": "antenna-pcb_pad_12",
+      "name": "Solid023",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 167.310001,
+              "x_min": 163.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.2698726264204063
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid024": {
+      "label": "antenna-pcb_pad_13",
+      "name": "Solid024",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 167.310001,
+              "x_min": 163.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.26987262642040694
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid025": {
+      "label": "antenna-pcb_pad_14",
+      "name": "Solid025",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 166.510001,
+              "x_min": 164.310001,
+              "y_max": -98.35000000000001,
+              "y_min": -100.55,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.18278178757665708
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid026": {
+      "label": "antenna-pcb_pad_15",
+      "name": "Solid026",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 162.310001,
+              "x_min": 158.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.2698726264204063
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid027": {
+      "label": "antenna-pcb_pad_16",
+      "name": "Solid027",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 162.310001,
+              "x_min": 158.510001,
+              "y_max": -97.55,
+              "y_min": -101.35000000000001,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.26987262642040694
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid028": {
+      "label": "antenna-pcb_pad_17",
+      "name": "Solid028",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 161.510001,
+              "x_min": 159.310001,
+              "y_max": -98.35000000000001,
+              "y_min": -100.55,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.18278178757665708
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid029": {
+      "label": "antenna-pcb_pad_18",
+      "name": "Solid029",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 154.33,
+              "x_min": 152.33,
+              "y_max": -98.24,
+              "y_min": -100.24,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.08514697838932599
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid030": {
+      "label": "antenna-pcb_pad_19",
+      "name": "Solid030",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 154.33,
+              "x_min": 152.33,
+              "y_max": -98.24,
+              "y_min": -100.24,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.08514697838932613
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid031": {
+      "label": "antenna-pcb_pad_20",
+      "name": "Solid031",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 153.83,
+              "x_min": 152.83,
+              "y_max": -98.74,
+              "y_min": -99.74,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.08193666339644312
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid032": {
+      "label": "antenna-pcb_pad_21",
+      "name": "Solid032",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 157.31,
+              "x_min": 154.81,
+              "y_max": -97.9,
+              "y_min": -100.4,
+              "z_max": 1.0350000000000001,
+              "z_min": 1.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.11401036089418218
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid033": {
+      "label": "antenna-pcb_pad_22",
+      "name": "Solid033",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 157.31,
+              "x_min": 154.81,
+              "y_max": -97.9,
+              "y_min": -100.4,
+              "z_max": 0.0,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.11401036089418243
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid034": {
+      "label": "antenna-pcb_pad_23",
+      "name": "Solid034",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 156.81,
+              "x_min": 155.31,
+              "y_max": -98.4,
+              "y_min": -99.9,
+              "z_max": 1.0350000000000001,
+              "z_min": -0.035
+            },
+            "is_valid": true,
+            "volume_mm3": 0.12395546513820466
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Solid035": {
+      "label": "antenna-pcb_PCB",
+      "name": "Solid035",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 167.91,
+              "x_min": 135.910001,
+              "y_max": -96.45,
+              "y_min": -102.45,
+              "z_max": 1.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 174.24214152558372
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    }
+  },
+  "part_features": {
+    "Compound": {
+      "label": "MABA-011094",
+      "metrics": {
+        "edge_count": 72,
+        "face_count": 36,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Compound",
+      "type_id": "Part::Feature"
+    },
+    "Compound001": {
+      "label": "antenna-pcb_track_10",
+      "metrics": {
+        "edge_count": 21,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 14
+      },
+      "name": "Compound001",
+      "type_id": "Part::Feature"
+    },
+    "Solid": {
+      "label": "antenna-pcb_track_1",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid",
+      "type_id": "Part::Feature"
+    },
+    "Solid001": {
+      "label": "antenna-pcb_track_2",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid001",
+      "type_id": "Part::Feature"
+    },
+    "Solid002": {
+      "label": "antenna-pcb_track_3",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid002",
+      "type_id": "Part::Feature"
+    },
+    "Solid003": {
+      "label": "antenna-pcb_track_4",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid003",
+      "type_id": "Part::Feature"
+    },
+    "Solid004": {
+      "label": "antenna-pcb_track_5",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid004",
+      "type_id": "Part::Feature"
+    },
+    "Solid005": {
+      "label": "antenna-pcb_track_6",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid005",
+      "type_id": "Part::Feature"
+    },
+    "Solid006": {
+      "label": "antenna-pcb_track_7",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid006",
+      "type_id": "Part::Feature"
+    },
+    "Solid007": {
+      "label": "antenna-pcb_track_8",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid007",
+      "type_id": "Part::Feature"
+    },
+    "Solid008": {
+      "label": "antenna-pcb_track_9",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid008",
+      "type_id": "Part::Feature"
+    },
+    "Solid009": {
+      "label": "antenna-pcb_track_11",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid009",
+      "type_id": "Part::Feature"
+    },
+    "Solid010": {
+      "label": "antenna-pcb_track_12",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid010",
+      "type_id": "Part::Feature"
+    },
+    "Solid011": {
+      "label": "antenna-pcb_track_13",
+      "metrics": {
+        "edge_count": 15,
+        "face_count": 7,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 10
+      },
+      "name": "Solid011",
+      "type_id": "Part::Feature"
+    },
+    "Solid012": {
+      "label": "antenna-pcb_pad_1",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid012",
+      "type_id": "Part::Feature"
+    },
+    "Solid013": {
+      "label": "antenna-pcb_pad_2",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid013",
+      "type_id": "Part::Feature"
+    },
+    "Solid014": {
+      "label": "antenna-pcb_pad_3",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid014",
+      "type_id": "Part::Feature"
+    },
+    "Solid015": {
+      "label": "antenna-pcb_pad_4",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid015",
+      "type_id": "Part::Feature"
+    },
+    "Solid016": {
+      "label": "antenna-pcb_pad_5",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid016",
+      "type_id": "Part::Feature"
+    },
+    "Solid017": {
+      "label": "antenna-pcb_pad_6",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid017",
+      "type_id": "Part::Feature"
+    },
+    "Solid018": {
+      "label": "antenna-pcb_pad_7",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid018",
+      "type_id": "Part::Feature"
+    },
+    "Solid019": {
+      "label": "antenna-pcb_pad_8",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Solid019",
+      "type_id": "Part::Feature"
+    },
+    "Solid020": {
+      "label": "antenna-pcb_pad_9",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid020",
+      "type_id": "Part::Feature"
+    },
+    "Solid021": {
+      "label": "antenna-pcb_pad_10",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid021",
+      "type_id": "Part::Feature"
+    },
+    "Solid022": {
+      "label": "antenna-pcb_pad_11",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid022",
+      "type_id": "Part::Feature"
+    },
+    "Solid023": {
+      "label": "antenna-pcb_pad_12",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid023",
+      "type_id": "Part::Feature"
+    },
+    "Solid024": {
+      "label": "antenna-pcb_pad_13",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid024",
+      "type_id": "Part::Feature"
+    },
+    "Solid025": {
+      "label": "antenna-pcb_pad_14",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid025",
+      "type_id": "Part::Feature"
+    },
+    "Solid026": {
+      "label": "antenna-pcb_pad_15",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid026",
+      "type_id": "Part::Feature"
+    },
+    "Solid027": {
+      "label": "antenna-pcb_pad_16",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid027",
+      "type_id": "Part::Feature"
+    },
+    "Solid028": {
+      "label": "antenna-pcb_pad_17",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid028",
+      "type_id": "Part::Feature"
+    },
+    "Solid029": {
+      "label": "antenna-pcb_pad_18",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid029",
+      "type_id": "Part::Feature"
+    },
+    "Solid030": {
+      "label": "antenna-pcb_pad_19",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid030",
+      "type_id": "Part::Feature"
+    },
+    "Solid031": {
+      "label": "antenna-pcb_pad_20",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid031",
+      "type_id": "Part::Feature"
+    },
+    "Solid032": {
+      "label": "antenna-pcb_pad_21",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid032",
+      "type_id": "Part::Feature"
+    },
+    "Solid033": {
+      "label": "antenna-pcb_pad_22",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid033",
+      "type_id": "Part::Feature"
+    },
+    "Solid034": {
+      "label": "antenna-pcb_pad_23",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Solid034",
+      "type_id": "Part::Feature"
+    },
+    "Solid035": {
+      "label": "antenna-pcb_PCB",
+      "metrics": {
+        "edge_count": 30,
+        "face_count": 12,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 20
+      },
+      "name": "Solid035",
+      "type_id": "Part::Feature"
+    }
+  },
+  "schema_version": 2,
+  "source": {
+    "data_creation_date": "2026-03-22T00:30:16.367174+00:00",
+    "document_label": "UHF_Antenna_Phasma",
+    "document_name": "UHF_Antenna_Phasma",
+    "freecad_version": "1.0.2 39320 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\UHF_Antenna_Phasma.FCStd"
+  }
+}

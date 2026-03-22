@@ -25,3 +25,4 @@
 | Profile_40x80L_Slot8.FCStd   | 2026-03-15 | 1.0                      | Aluminium profile with Block and Weight constraints      |
 | ATMEGA328P.FCStd             | 2026-03-15 | 0.18                     | Stress test: IC package with 1066 constraints, 999 geometry elements |
 | T8_housing_bracket.FCStd     | 2026-03-15 | 0.20                     | PartDesign::Hole with PolarPattern                       |
+| UHF_Antenna_Phasma.FCStd    | 2026-03-21 | 1.0-dev                  | KiCAD-derived PCB antenna with 752 objects, CERN OHL v1.2 |
