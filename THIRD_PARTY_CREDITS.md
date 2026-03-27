@@ -12,7 +12,7 @@ Example files shipped with FreeCAD in `data/examples/`.
 | Test file | Author | License in file | Original file |
 |---|---|---|---|
 | ArchDetail.FCStd | Yorik van Havre | CC-BY-4.0 | data/examples/ArchDetail.FCStd |
-| AssemblyExample.FCStd | -- | CC-BY-4.0 | data/examples/AssemblyExample.FCStd |
+| AssemblyExample.FCStd | Pierre-Louis Boyer (@PaddleStroke) | CC-BY-4.0 | data/examples/AssemblyExample.FCStd |
 | BIMExample.FCStd | Yorik van Havre | CC-BY-4.0 | data/examples/BIMExample.FCStd |
 
 ## FreeCAD Parts Library -- Various Authors
@@ -30,8 +30,8 @@ A community-maintained library of reusable parts for FreeCAD.
 | Hirth-joint-generator.FCStd | Robert Goossens (RBGO.web) | CC-BY-SA-4.0 | Mechanical Parts/Coupling/Hirth-joint/ |
 | Parametric_LiPo.FCStd | @hasecilu | CC-BY-4.0 | -- |
 | Precast_Beam_for_Slabs_BIM_Parametric.FCStd | Bruno (Linhares Engenharia) | CC-BY-3.0 | Architectural Parts/Beams/Precast Concrete/ |
-| Profile_40x80L_Slot8.FCStd | -- | CC-BY-3.0 | Mechanical Parts/Profiles EN/Generic/ |
-| Profile_Bosch_30x30mm.FCStd | -- | CC-BY-3.0 | Mechanical Parts/Profiles EN/BOSCH/ |
+| Profile_40x80L_Slot8.FCStd | Mathis Joussemet | CC-BY-3.0 | Mechanical Parts/Profiles EN/Generic/ |
+| Profile_Bosch_30x30mm.FCStd | Alejandro Alvarez (BERSERK.DESIGN) | CC-BY-3.0 | Mechanical Parts/Profiles EN/BOSCH/ |
 | T8_housing_bracket.FCStd | @hasecilu | CC-BY-4.0 | -- |
 
 ## FreeCAD-Library -- Philipp Serr

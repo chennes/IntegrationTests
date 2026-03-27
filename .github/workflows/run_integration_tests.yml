@@ -5,6 +5,8 @@
 name: Integration Test Suite
 
 on:
+  push:
+  pull_request:
   workflow_dispatch:
   schedule:
     # Run every day at 1am
@@ -14,7 +16,23 @@ permissions:
   issues: write
 
 jobs:
+  check_licenses:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+    - name: Harden the runner (Audit all outbound calls)
+      uses: step-security/harden-runner@e3f713f2d8f53843e71c69a996d56f51aa9adfb9 # v2.14.1
+      with:
+        egress-policy: audit
+
+    - name: Checkout Integration Tests
+      uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+    - name: Check licenses
+      run: python3 Scripts/CheckLicenses.py
+
   run_integration_tests:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 360
     env:

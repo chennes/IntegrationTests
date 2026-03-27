@@ -26,3 +26,34 @@
 | ATMEGA328P.FCStd             | 2026-03-15 | 0.18                     | Stress test: IC package with 1066 constraints, 999 geometry elements |
 | T8_housing_bracket.FCStd     | 2026-03-15 | 0.20                     | PartDesign::Hole with PolarPattern                       |
 | UHF_Antenna_Phasma.FCStd    | 2026-03-21 | 1.0-dev                  | KiCAD-derived PCB antenna with 752 objects, CERN OHL v1.2 |
+| FL_AP3030S8.FCStd | 2026-03-27 | 0.19 | Aluminium slot profile 30x30mm with DatumLine |
+| FL_AP3030S8_BracketSmallSingleStone.FCStd | 2026-03-27 | 0.19 | Profile bracket assembly with single stone |
+| FL_AP3030S8_BracketSmallTwoStones.FCStd | 2026-03-27 | 0.19 | Profile bracket assembly with two stones |
+| FL_AP3030S8_Cap.FCStd | 2026-03-27 | 0.19 | Profile end cap with SubtractivePipe |
+| FL_AP3030S8_ConnectorSquare.FCStd | 2026-03-27 | 0.19 | Square connector for slot profile |
+| FL_AP3030S8_InnerBracket.FCStd | 2026-03-27 | 0.19 | Inner bracket with Hole feature |
+| FL_AP3030S8_InnerBracketWithScrews.FCStd | 2026-03-27 | 0.19 | Inner bracket assembly with screws |
+| FL_AP3030S8_StoneM6Heavy.FCStd | 2026-03-27 | 0.19 | M6 heavy T-slot stone with Hole and Groove |
+| FL_AP3030S8_StoneM8Heavy.FCStd | 2026-03-27 | 0.19 | M8 heavy T-slot stone with Hole and Groove |
+| FL_AP3030S8_TNutM6.FCStd | 2026-03-27 | 0.19 | M6 T-nut with Hole and Chamfer |
+| FL_ISO4029_SetScrewCupPoint.FCStd | 2026-03-27 | 0.19 | Set screw with Groove and Revolution |
+| STEMFIE_NerfDart.FCStd | 2026-03-27 | 0.19 | Nerf dart model with DatumLine and LinearPattern |
+| STEMFIE_PingPongBall.FCStd | 2026-03-27 | 0.19 | Ping-pong ball with DatumLine and LinearPattern |
+| STEMFIE_TemplateScene.FCStd | 2026-03-27 | 0.19 | STEMFIE template with DatumLine and LinearPattern |
+| MG_ULN2003DriverBoard.FCStd | 2026-03-27 | 0.19 | ULN2003 driver board with AdditivePipe |
+| MG_CombinationLock.FCStd | 2026-03-27 | 0.19 | Combination lock with LinearPattern |
+| MG_SampleBox.FCStd | 2026-03-27 | 0.19 | Sample box with Chamfer, Fillet, Mirrored |
+| MG_B3FKeycap.FCStd | 2026-03-27 | 0.19 | Keycap with Pad and Revolution |
+| MG_NeoPixelBubble.FCStd | 2026-03-27 | 0.19 | NeoPixel bubble with Pocket and Revolution |
+| MG_XBeeSX868.FCStd | 2026-03-27 | 0.19 | XBee radio module with Chamfer and Fillet |
+| MG_XYZCube.FCStd | 2026-03-27 | 0.19 | XYZ calibration cube with Pad and Pocket |
+| MG_AxisCross.FCStd | 2026-03-27 | 0.19 | Axis cross with Chamfer and Pad |
+| MG_DupontCable.FCStd | 2026-03-27 | 0.19 | Dupont cable connector with AdditiveLoft |
+| MG_EarSaverStretched.FCStd | 2026-03-27 | 0.19 | COVID ear saver (stretched variant) |
+| MG_EarSaver.FCStd | 2026-03-27 | 0.19 | COVID ear saver |
+| MG_GigglingEye.FCStd | 2026-03-27 | 0.19 | Giggling eye toy with Fillet and Revolution |
+| MG_KidToy.FCStd | 2026-03-27 | 0.19 | Kid toy with Chamfer, Fillet, Pad, Pocket |
+| MG_MotorbikeMobileSupport.FCStd | 2026-03-27 | 0.19 | Motorbike phone mount with Fillet |
+| MG_MotorbikeThrottleLock.FCStd | 2026-03-27 | 0.19 | Throttle lock with Fillet and Pocket |
+| OBJ_CherryKeycap.FCStd | 2026-03-27 | 0.19 | Cherry MX keycap with AdditiveLoft and Thickness |
+| OBJ_CherryMXPCB.FCStd | 2026-03-27 | 0.19 | Cherry MX PCB mount with Pad, Pocket, Fillet |
