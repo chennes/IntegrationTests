@@ -19,51 +19,14 @@ import argparse
 import os
 import sys
 import zipfile
-import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, Set
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-# ---------------------------------------------------------------------------
-# Known license mappings
-# ---------------------------------------------------------------------------
-
-# Map from license strings found in FCStd metadata to SPDX-ish identifiers
-# used as LICENSES/ filenames. Keys are lowercase.
-LICENSE_ALIASES: Dict[str, str] = {
-    "cc-by-3.0": "CC-BY-3.0",
-    "creative commons attribution 3.0": "CC-BY-3.0",
-    "creative commons attribution 3.0 unported": "CC-BY-3.0",
-    "cc-by 3.0": "CC-BY-3.0",
-    "cc by 3.0": "CC-BY-3.0",
-    "cc-by-4.0": "CC-BY-4.0",
-    "creative commons attribution": "CC-BY-4.0",
-    "creative commons attribution 4.0": "CC-BY-4.0",
-    "creative commons attribution 4.0 international": "CC-BY-4.0",
-    "creativecommons attribution": "CC-BY-4.0",
-    "cc-by 4.0": "CC-BY-4.0",
-    "cc by 4.0": "CC-BY-4.0",
-    "cc-by-sa-4.0": "CC-BY-SA-4.0",
-    "creative commons attribution-sharealike": "CC-BY-SA-4.0",
-    "creative commons attribution-sharealike 4.0": "CC-BY-SA-4.0",
-    "creative commons attribution-sharealike 4.0 international": "CC-BY-SA-4.0",
-    "creativecommons attribution-sharealike": "CC-BY-SA-4.0",
-    "cc-by-sa 4.0": "CC-BY-SA-4.0",
-    "cc by-sa 4.0": "CC-BY-SA-4.0",
-    "lgpl-2.1": "LGPL-2.1-or-later",
-    "lgpl-2.1-or-later": "LGPL-2.1-or-later",
-    "cern ohl v1.2": "CERN-OHL-1.2",
-    "cern open hardware licence v1.2": "CERN-OHL-1.2",
-    "public domain": "PUBLIC-DOMAIN",
-}
-
-# Licenses that are NOT compatible with redistribution in this test suite.
-INCOMPATIBLE_PATTERNS = [
-    "noncommercial",
-    "non-commercial",
-    "all rights reserved",
-]
+from defusedxml.ElementTree import fromstring as parse_xml  # noqa: E402
+from license_utils import normalize_license, is_incompatible  # noqa: E402
 
 
 # ---------------------------------------------------------------------------
@@ -107,7 +70,7 @@ def extract_metadata(path: Path) -> FileInfo:
                 info.problems.append("No Document.xml inside FCStd archive")
                 return info
             with z.open("Document.xml") as dx:
-                root = ET.fromstring(dx.read())
+                root = parse_xml(dx.read())
     except zipfile.BadZipFile:
         info.problems.append("File is not a valid ZIP/FCStd archive")
         return info
@@ -140,32 +103,6 @@ def extract_metadata(path: Path) -> FileInfo:
 # ---------------------------------------------------------------------------
 
 
-def normalize_license(license_str: str) -> Optional[str]:
-    """Map an in-file license string to a SPDX-ish identifier.
-
-    Args:
-        license_str: The raw license string from the FCStd metadata.
-
-    Returns:
-        The normalized SPDX identifier, or None if unrecognized.
-    """
-    key = license_str.strip().lower()
-    return LICENSE_ALIASES.get(key)
-
-
-def is_incompatible(license_str: str) -> bool:
-    """Check if a license string matches a known incompatible pattern.
-
-    Args:
-        license_str: The raw license string from the FCStd metadata.
-
-    Returns:
-        True if the license is incompatible with redistribution.
-    """
-    lower = license_str.strip().lower()
-    return any(pat in lower for pat in INCOMPATIBLE_PATTERNS)
-
-
 def check_file(info: FileInfo) -> None:
     """Validate a file's metadata and populate its problems list.
 
@@ -181,7 +118,7 @@ def check_file(info: FileInfo) -> None:
         if spdx is None:
             info.problems.append(
                 f"Unrecognized license: '{info.license_str}' "
-                f"-- add a mapping to LICENSE_ALIASES in this script"
+                f"-- add a mapping in Scripts/license_utils.py"
             )
         else:
             info.spdx_id = spdx

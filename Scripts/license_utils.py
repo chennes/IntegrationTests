@@ -1,0 +1,376 @@
+"""Shared license-handling utilities for the integration test suite.
+
+Provides robust license string recognition (exact alias lookup + regex pattern matching),
+incompatibility checking, and metadata for known open-source licenses. Used by both
+CheckLicenses.py (CI validation) and AddTestCase.py (interactive helper).
+"""
+
+from __future__ import annotations
+
+import re
+from dataclasses import dataclass, field
+from pathlib import Path
+from typing import Dict, List, Optional, Set
+
+
+# ---------------------------------------------------------------------------
+# Data model
+# ---------------------------------------------------------------------------
+
+
+@dataclass(frozen=True)
+class LicenseInfo:
+    """Metadata for a single known license.
+
+    Attributes:
+        spdx_id: SPDX-style identifier used as the canonical key and LICENSES/ filename stem.
+        name: Human-readable display name.
+        url: Canonical URL for the license.
+        download_url: Direct URL for the plain-text license file (empty if unavailable).
+        aliases: Lowercased exact-match strings found in FCStd metadata.
+        pattern: Compiled regex for fuzzy matching against license strings.
+    """
+
+    spdx_id: str
+    name: str
+    url: str
+    download_url: str = ""
+    aliases: List[str] = field(default_factory=list)
+    pattern: Optional[re.Pattern[str]] = None
+
+
+# ---------------------------------------------------------------------------
+# Regex building helpers
+# ---------------------------------------------------------------------------
+
+# Common fragments used in multiple patterns.
+_CC = r"(?:creative\s*commons|cc)"
+_BY = r"(?:by|attribution)"
+_SA = r"(?:[-\s]*(?:sa|sharealike))"
+_SUFFIX = r"(?:\s+(?:international|int'?l|unported))?"
+_SEP = r"\s*[-\s]*"
+
+
+def _cc_pattern(version: str, sharealike: bool = False) -> re.Pattern[str]:
+    """Build a compiled regex for a Creative Commons license variant.
+
+    Args:
+        version: Version string to match, e.g. "4" or "3".
+        sharealike: If True, require the ShareAlike component.
+
+    Returns:
+        A compiled case-insensitive regex pattern.
+    """
+    sa_part = _SA if sharealike else ""
+    # Negative lookahead prevents CC-BY from matching CC-BY-SA strings
+    no_sa = "" if sharealike else r"(?![-\s]*(?:sa|sharealike))"
+    expr = rf"{_CC}{_SEP}{_BY}{no_sa}{sa_part}{_SEP}{version}[\.\s]*0{_SUFFIX}"
+    return re.compile(expr, re.IGNORECASE)
+
+
+def _cc_bare_pattern(sharealike: bool = False) -> re.Pattern[str]:
+    """Build a regex for a versionless Creative Commons string (defaults to 4.0).
+
+    Args:
+        sharealike: If True, require the ShareAlike component.
+
+    Returns:
+        A compiled case-insensitive regex pattern.
+    """
+    sa_part = _SA if sharealike else ""
+    no_sa = "" if sharealike else r"(?![-\s]*(?:sa|sharealike))"
+    # Match "Creative Commons Attribution" or "CC BY" without a version number
+    expr = rf"^{_CC}{_SEP}{_BY}{no_sa}{sa_part}\s*$"
+    return re.compile(expr, re.IGNORECASE)
+
+
+# ---------------------------------------------------------------------------
+# Known licenses registry
+# ---------------------------------------------------------------------------
+
+# ORDER MATTERS: more-specific entries (CC-BY-SA) must come before less-specific
+# ones (CC-BY) so that regex matching returns the correct result on first hit.
+
+KNOWN_LICENSES: List[LicenseInfo] = [
+    # --- Creative Commons ---
+    LicenseInfo(
+        spdx_id="CC0-1.0",
+        name="Creative Commons Zero v1.0 Universal",
+        url="https://creativecommons.org/publicdomain/zero/1.0/",
+        download_url="https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+        aliases=[
+            "cc0",
+            "cc0-1.0",
+            "cc0 1.0",
+            "cc0 1.0 universal",
+            "creative commons zero",
+            "creative commons zero 1.0",
+            "creative commons zero 1.0 universal",
+        ],
+        pattern=re.compile(
+            r"(?:creative\s*commons\s+)?(?:cc\s*)?(?:zero|0)\s*(?:v?\s*1[\.\s]*0)?"
+            r"(?:\s+universal)?",
+            re.IGNORECASE,
+        ),
+    ),
+    LicenseInfo(
+        spdx_id="CC-BY-SA-4.0",
+        name="Creative Commons Attribution-ShareAlike 4.0 International",
+        url="https://creativecommons.org/licenses/by-sa/4.0/",
+        download_url="https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+        aliases=[
+            "cc-by-sa-4.0",
+            "cc-by-sa 4.0",
+            "cc by-sa 4.0",
+            "creative commons attribution-sharealike",
+            "creative commons attribution-sharealike 4.0",
+            "creative commons attribution-sharealike 4.0 international",
+            "creativecommons attribution-sharealike",
+        ],
+        pattern=_cc_pattern("4", sharealike=True),
+    ),
+    LicenseInfo(
+        spdx_id="CC-BY-4.0",
+        name="Creative Commons Attribution 4.0 International",
+        url="https://creativecommons.org/licenses/by/4.0/",
+        download_url="https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+        aliases=[
+            "cc-by-4.0",
+            "cc-by 4.0",
+            "cc by 4.0",
+            "creative commons attribution",
+            "creative commons attribution 4.0",
+            "creative commons attribution 4.0 international",
+            "creativecommons attribution",
+        ],
+        pattern=_cc_pattern("4", sharealike=False),
+    ),
+    LicenseInfo(
+        spdx_id="CC-BY-3.0",
+        name="Creative Commons Attribution 3.0 Unported",
+        url="https://creativecommons.org/licenses/by/3.0/",
+        download_url="https://creativecommons.org/licenses/by/3.0/legalcode.txt",
+        aliases=[
+            "cc-by-3.0",
+            "cc-by 3.0",
+            "cc by 3.0",
+            "creative commons attribution 3.0",
+            "creative commons attribution 3.0 unported",
+        ],
+        pattern=_cc_pattern("3", sharealike=False),
+    ),
+    # --- GNU ---
+    LicenseInfo(
+        spdx_id="LGPL-2.1-or-later",
+        name="GNU Lesser General Public License v2.1 or later",
+        url="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+        download_url="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+        aliases=[
+            "lgpl-2.1",
+            "lgpl-2.1-or-later",
+        ],
+        pattern=re.compile(
+            r"(?:gnu\s+)?(?:lesser\s+)?(?:general\s+public\s+licen[cs]e\s+)?"
+            r"lgpl\s*[-\s]*2[\.\s]*1(?:\s*[-\s]*or\s*[-\s]*later)?",
+            re.IGNORECASE,
+        ),
+    ),
+    # --- CERN Open Hardware Licence ---
+    LicenseInfo(
+        spdx_id="CERN-OHL-S-2.0",
+        name="CERN Open Hardware Licence v2 -- Strongly Reciprocal",
+        url="https://ohwr.org/cernohl",
+        aliases=[
+            "cern-ohl-s-2.0",
+            "cern ohl s 2.0",
+            "cern ohl v2 strongly reciprocal",
+            "cern open hardware licence version 2 - strongly reciprocal",
+        ],
+        pattern=re.compile(
+            r"cern\s+(?:open\s+hardware\s+licen[cs]e\s+)?"
+            r"(?:o\.?h\.?l\.?\s*)?(?:v(?:ersion)?\s*)?[-\s]*"
+            r"(?:s(?:trongly)?(?:\s*[-\s]*reciprocal)?)\s*[-\s]*2[\.\s]*0",
+            re.IGNORECASE,
+        ),
+    ),
+    LicenseInfo(
+        spdx_id="CERN-OHL-W-2.0",
+        name="CERN Open Hardware Licence v2 -- Weakly Reciprocal",
+        url="https://ohwr.org/cernohl",
+        aliases=[
+            "cern-ohl-w-2.0",
+            "cern ohl w 2.0",
+            "cern ohl v2 weakly reciprocal",
+            "cern open hardware licence version 2 - weakly reciprocal",
+        ],
+        pattern=re.compile(
+            r"cern\s+(?:open\s+hardware\s+licen[cs]e\s+)?"
+            r"(?:o\.?h\.?l\.?\s*)?(?:v(?:ersion)?\s*)?[-\s]*"
+            r"(?:w(?:eakly)?(?:\s*[-\s]*reciprocal)?)\s*[-\s]*2[\.\s]*0",
+            re.IGNORECASE,
+        ),
+    ),
+    LicenseInfo(
+        spdx_id="CERN-OHL-P-2.0",
+        name="CERN Open Hardware Licence v2 -- Permissive",
+        url="https://ohwr.org/cernohl",
+        aliases=[
+            "cern-ohl-p-2.0",
+            "cern ohl p 2.0",
+            "cern ohl v2 permissive",
+            "cern open hardware licence version 2 - permissive",
+        ],
+        pattern=re.compile(
+            r"cern\s+(?:open\s+hardware\s+licen[cs]e\s+)?"
+            r"(?:o\.?h\.?l\.?\s*)?(?:v(?:ersion)?\s*)?[-\s]*"
+            r"(?:p(?:ermissive)?)\s*[-\s]*2[\.\s]*0",
+            re.IGNORECASE,
+        ),
+    ),
+    LicenseInfo(
+        spdx_id="CERN-OHL-1.2",
+        name="CERN Open Hardware Licence v1.2",
+        url="https://ohwr.org/cernohl",
+        aliases=[
+            "cern ohl v1.2",
+            "cern open hardware licence v1.2",
+            "cern-ohl-1.2",
+        ],
+        pattern=re.compile(
+            r"cern\s+(?:open\s+hardware\s+licen[cs]e\s+)?" r"(?:o\.?h\.?l\.?\s*)?v?\s*1[\.\s]*2",
+            re.IGNORECASE,
+        ),
+    ),
+    # --- Public Domain ---
+    LicenseInfo(
+        spdx_id="PUBLIC-DOMAIN",
+        name="Public Domain",
+        url="https://en.wikipedia.org/wiki/Public_domain",
+        aliases=["public domain"],
+        pattern=re.compile(r"public\s*domain", re.IGNORECASE),
+    ),
+]
+
+# Build the fast exact-match lookup from all aliases.
+_ALIAS_MAP: Dict[str, str] = {}
+for _lic in KNOWN_LICENSES:
+    for _alias in _lic.aliases:
+        _ALIAS_MAP[_alias] = _lic.spdx_id
+
+# Build a lookup by SPDX ID.
+_SPDX_MAP: Dict[str, LicenseInfo] = {lic.spdx_id: lic for lic in KNOWN_LICENSES}
+
+
+# ---------------------------------------------------------------------------
+# Incompatible / placeholder patterns
+# ---------------------------------------------------------------------------
+
+INCOMPATIBLE_PATTERNS: List[str] = [
+    "noncommercial",
+    "non-commercial",
+    "all rights reserved",
+    "no derivatives",
+    "no-derivatives",
+]
+
+
+# ---------------------------------------------------------------------------
+# Public API
+# ---------------------------------------------------------------------------
+
+
+def normalize_license(license_str: str) -> Optional[str]:
+    """Map a license string to its canonical SPDX-style identifier.
+
+    Uses a two-tier strategy:
+      1. Exact alias lookup (fast, covers all known spellings).
+      2. Regex pattern matching (handles novel variations).
+
+    Args:
+        license_str: Raw license string from FCStd file metadata.
+
+    Returns:
+        The SPDX identifier (e.g. "CC-BY-4.0"), or None if unrecognized.
+    """
+    cleaned = license_str.strip().lower()
+    if not cleaned:
+        return None
+
+    # Tier 1: exact alias lookup
+    spdx = _ALIAS_MAP.get(cleaned)
+    if spdx is not None:
+        return spdx
+
+    # Tier 2: regex pattern matching (order matters -- more specific first)
+    for lic in KNOWN_LICENSES:
+        if lic.pattern is not None and lic.pattern.search(cleaned):
+            return lic.spdx_id
+
+    return None
+
+
+def is_incompatible(license_str: str) -> bool:
+    """Check whether a license string indicates an incompatible license.
+
+    Looks for substring matches against known incompatible patterns such as
+    "noncommercial", "no derivatives", and "all rights reserved".
+
+    Args:
+        license_str: Raw license string from FCStd file metadata.
+
+    Returns:
+        True if the license is not compatible with redistribution in this suite.
+    """
+    lower = license_str.strip().lower()
+    return any(pat in lower for pat in INCOMPATIBLE_PATTERNS)
+
+
+def is_placeholder(license_str: str) -> bool:
+    """Check whether a license string is a generic placeholder.
+
+    FreeCAD defaults to "All rights reserved" when no license is explicitly set.
+    This function detects that default and empty strings.
+
+    Args:
+        license_str: Raw license string from FCStd file metadata.
+
+    Returns:
+        True if the string is empty or is the FreeCAD default "All rights reserved".
+    """
+    lower = license_str.strip().lower()
+    return not lower or lower == "all rights reserved"
+
+
+def get_license_info(spdx_id: str) -> Optional[LicenseInfo]:
+    """Look up license metadata by SPDX identifier.
+
+    Args:
+        spdx_id: The canonical SPDX-style identifier (e.g. "CC-BY-4.0").
+
+    Returns:
+        The LicenseInfo dataclass, or None if the identifier is not known.
+    """
+    return _SPDX_MAP.get(spdx_id)
+
+
+def all_spdx_ids() -> List[str]:
+    """Return all known SPDX identifiers in registry order.
+
+    Returns:
+        A list of SPDX-style identifier strings.
+    """
+    return [lic.spdx_id for lic in KNOWN_LICENSES]
+
+
+def available_license_files(licenses_dir: Path) -> Set[str]:
+    """Scan a directory for license text files and return their stem names.
+
+    Args:
+        licenses_dir: Path to the LICENSES/ directory.
+
+    Returns:
+        A set of filename stems (e.g. {"CC-BY-4.0", "LGPL-2.1-or-later"}).
+    """
+    if not licenses_dir.is_dir():
+        return set()
+    return {f.stem for f in licenses_dir.iterdir() if f.is_file()}
