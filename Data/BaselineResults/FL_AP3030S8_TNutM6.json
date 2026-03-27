@@ -1,0 +1,399 @@
+{
+  "app_parts": {
+    "Part": {
+      "label": "AP3030S8_TNutM6",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 8.00000001636272,
+          "x_min": -8.00000001636272,
+          "y_max": 3.8500000000000028,
+          "y_min": -3.8500000000000094,
+          "z_max": 6.000000000000002,
+          "z_min": -1.7e-15
+        },
+        "child_count": 4,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.00000001636272,
+              "x_min": -8.00000001636272,
+              "y_max": 3.8500000000000028,
+              "y_min": -3.8500000000000094,
+              "z_max": 6.000000000000002,
+              "z_min": -1.7e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 421.0984747170003
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Chamfer": {
+      "label": "ScrewHoleChamfer",
+      "name": "Chamfer",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.00000001636272,
+              "x_min": -8.00000001636272,
+              "y_max": 3.8500000000000014,
+              "y_min": -3.8500000000000103,
+              "z_max": 6.000000000000001,
+              "z_min": -8.5e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 421.09847471700033
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Hole": {
+      "label": "ScrewHole",
+      "name": "Hole",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.00000001636272,
+              "x_min": -8.00000001636272,
+              "y_max": 3.8500000000000014,
+              "y_min": -3.8500000000000103,
+              "z_max": 6.000000000000001,
+              "z_min": -8.5e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 429.9996670315981
+          }
+        }
+      ],
+      "type_id": "PartDesign::Hole"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.000000016362382,
+              "x_min": -8.000000016362382,
+              "y_max": 3.8500000000000014,
+              "y_min": -3.85,
+              "z_max": 4.500000000000001,
+              "z_min": -9.992007221626409e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 489.5833629934837
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "TopRise",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.000000016362382,
+              "x_min": -8.000000016362382,
+              "y_max": 3.8500000000000014,
+              "y_min": -3.8500000000000005,
+              "z_max": 6.0,
+              "z_min": -9.992007221626409e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 552.003166436831
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Part": {
+      "label": "AP3030S8_TNutM6",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.00000001636272,
+              "x_min": -8.00000001636272,
+              "y_max": 3.8500000000000028,
+              "y_min": -3.8500000000000094,
+              "z_max": 6.000000000000002,
+              "z_min": -1.7e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 421.0984747170003
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "Pocket": {
+      "label": "ShoulderNotches",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.000000016362382,
+              "x_min": -8.000000016362382,
+              "y_max": 3.8500000000000014,
+              "y_min": -3.8500000000000005,
+              "z_max": 4.500000013554895,
+              "z_min": -9.992007221626409e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 451.8500880517469
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "Corners",
+      "name": "Pocket001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.00000001636272,
+              "x_min": -8.00000001636272,
+              "y_max": 3.8500000000000014,
+              "y_min": -3.8500000000000103,
+              "z_max": 6.000000000000001,
+              "z_min": -8.5e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 547.8094067620953
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 182,
+        "face_count": 66,
+        "feature_count": 11,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Chamfer",
+        "vertex_count": 118
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "AssyMount": {
+      "label": "AssyMount",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyMount",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "Chamfer": {
+      "label": "ScrewHoleChamfer",
+      "metrics": {
+        "edge_count": 182,
+        "face_count": 66,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 118
+      },
+      "name": "Chamfer",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Hole": {
+      "label": "ScrewHole",
+      "metrics": {
+        "edge_count": 180,
+        "face_count": 65,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 117
+      },
+      "name": "Hole",
+      "type_id": "PartDesign::Hole"
+    },
+    "Pad": {
+      "label": "Pad",
+      "metrics": {
+        "edge_count": 30,
+        "face_count": 12,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 20
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "TopRise",
+      "metrics": {
+        "edge_count": 160,
+        "face_count": 58,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 104
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "ShoulderNotches",
+      "metrics": {
+        "edge_count": 113,
+        "face_count": 45,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 70
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "Corners",
+      "metrics": {
+        "edge_count": 177,
+        "face_count": 64,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 115
+      },
+      "name": "Pocket001",
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "StoneSectionSketch",
+      "metrics": {
+        "constraint_count": 31,
+        "degrees_of_freedom": 1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 13,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "SketchTopRise",
+      "metrics": {
+        "constraint_count": 15,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 6,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "SketchShoulderNotches",
+      "metrics": {
+        "constraint_count": 55,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 20,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch003": {
+      "label": "SketchCorners",
+      "metrics": {
+        "constraint_count": 36,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": false,
+        "geometry_count": 14,
+        "is_valid": false,
+        "solver_status": -2
+      },
+      "name": "Sketch003",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch004": {
+      "label": "SketchScrewHole",
+      "metrics": {
+        "constraint_count": 1,
+        "degrees_of_freedom": 1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch004",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:34:17.660253+00:00",
+    "document_label": "FL_AP3030S8_TNutM6",
+    "document_name": "FL_AP3030S8_TNutM6",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_TNutM6.FCStd"
+  },
+  "techdraw_pages": {
+    "Page": {
+      "label": "Spec",
+      "metrics": {
+        "is_valid": true,
+        "template_loaded": true,
+        "template_name": "",
+        "view_count": 10,
+        "view_types": {
+          "TechDraw::DrawViewClip": 2,
+          "TechDraw::DrawViewDimension": 6,
+          "TechDraw::DrawViewPart": 2
+        }
+      },
+      "name": "Page",
+      "type_id": "TechDraw::DrawPage"
+    }
+  }
+}

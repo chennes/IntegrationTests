@@ -121,12 +121,36 @@ class SolidAnalyzer(Analyzer):
 
     section = "objects"
 
+    # TypeIds that have a Shape attribute but are inherently non-solid construction
+    # geometry. These should never be reported as invalid solids.
+    _NON_SOLID_TYPES = {
+        "PartDesign::Line",
+        "PartDesign::Plane",
+        "PartDesign::Point",
+        "PartDesign::CoordinateSystem",
+        "PartDesign::ShapeBinder",
+        "PartDesign::SubShapeBinder",
+        "Sketcher::SketchObject",
+    }
+
     def can_handle(self, obj) -> bool:
         if not hasattr(obj, "Shape"):
             return False
-        if not obj.isValid() or not is_shape_valid(obj.Shape):
+        if getattr(obj, "TypeId", "") in self._NON_SOLID_TYPES:
+            return False
+        shape = obj.Shape
+        if not obj.isValid() or not is_shape_valid(shape):
             return True
-        return bool(get_solids_from_shape(obj.Shape))
+        # Skip objects whose shape is inherently non-solid (e.g. wires, edges,
+        # vertices, shells without volume) -- only report if solids exist.
+        if is_shape_valid(shape) and shape.ShapeType in (
+            "Vertex",
+            "Edge",
+            "Wire",
+            "Face",
+        ):
+            return False
+        return bool(get_solids_from_shape(shape))
 
     def evaluate(self, obj) -> dict:
         entry = {

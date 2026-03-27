@@ -1,0 +1,1069 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Body-x",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 76.0,
+              "x_min": 3.9999999999999973,
+              "y_max": 17.000000000000007,
+              "y_min": -6.6274169979695206,
+              "z_max": 8.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 4373.481150991029
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Body-y",
+      "name": "Body001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13.064615384615387,
+              "x_min": -6.6274169979695206,
+              "y_max": 76.0,
+              "y_min": 3.9999999999999987,
+              "z_max": 8.0,
+              "z_min": -1.7763568394002505e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 4358.717966105611
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body002": {
+      "label": "Body-z",
+      "name": "Body002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13.107465956066903,
+              "x_min": -6.627416997969521,
+              "y_max": 4.000000000000016,
+              "y_min": -4.0,
+              "z_max": 80.0,
+              "z_min": 7.999999999999999
+            },
+            "is_valid": true,
+            "volume_mm3": 4349.234960506027
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body002002": {
+      "label": "Body-joint",
+      "name": "Body002002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -4.0,
+              "y_max": 10.000000000000002,
+              "y_min": -4.0,
+              "z_max": 14.000000000000002,
+              "z_min": -1.2434497928741312e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 847.8603505652248
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Chamfer": {
+      "label": "Chamfer-Y",
+      "name": "Chamfer",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13.064615384615387,
+              "x_min": -6.6274169979695206,
+              "y_max": 72.0,
+              "y_min": 0.0,
+              "z_max": 8.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 4476.5558750653345
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002002": {
+      "label": "Chamfer-X-letter",
+      "name": "Chamfer004002002002002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 72.0,
+              "x_min": 0.0,
+              "y_max": 17.000000000000007,
+              "y_min": -6.6274169979695206,
+              "z_max": 8.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 4491.319059950625
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002003": {
+      "label": "Chamfer-Z",
+      "name": "Chamfer004002002002003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13.107465956066903,
+              "x_min": -6.627416997969521,
+              "y_max": 4.000000000000016,
+              "y_min": -4.0,
+              "z_max": 72.0,
+              "z_min": -8.881784197001252e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 4498.208036253993
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002004": {
+      "label": "Chamfer-socket-Y",
+      "name": "Chamfer004002002002004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13.064615384615387,
+              "x_min": -6.6274169979695206,
+              "y_max": 72.0,
+              "y_min": -1.154634656115594e-15,
+              "z_max": 8.0,
+              "z_min": -1.7763568394002505e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 4358.717966105612
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002005": {
+      "label": "Chamfer-socket-X",
+      "name": "Chamfer004002002002005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 72.0,
+              "x_min": -2.6645352591003757e-15,
+              "y_max": 17.000000000000007,
+              "y_min": -6.6274169979695206,
+              "z_max": 8.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 4373.481150991078
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002006": {
+      "label": "Chamfer-socket-Z",
+      "name": "Chamfer004002002002006",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13.107465956066903,
+              "x_min": -6.627416997969521,
+              "y_max": 4.000000000000016,
+              "y_min": -4.0,
+              "z_max": 72.0,
+              "z_min": -8.881784197001252e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 4349.234960506027
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002007": {
+      "label": "Chamfer-joint",
+      "name": "Chamfer004002002002007",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -4.0,
+              "y_max": 10.000000000000002,
+              "y_min": -4.0,
+              "z_max": 14.0,
+              "z_min": -1.3322676295501878e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 851.7575341659349
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002008": {
+      "label": "Chamfer-endings",
+      "name": "Chamfer004002002002008",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -4.0,
+              "y_max": 10.000000000000002,
+              "y_min": -4.0,
+              "z_max": 14.000000000000002,
+              "z_min": -1.2434497928741312e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 847.8603505652248
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Pad": {
+      "label": "X-axis",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 72.0,
+              "x_min": 0.0,
+              "y_max": 6.6274169979695206,
+              "y_min": -6.6274169979695206,
+              "z_max": 8.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 4432.309375740098
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Y-axis",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 6.62741699796952,
+              "x_min": -6.6274169979695206,
+              "y_max": 72.0,
+              "y_min": 0.0,
+              "z_max": 8.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 4432.309375740098
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad002": {
+      "label": "Z-axis",
+      "name": "Pad002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 6.627416997969521,
+              "x_min": -6.627416997969521,
+              "y_max": 4.000000000000016,
+              "y_min": -4.0,
+              "z_max": 72.0,
+              "z_min": -8.881784197001252e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 4432.309375740099
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad003": {
+      "label": "X-letter",
+      "name": "Pad003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 72.0,
+              "x_min": 0.0,
+              "y_max": 17.000000000000007,
+              "y_min": -6.6274169979695206,
+              "z_max": 8.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 4489.783059950626
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad004": {
+      "label": "Y-letter",
+      "name": "Pad004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13.064615384615387,
+              "x_min": -6.6274169979695206,
+              "y_max": 72.0,
+              "y_min": 0.0,
+              "z_max": 8.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 4475.897910153054
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad005": {
+      "label": "Z-letter",
+      "name": "Pad005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13.107465956066903,
+              "x_min": -6.627416997969521,
+              "y_max": 4.000000000000016,
+              "y_min": -4.0,
+              "z_max": 72.0,
+              "z_min": -8.881784197001252e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 4496.77506356431
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad006": {
+      "label": "Pad-joint-box",
+      "name": "Pad006",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 4.0,
+              "x_min": -4.0,
+              "y_max": 4.0,
+              "y_min": -4.0,
+              "z_max": 8.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 511.9999999999999
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad007": {
+      "label": "Pad-shank-X",
+      "name": "Pad007",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -4.0,
+              "y_max": 4.0,
+              "y_min": -4.0,
+              "z_max": 8.0,
+              "z_min": -8.881784197001252e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 615.0109740226126
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad008": {
+      "label": "Pad-shank-Y",
+      "name": "Pad008",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -4.0,
+              "y_max": 10.000000000000002,
+              "y_min": -4.0,
+              "z_max": 8.0,
+              "z_min": -1.3322676295501878e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 718.0219480452251
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad009": {
+      "label": "Pad-shank-Z",
+      "name": "Pad009",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.0,
+              "x_min": -4.0,
+              "y_max": 10.000000000000002,
+              "y_min": -4.0,
+              "z_max": 14.0,
+              "z_min": -1.3322676295501878e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 847.8826732382148
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket-socket-Z",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13.107465956066903,
+              "x_min": -6.627416997969521,
+              "y_max": 4.000000000000016,
+              "y_min": -4.0,
+              "z_max": 72.0,
+              "z_min": -8.881784197001252e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 4352.570036253996
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket003": {
+      "label": "Pocket-socket-Y",
+      "name": "Pocket003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 13.064615384615387,
+              "x_min": -6.6274169979695206,
+              "y_max": 72.0,
+              "y_min": 0.0,
+              "z_max": 8.0,
+              "z_min": -1.7763568394002505e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 4361.198468520852
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket004": {
+      "label": "Pocket-socket-X",
+      "name": "Pocket004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 72.0,
+              "x_min": 0.0,
+              "y_max": 17.000000000000007,
+              "y_min": -6.6274169979695206,
+              "z_max": 8.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 4375.961653406143
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body-x",
+      "metrics": {
+        "edge_count": 91,
+        "face_count": 31,
+        "feature_count": 8,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Chamfer004002002002005",
+        "vertex_count": 61
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Body-y",
+      "metrics": {
+        "edge_count": 80,
+        "face_count": 29,
+        "feature_count": 8,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Chamfer004002002002004",
+        "vertex_count": 53
+      },
+      "name": "Body001",
+      "type_id": "PartDesign::Body"
+    },
+    "Body002": {
+      "label": "Body-z",
+      "metrics": {
+        "edge_count": 83,
+        "face_count": 30,
+        "feature_count": 8,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Chamfer004002002002006",
+        "vertex_count": 55
+      },
+      "name": "Body002",
+      "type_id": "PartDesign::Body"
+    },
+    "Body002002": {
+      "label": "Body-joint",
+      "metrics": {
+        "edge_count": 115,
+        "face_count": 50,
+        "feature_count": 10,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Chamfer004002002002008",
+        "vertex_count": 68
+      },
+      "name": "Body002002",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "Chamfer": {
+      "label": "Chamfer-Y",
+      "metrics": {
+        "edge_count": 56,
+        "face_count": 20,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 38
+      },
+      "name": "Chamfer",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002002": {
+      "label": "Chamfer-X-letter",
+      "metrics": {
+        "edge_count": 67,
+        "face_count": 22,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 46
+      },
+      "name": "Chamfer004002002002002",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002003": {
+      "label": "Chamfer-Z",
+      "metrics": {
+        "edge_count": 58,
+        "face_count": 19,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 40
+      },
+      "name": "Chamfer004002002002003",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002004": {
+      "label": "Chamfer-socket-Y",
+      "metrics": {
+        "edge_count": 80,
+        "face_count": 29,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 53
+      },
+      "name": "Chamfer004002002002004",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002005": {
+      "label": "Chamfer-socket-X",
+      "metrics": {
+        "edge_count": 91,
+        "face_count": 31,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 61
+      },
+      "name": "Chamfer004002002002005",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002006": {
+      "label": "Chamfer-socket-Z",
+      "metrics": {
+        "edge_count": 83,
+        "face_count": 30,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 55
+      },
+      "name": "Chamfer004002002002006",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002007": {
+      "label": "Chamfer-joint",
+      "metrics": {
+        "edge_count": 85,
+        "face_count": 35,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 53
+      },
+      "name": "Chamfer004002002002007",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer004002002002008": {
+      "label": "Chamfer-endings",
+      "metrics": {
+        "edge_count": 115,
+        "face_count": 50,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 68
+      },
+      "name": "Chamfer004002002002008",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Pad": {
+      "label": "X-axis",
+      "metrics": {
+        "edge_count": 21,
+        "face_count": 9,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 14
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Y-axis",
+      "metrics": {
+        "edge_count": 21,
+        "face_count": 9,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 14
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad002": {
+      "label": "Z-axis",
+      "metrics": {
+        "edge_count": 21,
+        "face_count": 9,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 14
+      },
+      "name": "Pad002",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad003": {
+      "label": "X-letter",
+      "metrics": {
+        "edge_count": 57,
+        "face_count": 20,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 38
+      },
+      "name": "Pad003",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad004": {
+      "label": "Y-letter",
+      "metrics": {
+        "edge_count": 51,
+        "face_count": 19,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 34
+      },
+      "name": "Pad004",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad005": {
+      "label": "Z-letter",
+      "metrics": {
+        "edge_count": 48,
+        "face_count": 17,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 32
+      },
+      "name": "Pad005",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad006": {
+      "label": "Pad-joint-box",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 8
+      },
+      "name": "Pad006",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad007": {
+      "label": "Pad-shank-X",
+      "metrics": {
+        "edge_count": 27,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 18
+      },
+      "name": "Pad007",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad008": {
+      "label": "Pad-shank-Y",
+      "metrics": {
+        "edge_count": 42,
+        "face_count": 16,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 28
+      },
+      "name": "Pad008",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad009": {
+      "label": "Pad-shank-Z",
+      "metrics": {
+        "edge_count": 57,
+        "face_count": 22,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 38
+      },
+      "name": "Pad009",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket-socket-Z",
+      "metrics": {
+        "edge_count": 73,
+        "face_count": 25,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 50
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket003": {
+      "label": "Pocket-socket-Y",
+      "metrics": {
+        "edge_count": 71,
+        "face_count": 25,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 48
+      },
+      "name": "Pocket003",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket004": {
+      "label": "Pocket-socket-X",
+      "metrics": {
+        "edge_count": 82,
+        "face_count": 27,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 56
+      },
+      "name": "Pocket004",
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch-X-axis",
+      "metrics": {
+        "constraint_count": 19,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 7,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch-Y-axis",
+      "metrics": {
+        "constraint_count": 19,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 7,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "Sketc-Z-axis",
+      "metrics": {
+        "constraint_count": 23,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 9,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch003": {
+      "label": "Sketch-X-letter",
+      "metrics": {
+        "constraint_count": 55,
+        "degrees_of_freedom": 1,
+        "external_geometry_count": 1,
+        "fully_constrained": false,
+        "geometry_count": 22,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch003",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch004": {
+      "label": "Sketch-Y-letter",
+      "metrics": {
+        "constraint_count": 52,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 20,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch004",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch005": {
+      "label": "Sketch-Z-letter",
+      "metrics": {
+        "constraint_count": 37,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 14,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch005",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch011": {
+      "label": "Sketch-joint-box",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch011",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch012": {
+      "label": "Sketch-shank-X",
+      "metrics": {
+        "constraint_count": 25,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 9,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch012",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch013": {
+      "label": "Sketch-shank-Y",
+      "metrics": {
+        "constraint_count": 25,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 9,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch013",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch014": {
+      "label": "Sketch-socket-Y",
+      "metrics": {
+        "constraint_count": 14,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 5,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch014",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch015": {
+      "label": "Sketch-socket-X",
+      "metrics": {
+        "constraint_count": 14,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 5,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch015",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch016": {
+      "label": "Sketch-shank-Z",
+      "metrics": {
+        "constraint_count": 35,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 13,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch016",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch017": {
+      "label": "Sketch-socket-Z",
+      "metrics": {
+        "constraint_count": 16,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 6,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch017",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:34:22.388830+00:00",
+    "document_label": "MG_AxisCross",
+    "document_name": "MG_AxisCross",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_AxisCross.FCStd"
+  },
+  "spreadsheets": {
+    "Spreadsheet": {
+      "label": "Config",
+      "metrics": {
+        "cell_count": 8,
+        "is_valid": true
+      },
+      "name": "Spreadsheet",
+      "type_id": "Spreadsheet::Sheet"
+    }
+  }
+}

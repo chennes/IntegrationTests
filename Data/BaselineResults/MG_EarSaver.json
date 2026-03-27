@@ -1,0 +1,150 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 97.67449838998597,
+              "x_min": -97.67449838998597,
+              "y_max": 25.4,
+              "y_min": -24.599999999999994,
+              "z_max": 1.6,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 3388.9161314874937
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Pad": {
+      "label": "Pad-base",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 96.67921928260745,
+              "x_min": -96.67921928260746,
+              "y_max": 25.4,
+              "y_min": -24.599999999999994,
+              "z_max": 1.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 2364.7423023352276
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad-hooks",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 97.67449838998597,
+              "x_min": -97.67449838998597,
+              "y_max": 25.4,
+              "y_min": -24.599999999999994,
+              "z_max": 1.6,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 3388.9161314874937
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 248,
+        "face_count": 82,
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad001",
+        "vertex_count": 168
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "Pad": {
+      "label": "Pad-base",
+      "metrics": {
+        "edge_count": 72,
+        "face_count": 26,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 48
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad-hooks",
+      "metrics": {
+        "edge_count": 248,
+        "face_count": 82,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 168
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch-base",
+      "metrics": {
+        "constraint_count": 84,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 33,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch-hooks",
+      "metrics": {
+        "constraint_count": 91,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 36,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:35:04.313488+00:00",
+    "document_label": "MG_EarSaver",
+    "document_name": "MG_EarSaver",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_EarSaver.FCStd"
+  }
+}

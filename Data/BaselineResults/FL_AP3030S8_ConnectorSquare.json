@@ -1,0 +1,203 @@
+{
+  "app_parts": {
+    "Part": {
+      "label": "AP3030S8_ConnectorSquare",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 28.999999999999996,
+          "x_min": -29.000000000000004,
+          "y_max": 28.999999999999996,
+          "y_min": -29.000000000000004,
+          "z_max": 3.0,
+          "z_min": 0.0
+        },
+        "child_count": 7,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 28.999999999999996,
+              "x_min": -29.000000000000004,
+              "y_max": 28.999999999999996,
+              "y_min": -29.000000000000004,
+              "z_max": 3.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 9693.803131157494
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 28.999999999999996,
+              "x_min": -29.000000000000004,
+              "y_max": 28.999999999999996,
+              "y_min": -29.000000000000004,
+              "z_max": 3.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 9693.803131157494
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Part": {
+      "label": "AP3030S8_ConnectorSquare",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 28.999999999999996,
+              "x_min": -29.000000000000004,
+              "y_max": 28.999999999999996,
+              "y_min": -29.000000000000004,
+              "z_max": 3.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 9693.803131157494
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 24,
+        "face_count": 10,
+        "feature_count": 2,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad",
+        "vertex_count": 16
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "AssyMountCenter": {
+      "label": "AssyMountCenter",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyMountCenter",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "AssyMountHole1": {
+      "label": "AssyMountHole1",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyMountHole1",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "AssyMountHole2": {
+      "label": "AssyMountHole2",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyMountHole2",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "AssyMountHole3": {
+      "label": "AssyMountHole3",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyMountHole3",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "AssyMountHole4": {
+      "label": "AssyMountHole4",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyMountHole4",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "Pad": {
+      "label": "Pad",
+      "metrics": {
+        "edge_count": 24,
+        "face_count": 10,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 16
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch",
+      "metrics": {
+        "constraint_count": 32,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 12,
+        "is_valid": false,
+        "solver_status": -2
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:34:04.616263+00:00",
+    "document_label": "FL_AP3030S8_ConnectorSquare",
+    "document_name": "FL_AP3030S8_ConnectorSquare",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_ConnectorSquare.FCStd"
+  }
+}

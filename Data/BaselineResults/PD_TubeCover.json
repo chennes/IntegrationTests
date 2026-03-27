@@ -1,115 +1,5 @@
 {
   "objects": {
-    "Binder": {
-      "label": "Binder",
-      "name": "Binder",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 9.5,
-              "x_min": 2.5,
-              "y_max": 12.5,
-              "y_min": 5.5,
-              "z_max": 21.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 329.31506968497513
-          }
-        }
-      ],
-      "type_id": "PartDesign::SubShapeBinder"
-    },
-    "Binder001": {
-      "label": "Binder001",
-      "name": "Binder001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 9.5,
-              "x_min": 2.5,
-              "y_max": 12.5,
-              "y_min": 5.5,
-              "z_max": 21.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 329.31506968497513
-          }
-        }
-      ],
-      "type_id": "PartDesign::SubShapeBinder"
-    },
-    "Binder005": {
-      "label": "Binder005",
-      "name": "Binder005",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 3.5,
-              "x_min": -3.5,
-              "y_max": 3.5,
-              "y_min": -3.5,
-              "z_max": 21.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 329.31506968497513
-          }
-        }
-      ],
-      "type_id": "PartDesign::SubShapeBinder"
-    },
-    "Binder006": {
-      "label": "Binder006",
-      "name": "Binder006",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 24.5,
-              "x_min": 17.5,
-              "y_max": 3.5,
-              "y_min": -3.5,
-              "z_max": 21.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 329.315069684975
-          }
-        }
-      ],
-      "type_id": "PartDesign::SubShapeBinder"
-    },
-    "Binder007": {
-      "label": "Binder007",
-      "name": "Binder007",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -17.5,
-              "x_min": -24.5,
-              "y_max": 3.5,
-              "y_min": -3.5,
-              "z_max": 21.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 329.315069684975
-          }
-        }
-      ],
-      "type_id": "PartDesign::SubShapeBinder"
-    },
     "Body": {
       "label": "tube-1",
       "name": "Body",
@@ -1083,10 +973,10 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-13T14:53:11.305179+00:00",
+    "data_creation_date": "2026-03-27T14:36:59.840757+00:00",
     "document_label": "PD_TubeCover",
     "document_name": "PD_TubeCover",
-    "freecad_version": "1.2.0 45706 (Git)",
+    "freecad_version": "1.2.0 45400 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_TubeCover.FCStd"
   }
 }

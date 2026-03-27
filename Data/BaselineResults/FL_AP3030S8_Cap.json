@@ -1,0 +1,476 @@
+{
+  "app_parts": {
+    "Part": {
+      "label": "AP3030S8_Cap",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.000000000000004,
+          "x_min": -15.000000000000004,
+          "y_max": 4.000000000000003,
+          "y_min": -9.5,
+          "z_max": 15.000000000000002,
+          "z_min": -15.000000000000004
+        },
+        "child_count": 3,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000004,
+              "x_min": -15.000000000000004,
+              "y_max": 4.000000000000003,
+              "y_min": -9.5,
+              "z_max": 15.000000000000002,
+              "z_min": -15.000000000000004
+            },
+            "is_valid": true,
+            "volume_mm3": 3066.4168640674834
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000004,
+              "x_min": -15.000000000000002,
+              "y_max": 3.9968028886505635e-15,
+              "y_min": -13.500000000000004,
+              "z_max": 15.000000000000005,
+              "z_min": -15.000000000000004
+            },
+            "is_valid": true,
+            "volume_mm3": 12103.646003293854
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Part": {
+      "label": "AP3030S8_Cap",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000004,
+              "x_min": -15.000000000000004,
+              "y_max": 4.000000000000003,
+              "y_min": -9.5,
+              "z_max": 15.000000000000002,
+              "z_min": -15.000000000000004
+            },
+            "is_valid": true,
+            "volume_mm3": 3066.4168640674834
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "Pocket": {
+      "label": "InnerPocket",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000004,
+              "x_min": -15.000000000000002,
+              "y_max": 0.0,
+              "y_min": -13.5,
+              "z_max": 15.000000000000002,
+              "z_min": -15.000000000000004
+            },
+            "is_valid": true,
+            "volume_mm3": 5560.2960032938545
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "FittingInnerPocket",
+      "name": "Pocket001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000004,
+              "x_min": -15.000000000000002,
+              "y_max": 0.0,
+              "y_min": -13.5,
+              "z_max": 15.000000000000002,
+              "z_min": -15.000000000000004
+            },
+            "is_valid": true,
+            "volume_mm3": 5482.541585117505
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket002": {
+      "label": "BorderPocket",
+      "name": "Pocket002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000004,
+              "x_min": -15.000000000000002,
+              "y_max": 0.0,
+              "y_min": -13.5,
+              "z_max": 15.000000000000002,
+              "z_min": -15.000000000000004
+            },
+            "is_valid": true,
+            "volume_mm3": 3282.28106428109
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket003": {
+      "label": "CapGuideBevel",
+      "name": "Pocket003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000004,
+              "x_min": -15.000000000000004,
+              "y_max": 0.0,
+              "y_min": -13.5,
+              "z_max": 15.000000000000002,
+              "z_min": -15.000000000000004
+            },
+            "is_valid": true,
+            "volume_mm3": 3069.284871763803
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "SubtractivePipe": {
+      "label": "Bevel",
+      "name": "SubtractivePipe",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000004,
+              "x_min": -15.000000000000004,
+              "y_max": 0.0,
+              "y_min": -13.5,
+              "z_max": 15.000000000000002,
+              "z_min": -15.000000000000004
+            },
+            "is_valid": true,
+            "volume_mm3": 3184.629119844856
+          }
+        }
+      ],
+      "type_id": "PartDesign::SubtractivePipe"
+    },
+    "SubtractivePipe001": {
+      "label": "FittingBevel",
+      "name": "SubtractivePipe001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000004,
+              "x_min": -15.000000000000004,
+              "y_max": 0.0,
+              "y_min": -13.5,
+              "z_max": 15.000000000000002,
+              "z_min": -15.000000000000004
+            },
+            "is_valid": true,
+            "volume_mm3": 3066.4168640674834
+          }
+        }
+      ],
+      "type_id": "PartDesign::SubtractivePipe"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 155,
+        "face_count": 60,
+        "feature_count": 15,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "SubtractivePipe001",
+        "vertex_count": 96
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "AssyMount": {
+      "label": "AssyMount",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyMount",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "Pad": {
+      "label": "Pad",
+      "metrics": {
+        "edge_count": 24,
+        "face_count": 10,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 16
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "InnerPocket",
+      "metrics": {
+        "edge_count": 108,
+        "face_count": 40,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 72
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "FittingInnerPocket",
+      "metrics": {
+        "edge_count": 111,
+        "face_count": 42,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 74
+      },
+      "name": "Pocket001",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket002": {
+      "label": "BorderPocket",
+      "metrics": {
+        "edge_count": 121,
+        "face_count": 46,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 80
+      },
+      "name": "Pocket002",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket003": {
+      "label": "CapGuideBevel",
+      "metrics": {
+        "edge_count": 143,
+        "face_count": 56,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 88
+      },
+      "name": "Pocket003",
+      "type_id": "PartDesign::Pocket"
+    },
+    "SubtractivePipe": {
+      "label": "Bevel",
+      "metrics": {
+        "edge_count": 137,
+        "face_count": 54,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 84
+      },
+      "name": "SubtractivePipe",
+      "type_id": "PartDesign::SubtractivePipe"
+    },
+    "SubtractivePipe001": {
+      "label": "FittingBevel",
+      "metrics": {
+        "edge_count": 155,
+        "face_count": 60,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 96
+      },
+      "name": "SubtractivePipe001",
+      "type_id": "PartDesign::SubtractivePipe"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "SketchOutline",
+      "metrics": {
+        "constraint_count": 19,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 8,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "SketchBevel",
+      "metrics": {
+        "constraint_count": 12,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "SketchInnerPocket",
+      "metrics": {
+        "constraint_count": 92,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 33,
+        "is_valid": false,
+        "solver_status": -2
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch003": {
+      "label": "SketchFittingInnerPocket",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch003",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch004": {
+      "label": "SketchBorderPocket",
+      "metrics": {
+        "constraint_count": 35,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 13,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch004",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch006": {
+      "label": "SketchCapGuideBevel",
+      "metrics": {
+        "constraint_count": 18,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 7,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch006",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch007": {
+      "label": "SketchFittingCrossBoundingBox",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch007",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch008": {
+      "label": "SketchFittingBevel",
+      "metrics": {
+        "constraint_count": 8,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 3,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch008",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:34:02.336208+00:00",
+    "document_label": "FL_AP3030S8_Cap",
+    "document_name": "FL_AP3030S8_Cap",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_Cap.FCStd"
+  },
+  "techdraw_pages": {
+    "Page": {
+      "label": "Spec",
+      "metrics": {
+        "is_valid": true,
+        "template_loaded": true,
+        "template_name": "",
+        "view_count": 15,
+        "view_types": {
+          "TechDraw::DrawViewClip": 2,
+          "TechDraw::DrawViewDimension": 11,
+          "TechDraw::DrawViewPart": 1,
+          "TechDraw::DrawViewSection": 1
+        }
+      },
+      "name": "Page",
+      "type_id": "TechDraw::DrawPage"
+    }
+  }
+}

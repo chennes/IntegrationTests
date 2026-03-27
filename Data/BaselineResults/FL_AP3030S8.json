@@ -1,0 +1,349 @@
+{
+  "app_parts": {
+    "Part": {
+      "label": "AP3030S8",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.000000436112458,
+          "x_min": -14.999999564088153,
+          "y_max": 5.000000000000009,
+          "y_min": -5.000000000000009,
+          "z_max": 15.000000000000165,
+          "z_min": -15.00000000019873
+        },
+        "child_count": 19,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000436112458,
+              "x_min": -14.999999564088153,
+              "y_max": 5.000000000000009,
+              "y_min": -5.000000000000009,
+              "z_max": 15.000000000000165,
+              "z_min": -15.00000000019873
+            },
+            "is_valid": true,
+            "volume_mm3": 3139.2993817696215
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Pad": {
+      "label": "Pad",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000436112462,
+              "x_min": -14.999999564088156,
+              "y_max": 5.00000000000001,
+              "y_min": -5.000000000000009,
+              "z_max": 15.00000000000017,
+              "z_min": -15.000000000198733
+            },
+            "is_valid": true,
+            "volume_mm3": 3139.2993817696242
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Part": {
+      "label": "AP3030S8",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000436112458,
+              "x_min": -14.999999564088153,
+              "y_max": 5.000000000000009,
+              "y_min": -5.000000000000009,
+              "z_max": 15.000000000000165,
+              "z_min": -15.00000000019873
+            },
+            "is_valid": true,
+            "volume_mm3": 3139.2993817696215
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 552,
+        "face_count": 186,
+        "feature_count": 2,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad",
+        "vertex_count": 368
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "AssyCenter": {
+      "label": "AssyCenterLine",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "AssyCenter",
+      "type_id": "PartDesign::Line"
+    },
+    "LCS_012": {
+      "label": "AssyCenterTop",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_012",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_013": {
+      "label": "AssyCenterRight",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_013",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_015": {
+      "label": "AssyCenterLeft",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_015",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_1": {
+      "label": "AssyMountBackCenter",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_1",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_10": {
+      "label": "AssyMountFrontLeft",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_10",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_11": {
+      "label": "AssyCenter",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_11",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_12": {
+      "label": "AssyCenterBottom",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_12",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_2": {
+      "label": "AssyMountFrontCenter",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_2",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_3": {
+      "label": "AssyMountBackTop",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_3",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_4": {
+      "label": "AssyMountBackRight",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_4",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_5": {
+      "label": "AssyMountBackBottom",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_5",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_6": {
+      "label": "AssyMountBackLeft",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_6",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_7": {
+      "label": "AssyMountFrontTop",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_7",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_8": {
+      "label": "AssyMountFrontRight",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_8",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "LCS_9": {
+      "label": "AssyMountFrontBottom",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_9",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "Pad": {
+      "label": "Pad",
+      "metrics": {
+        "edge_count": 552,
+        "face_count": 186,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 368
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch007": {
+      "label": "AP3030N8",
+      "metrics": {
+        "constraint_count": 184,
+        "degrees_of_freedom": 456,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 184,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch007",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:33:55.057587+00:00",
+    "document_label": "FL_AP3030S8",
+    "document_name": "FL_AP3030S8",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8.FCStd"
+  },
+  "techdraw_pages": {
+    "Page": {
+      "label": "Spec",
+      "metrics": {
+        "is_valid": true,
+        "template_loaded": true,
+        "template_name": "",
+        "view_count": 8,
+        "view_types": {
+          "TechDraw::DrawViewClip": 1,
+          "TechDraw::DrawViewDimension": 6,
+          "TechDraw::DrawViewPart": 1
+        }
+      },
+      "name": "Page",
+      "type_id": "TechDraw::DrawPage"
+    }
+  }
+}

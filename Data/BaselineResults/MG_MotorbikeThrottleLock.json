@@ -1,0 +1,1104 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Body-carcass-side",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.400000000000018,
+              "x_min": -1.6142581696386367e-14,
+              "y_max": 27.0,
+              "y_min": -27.0,
+              "z_max": 27.0,
+              "z_min": -21.371710273162545
+            },
+            "is_valid": true,
+            "volume_mm3": 3129.386489608504
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Body-carcass-side-support",
+      "name": "Body001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.4000000000000385,
+              "x_min": -3.7452336701775214e-14,
+              "y_max": 28.2,
+              "y_min": -34.700000000000045,
+              "z_max": 40.5000000000001,
+              "z_min": -22.868974616278717
+            },
+            "is_valid": true,
+            "volume_mm3": 2408.199123899561
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body002": {
+      "label": "Body-handle-side",
+      "name": "Body002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.400000000000018,
+              "x_min": -1.6142581696386367e-14,
+              "y_max": 27.0,
+              "y_min": -27.0,
+              "z_max": 27.0,
+              "z_min": -21.371710273162545
+            },
+            "is_valid": true,
+            "volume_mm3": 3504.2018141180088
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body003": {
+      "label": "Body-lever",
+      "name": "Body003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.3999999999999995,
+              "x_min": -6.6000000000000245,
+              "y_max": 2.4689262136459722e-14,
+              "y_min": -29.243436568871157,
+              "z_max": 41.230331789009675,
+              "z_min": 13.060469718501762
+            },
+            "is_valid": true,
+            "volume_mm3": 1194.126000831811
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Cut": {
+      "label": "Cut-carcass-side",
+      "name": "Cut",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.400000000000561,
+              "x_min": -1.61425816927609e-14,
+              "y_max": 29.337377382693234,
+              "y_min": -28.28488569269913,
+              "z_max": 27.0,
+              "z_min": -22.16325509809465
+            },
+            "is_valid": true,
+            "volume_mm3": 2034.6783465119595
+          }
+        }
+      ],
+      "type_id": "Part::Cut"
+    },
+    "Cut003": {
+      "label": "Cut-carcass-side-cornercut",
+      "name": "Cut003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.400000000000561,
+              "x_min": -3.7452336701775214e-14,
+              "y_max": 29.337377382693234,
+              "y_min": -34.700000000000045,
+              "z_max": 40.5000000000001,
+              "z_min": -22.274827669612332
+            },
+            "is_valid": true,
+            "volume_mm3": 4439.690670170791
+          }
+        }
+      ],
+      "type_id": "Part::Cut"
+    },
+    "Cut004": {
+      "label": "Cut-handle-side",
+      "name": "Cut004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.4000000000005612,
+              "x_min": -1.61425816927609e-14,
+              "y_max": 29.337377382693234,
+              "y_min": -28.28488645974288,
+              "z_max": 27.0,
+              "z_min": -22.16325509809465
+            },
+            "is_valid": true,
+            "volume_mm3": 2394.003121470347
+          }
+        }
+      ],
+      "type_id": "Part::Cut"
+    },
+    "Cut005": {
+      "label": "Cut-handle-side-margin",
+      "name": "Cut005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.4000000000005612,
+              "x_min": -9.864911621956796e-15,
+              "y_max": 29.337377382693234,
+              "y_min": -28.28488645974288,
+              "z_max": 26.8,
+              "z_min": -22.16325509809465
+            },
+            "is_valid": true,
+            "volume_mm3": 2336.574354637918
+          }
+        }
+      ],
+      "type_id": "Part::Cut"
+    },
+    "Cut006": {
+      "label": "Cut-handle-side-cornered",
+      "name": "Cut006",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.4000000000005612,
+              "x_min": -9.864911621956796e-15,
+              "y_max": 29.337377382693234,
+              "y_min": -28.28488645974288,
+              "z_max": 26.8,
+              "z_min": -22.16325509809465
+            },
+            "is_valid": true,
+            "volume_mm3": 2335.6566836253864
+          }
+        }
+      ],
+      "type_id": "Part::Cut"
+    },
+    "Cylinder": {
+      "label": "Cylinder-corner-cut-carcass-side",
+      "name": "Cylinder",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 4.000000000000008,
+              "x_min": -6.000000000000015,
+              "y_max": 21.213203435596416,
+              "y_min": -18.397552963853677,
+              "z_max": 7.850462293418926e-16,
+              "z_min": -30.000000000000014
+            },
+            "is_valid": true,
+            "volume_mm3": 6505.060288339371
+          }
+        }
+      ],
+      "type_id": "Part::Cylinder"
+    },
+    "Cylinder001": {
+      "label": "Cylinder-corner-cut",
+      "name": "Cylinder001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 4.000033546791295,
+              "x_min": -5.999999999954316,
+              "y_max": 20.506207899891486,
+              "y_min": 0.0,
+              "z_max": 1.1567859070791042e-05,
+              "z_min": -26.282876026628422
+            },
+            "is_valid": true,
+            "volume_mm3": 1467.8219009272325
+          }
+        }
+      ],
+      "type_id": "Part::Cylinder"
+    },
+    "Fillet": {
+      "label": "Fillet-carcass-side-final",
+      "name": "Fillet",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.400000000000561,
+              "x_min": -3.7452336701775214e-14,
+              "y_max": 29.337377382693234,
+              "y_min": -34.700000000000045,
+              "z_max": 40.5000000000001,
+              "z_min": -22.274827669612332
+            },
+            "is_valid": true,
+            "volume_mm3": 4439.483581596975
+          }
+        }
+      ],
+      "type_id": "Part::Fillet"
+    },
+    "Fillet001": {
+      "label": "Fillet-lever",
+      "name": "Fillet001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.3999999999999946,
+              "x_min": -6.6000000000000165,
+              "y_max": 1.8738461295517087e-14,
+              "y_min": -29.243436568871115,
+              "z_max": 41.23033178900964,
+              "z_min": 13.060469718501762
+            },
+            "is_valid": true,
+            "volume_mm3": 1194.1260008318104
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet002": {
+      "label": "Fillet-handle-side-final",
+      "name": "Fillet002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.4000167562730743,
+              "x_min": -6.6000000000000245,
+              "y_max": 29.337377382693234,
+              "y_min": -29.243436568871157,
+              "z_max": 41.230331789009675,
+              "z_min": -22.16325509809465
+            },
+            "is_valid": true,
+            "volume_mm3": 3031.096976222599
+          }
+        }
+      ],
+      "type_id": "Part::Fillet"
+    },
+    "Fillet002002": {
+      "label": "handle-side",
+      "name": "Fillet002002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 10.000000000000046,
+              "x_min": -1.675627308597526e-05,
+              "y_max": 29.337377382693234,
+              "y_min": -29.243436568871147,
+              "z_max": 22.16325509809465,
+              "z_min": -41.23033178900965
+            },
+            "is_valid": true,
+            "volume_mm3": 3031.097751868025
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Fillet002003": {
+      "label": "carcass-side",
+      "name": "Fillet002003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.400000600019334,
+              "x_min": -6.000192904469371e-07,
+              "y_max": 29.337377382693234,
+              "y_min": -34.70000000000004,
+              "z_max": 40.50000000000006,
+              "z_min": -22.274827669612336
+            },
+            "is_valid": true,
+            "volume_mm3": 4439.483627151165
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Fusion": {
+      "label": "Fusion-carcass-support",
+      "name": "Fusion",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.400000000000561,
+              "x_min": -3.7452336701775214e-14,
+              "y_max": 29.337377382693234,
+              "y_min": -34.700000000000045,
+              "z_max": 40.5000000000001,
+              "z_min": -22.868974616278717
+            },
+            "is_valid": true,
+            "volume_mm3": 4442.877605895407
+          }
+        }
+      ],
+      "type_id": "Part::MultiFuse"
+    },
+    "Fusion001": {
+      "label": "Fusion-handle-side-lever",
+      "name": "Fusion001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.4000000000009285,
+              "x_min": -6.6000000000000245,
+              "y_max": 29.337377382693234,
+              "y_min": -29.243436568871157,
+              "z_max": 41.230331789009675,
+              "z_min": -22.16325509809465
+            },
+            "is_valid": true,
+            "volume_mm3": 3031.3041879791676
+          }
+        }
+      ],
+      "type_id": "Part::MultiFuse"
+    },
+    "Pad": {
+      "label": "Pad-carcass-side-base",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.400000000000007,
+              "x_min": -8.992806499463768e-15,
+              "y_max": 27.0,
+              "y_min": -27.0,
+              "z_max": 27.0,
+              "z_min": -21.371710273162524
+            },
+            "is_valid": true,
+            "volume_mm3": 3129.386489608503
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad-handle-side-base",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.400000000000007,
+              "x_min": -8.992806499463768e-15,
+              "y_max": 27.0,
+              "y_min": -27.0,
+              "z_max": 27.0,
+              "z_min": -21.371710273162524
+            },
+            "is_valid": true,
+            "volume_mm3": 3504.201814118008
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad002": {
+      "label": "Pad-carcass-side-support-base",
+      "name": "Pad002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.4000000000000083,
+              "x_min": -1.2656542480726785e-14,
+              "y_max": 28.2,
+              "y_min": -34.7,
+              "z_max": 40.50000000000002,
+              "z_min": -22.868974616278706
+            },
+            "is_valid": true,
+            "volume_mm3": 2418.7469820422693
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad004": {
+      "label": "Pad-lever-base",
+      "name": "Pad004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.3999999999999964,
+              "x_min": -1.284428067982777e-14,
+              "y_max": 9.812268172098605e-15,
+              "y_min": -29.24343656887111,
+              "z_max": 41.23033178900962,
+              "z_min": 13.060469718501759
+            },
+            "is_valid": true,
+            "volume_mm3": 854.3738987305051
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad005": {
+      "label": "Pad-lever-tap",
+      "name": "Pad005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.3999999999999946,
+              "x_min": -6.6000000000000165,
+              "y_max": 1.8738461295517087e-14,
+              "y_min": -29.243436568871115,
+              "z_max": 41.23033178900964,
+              "z_min": 13.060469718501762
+            },
+            "is_valid": true,
+            "volume_mm3": 1194.2078257823644
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket-rugged-nut",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.400000000000017,
+              "x_min": -2.6534330288541257e-14,
+              "y_max": 28.2,
+              "y_min": -34.70000000000001,
+              "z_max": 40.50000000000004,
+              "z_min": -22.86897461627871
+            },
+            "is_valid": true,
+            "volume_mm3": 2408.1991238995593
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Sketch_On_Surface": {
+      "label": "Sketch_On_Surface",
+      "name": "Sketch_On_Surface",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.4000000000005612,
+              "x_min": 5.362504856804657e-13,
+              "y_max": 29.337377382693873,
+              "y_min": 10.388888888888724,
+              "z_max": 22.163250174698117,
+              "z_min": -22.163255098094666
+            },
+            "is_valid": true,
+            "volume_mm3": 768.569405260997
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.400000000000563,
+              "x_min": 5.291656835751304e-13,
+              "y_max": -10.38888888888903,
+              "y_min": -29.33737738269603,
+              "z_max": 22.16325017469853,
+              "z_min": -22.163255098094275
+            },
+            "is_valid": true,
+            "volume_mm3": 768.569405253445
+          }
+        }
+      ],
+      "type_id": "Part::FeaturePython"
+    },
+    "Sketch_On_Surface001": {
+      "label": "Sketch_On_Surface-handle-side",
+      "name": "Sketch_On_Surface001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 3.4000000000005612,
+              "x_min": 5.362504856804657e-13,
+              "y_max": 29.337377382693873,
+              "y_min": 10.999999999999837,
+              "z_max": 22.163250174698117,
+              "z_min": -22.163255098094666
+            },
+            "is_valid": true,
+            "volume_mm3": 714.2261139799164
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.4000000000005866,
+              "x_min": 5.298e-13,
+              "y_max": -10.999981575579518,
+              "y_min": -29.33738128561497,
+              "z_max": 22.163277225140956,
+              "z_min": -22.163255098094275
+            },
+            "is_valid": true,
+            "volume_mm3": 714.2267320934752
+          }
+        }
+      ],
+      "type_id": "Part::FeaturePython"
+    },
+    "Tube": {
+      "label": "Tube-margin-cut",
+      "name": "Tube",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.0,
+              "x_min": 0.0,
+              "y_max": 30.0,
+              "y_min": -30.0,
+              "z_max": 30.0,
+              "z_min": -30.0
+            },
+            "is_valid": true,
+            "volume_mm3": 2855.0794035824047
+          }
+        }
+      ],
+      "type_id": "Part::FeaturePython"
+    }
+  },
+  "part_features": {
+    "Cut": {
+      "label": "Cut-carcass-side",
+      "metrics": {
+        "edge_count": 28,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 19
+      },
+      "name": "Cut",
+      "type_id": "Part::Cut"
+    },
+    "Cut003": {
+      "label": "Cut-carcass-side-cornercut",
+      "metrics": {
+        "edge_count": 105,
+        "face_count": 37,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 71
+      },
+      "name": "Cut003",
+      "type_id": "Part::Cut"
+    },
+    "Cut004": {
+      "label": "Cut-handle-side",
+      "metrics": {
+        "edge_count": 33,
+        "face_count": 13,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 22
+      },
+      "name": "Cut004",
+      "type_id": "Part::Cut"
+    },
+    "Cut005": {
+      "label": "Cut-handle-side-margin",
+      "metrics": {
+        "edge_count": 36,
+        "face_count": 14,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 24
+      },
+      "name": "Cut005",
+      "type_id": "Part::Cut"
+    },
+    "Cut006": {
+      "label": "Cut-handle-side-cornered",
+      "metrics": {
+        "edge_count": 39,
+        "face_count": 15,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 26
+      },
+      "name": "Cut006",
+      "type_id": "Part::Cut"
+    },
+    "Cylinder": {
+      "label": "Cylinder-corner-cut-carcass-side",
+      "metrics": {
+        "edge_count": 9,
+        "face_count": 5,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 6
+      },
+      "name": "Cylinder",
+      "type_id": "Part::Cylinder"
+    },
+    "Cylinder001": {
+      "label": "Cylinder-corner-cut",
+      "metrics": {
+        "edge_count": 9,
+        "face_count": 5,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 6
+      },
+      "name": "Cylinder001",
+      "type_id": "Part::Cylinder"
+    },
+    "Fillet": {
+      "label": "Fillet-carcass-side-final",
+      "metrics": {
+        "edge_count": 108,
+        "face_count": 38,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 73
+      },
+      "name": "Fillet",
+      "type_id": "Part::Fillet"
+    },
+    "Fillet002": {
+      "label": "Fillet-handle-side-final",
+      "metrics": {
+        "edge_count": 73,
+        "face_count": 24,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 51
+      },
+      "name": "Fillet002",
+      "type_id": "Part::Fillet"
+    },
+    "Fillet002002": {
+      "label": "handle-side",
+      "metrics": {
+        "edge_count": 71,
+        "face_count": 23,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 50
+      },
+      "name": "Fillet002002",
+      "type_id": "Part::Feature"
+    },
+    "Fillet002003": {
+      "label": "carcass-side",
+      "metrics": {
+        "edge_count": 108,
+        "face_count": 38,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 73
+      },
+      "name": "Fillet002003",
+      "type_id": "Part::Feature"
+    },
+    "Fusion": {
+      "label": "Fusion-carcass-support",
+      "metrics": {
+        "edge_count": 101,
+        "face_count": 36,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 68
+      },
+      "name": "Fusion",
+      "type_id": "Part::MultiFuse"
+    },
+    "Fusion001": {
+      "label": "Fusion-handle-side-lever",
+      "metrics": {
+        "edge_count": 70,
+        "face_count": 23,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 49
+      },
+      "name": "Fusion001",
+      "type_id": "Part::MultiFuse"
+    },
+    "Sketch_On_Surface": {
+      "label": "Sketch_On_Surface",
+      "metrics": {
+        "edge_count": 27,
+        "face_count": 13,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 18
+      },
+      "name": "Sketch_On_Surface",
+      "type_id": "Part::FeaturePython"
+    },
+    "Sketch_On_Surface001": {
+      "label": "Sketch_On_Surface-handle-side",
+      "metrics": {
+        "edge_count": 27,
+        "face_count": 13,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 18
+      },
+      "name": "Sketch_On_Surface001",
+      "type_id": "Part::FeaturePython"
+    },
+    "Tube": {
+      "label": "Tube-margin-cut",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 4
+      },
+      "name": "Tube",
+      "type_id": "Part::FeaturePython"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body-carcass-side",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "feature_count": 3,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad",
+        "vertex_count": 8
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Body-carcass-side-support",
+      "metrics": {
+        "edge_count": 75,
+        "face_count": 28,
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket",
+        "vertex_count": 50
+      },
+      "name": "Body001",
+      "type_id": "PartDesign::Body"
+    },
+    "Body002": {
+      "label": "Body-handle-side",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "feature_count": 3,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad001",
+        "vertex_count": 8
+      },
+      "name": "Body002",
+      "type_id": "PartDesign::Body"
+    },
+    "Body003": {
+      "label": "Body-lever",
+      "metrics": {
+        "edge_count": 33,
+        "face_count": 13,
+        "feature_count": 5,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet001",
+        "vertex_count": 22
+      },
+      "name": "Body003",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "Fillet001": {
+      "label": "Fillet-lever",
+      "metrics": {
+        "edge_count": 33,
+        "face_count": 13,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 22
+      },
+      "name": "Fillet001",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Pad": {
+      "label": "Pad-carcass-side-base",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 8
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad-handle-side-base",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 8
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad002": {
+      "label": "Pad-carcass-side-support-base",
+      "metrics": {
+        "edge_count": 66,
+        "face_count": 24,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 44
+      },
+      "name": "Pad002",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad004": {
+      "label": "Pad-lever-base",
+      "metrics": {
+        "edge_count": 21,
+        "face_count": 9,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 14
+      },
+      "name": "Pad004",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad005": {
+      "label": "Pad-lever-tap",
+      "metrics": {
+        "edge_count": 27,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 18
+      },
+      "name": "Pad005",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket-rugged-nut",
+      "metrics": {
+        "edge_count": 75,
+        "face_count": 28,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 50
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch-carcass-side-base",
+      "metrics": {
+        "constraint_count": 12,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch003": {
+      "label": "Sketch-carcass-side-recess",
+      "metrics": {
+        "constraint_count": 46,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 16,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch003",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch004": {
+      "label": "Sketch-carcass-side-support-base",
+      "metrics": {
+        "constraint_count": 72,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 27,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch004",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch005": {
+      "label": "Sketch-handle-side-recess",
+      "metrics": {
+        "constraint_count": 46,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 16,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch005",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch006": {
+      "label": "Sketch-handle-side-base",
+      "metrics": {
+        "constraint_count": 15,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 6,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch006",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch008": {
+      "label": "Sketch-lever-base",
+      "metrics": {
+        "constraint_count": 23,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 9,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch008",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch009": {
+      "label": "Sketch-lever-tap",
+      "metrics": {
+        "constraint_count": 8,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch009",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch010": {
+      "label": "Sketch-rugged-nut",
+      "metrics": {
+        "constraint_count": 7,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch010",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:35:55.023925+00:00",
+    "document_label": "MG_MotorbikeThrottleLock",
+    "document_name": "MG_MotorbikeThrottleLock",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_MotorbikeThrottleLock.FCStd"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000044,
+              "x_min": -15.000000000000108,
+              "y_max": 37.44303904400564,
+              "y_min": -37.38985722416677,
+              "z_max": 62.92438509479159,
+              "z_min": -15.75000010765783
+            },
+            "is_valid": true,
+            "volume_mm3": 16447.804270025015
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "name": "Fillet",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000014,
+              "x_min": -15.000000000000044,
+              "y_max": 37.44303904400563,
+              "y_min": -37.389857224166725,
+              "z_max": 62.924385094791546,
+              "z_min": -15.750000107657815
+            },
+            "is_valid": true,
+            "volume_mm3": 16447.80427002499
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Pad": {
+      "label": "Pad-profile",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000005,
+              "x_min": -15.000000000000021,
+              "y_max": 37.44303904400561,
+              "y_min": -37.38985722416672,
+              "z_max": 62.924385094791546,
+              "z_min": -15.750000107657813
+            },
+            "is_valid": true,
+            "volume_mm3": 16546.17596958087
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket-zip-tie-hole",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 15.000000000000014,
+              "x_min": -15.000000000000044,
+              "y_max": 37.44303904400563,
+              "y_min": -37.389857224166725,
+              "z_max": 62.924385094791546,
+              "z_min": -15.750000107657815
+            },
+            "is_valid": true,
+            "volume_mm3": 16509.60959896652
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 210,
+        "face_count": 72,
+        "feature_count": 5,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet",
+        "vertex_count": 140
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "Fillet": {
+      "label": "Fillet",
+      "metrics": {
+        "edge_count": 210,
+        "face_count": 72,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 140
+      },
+      "name": "Fillet",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Pad": {
+      "label": "Pad-profile",
+      "metrics": {
+        "edge_count": 174,
+        "face_count": 60,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 116
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket-zip-tie-hole",
+      "metrics": {
+        "edge_count": 198,
+        "face_count": 68,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 132
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch-profile",
+      "metrics": {
+        "constraint_count": 204,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 87,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch-zip-tie-hole",
+      "metrics": {
+        "constraint_count": 9,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:35:48.600569+00:00",
+    "document_label": "MG_MotorbikeMobileSupport",
+    "document_name": "MG_MotorbikeMobileSupport",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_MotorbikeMobileSupport.FCStd"
+  }
+}

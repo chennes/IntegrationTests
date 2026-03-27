@@ -1,0 +1,1145 @@
+{
+  "app_parts": {
+    "Sign_URL_BEM_BU04x02x00_25___SPN_SGN_0006__stemfie_org_": {
+      "label": "Sign URL BEM BU04x02x00.25 - SPN-SGN-0006 (stemfie.org)",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 56.250000000000114,
+          "x_min": -6.250000000000111,
+          "y_max": -12.5,
+          "y_min": -37.5,
+          "z_max": 3.125000000000135,
+          "z_min": -1.3511414209688155e-13
+        },
+        "child_count": 1,
+        "is_valid": true
+      },
+      "name": "Sign_URL_BEM_BU04x02x00_25___SPN_SGN_0006__stemfie_org_",
+      "type_id": "App::Part"
+    }
+  },
+  "objects": {
+    "Body": {
+      "label": "Brace STR ERR (stemfie.org)",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 43.75,
+              "x_min": -6.250000000000011,
+              "y_max": 6.250000000000001,
+              "y_min": -6.250000000000001,
+              "z_max": 3.1250000000000013,
+              "z_min": -1.3877787807814457e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 1308.1639813382644
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Beam STR ESS (stemfie.org)",
+      "name": "Body001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 31.250000000000206,
+              "x_min": -6.249999999999997,
+              "y_max": 25.000000000000007,
+              "y_min": 12.499999999999835,
+              "z_max": 12.500000000000078,
+              "z_min": -4.47253345470246e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 2922.025206175478
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Chamfer": {
+      "label": "FirstHoleLowerEdge",
+      "name": "Chamfer",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 43.75,
+              "x_min": -6.250000000000011,
+              "y_max": 6.25,
+              "y_min": -6.25,
+              "z_max": 3.125,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 1727.0569771814135
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer001": {
+      "label": "OuterEdge",
+      "name": "Chamfer001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 43.75,
+              "x_min": -6.250000000000011,
+              "y_max": 6.250000000000001,
+              "y_min": -6.250000000000001,
+              "z_max": 3.1250000000000013,
+              "z_min": -1.3877787807814457e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 1339.2231489211747
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer002": {
+      "label": "EndFaces",
+      "name": "Chamfer002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.567635858803844e-15,
+              "x_min": -37.50000000000001,
+              "y_max": 12.500000000000014,
+              "y_min": -6.796170969776946e-16,
+              "z_max": 12.500000000000005,
+              "z_min": -1.1379786002407855e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 4403.043034405911
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer003": {
+      "label": "SideHoles",
+      "name": "Chamfer003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.2850192162407665e-15,
+              "x_min": -37.50000000000003,
+              "y_max": 12.500000000000037,
+              "y_min": -4.797769525451656e-16,
+              "z_max": 12.500000000000025,
+              "z_min": -2.7644553313166398e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 3922.951907864697
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "LinearPattern": {
+      "label": "Holes along the length",
+      "name": "LinearPattern",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.2850192162407665e-15,
+              "x_min": -37.50000000000003,
+              "y_max": 12.500000000000037,
+              "y_min": -4.797769525451656e-16,
+              "z_max": 12.500000000000025,
+              "z_min": -2.7644553313166398e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 2962.769654781861
+          }
+        }
+      ],
+      "type_id": "PartDesign::LinearPattern"
+    },
+    "LinearPattern001": {
+      "label": "HoleArray",
+      "name": "LinearPattern001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 43.75,
+              "x_min": -6.250000000000011,
+              "y_max": 6.25,
+              "y_min": -6.25,
+              "z_max": 3.125,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 1349.450891988697
+          }
+        }
+      ],
+      "type_id": "PartDesign::LinearPattern"
+    },
+    "LinearPattern002": {
+      "label": "HoleLedgeArray",
+      "name": "LinearPattern002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 43.75,
+              "x_min": -6.250000000000011,
+              "y_max": 6.250000000000001,
+              "y_min": -6.250000000000001,
+              "z_max": 3.1250000000000013,
+              "z_min": -1.3877787807814457e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 1308.1781228738469
+          }
+        }
+      ],
+      "type_id": "PartDesign::LinearPattern"
+    },
+    "LinearPattern003": {
+      "label": "FirstHoleTopLedgeArray",
+      "name": "LinearPattern003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.220446049250313e-15,
+              "x_min": -37.50000000000007,
+              "y_max": 12.500000000000076,
+              "y_min": -1.8001673589637161e-16,
+              "z_max": 12.500000000000018,
+              "z_min": -5.2013948703688584e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 2922.039349328794
+          }
+        }
+      ],
+      "type_id": "PartDesign::LinearPattern"
+    },
+    "Pad": {
+      "label": "Height",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 43.75,
+              "x_min": -6.250000000000011,
+              "y_max": 6.25,
+              "y_min": -6.25,
+              "z_max": 3.125,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 1848.3389469714107
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Length and Centre Hole",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 1.1657341758564142e-15,
+              "x_min": -37.50000000000001,
+              "y_max": 12.500000000000014,
+              "y_min": 3.33066907387547e-17,
+              "z_max": 12.500000000000004,
+              "z_min": -8.226752612472411e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 4409.455874757191
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Part__Feature": {
+      "label": "Sign URL BEM BU04x02x00.25 - SPN-SGN-0006 (stemfie.org)001",
+      "name": "Part__Feature",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 56.250000000000114,
+              "x_min": -6.250000000000111,
+              "y_max": 6.250000000000001,
+              "y_min": -18.750000000000004,
+              "z_max": 3.125000000000135,
+              "z_min": -1.3511414209688155e-13
+            },
+            "is_valid": true,
+            "volume_mm3": 2942.757589642303
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Pocket": {
+      "label": "Hole - Side",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.4263275375223052e-15,
+              "x_min": -37.50000000000002,
+              "y_max": 12.500000000000027,
+              "y_min": -5.796970247614302e-16,
+              "z_max": 12.500000000000007,
+              "z_min": -1.9484414082171497e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 4150.653325990997
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "Hole - Top",
+      "name": "Pocket001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.2850192162407665e-15,
+              "x_min": -37.50000000000003,
+              "y_max": 12.500000000000037,
+              "y_min": -4.797769525451656e-16,
+              "z_max": 12.500000000000025,
+              "z_min": -2.7644553313166398e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 3926.0055359239195
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket003": {
+      "label": "First hole",
+      "name": "Pocket003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 43.75,
+              "x_min": -6.250000000000011,
+              "y_max": 6.25,
+              "y_min": -6.25,
+              "z_max": 3.125,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 1728.0748532011767
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket004": {
+      "label": "FirstHoleTopChamferVoid",
+      "name": "Pocket004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 43.75,
+              "x_min": -6.250000000000011,
+              "y_max": 6.25,
+              "y_min": -6.25,
+              "z_max": 3.125,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 1723.616933225732
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket005": {
+      "label": "SunkenTopLayer",
+      "name": "Pocket005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 43.75,
+              "x_min": -6.250000000000011,
+              "y_max": 6.250000000000001,
+              "y_min": -6.250000000000001,
+              "z_max": 3.1250000000000013,
+              "z_min": -1.3877787807814457e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 1281.600249024477
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket006": {
+      "label": "Logo STEMFIE URL",
+      "name": "Pocket006",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 43.75,
+              "x_min": -6.250000000000011,
+              "y_max": 6.250000000000001,
+              "y_min": -6.250000000000001,
+              "z_max": 3.1250000000000013,
+              "z_min": -1.3877787807814457e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 1308.1639813382644
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket007": {
+      "label": "TopSunkenLayer",
+      "name": "Pocket007",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.143710894959228e-15,
+              "x_min": -37.50000000000005,
+              "y_max": 12.500000000000052,
+              "y_min": -3.7985688032890105e-16,
+              "z_max": 12.500000000000012,
+              "z_min": -3.574918139293004e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 2913.1423607857173
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket008": {
+      "label": "TopHoleChamferVoid",
+      "name": "Pocket008",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.1094237467877974e-15,
+              "x_min": -37.500000000000064,
+              "y_max": 12.500000000000062,
+              "y_min": -2.7993680811263643e-16,
+              "z_max": 12.500000000000014,
+              "z_min": -4.393707619954057e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 2911.078334412356
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket009": {
+      "label": "Logo STEMFIE URL001",
+      "name": "Pocket009",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.220446049250313e-15,
+              "x_min": -37.500000000000085,
+              "y_max": 12.500000000000087,
+              "y_min": -8.00966636801068e-17,
+              "z_max": 12.50000000000002,
+              "z_min": -6.017408793468348e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 2922.0252061754513
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Revolution": {
+      "label": "FirstHoleLedge",
+      "name": "Revolution",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 43.75,
+              "x_min": -6.250000000000011,
+              "y_max": 6.250000000000001,
+              "y_min": -6.250000000000001,
+              "z_max": 3.1250000000000013,
+              "z_min": -1.3877787807814457e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 1288.2447174868198
+          }
+        }
+      ],
+      "type_id": "PartDesign::Revolution"
+    },
+    "Revolution001": {
+      "label": "FirstHoleTopLedge",
+      "name": "Revolution001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.220446049250313e-15,
+              "x_min": -37.50000000000007,
+              "y_max": 12.500000000000076,
+              "y_min": -1.8001673589637161e-16,
+              "z_max": 12.500000000000018,
+              "z_min": -5.2013948703688584e-14
+            },
+            "is_valid": true,
+            "volume_mm3": 2917.722803802394
+          }
+        }
+      ],
+      "type_id": "PartDesign::Revolution"
+    },
+    "Sign_URL_BEM_BU04x02x00_25___SPN_SGN_0006__stemfie_org_": {
+      "label": "Sign URL BEM BU04x02x00.25 - SPN-SGN-0006 (stemfie.org)",
+      "name": "Sign_URL_BEM_BU04x02x00_25___SPN_SGN_0006__stemfie_org_",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 56.250000000000114,
+              "x_min": -6.250000000000111,
+              "y_max": -12.5,
+              "y_min": -37.5,
+              "z_max": 3.125000000000135,
+              "z_min": -1.3511414209688155e-13
+            },
+            "is_valid": true,
+            "volume_mm3": 2942.757589642305
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    }
+  },
+  "part_features": {
+    "Part__Feature": {
+      "label": "Sign URL BEM BU04x02x00.25 - SPN-SGN-0006 (stemfie.org)001",
+      "metrics": {
+        "edge_count": 1522,
+        "face_count": 556,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 1006
+      },
+      "name": "Part__Feature",
+      "type_id": "Part::Feature"
+    },
+    "ShapeString": {
+      "label": "STEMFIE part number",
+      "metrics": {
+        "edge_count": 208,
+        "face_count": 12,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 208
+      },
+      "name": "ShapeString",
+      "type_id": "Part::Part2DObjectPython"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Brace STR ERR (stemfie.org)",
+      "metrics": {
+        "edge_count": 698,
+        "face_count": 260,
+        "feature_count": 16,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket006",
+        "vertex_count": 460
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Beam STR ESS (stemfie.org)",
+      "metrics": {
+        "edge_count": 812,
+        "face_count": 290,
+        "feature_count": 21,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket009",
+        "vertex_count": 533
+      },
+      "name": "Body001",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "Chamfer": {
+      "label": "FirstHoleLowerEdge",
+      "metrics": {
+        "edge_count": 17,
+        "face_count": 8,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 11
+      },
+      "name": "Chamfer",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer001": {
+      "label": "OuterEdge",
+      "metrics": {
+        "edge_count": 60,
+        "face_count": 30,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 36
+      },
+      "name": "Chamfer001",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer002": {
+      "label": "EndFaces",
+      "metrics": {
+        "edge_count": 63,
+        "face_count": 29,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 36
+      },
+      "name": "Chamfer002",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer003": {
+      "label": "SideHoles",
+      "metrics": {
+        "edge_count": 97,
+        "face_count": 37,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 58
+      },
+      "name": "Chamfer003",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "DatumLine": {
+      "label": "DatumLine",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "DatumLine",
+      "type_id": "PartDesign::Line"
+    },
+    "DatumPlane": {
+      "label": "DatumPlane",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane",
+      "type_id": "PartDesign::Plane"
+    },
+    "DatumPlane001": {
+      "label": "TopLayer",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane001",
+      "type_id": "PartDesign::Plane"
+    },
+    "DatumPlane002": {
+      "label": "CenterPlane",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane002",
+      "type_id": "PartDesign::Plane"
+    },
+    "LinearPattern": {
+      "label": "Holes along the length",
+      "metrics": {
+        "edge_count": 165,
+        "face_count": 53,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 102
+      },
+      "name": "LinearPattern",
+      "type_id": "PartDesign::LinearPattern"
+    },
+    "LinearPattern001": {
+      "label": "HoleArray",
+      "metrics": {
+        "edge_count": 44,
+        "face_count": 22,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 28
+      },
+      "name": "LinearPattern001",
+      "type_id": "PartDesign::LinearPattern"
+    },
+    "LinearPattern002": {
+      "label": "HoleLedgeArray",
+      "metrics": {
+        "edge_count": 80,
+        "face_count": 39,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 48
+      },
+      "name": "LinearPattern002",
+      "type_id": "PartDesign::LinearPattern"
+    },
+    "LinearPattern003": {
+      "label": "FirstHoleTopLedgeArray",
+      "metrics": {
+        "edge_count": 194,
+        "face_count": 69,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 121
+      },
+      "name": "LinearPattern003",
+      "type_id": "PartDesign::LinearPattern"
+    },
+    "Pad": {
+      "label": "Height",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 8
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Length and Centre Hole",
+      "metrics": {
+        "edge_count": 27,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 18
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Hole - Side",
+      "metrics": {
+        "edge_count": 75,
+        "face_count": 32,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 43
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "Hole - Top",
+      "metrics": {
+        "edge_count": 91,
+        "face_count": 34,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 55
+      },
+      "name": "Pocket001",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket003": {
+      "label": "First hole",
+      "metrics": {
+        "edge_count": 15,
+        "face_count": 7,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 10
+      },
+      "name": "Pocket003",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket004": {
+      "label": "FirstHoleTopChamferVoid",
+      "metrics": {
+        "edge_count": 20,
+        "face_count": 10,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 13
+      },
+      "name": "Pocket004",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket005": {
+      "label": "SunkenTopLayer",
+      "metrics": {
+        "edge_count": 72,
+        "face_count": 35,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 44
+      },
+      "name": "Pocket005",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket006": {
+      "label": "Logo STEMFIE URL",
+      "metrics": {
+        "edge_count": 698,
+        "face_count": 260,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 460
+      },
+      "name": "Pocket006",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket007": {
+      "label": "TopSunkenLayer",
+      "metrics": {
+        "edge_count": 177,
+        "face_count": 58,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 110
+      },
+      "name": "Pocket007",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket008": {
+      "label": "TopHoleChamferVoid",
+      "metrics": {
+        "edge_count": 180,
+        "face_count": 60,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 112
+      },
+      "name": "Pocket008",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket009": {
+      "label": "Logo STEMFIE URL001",
+      "metrics": {
+        "edge_count": 812,
+        "face_count": 290,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 533
+      },
+      "name": "Pocket009",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Revolution": {
+      "label": "FirstHoleLedge",
+      "metrics": {
+        "edge_count": 74,
+        "face_count": 36,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 45
+      },
+      "name": "Revolution",
+      "type_id": "PartDesign::Revolution"
+    },
+    "Revolution001": {
+      "label": "FirstHoleTopLedge",
+      "metrics": {
+        "edge_count": 182,
+        "face_count": 61,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 113
+      },
+      "name": "Revolution001",
+      "type_id": "PartDesign::Revolution"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "STEMFIE.org - Logo - PartMarking (2.7 mm)",
+      "metrics": {
+        "constraint_count": 261,
+        "degrees_of_freedom": 357,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 206,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch003": {
+      "label": "STEMFIE.org - Logo - Lowres",
+      "metrics": {
+        "constraint_count": 206,
+        "degrees_of_freedom": 412,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 206,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch003",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch011": {
+      "label": "Base and centre hole",
+      "metrics": {
+        "constraint_count": 27,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 9,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch011",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch012": {
+      "label": "Side hole",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch012",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch013": {
+      "label": "Top hole",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch013",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch014": {
+      "label": "Base",
+      "metrics": {
+        "constraint_count": 15,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 5,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch014",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch015": {
+      "label": "First hole 001",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch015",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch016": {
+      "label": "SunkenTopLayer001",
+      "metrics": {
+        "constraint_count": 15,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 5,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch016",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch017": {
+      "label": "FirstHoleLedge001",
+      "metrics": {
+        "constraint_count": 15,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 5,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch017",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch018": {
+      "label": "FirstHoleTopChamferVoid001",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch018",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch019": {
+      "label": "TopSunkenLayer001",
+      "metrics": {
+        "constraint_count": 12,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch019",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch020": {
+      "label": "TopHoleChamferVoid001",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch020",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch021": {
+      "label": "FirstHoleLedge002",
+      "metrics": {
+        "constraint_count": 20,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 7,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch021",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch023": {
+      "label": "STEMFIE.org - Logo - PartMarking (2.7 mm)001",
+      "metrics": {
+        "constraint_count": 261,
+        "degrees_of_freedom": 357,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 206,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch023",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:38:54.016774+00:00",
+    "document_label": "STEMFIE_TemplateScene",
+    "document_name": "STEMFIE_TemplateScene",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\STEMFIE_TemplateScene.FCStd"
+  },
+  "spreadsheets": {
+    "Spreadsheet": {
+      "label": "STEMFIE.dimensions",
+      "metrics": {
+        "cell_count": 69,
+        "is_valid": true
+      },
+      "name": "Spreadsheet",
+      "type_id": "Spreadsheet::Sheet"
+    }
+  }
+}

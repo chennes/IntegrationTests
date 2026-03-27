@@ -35,7 +35,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415868
+            "volume_mm3": 136.3116108441584
           }
         }
       ],
@@ -57,7 +57,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.3116108441584
+            "volume_mm3": 136.31161084415868
           }
         }
       ],
@@ -167,7 +167,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415865
+            "volume_mm3": 136.3116108441584
           }
         }
       ],
@@ -211,7 +211,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.3116108441584
+            "volume_mm3": 136.31161084415865
           }
         }
       ],
@@ -519,7 +519,7 @@
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 89.89981537512546
+            "volume_mm3": 89.89981537512521
           }
         }
       ],
@@ -563,7 +563,7 @@
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 89.89981537512521
+            "volume_mm3": 89.89981537512546
           }
         }
       ],
@@ -710,7 +710,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.3116108441584
+            "volume_mm3": 136.31161084415865
           }
         },
         {
@@ -870,28 +870,6 @@
         }
       ],
       "type_id": "PartDesign::Revolution"
-    },
-    "ShapeBinder": {
-      "label": "ShapeBinder",
-      "name": "ShapeBinder",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -8.000000000000002,
-              "z_max": 4.799999999999999,
-              "z_min": -4.800000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 176.26610389708165
-          }
-        }
-      ],
-      "type_id": "PartDesign::ShapeBinder"
     }
   },
   "partdesign_bodies": {
@@ -1586,10 +1564,10 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-13T14:53:05.546247+00:00",
+    "data_creation_date": "2026-03-27T14:36:48.979729+00:00",
     "document_label": "PD_Pins",
     "document_name": "PD_Pins",
-    "freecad_version": "1.2.0 45706 (Git)",
+    "freecad_version": "1.2.0 45400 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Pins.FCStd"
   }
 }

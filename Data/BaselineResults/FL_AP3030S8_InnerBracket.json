@@ -1,0 +1,567 @@
+{
+  "app_parts": {
+    "Part": {
+      "label": "AP3030S8_InnerBracket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 8.000000000000002,
+          "x_min": -8.000000000000002,
+          "y_max": 4.49713219041975e-15,
+          "y_min": -30.0,
+          "z_max": 21.0,
+          "z_min": -7.105427357601002e-15
+        },
+        "child_count": 5,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
+  "objects": {
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.000000000000002,
+              "x_min": -8.000000000000002,
+              "y_max": 4.49713219041975e-15,
+              "y_min": -30.0,
+              "z_max": 21.0,
+              "z_min": -7.105427357601002e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 3412.6720053541194
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Groove001": {
+      "label": "BevelScrewHoleBottom",
+      "name": "Groove001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -8.000000000000002,
+              "y_max": 5.080000480060624e-15,
+              "y_min": -30.0,
+              "z_max": 21.0,
+              "z_min": -1.8900000000000003e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 3430.5811207693746
+          }
+        }
+      ],
+      "type_id": "PartDesign::Groove"
+    },
+    "Groove002": {
+      "label": "BevelScrewHoleBack",
+      "name": "Groove002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -8.000000000000002,
+              "y_max": 8.243995492773076e-15,
+              "y_min": -30.0,
+              "z_max": 21.0,
+              "z_min": -1.8900000000000003e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 3412.7787624210196
+          }
+        }
+      ],
+      "type_id": "PartDesign::Groove"
+    },
+    "Hole": {
+      "label": "ScrewHoleBottom",
+      "name": "Hole",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -8.000000000000004,
+              "y_max": 4.623942922677583e-16,
+              "y_min": -30.0,
+              "z_max": 21.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 3739.6140268487443
+          }
+        }
+      ],
+      "type_id": "PartDesign::Hole"
+    },
+    "Hole001": {
+      "label": "ScrewHoleBack",
+      "name": "Hole001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -8.000000000000004,
+              "y_max": 3.402836280981536e-15,
+              "y_min": -30.0,
+              "z_max": 21.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 3720.612300053975
+          }
+        }
+      ],
+      "type_id": "PartDesign::Hole"
+    },
+    "Mirrored": {
+      "label": "EdgeCutRight",
+      "name": "Mirrored",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -8.000000000000004,
+              "y_max": 4.623942922677583e-16,
+              "y_min": -30.0,
+              "z_max": 21.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 3758.61575367681
+          }
+        }
+      ],
+      "type_id": "PartDesign::Mirrored"
+    },
+    "Pad": {
+      "label": "Y",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 7.999999999999999,
+              "x_min": -8.000000000000002,
+              "y_max": -5.999999999999998,
+              "y_min": -30.0,
+              "z_max": 7.900000000000008,
+              "z_min": 1.3322676295501878e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 2206.647034952851
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Z",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -8.000000000000004,
+              "y_max": 4.623952859061226e-16,
+              "y_min": -30.0,
+              "z_max": 21.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 4017.780900228709
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Part": {
+      "label": "AP3030S8_InnerBracket",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.000000000000002,
+              "x_min": -8.000000000000002,
+              "y_max": 4.49713219041975e-15,
+              "y_min": -30.0,
+              "z_max": 21.0,
+              "z_min": -7.105427357601002e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 3412.6720053541194
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "Pocket": {
+      "label": "EdgeCutLeft",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -8.000000000000004,
+              "y_max": 4.623942922677583e-16,
+              "y_min": -30.0,
+              "z_max": 21.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 3888.198326948938
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "BevelY",
+      "name": "Pocket001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 8.0,
+              "x_min": -8.000000000000002,
+              "y_max": 8.243995492773076e-15,
+              "y_min": -30.0,
+              "z_max": 21.0,
+              "z_min": -1.000000321264849e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 3412.6720053541194
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 220,
+        "face_count": 80,
+        "feature_count": 17,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket001",
+        "vertex_count": 140
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "AssyMount": {
+      "label": "AssyMount",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyMount",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "AssyScrewBack": {
+      "label": "AssyScrewBack",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyScrewBack",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "AssyScrewBottom": {
+      "label": "AssyScrewBottom",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyScrewBottom",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "Groove001": {
+      "label": "BevelScrewHoleBottom",
+      "metrics": {
+        "edge_count": 213,
+        "face_count": 76,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 137
+      },
+      "name": "Groove001",
+      "type_id": "PartDesign::Groove"
+    },
+    "Groove002": {
+      "label": "BevelScrewHoleBack",
+      "metrics": {
+        "edge_count": 218,
+        "face_count": 78,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 140
+      },
+      "name": "Groove002",
+      "type_id": "PartDesign::Groove"
+    },
+    "Hole": {
+      "label": "ScrewHoleBottom",
+      "metrics": {
+        "edge_count": 190,
+        "face_count": 69,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 122
+      },
+      "name": "Hole",
+      "type_id": "PartDesign::Hole"
+    },
+    "Hole001": {
+      "label": "ScrewHoleBack",
+      "metrics": {
+        "edge_count": 196,
+        "face_count": 70,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 126
+      },
+      "name": "Hole001",
+      "type_id": "PartDesign::Hole"
+    },
+    "Mirrored": {
+      "label": "EdgeCutRight",
+      "metrics": {
+        "edge_count": 184,
+        "face_count": 68,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 118
+      },
+      "name": "Mirrored",
+      "type_id": "PartDesign::Mirrored"
+    },
+    "Pad": {
+      "label": "Y",
+      "metrics": {
+        "edge_count": 69,
+        "face_count": 25,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 46
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Z",
+      "metrics": {
+        "edge_count": 158,
+        "face_count": 58,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 102
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "EdgeCutLeft",
+      "metrics": {
+        "edge_count": 171,
+        "face_count": 63,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 110
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Pocket001": {
+      "label": "BevelY",
+      "metrics": {
+        "edge_count": 220,
+        "face_count": 80,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 140
+      },
+      "name": "Pocket001",
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "StoneSectionXZ",
+      "metrics": {
+        "constraint_count": 65,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 26,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "EdgeCutSketch",
+      "metrics": {
+        "constraint_count": 17,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 6,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch003": {
+      "label": "StoneSectionXY",
+      "metrics": {
+        "constraint_count": 65,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 26,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch003",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch004": {
+      "label": "SketchScrewHoleBottom",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch004",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch005": {
+      "label": "SketchScrewHoleBack",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch005",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch008": {
+      "label": "SketchBevelScrewHoleBottom",
+      "metrics": {
+        "constraint_count": 25,
+        "degrees_of_freedom": 1,
+        "external_geometry_count": 1,
+        "fully_constrained": false,
+        "geometry_count": 9,
+        "is_valid": false,
+        "solver_status": -3
+      },
+      "name": "Sketch008",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch009": {
+      "label": "SketchBevelScrewHoleBack",
+      "metrics": {
+        "constraint_count": 25,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 9,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch009",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch010": {
+      "label": "SketchBevelY",
+      "metrics": {
+        "constraint_count": 22,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": false,
+        "geometry_count": 8,
+        "is_valid": false,
+        "solver_status": -2
+      },
+      "name": "Sketch010",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:34:06.811787+00:00",
+    "document_label": "FL_AP3030S8_InnerBracket",
+    "document_name": "FL_AP3030S8_InnerBracket",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_InnerBracket.FCStd"
+  },
+  "techdraw_pages": {
+    "Page": {
+      "label": "Spec",
+      "metrics": {
+        "is_valid": true,
+        "template_loaded": true,
+        "template_name": "",
+        "view_count": 20,
+        "view_types": {
+          "TechDraw::DrawViewClip": 3,
+          "TechDraw::DrawViewDimension": 14,
+          "TechDraw::DrawViewPart": 3
+        }
+      },
+      "name": "Page",
+      "type_id": "TechDraw::DrawPage"
+    }
+  }
+}

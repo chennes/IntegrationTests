@@ -1,0 +1,342 @@
+{
+  "objects": {
+    "AdditiveLoft": {
+      "label": "key-body",
+      "name": "AdditiveLoft",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 9.0,
+              "x_min": -9.0,
+              "y_max": 9.000000000000002,
+              "y_min": -8.999999999999998,
+              "z_max": 10.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 2419.9999999999995
+          }
+        }
+      ],
+      "type_id": "PartDesign::AdditiveLoft"
+    },
+    "Body": {
+      "label": "Keycap",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 9.234025674472655,
+              "x_min": -9.234025674472655,
+              "y_max": 9.000000000000032,
+              "y_min": -9.244799999999998,
+              "z_max": 11.227740036608234,
+              "z_min": -1.1866957711326913
+            },
+            "is_valid": true,
+            "volume_mm3": 949.7402495543741
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "name": "Fillet",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 9.234025674472655,
+              "x_min": -9.234025674472655,
+              "y_max": 9.000000000000032,
+              "y_min": -9.244799999999998,
+              "z_max": 11.227740036608234,
+              "z_min": -1.1866957711326913
+            },
+            "is_valid": true,
+            "volume_mm3": 949.7402495543741
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Pad001": {
+      "label": "Inner-support",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 9.0,
+              "x_min": -9.0,
+              "y_max": 9.000000000000002,
+              "y_min": -8.999999999999998,
+              "z_max": 10.0,
+              "z_min": -2.6645352591003757e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 1022.0737460343279
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket001": {
+      "label": "cross-cutout",
+      "name": "Pocket001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 9.0,
+              "x_min": -9.0,
+              "y_max": 9.000000000000002,
+              "y_min": -8.999999999999998,
+              "z_max": 10.0,
+              "z_min": -2.6645352591003757e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 982.5537460343273
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Thickness": {
+      "label": "Thickness",
+      "name": "Thickness",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 9.0,
+              "x_min": -9.0,
+              "y_max": 9.000000000000002,
+              "y_min": -8.999999999999998,
+              "z_max": 10.0,
+              "z_min": -2.6645352591003757e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 851.2730186328283
+          }
+        }
+      ],
+      "type_id": "PartDesign::Thickness"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Keycap",
+      "metrics": {
+        "edge_count": 84,
+        "face_count": 32,
+        "feature_count": 14,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet",
+        "vertex_count": 56
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "AdditiveLoft": {
+      "label": "key-body",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 6,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 8
+      },
+      "name": "AdditiveLoft",
+      "type_id": "PartDesign::AdditiveLoft"
+    },
+    "DatumPlane": {
+      "label": "top-plane",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane",
+      "type_id": "PartDesign::Plane"
+    },
+    "DatumPlane001": {
+      "label": "base-plane",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane001",
+      "type_id": "PartDesign::Plane"
+    },
+    "DatumPlane002": {
+      "label": "top-inner-plane",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane002",
+      "type_id": "PartDesign::Plane"
+    },
+    "DatumPlane003": {
+      "label": "inner-support-base",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "DatumPlane003",
+      "type_id": "PartDesign::Plane"
+    },
+    "Fillet": {
+      "label": "Fillet",
+      "metrics": {
+        "edge_count": 84,
+        "face_count": 32,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 56
+      },
+      "name": "Fillet",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Pad001": {
+      "label": "Inner-support",
+      "metrics": {
+        "edge_count": 36,
+        "face_count": 16,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 24
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket001": {
+      "label": "cross-cutout",
+      "metrics": {
+        "edge_count": 72,
+        "face_count": 28,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 48
+      },
+      "name": "Pocket001",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Thickness": {
+      "label": "Thickness",
+      "metrics": {
+        "edge_count": 24,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 16
+      },
+      "name": "Thickness",
+      "type_id": "PartDesign::Thickness"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "master-h",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "key-top-sketch",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "key-bottom-sketch",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch006": {
+      "label": "inner-support-sk",
+      "metrics": {
+        "constraint_count": 13,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 5,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch006",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch007": {
+      "label": "cross-sk",
+      "metrics": {
+        "constraint_count": 27,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 12,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch007",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:37:25.476429+00:00",
+    "document_label": "OBJ_CherryKeycap",
+    "document_name": "OBJ_CherryKeycap",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\OBJ_CherryKeycap.FCStd"
+  }
+}

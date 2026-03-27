@@ -1,0 +1,126 @@
+{
+  "app_parts": {
+    "Model": {
+      "label": "AP3030S8_BracketSmall_With_Single_StoneM6Heavy",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.799999999999998,
+          "x_min": -6.800000000000002,
+          "y_max": -9.45,
+          "y_min": -23.05,
+          "z_max": 8.800000000000027,
+          "z_min": -6.499999999999973
+        },
+        "child_count": 6,
+        "is_valid": true
+      },
+      "name": "Model",
+      "type_id": "App::Part"
+    }
+  },
+  "links": {
+    "AP3030S8_BracketSmall_AP3030S8_BracketSmall": {
+      "label": "AP3030S8_BracketSmall_AP3030S8_BracketSmall",
+      "metrics": {
+        "is_valid": false,
+        "linked_object_is_valid": false,
+        "linked_object_name": null
+      },
+      "name": "AP3030S8_BracketSmall_AP3030S8_BracketSmall",
+      "type_id": "App::Link"
+    },
+    "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy": {
+      "label": "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy",
+      "metrics": {
+        "is_valid": false,
+        "linked_object_is_valid": false,
+        "linked_object_name": null
+      },
+      "name": "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy",
+      "type_id": "App::Link"
+    }
+  },
+  "objects": {
+    "Model": {
+      "label": "AP3030S8_BracketSmall_With_Single_StoneM6Heavy",
+      "name": "Model",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 6.799999999999998,
+              "x_min": -6.800000000000002,
+              "y_max": -9.45,
+              "y_min": -23.05,
+              "z_max": 8.800000000000027,
+              "z_min": -6.499999999999973
+            },
+            "is_valid": true,
+            "volume_mm3": 571.325390316441
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "Screw": {
+      "label": "M6x12-Screw",
+      "name": "Screw",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 6.799999999999998,
+              "x_min": -6.800000000000002,
+              "y_max": -9.45,
+              "y_min": -23.049999999999997,
+              "z_max": 8.800000000000033,
+              "z_min": -6.499999999999978
+            },
+            "is_valid": true,
+            "volume_mm3": 571.325390316441
+          }
+        }
+      ],
+      "type_id": "Part::FeaturePython"
+    }
+  },
+  "part_features": {
+    "Screw": {
+      "label": "M6x12-Screw",
+      "metrics": {
+        "edge_count": 36,
+        "face_count": 17,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 22
+      },
+      "name": "Screw",
+      "type_id": "Part::FeaturePython"
+    }
+  },
+  "partdesign_features": {
+    "LCS_Origin": {
+      "label": "LCS_Origin",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "LCS_Origin",
+      "type_id": "PartDesign::CoordinateSystem"
+    }
+  },
+  "schema_version": 2,
+  "source": {
+    "data_creation_date": "2026-03-27T01:34:00.029883+00:00",
+    "document_label": "FL_AP3030S8_BracketSmallSingleStone",
+    "document_name": "FL_AP3030S8_BracketSmallSingleStone",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_BracketSmallSingleStone.FCStd"
+  }
+}

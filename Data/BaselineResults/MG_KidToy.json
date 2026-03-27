@@ -1,0 +1,2606 @@
+{
+  "objects": {
+    "Body": {
+      "label": "Body-base",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 75.82392200292388,
+              "x_min": -75.82392200292388,
+              "y_max": 80.82392200292388,
+              "y_min": -80.82392200292388,
+              "z_max": 8.881784197001252e-16,
+              "z_min": -10.0
+            },
+            "is_valid": true,
+            "volume_mm3": 228101.30913594944
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Body-square",
+      "name": "Body001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146195,
+              "x_min": 4.588038998538055,
+              "y_max": 70.41196100146179,
+              "y_min": 9.588038998538083,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 19087.979199170248
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body001001": {
+      "label": "s1",
+      "name": "Body001001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146195,
+              "x_min": 4.588038998538055,
+              "y_max": 70.41196100146179,
+              "y_min": 9.588038998538083,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 19087.97919917027
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body002": {
+      "label": "Body-circle",
+      "name": "Body002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -8.775410592105363,
+              "x_min": -67.22458940789464,
+              "y_max": 9.224589407894637,
+              "y_min": -49.22458940789464,
+              "z_max": 6.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 13115.034462939197
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body002001": {
+      "label": "c2",
+      "name": "Body002001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -8.775410592105363,
+              "x_min": -67.22458940789464,
+              "y_max": 9.224589407894637,
+              "y_min": -49.22458940789464,
+              "z_max": 12.100000000000001,
+              "z_min": 6.1
+            },
+            "is_valid": true,
+            "volume_mm3": 13115.034462939197
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body002002": {
+      "label": "c3",
+      "name": "Body002002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -8.775410592105363,
+              "x_min": -67.22458940789464,
+              "y_max": 9.224589407894637,
+              "y_min": -49.22458940789464,
+              "z_max": 18.2,
+              "z_min": 12.2
+            },
+            "is_valid": true,
+            "volume_mm3": 13115.034462939195
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body002003": {
+      "label": "c4",
+      "name": "Body002003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -8.775410592105363,
+              "x_min": -67.22458940789464,
+              "y_max": 9.224589407894637,
+              "y_min": -49.22458940789464,
+              "z_max": 24.3,
+              "z_min": 18.3
+            },
+            "is_valid": true,
+            "volume_mm3": 13115.034462939197
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body002004": {
+      "label": "c1",
+      "name": "Body002004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -8.775410592105363,
+              "x_min": -67.22458940789464,
+              "y_max": 9.224589407894637,
+              "y_min": -49.22458940789464,
+              "z_max": 6.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 13115.034462939197
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body003": {
+      "label": "Body-triangle",
+      "name": "Body003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -11.154282268796527,
+              "x_min": -65.0950663616626,
+              "y_max": 70.41196100146148,
+              "y_min": 9.772447097818086,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 9676.904342802298
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body003001": {
+      "label": "t1",
+      "name": "Body003001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -11.154282268796527,
+              "x_min": -65.0950663616626,
+              "y_max": 70.41196100146148,
+              "y_min": 9.772447097818086,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 9676.9043428023
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body004": {
+      "label": "Body-rectangle",
+      "name": "Body004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146198,
+              "x_min": 4.58803899853803,
+              "y_max": -2.588038998538032,
+              "y_min": -37.41196100146197,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 10902.263292826732
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body004001": {
+      "label": "r1",
+      "name": "Body004001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146198,
+              "x_min": 4.58803899853803,
+              "y_max": -2.588038998538032,
+              "y_min": -37.41196100146197,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 10902.263292826732
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005": {
+      "label": "Body-peg",
+      "name": "Body005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.774247078196028,
+              "x_min": -5.7742470781960336,
+              "y_max": 1.6896943454467186e-15,
+              "y_min": -37.0,
+              "z_max": 10.162674857624236,
+              "z_min": -3.1086244689504383e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955983
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Body005001": {
+      "label": "peg-c1",
+      "name": "Body005001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -32.225752921803966,
+              "x_min": -43.77424707819604,
+              "y_max": -15.59999999999998,
+              "y_min": -25.76267485762422,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.701232995599
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005002": {
+      "label": "peg-r1",
+      "name": "Body005002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 26.52424707819603,
+              "x_min": 14.975752921803966,
+              "y_max": -15.59999999999998,
+              "y_min": -25.76267485762422,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.701232995599
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005003": {
+      "label": "peg-r2",
+      "name": "Body005003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 55.024247078196034,
+              "x_min": 43.47575292180396,
+              "y_max": -15.59999999999998,
+              "y_min": -25.76267485762422,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.701232995599
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005004": {
+      "label": "peg-s1",
+      "name": "Body005004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 26.52424707819603,
+              "x_min": 14.975752921803966,
+              "y_max": 30.15000000000002,
+              "y_min": 19.987325142375777,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.701232995599
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005005": {
+      "label": "peg-s2",
+      "name": "Body005005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 55.024247078196034,
+              "x_min": 43.47575292180396,
+              "y_max": 30.15000000000002,
+              "y_min": 19.987325142375777,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955987
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005006": {
+      "label": "peg-s3",
+      "name": "Body005006",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 26.52424707819603,
+              "x_min": 14.975752921803966,
+              "y_max": 58.65000000000002,
+              "y_min": 48.48732514237578,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955996
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005007": {
+      "label": "peg-s4",
+      "name": "Body005007",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 55.024247078196034,
+              "x_min": 43.47575292180396,
+              "y_max": 58.65000000000002,
+              "y_min": 48.48732514237578,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955996
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005008": {
+      "label": "peg-t1",
+      "name": "Body005008",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -16.97575292180397,
+              "x_min": -28.524247078196034,
+              "y_max": 30.15000000000002,
+              "y_min": 19.987325142375777,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.701232995599
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005009": {
+      "label": "peg-t2",
+      "name": "Body005009",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -16.97575292180397,
+              "x_min": -28.524247078196034,
+              "y_max": 58.65000000000002,
+              "y_min": 48.48732514237578,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955996
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005010": {
+      "label": "peg-t3",
+      "name": "Body005010",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -41.625752921803965,
+              "x_min": -53.17424707819604,
+              "y_max": 44.40000000000002,
+              "y_min": 34.23732514237578,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955996
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005011": {
+      "label": "t2",
+      "name": "Body005011",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -11.154282268796527,
+              "x_min": -65.0950663616626,
+              "y_max": 70.41196100146148,
+              "y_min": 9.772447097818086,
+              "z_max": 12.100000000000001,
+              "z_min": 6.1
+            },
+            "is_valid": true,
+            "volume_mm3": 9676.9043428023
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005012": {
+      "label": "t3",
+      "name": "Body005012",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -11.154282268796527,
+              "x_min": -65.0950663616626,
+              "y_max": 70.41196100146148,
+              "y_min": 9.772447097818086,
+              "z_max": 18.2,
+              "z_min": 12.2
+            },
+            "is_valid": true,
+            "volume_mm3": 9676.9043428023
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005013": {
+      "label": "t4",
+      "name": "Body005013",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -11.154282268796527,
+              "x_min": -65.0950663616626,
+              "y_max": 70.41196100146148,
+              "y_min": 9.772447097818086,
+              "z_max": 24.3,
+              "z_min": 18.3
+            },
+            "is_valid": true,
+            "volume_mm3": 9676.904342802296
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005014": {
+      "label": "r2",
+      "name": "Body005014",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146198,
+              "x_min": 4.58803899853803,
+              "y_max": -2.588038998538032,
+              "y_min": -37.41196100146197,
+              "z_max": 12.100000000000001,
+              "z_min": 6.1
+            },
+            "is_valid": true,
+            "volume_mm3": 10902.263292826732
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005015": {
+      "label": "r3",
+      "name": "Body005015",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146198,
+              "x_min": 4.58803899853803,
+              "y_max": -2.588038998538032,
+              "y_min": -37.41196100146197,
+              "z_max": 18.2,
+              "z_min": 12.2
+            },
+            "is_valid": true,
+            "volume_mm3": 10902.263292826734
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005016": {
+      "label": "r4",
+      "name": "Body005016",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146198,
+              "x_min": 4.58803899853803,
+              "y_max": -2.588038998538032,
+              "y_min": -37.41196100146197,
+              "z_max": 24.3,
+              "z_min": 18.3
+            },
+            "is_valid": true,
+            "volume_mm3": 10902.263292826736
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005017": {
+      "label": "s2",
+      "name": "Body005017",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146195,
+              "x_min": 4.588038998538055,
+              "y_max": 70.41196100146179,
+              "y_min": 9.588038998538083,
+              "z_max": 12.100000000000001,
+              "z_min": 6.1
+            },
+            "is_valid": true,
+            "volume_mm3": 19087.979199170288
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005018": {
+      "label": "s3",
+      "name": "Body005018",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146195,
+              "x_min": 4.588038998538055,
+              "y_max": 70.41196100146179,
+              "y_min": 9.588038998538083,
+              "z_max": 18.2,
+              "z_min": 12.2
+            },
+            "is_valid": true,
+            "volume_mm3": 19087.97919917029
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Body005019": {
+      "label": "s4",
+      "name": "Body005019",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146195,
+              "x_min": 4.588038998538055,
+              "y_max": 70.41196100146179,
+              "y_min": 9.588038998538083,
+              "z_max": 24.3,
+              "z_min": 18.3
+            },
+            "is_valid": true,
+            "volume_mm3": 19087.97919917029
+          }
+        }
+      ],
+      "type_id": "Part::Feature"
+    },
+    "Chamfer": {
+      "label": "Chamfer-peg-base",
+      "name": "Chamfer",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.774247078196028,
+              "x_min": -5.7742470781960336,
+              "y_max": 1.9488534250505177e-15,
+              "y_min": -37.0,
+              "z_max": 10.16267485762423,
+              "z_min": -3.1086244689504383e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 2517.13863392581
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer001": {
+      "label": "Chamfer-peg-head",
+      "name": "Chamfer001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.774247078196028,
+              "x_min": -5.7742470781960336,
+              "y_max": 1.6896943454467186e-15,
+              "y_min": -37.0,
+              "z_max": 10.16267485762423,
+              "z_min": -3.1086244689504383e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955983
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer002": {
+      "label": "Chamfer-peg-recesses",
+      "name": "Chamfer002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 74.99999999999994,
+              "x_min": -74.99999999999994,
+              "y_max": 79.99999999999994,
+              "y_min": -79.99999999999994,
+              "z_max": 0.0,
+              "z_min": -10.0
+            },
+            "is_valid": true,
+            "volume_mm3": 230667.00023259188
+          }
+        }
+      ],
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Extrude": {
+      "label": "Extrude-kid",
+      "name": "Extrude",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 20.34162520729685,
+              "x_min": 5.907131011608623,
+              "y_max": -53.018242122719734,
+              "y_min": -70.0,
+              "z_max": 0.8,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 116.96196298771486
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 26.51077943615257,
+              "x_min": 20.301824212271974,
+              "y_max": -53.018242122719734,
+              "y_min": -70.0,
+              "z_max": 0.8,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 59.647133780150284
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 40.81260364842454,
+              "x_min": 26.597014925373134,
+              "y_max": -51.74461028192371,
+              "y_min": -70.0,
+              "z_max": 0.8,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 130.55588833059687
+          }
+        }
+      ],
+      "type_id": "Part::Extrusion"
+    },
+    "Extrude001": {
+      "label": "Extrude-graphic",
+      "name": "Extrude001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 63.59314244912273,
+              "x_min": 43.128371346832566,
+              "y_max": -62.53908999999999,
+              "y_min": -70.38457999999999,
+              "z_max": 0.8,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 36.12036269223786
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 59.831444776845416,
+              "x_min": 45.77745402839517,
+              "y_max": -50.29666199999997,
+              "y_min": -66.83282641682023,
+              "z_max": 0.8,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 52.69687286297267
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 46.00611427831727,
+              "x_min": 41.160614449235695,
+              "y_max": -66.23392412446053,
+              "y_min": -68.51027837553947,
+              "z_max": 0.8,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 4.415677490458415
+          }
+        },
+        {
+          "index": 4,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 61.96581158378059,
+              "x_min": 58.70275938236173,
+              "y_max": -62.69145657362681,
+              "y_min": -65.51267614078641,
+              "z_max": 0.8,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 3.4103255565644814
+          }
+        },
+        {
+          "index": 5,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 51.54198094200441,
+              "x_min": 50.050216009045975,
+              "y_max": -57.379228999999995,
+              "y_min": -59.01262806039848,
+              "z_max": 0.8,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.9873933424008076
+          }
+        },
+        {
+          "index": 6,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 49.58639866675414,
+              "x_min": 48.26413354124727,
+              "y_max": -58.220049999999986,
+              "y_min": -59.51837743560458,
+              "z_max": 0.8,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 0.6659299466989136
+          }
+        }
+      ],
+      "type_id": "Part::Extrusion"
+    },
+    "Fillet": {
+      "label": "Fillet-square",
+      "name": "Fillet",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 30.41196100146194,
+              "x_min": -30.411961001461947,
+              "y_max": 30.411961001461783,
+              "y_min": -30.41196100146192,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 19087.979199170248
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet001": {
+      "label": "Fillet-circle",
+      "name": "Fillet001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 29.224589407894637,
+              "x_min": -29.224589407894637,
+              "y_max": 29.224589407894637,
+              "y_min": -29.224589407894637,
+              "z_max": 6.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 13115.034462939197
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet002": {
+      "label": "Fillet-triangle",
+      "name": "Fillet002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 19.84571773120347,
+              "x_min": -34.09506636166261,
+              "y_max": 30.41196100146147,
+              "y_min": -30.227552902181912,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 9676.9043428023
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet003": {
+      "label": "Fillet-rectangle",
+      "name": "Fillet003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 30.411961001461968,
+              "x_min": -30.411961001461968,
+              "y_max": 17.411961001461968,
+              "y_min": -17.411961001461968,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 10902.263292826732
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet004": {
+      "label": "Fillet-top",
+      "name": "Fillet004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 75.82392200292388,
+              "x_min": -75.82392200292388,
+              "y_max": 80.82392200292388,
+              "y_min": -80.82392200292388,
+              "z_max": 8.881784197001252e-16,
+              "z_min": -10.0
+            },
+            "is_valid": true,
+            "volume_mm3": 228616.3749428321
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet005": {
+      "label": "Fillet-bottom",
+      "name": "Fillet005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 75.82392200292388,
+              "x_min": -75.82392200292388,
+              "y_max": 80.82392200292388,
+              "y_min": -80.82392200292388,
+              "z_max": 8.881784197001252e-16,
+              "z_min": -10.0
+            },
+            "is_valid": true,
+            "volume_mm3": 228101.30913594944
+          }
+        }
+      ],
+      "type_id": "PartDesign::Fillet"
+    },
+    "Group001": {
+      "label": "Pieces",
+      "name": "Group001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -8.775410592105363,
+              "x_min": -67.22458940789464,
+              "y_max": 9.224589407894637,
+              "y_min": -49.22458940789464,
+              "z_max": 6.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 13115.034462939197
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -8.775410592105363,
+              "x_min": -67.22458940789464,
+              "y_max": 9.224589407894637,
+              "y_min": -49.22458940789464,
+              "z_max": 12.100000000000001,
+              "z_min": 6.1
+            },
+            "is_valid": true,
+            "volume_mm3": 13115.034462939197
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -8.775410592105363,
+              "x_min": -67.22458940789464,
+              "y_max": 9.224589407894637,
+              "y_min": -49.22458940789464,
+              "z_max": 18.2,
+              "z_min": 12.2
+            },
+            "is_valid": true,
+            "volume_mm3": 13115.034462939195
+          }
+        },
+        {
+          "index": 4,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -8.775410592105363,
+              "x_min": -67.22458940789464,
+              "y_max": 9.224589407894637,
+              "y_min": -49.22458940789464,
+              "z_max": 24.3,
+              "z_min": 18.3
+            },
+            "is_valid": true,
+            "volume_mm3": 13115.034462939197
+          }
+        },
+        {
+          "index": 5,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -11.154282268796527,
+              "x_min": -65.0950663616626,
+              "y_max": 70.41196100146148,
+              "y_min": 9.772447097818086,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 9676.9043428023
+          }
+        },
+        {
+          "index": 6,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -11.154282268796527,
+              "x_min": -65.0950663616626,
+              "y_max": 70.41196100146148,
+              "y_min": 9.772447097818086,
+              "z_max": 12.100000000000001,
+              "z_min": 6.1
+            },
+            "is_valid": true,
+            "volume_mm3": 9676.9043428023
+          }
+        },
+        {
+          "index": 7,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -11.154282268796527,
+              "x_min": -65.0950663616626,
+              "y_max": 70.41196100146148,
+              "y_min": 9.772447097818086,
+              "z_max": 18.2,
+              "z_min": 12.2
+            },
+            "is_valid": true,
+            "volume_mm3": 9676.9043428023
+          }
+        },
+        {
+          "index": 8,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -11.154282268796527,
+              "x_min": -65.0950663616626,
+              "y_max": 70.41196100146148,
+              "y_min": 9.772447097818086,
+              "z_max": 24.3,
+              "z_min": 18.3
+            },
+            "is_valid": true,
+            "volume_mm3": 9676.904342802296
+          }
+        },
+        {
+          "index": 9,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146198,
+              "x_min": 4.58803899853803,
+              "y_max": -2.588038998538032,
+              "y_min": -37.41196100146197,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 10902.263292826732
+          }
+        },
+        {
+          "index": 10,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146198,
+              "x_min": 4.58803899853803,
+              "y_max": -2.588038998538032,
+              "y_min": -37.41196100146197,
+              "z_max": 12.100000000000001,
+              "z_min": 6.1
+            },
+            "is_valid": true,
+            "volume_mm3": 10902.263292826732
+          }
+        },
+        {
+          "index": 11,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146198,
+              "x_min": 4.58803899853803,
+              "y_max": -2.588038998538032,
+              "y_min": -37.41196100146197,
+              "z_max": 18.2,
+              "z_min": 12.2
+            },
+            "is_valid": true,
+            "volume_mm3": 10902.263292826734
+          }
+        },
+        {
+          "index": 12,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146198,
+              "x_min": 4.58803899853803,
+              "y_max": -2.588038998538032,
+              "y_min": -37.41196100146197,
+              "z_max": 24.3,
+              "z_min": 18.3
+            },
+            "is_valid": true,
+            "volume_mm3": 10902.263292826736
+          }
+        },
+        {
+          "index": 13,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146195,
+              "x_min": 4.588038998538055,
+              "y_max": 70.41196100146179,
+              "y_min": 9.588038998538083,
+              "z_max": 6.0,
+              "z_min": -1.1102230246251565e-16
+            },
+            "is_valid": true,
+            "volume_mm3": 19087.97919917027
+          }
+        },
+        {
+          "index": 14,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146195,
+              "x_min": 4.588038998538055,
+              "y_max": 70.41196100146179,
+              "y_min": 9.588038998538083,
+              "z_max": 12.100000000000001,
+              "z_min": 6.1
+            },
+            "is_valid": true,
+            "volume_mm3": 19087.979199170288
+          }
+        },
+        {
+          "index": 15,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146195,
+              "x_min": 4.588038998538055,
+              "y_max": 70.41196100146179,
+              "y_min": 9.588038998538083,
+              "z_max": 18.2,
+              "z_min": 12.2
+            },
+            "is_valid": true,
+            "volume_mm3": 19087.97919917029
+          }
+        },
+        {
+          "index": 16,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 65.41196100146195,
+              "x_min": 4.588038998538055,
+              "y_max": 70.41196100146179,
+              "y_min": 9.588038998538083,
+              "z_max": 24.3,
+              "z_min": 18.3
+            },
+            "is_valid": true,
+            "volume_mm3": 19087.97919917029
+          }
+        }
+      ],
+      "type_id": "App::DocumentObjectGroup"
+    },
+    "Group002": {
+      "label": "Pegs",
+      "name": "Group002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -32.225752921803966,
+              "x_min": -43.77424707819604,
+              "y_max": -15.59999999999998,
+              "y_min": -25.76267485762422,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.701232995599
+          }
+        },
+        {
+          "index": 2,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 26.52424707819603,
+              "x_min": 14.975752921803966,
+              "y_max": -15.59999999999998,
+              "y_min": -25.76267485762422,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.701232995599
+          }
+        },
+        {
+          "index": 3,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 55.024247078196034,
+              "x_min": 43.47575292180396,
+              "y_max": -15.59999999999998,
+              "y_min": -25.76267485762422,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.701232995599
+          }
+        },
+        {
+          "index": 4,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 26.52424707819603,
+              "x_min": 14.975752921803966,
+              "y_max": 30.15000000000002,
+              "y_min": 19.987325142375777,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.701232995599
+          }
+        },
+        {
+          "index": 5,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 55.024247078196034,
+              "x_min": 43.47575292180396,
+              "y_max": 30.15000000000002,
+              "y_min": 19.987325142375777,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955987
+          }
+        },
+        {
+          "index": 6,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 26.52424707819603,
+              "x_min": 14.975752921803966,
+              "y_max": 58.65000000000002,
+              "y_min": 48.48732514237578,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955996
+          }
+        },
+        {
+          "index": 7,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 55.024247078196034,
+              "x_min": 43.47575292180396,
+              "y_max": 58.65000000000002,
+              "y_min": 48.48732514237578,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955996
+          }
+        },
+        {
+          "index": 8,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -16.97575292180397,
+              "x_min": -28.524247078196034,
+              "y_max": 30.15000000000002,
+              "y_min": 19.987325142375777,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.701232995599
+          }
+        },
+        {
+          "index": 9,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -16.97575292180397,
+              "x_min": -28.524247078196034,
+              "y_max": 58.65000000000002,
+              "y_min": 48.48732514237578,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955996
+          }
+        },
+        {
+          "index": 10,
+          "metrics": {
+            "bounding_box": {
+              "x_max": -41.625752921803965,
+              "x_min": -53.17424707819604,
+              "y_max": 44.40000000000002,
+              "y_min": 34.23732514237578,
+              "z_max": 27.0,
+              "z_min": -10.00000000000002
+            },
+            "is_valid": true,
+            "volume_mm3": 2503.7012329955996
+          }
+        }
+      ],
+      "type_id": "App::DocumentObjectGroup"
+    },
+    "Pad": {
+      "label": "Pad-square",
+      "name": "Pad",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 29.99999999999997,
+              "x_min": -29.999999999999975,
+              "y_max": 29.99999999999981,
+              "y_min": -29.999999999999947,
+              "z_max": 6.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 19190.44263153213
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad-circle",
+      "name": "Pad001",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 27.0,
+              "x_min": -27.0,
+              "y_max": 27.0,
+              "y_min": -27.0,
+              "z_max": 6.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 13171.127200175208
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad002": {
+      "label": "Pad-triangle",
+      "name": "Pad002",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 19.433756729741503,
+              "x_min": -33.86751345948129,
+              "y_max": 29.999999999999503,
+              "y_min": -30.000000000000497,
+              "z_max": 6.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 9755.832226542116
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad003": {
+      "label": "Pad-rectangle",
+      "name": "Pad003",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 30.0,
+              "x_min": -30.0,
+              "y_max": 17.0,
+              "y_min": -17.0,
+              "z_max": 6.0,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 10970.840764785375
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad004": {
+      "label": "Pad-base",
+      "name": "Pad004",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 74.99999999999994,
+              "x_min": -74.99999999999994,
+              "y_max": 79.99999999999994,
+              "y_min": -79.99999999999994,
+              "z_max": 0.0,
+              "z_min": -10.0
+            },
+            "is_valid": true,
+            "volume_mm3": 232350.53912707383
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad005": {
+      "label": "Pad-peg",
+      "name": "Pad005",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 4.38842777942862,
+              "x_min": -4.388427779428621,
+              "y_max": 1.9488534250505177e-15,
+              "y_min": -37.0,
+              "z_max": 8.776855558857235,
+              "z_min": 0.0
+            },
+            "is_valid": true,
+            "volume_mm3": 2361.206319077183
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad006": {
+      "label": "Pad-peg-base",
+      "name": "Pad006",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 5.774247078196028,
+              "x_min": -5.7742470781960336,
+              "y_max": 1.9488534250505177e-15,
+              "y_min": -37.0,
+              "z_max": 10.16267485762423,
+              "z_min": -1.3322676295501878e-15
+            },
+            "is_valid": true,
+            "volume_mm3": 2544.1795655853093
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket-peg-recesses",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 74.99999999999994,
+              "x_min": -74.99999999999994,
+              "y_max": 79.99999999999994,
+              "y_min": -79.99999999999994,
+              "z_max": 0.0,
+              "z_min": -10.0
+            },
+            "is_valid": true,
+            "volume_mm3": 230388.88315026276
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "part_extrusions": {
+    "Extrude": {
+      "label": "Extrude-kid",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 0.8,
+        "length_reverse": 0.0,
+        "solid": false,
+        "symmetric": false
+      },
+      "name": "Extrude",
+      "type_id": "Part::Extrusion"
+    },
+    "Extrude001": {
+      "label": "Extrude-graphic",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 0.8,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      },
+      "name": "Extrude001",
+      "type_id": "Part::Extrusion"
+    }
+  },
+  "part_features": {
+    "Body001001": {
+      "label": "s1",
+      "metrics": {
+        "edge_count": 84,
+        "face_count": 38,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body001001",
+      "type_id": "Part::Feature"
+    },
+    "Body002001": {
+      "label": "c2",
+      "metrics": {
+        "edge_count": 14,
+        "face_count": 8,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Body002001",
+      "type_id": "Part::Feature"
+    },
+    "Body002002": {
+      "label": "c3",
+      "metrics": {
+        "edge_count": 14,
+        "face_count": 8,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Body002002",
+      "type_id": "Part::Feature"
+    },
+    "Body002003": {
+      "label": "c4",
+      "metrics": {
+        "edge_count": 14,
+        "face_count": 8,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Body002003",
+      "type_id": "Part::Feature"
+    },
+    "Body002004": {
+      "label": "c1",
+      "metrics": {
+        "edge_count": 14,
+        "face_count": 8,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 8
+      },
+      "name": "Body002004",
+      "type_id": "Part::Feature"
+    },
+    "Body003001": {
+      "label": "t1",
+      "metrics": {
+        "edge_count": 63,
+        "face_count": 29,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 36
+      },
+      "name": "Body003001",
+      "type_id": "Part::Feature"
+    },
+    "Body004001": {
+      "label": "r1",
+      "metrics": {
+        "edge_count": 70,
+        "face_count": 32,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 40
+      },
+      "name": "Body004001",
+      "type_id": "Part::Feature"
+    },
+    "Body005001": {
+      "label": "peg-c1",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005001",
+      "type_id": "Part::Feature"
+    },
+    "Body005002": {
+      "label": "peg-r1",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005002",
+      "type_id": "Part::Feature"
+    },
+    "Body005003": {
+      "label": "peg-r2",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005003",
+      "type_id": "Part::Feature"
+    },
+    "Body005004": {
+      "label": "peg-s1",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005004",
+      "type_id": "Part::Feature"
+    },
+    "Body005005": {
+      "label": "peg-s2",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005005",
+      "type_id": "Part::Feature"
+    },
+    "Body005006": {
+      "label": "peg-s3",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005006",
+      "type_id": "Part::Feature"
+    },
+    "Body005007": {
+      "label": "peg-s4",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005007",
+      "type_id": "Part::Feature"
+    },
+    "Body005008": {
+      "label": "peg-t1",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005008",
+      "type_id": "Part::Feature"
+    },
+    "Body005009": {
+      "label": "peg-t2",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005009",
+      "type_id": "Part::Feature"
+    },
+    "Body005010": {
+      "label": "peg-t3",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005010",
+      "type_id": "Part::Feature"
+    },
+    "Body005011": {
+      "label": "t2",
+      "metrics": {
+        "edge_count": 63,
+        "face_count": 29,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 36
+      },
+      "name": "Body005011",
+      "type_id": "Part::Feature"
+    },
+    "Body005012": {
+      "label": "t3",
+      "metrics": {
+        "edge_count": 63,
+        "face_count": 29,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 36
+      },
+      "name": "Body005012",
+      "type_id": "Part::Feature"
+    },
+    "Body005013": {
+      "label": "t4",
+      "metrics": {
+        "edge_count": 63,
+        "face_count": 29,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 36
+      },
+      "name": "Body005013",
+      "type_id": "Part::Feature"
+    },
+    "Body005014": {
+      "label": "r2",
+      "metrics": {
+        "edge_count": 70,
+        "face_count": 32,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 40
+      },
+      "name": "Body005014",
+      "type_id": "Part::Feature"
+    },
+    "Body005015": {
+      "label": "r3",
+      "metrics": {
+        "edge_count": 70,
+        "face_count": 32,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 40
+      },
+      "name": "Body005015",
+      "type_id": "Part::Feature"
+    },
+    "Body005016": {
+      "label": "r4",
+      "metrics": {
+        "edge_count": 70,
+        "face_count": 32,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 40
+      },
+      "name": "Body005016",
+      "type_id": "Part::Feature"
+    },
+    "Body005017": {
+      "label": "s2",
+      "metrics": {
+        "edge_count": 84,
+        "face_count": 38,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005017",
+      "type_id": "Part::Feature"
+    },
+    "Body005018": {
+      "label": "s3",
+      "metrics": {
+        "edge_count": 84,
+        "face_count": 38,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005018",
+      "type_id": "Part::Feature"
+    },
+    "Body005019": {
+      "label": "s4",
+      "metrics": {
+        "edge_count": 84,
+        "face_count": 38,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 48
+      },
+      "name": "Body005019",
+      "type_id": "Part::Feature"
+    },
+    "Extrude": {
+      "label": "Extrude-kid",
+      "metrics": {
+        "edge_count": 174,
+        "face_count": 64,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 116
+      },
+      "name": "Extrude",
+      "type_id": "Part::Extrusion"
+    },
+    "Extrude001": {
+      "label": "Extrude-graphic",
+      "metrics": {
+        "edge_count": 246,
+        "face_count": 94,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "vertex_count": 164
+      },
+      "name": "Extrude001",
+      "type_id": "Part::Extrusion"
+    },
+    "Fusion": {
+      "label": "Fusion-graphic",
+      "metrics": {
+        "edge_count": 82,
+        "face_count": 0,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 82
+      },
+      "name": "Fusion",
+      "type_id": "Part::MultiFuse"
+    },
+    "ShapeString": {
+      "label": "ShapeString-kid",
+      "metrics": {
+        "edge_count": 58,
+        "face_count": 3,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 58
+      },
+      "name": "ShapeString",
+      "type_id": "Part::Part2DObjectPython"
+    },
+    "path10128": {
+      "label": "path10128",
+      "metrics": {
+        "edge_count": 26,
+        "face_count": 0,
+        "is_valid": true,
+        "shape_type": "Wire",
+        "vertex_count": 26
+      },
+      "name": "path10128",
+      "type_id": "Part::Feature"
+    },
+    "path10128001": {
+      "label": "path10128001",
+      "metrics": {
+        "edge_count": 12,
+        "face_count": 0,
+        "is_valid": true,
+        "shape_type": "Wire",
+        "vertex_count": 12
+      },
+      "name": "path10128001",
+      "type_id": "Part::Feature"
+    },
+    "path10128002": {
+      "label": "path10128002",
+      "metrics": {
+        "edge_count": 2,
+        "face_count": 0,
+        "is_valid": true,
+        "shape_type": "Wire",
+        "vertex_count": 2
+      },
+      "name": "path10128002",
+      "type_id": "Part::Feature"
+    },
+    "path10128003": {
+      "label": "path10128003",
+      "metrics": {
+        "edge_count": 2,
+        "face_count": 0,
+        "is_valid": true,
+        "shape_type": "Wire",
+        "vertex_count": 2
+      },
+      "name": "path10128003",
+      "type_id": "Part::Feature"
+    },
+    "path10128004": {
+      "label": "path10128004",
+      "metrics": {
+        "edge_count": 17,
+        "face_count": 0,
+        "is_valid": true,
+        "shape_type": "Wire",
+        "vertex_count": 17
+      },
+      "name": "path10128004",
+      "type_id": "Part::Feature"
+    },
+    "path10128005": {
+      "label": "path10128005",
+      "metrics": {
+        "edge_count": 4,
+        "face_count": 0,
+        "is_valid": true,
+        "shape_type": "Wire",
+        "vertex_count": 4
+      },
+      "name": "path10128005",
+      "type_id": "Part::Feature"
+    },
+    "path10128006": {
+      "label": "path10128006",
+      "metrics": {
+        "edge_count": 2,
+        "face_count": 0,
+        "is_valid": true,
+        "shape_type": "Wire",
+        "vertex_count": 2
+      },
+      "name": "path10128006",
+      "type_id": "Part::Feature"
+    },
+    "path10128007": {
+      "label": "path10128007",
+      "metrics": {
+        "edge_count": 5,
+        "face_count": 0,
+        "is_valid": true,
+        "shape_type": "Wire",
+        "vertex_count": 5
+      },
+      "name": "path10128007",
+      "type_id": "Part::Feature"
+    },
+    "path10128008": {
+      "label": "path10128008",
+      "metrics": {
+        "edge_count": 7,
+        "face_count": 0,
+        "is_valid": true,
+        "shape_type": "Wire",
+        "vertex_count": 7
+      },
+      "name": "path10128008",
+      "type_id": "Part::Feature"
+    },
+    "path10128009": {
+      "label": "path10128009",
+      "metrics": {
+        "edge_count": 5,
+        "face_count": 0,
+        "is_valid": true,
+        "shape_type": "Wire",
+        "vertex_count": 5
+      },
+      "name": "path10128009",
+      "type_id": "Part::Feature"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body-base",
+      "metrics": {
+        "edge_count": 686,
+        "face_count": 256,
+        "feature_count": 7,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet005",
+        "vertex_count": 432
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    },
+    "Body001": {
+      "label": "Body-square",
+      "metrics": {
+        "edge_count": 84,
+        "face_count": 38,
+        "feature_count": 3,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet",
+        "vertex_count": 48
+      },
+      "name": "Body001",
+      "type_id": "PartDesign::Body"
+    },
+    "Body002": {
+      "label": "Body-circle",
+      "metrics": {
+        "edge_count": 14,
+        "face_count": 8,
+        "feature_count": 3,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet001",
+        "vertex_count": 8
+      },
+      "name": "Body002",
+      "type_id": "PartDesign::Body"
+    },
+    "Body003": {
+      "label": "Body-triangle",
+      "metrics": {
+        "edge_count": 63,
+        "face_count": 29,
+        "feature_count": 3,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet002",
+        "vertex_count": 36
+      },
+      "name": "Body003",
+      "type_id": "PartDesign::Body"
+    },
+    "Body004": {
+      "label": "Body-rectangle",
+      "metrics": {
+        "edge_count": 70,
+        "face_count": 32,
+        "feature_count": 3,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet003",
+        "vertex_count": 40
+      },
+      "name": "Body004",
+      "type_id": "PartDesign::Body"
+    },
+    "Body005": {
+      "label": "Body-peg",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "feature_count": 6,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Chamfer001",
+        "vertex_count": 48
+      },
+      "name": "Body005",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "Chamfer": {
+      "label": "Chamfer-peg-base",
+      "metrics": {
+        "edge_count": 63,
+        "face_count": 25,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 40
+      },
+      "name": "Chamfer",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer001": {
+      "label": "Chamfer-peg-head",
+      "metrics": {
+        "edge_count": 79,
+        "face_count": 33,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 48
+      },
+      "name": "Chamfer001",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Chamfer002": {
+      "label": "Chamfer-peg-recesses",
+      "metrics": {
+        "edge_count": 654,
+        "face_count": 240,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 416
+      },
+      "name": "Chamfer002",
+      "type_id": "PartDesign::Chamfer"
+    },
+    "Fillet": {
+      "label": "Fillet-square",
+      "metrics": {
+        "edge_count": 84,
+        "face_count": 38,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 48
+      },
+      "name": "Fillet",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet001": {
+      "label": "Fillet-circle",
+      "metrics": {
+        "edge_count": 14,
+        "face_count": 8,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 8
+      },
+      "name": "Fillet001",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet002": {
+      "label": "Fillet-triangle",
+      "metrics": {
+        "edge_count": 63,
+        "face_count": 29,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 36
+      },
+      "name": "Fillet002",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet003": {
+      "label": "Fillet-rectangle",
+      "metrics": {
+        "edge_count": 70,
+        "face_count": 32,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 40
+      },
+      "name": "Fillet003",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet004": {
+      "label": "Fillet-top",
+      "metrics": {
+        "edge_count": 670,
+        "face_count": 248,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 424
+      },
+      "name": "Fillet004",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Fillet005": {
+      "label": "Fillet-bottom",
+      "metrics": {
+        "edge_count": 686,
+        "face_count": 256,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 432
+      },
+      "name": "Fillet005",
+      "type_id": "PartDesign::Fillet"
+    },
+    "Pad": {
+      "label": "Pad-square",
+      "metrics": {
+        "edge_count": 36,
+        "face_count": 14,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 24
+      },
+      "name": "Pad",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad001": {
+      "label": "Pad-circle",
+      "metrics": {
+        "edge_count": 6,
+        "face_count": 4,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 4
+      },
+      "name": "Pad001",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad002": {
+      "label": "Pad-triangle",
+      "metrics": {
+        "edge_count": 27,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 18
+      },
+      "name": "Pad002",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad003": {
+      "label": "Pad-rectangle",
+      "metrics": {
+        "edge_count": 30,
+        "face_count": 12,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 20
+      },
+      "name": "Pad003",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad004": {
+      "label": "Pad-base",
+      "metrics": {
+        "edge_count": 264,
+        "face_count": 90,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 176
+      },
+      "name": "Pad004",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad005": {
+      "label": "Pad-peg",
+      "metrics": {
+        "edge_count": 24,
+        "face_count": 10,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 16
+      },
+      "name": "Pad005",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pad006": {
+      "label": "Pad-peg-base",
+      "metrics": {
+        "edge_count": 60,
+        "face_count": 22,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 40
+      },
+      "name": "Pad006",
+      "type_id": "PartDesign::Pad"
+    },
+    "Pocket": {
+      "label": "Pocket-peg-recesses",
+      "metrics": {
+        "edge_count": 504,
+        "face_count": 170,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 336
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "Sketch-base",
+      "metrics": {
+        "constraint_count": 309,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 108,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "Sketch-square",
+      "metrics": {
+        "constraint_count": 38,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 16,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "Sketch-circle",
+      "metrics": {
+        "constraint_count": 4,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch003": {
+      "label": "Sketch-triangle",
+      "metrics": {
+        "constraint_count": 42,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 16,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch003",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch004": {
+      "label": "Sketch-rectangle",
+      "metrics": {
+        "constraint_count": 26,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 11,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch004",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch005": {
+      "label": "Sketch-peg",
+      "metrics": {
+        "constraint_count": 27,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 9,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch005",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch006": {
+      "label": "Sketch-peg-base",
+      "metrics": {
+        "constraint_count": 34,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 12,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch006",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch007": {
+      "label": "Sketch-peg-recesses",
+      "metrics": {
+        "constraint_count": 387,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 140,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch007",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:35:30.266051+00:00",
+    "document_label": "MG_KidToy",
+    "document_name": "MG_KidToy",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_KidToy.FCStd"
+  },
+  "spreadsheets": {
+    "Spreadsheet": {
+      "label": "Config",
+      "metrics": {
+        "cell_count": 11,
+        "is_valid": true
+      },
+      "name": "Spreadsheet",
+      "type_id": "Spreadsheet::Sheet"
+    }
+  }
+}

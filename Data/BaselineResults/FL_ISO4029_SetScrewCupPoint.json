@@ -1,0 +1,334 @@
+{
+  "app_parts": {
+    "Part": {
+      "label": "ISO4029_SetScrewCupPoint",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.4587341226347257,
+          "x_min": -2.4587341226347257,
+          "y_max": 2.4587341226347257,
+          "y_min": -2.4587341226347257,
+          "z_max": 0.0,
+          "z_min": -9.0
+        },
+        "child_count": 5,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
+  "objects": {
+    "BaseFeature": {
+      "label": "BaseFeature",
+      "name": "BaseFeature",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.4587341226347257,
+              "x_min": -2.4587341226347257,
+              "y_max": 2.4587341226347257,
+              "y_min": -2.4587341226347257,
+              "z_max": 0.0,
+              "z_min": -9.0
+            },
+            "is_valid": true,
+            "volume_mm3": 170.92890838099842
+          }
+        }
+      ],
+      "type_id": "PartDesign::FeatureBase"
+    },
+    "Body": {
+      "label": "Body",
+      "name": "Body",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.4587341226347257,
+              "x_min": -2.4587341226347257,
+              "y_max": 2.4587341226347257,
+              "y_min": -2.4587341226347257,
+              "z_max": 0.0,
+              "z_min": -9.0
+            },
+            "is_valid": true,
+            "volume_mm3": 140.6012192825179
+          }
+        }
+      ],
+      "type_id": "PartDesign::Body"
+    },
+    "Groove": {
+      "label": "Bevels",
+      "name": "Groove",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.4587341226347257,
+              "x_min": -2.4587341226347257,
+              "y_max": 2.4587341226347257,
+              "y_min": -2.4587341226347275,
+              "z_max": 1.9984014443252826e-15,
+              "z_min": -8.0
+            },
+            "is_valid": true,
+            "volume_mm3": 110.00001726451372
+          }
+        }
+      ],
+      "type_id": "PartDesign::Groove"
+    },
+    "Part": {
+      "label": "ISO4029_SetScrewCupPoint",
+      "name": "Part",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.4587341226347257,
+              "x_min": -2.4587341226347257,
+              "y_max": 2.4587341226347257,
+              "y_min": -2.4587341226347257,
+              "z_max": 0.0,
+              "z_min": -9.0
+            },
+            "is_valid": true,
+            "volume_mm3": 140.6012192825179
+          }
+        }
+      ],
+      "type_id": "App::Part"
+    },
+    "Pocket": {
+      "label": "HeadHole",
+      "name": "Pocket",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.4587341226347257,
+              "x_min": -2.4587341226347257,
+              "y_max": 2.4587341226347257,
+              "y_min": -2.4587341226347257,
+              "z_max": 0.0,
+              "z_min": -9.0
+            },
+            "is_valid": true,
+            "volume_mm3": 136.8991081617886
+          }
+        }
+      ],
+      "type_id": "PartDesign::Pocket"
+    },
+    "Revolution": {
+      "label": "Revolution",
+      "name": "Revolution",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.4587341226347257,
+              "x_min": -2.4587341226347257,
+              "y_max": 2.4587341226347257,
+              "y_min": -2.4587341226347257,
+              "z_max": 0.0,
+              "z_min": -9.0
+            },
+            "is_valid": true,
+            "volume_mm3": 140.6012192825179
+          }
+        }
+      ],
+      "type_id": "PartDesign::Revolution"
+    },
+    "ScrewTap": {
+      "label": "M6x8.0-ScrewTap",
+      "name": "ScrewTap",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "bounding_box": {
+              "x_max": 2.4587341226347257,
+              "x_min": -2.4587341226347257,
+              "y_max": 2.4587341226347257,
+              "y_min": -2.4587341226347257,
+              "z_max": 1.0,
+              "z_min": -8.0
+            },
+            "is_valid": true,
+            "volume_mm3": 170.92890838099842
+          }
+        }
+      ],
+      "type_id": "Part::FeaturePython"
+    }
+  },
+  "part_features": {
+    "ScrewTap": {
+      "label": "M6x8.0-ScrewTap",
+      "metrics": {
+        "edge_count": 3,
+        "face_count": 3,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "vertex_count": 2
+      },
+      "name": "ScrewTap",
+      "type_id": "Part::FeaturePython"
+    }
+  },
+  "partdesign_bodies": {
+    "Body": {
+      "label": "Body",
+      "metrics": {
+        "edge_count": 23,
+        "face_count": 11,
+        "feature_count": 7,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Revolution",
+        "vertex_count": 15
+      },
+      "name": "Body",
+      "type_id": "PartDesign::Body"
+    }
+  },
+  "partdesign_features": {
+    "AssyBottom": {
+      "label": "AssyBottom",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyBottom",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "AssyTop": {
+      "label": "AssyTop",
+      "metrics": {
+        "edge_count": 0,
+        "face_count": 1,
+        "is_valid": true,
+        "shape_type": "Face",
+        "vertex_count": 0
+      },
+      "name": "AssyTop",
+      "type_id": "PartDesign::CoordinateSystem"
+    },
+    "BaseFeature": {
+      "label": "BaseFeature",
+      "metrics": {
+        "edge_count": 3,
+        "face_count": 3,
+        "is_valid": true,
+        "shape_type": "Solid",
+        "vertex_count": 2
+      },
+      "name": "BaseFeature",
+      "type_id": "PartDesign::FeatureBase"
+    },
+    "Groove": {
+      "label": "Bevels",
+      "metrics": {
+        "edge_count": 34,
+        "face_count": 18,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 17
+      },
+      "name": "Groove",
+      "type_id": "PartDesign::Groove"
+    },
+    "Pocket": {
+      "label": "HeadHole",
+      "metrics": {
+        "edge_count": 21,
+        "face_count": 10,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 14
+      },
+      "name": "Pocket",
+      "type_id": "PartDesign::Pocket"
+    },
+    "Revolution": {
+      "label": "Revolution",
+      "metrics": {
+        "edge_count": 23,
+        "face_count": 11,
+        "is_valid": true,
+        "shape_type": "Compound",
+        "vertex_count": 15
+      },
+      "name": "Revolution",
+      "type_id": "PartDesign::Revolution"
+    }
+  },
+  "schema_version": 2,
+  "sketches": {
+    "Sketch": {
+      "label": "SketchHexagonKey",
+      "metrics": {
+        "constraint_count": 20,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 7,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch001": {
+      "label": "SketchBevels",
+      "metrics": {
+        "constraint_count": 26,
+        "degrees_of_freedom": 6,
+        "external_geometry_count": 1,
+        "fully_constrained": false,
+        "geometry_count": 11,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch001",
+      "type_id": "Sketcher::SketchObject"
+    },
+    "Sketch002": {
+      "label": "InnerHeadHexagonBevel",
+      "metrics": {
+        "constraint_count": 12,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      },
+      "name": "Sketch002",
+      "type_id": "Sketcher::SketchObject"
+    }
+  },
+  "source": {
+    "data_creation_date": "2026-03-27T01:34:20.555447+00:00",
+    "document_label": "FL_ISO4029_SetScrewCupPoint",
+    "document_name": "FL_ISO4029_SetScrewCupPoint",
+    "freecad_version": "1.2.0 45935 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_ISO4029_SetScrewCupPoint.FCStd"
+  }
+}
