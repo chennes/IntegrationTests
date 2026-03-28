@@ -150,10 +150,12 @@ jobs:
         filename: integration_tests_badge.json
         label: integration tests
         message: "${{ steps.integration_tests.outputs.badge_ok }} pass \u00b7 ${{ steps.integration_tests.outputs.badge_xfail }} xfail \u00b7 ${{ steps.integration_tests.outputs.badge_fail }} fail \u00b7 ${{ steps.integration_tests.outputs.badge_error }} error"
-        valColorRange: ${{ steps.integration_tests.outputs.badge_ok }}
-        maxColorRange: ${{ steps.integration_tests.outputs.badge_ok }}
-        minColorRange: 0
-        color: "${{ steps.integration_tests.outputs.badge_fail != '0' && 'red' || steps.integration_tests.outputs.badge_error != '0' && 'orange' || 'brightgreen' }}"
+        color: >-
+          ${{
+            steps.integration_tests.outputs.badge_fail != '0' && 'red' ||
+            steps.integration_tests.outputs.badge_error != '0' && 'orange' ||
+            'brightgreen'
+          }}
 
     - name: Open issue on failure
       if: always() && steps.integration_tests.outputs.exit_code != '0'
