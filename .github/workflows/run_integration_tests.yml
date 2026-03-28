@@ -123,10 +123,37 @@ jobs:
       run: |
         set +e
         cd ${{ github.workspace }}
-        python3 IntegrationTests/Scripts/RunIntegrationTests.py --freecad FreeCAD/build/${{ env.config }}/bin/FreeCADCmd --script IntegrationTests/Scripts/EvaluateFile.FCMacro --fcstd-dir IntegrationTests/Data/CADFiles/ --baseline-dir IntegrationTests/Data/BaselineResults/ --exceptions-dir IntegrationTests/Data/Exceptions/ --known-failures-dir IntegrationTests/Data/KnownFailures/ --verbose
+        output=$(python3 IntegrationTests/Scripts/RunIntegrationTests.py --freecad FreeCAD/build/${{ env.config }}/bin/FreeCADCmd --script IntegrationTests/Scripts/EvaluateFile.FCMacro --fcstd-dir IntegrationTests/Data/CADFiles/ --baseline-dir IntegrationTests/Data/BaselineResults/ --exceptions-dir IntegrationTests/Data/Exceptions/ --known-failures-dir IntegrationTests/Data/KnownFailures/ --verbose 2>&1)
         rc=$?
+        echo "$output"
         echo "exit_code=$rc" >> "$GITHUB_OUTPUT"
         echo "Integration test exit code: $rc"
+        # Parse the machine-readable badge stats
+        badge_json=$(echo "$output" | grep '^BADGE_JSON:' | sed 's/^BADGE_JSON://')
+        if [ -n "$badge_json" ]; then
+          ok=$(echo "$badge_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['ok'])")
+          xfail=$(echo "$badge_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['xfail'])")
+          fail=$(echo "$badge_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['fail'])")
+          error=$(echo "$badge_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['error'])")
+          echo "badge_ok=$ok" >> "$GITHUB_OUTPUT"
+          echo "badge_xfail=$xfail" >> "$GITHUB_OUTPUT"
+          echo "badge_fail=$fail" >> "$GITHUB_OUTPUT"
+          echo "badge_error=$error" >> "$GITHUB_OUTPUT"
+        fi
+
+    - name: Update status badge
+      if: always() && github.ref == 'refs/heads/main' && steps.integration_tests.outputs.badge_ok != ''
+      uses: schneegans/dynamic-badges-action@e9a478b16159b4d31420099ba146cdc50f134483 # v1.7.0
+      with:
+        auth: ${{ secrets.GIST_TOKEN }}
+        gistID: ${{ vars.BADGE_GIST_ID }}
+        filename: integration_tests_badge.json
+        label: integration tests
+        message: "${{ steps.integration_tests.outputs.badge_ok }} pass \u00b7 ${{ steps.integration_tests.outputs.badge_xfail }} xfail \u00b7 ${{ steps.integration_tests.outputs.badge_fail }} fail"
+        valColorRange: ${{ steps.integration_tests.outputs.badge_ok }}
+        maxColorRange: ${{ steps.integration_tests.outputs.badge_ok }}
+        minColorRange: 0
+        color: "${{ steps.integration_tests.outputs.badge_fail == '0' && steps.integration_tests.outputs.badge_error == '0' && 'brightgreen' || 'red' }}"
 
     - name: Open issue on failure
       if: always() && steps.integration_tests.outputs.exit_code != '0'

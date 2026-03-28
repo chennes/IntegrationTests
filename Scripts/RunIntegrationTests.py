@@ -726,6 +726,13 @@ def main(argv: List[str]) -> int:
     else:
         print("Integration tests passed")
 
+    # Machine-readable summary for CI badge generation
+    print(
+        f"BADGE_JSON:"
+        f'{{"ok":{ok_files},"xfail":{known_failure_files},'
+        f'"fail":{mismatch_files},"error":{error_files}}}'
+    )
+
     if error_files > 0:
         return 3
     if mismatch_files > 0:

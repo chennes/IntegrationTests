@@ -1,4 +1,5 @@
 [![Integration Test Suite](https://github.com/chennes/IntegrationTests/actions/workflows/run_integration_tests.yml/badge.svg)](https://github.com/chennes/IntegrationTests/actions/workflows/run_integration_tests.yml)
+[![Test Results](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/chennes/77b5a4958c7892e7f759a10a02108e38/raw/integration_tests_badge.json)](https://github.com/chennes/IntegrationTests/actions/workflows/run_integration_tests.yml)
 
 # FreeCAD Integration Test Suite
 
