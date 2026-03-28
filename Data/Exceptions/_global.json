@@ -23,6 +23,20 @@
       "accepted_values": [true],
       "description": "Shapes that were invalid in older FreeCAD may become valid in newer versions due to OCC and algorithm improvements",
       "added": "2026-03-16"
+    },
+    {
+      "section": "materials",
+      "object_pattern": "*",
+      "metric_pattern": "missing_in_new",
+      "description": "App::Part containers matched the MaterialAnalyzer in older FreeCAD but no longer do in 1.2+ due to Material property changes",
+      "added": "2026-03-27"
+    },
+    {
+      "section": "objects",
+      "object_pattern": "ShapeString*",
+      "metric_pattern": "missing_in_new",
+      "description": "Part::Part2DObjectPython (ShapeString) no longer produces a solid shape in FreeCAD 1.2+",
+      "added": "2026-03-27"
     }
   ]
 }

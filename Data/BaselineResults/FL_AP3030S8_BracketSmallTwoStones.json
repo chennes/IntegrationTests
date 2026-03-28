@@ -4,12 +4,12 @@
       "label": "AP3030S8_BracketSmall_With_Two_StoneM6Heavy",
       "metrics": {
         "bounding_box": {
-          "x_max": 6.8,
-          "x_min": -6.800000000000003,
-          "y_max": 6.500000000000005,
+          "x_max": 6.799999999999998,
+          "x_min": -6.8000000000000025,
+          "y_max": 6.500000000000003,
           "y_min": -21.05,
-          "z_max": 21.050000000000004,
-          "z_min": -6.499999999999977
+          "z_max": 21.05,
+          "z_min": -6.499999999999981
         },
         "child_count": 8,
         "is_valid": true
@@ -50,6 +50,16 @@
       "type_id": "App::Link"
     }
   },
+  "materials": {
+    "Model": {
+      "label": "AP3030S8_BracketSmall_With_Two_StoneM6Heavy",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "Model",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "Model": {
       "label": "AP3030S8_BracketSmall_With_Two_StoneM6Heavy",
@@ -61,28 +71,28 @@
             "bounding_box": {
               "x_max": 6.799999999999998,
               "x_min": -6.800000000000002,
-              "y_max": -7.450000000000002,
+              "y_max": -7.450000000000001,
               "y_min": -21.05,
-              "z_max": 8.800000000000024,
-              "z_min": -6.499999999999977
+              "z_max": 8.80000000000003,
+              "z_min": -6.499999999999981
             },
             "is_valid": true,
-            "volume_mm3": 571.3253903164409
+            "volume_mm3": 571.3253903164408
           }
         },
         {
           "index": 2,
           "metrics": {
             "bounding_box": {
-              "x_max": 6.8,
-              "x_min": -6.800000000000003,
-              "y_max": 6.500000000000005,
+              "x_max": 6.799999999999997,
+              "x_min": -6.8000000000000025,
+              "y_max": 6.500000000000003,
               "y_min": -8.800000000000002,
-              "z_max": 21.050000000000004,
-              "z_min": 7.45
+              "z_max": 21.05,
+              "z_min": 7.450000000000002
             },
             "is_valid": true,
-            "volume_mm3": 571.3253903164414
+            "volume_mm3": 571.325390316441
           }
         }
       ],
@@ -137,12 +147,9 @@
     "Screw": {
       "label": "M6x12-Screw",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 17,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 22
+        "shell_is_closed": true
       },
       "name": "Screw",
       "type_id": "Part::FeaturePython"
@@ -150,37 +157,22 @@
     "Screw001": {
       "label": "M6x12-Screw001",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 17,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 22
+        "shell_is_closed": true
       },
       "name": "Screw001",
       "type_id": "Part::FeaturePython"
     }
   },
-  "partdesign_features": {
-    "LCS_Origin": {
-      "label": "LCS_Origin",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "LCS_Origin",
-      "type_id": "PartDesign::CoordinateSystem"
-    }
-  },
-  "schema_version": 2,
+  "schema_version": 3,
   "source": {
-    "data_creation_date": "2026-03-27T01:34:00.897556+00:00",
+    "data_creation_date": "2026-03-27T21:06:27.232945+00:00",
     "document_label": "FL_AP3030S8_BracketSmallTwoStones",
     "document_name": "FL_AP3030S8_BracketSmallTwoStones",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_BracketSmallTwoStones.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_BracketSmallTwoStones.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   }
 }

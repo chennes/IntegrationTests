@@ -35,6 +35,24 @@
       "type_id": "App::Part"
     }
   },
+  "materials": {
+    "Part": {
+      "label": "MABA-011095",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    },
+    "Part001": {
+      "label": "antenna-pcb 1",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "Part001",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "Compound": {
       "label": "MABA-011094",
@@ -1731,12 +1749,9 @@
     "Compound": {
       "label": "MABA-011094",
       "metrics": {
-        "edge_count": 72,
-        "face_count": 36,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 48
+        "shell_is_closed": true
       },
       "name": "Compound",
       "type_id": "Part::Feature"
@@ -1744,12 +1759,9 @@
     "Compound001": {
       "label": "antenna-pcb_track_10",
       "metrics": {
-        "edge_count": 21,
-        "face_count": 11,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 14
+        "shell_is_closed": true
       },
       "name": "Compound001",
       "type_id": "Part::Feature"
@@ -1757,12 +1769,9 @@
     "Solid": {
       "label": "antenna-pcb_track_1",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid",
       "type_id": "Part::Feature"
@@ -1770,12 +1779,9 @@
     "Solid001": {
       "label": "antenna-pcb_track_2",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid001",
       "type_id": "Part::Feature"
@@ -1783,12 +1789,9 @@
     "Solid002": {
       "label": "antenna-pcb_track_3",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid002",
       "type_id": "Part::Feature"
@@ -1796,12 +1799,9 @@
     "Solid003": {
       "label": "antenna-pcb_track_4",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid003",
       "type_id": "Part::Feature"
@@ -1809,12 +1809,9 @@
     "Solid004": {
       "label": "antenna-pcb_track_5",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid004",
       "type_id": "Part::Feature"
@@ -1822,12 +1819,9 @@
     "Solid005": {
       "label": "antenna-pcb_track_6",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid005",
       "type_id": "Part::Feature"
@@ -1835,12 +1829,9 @@
     "Solid006": {
       "label": "antenna-pcb_track_7",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid006",
       "type_id": "Part::Feature"
@@ -1848,12 +1839,9 @@
     "Solid007": {
       "label": "antenna-pcb_track_8",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid007",
       "type_id": "Part::Feature"
@@ -1861,12 +1849,9 @@
     "Solid008": {
       "label": "antenna-pcb_track_9",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid008",
       "type_id": "Part::Feature"
@@ -1874,12 +1859,9 @@
     "Solid009": {
       "label": "antenna-pcb_track_11",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid009",
       "type_id": "Part::Feature"
@@ -1887,12 +1869,9 @@
     "Solid010": {
       "label": "antenna-pcb_track_12",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid010",
       "type_id": "Part::Feature"
@@ -1900,12 +1879,9 @@
     "Solid011": {
       "label": "antenna-pcb_track_13",
       "metrics": {
-        "edge_count": 15,
-        "face_count": 7,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 10
+        "shell_is_closed": true
       },
       "name": "Solid011",
       "type_id": "Part::Feature"
@@ -1913,12 +1889,9 @@
     "Solid012": {
       "label": "antenna-pcb_pad_1",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid012",
       "type_id": "Part::Feature"
@@ -1926,12 +1899,9 @@
     "Solid013": {
       "label": "antenna-pcb_pad_2",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid013",
       "type_id": "Part::Feature"
@@ -1939,12 +1909,9 @@
     "Solid014": {
       "label": "antenna-pcb_pad_3",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid014",
       "type_id": "Part::Feature"
@@ -1952,12 +1919,9 @@
     "Solid015": {
       "label": "antenna-pcb_pad_4",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid015",
       "type_id": "Part::Feature"
@@ -1965,12 +1929,9 @@
     "Solid016": {
       "label": "antenna-pcb_pad_5",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid016",
       "type_id": "Part::Feature"
@@ -1978,12 +1939,9 @@
     "Solid017": {
       "label": "antenna-pcb_pad_6",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid017",
       "type_id": "Part::Feature"
@@ -1991,12 +1949,9 @@
     "Solid018": {
       "label": "antenna-pcb_pad_7",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid018",
       "type_id": "Part::Feature"
@@ -2004,12 +1959,9 @@
     "Solid019": {
       "label": "antenna-pcb_pad_8",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Solid019",
       "type_id": "Part::Feature"
@@ -2017,12 +1969,9 @@
     "Solid020": {
       "label": "antenna-pcb_pad_9",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid020",
       "type_id": "Part::Feature"
@@ -2030,12 +1979,9 @@
     "Solid021": {
       "label": "antenna-pcb_pad_10",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid021",
       "type_id": "Part::Feature"
@@ -2043,12 +1989,9 @@
     "Solid022": {
       "label": "antenna-pcb_pad_11",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid022",
       "type_id": "Part::Feature"
@@ -2056,12 +1999,9 @@
     "Solid023": {
       "label": "antenna-pcb_pad_12",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid023",
       "type_id": "Part::Feature"
@@ -2069,12 +2009,9 @@
     "Solid024": {
       "label": "antenna-pcb_pad_13",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid024",
       "type_id": "Part::Feature"
@@ -2082,12 +2019,9 @@
     "Solid025": {
       "label": "antenna-pcb_pad_14",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid025",
       "type_id": "Part::Feature"
@@ -2095,12 +2029,9 @@
     "Solid026": {
       "label": "antenna-pcb_pad_15",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid026",
       "type_id": "Part::Feature"
@@ -2108,12 +2039,9 @@
     "Solid027": {
       "label": "antenna-pcb_pad_16",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid027",
       "type_id": "Part::Feature"
@@ -2121,12 +2049,9 @@
     "Solid028": {
       "label": "antenna-pcb_pad_17",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid028",
       "type_id": "Part::Feature"
@@ -2134,12 +2059,9 @@
     "Solid029": {
       "label": "antenna-pcb_pad_18",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid029",
       "type_id": "Part::Feature"
@@ -2147,12 +2069,9 @@
     "Solid030": {
       "label": "antenna-pcb_pad_19",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid030",
       "type_id": "Part::Feature"
@@ -2160,12 +2079,9 @@
     "Solid031": {
       "label": "antenna-pcb_pad_20",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid031",
       "type_id": "Part::Feature"
@@ -2173,12 +2089,9 @@
     "Solid032": {
       "label": "antenna-pcb_pad_21",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid032",
       "type_id": "Part::Feature"
@@ -2186,12 +2099,9 @@
     "Solid033": {
       "label": "antenna-pcb_pad_22",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid033",
       "type_id": "Part::Feature"
@@ -2199,12 +2109,9 @@
     "Solid034": {
       "label": "antenna-pcb_pad_23",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 4
+        "shell_is_closed": true
       },
       "name": "Solid034",
       "type_id": "Part::Feature"
@@ -2212,23 +2119,22 @@
     "Solid035": {
       "label": "antenna-pcb_PCB",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Solid035",
       "type_id": "Part::Feature"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "source": {
-    "data_creation_date": "2026-03-22T00:30:16.367174+00:00",
+    "data_creation_date": "2026-03-27T21:09:18.536997+00:00",
     "document_label": "UHF_Antenna_Phasma",
     "document_name": "UHF_Antenna_Phasma",
-    "freecad_version": "1.0.2 39320 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\UHF_Antenna_Phasma.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\UHF_Antenna_Phasma.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   }
 }

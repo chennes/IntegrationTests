@@ -364,12 +364,9 @@
     "Cut": {
       "label": "Duct_rectangular_",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 16
+        "shell_is_closed": true
       },
       "name": "Cut",
       "type_id": "Part::Cut"
@@ -377,12 +374,9 @@
     "Cut001": {
       "label": "Insulation_",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 16
+        "shell_is_closed": true
       },
       "name": "Cut001",
       "type_id": "Part::Cut"
@@ -390,12 +384,9 @@
     "Extrude": {
       "label": "Flange1_",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 16
+        "shell_is_closed": true
       },
       "name": "Extrude",
       "type_id": "Part::Extrusion"
@@ -403,12 +394,9 @@
     "Extrude001": {
       "label": "Flange2_",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 16
+        "shell_is_closed": true
       },
       "name": "Extrude001",
       "type_id": "Part::Extrusion"
@@ -416,12 +404,9 @@
     "Extrude002": {
       "label": "Closure_",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Extrude002",
       "type_id": "Part::Extrusion"
@@ -429,11 +414,8 @@
     "Line": {
       "label": "Axis",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line",
       "type_id": "Part::Part2DObjectPython"
@@ -441,12 +423,9 @@
     "Sweep001": {
       "label": "Sweep001_internal_",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Sweep001",
       "type_id": "Part::Sweep"
@@ -454,12 +433,9 @@
     "Sweep002": {
       "label": "Sweep001_external_volume",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Sweep002",
       "type_id": "Part::Sweep"
@@ -467,18 +443,15 @@
     "Sweep003": {
       "label": "Sweep001_external_insulation",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Sweep003",
       "type_id": "Part::Sweep"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Opening_01_internal_rectangular_",
@@ -608,11 +581,13 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-16T01:47:13.030911+00:00",
+    "data_creation_date": "2026-03-27T21:06:22.406281+00:00",
     "document_label": "Duct_linear_rectangular_complete",
     "document_name": "Duct_linear_rectangular_complete",
     "freecad_version": "1.0.2 39320 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Duct_linear_rectangular_complete.FCStd"
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Duct_linear_rectangular_complete.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.3"
   },
   "spreadsheets": {
     "Spreadsheet003": {

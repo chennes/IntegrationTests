@@ -35,7 +35,7 @@
               "z_min": -1.3877787807814457e-15
             },
             "is_valid": true,
-            "volume_mm3": 1308.1639813382644
+            "volume_mm3": 1308.1639813382635
           }
         }
       ],
@@ -49,15 +49,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 31.250000000000206,
-              "x_min": -6.249999999999997,
-              "y_max": 25.000000000000007,
-              "y_min": 12.499999999999835,
-              "z_max": 12.500000000000078,
-              "z_min": -4.47253345470246e-14
+              "x_max": 31.25000000000021,
+              "x_min": -6.249999999999998,
+              "y_max": 25.000000000000004,
+              "y_min": 12.49999999999983,
+              "z_max": 12.500000001744997,
+              "z_min": -4.7323256424647474e-14
             },
             "is_valid": true,
-            "volume_mm3": 2922.025206175478
+            "volume_mm3": 2922.0252100936555
           }
         }
       ],
@@ -79,7 +79,7 @@
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 1727.0569771814135
+            "volume_mm3": 1727.0569771814132
           }
         }
       ],
@@ -101,7 +101,7 @@
               "z_min": -1.3877787807814457e-15
             },
             "is_valid": true,
-            "volume_mm3": 1339.2231489211747
+            "volume_mm3": 1339.223148921174
           }
         }
       ],
@@ -115,15 +115,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 2.567635858803844e-15,
+              "x_max": 5.1823744913682025e-15,
               "x_min": -37.50000000000001,
-              "y_max": 12.500000000000014,
-              "y_min": -6.796170969776946e-16,
-              "z_max": 12.500000000000005,
-              "z_min": -1.1379786002407855e-14
+              "y_max": 12.50000000000003,
+              "y_min": -1.0073301420447227e-15,
+              "z_max": 12.500000000000004,
+              "z_min": -2.129685316987207e-14
             },
             "is_valid": true,
-            "volume_mm3": 4403.043034405911
+            "volume_mm3": 4403.0430344059105
           }
         }
       ],
@@ -137,15 +137,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 2.2850192162407665e-15,
+              "x_max": 4.8997578488051275e-15,
               "x_min": -37.50000000000003,
-              "y_max": 12.500000000000037,
-              "y_min": -4.797769525451656e-16,
-              "z_max": 12.500000000000025,
-              "z_min": -2.7644553313166398e-14
+              "y_max": 12.500000000000053,
+              "y_min": -8.07489997612194e-16,
+              "z_max": 12.500000000000009,
+              "z_min": -3.768374501333941e-14
             },
             "is_valid": true,
-            "volume_mm3": 3922.951907864697
+            "volume_mm3": 3922.951907858859
           }
         }
       ],
@@ -159,15 +159,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 2.2850192162407665e-15,
+              "x_max": 4.8997578488051275e-15,
               "x_min": -37.50000000000003,
-              "y_max": 12.500000000000037,
-              "y_min": -4.797769525451656e-16,
-              "z_max": 12.500000000000025,
-              "z_min": -2.7644553313166398e-14
+              "y_max": 12.500000000000053,
+              "y_min": -8.07489997612194e-16,
+              "z_max": 12.500000000000009,
+              "z_min": -3.768374501333941e-14
             },
             "is_valid": true,
-            "volume_mm3": 2962.769654781861
+            "volume_mm3": 2962.769654772586
           }
         }
       ],
@@ -189,7 +189,7 @@
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 1349.450891988697
+            "volume_mm3": 1349.4508919886964
           }
         }
       ],
@@ -211,7 +211,7 @@
               "z_min": -1.3877787807814457e-15
             },
             "is_valid": true,
-            "volume_mm3": 1308.1781228738469
+            "volume_mm3": 1308.1781228738457
           }
         }
       ],
@@ -225,15 +225,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 2.220446049250313e-15,
+              "x_max": 4.475832884960515e-15,
               "x_min": -37.50000000000007,
-              "y_max": 12.500000000000076,
-              "y_min": -1.8001673589637161e-16,
-              "z_max": 12.500000000000018,
-              "z_min": -5.2013948703688584e-14
+              "y_max": 12.500000000000092,
+              "y_min": -5.077297809634003e-16,
+              "z_max": 12.500000001744958,
+              "z_min": -6.226408277854049e-14
             },
             "is_valid": true,
-            "volume_mm3": 2922.039349328794
+            "volume_mm3": 2922.039351902977
           }
         }
       ],
@@ -269,12 +269,12 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 1.1657341758564142e-15,
+              "x_max": 2.708944180085384e-15,
               "x_min": -37.50000000000001,
-              "y_max": 12.500000000000014,
-              "y_min": 3.33066907387547e-17,
+              "y_max": 12.500000000000025,
+              "y_min": 9.992007221626414e-17,
               "z_max": 12.500000000000004,
-              "z_min": -8.226752612472411e-15
+              "z_min": -2.1371793224034263e-14
             },
             "is_valid": true,
             "volume_mm3": 4409.455874757191
@@ -313,15 +313,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 2.4263275375223052e-15,
+              "x_max": 5.041066170086666e-15,
               "x_min": -37.50000000000002,
-              "y_max": 12.500000000000027,
-              "y_min": -5.796970247614302e-16,
+              "y_max": 12.500000000000044,
+              "y_min": -9.074100698284585e-16,
               "z_max": 12.500000000000007,
-              "z_min": -1.9484414082171497e-14
+              "z_min": -2.9490299091605733e-14
             },
             "is_valid": true,
-            "volume_mm3": 4150.653325990997
+            "volume_mm3": 4150.653325989972
           }
         }
       ],
@@ -335,15 +335,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 2.2850192162407665e-15,
+              "x_max": 4.8997578488051275e-15,
               "x_min": -37.50000000000003,
-              "y_max": 12.500000000000037,
-              "y_min": -4.797769525451656e-16,
-              "z_max": 12.500000000000025,
-              "z_min": -2.7644553313166398e-14
+              "y_max": 12.500000000000053,
+              "y_min": -8.204492078679644e-15,
+              "z_max": 12.500000000000009,
+              "z_min": -3.768374501333941e-14
             },
             "is_valid": true,
-            "volume_mm3": 3926.0055359239195
+            "volume_mm3": 3926.0055359180974
           }
         }
       ],
@@ -365,7 +365,7 @@
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 1728.0748532011767
+            "volume_mm3": 1728.0748532011764
           }
         }
       ],
@@ -409,7 +409,7 @@
               "z_min": -1.3877787807814457e-15
             },
             "is_valid": true,
-            "volume_mm3": 1281.600249024477
+            "volume_mm3": 1281.6002490244764
           }
         }
       ],
@@ -431,7 +431,7 @@
               "z_min": -1.3877787807814457e-15
             },
             "is_valid": true,
-            "volume_mm3": 1308.1639813382644
+            "volume_mm3": 1308.1639813382635
           }
         }
       ],
@@ -445,15 +445,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 2.143710894959228e-15,
+              "x_max": 4.758449527523592e-15,
               "x_min": -37.50000000000005,
-              "y_max": 12.500000000000052,
-              "y_min": -3.7985688032890105e-16,
+              "y_max": 12.500000000000068,
+              "y_min": -7.075699253959296e-16,
               "z_max": 12.500000000000012,
-              "z_min": -3.574918139293004e-14
+              "z_min": -4.587719093507309e-14
             },
             "is_valid": true,
-            "volume_mm3": 2913.1423607857173
+            "volume_mm3": 2913.1423607766005
           }
         }
       ],
@@ -467,15 +467,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 2.1094237467877974e-15,
-              "x_min": -37.500000000000064,
-              "y_max": 12.500000000000062,
-              "y_min": -2.7993680811263643e-16,
+              "x_max": 4.617141206242058e-15,
+              "x_min": -37.50000000000006,
+              "y_max": 12.50000000000008,
+              "y_min": -6.076498531796651e-16,
               "z_max": 12.500000000000014,
-              "z_min": -4.393707619954057e-14
+              "z_min": -5.407063685680678e-14
             },
             "is_valid": true,
-            "volume_mm3": 2911.078334412356
+            "volume_mm3": 2911.078334403162
           }
         }
       ],
@@ -489,15 +489,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 2.220446049250313e-15,
+              "x_max": 4.334524563678974e-15,
               "x_min": -37.500000000000085,
-              "y_max": 12.500000000000087,
-              "y_min": -8.00966636801068e-17,
-              "z_max": 12.50000000000002,
-              "z_min": -6.017408793468348e-14
+              "y_max": 12.500000000000103,
+              "y_min": -4.0780970874713566e-16,
+              "z_max": 12.500000001744953,
+              "z_min": -7.045752870027417e-14
             },
             "is_valid": true,
-            "volume_mm3": 2922.0252061754513
+            "volume_mm3": 2922.0252100936273
           }
         }
       ],
@@ -519,7 +519,7 @@
               "z_min": -1.3877787807814457e-15
             },
             "is_valid": true,
-            "volume_mm3": 1288.2447174868198
+            "volume_mm3": 1288.244717486819
           }
         }
       ],
@@ -533,19 +533,32 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 2.220446049250313e-15,
+              "x_max": 4.475832884960515e-15,
               "x_min": -37.50000000000007,
-              "y_max": 12.500000000000076,
-              "y_min": -1.8001673589637161e-16,
-              "z_max": 12.500000000000018,
-              "z_min": -5.2013948703688584e-14
+              "y_max": 12.500000000000092,
+              "y_min": -5.077297809634003e-16,
+              "z_max": 12.500000001744953,
+              "z_min": -6.226408277854049e-14
             },
             "is_valid": true,
-            "volume_mm3": 2917.722803802394
+            "volume_mm3": 2917.722803616676
           }
         }
       ],
       "type_id": "PartDesign::Revolution"
+    },
+    "ShapeString": {
+      "label": "STEMFIE part number",
+      "name": "ShapeString",
+      "solids": [
+        {
+          "index": 1,
+          "metrics": {
+            "is_valid": false
+          }
+        }
+      ],
+      "type_id": "Part::Part2DObjectPython"
     },
     "Sign_URL_BEM_BU04x02x00_25___SPN_SGN_0006__stemfie_org_": {
       "label": "Sign URL BEM BU04x02x00.25 - SPN-SGN-0006 (stemfie.org)",
@@ -574,12 +587,9 @@
     "Part__Feature": {
       "label": "Sign URL BEM BU04x02x00.25 - SPN-SGN-0006 (stemfie.org)001",
       "metrics": {
-        "edge_count": 1522,
-        "face_count": 556,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 1006
+        "shell_is_closed": true
       },
       "name": "Part__Feature",
       "type_id": "Part::Feature"
@@ -587,11 +597,8 @@
     "ShapeString": {
       "label": "STEMFIE part number",
       "metrics": {
-        "edge_count": 208,
-        "face_count": 12,
-        "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 208
+        "is_valid": false,
+        "shape_type": "Compound"
       },
       "name": "ShapeString",
       "type_id": "Part::Part2DObjectPython"
@@ -601,13 +608,10 @@
     "Body": {
       "label": "Brace STR ERR (stemfie.org)",
       "metrics": {
-        "edge_count": 698,
-        "face_count": 260,
         "feature_count": 16,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pocket006",
-        "vertex_count": 460
+        "tip_name": "Pocket006"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -615,13 +619,10 @@
     "Body001": {
       "label": "Beam STR ESS (stemfie.org)",
       "metrics": {
-        "edge_count": 812,
-        "face_count": 290,
         "feature_count": 21,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pocket009",
-        "vertex_count": 533
+        "tip_name": "Pocket009"
       },
       "name": "Body001",
       "type_id": "PartDesign::Body"
@@ -631,11 +632,8 @@
     "Chamfer": {
       "label": "FirstHoleLowerEdge",
       "metrics": {
-        "edge_count": 17,
-        "face_count": 8,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 11
+        "shape_type": "Solid"
       },
       "name": "Chamfer",
       "type_id": "PartDesign::Chamfer"
@@ -643,11 +641,8 @@
     "Chamfer001": {
       "label": "OuterEdge",
       "metrics": {
-        "edge_count": 60,
-        "face_count": 30,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 36
+        "shape_type": "Solid"
       },
       "name": "Chamfer001",
       "type_id": "PartDesign::Chamfer"
@@ -655,11 +650,8 @@
     "Chamfer002": {
       "label": "EndFaces",
       "metrics": {
-        "edge_count": 63,
-        "face_count": 29,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 36
+        "shape_type": "Solid"
       },
       "name": "Chamfer002",
       "type_id": "PartDesign::Chamfer"
@@ -667,67 +659,17 @@
     "Chamfer003": {
       "label": "SideHoles",
       "metrics": {
-        "edge_count": 97,
-        "face_count": 37,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 58
+        "shape_type": "Solid"
       },
       "name": "Chamfer003",
       "type_id": "PartDesign::Chamfer"
     },
-    "DatumLine": {
-      "label": "DatumLine",
-      "metrics": {
-        "is_valid": true
-      },
-      "name": "DatumLine",
-      "type_id": "PartDesign::Line"
-    },
-    "DatumPlane": {
-      "label": "DatumPlane",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane",
-      "type_id": "PartDesign::Plane"
-    },
-    "DatumPlane001": {
-      "label": "TopLayer",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane001",
-      "type_id": "PartDesign::Plane"
-    },
-    "DatumPlane002": {
-      "label": "CenterPlane",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane002",
-      "type_id": "PartDesign::Plane"
-    },
     "LinearPattern": {
       "label": "Holes along the length",
       "metrics": {
-        "edge_count": 165,
-        "face_count": 53,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 102
+        "shape_type": "Solid"
       },
       "name": "LinearPattern",
       "type_id": "PartDesign::LinearPattern"
@@ -735,11 +677,8 @@
     "LinearPattern001": {
       "label": "HoleArray",
       "metrics": {
-        "edge_count": 44,
-        "face_count": 22,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 28
+        "shape_type": "Solid"
       },
       "name": "LinearPattern001",
       "type_id": "PartDesign::LinearPattern"
@@ -747,11 +686,8 @@
     "LinearPattern002": {
       "label": "HoleLedgeArray",
       "metrics": {
-        "edge_count": 80,
-        "face_count": 39,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 48
+        "shape_type": "Solid"
       },
       "name": "LinearPattern002",
       "type_id": "PartDesign::LinearPattern"
@@ -759,11 +695,8 @@
     "LinearPattern003": {
       "label": "FirstHoleTopLedgeArray",
       "metrics": {
-        "edge_count": 194,
-        "face_count": 69,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 121
+        "shape_type": "Solid"
       },
       "name": "LinearPattern003",
       "type_id": "PartDesign::LinearPattern"
@@ -771,11 +704,8 @@
     "Pad": {
       "label": "Height",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -783,11 +713,8 @@
     "Pad001": {
       "label": "Length and Centre Hole",
       "metrics": {
-        "edge_count": 27,
-        "face_count": 11,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 18
+        "shape_type": "Solid"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -795,11 +722,8 @@
     "Pocket": {
       "label": "Hole - Side",
       "metrics": {
-        "edge_count": 75,
-        "face_count": 32,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 43
+        "shape_type": "Solid"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -807,11 +731,8 @@
     "Pocket001": {
       "label": "Hole - Top",
       "metrics": {
-        "edge_count": 91,
-        "face_count": 34,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 55
+        "shape_type": "Solid"
       },
       "name": "Pocket001",
       "type_id": "PartDesign::Pocket"
@@ -819,11 +740,8 @@
     "Pocket003": {
       "label": "First hole",
       "metrics": {
-        "edge_count": 15,
-        "face_count": 7,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 10
+        "shape_type": "Solid"
       },
       "name": "Pocket003",
       "type_id": "PartDesign::Pocket"
@@ -831,11 +749,8 @@
     "Pocket004": {
       "label": "FirstHoleTopChamferVoid",
       "metrics": {
-        "edge_count": 20,
-        "face_count": 10,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 13
+        "shape_type": "Solid"
       },
       "name": "Pocket004",
       "type_id": "PartDesign::Pocket"
@@ -843,11 +758,8 @@
     "Pocket005": {
       "label": "SunkenTopLayer",
       "metrics": {
-        "edge_count": 72,
-        "face_count": 35,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 44
+        "shape_type": "Solid"
       },
       "name": "Pocket005",
       "type_id": "PartDesign::Pocket"
@@ -855,11 +767,8 @@
     "Pocket006": {
       "label": "Logo STEMFIE URL",
       "metrics": {
-        "edge_count": 698,
-        "face_count": 260,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 460
+        "shape_type": "Solid"
       },
       "name": "Pocket006",
       "type_id": "PartDesign::Pocket"
@@ -867,11 +776,8 @@
     "Pocket007": {
       "label": "TopSunkenLayer",
       "metrics": {
-        "edge_count": 177,
-        "face_count": 58,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 110
+        "shape_type": "Solid"
       },
       "name": "Pocket007",
       "type_id": "PartDesign::Pocket"
@@ -879,11 +785,8 @@
     "Pocket008": {
       "label": "TopHoleChamferVoid",
       "metrics": {
-        "edge_count": 180,
-        "face_count": 60,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 112
+        "shape_type": "Solid"
       },
       "name": "Pocket008",
       "type_id": "PartDesign::Pocket"
@@ -891,11 +794,8 @@
     "Pocket009": {
       "label": "Logo STEMFIE URL001",
       "metrics": {
-        "edge_count": 812,
-        "face_count": 290,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 533
+        "shape_type": "Solid"
       },
       "name": "Pocket009",
       "type_id": "PartDesign::Pocket"
@@ -903,11 +803,8 @@
     "Revolution": {
       "label": "FirstHoleLedge",
       "metrics": {
-        "edge_count": 74,
-        "face_count": 36,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 45
+        "shape_type": "Solid"
       },
       "name": "Revolution",
       "type_id": "PartDesign::Revolution"
@@ -915,23 +812,20 @@
     "Revolution001": {
       "label": "FirstHoleTopLedge",
       "metrics": {
-        "edge_count": 182,
-        "face_count": 61,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 113
+        "shape_type": "Solid"
       },
       "name": "Revolution001",
       "type_id": "PartDesign::Revolution"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "STEMFIE.org - Logo - PartMarking (2.7 mm)",
       "metrics": {
         "constraint_count": 261,
-        "degrees_of_freedom": 357,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": false,
         "geometry_count": 206,
@@ -945,7 +839,7 @@
       "label": "STEMFIE.org - Logo - Lowres",
       "metrics": {
         "constraint_count": 206,
-        "degrees_of_freedom": 412,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": false,
         "geometry_count": 206,
@@ -959,7 +853,7 @@
       "label": "Base and centre hole",
       "metrics": {
         "constraint_count": 27,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 9,
@@ -973,7 +867,7 @@
       "label": "Side hole",
       "metrics": {
         "constraint_count": 3,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 1,
@@ -987,7 +881,7 @@
       "label": "Top hole",
       "metrics": {
         "constraint_count": 3,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 1,
@@ -1001,7 +895,7 @@
       "label": "Base",
       "metrics": {
         "constraint_count": 15,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 5,
@@ -1015,7 +909,7 @@
       "label": "First hole 001",
       "metrics": {
         "constraint_count": 2,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 1,
@@ -1029,7 +923,7 @@
       "label": "SunkenTopLayer001",
       "metrics": {
         "constraint_count": 15,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 5,
@@ -1043,7 +937,7 @@
       "label": "FirstHoleLedge001",
       "metrics": {
         "constraint_count": 15,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 5,
@@ -1057,7 +951,7 @@
       "label": "FirstHoleTopChamferVoid001",
       "metrics": {
         "constraint_count": 2,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 1,
@@ -1071,7 +965,7 @@
       "label": "TopSunkenLayer001",
       "metrics": {
         "constraint_count": 12,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 4,
@@ -1085,7 +979,7 @@
       "label": "TopHoleChamferVoid001",
       "metrics": {
         "constraint_count": 3,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 1,
@@ -1099,7 +993,7 @@
       "label": "FirstHoleLedge002",
       "metrics": {
         "constraint_count": 20,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 7,
@@ -1113,7 +1007,7 @@
       "label": "STEMFIE.org - Logo - PartMarking (2.7 mm)001",
       "metrics": {
         "constraint_count": 261,
-        "degrees_of_freedom": 357,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": false,
         "geometry_count": 206,
@@ -1125,17 +1019,19 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:38:54.016774+00:00",
+    "data_creation_date": "2026-03-27T21:09:07.569698+00:00",
     "document_label": "STEMFIE_TemplateScene",
     "document_name": "STEMFIE_TemplateScene",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\STEMFIE_TemplateScene.FCStd"
+    "freecad_version": "0.20.2 29603 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\STEMFIE_TemplateScene.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.8.10"
   },
   "spreadsheets": {
     "Spreadsheet": {
       "label": "STEMFIE.dimensions",
       "metrics": {
-        "cell_count": 69,
+        "cell_count": -1,
         "is_valid": true
       },
       "name": "Spreadsheet",

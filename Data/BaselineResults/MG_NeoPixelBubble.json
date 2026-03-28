@@ -168,12 +168,9 @@
     "Group001": {
       "label": "neopixel",
       "metrics": {
-        "edge_count": 391,
-        "face_count": 153,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 252
+        "shell_is_closed": true
       },
       "name": "Group001",
       "type_id": "Part::Feature"
@@ -183,13 +180,10 @@
     "Body004005": {
       "label": "Body-NeoPixel-bubble",
       "metrics": {
-        "edge_count": 47,
-        "face_count": 21,
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pocket",
-        "vertex_count": 31
+        "tip_name": "Pocket"
       },
       "name": "Body004005",
       "type_id": "PartDesign::Body"
@@ -199,11 +193,8 @@
     "Pocket": {
       "label": "Pocket-neopixel-support-hole",
       "metrics": {
-        "edge_count": 47,
-        "face_count": 21,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 31
+        "shape_type": "Solid"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -211,23 +202,20 @@
     "Revolution": {
       "label": "Revolution-bubble",
       "metrics": {
-        "edge_count": 11,
-        "face_count": 8,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 7
+        "shape_type": "Solid"
       },
       "name": "Revolution",
       "type_id": "PartDesign::Revolution"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch-bubble-profile",
       "metrics": {
         "constraint_count": 28,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 10,
@@ -241,7 +229,7 @@
       "label": "Sketch-neopixel-support-hole",
       "metrics": {
         "constraint_count": 39,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 14,
@@ -253,10 +241,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:35:58.005307+00:00",
+    "data_creation_date": "2026-03-27T21:07:30.637798+00:00",
     "document_label": "MG_NeoPixelBubble",
     "document_name": "MG_NeoPixelBubble",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_NeoPixelBubble.FCStd"
+    "freecad_version": "0.20.2 29603 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_NeoPixelBubble.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.8.10"
   }
 }

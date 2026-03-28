@@ -8,15 +8,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 15.000000000000044,
-              "x_min": -15.000000000000108,
-              "y_max": 37.44303904400564,
-              "y_min": -37.38985722416677,
-              "z_max": 62.92438509479159,
-              "z_min": -15.75000010765783
+              "x_max": 15.000000000000046,
+              "x_min": -15.000000000000115,
+              "y_max": 37.44303904400565,
+              "y_min": -37.38985722416676,
+              "z_max": 62.924385094791575,
+              "z_min": -15.750000107657824
             },
             "is_valid": true,
-            "volume_mm3": 16447.804270025015
+            "volume_mm3": 16447.8042700252
           }
         }
       ],
@@ -30,15 +30,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 15.000000000000014,
-              "x_min": -15.000000000000044,
-              "y_max": 37.44303904400563,
-              "y_min": -37.389857224166725,
+              "x_max": 15.000000000000018,
+              "x_min": -15.000000000000053,
+              "y_max": 37.443039044005644,
+              "y_min": -37.38985722416672,
               "z_max": 62.924385094791546,
-              "z_min": -15.750000107657815
+              "z_min": -15.750000107657819
             },
             "is_valid": true,
-            "volume_mm3": 16447.80427002499
+            "volume_mm3": 16447.80427002518
           }
         }
       ],
@@ -52,15 +52,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 15.000000000000005,
-              "x_min": -15.000000000000021,
-              "y_max": 37.44303904400561,
+              "x_max": 15.00000000000001,
+              "x_min": -15.000000000000028,
+              "y_max": 37.44303904400563,
               "y_min": -37.38985722416672,
-              "z_max": 62.924385094791546,
-              "z_min": -15.750000107657813
+              "z_max": 62.92438509479153,
+              "z_min": -15.750000107657817
             },
             "is_valid": true,
-            "volume_mm3": 16546.17596958087
+            "volume_mm3": 16546.17596958106
           }
         }
       ],
@@ -74,15 +74,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 15.000000000000014,
-              "x_min": -15.000000000000044,
-              "y_max": 37.44303904400563,
-              "y_min": -37.389857224166725,
+              "x_max": 15.000000000000018,
+              "x_min": -15.000000000000053,
+              "y_max": 37.443039044005644,
+              "y_min": -37.38985722416672,
               "z_max": 62.924385094791546,
-              "z_min": -15.750000107657815
+              "z_min": -15.750000107657819
             },
             "is_valid": true,
-            "volume_mm3": 16509.60959896652
+            "volume_mm3": 16509.609598966716
           }
         }
       ],
@@ -93,13 +93,10 @@
     "Body": {
       "label": "Body",
       "metrics": {
-        "edge_count": 210,
-        "face_count": 72,
         "feature_count": 5,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Fillet",
-        "vertex_count": 140
+        "tip_name": "Fillet"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -109,11 +106,8 @@
     "Fillet": {
       "label": "Fillet",
       "metrics": {
-        "edge_count": 210,
-        "face_count": 72,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 140
+        "shape_type": "Solid"
       },
       "name": "Fillet",
       "type_id": "PartDesign::Fillet"
@@ -121,11 +115,8 @@
     "Pad": {
       "label": "Pad-profile",
       "metrics": {
-        "edge_count": 174,
-        "face_count": 60,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 116
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -133,23 +124,20 @@
     "Pocket": {
       "label": "Pocket-zip-tie-hole",
       "metrics": {
-        "edge_count": 198,
-        "face_count": 68,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 132
+        "shape_type": "Solid"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch-profile",
       "metrics": {
         "constraint_count": 204,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 87,
@@ -163,7 +151,7 @@
       "label": "Sketch-zip-tie-hole",
       "metrics": {
         "constraint_count": 9,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 4,
@@ -175,10 +163,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:35:48.600569+00:00",
+    "data_creation_date": "2026-03-27T21:07:26.891998+00:00",
     "document_label": "MG_MotorbikeMobileSupport",
     "document_name": "MG_MotorbikeMobileSupport",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_MotorbikeMobileSupport.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_MotorbikeMobileSupport.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   }
 }

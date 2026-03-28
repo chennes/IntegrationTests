@@ -16,13 +16,10 @@
     "Base": {
       "label": "Base001",
       "metrics": {
-        "edge_count": 122,
-        "face_count": 44,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape001",
-        "shape_type": "Solid",
-        "vertex_count": 78
+        "shape_type": "Solid"
       },
       "name": "Base",
       "type_id": "App::Link"
@@ -30,13 +27,10 @@
     "BasePin": {
       "label": "BasePin001",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape012",
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "BasePin",
       "type_id": "App::Link"
@@ -44,13 +38,10 @@
     "Boom": {
       "label": "Boom001",
       "metrics": {
-        "edge_count": 87,
-        "face_count": 31,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape",
-        "shape_type": "Solid",
-        "vertex_count": 58
+        "shape_type": "Solid"
       },
       "name": "Boom",
       "type_id": "App::Link"
@@ -58,13 +49,10 @@
     "BoomCylinderInner": {
       "label": "BoomCylinderInner001",
       "metrics": {
-        "edge_count": 9,
-        "face_count": 6,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape016",
-        "shape_type": "Solid",
-        "vertex_count": 6
+        "shape_type": "Solid"
       },
       "name": "BoomCylinderInner",
       "type_id": "App::Link"
@@ -72,13 +60,10 @@
     "BoomCylinderOuter": {
       "label": "BoomCylinderOuter001",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 8,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape020",
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "BoomCylinderOuter",
       "type_id": "App::Link"
@@ -86,13 +71,10 @@
     "Bucket": {
       "label": "Bucket001",
       "metrics": {
-        "edge_count": 247,
-        "face_count": 97,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape015",
-        "shape_type": "Solid",
-        "vertex_count": 152
+        "shape_type": "Solid"
       },
       "name": "Bucket",
       "type_id": "App::Link"
@@ -100,13 +82,10 @@
     "BucketCylinderInner": {
       "label": "BucketCylinderInner001",
       "metrics": {
-        "edge_count": 9,
-        "face_count": 6,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape018",
-        "shape_type": "Solid",
-        "vertex_count": 6
+        "shape_type": "Solid"
       },
       "name": "BucketCylinderInner",
       "type_id": "App::Link"
@@ -114,13 +93,10 @@
     "BucketCylinderOuter": {
       "label": "BucketCylinderOuter001",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 10,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape022",
-        "shape_type": "Solid",
-        "vertex_count": 12
+        "shape_type": "Solid"
       },
       "name": "BucketCylinderOuter",
       "type_id": "App::Link"
@@ -128,13 +104,10 @@
     "BucketLink1": {
       "label": "BucketLink004",
       "metrics": {
-        "edge_count": 54,
-        "face_count": 22,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape014",
-        "shape_type": "Solid",
-        "vertex_count": 34
+        "shape_type": "Solid"
       },
       "name": "BucketLink1",
       "type_id": "App::Link"
@@ -142,13 +115,10 @@
     "BucketLink2": {
       "label": "BucketLink003",
       "metrics": {
-        "edge_count": 57,
-        "face_count": 23,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape019",
-        "shape_type": "Solid",
-        "vertex_count": 38
+        "shape_type": "Solid"
       },
       "name": "BucketLink2",
       "type_id": "App::Link"
@@ -156,13 +126,10 @@
     "Stick": {
       "label": "Stick001",
       "metrics": {
-        "edge_count": 66,
-        "face_count": 24,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape013",
-        "shape_type": "Solid",
-        "vertex_count": 44
+        "shape_type": "Solid"
       },
       "name": "Stick",
       "type_id": "App::Link"
@@ -170,13 +137,10 @@
     "StickCylinderInner": {
       "label": "StickCylinderInner001",
       "metrics": {
-        "edge_count": 9,
-        "face_count": 6,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape017",
-        "shape_type": "Solid",
-        "vertex_count": 6
+        "shape_type": "Solid"
       },
       "name": "StickCylinderInner",
       "type_id": "App::Link"
@@ -184,13 +148,10 @@
     "StickCylinderOuter": {
       "label": "StickCylinderOuter001",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 8,
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape021",
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "StickCylinderOuter",
       "type_id": "App::Link"
@@ -221,14 +182,14 @@
           "metrics": {
             "bounding_box": {
               "x_max": -162.67725384884972,
-              "x_min": -250.95428642138612,
+              "x_min": -250.95428642138614,
               "y_max": 124.41569915771487,
-              "y_min": 4.7309840516295045,
+              "y_min": 4.730984051629491,
               "z_max": 470.2680053710938,
               "z_min": 364.2680053710937
             },
             "is_valid": true,
-            "volume_mm3": 241280.93951159058
+            "volume_mm3": 241280.93951159055
           }
         },
         {
@@ -236,11 +197,11 @@
           "metrics": {
             "bounding_box": {
               "x_max": -176.8208090026009,
-              "x_min": -237.7625127899625,
-              "y_max": 34.05539061667654,
-              "y_min": -169.6216284877981,
-              "z_max": 801.0875515573641,
-              "z_min": 364.7680053710937
+              "x_min": -237.76251278996315,
+              "y_max": 34.05539061667647,
+              "y_min": -169.62162848779843,
+              "z_max": 801.0875515573643,
+              "z_min": 364.7680053710938
             },
             "is_valid": true,
             "volume_mm3": 1204575.2487515295
@@ -250,11 +211,11 @@
           "index": 4,
           "metrics": {
             "bounding_box": {
-              "x_max": -192.36243981434504,
-              "x_min": -224.12108433145588,
-              "y_max": -82.95600302124106,
-              "y_min": -462.75537684572754,
-              "z_max": 879.0252032156473,
+              "x_max": -192.3624398143456,
+              "x_min": -224.1210843314565,
+              "y_max": -82.95600302124129,
+              "y_min": -462.75537684572765,
+              "z_max": 879.0252032156478,
               "z_min": 757.8355386218964
             },
             "is_valid": true,
@@ -265,42 +226,42 @@
           "index": 5,
           "metrics": {
             "bounding_box": {
-              "x_max": -157.59136825809617,
-              "x_min": -261.0083458153418,
-              "y_max": -433.9625021260342,
-              "y_min": -551.5392465000085,
-              "z_max": 932.2694669631423,
-              "z_min": 830.7783730617851
+              "x_max": -157.5913682580969,
+              "x_min": -261.0083458153424,
+              "y_max": -433.9625021260341,
+              "y_min": -551.5392465000087,
+              "z_max": 932.2694669631433,
+              "z_min": 830.7783730617862
             },
             "is_valid": true,
-            "volume_mm3": 58312.05357449842
+            "volume_mm3": 58312.05357449834
           }
         },
         {
           "index": 6,
           "metrics": {
             "bounding_box": {
-              "x_max": -184.7698165320592,
-              "x_min": -232.98138105572068,
-              "y_max": -385.5056852928288,
-              "y_min": -432.6639970999415,
-              "z_max": 924.7296101778696,
-              "z_min": 851.752712245991
+              "x_max": -184.7698165320599,
+              "x_min": -232.9813810557213,
+              "y_max": -385.5056852928306,
+              "y_min": -432.66399709994164,
+              "z_max": 924.7296101778703,
+              "z_min": 851.7527122459916
             },
             "is_valid": true,
-            "volume_mm3": 17079.259884200445
+            "volume_mm3": 17079.25988420045
           }
         },
         {
           "index": 7,
           "metrics": {
             "bounding_box": {
-              "x_max": -193.76971990490262,
-              "x_min": -224.0602274666162,
-              "y_max": -386.7073859127893,
-              "y_min": -449.61985607940545,
-              "z_max": 924.7296101778699,
-              "z_min": 897.9510022144082
+              "x_max": -193.76971990490333,
+              "x_min": -224.06022746661688,
+              "y_max": -386.70738591278945,
+              "y_min": -449.6198560794054,
+              "z_max": 924.7296101778703,
+              "z_min": 897.951002214408
             },
             "is_valid": true,
             "volume_mm3": 12304.424386084174
@@ -310,90 +271,90 @@
           "index": 8,
           "metrics": {
             "bounding_box": {
-              "x_max": -191.62395354039708,
-              "x_min": -221.7626200770553,
+              "x_max": -191.62395354039703,
+              "x_min": -221.76262007705523,
               "y_max": 76.44099865825345,
-              "y_min": -10.688970107269842,
-              "z_max": 621.464327796174,
+              "y_min": -10.688970107270071,
+              "z_max": 621.4643277961738,
               "z_min": 443.7272637143071
             },
             "is_valid": true,
-            "volume_mm3": 48197.41144068811
+            "volume_mm3": 48197.41144068806
           }
         },
         {
           "index": 9,
           "metrics": {
             "bounding_box": {
-              "x_max": -199.49419187958452,
-              "x_min": -214.6052216984475,
-              "y_max": 54.35885348623217,
-              "y_min": -27.59366676383086,
-              "z_max": 665.7150507485798,
-              "z_min": 488.4461076848918
+              "x_max": -199.49419187958475,
+              "x_min": -214.60522169844774,
+              "y_max": 54.35885348623219,
+              "y_min": -27.59366676383107,
+              "z_max": 665.71505074858,
+              "z_min": 488.4461076848921
             },
             "is_valid": true,
-            "volume_mm3": 22989.41692396437
+            "volume_mm3": 22989.416923964374
           }
         },
         {
           "index": 10,
           "metrics": {
             "bounding_box": {
-              "x_max": -199.8669922731237,
-              "x_min": -214.9780220919867,
-              "y_max": -51.69084585548055,
-              "y_min": -108.05997609330764,
-              "z_max": 782.8355386218965,
-              "z_min": 598.4942242756124
+              "x_max": -199.86699227312434,
+              "x_min": -214.97802209198733,
+              "y_max": -51.690845855480745,
+              "y_min": -108.05997609330807,
+              "z_max": 782.8355386218961,
+              "z_min": 598.4942242756122
             },
             "is_valid": true,
-            "volume_mm3": 22989.416923964363
+            "volume_mm3": 22989.41692396436
           }
         },
         {
           "index": 11,
           "metrics": {
             "bounding_box": {
-              "x_max": -192.11675741236238,
-              "x_min": -222.25542394902058,
-              "y_max": -29.92720665367971,
-              "y_min": -92.28957747796447,
-              "z_max": 713.0674603673425,
-              "z_min": 529.043197049628
+              "x_max": -192.1167574123626,
+              "x_min": -222.2554239490208,
+              "y_max": -29.927206653679804,
+              "y_min": -92.28957747796476,
+              "z_max": 713.0674603673426,
+              "z_min": 529.0431970496282
             },
             "is_valid": true,
-            "volume_mm3": 48197.411440688105
+            "volume_mm3": 48197.4114406881
           }
         },
         {
           "index": 12,
           "metrics": {
             "bounding_box": {
-              "x_max": -201.26500646356257,
-              "x_min": -216.34823858206965,
-              "y_max": -230.61722623752877,
-              "y_min": -403.8114448422214,
-              "z_max": 925.7296101778699,
+              "x_max": -201.26500646356348,
+              "x_min": -216.34823858207056,
+              "y_max": -230.61722623752925,
+              "y_min": -403.8114448422217,
+              "z_max": 925.7296101778707,
               "z_min": 848.6352589494682
             },
             "is_valid": true,
-            "volume_mm3": 9045.578366152833
+            "volume_mm3": 9045.578366152831
           }
         },
         {
           "index": 13,
           "metrics": {
             "bounding_box": {
-              "x_max": -200.110171439426,
-              "x_min": -215.20266945805173,
-              "y_max": -136.4792301920657,
-              "y_min": -307.6032647252046,
-              "z_max": 886.7133314661119,
+              "x_max": -200.11017143942672,
+              "x_min": -215.20266945805244,
+              "y_max": -136.4792301920662,
+              "y_min": -307.60326472520495,
+              "z_max": 886.7133314661124,
               "z_min": 807.88684483314
             },
             "is_valid": true,
-            "volume_mm3": 16011.734991211944
+            "volume_mm3": 16011.734991211935
           }
         }
       ],
@@ -408,14 +369,14 @@
           "metrics": {
             "bounding_box": {
               "x_max": -162.67725384884972,
-              "x_min": -250.95428642138612,
+              "x_min": -250.95428642138614,
               "y_max": 124.41569915771487,
-              "y_min": 4.7309840516295045,
+              "y_min": 4.730984051629491,
               "z_max": 470.2680053710938,
               "z_min": 364.2680053710937
             },
             "is_valid": true,
-            "volume_mm3": 241280.93951159058
+            "volume_mm3": 241280.93951159055
           }
         }
       ],
@@ -452,11 +413,11 @@
           "metrics": {
             "bounding_box": {
               "x_max": -176.8208090026009,
-              "x_min": -237.7625127899625,
-              "y_max": 34.05539061667654,
-              "y_min": -169.6216284877981,
-              "z_max": 801.0875515573641,
-              "z_min": 364.7680053710937
+              "x_min": -237.76251278996315,
+              "y_max": 34.05539061667647,
+              "y_min": -169.62162848779843,
+              "z_max": 801.0875515573643,
+              "z_min": 364.7680053710938
             },
             "is_valid": true,
             "volume_mm3": 1204575.2487515295
@@ -473,15 +434,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": -199.49419187958452,
-              "x_min": -214.6052216984475,
-              "y_max": 54.35885348623217,
-              "y_min": -27.59366676383086,
-              "z_max": 665.7150507485798,
-              "z_min": 488.4461076848918
+              "x_max": -199.49419187958475,
+              "x_min": -214.60522169844774,
+              "y_max": 54.35885348623219,
+              "y_min": -27.59366676383107,
+              "z_max": 665.71505074858,
+              "z_min": 488.4461076848921
             },
             "is_valid": true,
-            "volume_mm3": 22989.41692396437
+            "volume_mm3": 22989.416923964374
           }
         }
       ],
@@ -495,15 +456,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": -191.62395354039708,
-              "x_min": -221.7626200770553,
+              "x_max": -191.62395354039703,
+              "x_min": -221.76262007705523,
               "y_max": 76.44099865825345,
-              "y_min": -10.688970107269842,
-              "z_max": 621.464327796174,
+              "y_min": -10.688970107270071,
+              "z_max": 621.4643277961738,
               "z_min": 443.7272637143071
             },
             "is_valid": true,
-            "volume_mm3": 48197.41144068811
+            "volume_mm3": 48197.41144068806
           }
         }
       ],
@@ -517,15 +478,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": -157.59136825809617,
-              "x_min": -261.0083458153418,
-              "y_max": -433.9625021260342,
-              "y_min": -551.5392465000085,
-              "z_max": 932.2694669631423,
-              "z_min": 830.7783730617851
+              "x_max": -157.5913682580969,
+              "x_min": -261.0083458153424,
+              "y_max": -433.9625021260341,
+              "y_min": -551.5392465000087,
+              "z_max": 932.2694669631433,
+              "z_min": 830.7783730617862
             },
             "is_valid": true,
-            "volume_mm3": 58312.05357449842
+            "volume_mm3": 58312.05357449834
           }
         }
       ],
@@ -539,15 +500,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": -201.26500646356257,
-              "x_min": -216.34823858206965,
-              "y_max": -230.61722623752877,
-              "y_min": -403.8114448422214,
-              "z_max": 925.7296101778699,
+              "x_max": -201.26500646356348,
+              "x_min": -216.34823858207056,
+              "y_max": -230.61722623752925,
+              "y_min": -403.8114448422217,
+              "z_max": 925.7296101778707,
               "z_min": 848.6352589494682
             },
             "is_valid": true,
-            "volume_mm3": 9045.578366152833
+            "volume_mm3": 9045.578366152831
           }
         }
       ],
@@ -561,15 +522,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": -200.110171439426,
-              "x_min": -215.20266945805173,
-              "y_max": -136.4792301920657,
-              "y_min": -307.6032647252046,
-              "z_max": 886.7133314661119,
+              "x_max": -200.11017143942672,
+              "x_min": -215.20266945805244,
+              "y_max": -136.4792301920662,
+              "y_min": -307.60326472520495,
+              "z_max": 886.7133314661124,
               "z_min": 807.88684483314
             },
             "is_valid": true,
-            "volume_mm3": 16011.734991211944
+            "volume_mm3": 16011.734991211935
           }
         }
       ],
@@ -583,12 +544,12 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": -193.76971990490262,
-              "x_min": -224.0602274666162,
-              "y_max": -386.7073859127893,
-              "y_min": -449.61985607940545,
-              "z_max": 924.7296101778699,
-              "z_min": 897.9510022144082
+              "x_max": -193.76971990490333,
+              "x_min": -224.06022746661688,
+              "y_max": -386.70738591278945,
+              "y_min": -449.6198560794054,
+              "z_max": 924.7296101778703,
+              "z_min": 897.951002214408
             },
             "is_valid": true,
             "volume_mm3": 12304.424386084174
@@ -605,15 +566,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": -184.7698165320592,
-              "x_min": -232.98138105572068,
-              "y_max": -385.5056852928288,
-              "y_min": -432.6639970999415,
-              "z_max": 924.7296101778696,
-              "z_min": 851.752712245991
+              "x_max": -184.7698165320599,
+              "x_min": -232.9813810557213,
+              "y_max": -385.5056852928306,
+              "y_min": -432.66399709994164,
+              "z_max": 924.7296101778703,
+              "z_min": 851.7527122459916
             },
             "is_valid": true,
-            "volume_mm3": 17079.259884200445
+            "volume_mm3": 17079.25988420045
           }
         }
       ],
@@ -1115,11 +1076,11 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": -192.36243981434504,
-              "x_min": -224.12108433145588,
-              "y_max": -82.95600302124106,
-              "y_min": -462.75537684572754,
-              "z_max": 879.0252032156473,
+              "x_max": -192.3624398143456,
+              "x_min": -224.1210843314565,
+              "y_max": -82.95600302124129,
+              "y_min": -462.75537684572765,
+              "z_max": 879.0252032156478,
               "z_min": 757.8355386218964
             },
             "is_valid": true,
@@ -1137,15 +1098,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": -199.8669922731237,
-              "x_min": -214.9780220919867,
-              "y_max": -51.69084585548055,
-              "y_min": -108.05997609330764,
-              "z_max": 782.8355386218965,
-              "z_min": 598.4942242756124
+              "x_max": -199.86699227312434,
+              "x_min": -214.97802209198733,
+              "y_max": -51.690845855480745,
+              "y_min": -108.05997609330807,
+              "z_max": 782.8355386218961,
+              "z_min": 598.4942242756122
             },
             "is_valid": true,
-            "volume_mm3": 22989.416923964363
+            "volume_mm3": 22989.41692396436
           }
         }
       ],
@@ -1159,15 +1120,15 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": -192.11675741236238,
-              "x_min": -222.25542394902058,
-              "y_max": -29.92720665367971,
-              "y_min": -92.28957747796447,
-              "z_max": 713.0674603673425,
-              "z_min": 529.043197049628
+              "x_max": -192.1167574123626,
+              "x_min": -222.2554239490208,
+              "y_max": -29.927206653679804,
+              "y_min": -92.28957747796476,
+              "z_max": 713.0674603673426,
+              "z_min": 529.0431970496282
             },
             "is_valid": true,
-            "volume_mm3": 48197.411440688105
+            "volume_mm3": 48197.4114406881
           }
         }
       ],
@@ -1178,12 +1139,9 @@
     "Shape": {
       "label": "Boom",
       "metrics": {
-        "edge_count": 87,
-        "face_count": 31,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 58
+        "shell_is_closed": true
       },
       "name": "Shape",
       "type_id": "Part::Feature"
@@ -1191,12 +1149,9 @@
     "Shape001": {
       "label": "Base",
       "metrics": {
-        "edge_count": 122,
-        "face_count": 44,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 78
+        "shell_is_closed": true
       },
       "name": "Shape001",
       "type_id": "Part::Feature"
@@ -1204,12 +1159,9 @@
     "Shape012": {
       "label": "BasePin",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 2
+        "shell_is_closed": true
       },
       "name": "Shape012",
       "type_id": "Part::Feature"
@@ -1217,12 +1169,9 @@
     "Shape013": {
       "label": "Stick",
       "metrics": {
-        "edge_count": 66,
-        "face_count": 24,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 44
+        "shell_is_closed": true
       },
       "name": "Shape013",
       "type_id": "Part::Feature"
@@ -1230,12 +1179,9 @@
     "Shape014": {
       "label": "BucketLink1",
       "metrics": {
-        "edge_count": 54,
-        "face_count": 22,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 34
+        "shell_is_closed": true
       },
       "name": "Shape014",
       "type_id": "Part::Feature"
@@ -1243,12 +1189,9 @@
     "Shape015": {
       "label": "Bucket",
       "metrics": {
-        "edge_count": 247,
-        "face_count": 97,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 152
+        "shell_is_closed": true
       },
       "name": "Shape015",
       "type_id": "Part::Feature"
@@ -1256,12 +1199,9 @@
     "Shape016": {
       "label": "BoomCylinderInner",
       "metrics": {
-        "edge_count": 9,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 6
+        "shell_is_closed": true
       },
       "name": "Shape016",
       "type_id": "Part::Feature"
@@ -1269,12 +1209,9 @@
     "Shape017": {
       "label": "StickCylinderInner",
       "metrics": {
-        "edge_count": 9,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 6
+        "shell_is_closed": true
       },
       "name": "Shape017",
       "type_id": "Part::Feature"
@@ -1282,12 +1219,9 @@
     "Shape018": {
       "label": "BucketCylinderInner",
       "metrics": {
-        "edge_count": 9,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 6
+        "shell_is_closed": true
       },
       "name": "Shape018",
       "type_id": "Part::Feature"
@@ -1295,12 +1229,9 @@
     "Shape019": {
       "label": "BucketLink2",
       "metrics": {
-        "edge_count": 57,
-        "face_count": 23,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 38
+        "shell_is_closed": true
       },
       "name": "Shape019",
       "type_id": "Part::Feature"
@@ -1308,12 +1239,9 @@
     "Shape020": {
       "label": "BoomCylinderOuter",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 8,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Shape020",
       "type_id": "Part::Feature"
@@ -1321,12 +1249,9 @@
     "Shape021": {
       "label": "StickCylinderOuter",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 8,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Shape021",
       "type_id": "Part::Feature"
@@ -1334,23 +1259,22 @@
     "Shape022": {
       "label": "BucketCylinderOuter",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 10,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 12
+        "shell_is_closed": true
       },
       "name": "Shape022",
       "type_id": "Part::Feature"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "source": {
-    "data_creation_date": "2026-03-13T14:52:39.298114+00:00",
+    "data_creation_date": "2026-03-27T21:05:55.764515+00:00",
     "document_label": "AssemblyExample",
     "document_name": "AssemblyExample",
-    "freecad_version": "1.2.0 45706 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\AssemblyExample.FCStd"
+    "freecad_version": "1.2.0 45400 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\AssemblyExample.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.2"
   }
 }

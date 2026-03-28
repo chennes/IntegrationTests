@@ -115,13 +115,10 @@
     "Body": {
       "label": "Body",
       "metrics": {
-        "edge_count": 99,
-        "face_count": 38,
         "feature_count": 8,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pocket002",
-        "vertex_count": 66
+        "tip_name": "Pocket002"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -131,11 +128,8 @@
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -143,11 +137,8 @@
     "Pocket": {
       "label": "Pocket-X",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 19,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 32
+        "shape_type": "Solid"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -155,11 +146,8 @@
     "Pocket001": {
       "label": "Pocket-Y",
       "metrics": {
-        "edge_count": 75,
-        "face_count": 29,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 50
+        "shape_type": "Solid"
       },
       "name": "Pocket001",
       "type_id": "PartDesign::Pocket"
@@ -167,23 +155,20 @@
     "Pocket002": {
       "label": "Pocket-Z",
       "metrics": {
-        "edge_count": 99,
-        "face_count": 38,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 66
+        "shape_type": "Solid"
       },
       "name": "Pocket002",
       "type_id": "PartDesign::Pocket"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
       "metrics": {
         "constraint_count": 11,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 4,
@@ -197,7 +182,7 @@
       "label": "Sketch-X",
       "metrics": {
         "constraint_count": 40,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 16,
@@ -211,7 +196,7 @@
       "label": "Sketch-Y",
       "metrics": {
         "constraint_count": 41,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 15,
@@ -225,7 +210,7 @@
       "label": "Sketch-Z",
       "metrics": {
         "constraint_count": 38,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 14,
@@ -237,10 +222,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:37:24.060198+00:00",
+    "data_creation_date": "2026-03-27T21:08:09.187241+00:00",
     "document_label": "MG_XYZCube",
     "document_name": "MG_XYZCube",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_XYZCube.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_XYZCube.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   }
 }

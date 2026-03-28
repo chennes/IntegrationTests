@@ -35,7 +35,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.3116108441584
+            "volume_mm3": 136.31161084415868
           }
         }
       ],
@@ -57,7 +57,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415868
+            "volume_mm3": 136.3116108441584
           }
         }
       ],
@@ -79,7 +79,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.3116108441584
+            "volume_mm3": 136.31161084415868
           }
         }
       ],
@@ -167,7 +167,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.3116108441584
+            "volume_mm3": 136.31161084415865
           }
         }
       ],
@@ -211,7 +211,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415865
+            "volume_mm3": 136.3116108441584
           }
         }
       ],
@@ -233,7 +233,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.3116108441584
+            "volume_mm3": 136.31161084415865
           }
         }
       ],
@@ -519,7 +519,7 @@
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 89.89981537512521
+            "volume_mm3": 89.89981537512546
           }
         }
       ],
@@ -563,7 +563,7 @@
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 89.89981537512546
+            "volume_mm3": 89.89981537512521
           }
         }
       ],
@@ -585,7 +585,7 @@
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 89.89981537512521
+            "volume_mm3": 89.89981537512546
           }
         }
       ],
@@ -710,7 +710,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.31161084415865
+            "volume_mm3": 136.3116108441584
           }
         },
         {
@@ -725,7 +725,7 @@
               "z_min": -4.440892098500626e-16
             },
             "is_valid": true,
-            "volume_mm3": 136.3116108441584
+            "volume_mm3": 136.31161084415865
           }
         },
         {
@@ -876,13 +876,10 @@
     "Body": {
       "label": "Kleberblocker",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 8,
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Fillet",
-        "vertex_count": 12
+        "tip_name": "Fillet"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -890,13 +887,10 @@
     "Body001": {
       "label": "Schraubenhalter V001",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "AdditiveLoft",
-        "vertex_count": 6
+        "tip_name": "AdditiveLoft"
       },
       "name": "Body001",
       "type_id": "PartDesign::Body"
@@ -904,13 +898,10 @@
     "Body002": {
       "label": "Schraubenhalter V002",
       "metrics": {
-        "edge_count": 58,
-        "face_count": 21,
         "feature_count": 9,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "PolarPattern",
-        "vertex_count": 38
+        "tip_name": "PolarPattern"
       },
       "name": "Body002",
       "type_id": "PartDesign::Body"
@@ -918,13 +909,10 @@
     "Body003": {
       "label": "Schraubenhalter V003",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "AdditiveLoft002",
-        "vertex_count": 6
+        "tip_name": "AdditiveLoft002"
       },
       "name": "Body003",
       "type_id": "PartDesign::Body"
@@ -932,13 +920,10 @@
     "Body004": {
       "label": "Schraubenhalter V004",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "AdditiveLoft003",
-        "vertex_count": 6
+        "tip_name": "AdditiveLoft003"
       },
       "name": "Body004",
       "type_id": "PartDesign::Body"
@@ -946,13 +931,10 @@
     "Body005": {
       "label": "Schraubenhalter V005",
       "metrics": {
-        "edge_count": 138,
-        "face_count": 47,
         "feature_count": 12,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Groove",
-        "vertex_count": 92
+        "tip_name": "Groove"
       },
       "name": "Body005",
       "type_id": "PartDesign::Body"
@@ -960,13 +942,10 @@
     "Body006": {
       "label": "Pin V005",
       "metrics": {
-        "edge_count": 23,
-        "face_count": 11,
         "feature_count": 9,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad008",
-        "vertex_count": 14
+        "tip_name": "Pad008"
       },
       "name": "Body006",
       "type_id": "PartDesign::Body"
@@ -976,11 +955,8 @@
     "AdditiveLoft": {
       "label": "AdditiveLoft",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
+        "shape_type": "Compound"
       },
       "name": "AdditiveLoft",
       "type_id": "PartDesign::AdditiveLoft"
@@ -988,11 +964,8 @@
     "AdditiveLoft002": {
       "label": "AdditiveLoft002",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
+        "shape_type": "Compound"
       },
       "name": "AdditiveLoft002",
       "type_id": "PartDesign::AdditiveLoft"
@@ -1000,11 +973,8 @@
     "AdditiveLoft003": {
       "label": "AdditiveLoft003",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
+        "shape_type": "Compound"
       },
       "name": "AdditiveLoft003",
       "type_id": "PartDesign::AdditiveLoft"
@@ -1012,11 +982,8 @@
     "AdditiveLoft004": {
       "label": "AdditiveLoft004",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
+        "shape_type": "Compound"
       },
       "name": "AdditiveLoft004",
       "type_id": "PartDesign::AdditiveLoft"
@@ -1024,11 +991,8 @@
     "AdditiveLoft005": {
       "label": "AdditiveLoft005",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
+        "shape_type": "Compound"
       },
       "name": "AdditiveLoft005",
       "type_id": "PartDesign::AdditiveLoft"
@@ -1036,11 +1000,8 @@
     "Draft": {
       "label": "Draft",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Draft",
       "type_id": "PartDesign::Draft"
@@ -1048,11 +1009,8 @@
     "Draft003": {
       "label": "Draft003",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Draft003",
       "type_id": "PartDesign::Draft"
@@ -1060,11 +1018,8 @@
     "Draft004": {
       "label": "Draft004",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Draft004",
       "type_id": "PartDesign::Draft"
@@ -1072,11 +1027,8 @@
     "Draft005": {
       "label": "Draft005",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Draft005",
       "type_id": "PartDesign::Draft"
@@ -1084,11 +1036,8 @@
     "Draft006": {
       "label": "Draft006",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Draft006",
       "type_id": "PartDesign::Draft"
@@ -1096,11 +1045,8 @@
     "Fillet": {
       "label": "Fillet",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 8,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 12
+        "shape_type": "Compound"
       },
       "name": "Fillet",
       "type_id": "PartDesign::Fillet"
@@ -1108,11 +1054,8 @@
     "Fillet002": {
       "label": "Fillet002",
       "metrics": {
-        "edge_count": 114,
-        "face_count": 39,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 76
+        "shape_type": "Compound"
       },
       "name": "Fillet002",
       "type_id": "PartDesign::Fillet"
@@ -1120,11 +1063,8 @@
     "Groove": {
       "label": "Groove",
       "metrics": {
-        "edge_count": 138,
-        "face_count": 47,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 92
+        "shape_type": "Compound"
       },
       "name": "Groove",
       "type_id": "PartDesign::Groove"
@@ -1132,11 +1072,8 @@
     "Groove001": {
       "label": "Groove001",
       "metrics": {
-        "edge_count": 15,
-        "face_count": 7,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 10
+        "shape_type": "Compound"
       },
       "name": "Groove001",
       "type_id": "PartDesign::Groove"
@@ -1144,11 +1081,8 @@
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -1156,11 +1090,8 @@
     "Pad001": {
       "label": "Pad001",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -1168,11 +1099,8 @@
     "Pad002": {
       "label": "Pad002",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Pad002",
       "type_id": "PartDesign::Pad"
@@ -1180,11 +1108,8 @@
     "Pad003": {
       "label": "Pad003",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Pad003",
       "type_id": "PartDesign::Pad"
@@ -1192,11 +1117,8 @@
     "Pad004": {
       "label": "Pad004",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Pad004",
       "type_id": "PartDesign::Pad"
@@ -1204,11 +1126,8 @@
     "Pad005": {
       "label": "Pad005",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Pad005",
       "type_id": "PartDesign::Pad"
@@ -1216,11 +1135,8 @@
     "Pad006": {
       "label": "Pad006",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Pad006",
       "type_id": "PartDesign::Pad"
@@ -1228,11 +1144,8 @@
     "Pad007": {
       "label": "Pad007",
       "metrics": {
-        "edge_count": 19,
-        "face_count": 9,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 12
+        "shape_type": "Compound"
       },
       "name": "Pad007",
       "type_id": "PartDesign::Pad"
@@ -1240,11 +1153,8 @@
     "Pad008": {
       "label": "Pad008",
       "metrics": {
-        "edge_count": 23,
-        "face_count": 11,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 14
+        "shape_type": "Compound"
       },
       "name": "Pad008",
       "type_id": "PartDesign::Pad"
@@ -1252,11 +1162,8 @@
     "Pocket": {
       "label": "Pocket",
       "metrics": {
-        "edge_count": 22,
-        "face_count": 9,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 14
+        "shape_type": "Compound"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -1264,11 +1171,8 @@
     "Pocket001": {
       "label": "Pocket001",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 11,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 14
+        "shape_type": "Compound"
       },
       "name": "Pocket001",
       "type_id": "PartDesign::Pocket"
@@ -1276,11 +1180,8 @@
     "PolarPattern": {
       "label": "PolarPattern",
       "metrics": {
-        "edge_count": 58,
-        "face_count": 21,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 38
+        "shape_type": "Compound"
       },
       "name": "PolarPattern",
       "type_id": "PartDesign::PolarPattern"
@@ -1288,11 +1189,8 @@
     "PolarPattern001": {
       "label": "PolarPattern001",
       "metrics": {
-        "edge_count": 62,
-        "face_count": 27,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 36
+        "shape_type": "Compound"
       },
       "name": "PolarPattern001",
       "type_id": "PartDesign::PolarPattern"
@@ -1300,29 +1198,14 @@
     "Revolution": {
       "label": "Revolution",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 8
+        "shape_type": "Compound"
       },
       "name": "Revolution",
       "type_id": "PartDesign::Revolution"
-    },
-    "ShapeBinder": {
-      "label": "ShapeBinder",
-      "metrics": {
-        "edge_count": 138,
-        "face_count": 47,
-        "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 92
-      },
-      "name": "ShapeBinder",
-      "type_id": "PartDesign::ShapeBinder"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -1564,10 +1447,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T14:36:48.979729+00:00",
+    "data_creation_date": "2026-03-27T21:08:19.647435+00:00",
     "document_label": "PD_Pins",
     "document_name": "PD_Pins",
     "freecad_version": "1.2.0 45400 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Pins.FCStd"
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Pins.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.2"
   }
 }

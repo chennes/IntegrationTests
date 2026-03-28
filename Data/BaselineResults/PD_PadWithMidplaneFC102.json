@@ -49,13 +49,10 @@
     "Body": {
       "label": "Body",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad",
-        "vertex_count": 8
+        "tip_name": "Pad"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -65,17 +62,14 @@
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -93,10 +87,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-13T14:52:11.379333+00:00",
+    "data_creation_date": "2026-03-27T21:08:17.361809+00:00",
     "document_label": "PD_PadWithMidplaneFC102",
     "document_name": "PD_PadWithMidplaneFC102",
     "freecad_version": "1.0.2 39320 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_PadWithMidplaneFC102.FCStd"
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_PadWithMidplaneFC102.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.3"
   }
 }

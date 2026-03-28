@@ -108,6 +108,11 @@ def extract_metadata(path: Path) -> Dict[str, str]:
             with z.open("Document.xml") as dx:
                 root = parse_xml(dx.read())
 
+        # ProgramVersion is an attribute on the root Document element
+        pv = root.get("ProgramVersion", "")
+        if pv:
+            metadata["ProgramVersion"] = pv
+
         for prop_el in root.iter("Property"):
             pname = prop_el.get("name", "")
             if pname in ("CreatedBy", "License", "LicenseURL", "Comment", "Company"):
@@ -166,6 +171,10 @@ def step_inspect_metadata(source_path: Path) -> Dict[str, str]:
     """
     print("\n--- Step 1: Inspect file metadata ---\n")
     metadata = extract_metadata(source_path)
+
+    pv = metadata.get("ProgramVersion", "unknown")
+    print(f"  Created with FreeCAD: {pv}")
+    print()
 
     fields = ["CreatedBy", "License", "LicenseURL", "Comment", "Company"]
     for field in fields:
@@ -388,29 +397,70 @@ def step_check_license_file(metadata: Dict[str, str]) -> None:
             )
 
 
-def step_generate_baseline(dest_path: Path, freecad_exe: Optional[str]) -> bool:
+def step_generate_baseline(
+    dest_path: Path, freecad_exe: Optional[str], metadata: Dict[str, str]
+) -> bool:
     """Generate a baseline JSON file using FreeCAD.
+
+    The baseline must be generated with the same FreeCAD version that created
+    the file (or the closest available version). This function checks that the
+    provided FreeCADCmd matches the file's ProgramVersion.
 
     Args:
         dest_path: Path to the FCStd file in Data/CADFiles/.
-        freecad_exe: Path to FreeCADCmd, or None to skip.
+        freecad_exe: Resolved path to FreeCADCmd, or None to skip.
+        metadata: File metadata dict (must include ProgramVersion).
 
     Returns:
         True if the baseline was generated successfully.
     """
     print("\n--- Step 6: Generate baseline ---\n")
 
+    file_version = metadata.get("ProgramVersion", "unknown")
+    print(f"  This file was created with FreeCAD {file_version}")
+    print(f"  The baseline MUST be generated with the same (or closest) version.")
+    print()
+
     if not freecad_exe:
         stem = dest_path.stem
-        print(f"  Skipped (no FreeCADCmd path). Generate the baseline manually before committing:")
+        print(f"  Skipped (no FreeCADCmd path). Generate the baseline manually")
+        print(f"  using FreeCAD {file_version} before committing:")
         print(f"    FreeCADCmd {MACRO_PATH} {dest_path} --out {BASELINE_DIR / (stem + '.json')}")
         return False
+
+    # Verify the FreeCAD version matches
+    try:
+        ver_proc = subprocess.run(
+            [freecad_exe, "--version"], capture_output=True, text=True, timeout=30
+        )
+        exe_version = ver_proc.stdout.strip().split("\n")[0] if ver_proc.stdout else "unknown"
+    except Exception:
+        exe_version = "unknown"
+
+    print(f"  FreeCADCmd reports: {exe_version}")
+
+    # Extract major.minor from both
+    import re
+
+    file_m = re.match(r"(\d+\.\d+)", file_version)
+    exe_m = re.search(r"(\d+\.\d+)", exe_version)
+    file_short = file_m.group(1) if file_m else file_version
+    exe_short = exe_m.group(1) if exe_m else exe_version
+
+    if file_short != exe_short:
+        print(f"\n  WARNING: Version mismatch!")
+        print(f"    File was created with: {file_version} (v{file_short})")
+        print(f"    FreeCADCmd is:         {exe_version} (v{exe_short})")
+        if not prompt_yes_no("  Continue anyway?", default=False):
+            print(f"  Provide FreeCAD v{file_short} and try again.")
+            return False
+    else:
+        print(f"  Version match: v{file_short}")
 
     stem = dest_path.stem
     baseline_path = BASELINE_DIR / f"{stem}.json"
 
-    print(f"  Using: {freecad_exe}")
-    print(f"  Running FreeCAD to generate {baseline_path.name}...")
+    print(f"\n  Running FreeCAD to generate {baseline_path.name}...")
 
     with tempfile.TemporaryDirectory() as td:
         cfg = os.path.join(td, "config")
@@ -649,7 +699,7 @@ def main(argv: List[str]) -> int:
         freecad_path = resolve_freecad_exe(args.freecad)
 
         # Step 6: Generate baseline
-        baseline_ok = step_generate_baseline(dest_path, freecad_path)
+        baseline_ok = step_generate_baseline(dest_path, freecad_path, metadata)
 
         # Step 7: Run test
         test_ok = False

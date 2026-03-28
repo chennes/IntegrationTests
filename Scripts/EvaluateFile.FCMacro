@@ -9,6 +9,7 @@
 # and multiple analyzers can contribute metrics for the same object.
 
 import datetime
+import platform
 import sys
 import os
 import json
@@ -232,8 +233,7 @@ class SketchAnalyzer(Analyzer):
 class PartDesignBodyAnalyzer(Analyzer):
     """Analyzer for PartDesign::Body objects.
 
-    Extracts feature count, tip feature info, and topology fingerprint
-    (face/edge/vertex counts) from the body's overall shape.
+    Extracts feature count and tip feature info from the body.
     """
 
     section = "partdesign_bodies"
@@ -255,12 +255,6 @@ class PartDesignBodyAnalyzer(Analyzer):
             else:
                 metrics["tip_name"] = None
                 metrics["tip_is_valid"] = False
-
-            shape = getattr(obj, "Shape", None)
-            if shape is not None and is_shape_valid(shape):
-                metrics["face_count"] = len(shape.Faces)
-                metrics["edge_count"] = len(shape.Edges)
-                metrics["vertex_count"] = len(shape.Vertexes)
         except Exception:
             metrics = {"is_valid": False}
 
@@ -275,16 +269,26 @@ class PartDesignBodyAnalyzer(Analyzer):
 class PartDesignFeatureAnalyzer(Analyzer):
     """Analyzer for individual PartDesign features (Pad, Pocket, Fillet, etc.).
 
-    Extracts shape type and topology fingerprint (face/edge/vertex counts) for
-    PartDesign features that are not the Body container itself.
+    Extracts shape type for PartDesign features that are not the Body container itself.
     """
 
     section = "partdesign_features"
+
+    # Construction geometry types that should not be analyzed as features.
+    _SKIP_TYPES = {
+        "PartDesign::Line",
+        "PartDesign::Plane",
+        "PartDesign::Point",
+        "PartDesign::CoordinateSystem",
+        "PartDesign::ShapeBinder",
+        "PartDesign::SubShapeBinder",
+    }
 
     def can_handle(self, obj) -> bool:
         return (
             obj.TypeId.startswith("PartDesign::")
             and obj.TypeId != "PartDesign::Body"
+            and obj.TypeId not in self._SKIP_TYPES
             and hasattr(obj, "Shape")
         )
 
@@ -294,9 +298,6 @@ class PartDesignFeatureAnalyzer(Analyzer):
             shape = getattr(obj, "Shape", None)
             if shape is not None and is_shape_valid(shape):
                 metrics["shape_type"] = shape.ShapeType
-                metrics["face_count"] = len(shape.Faces)
-                metrics["edge_count"] = len(shape.Edges)
-                metrics["vertex_count"] = len(shape.Vertexes)
         except Exception:
             metrics = {"is_valid": False}
 
@@ -311,8 +312,8 @@ class PartDesignFeatureAnalyzer(Analyzer):
 class PartFeatureAnalyzer(Analyzer):
     """Analyzer for Part workbench features (Cut, Fuse, Extrusion, primitives, etc.).
 
-    Extracts shape type, topology fingerprint, and shell closure status for
-    objects whose TypeId starts with "Part::".
+    Extracts shape type and shell closure status for objects whose TypeId
+    starts with "Part::".
     """
 
     section = "part_features"
@@ -326,9 +327,6 @@ class PartFeatureAnalyzer(Analyzer):
             shape = getattr(obj, "Shape", None)
             if shape is not None and is_shape_valid(shape):
                 metrics["shape_type"] = shape.ShapeType
-                metrics["face_count"] = len(shape.Faces)
-                metrics["edge_count"] = len(shape.Edges)
-                metrics["vertex_count"] = len(shape.Vertexes)
                 try:
                     shells = shape.Shells
                     if shells:
@@ -540,9 +538,6 @@ class LinkAnalyzer(Analyzer):
             shape = getattr(obj, "Shape", None)
             if shape is not None and is_shape_valid(shape):
                 metrics["shape_type"] = shape.ShapeType
-                metrics["face_count"] = len(shape.Faces)
-                metrics["edge_count"] = len(shape.Edges)
-                metrics["vertex_count"] = len(shape.Vertexes)
         except Exception:
             metrics = {"is_valid": False}
 
@@ -699,13 +694,15 @@ def build_report_dict(doc, source_path: str) -> dict:
         section (e.g. "objects", "sketches") mapping object names to their metric entries.
     """
     report = {
-        "schema_version": 2,
+        "schema_version": 3,
         "source": {
             "path": source_path,
             "document_name": doc.Name,
             "document_label": getattr(doc, "Label", doc.Name),
             "freecad_version": get_freecad_version_string(),
             "data_creation_date": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "platform": platform.platform(),
+            "python_version": platform.python_version(),
         },
     }
 

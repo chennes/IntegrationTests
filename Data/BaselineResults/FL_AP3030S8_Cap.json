@@ -18,6 +18,16 @@
       "type_id": "App::Part"
     }
   },
+  "materials": {
+    "Part": {
+      "label": "AP3030S8_Cap",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "Body": {
       "label": "Body",
@@ -53,8 +63,8 @@
               "x_min": -15.000000000000002,
               "y_max": 3.9968028886505635e-15,
               "y_min": -13.500000000000004,
-              "z_max": 15.000000000000005,
-              "z_min": -15.000000000000004
+              "z_max": 15.000000000000002,
+              "z_min": -15.000000000000007
             },
             "is_valid": true,
             "volume_mm3": 12103.646003293854
@@ -95,13 +105,13 @@
             "bounding_box": {
               "x_max": 15.000000000000004,
               "x_min": -15.000000000000002,
-              "y_max": 0.0,
-              "y_min": -13.5,
-              "z_max": 15.000000000000002,
+              "y_max": 3.9968028886505635e-15,
+              "y_min": -13.500000000000004,
+              "z_max": 15.000000000000005,
               "z_min": -15.000000000000004
             },
             "is_valid": true,
-            "volume_mm3": 5560.2960032938545
+            "volume_mm3": 5560.296003293856
           }
         }
       ],
@@ -117,13 +127,13 @@
             "bounding_box": {
               "x_max": 15.000000000000004,
               "x_min": -15.000000000000002,
-              "y_max": 0.0,
-              "y_min": -13.5,
-              "z_max": 15.000000000000002,
+              "y_max": 3.9968028886505635e-15,
+              "y_min": -13.500000000000004,
+              "z_max": 15.000000000000005,
               "z_min": -15.000000000000004
             },
             "is_valid": true,
-            "volume_mm3": 5482.541585117505
+            "volume_mm3": 5482.541585117504
           }
         }
       ],
@@ -139,13 +149,13 @@
             "bounding_box": {
               "x_max": 15.000000000000004,
               "x_min": -15.000000000000002,
-              "y_max": 0.0,
-              "y_min": -13.5,
-              "z_max": 15.000000000000002,
+              "y_max": 3.552713678800501e-15,
+              "y_min": -13.500000000000002,
+              "z_max": 15.000000000000004,
               "z_min": -15.000000000000004
             },
             "is_valid": true,
-            "volume_mm3": 3282.28106428109
+            "volume_mm3": 3282.281064281089
           }
         }
       ],
@@ -161,9 +171,9 @@
             "bounding_box": {
               "x_max": 15.000000000000004,
               "x_min": -15.000000000000004,
-              "y_max": 0.0,
-              "y_min": -13.5,
-              "z_max": 15.000000000000002,
+              "y_max": 2.8865798640254074e-15,
+              "y_min": -13.500000000000002,
+              "z_max": 15.000000000000004,
               "z_min": -15.000000000000004
             },
             "is_valid": true,
@@ -183,13 +193,13 @@
             "bounding_box": {
               "x_max": 15.000000000000004,
               "x_min": -15.000000000000004,
-              "y_max": 0.0,
-              "y_min": -13.5,
-              "z_max": 15.000000000000002,
+              "y_max": 2.8865798640254074e-15,
+              "y_min": -13.500000000000002,
+              "z_max": 15.000000000000004,
               "z_min": -15.000000000000004
             },
             "is_valid": true,
-            "volume_mm3": 3184.629119844856
+            "volume_mm3": 3184.629119844857
           }
         }
       ],
@@ -205,13 +215,13 @@
             "bounding_box": {
               "x_max": 15.000000000000004,
               "x_min": -15.000000000000004,
-              "y_max": 0.0,
+              "y_max": 2.8865798640254074e-15,
               "y_min": -13.5,
-              "z_max": 15.000000000000002,
+              "z_max": 15.000000000000004,
               "z_min": -15.000000000000004
             },
             "is_valid": true,
-            "volume_mm3": 3066.4168640674834
+            "volume_mm3": 3066.416864067483
           }
         }
       ],
@@ -222,39 +232,21 @@
     "Body": {
       "label": "Body",
       "metrics": {
-        "edge_count": 155,
-        "face_count": 60,
         "feature_count": 15,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "SubtractivePipe001",
-        "vertex_count": 96
+        "tip_name": "SubtractivePipe001"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
     }
   },
   "partdesign_features": {
-    "AssyMount": {
-      "label": "AssyMount",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "AssyMount",
-      "type_id": "PartDesign::CoordinateSystem"
-    },
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 16
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -262,11 +254,8 @@
     "Pocket": {
       "label": "InnerPocket",
       "metrics": {
-        "edge_count": 108,
-        "face_count": 40,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 72
+        "shape_type": "Solid"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -274,11 +263,8 @@
     "Pocket001": {
       "label": "FittingInnerPocket",
       "metrics": {
-        "edge_count": 111,
-        "face_count": 42,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 74
+        "shape_type": "Solid"
       },
       "name": "Pocket001",
       "type_id": "PartDesign::Pocket"
@@ -286,11 +272,8 @@
     "Pocket002": {
       "label": "BorderPocket",
       "metrics": {
-        "edge_count": 121,
-        "face_count": 46,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 80
+        "shape_type": "Solid"
       },
       "name": "Pocket002",
       "type_id": "PartDesign::Pocket"
@@ -298,11 +281,8 @@
     "Pocket003": {
       "label": "CapGuideBevel",
       "metrics": {
-        "edge_count": 143,
-        "face_count": 56,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 88
+        "shape_type": "Solid"
       },
       "name": "Pocket003",
       "type_id": "PartDesign::Pocket"
@@ -310,11 +290,8 @@
     "SubtractivePipe": {
       "label": "Bevel",
       "metrics": {
-        "edge_count": 137,
-        "face_count": 54,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 84
+        "shape_type": "Solid"
       },
       "name": "SubtractivePipe",
       "type_id": "PartDesign::SubtractivePipe"
@@ -322,23 +299,20 @@
     "SubtractivePipe001": {
       "label": "FittingBevel",
       "metrics": {
-        "edge_count": 155,
-        "face_count": 60,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 96
+        "shape_type": "Solid"
       },
       "name": "SubtractivePipe001",
       "type_id": "PartDesign::SubtractivePipe"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "SketchOutline",
       "metrics": {
         "constraint_count": 19,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 8,
@@ -352,7 +326,7 @@
       "label": "SketchBevel",
       "metrics": {
         "constraint_count": 12,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 4,
@@ -366,9 +340,9 @@
       "label": "SketchInnerPocket",
       "metrics": {
         "constraint_count": 92,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
-        "fully_constrained": false,
+        "fully_constrained": true,
         "geometry_count": 33,
         "is_valid": false,
         "solver_status": -2
@@ -380,7 +354,7 @@
       "label": "SketchFittingInnerPocket",
       "metrics": {
         "constraint_count": 2,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 1,
@@ -394,7 +368,7 @@
       "label": "SketchBorderPocket",
       "metrics": {
         "constraint_count": 35,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 13,
@@ -408,7 +382,7 @@
       "label": "SketchCapGuideBevel",
       "metrics": {
         "constraint_count": 18,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 7,
@@ -422,7 +396,7 @@
       "label": "SketchFittingCrossBoundingBox",
       "metrics": {
         "constraint_count": 11,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 4,
@@ -436,7 +410,7 @@
       "label": "SketchFittingBevel",
       "metrics": {
         "constraint_count": 8,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 3,
@@ -448,11 +422,13 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:34:02.336208+00:00",
+    "data_creation_date": "2026-03-27T21:06:27.936552+00:00",
     "document_label": "FL_AP3030S8_Cap",
     "document_name": "FL_AP3030S8_Cap",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_Cap.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_Cap.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   },
   "techdraw_pages": {
     "Page": {
@@ -460,7 +436,7 @@
       "metrics": {
         "is_valid": true,
         "template_loaded": true,
-        "template_name": "",
+        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmp9bltciai/config/temp/FreeCAD_Doc_eda89fc4-9438-4d4c-bc47-c15db8b3f8c0_e09c90_69660/A4_Landscape.svg",
         "view_count": 15,
         "view_types": {
           "TechDraw::DrawViewClip": 2,

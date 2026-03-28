@@ -38,7 +38,7 @@
               "z_min": -2.4424906541753444e-15
             },
             "is_valid": true,
-            "volume_mm3": 10646.862653919125
+            "volume_mm3": 10646.862654109627
           }
         }
       ],
@@ -148,7 +148,7 @@
               "z_min": -2.4424906541753444e-15
             },
             "is_valid": true,
-            "volume_mm3": 10646.862653919132
+            "volume_mm3": 10646.862654109635
           }
         }
       ],
@@ -159,13 +159,10 @@
     "Body": {
       "label": "Trichter",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 7,
         "feature_count": 3,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Thickness",
-        "vertex_count": 7
+        "tip_name": "Thickness"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -173,13 +170,10 @@
     "Body001": {
       "label": "Trichter_Luftschlauch",
       "metrics": {
-        "edge_count": 26,
-        "face_count": 12,
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Thickness001",
-        "vertex_count": 16
+        "tip_name": "Thickness001"
       },
       "name": "Body001",
       "type_id": "PartDesign::Body"
@@ -189,11 +183,8 @@
     "Clone": {
       "label": "Clone",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 3
+        "shape_type": "Solid"
       },
       "name": "Clone",
       "type_id": "PartDesign::FeatureBase"
@@ -201,11 +192,8 @@
     "Revolution": {
       "label": "Revolution",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 3
+        "shape_type": "Solid"
       },
       "name": "Revolution",
       "type_id": "PartDesign::Revolution"
@@ -213,11 +201,8 @@
     "SubtractivePipe": {
       "label": "SubtractivePipe",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 6
+        "shape_type": "Solid"
       },
       "name": "SubtractivePipe",
       "type_id": "PartDesign::SubtractivePipe"
@@ -225,11 +210,8 @@
     "Thickness": {
       "label": "Thickness",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 7,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 7
+        "shape_type": "Solid"
       },
       "name": "Thickness",
       "type_id": "PartDesign::Thickness"
@@ -237,17 +219,14 @@
     "Thickness001": {
       "label": "Thickness001",
       "metrics": {
-        "edge_count": 26,
-        "face_count": 12,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 16
+        "shape_type": "Solid"
       },
       "name": "Thickness001",
       "type_id": "PartDesign::Thickness"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -279,10 +258,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-13T14:53:03.908396+00:00",
+    "data_creation_date": "2026-03-27T21:08:16.569974+00:00",
     "document_label": "PD_Funnels",
     "document_name": "PD_Funnels",
-    "freecad_version": "1.2.0 45706 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Funnels.FCStd"
+    "freecad_version": "1.2.0 45400 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Funnels.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.2"
   }
 }

@@ -1,0 +1,9 @@
+[project]
+name = "freecad-integration-tests"
+version = "0.1.0"
+description = "Automated integration test suite for FreeCAD"
+requires-python = ">=3.9"
+license = "LGPL-2.1-or-later"
+dependencies = [
+    "defusedxml",
+]

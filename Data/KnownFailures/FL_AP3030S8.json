@@ -1,0 +1,11 @@
+{
+  "rules": [
+    {
+      "section": "partdesign_features",
+      "object_pattern": "Assy*",
+      "metric_pattern": "*missing_in_new*",
+      "description": "Assembly coordinate system features report differently between FreeCAD 0.19 and 1.2dev",
+      "added": "2026-03-27"
+    }
+  ]
+}

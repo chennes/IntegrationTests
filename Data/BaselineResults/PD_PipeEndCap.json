@@ -178,13 +178,10 @@
     "Body": {
       "label": "Body",
       "metrics": {
-        "edge_count": 59,
-        "face_count": 18,
         "feature_count": 8,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "PolarPattern",
-        "vertex_count": 36
+        "tip_name": "PolarPattern"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -194,11 +191,8 @@
     "Chamfer": {
       "label": "Chamfer",
       "metrics": {
-        "edge_count": 11,
-        "face_count": 8,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 7
+        "shape_type": "Compound"
       },
       "name": "Chamfer",
       "type_id": "PartDesign::Chamfer"
@@ -206,11 +200,8 @@
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -218,11 +209,8 @@
     "Pad001": {
       "label": "Pad001",
       "metrics": {
-        "edge_count": 9,
-        "face_count": 7,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
+        "shape_type": "Compound"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -230,11 +218,8 @@
     "Pocket": {
       "label": "Pocket",
       "metrics": {
-        "edge_count": 31,
-        "face_count": 11,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 19
+        "shape_type": "Compound"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -242,17 +227,14 @@
     "PolarPattern": {
       "label": "PolarPattern",
       "metrics": {
-        "edge_count": 59,
-        "face_count": 18,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 36
+        "shape_type": "Compound"
       },
       "name": "PolarPattern",
       "type_id": "PartDesign::PolarPattern"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -298,10 +280,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-13T14:53:07.598619+00:00",
+    "data_creation_date": "2026-03-27T21:08:21.927191+00:00",
     "document_label": "PD_PipeEndCap",
     "document_name": "PD_PipeEndCap",
-    "freecad_version": "1.2.0 45706 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_PipeEndCap.FCStd"
+    "freecad_version": "1.2.0 45400 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_PipeEndCap.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.2"
   }
 }

@@ -1293,7 +1293,7 @@
               "z_min": 43627.74094418872
             },
             "is_valid": true,
-            "volume_mm3": 969658.5031852034
+            "volume_mm3": 969658.5031830955
           }
         },
         {
@@ -2823,7 +2823,7 @@
               "z_min": 43485.70703124999
             },
             "is_valid": true,
-            "volume_mm3": 281979.65974886296
+            "volume_mm3": 281979.6597488235
           }
         },
         {
@@ -4542,7 +4542,7 @@
               "z_min": 43627.74094418872
             },
             "is_valid": true,
-            "volume_mm3": 969658.5031852034
+            "volume_mm3": 969658.5031830955
           }
         }
       ],
@@ -6540,7 +6540,7 @@
               "z_min": 43485.70703124999
             },
             "is_valid": true,
-            "volume_mm3": 281979.65974886296
+            "volume_mm3": 281979.6597488235
           }
         }
       ],
@@ -7477,11 +7477,8 @@
     "Array": {
       "label": "Array",
       "metrics": {
-        "edge_count": 88,
-        "face_count": 22,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 88
+        "shape_type": "Compound"
       },
       "name": "Array",
       "type_id": "Part::FeaturePython"
@@ -7489,11 +7486,8 @@
     "Array001": {
       "label": "Array001",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 2,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 8
+        "shape_type": "Compound"
       },
       "name": "Array001",
       "type_id": "Part::FeaturePython"
@@ -7501,11 +7495,8 @@
     "Array002": {
       "label": "Array002",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 2,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 8
+        "shape_type": "Compound"
       },
       "name": "Array002",
       "type_id": "Part::FeaturePython"
@@ -7513,11 +7504,8 @@
     "Clone": {
       "label": "window profile Fleetwood T04 - fixed001",
       "metrics": {
-        "edge_count": 146,
-        "face_count": 8,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 146
+        "shape_type": "Compound"
       },
       "name": "Clone",
       "type_id": "Part::FeaturePython"
@@ -7525,11 +7513,8 @@
     "Clone001": {
       "label": "window profile Fleetwood T01 - casement001",
       "metrics": {
-        "edge_count": 219,
-        "face_count": 12,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 219
+        "shape_type": "Compound"
       },
       "name": "Clone001",
       "type_id": "Part::FeaturePython"
@@ -7537,11 +7522,8 @@
     "Clone2D": {
       "label": "Wire105 (2D)",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Clone2D",
       "type_id": "Part::Part2DObjectPython"
@@ -7549,11 +7531,8 @@
     "Clone2D001": {
       "label": "Wire106 (2D)",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
+        "shape_type": "Face"
       },
       "name": "Clone2D001",
       "type_id": "Part::Part2DObjectPython"
@@ -7561,11 +7540,8 @@
     "Clone2D002": {
       "label": "Wire105 (2D)001",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Clone2D002",
       "type_id": "Part::Part2DObjectPython"
@@ -7573,11 +7549,8 @@
     "Clone2D003": {
       "label": "Wire105 (2D)001 (2D)",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Clone2D003",
       "type_id": "Part::Part2DObjectPython"
@@ -7585,11 +7558,8 @@
     "Compound006002002002002": {
       "label": "skylight glass profile",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 2,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 8
+        "shape_type": "Compound"
       },
       "name": "Compound006002002002002",
       "type_id": "Part::Compound"
@@ -7597,11 +7567,8 @@
     "Compound006002002002003": {
       "label": "skylight lower profile",
       "metrics": {
-        "edge_count": 97,
-        "face_count": 8,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 97
+        "shape_type": "Compound"
       },
       "name": "Compound006002002002003",
       "type_id": "Part::Compound"
@@ -7609,11 +7576,8 @@
     "Compound006002002002004": {
       "label": "skylight upper profile",
       "metrics": {
-        "edge_count": 79,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 79
+        "shape_type": "Compound"
       },
       "name": "Compound006002002002004",
       "type_id": "Part::Compound"
@@ -7621,11 +7585,8 @@
     "Compound006002002002005": {
       "label": "window profile Fleetwood T04 - fixed",
       "metrics": {
-        "edge_count": 146,
-        "face_count": 8,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 146
+        "shape_type": "Compound"
       },
       "name": "Compound006002002002005",
       "type_id": "Part::Compound"
@@ -7633,11 +7594,8 @@
     "Compound006002002002006": {
       "label": "window profile Fleetwood T01 - casement",
       "metrics": {
-        "edge_count": 219,
-        "face_count": 12,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 219
+        "shape_type": "Compound"
       },
       "name": "Compound006002002002006",
       "type_id": "Part::Compound"
@@ -7645,11 +7603,8 @@
     "Cut001": {
       "label": "Cut001",
       "metrics": {
-        "edge_count": 54,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 54
+        "shape_type": "Compound"
       },
       "name": "Cut001",
       "type_id": "Part::Cut"
@@ -7657,11 +7612,8 @@
     "Cut002": {
       "label": "Cut002",
       "metrics": {
-        "edge_count": 33,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 33
+        "shape_type": "Compound"
       },
       "name": "Cut002",
       "type_id": "Part::Cut"
@@ -7669,11 +7621,8 @@
     "Cut003": {
       "label": "Cut003",
       "metrics": {
-        "edge_count": 52,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 52
+        "shape_type": "Compound"
       },
       "name": "Cut003",
       "type_id": "Part::Cut"
@@ -7681,11 +7630,8 @@
     "Face005": {
       "label": "Face005",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Face005",
       "type_id": "Part::Feature"
@@ -7693,11 +7639,8 @@
     "Face009": {
       "label": "Face009",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Face009",
       "type_id": "Part::Feature"
@@ -7705,11 +7648,8 @@
     "Face010": {
       "label": "Face010",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Face010",
       "type_id": "Part::Feature"
@@ -7717,11 +7657,8 @@
     "Hatch": {
       "label": "Hatch",
       "metrics": {
-        "edge_count": 1256,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 2499
+        "shape_type": "Compound"
       },
       "name": "Hatch",
       "type_id": "Part::FeaturePython"
@@ -7729,11 +7666,8 @@
     "Offset2D": {
       "label": "Copper soffit drip screed",
       "metrics": {
-        "edge_count": 14,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 14
+        "shape_type": "Face"
       },
       "name": "Offset2D",
       "type_id": "Part::Offset2D"
@@ -7741,11 +7675,8 @@
     "Offset2D001": {
       "label": "Offset2D001",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Offset2D001",
       "type_id": "Part::Offset2D"
@@ -7753,11 +7684,8 @@
     "Offset2D002": {
       "label": "2\" x 4\" Window louvre frame",
       "metrics": {
-        "edge_count": 16,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 16
+        "shape_type": "Face"
       },
       "name": "Offset2D002",
       "type_id": "Part::Offset2D"
@@ -7765,11 +7693,8 @@
     "Offset2D005": {
       "label": "Offset2D005",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 12
+        "shape_type": "Face"
       },
       "name": "Offset2D005",
       "type_id": "Part::Offset2D"
@@ -7777,11 +7702,8 @@
     "Offset2D006": {
       "label": "Offset2D006",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 12
+        "shape_type": "Face"
       },
       "name": "Offset2D006",
       "type_id": "Part::Offset2D"
@@ -7789,11 +7711,8 @@
     "Offset2D007": {
       "label": "Offset2D007",
       "metrics": {
-        "edge_count": 14,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 14
+        "shape_type": "Face"
       },
       "name": "Offset2D007",
       "type_id": "Part::Offset2D"
@@ -7801,11 +7720,8 @@
     "Offset2D008": {
       "label": "Offset2D008",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 18
+        "shape_type": "Face"
       },
       "name": "Offset2D008",
       "type_id": "Part::Offset2D"
@@ -7813,11 +7729,8 @@
     "Offset2D010": {
       "label": "Offset2D010",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 18
+        "shape_type": "Face"
       },
       "name": "Offset2D010",
       "type_id": "Part::Offset2D"
@@ -7825,11 +7738,8 @@
     "Offset2D011": {
       "label": "Offset2D011",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Offset2D011",
       "type_id": "Part::Offset2D"
@@ -7837,11 +7747,8 @@
     "Offset2D012": {
       "label": "Offset2D012",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
+        "shape_type": "Face"
       },
       "name": "Offset2D012",
       "type_id": "Part::Offset2D"
@@ -7849,11 +7756,8 @@
     "Offset2D013": {
       "label": "Offset2D013",
       "metrics": {
-        "edge_count": 7,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 7
+        "shape_type": "Face"
       },
       "name": "Offset2D013",
       "type_id": "Part::Offset2D"
@@ -7861,11 +7765,8 @@
     "Offset2D014": {
       "label": "Offset2D014",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
+        "shape_type": "Face"
       },
       "name": "Offset2D014",
       "type_id": "Part::Offset2D"
@@ -7873,11 +7774,8 @@
     "Offset2D018": {
       "label": "Offset2D018",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Offset2D018",
       "type_id": "Part::Offset2D"
@@ -7885,11 +7783,8 @@
     "Offset2D019": {
       "label": "Offset2D019",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Offset2D019",
       "type_id": "Part::Offset2D"
@@ -7897,11 +7792,8 @@
     "Offset2D020": {
       "label": "Offset2D020",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
+        "shape_type": "Face"
       },
       "name": "Offset2D020",
       "type_id": "Part::Offset2D"
@@ -7909,11 +7801,8 @@
     "Offset2D020001": {
       "label": "Offset2D020001",
       "metrics": {
-        "edge_count": 16,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 16
+        "shape_type": "Face"
       },
       "name": "Offset2D020001",
       "type_id": "Part::Offset2D"
@@ -7921,11 +7810,8 @@
     "Offset2D020010": {
       "label": "Offset2D020010",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 12
+        "shape_type": "Face"
       },
       "name": "Offset2D020010",
       "type_id": "Part::Offset2D"
@@ -7933,11 +7819,8 @@
     "Offset2D020024": {
       "label": "Offset2D020024",
       "metrics": {
-        "edge_count": 7,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 7
+        "shape_type": "Face"
       },
       "name": "Offset2D020024",
       "type_id": "Part::Offset2D"
@@ -7945,11 +7828,8 @@
     "Offset2D020070": {
       "label": "Offset2D020070",
       "metrics": {
-        "edge_count": 7,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 7
+        "shape_type": "Face"
       },
       "name": "Offset2D020070",
       "type_id": "Part::Offset2D"
@@ -7957,11 +7837,8 @@
     "Offset2D020071": {
       "label": "Offset2D020071",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 12
+        "shape_type": "Face"
       },
       "name": "Offset2D020071",
       "type_id": "Part::Offset2D"
@@ -7969,11 +7846,8 @@
     "Offset2D020072": {
       "label": "Offset2D020072",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 12
+        "shape_type": "Face"
       },
       "name": "Offset2D020072",
       "type_id": "Part::Offset2D"
@@ -7981,11 +7855,8 @@
     "Offset2D020083": {
       "label": "Offset2D020083",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
+        "shape_type": "Face"
       },
       "name": "Offset2D020083",
       "type_id": "Part::Offset2D"
@@ -7993,11 +7864,8 @@
     "Rectangle": {
       "label": "2\"x 5 1/2\" wood profile",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle",
       "type_id": "Part::Part2DObjectPython"
@@ -8005,11 +7873,8 @@
     "Rectangle001": {
       "label": "Rectangle001",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle001",
       "type_id": "Part::Part2DObjectPython"
@@ -8017,11 +7882,8 @@
     "Rectangle003": {
       "label": "Rectangle003",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle003",
       "type_id": "Part::Part2DObjectPython"
@@ -8029,11 +7891,8 @@
     "Rectangle005": {
       "label": "Rectangle005",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle005",
       "type_id": "Part::Part2DObjectPython"
@@ -8041,11 +7900,8 @@
     "Rectangle008": {
       "label": "Rectangle008",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 8
+        "shape_type": "Wire"
       },
       "name": "Rectangle008",
       "type_id": "Part::Part2DObjectPython"
@@ -8053,11 +7909,8 @@
     "Rectangle013": {
       "label": "Rectangle013",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle013",
       "type_id": "Part::Part2DObjectPython"
@@ -8065,11 +7918,8 @@
     "Rectangle016": {
       "label": "Rectangle016",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle016",
       "type_id": "Part::Part2DObjectPython"
@@ -8077,11 +7927,8 @@
     "Rectangle017": {
       "label": "Rectangle017",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle017",
       "type_id": "Part::Part2DObjectPython"
@@ -8089,11 +7936,8 @@
     "Rectangle020": {
       "label": "Rectangle020",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle020",
       "type_id": "Part::Part2DObjectPython"
@@ -8101,11 +7945,8 @@
     "Rectangle023": {
       "label": "Rectangle023",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle023",
       "type_id": "Part::Part2DObjectPython"
@@ -8113,11 +7954,8 @@
     "Rectangle024": {
       "label": "Rectangle024",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle024",
       "type_id": "Part::Part2DObjectPython"
@@ -8125,11 +7963,8 @@
     "Rectangle027": {
       "label": "Rectangle027",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle027",
       "type_id": "Part::Part2DObjectPython"
@@ -8137,11 +7972,8 @@
     "Rectangle030": {
       "label": "Rectangle030",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle030",
       "type_id": "Part::Part2DObjectPython"
@@ -8149,11 +7981,8 @@
     "Rectangle033": {
       "label": "Rectangle033",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle033",
       "type_id": "Part::Part2DObjectPython"
@@ -8161,11 +7990,8 @@
     "Rectangle034": {
       "label": "Rectangle034",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle034",
       "type_id": "Part::Part2DObjectPython"
@@ -8173,11 +7999,8 @@
     "Rectangle035": {
       "label": "Rectangle035",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle035",
       "type_id": "Part::Part2DObjectPython"
@@ -8185,11 +8008,8 @@
     "Rectangle036": {
       "label": "Rectangle036",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle036",
       "type_id": "Part::Part2DObjectPython"
@@ -8197,11 +8017,8 @@
     "Rectangle038": {
       "label": "Rectangle038",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle038",
       "type_id": "Part::Part2DObjectPython"
@@ -8209,11 +8026,8 @@
     "Rectangle039": {
       "label": "Rectangle039",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle039",
       "type_id": "Part::Part2DObjectPython"
@@ -8221,11 +8035,8 @@
     "Rectangle040": {
       "label": "Rectangle040",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle040",
       "type_id": "Part::Part2DObjectPython"
@@ -8233,11 +8044,8 @@
     "Rectangle044": {
       "label": "Rectangle044",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle044",
       "type_id": "Part::Part2DObjectPython"
@@ -8245,11 +8053,8 @@
     "Rectangle045": {
       "label": "Rectangle045",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle045",
       "type_id": "Part::Part2DObjectPython"
@@ -8257,11 +8062,8 @@
     "Rectangle046": {
       "label": "Rectangle046",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle046",
       "type_id": "Part::Part2DObjectPython"
@@ -8269,11 +8071,8 @@
     "Rectangle093": {
       "label": "Rectangle093",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle093",
       "type_id": "Part::Part2DObjectPython"
@@ -8281,11 +8080,8 @@
     "Rectangle126": {
       "label": "Rectangle126",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle126",
       "type_id": "Part::Part2DObjectPython"
@@ -8293,11 +8089,8 @@
     "Rectangle128": {
       "label": "Rectangle128",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle128",
       "type_id": "Part::Part2DObjectPython"
@@ -8305,11 +8098,8 @@
     "Rectangle129": {
       "label": "Rectangle129",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle129",
       "type_id": "Part::Part2DObjectPython"
@@ -8317,11 +8107,8 @@
     "Rectangle135": {
       "label": "Rectangle135",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle135",
       "type_id": "Part::Part2DObjectPython"
@@ -8329,11 +8116,8 @@
     "Rectangle136": {
       "label": "Rectangle136",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle136",
       "type_id": "Part::Part2DObjectPython"
@@ -8341,11 +8125,8 @@
     "Rectangle137": {
       "label": "Rectangle137",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle137",
       "type_id": "Part::Part2DObjectPython"
@@ -8353,11 +8134,8 @@
     "Rectangle138": {
       "label": "Rectangle138",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle138",
       "type_id": "Part::Part2DObjectPython"
@@ -8365,11 +8143,8 @@
     "Rectangle139": {
       "label": "Rectangle139",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle139",
       "type_id": "Part::Part2DObjectPython"
@@ -8377,11 +8152,8 @@
     "Rectangle140": {
       "label": "Rectangle140",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle140",
       "type_id": "Part::Part2DObjectPython"
@@ -8389,11 +8161,8 @@
     "Rectangle141": {
       "label": "Rectangle141",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle141",
       "type_id": "Part::Part2DObjectPython"
@@ -8401,11 +8170,8 @@
     "Rectangle142": {
       "label": "Rectangle142",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle142",
       "type_id": "Part::Part2DObjectPython"
@@ -8413,11 +8179,8 @@
     "Rectangle143": {
       "label": "Rectangle143",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Rectangle143",
       "type_id": "Part::Part2DObjectPython"
@@ -8425,11 +8188,8 @@
     "Shape018": {
       "label": "L1 arch",
       "metrics": {
-        "edge_count": 433,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 855
+        "shape_type": "Compound"
       },
       "name": "Shape018",
       "type_id": "Part::Feature"
@@ -8445,11 +8205,8 @@
     "Shape2DView003": {
       "label": "Viewed lines",
       "metrics": {
-        "edge_count": 1602,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 3204
+        "shape_type": "Compound"
       },
       "name": "Shape2DView003",
       "type_id": "Part::Part2DObjectPython"
@@ -8457,12 +8214,9 @@
     "Structure": {
       "label": "Blocking003",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure",
       "type_id": "Part::FeaturePython"
@@ -8470,12 +8224,9 @@
     "Structure002": {
       "label": "Blocking001",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure002",
       "type_id": "Part::FeaturePython"
@@ -8483,12 +8234,9 @@
     "Structure003": {
       "label": "Blocking002",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure003",
       "type_id": "Part::FeaturePython"
@@ -8496,12 +8244,9 @@
     "Structure004": {
       "label": "Plywood panel",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure004",
       "type_id": "Part::FeaturePython"
@@ -8509,12 +8254,9 @@
     "Structure007": {
       "label": "Stucco",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 16
+        "shell_is_closed": true
       },
       "name": "Structure007",
       "type_id": "Part::FeaturePython"
@@ -8522,12 +8264,9 @@
     "Structure008": {
       "label": "Membrane",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure008",
       "type_id": "Part::FeaturePython"
@@ -8535,12 +8274,9 @@
     "Structure009": {
       "label": "Structure002",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure009",
       "type_id": "Part::FeaturePython"
@@ -8548,12 +8284,9 @@
     "Structure010": {
       "label": "Metal profile",
       "metrics": {
-        "edge_count": 42,
-        "face_count": 16,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 28
+        "shell_is_closed": true
       },
       "name": "Structure010",
       "type_id": "Part::FeaturePython"
@@ -8561,12 +8294,9 @@
     "Structure011": {
       "label": "Structure",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure011",
       "type_id": "Part::FeaturePython"
@@ -8574,12 +8304,9 @@
     "Structure012": {
       "label": "Metal profile001",
       "metrics": {
-        "edge_count": 21,
-        "face_count": 9,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 14
+        "shell_is_closed": true
       },
       "name": "Structure012",
       "type_id": "Part::FeaturePython"
@@ -8587,12 +8314,9 @@
     "Structure018": {
       "label": "Louvre frame",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 18,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 32
+        "shell_is_closed": true
       },
       "name": "Structure018",
       "type_id": "Part::FeaturePython"
@@ -8600,12 +8324,9 @@
     "Structure019": {
       "label": "Louvre frame001",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 18,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 32
+        "shell_is_closed": true
       },
       "name": "Structure019",
       "type_id": "Part::FeaturePython"
@@ -8613,12 +8334,9 @@
     "Structure020": {
       "label": "Louvre fins",
       "metrics": {
-        "edge_count": 264,
-        "face_count": 132,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 176
+        "shell_is_closed": true
       },
       "name": "Structure020",
       "type_id": "Part::FeaturePython"
@@ -8626,12 +8344,9 @@
     "Structure025": {
       "label": "Blocking006",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure025",
       "type_id": "Part::FeaturePython"
@@ -8639,12 +8354,9 @@
     "Structure035": {
       "label": "Window glass",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 16
+        "shell_is_closed": true
       },
       "name": "Structure035",
       "type_id": "Part::FeaturePython"
@@ -8652,12 +8364,9 @@
     "Structure036": {
       "label": "Structure003",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure036",
       "type_id": "Part::FeaturePython"
@@ -8665,12 +8374,9 @@
     "Structure039": {
       "label": "Footer",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure039",
       "type_id": "Part::FeaturePython"
@@ -8678,12 +8384,9 @@
     "Structure040": {
       "label": "Framing",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure040",
       "type_id": "Part::FeaturePython"
@@ -8691,12 +8394,9 @@
     "Structure041": {
       "label": "Framing001",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure041",
       "type_id": "Part::FeaturePython"
@@ -8704,12 +8404,9 @@
     "Structure051": {
       "label": "Footer001",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure051",
       "type_id": "Part::FeaturePython"
@@ -8717,12 +8414,9 @@
     "Structure055": {
       "label": "Window glass001",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 16
+        "shell_is_closed": true
       },
       "name": "Structure055",
       "type_id": "Part::FeaturePython"
@@ -8730,12 +8424,9 @@
     "Structure057": {
       "label": "Metal profile002",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure057",
       "type_id": "Part::FeaturePython"
@@ -8743,12 +8434,9 @@
     "Structure058": {
       "label": "Metal profile003",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure058",
       "type_id": "Part::FeaturePython"
@@ -8756,12 +8444,9 @@
     "Structure061": {
       "label": "Structure004",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure061",
       "type_id": "Part::FeaturePython"
@@ -8769,12 +8454,9 @@
     "Structure062": {
       "label": "Structure005",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure062",
       "type_id": "Part::FeaturePython"
@@ -8782,12 +8464,9 @@
     "Structure063": {
       "label": "Structure006",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure063",
       "type_id": "Part::FeaturePython"
@@ -8795,12 +8474,9 @@
     "Structure064": {
       "label": "Structure007",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure064",
       "type_id": "Part::FeaturePython"
@@ -8808,12 +8484,9 @@
     "Structure065": {
       "label": "Skylight glass",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 16
+        "shell_is_closed": true
       },
       "name": "Structure065",
       "type_id": "Part::FeaturePython"
@@ -8821,12 +8494,9 @@
     "Structure066": {
       "label": "Skylight profile",
       "metrics": {
-        "edge_count": 237,
-        "face_count": 91,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 158
+        "shell_is_closed": true
       },
       "name": "Structure066",
       "type_id": "Part::FeaturePython"
@@ -8834,12 +8504,9 @@
     "Structure067": {
       "label": "Skylight profile001",
       "metrics": {
-        "edge_count": 288,
-        "face_count": 112,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 192
+        "shell_is_closed": true
       },
       "name": "Structure067",
       "type_id": "Part::FeaturePython"
@@ -8847,12 +8514,9 @@
     "Structure068": {
       "label": "Gypsum008",
       "metrics": {
-        "edge_count": 15,
-        "face_count": 7,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 10
+        "shell_is_closed": true
       },
       "name": "Structure068",
       "type_id": "Part::FeaturePython"
@@ -8860,12 +8524,9 @@
     "Structure071": {
       "label": "Structure019",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure071",
       "type_id": "Part::FeaturePython"
@@ -8873,12 +8534,9 @@
     "Structure074": {
       "label": "Plywood018",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure074",
       "type_id": "Part::FeaturePython"
@@ -8886,12 +8544,9 @@
     "Structure076": {
       "label": "Gypsum012",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure076",
       "type_id": "Part::FeaturePython"
@@ -8899,12 +8554,9 @@
     "Structure078": {
       "label": "Plywood010",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure078",
       "type_id": "Part::FeaturePython"
@@ -8912,12 +8564,9 @@
     "Structure080": {
       "label": "Insulation010",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure080",
       "type_id": "Part::FeaturePython"
@@ -8925,12 +8574,9 @@
     "Structure088": {
       "label": "Roof",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure088",
       "type_id": "Part::FeaturePython"
@@ -8938,12 +8584,9 @@
     "Structure089": {
       "label": "Roof001",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure089",
       "type_id": "Part::FeaturePython"
@@ -8951,12 +8594,9 @@
     "Structure090": {
       "label": "Roof006",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure090",
       "type_id": "Part::FeaturePython"
@@ -8964,12 +8604,9 @@
     "Structure091": {
       "label": "Roof007",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure091",
       "type_id": "Part::FeaturePython"
@@ -8977,12 +8614,9 @@
     "Structure092": {
       "label": "Insulation011",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure092",
       "type_id": "Part::FeaturePython"
@@ -8990,12 +8624,9 @@
     "Structure095": {
       "label": "Metal profile004",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure095",
       "type_id": "Part::FeaturePython"
@@ -9003,12 +8634,9 @@
     "Structure097": {
       "label": "Membrane002",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure097",
       "type_id": "Part::FeaturePython"
@@ -9016,12 +8644,9 @@
     "Structure098": {
       "label": "Roof008",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure098",
       "type_id": "Part::FeaturePython"
@@ -9029,12 +8654,9 @@
     "Structure101": {
       "label": "Insulation013",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure101",
       "type_id": "Part::FeaturePython"
@@ -9042,12 +8664,9 @@
     "Structure103": {
       "label": "Plywood024",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure103",
       "type_id": "Part::FeaturePython"
@@ -9055,12 +8674,9 @@
     "Structure104": {
       "label": "Membrane003",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure104",
       "type_id": "Part::FeaturePython"
@@ -9068,12 +8684,9 @@
     "Structure105": {
       "label": "Stucco008",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 8,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 12
+        "shell_is_closed": true
       },
       "name": "Structure105",
       "type_id": "Part::FeaturePython"
@@ -9081,12 +8694,9 @@
     "Structure106": {
       "label": "Metal profile005",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure106",
       "type_id": "Part::FeaturePython"
@@ -9094,12 +8704,9 @@
     "Structure108": {
       "label": "Joint001",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure108",
       "type_id": "Part::FeaturePython"
@@ -9107,12 +8714,9 @@
     "Structure109": {
       "label": "Slab",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure109",
       "type_id": "Part::FeaturePython"
@@ -9120,12 +8724,9 @@
     "Structure110": {
       "label": "Sand",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure110",
       "type_id": "Part::FeaturePython"
@@ -9133,12 +8734,9 @@
     "Structure111": {
       "label": "Gravel",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure111",
       "type_id": "Part::FeaturePython"
@@ -9146,12 +8744,9 @@
     "Structure113": {
       "label": "Plywood025",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure113",
       "type_id": "Part::FeaturePython"
@@ -9159,12 +8754,9 @@
     "Structure114": {
       "label": "Flooring001",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure114",
       "type_id": "Part::FeaturePython"
@@ -9172,12 +8764,9 @@
     "Structure117": {
       "label": "Slab001",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 8,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 12
+        "shell_is_closed": true
       },
       "name": "Structure117",
       "type_id": "Part::FeaturePython"
@@ -9185,12 +8774,9 @@
     "Structure118": {
       "label": "Blocking010",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure118",
       "type_id": "Part::FeaturePython"
@@ -9198,12 +8784,9 @@
     "Structure119": {
       "label": "Window frame004",
       "metrics": {
-        "edge_count": 432,
-        "face_count": 160,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 288
+        "shell_is_closed": true
       },
       "name": "Structure119",
       "type_id": "Part::FeaturePython"
@@ -9211,12 +8794,9 @@
     "Structure120": {
       "label": "Gypsum014",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure120",
       "type_id": "Part::FeaturePython"
@@ -9224,12 +8804,9 @@
     "Structure123": {
       "label": "Joint002",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure123",
       "type_id": "Part::FeaturePython"
@@ -9237,12 +8814,9 @@
     "Structure126": {
       "label": "Window frame005",
       "metrics": {
-        "edge_count": 432,
-        "face_count": 160,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 288
+        "shell_is_closed": true
       },
       "name": "Structure126",
       "type_id": "Part::FeaturePython"
@@ -9250,12 +8824,9 @@
     "Structure129": {
       "label": "Metal profile006",
       "metrics": {
-        "edge_count": 21,
-        "face_count": 9,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 14
+        "shell_is_closed": true
       },
       "name": "Structure129",
       "type_id": "Part::FeaturePython"
@@ -9263,12 +8834,9 @@
     "Structure130": {
       "label": "Metal profile007",
       "metrics": {
-        "edge_count": 21,
-        "face_count": 9,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 14
+        "shell_is_closed": true
       },
       "name": "Structure130",
       "type_id": "Part::FeaturePython"
@@ -9276,12 +8844,9 @@
     "Structure131": {
       "label": "Joint003",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure131",
       "type_id": "Part::FeaturePython"
@@ -9289,12 +8854,9 @@
     "Structure134": {
       "label": "Window frame006",
       "metrics": {
-        "edge_count": 432,
-        "face_count": 160,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 288
+        "shell_is_closed": true
       },
       "name": "Structure134",
       "type_id": "Part::FeaturePython"
@@ -9302,12 +8864,9 @@
     "Structure135": {
       "label": "Joint004",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure135",
       "type_id": "Part::FeaturePython"
@@ -9315,12 +8874,9 @@
     "Structure138": {
       "label": "Window frame",
       "metrics": {
-        "edge_count": 657,
-        "face_count": 243,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 438
+        "shell_is_closed": true
       },
       "name": "Structure138",
       "type_id": "Part::FeaturePython"
@@ -9328,12 +8884,9 @@
     "Structure139": {
       "label": "Blocking013",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure139",
       "type_id": "Part::FeaturePython"
@@ -9341,12 +8894,9 @@
     "Structure140": {
       "label": "Metal profile008",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure140",
       "type_id": "Part::FeaturePython"
@@ -9354,12 +8904,9 @@
     "Structure141": {
       "label": "Blocking014",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure141",
       "type_id": "Part::FeaturePython"
@@ -9367,12 +8914,9 @@
     "Structure142": {
       "label": "Joint005",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure142",
       "type_id": "Part::FeaturePython"
@@ -9380,12 +8924,9 @@
     "Structure143": {
       "label": "Stucco010",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 14,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Structure143",
       "type_id": "Part::FeaturePython"
@@ -9393,12 +8934,9 @@
     "Structure144": {
       "label": "Gypsum016",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 14,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Structure144",
       "type_id": "Part::FeaturePython"
@@ -9406,12 +8944,9 @@
     "Structure145": {
       "label": "Metal profile009",
       "metrics": {
-        "edge_count": 21,
-        "face_count": 9,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 14
+        "shell_is_closed": true
       },
       "name": "Structure145",
       "type_id": "Part::FeaturePython"
@@ -9419,12 +8954,9 @@
     "Structure146": {
       "label": "Metal profile010",
       "metrics": {
-        "edge_count": 21,
-        "face_count": 9,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 14
+        "shell_is_closed": true
       },
       "name": "Structure146",
       "type_id": "Part::FeaturePython"
@@ -9432,12 +8964,9 @@
     "Structure147": {
       "label": "Framing016",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure147",
       "type_id": "Part::FeaturePython"
@@ -9445,12 +8974,9 @@
     "Structure148": {
       "label": "Framing018",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure148",
       "type_id": "Part::FeaturePython"
@@ -9458,12 +8984,9 @@
     "Structure149": {
       "label": "Framing017",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure149",
       "type_id": "Part::FeaturePython"
@@ -9471,12 +8994,9 @@
     "Structure150": {
       "label": "Framing019",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure150",
       "type_id": "Part::FeaturePython"
@@ -9484,12 +9004,9 @@
     "Structure152": {
       "label": "Trim",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 16
+        "shell_is_closed": true
       },
       "name": "Structure152",
       "type_id": "Part::FeaturePython"
@@ -9497,12 +9014,9 @@
     "Structure153": {
       "label": "Flashing",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 18,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 32
+        "shell_is_closed": true
       },
       "name": "Structure153",
       "type_id": "Part::FeaturePython"
@@ -9510,12 +9024,9 @@
     "Structure308": {
       "label": "Soffit003",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 14,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Structure308",
       "type_id": "Part::FeaturePython"
@@ -9523,12 +9034,9 @@
     "Structure344": {
       "label": "Plywood009",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure344",
       "type_id": "Part::FeaturePython"
@@ -9536,12 +9044,9 @@
     "Structure345": {
       "label": "Plywood066",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure345",
       "type_id": "Part::FeaturePython"
@@ -9549,12 +9054,9 @@
     "Structure354": {
       "label": "Framing058",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure354",
       "type_id": "Part::FeaturePython"
@@ -9562,12 +9064,9 @@
     "Structure355": {
       "label": "Framing059",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure355",
       "type_id": "Part::FeaturePython"
@@ -9575,12 +9074,9 @@
     "Structure361003": {
       "label": "SPRAY FOAM001",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 8,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 12
+        "shell_is_closed": true
       },
       "name": "Structure361003",
       "type_id": "Part::FeaturePython"
@@ -9588,12 +9084,9 @@
     "Structure361006": {
       "label": "Flooring008",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure361006",
       "type_id": "Part::FeaturePython"
@@ -9601,12 +9094,9 @@
     "Structure361008": {
       "label": "Blocking012",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure361008",
       "type_id": "Part::FeaturePython"
@@ -9614,12 +9104,9 @@
     "Structure361009": {
       "label": "Blocking033",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure361009",
       "type_id": "Part::FeaturePython"
@@ -9627,12 +9114,9 @@
     "Structure361010": {
       "label": "Blocking034",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure361010",
       "type_id": "Part::FeaturePython"
@@ -9640,12 +9124,9 @@
     "Structure361011": {
       "label": "Plywood",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure361011",
       "type_id": "Part::FeaturePython"
@@ -9653,12 +9134,9 @@
     "Structure361012": {
       "label": "Plywood026",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure361012",
       "type_id": "Part::FeaturePython"
@@ -9666,12 +9144,9 @@
     "Structure361013": {
       "label": "Stucco006",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 18,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 32
+        "shell_is_closed": true
       },
       "name": "Structure361013",
       "type_id": "Part::FeaturePython"
@@ -9679,12 +9154,9 @@
     "Structure361014": {
       "label": "Plywood panel002",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure361014",
       "type_id": "Part::FeaturePython"
@@ -9692,12 +9164,9 @@
     "Structure361015": {
       "label": "Blocking",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure361015",
       "type_id": "Part::FeaturePython"
@@ -9705,12 +9174,9 @@
     "Structure361016": {
       "label": "Blocking035",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure361016",
       "type_id": "Part::FeaturePython"
@@ -9718,12 +9184,9 @@
     "Structure361017": {
       "label": "plywood",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure361017",
       "type_id": "Part::FeaturePython"
@@ -9731,12 +9194,9 @@
     "Structure361018": {
       "label": "Metal profile024",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 8,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 12
+        "shell_is_closed": true
       },
       "name": "Structure361018",
       "type_id": "Part::FeaturePython"
@@ -9744,12 +9204,9 @@
     "Structure361019": {
       "label": "Plywood017",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure361019",
       "type_id": "Part::FeaturePython"
@@ -9757,12 +9214,9 @@
     "Structure668026": {
       "label": "Gypsum021",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure668026",
       "type_id": "Part::FeaturePython"
@@ -9770,12 +9224,9 @@
     "Structure668027": {
       "label": "Gypsum022",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 14,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Structure668027",
       "type_id": "Part::FeaturePython"
@@ -9783,12 +9234,9 @@
     "Structure668093": {
       "label": "Blocking050",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668093",
       "type_id": "Part::FeaturePython"
@@ -9796,12 +9244,9 @@
     "Structure668094": {
       "label": "Blocking051",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668094",
       "type_id": "Part::FeaturePython"
@@ -9809,12 +9254,9 @@
     "Structure668095": {
       "label": "Blocking052",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668095",
       "type_id": "Part::FeaturePython"
@@ -9822,12 +9264,9 @@
     "Structure668097": {
       "label": "Blocking053",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668097",
       "type_id": "Part::FeaturePython"
@@ -9835,12 +9274,9 @@
     "Structure668098": {
       "label": "Blocking054",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668098",
       "type_id": "Part::FeaturePython"
@@ -9848,12 +9284,9 @@
     "Structure668099": {
       "label": "Blocking055",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668099",
       "type_id": "Part::FeaturePython"
@@ -9861,12 +9294,9 @@
     "Structure668100": {
       "label": "Blocking056",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668100",
       "type_id": "Part::FeaturePython"
@@ -9874,12 +9304,9 @@
     "Structure668103": {
       "label": "Blocking059",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668103",
       "type_id": "Part::FeaturePython"
@@ -9887,12 +9314,9 @@
     "Structure668109": {
       "label": "membrane",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 14,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Structure668109",
       "type_id": "Part::FeaturePython"
@@ -9900,12 +9324,9 @@
     "Structure668110": {
       "label": "Soffit005",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 14,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Structure668110",
       "type_id": "Part::FeaturePython"
@@ -9913,12 +9334,9 @@
     "Structure668111": {
       "label": "soffit",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668111",
       "type_id": "Part::FeaturePython"
@@ -9926,12 +9344,9 @@
     "Structure668112": {
       "label": "Insulation012",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668112",
       "type_id": "Part::FeaturePython"
@@ -9939,12 +9354,9 @@
     "Structure668113": {
       "label": "sealant",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668113",
       "type_id": "Part::FeaturePython"
@@ -9952,12 +9364,9 @@
     "Structure668114": {
       "label": "backrod",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668114",
       "type_id": "Part::FeaturePython"
@@ -9965,12 +9374,9 @@
     "Structure668115": {
       "label": "Structure073",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668115",
       "type_id": "Part::FeaturePython"
@@ -9978,12 +9384,9 @@
     "Structure668116": {
       "label": "insulation001",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668116",
       "type_id": "Part::FeaturePython"
@@ -9991,12 +9394,9 @@
     "Structure668117": {
       "label": "insulation002",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668117",
       "type_id": "Part::FeaturePython"
@@ -10004,12 +9404,9 @@
     "Structure668118": {
       "label": "framing",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668118",
       "type_id": "Part::FeaturePython"
@@ -10017,12 +9414,9 @@
     "Structure668119": {
       "label": "insulation003",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668119",
       "type_id": "Part::FeaturePython"
@@ -10030,12 +9424,9 @@
     "Structure668120": {
       "label": "blocking",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668120",
       "type_id": "Part::FeaturePython"
@@ -10043,12 +9434,9 @@
     "Structure668121": {
       "label": "insulation004",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668121",
       "type_id": "Part::FeaturePython"
@@ -10056,12 +9444,9 @@
     "Structure668122": {
       "label": "insulation005",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668122",
       "type_id": "Part::FeaturePython"
@@ -10069,12 +9454,9 @@
     "Structure668123": {
       "label": "Soffit006",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 14,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Structure668123",
       "type_id": "Part::FeaturePython"
@@ -10082,12 +9464,9 @@
     "Structure668124": {
       "label": "Metal profile025",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure668124",
       "type_id": "Part::FeaturePython"
@@ -10095,12 +9474,9 @@
     "Structure668125": {
       "label": "stucco002",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 20
+        "shell_is_closed": true
       },
       "name": "Structure668125",
       "type_id": "Part::FeaturePython"
@@ -10108,12 +9484,9 @@
     "Structure668126": {
       "label": "flashing",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 14,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Structure668126",
       "type_id": "Part::FeaturePython"
@@ -10121,12 +9494,9 @@
     "Structure668127": {
       "label": "membrane001",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668127",
       "type_id": "Part::FeaturePython"
@@ -10134,12 +9504,9 @@
     "Structure668129": {
       "label": "plywood001",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Structure668129",
       "type_id": "Part::FeaturePython"
@@ -10147,12 +9514,9 @@
     "Structure668173": {
       "label": "flashing002",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 16
+        "shell_is_closed": true
       },
       "name": "Structure668173",
       "type_id": "Part::FeaturePython"
@@ -10160,11 +9524,8 @@
     "Wire": {
       "label": "Wire",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire",
       "type_id": "Part::Part2DObjectPython"
@@ -10172,11 +9533,8 @@
     "Wire001": {
       "label": "Wire001",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 7
+        "shape_type": "Wire"
       },
       "name": "Wire001",
       "type_id": "Part::Part2DObjectPython"
@@ -10184,11 +9542,8 @@
     "Wire003": {
       "label": "Corner bead",
       "metrics": {
-        "edge_count": 7,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 7
+        "shape_type": "Wire"
       },
       "name": "Wire003",
       "type_id": "Part::Feature"
@@ -10196,11 +9551,8 @@
     "Wire006": {
       "label": "Wire006",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire006",
       "type_id": "Part::Part2DObjectPython"
@@ -10208,11 +9560,8 @@
     "Wire008": {
       "label": "Wire008",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 5
+        "shape_type": "Wire"
       },
       "name": "Wire008",
       "type_id": "Part::Feature"
@@ -10220,11 +9569,8 @@
     "Wire010": {
       "label": "Vented T profile",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Wire010",
       "type_id": "Part::Part2DObjectPython"
@@ -10232,11 +9578,8 @@
     "Wire011": {
       "label": "Wire011",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
+        "shape_type": "Face"
       },
       "name": "Wire011",
       "type_id": "Part::Part2DObjectPython"
@@ -10244,11 +9587,8 @@
     "Wire014": {
       "label": "Wire014",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire014",
       "type_id": "Part::Part2DObjectPython"
@@ -10256,11 +9596,8 @@
     "Wire020": {
       "label": "Wire020",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 18
+        "shape_type": "Face"
       },
       "name": "Wire020",
       "type_id": "Part::Part2DObjectPython"
@@ -10268,11 +9605,8 @@
     "Wire021": {
       "label": "Wire021",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 9
+        "shape_type": "Wire"
       },
       "name": "Wire021",
       "type_id": "Part::Part2DObjectPython"
@@ -10280,11 +9614,8 @@
     "Wire028": {
       "label": "Wire028",
       "metrics": {
-        "edge_count": 9,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 9
+        "shape_type": "Face"
       },
       "name": "Wire028",
       "type_id": "Part::Part2DObjectPython"
@@ -10292,11 +9623,8 @@
     "Wire029": {
       "label": "Wire029",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 7
+        "shape_type": "Wire"
       },
       "name": "Wire029",
       "type_id": "Part::Part2DObjectPython"
@@ -10304,11 +9632,8 @@
     "Wire030": {
       "label": "Wire030",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 6
+        "shape_type": "Wire"
       },
       "name": "Wire030",
       "type_id": "Part::Part2DObjectPython"
@@ -10316,11 +9641,8 @@
     "Wire031": {
       "label": "Wire031",
       "metrics": {
-        "edge_count": 14,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 14
+        "shape_type": "Face"
       },
       "name": "Wire031",
       "type_id": "Part::Part2DObjectPython"
@@ -10328,11 +9650,8 @@
     "Wire032": {
       "label": "Wire032",
       "metrics": {
-        "edge_count": 9,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 10
+        "shape_type": "Wire"
       },
       "name": "Wire032",
       "type_id": "Part::Part2DObjectPython"
@@ -10340,11 +9659,8 @@
     "Wire033": {
       "label": "Wire033",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 6
+        "shape_type": "Wire"
       },
       "name": "Wire033",
       "type_id": "Part::Part2DObjectPython"
@@ -10352,11 +9668,8 @@
     "Wire037": {
       "label": "Wire037",
       "metrics": {
-        "edge_count": 11,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 11
+        "shape_type": "Face"
       },
       "name": "Wire037",
       "type_id": "Part::Part2DObjectPython"
@@ -10364,11 +9677,8 @@
     "Wire039": {
       "label": "Wire039",
       "metrics": {
-        "edge_count": 17,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 17
+        "shape_type": "Face"
       },
       "name": "Wire039",
       "type_id": "Part::Part2DObjectPython"
@@ -10376,11 +9686,8 @@
     "Wire040": {
       "label": "Wire040",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 5
+        "shape_type": "Wire"
       },
       "name": "Wire040",
       "type_id": "Part::Part2DObjectPython"
@@ -10388,11 +9695,8 @@
     "Wire041": {
       "label": "Wire041",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 4
+        "shape_type": "Wire"
       },
       "name": "Wire041",
       "type_id": "Part::Part2DObjectPython"
@@ -10400,11 +9704,8 @@
     "Wire042": {
       "label": "Wire042",
       "metrics": {
-        "edge_count": 2,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 3
+        "shape_type": "Wire"
       },
       "name": "Wire042",
       "type_id": "Part::Part2DObjectPython"
@@ -10412,11 +9713,8 @@
     "Wire043": {
       "label": "Wire043",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 4
+        "shape_type": "Wire"
       },
       "name": "Wire043",
       "type_id": "Part::Part2DObjectPython"
@@ -10424,11 +9722,8 @@
     "Wire044": {
       "label": "Wire044",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 5
+        "shape_type": "Face"
       },
       "name": "Wire044",
       "type_id": "Part::Part2DObjectPython"
@@ -10436,11 +9731,8 @@
     "Wire045": {
       "label": "Wire045",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire045",
       "type_id": "Part::Part2DObjectPython"
@@ -10448,11 +9740,8 @@
     "Wire046": {
       "label": "Wire046",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire046",
       "type_id": "Part::Part2DObjectPython"
@@ -10460,11 +9749,8 @@
     "Wire047": {
       "label": "Wire047",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire047",
       "type_id": "Part::Part2DObjectPython"
@@ -10472,11 +9758,8 @@
     "Wire050": {
       "label": "Wire050",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire050",
       "type_id": "Part::Part2DObjectPython"
@@ -10484,11 +9767,8 @@
     "Wire053": {
       "label": "Wire053",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire053",
       "type_id": "Part::Part2DObjectPython"
@@ -10496,11 +9776,8 @@
     "Wire054": {
       "label": "Wire054",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire054",
       "type_id": "Part::Part2DObjectPython"
@@ -10508,11 +9785,8 @@
     "Wire055": {
       "label": "Wire055",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire055",
       "type_id": "Part::Part2DObjectPython"
@@ -10520,11 +9794,8 @@
     "Wire056": {
       "label": "Wire056",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire056",
       "type_id": "Part::Part2DObjectPython"
@@ -10532,11 +9803,8 @@
     "Wire057": {
       "label": "Wire057",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire057",
       "type_id": "Part::Part2DObjectPython"
@@ -10544,11 +9812,8 @@
     "Wire061": {
       "label": "Wire061",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire061",
       "type_id": "Part::Part2DObjectPython"
@@ -10556,11 +9821,8 @@
     "Wire063": {
       "label": "Wire063",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 5
+        "shape_type": "Wire"
       },
       "name": "Wire063",
       "type_id": "Part::Part2DObjectPython"
@@ -10568,11 +9830,8 @@
     "Wire066": {
       "label": "Wire066",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 6
+        "shape_type": "Face"
       },
       "name": "Wire066",
       "type_id": "Part::Part2DObjectPython"
@@ -10580,11 +9839,8 @@
     "Wire067": {
       "label": "Wire067",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 5
+        "shape_type": "Wire"
       },
       "name": "Wire067",
       "type_id": "Part::Part2DObjectPython"
@@ -10592,11 +9848,8 @@
     "Wire068": {
       "label": "Wire068",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 6
+        "shape_type": "Face"
       },
       "name": "Wire068",
       "type_id": "Part::Part2DObjectPython"
@@ -10604,11 +9857,8 @@
     "Wire069": {
       "label": "Wire069",
       "metrics": {
-        "edge_count": 28,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 28
+        "shape_type": "Face"
       },
       "name": "Wire069",
       "type_id": "Part::Part2DObjectPython"
@@ -10616,11 +9866,8 @@
     "Wire070": {
       "label": "Wire070",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 24
+        "shape_type": "Face"
       },
       "name": "Wire070",
       "type_id": "Part::Part2DObjectPython"
@@ -10628,11 +9875,8 @@
     "Wire071": {
       "label": "Wire071",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
+        "shape_type": "Face"
       },
       "name": "Wire071",
       "type_id": "Part::Part2DObjectPython"
@@ -10640,11 +9884,8 @@
     "Wire072": {
       "label": "Wire072",
       "metrics": {
-        "edge_count": 25,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 25
+        "shape_type": "Face"
       },
       "name": "Wire072",
       "type_id": "Part::Part2DObjectPython"
@@ -10652,11 +9893,8 @@
     "Wire073": {
       "label": "Wire073",
       "metrics": {
-        "edge_count": 26,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 26
+        "shape_type": "Face"
       },
       "name": "Wire073",
       "type_id": "Part::Part2DObjectPython"
@@ -10664,11 +9902,8 @@
     "Wire074": {
       "label": "Wire074",
       "metrics": {
-        "edge_count": 11,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 11
+        "shape_type": "Face"
       },
       "name": "Wire074",
       "type_id": "Part::Part2DObjectPython"
@@ -10676,11 +9911,8 @@
     "Wire078": {
       "label": "Wire078",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Wire078",
       "type_id": "Part::Part2DObjectPython"
@@ -10688,11 +9920,8 @@
     "Wire083": {
       "label": "Wire083",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
+        "shape_type": "Face"
       },
       "name": "Wire083",
       "type_id": "Part::Part2DObjectPython"
@@ -10700,11 +9929,8 @@
     "Wire084": {
       "label": "Wire084",
       "metrics": {
-        "edge_count": 28,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 28
+        "shape_type": "Face"
       },
       "name": "Wire084",
       "type_id": "Part::Part2DObjectPython"
@@ -10712,11 +9938,8 @@
     "Wire085": {
       "label": "Wire085",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 24
+        "shape_type": "Face"
       },
       "name": "Wire085",
       "type_id": "Part::Part2DObjectPython"
@@ -10724,11 +9947,8 @@
     "Wire086": {
       "label": "Wire086",
       "metrics": {
-        "edge_count": 28,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 28
+        "shape_type": "Face"
       },
       "name": "Wire086",
       "type_id": "Part::Part2DObjectPython"
@@ -10736,11 +9956,8 @@
     "Wire089": {
       "label": "Wire089",
       "metrics": {
-        "edge_count": 29,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 29
+        "shape_type": "Face"
       },
       "name": "Wire089",
       "type_id": "Part::Part2DObjectPython"
@@ -10748,11 +9965,8 @@
     "Wire090": {
       "label": "Wire090",
       "metrics": {
-        "edge_count": 22,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 22
+        "shape_type": "Face"
       },
       "name": "Wire090",
       "type_id": "Part::Part2DObjectPython"
@@ -10760,11 +9974,8 @@
     "Wire091": {
       "label": "Wire091",
       "metrics": {
-        "edge_count": 25,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 25
+        "shape_type": "Face"
       },
       "name": "Wire091",
       "type_id": "Part::Part2DObjectPython"
@@ -10772,11 +9983,8 @@
     "Wire092": {
       "label": "Wire092",
       "metrics": {
-        "edge_count": 11,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 11
+        "shape_type": "Face"
       },
       "name": "Wire092",
       "type_id": "Part::Part2DObjectPython"
@@ -10784,11 +9992,8 @@
     "Wire095": {
       "label": "Wire095",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 12
+        "shape_type": "Face"
       },
       "name": "Wire095",
       "type_id": "Part::Part2DObjectPython"
@@ -10796,11 +10001,8 @@
     "Wire099": {
       "label": "Wire099",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire099",
       "type_id": "Part::Part2DObjectPython"
@@ -10808,11 +10010,8 @@
     "Wire100": {
       "label": "Wire100",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire100",
       "type_id": "Part::Part2DObjectPython"
@@ -10820,11 +10019,8 @@
     "Wire101": {
       "label": "Wire101",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 4
+        "shape_type": "Wire"
       },
       "name": "Wire101",
       "type_id": "Part::Part2DObjectPython"
@@ -10832,11 +10028,8 @@
     "Wire105": {
       "label": "Wire105",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Wire105",
       "type_id": "Part::Part2DObjectPython"
@@ -10844,11 +10037,8 @@
     "Wire106": {
       "label": "Wire106",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
+        "shape_type": "Face"
       },
       "name": "Wire106",
       "type_id": "Part::Part2DObjectPython"
@@ -10856,11 +10046,8 @@
     "Wire144": {
       "label": "Wire144",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 6
+        "shape_type": "Wire"
       },
       "name": "Wire144",
       "type_id": "Part::Part2DObjectPython"
@@ -10868,11 +10055,8 @@
     "Wire169002004": {
       "label": "Wire169002004",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire169002004",
       "type_id": "Part::Part2DObjectPython"
@@ -10880,11 +10064,8 @@
     "Wire169002005": {
       "label": "Wire169002005",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire169002005",
       "type_id": "Part::Part2DObjectPython"
@@ -10892,11 +10073,8 @@
     "Wire169002009": {
       "label": "Wire169002009",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire169002009",
       "type_id": "Part::Part2DObjectPython"
@@ -10904,11 +10082,8 @@
     "Wire169002010": {
       "label": "Wire169002010",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire169002010",
       "type_id": "Part::Part2DObjectPython"
@@ -10916,11 +10091,8 @@
     "Wire169002022": {
       "label": "Wire169002022",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 6
+        "shape_type": "Face"
       },
       "name": "Wire169002022",
       "type_id": "Part::Part2DObjectPython"
@@ -10928,11 +10100,8 @@
     "Wire169002024": {
       "label": "Wire169002024",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire169002024",
       "type_id": "Part::Part2DObjectPython"
@@ -10940,11 +10109,8 @@
     "Wire169002025": {
       "label": "Wire169002025",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire169002025",
       "type_id": "Part::Part2DObjectPython"
@@ -10952,11 +10118,8 @@
     "Wire169002028": {
       "label": "Wire169002028",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire169002028",
       "type_id": "Part::Part2DObjectPython"
@@ -10964,11 +10127,8 @@
     "Wire169002029": {
       "label": "Wire169002029",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire169002029",
       "type_id": "Part::Part2DObjectPython"
@@ -10976,11 +10136,8 @@
     "Wire169002030": {
       "label": "Wire169002030",
       "metrics": {
-        "edge_count": 7,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 8
+        "shape_type": "Wire"
       },
       "name": "Wire169002030",
       "type_id": "Part::Part2DObjectPython"
@@ -10988,11 +10145,8 @@
     "Wire169002031": {
       "label": "Wire169002031",
       "metrics": {
-        "edge_count": 2,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 3
+        "shape_type": "Wire"
       },
       "name": "Wire169002031",
       "type_id": "Part::Part2DObjectPython"
@@ -11000,11 +10154,8 @@
     "Wire169002032": {
       "label": "Wire169002032",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire169002032",
       "type_id": "Part::Part2DObjectPython"
@@ -11012,11 +10163,8 @@
     "Wire169002058": {
       "label": "Wire169002058",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 12
+        "shape_type": "Face"
       },
       "name": "Wire169002058",
       "type_id": "Part::Part2DObjectPython"
@@ -11024,11 +10172,8 @@
     "Wire169002059": {
       "label": "Wire169002059",
       "metrics": {
-        "edge_count": 2,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 3
+        "shape_type": "Wire"
       },
       "name": "Wire169002059",
       "type_id": "Part::Part2DObjectPython"
@@ -11036,11 +10181,8 @@
     "Wire169002060": {
       "label": "Wire169002060",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Wire169002060",
       "type_id": "Part::Part2DObjectPython"
@@ -11048,11 +10190,8 @@
     "Wire169002067005": {
       "label": "Wire169002067005",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 12
+        "shape_type": "Face"
       },
       "name": "Wire169002067005",
       "type_id": "Part::Part2DObjectPython"
@@ -11060,11 +10199,8 @@
     "Wire169002067008": {
       "label": "Wire169002067008",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 6
+        "shape_type": "Wire"
       },
       "name": "Wire169002067008",
       "type_id": "Part::Part2DObjectPython"
@@ -11072,11 +10208,8 @@
     "Wire169002067009": {
       "label": "Wire169002067009",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire169002067009",
       "type_id": "Part::Part2DObjectPython"
@@ -11084,11 +10217,8 @@
     "Wire169002067010": {
       "label": "Wire169002067010",
       "metrics": {
-        "edge_count": 4,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 4
+        "shape_type": "Face"
       },
       "name": "Wire169002067010",
       "type_id": "Part::Part2DObjectPython"
@@ -11096,11 +10226,8 @@
     "Wire169002067013": {
       "label": "Wire169002067013",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 6
+        "shape_type": "Wire"
       },
       "name": "Wire169002067013",
       "type_id": "Part::Part2DObjectPython"
@@ -11108,11 +10235,8 @@
     "Wire169002067031": {
       "label": "Wire169002067031",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "Wire169002067031",
       "type_id": "Part::Part2DObjectPython"
@@ -11120,11 +10244,8 @@
     "Wire169002067032": {
       "label": "Wire169002067032",
       "metrics": {
-        "edge_count": 16,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 16
+        "shape_type": "Face"
       },
       "name": "Wire169002067032",
       "type_id": "Part::Part2DObjectPython"
@@ -11132,11 +10253,8 @@
     "Wire169002067090": {
       "label": "Wire169002067090",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 4
+        "shape_type": "Wire"
       },
       "name": "Wire169002067090",
       "type_id": "Part::Part2DObjectPython"
@@ -11144,11 +10262,8 @@
     "mirror003002": {
       "label": "weep profile",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "mirror003002",
       "type_id": "Part::Feature"
@@ -11156,17 +10271,14 @@
     "mirror003005": {
       "label": "Mirror of Vented T profile001",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 10
+        "shape_type": "Face"
       },
       "name": "mirror003005",
       "type_id": "Part::Feature"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -11184,11 +10296,13 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-13T14:52:31.156841+00:00",
+    "data_creation_date": "2026-03-27T21:05:46.543460+00:00",
     "document_label": "ArchDetail",
     "document_name": "ArchDetail",
-    "freecad_version": "1.2.0 45706 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\ArchDetail.FCStd"
+    "freecad_version": "1.1.0 44790 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\ArchDetail.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.2"
   },
   "techdraw_pages": {
     "Page": {

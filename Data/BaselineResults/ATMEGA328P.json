@@ -10,6 +10,16 @@
       "type_id": "App::Part"
     }
   },
+  "materials": {
+    "Part": {
+      "label": "Part",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "Body": {
       "label": "Body",
@@ -27,7 +37,7 @@
               "z_min": -5.475000000000033
             },
             "is_valid": true,
-            "volume_mm3": 74.83129044228976
+            "volume_mm3": 74.83129044228944
           }
         }
       ],
@@ -85,10 +95,10 @@
               "y_max": 3.9350000000005756,
               "y_min": -3.9349999999994507,
               "z_max": 1.6542323066914832e-14,
-              "z_min": -5.4750000000000245
+              "z_min": -5.475000000000023
             },
             "is_valid": true,
-            "volume_mm3": 74.83129044228932
+            "volume_mm3": 74.83129044228906
           }
         }
       ],
@@ -107,10 +117,10 @@
               "y_max": 3.9350000000005716,
               "y_min": -3.9349999999994454,
               "z_max": 1.3711254354120683e-14,
-              "z_min": -5.475000000000016
+              "z_min": -5.475000000000015
             },
             "is_valid": true,
-            "volume_mm3": 148.73040278133283
+            "volume_mm3": 148.73040278133263
           }
         }
       ],
@@ -167,7 +177,7 @@
               "z_min": -5.47500000000002
             },
             "is_valid": true,
-            "volume_mm3": 145.8881292298296
+            "volume_mm3": 145.88812922982933
           }
         }
       ],
@@ -211,7 +221,7 @@
               "z_min": -1.7850000000000157
             },
             "is_valid": true,
-            "volume_mm3": 771.186309751926
+            "volume_mm3": 771.1863097519262
           }
         }
       ],
@@ -257,13 +267,10 @@
     "Body": {
       "label": "Body",
       "metrics": {
-        "edge_count": 1284,
-        "face_count": 430,
         "feature_count": 8,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "MultiTransform",
-        "vertex_count": 856
+        "tip_name": "MultiTransform"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -281,18 +288,6 @@
     }
   },
   "partdesign_features": {
-    "DatumPlane": {
-      "label": "DatumPlane",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane",
-      "type_id": "PartDesign::Plane"
-    },
     "LinearPattern": {
       "label": "LinearPattern",
       "metrics": {
@@ -312,11 +307,8 @@
     "MultiTransform": {
       "label": "MultiTransform",
       "metrics": {
-        "edge_count": 1284,
-        "face_count": 430,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 856
+        "shape_type": "Solid"
       },
       "name": "MultiTransform",
       "type_id": "PartDesign::MultiTransform"
@@ -324,11 +316,8 @@
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 14,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 24
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -336,11 +325,8 @@
     "Pad001": {
       "label": "Pad001",
       "metrics": {
-        "edge_count": 18,
-        "face_count": 8,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 12
+        "shape_type": "Solid"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -348,11 +334,8 @@
     "Pocket": {
       "label": "Pocket",
       "metrics": {
-        "edge_count": 84,
-        "face_count": 30,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 56
+        "shape_type": "Solid"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -360,11 +343,8 @@
     "Pocket001": {
       "label": "Pocket001",
       "metrics": {
-        "edge_count": 19,
-        "face_count": 9,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 12
+        "shape_type": "Solid"
       },
       "name": "Pocket001",
       "type_id": "PartDesign::Pocket"
@@ -372,11 +352,8 @@
     "Pocket002": {
       "label": "Pocket002",
       "metrics": {
-        "edge_count": 25,
-        "face_count": 11,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 16
+        "shape_type": "Solid"
       },
       "name": "Pocket002",
       "type_id": "PartDesign::Pocket"
@@ -384,11 +361,8 @@
     "Pocket003": {
       "label": "Pocket003",
       "metrics": {
-        "edge_count": 34,
-        "face_count": 17,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 22
+        "shape_type": "Solid"
       },
       "name": "Pocket003",
       "type_id": "PartDesign::Pocket"
@@ -402,7 +376,7 @@
       "type_id": "PartDesign::Pocket"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -560,10 +534,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-16T03:29:41.668402+00:00",
+    "data_creation_date": "2026-03-27T21:58:41.904002+00:00",
     "document_label": "ATMEGA328P",
     "document_name": "ATMEGA328P",
-    "freecad_version": "0.20.2 29603 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\ATMEGA328P.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\ATMEGA328P.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   }
 }

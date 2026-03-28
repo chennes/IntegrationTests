@@ -222,13 +222,10 @@
     "Body": {
       "label": "Unterschrank_Abdeckung",
       "metrics": {
-        "edge_count": 66,
-        "face_count": 25,
         "feature_count": 10,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Fillet",
-        "vertex_count": 44
+        "tip_name": "Fillet"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -238,11 +235,8 @@
     "Chamfer": {
       "label": "Chamfer",
       "metrics": {
-        "edge_count": 60,
-        "face_count": 23,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 40
+        "shape_type": "Compound"
       },
       "name": "Chamfer",
       "type_id": "PartDesign::Chamfer"
@@ -250,11 +244,8 @@
     "Fillet": {
       "label": "Fillet",
       "metrics": {
-        "edge_count": 66,
-        "face_count": 25,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 44
+        "shape_type": "Compound"
       },
       "name": "Fillet",
       "type_id": "PartDesign::Fillet"
@@ -262,11 +253,8 @@
     "Mirrored": {
       "label": "Mirrored",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 19,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 32
+        "shape_type": "Compound"
       },
       "name": "Mirrored",
       "type_id": "PartDesign::Mirrored"
@@ -274,11 +262,8 @@
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -286,11 +271,8 @@
     "Pad001": {
       "label": "Pad001",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 14,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 24
+        "shape_type": "Compound"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -298,11 +280,8 @@
     "Pad002": {
       "label": "Pad002",
       "metrics": {
-        "edge_count": 42,
-        "face_count": 16,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 28
+        "shape_type": "Compound"
       },
       "name": "Pad002",
       "type_id": "PartDesign::Pad"
@@ -310,17 +289,14 @@
     "Thickness": {
       "label": "Thickness",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 16
+        "shape_type": "Solid"
       },
       "name": "Thickness",
       "type_id": "PartDesign::Thickness"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -380,10 +356,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-13T14:53:02.610027+00:00",
+    "data_creation_date": "2026-03-27T21:08:15.188748+00:00",
     "document_label": "PD_Abdeckung",
     "document_name": "PD_Abdeckung",
-    "freecad_version": "1.2.0 45706 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Abdeckung.FCStd"
+    "freecad_version": "1.2.0 45400 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Abdeckung.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.2"
   }
 }

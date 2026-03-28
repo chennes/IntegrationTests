@@ -6,12 +6,22 @@
         "bounding_box": {
           "x_max": 8.0,
           "x_min": -7.999999999999999,
-          "y_max": 8.000000000000002,
-          "y_min": -8.0,
-          "z_max": 6.000000000000084,
-          "z_min": -1.7763568394002505e-15
+          "y_max": 8.000000000000005,
+          "y_min": -8.000000000000002,
+          "z_max": 6.0000000000001,
+          "z_min": -3.2802435084595266e-15
         },
         "child_count": 4,
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
+  "materials": {
+    "Part": {
+      "label": "AP3030S8_StoneM6Heavy",
+      "metrics": {
         "is_valid": true
       },
       "name": "Part",
@@ -29,13 +39,13 @@
             "bounding_box": {
               "x_max": 8.0,
               "x_min": -7.999999999999999,
-              "y_max": 8.000000000000002,
-              "y_min": -8.0,
-              "z_max": 6.000000000000084,
-              "z_min": -1.7763568394002505e-15
+              "y_max": 8.000000000000005,
+              "y_min": -8.000000000000002,
+              "z_max": 6.0000000000001,
+              "z_min": -3.2802435084595266e-15
             },
             "is_valid": true,
-            "volume_mm3": 1148.5643355553125
+            "volume_mm3": 1148.5643355722918
           }
         }
       ],
@@ -51,13 +61,13 @@
             "bounding_box": {
               "x_max": 8.0,
               "x_min": -7.999999999999999,
-              "y_max": 8.000000000000002,
-              "y_min": -8.0,
-              "z_max": 6.000000000000084,
-              "z_min": -1.7763568394002505e-15
+              "y_max": 8.000000000000005,
+              "y_min": -8.000000000000002,
+              "z_max": 6.0000000000001,
+              "z_min": -3.2802435084595266e-15
             },
             "is_valid": true,
-            "volume_mm3": 1148.5643355553127
+            "volume_mm3": 1148.5643355722918
           }
         }
       ],
@@ -73,13 +83,13 @@
             "bounding_box": {
               "x_max": 8.0,
               "x_min": -7.999999999999999,
-              "y_max": 8.000000000000002,
-              "y_min": -8.0,
+              "y_max": 8.0,
+              "y_min": -8.000000000000002,
               "z_max": 6.000000000000003,
               "z_min": -1.7763568394002505e-15
             },
             "is_valid": true,
-            "volume_mm3": 1169.2233226200613
+            "volume_mm3": 1169.2233226200615
           }
         }
       ],
@@ -95,8 +105,8 @@
             "bounding_box": {
               "x_max": 8.0,
               "x_min": -7.999999999999999,
-              "y_max": 8.000000000000002,
-              "y_min": -8.0,
+              "y_max": 8.0,
+              "y_min": -8.000000000000002,
               "z_max": 6.000000000000003,
               "z_min": -1.7763568394002505e-15
             },
@@ -117,13 +127,13 @@
             "bounding_box": {
               "x_max": 8.0,
               "x_min": -7.999999999999999,
-              "y_max": 8.000000000000002,
-              "y_min": -8.0,
-              "z_max": 6.000000000000084,
-              "z_min": -1.7763568394002505e-15
+              "y_max": 8.000000000000005,
+              "y_min": -8.000000000000002,
+              "z_max": 6.0000000000001,
+              "z_min": -3.2802435084595266e-15
             },
             "is_valid": true,
-            "volume_mm3": 1148.5643355553125
+            "volume_mm3": 1148.5643355722918
           }
         }
       ],
@@ -134,39 +144,21 @@
     "Body": {
       "label": "Body",
       "metrics": {
-        "edge_count": 166,
-        "face_count": 60,
         "feature_count": 6,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Groove",
-        "vertex_count": 107
+        "tip_name": "Groove"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
     }
   },
   "partdesign_features": {
-    "AssyMount": {
-      "label": "AssyMount",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": false,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "AssyMount",
-      "type_id": "PartDesign::CoordinateSystem"
-    },
     "Groove": {
       "label": "ScrewHoleBevel",
       "metrics": {
-        "edge_count": 166,
-        "face_count": 60,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 107
+        "shape_type": "Solid"
       },
       "name": "Groove",
       "type_id": "PartDesign::Groove"
@@ -174,11 +166,8 @@
     "Hole": {
       "label": "Hole",
       "metrics": {
-        "edge_count": 75,
-        "face_count": 26,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 50
+        "shape_type": "Solid"
       },
       "name": "Hole",
       "type_id": "PartDesign::Hole"
@@ -186,23 +175,20 @@
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 69,
-        "face_count": 25,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 46
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "StoneSectionSketch",
       "metrics": {
         "constraint_count": 65,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 26,
@@ -216,7 +202,7 @@
       "label": "PocketM6",
       "metrics": {
         "constraint_count": 1,
-        "degrees_of_freedom": 1,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": false,
         "geometry_count": 1,
@@ -230,7 +216,7 @@
       "label": "SketchScrewHoleBevel",
       "metrics": {
         "constraint_count": 22,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
         "fully_constrained": true,
         "geometry_count": 8,
@@ -242,11 +228,13 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:34:12.732199+00:00",
+    "data_creation_date": "2026-03-27T21:06:34.652175+00:00",
     "document_label": "FL_AP3030S8_StoneM6Heavy",
     "document_name": "FL_AP3030S8_StoneM6Heavy",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_StoneM6Heavy.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_StoneM6Heavy.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   },
   "techdraw_pages": {
     "Page": {
@@ -254,7 +242,7 @@
       "metrics": {
         "is_valid": true,
         "template_loaded": true,
-        "template_name": "",
+        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmpu7geaqb2/config/temp/FreeCAD_Doc_b8037ab8-3688-4c99-8383-857f9895677c_4c6012_71020/A4_Landscape.svg",
         "view_count": 14,
         "view_types": {
           "TechDraw::DrawViewClip": 2,

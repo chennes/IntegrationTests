@@ -137,39 +137,21 @@
     "Body": {
       "label": "Garnhalter_einzeln",
       "metrics": {
-        "edge_count": 208,
-        "face_count": 87,
         "feature_count": 9,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pocket",
-        "vertex_count": 109
+        "tip_name": "Pocket"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
     }
   },
   "partdesign_features": {
-    "DatumPlane": {
-      "label": "DatumPlane",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane",
-      "type_id": "PartDesign::Plane"
-    },
     "Fillet": {
       "label": "Fillet",
       "metrics": {
-        "edge_count": 209,
-        "face_count": 87,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 110
+        "shape_type": "Compound"
       },
       "name": "Fillet",
       "type_id": "PartDesign::Fillet"
@@ -177,11 +159,8 @@
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 33,
-        "face_count": 13,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 22
+        "shape_type": "Compound"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -189,11 +168,8 @@
     "Pad001": {
       "label": "Pad001",
       "metrics": {
-        "edge_count": 71,
-        "face_count": 26,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 47
+        "shape_type": "Compound"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -201,11 +177,8 @@
     "Pocket": {
       "label": "Pocket",
       "metrics": {
-        "edge_count": 208,
-        "face_count": 87,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 109
+        "shape_type": "Compound"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -213,17 +186,14 @@
     "Revolution": {
       "label": "Revolution",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 16
+        "shape_type": "Solid"
       },
       "name": "Revolution",
       "type_id": "PartDesign::Revolution"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -269,10 +239,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-13T14:53:08.866588+00:00",
+    "data_creation_date": "2026-03-27T21:08:23.452327+00:00",
     "document_label": "PD_SpoolHolder",
     "document_name": "PD_SpoolHolder",
-    "freecad_version": "1.2.0 45706 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_SpoolHolder.FCStd"
+    "freecad_version": "1.2.0 45400 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_SpoolHolder.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.2"
   }
 }

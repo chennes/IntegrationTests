@@ -18,6 +18,16 @@
       "type_id": "App::Part"
     }
   },
+  "materials": {
+    "Part001": {
+      "label": "Part-BF3-40XX-Keycap",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "Part001",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "Body": {
       "label": "Body-BF3-40XX-Keycap",
@@ -32,10 +42,10 @@
               "y_max": 6.927310081871322,
               "y_min": -6.927310081871322,
               "z_max": 5.6000000000000005,
-              "z_min": -2.650000000000003
+              "z_min": -2.650000000000002
             },
             "is_valid": true,
-            "volume_mm3": 398.4604014569146
+            "volume_mm3": 398.46040145757974
           }
         }
       ],
@@ -57,7 +67,7 @@
               "z_min": -1.4210854715202005e-15
             },
             "is_valid": true,
-            "volume_mm3": 381.45040202726886
+            "volume_mm3": 381.45040202783684
           }
         }
       ],
@@ -76,10 +86,10 @@
               "y_max": 6.927310081871322,
               "y_min": -6.927310081871322,
               "z_max": 5.6000000000000005,
-              "z_min": -1.7000000000000002
+              "z_min": -1.700000000000001
             },
             "is_valid": true,
-            "volume_mm3": 385.0504019125315
+            "volume_mm3": 385.05040191311844
           }
         }
       ],
@@ -98,10 +108,10 @@
               "y_max": 6.927310081871322,
               "y_min": -6.927310081871322,
               "z_max": 5.6000000000000005,
-              "z_min": -2.650000000000003
+              "z_min": -2.6500000000000017
             },
             "is_valid": true,
-            "volume_mm3": 398.46040145691467
+            "volume_mm3": 398.46040145757974
           }
         }
       ],
@@ -123,7 +133,7 @@
               "z_min": 4.349999999999998
             },
             "is_valid": true,
-            "volume_mm3": 398.4604014569144
+            "volume_mm3": 398.46040145757945
           }
         }
       ],
@@ -178,12 +188,9 @@
     "Part001001": {
       "label": "keycap",
       "metrics": {
-        "edge_count": 139,
-        "face_count": 51,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 92
+        "shell_is_closed": true
       },
       "name": "Part001001",
       "type_id": "Part::Feature"
@@ -193,13 +200,10 @@
     "Body": {
       "label": "Body-BF3-40XX-Keycap",
       "metrics": {
-        "edge_count": 139,
-        "face_count": 51,
         "feature_count": 8,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad002",
-        "vertex_count": 92
+        "tip_name": "Pad002"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -209,11 +213,8 @@
     "Pad": {
       "label": "Pad-interior-supports",
       "metrics": {
-        "edge_count": 121,
-        "face_count": 45,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 80
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -221,11 +222,8 @@
     "Pad001": {
       "label": "Pad-small-walls",
       "metrics": {
-        "edge_count": 121,
-        "face_count": 45,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 80
+        "shape_type": "Solid"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -233,11 +231,8 @@
     "Pad002": {
       "label": "Pad-hooks",
       "metrics": {
-        "edge_count": 139,
-        "face_count": 51,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 92
+        "shape_type": "Solid"
       },
       "name": "Pad002",
       "type_id": "PartDesign::Pad"
@@ -245,23 +240,20 @@
     "Revolution": {
       "label": "Revolution-base",
       "metrics": {
-        "edge_count": 15,
-        "face_count": 10,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 9
+        "shape_type": "Solid"
       },
       "name": "Revolution",
       "type_id": "PartDesign::Revolution"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch-base-profile",
       "metrics": {
         "constraint_count": 36,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 13,
@@ -275,7 +267,7 @@
       "label": "Sketch-interior-supports",
       "metrics": {
         "constraint_count": 96,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 36,
@@ -289,7 +281,7 @@
       "label": "Sketch-small-walls",
       "metrics": {
         "constraint_count": 20,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
         "fully_constrained": true,
         "geometry_count": 8,
@@ -303,7 +295,7 @@
       "label": "Sketch-hooks",
       "metrics": {
         "constraint_count": 38,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
         "fully_constrained": true,
         "geometry_count": 14,
@@ -315,10 +307,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:34:25.222635+00:00",
+    "data_creation_date": "2026-03-27T21:06:48.167375+00:00",
     "document_label": "MG_B3FKeycap",
     "document_name": "MG_B3FKeycap",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_B3FKeycap.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_B3FKeycap.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   }
 }

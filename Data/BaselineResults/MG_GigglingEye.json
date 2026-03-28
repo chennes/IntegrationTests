@@ -230,13 +230,10 @@
     "Body001": {
       "label": "Body-clear-cover",
       "metrics": {
-        "edge_count": 11,
-        "face_count": 6,
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Revolution",
-        "vertex_count": 6
+        "tip_name": "Revolution"
       },
       "name": "Body001",
       "type_id": "PartDesign::Body"
@@ -244,13 +241,10 @@
     "Body002": {
       "label": "Body-base",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad005",
-        "vertex_count": 2
+        "tip_name": "Pad005"
       },
       "name": "Body002",
       "type_id": "PartDesign::Body"
@@ -258,13 +252,10 @@
     "Body003": {
       "label": "Body-pupil",
       "metrics": {
-        "edge_count": 7,
-        "face_count": 5,
         "feature_count": 3,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Fillet",
-        "vertex_count": 4
+        "tip_name": "Fillet"
       },
       "name": "Body003",
       "type_id": "PartDesign::Body"
@@ -274,11 +265,8 @@
     "Fillet": {
       "label": "Fillet",
       "metrics": {
-        "edge_count": 7,
-        "face_count": 5,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 4
+        "shape_type": "Solid"
       },
       "name": "Fillet",
       "type_id": "PartDesign::Fillet"
@@ -286,11 +274,8 @@
     "Pad005": {
       "label": "Pad-eye-base",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Pad005",
       "type_id": "PartDesign::Pad"
@@ -298,11 +283,8 @@
     "Pad006": {
       "label": "Pad-pupil",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Pad006",
       "type_id": "PartDesign::Pad"
@@ -310,23 +292,20 @@
     "Revolution": {
       "label": "Revolution-cover",
       "metrics": {
-        "edge_count": 11,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 6
+        "shape_type": "Solid"
       },
       "name": "Revolution",
       "type_id": "PartDesign::Revolution"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch008": {
       "label": "Sketch-clear-cover",
       "metrics": {
         "constraint_count": 18,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 7,
@@ -340,7 +319,7 @@
       "label": "Sketch-eye-base",
       "metrics": {
         "constraint_count": 2,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 1,
@@ -354,7 +333,7 @@
       "label": "Sketch-pupil",
       "metrics": {
         "constraint_count": 3,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 1,
@@ -366,17 +345,19 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:35:08.780148+00:00",
+    "data_creation_date": "2026-03-27T21:07:18.769389+00:00",
     "document_label": "MG_GigglingEye",
     "document_name": "MG_GigglingEye",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_GigglingEye.FCStd"
+    "freecad_version": "0.20.2 29603 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_GigglingEye.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.8.10"
   },
   "spreadsheets": {
     "Spreadsheet": {
       "label": "Configs",
       "metrics": {
-        "cell_count": 30,
+        "cell_count": -1,
         "is_valid": true
       },
       "name": "Spreadsheet",

@@ -16,7 +16,7 @@
               "z_min": -80.58390283768765
             },
             "is_valid": true,
-            "volume_mm3": 364812.33087831584
+            "volume_mm3": 364812.3308783159
           }
         }
       ],
@@ -38,7 +38,7 @@
               "z_min": -80.58390283768765
             },
             "is_valid": true,
-            "volume_mm3": 364812.33087831584
+            "volume_mm3": 364812.3308783159
           }
         }
       ],
@@ -49,13 +49,10 @@
     "Body": {
       "label": "Body",
       "metrics": {
-        "edge_count": 9,
-        "face_count": 5,
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Revolution",
-        "vertex_count": 5
+        "tip_name": "Revolution"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -65,17 +62,14 @@
     "Revolution": {
       "label": "Revolution",
       "metrics": {
-        "edge_count": 9,
-        "face_count": 5,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 5
+        "shape_type": "Solid"
       },
       "name": "Revolution",
       "type_id": "PartDesign::Revolution"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -93,10 +87,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-16T02:33:34.969069+00:00",
+    "data_creation_date": "2026-03-27T21:09:15.289516+00:00",
     "document_label": "Sketcher_ArcOfHyperbola",
     "document_name": "Sketcher_ArcOfHyperbola",
-    "freecad_version": "1.1.0 44609 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Sketcher_ArcOfHyperbola.FCStd"
+    "freecad_version": "1.1.0 44790 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Sketcher_ArcOfHyperbola.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.2"
   }
 }

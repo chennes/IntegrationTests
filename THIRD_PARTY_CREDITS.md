@@ -79,7 +79,6 @@ A personal collection of FreeCAD models covering electronics, mechanical parts, 
 | MG_NeoPixelBubble.FCStd | NeoPixel-bubble/NeoPixel-bubble.FCStd |
 | MG_SampleBox.FCStd | combination-lock/sample-box.FCStd |
 | MG_ULN2003DriverBoard.FCStd | ULN2003-driver-board/ULN2003-driver-board.FCStd |
-| MG_XBeeSX868.FCStd | XBee/sx-868-ufl.FCStd |
 | MG_XYZCube.FCStd | XYZ-Cube/XYZ-Cube.FCStd |
 
 ## 3D-parts -- Juan Gonzalez-Gomez (Obijuan)

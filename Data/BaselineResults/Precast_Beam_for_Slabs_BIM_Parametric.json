@@ -1128,12 +1128,9 @@
     "Array004": {
       "label": "Array004",
       "metrics": {
-        "edge_count": 65,
-        "face_count": 25,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 40
+        "shell_is_closed": true
       },
       "name": "Array004",
       "type_id": "Part::FeaturePython"
@@ -1141,12 +1138,9 @@
     "Array005": {
       "label": "Array005",
       "metrics": {
-        "edge_count": 65,
-        "face_count": 25,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 40
+        "shell_is_closed": true
       },
       "name": "Array005",
       "type_id": "Part::FeaturePython"
@@ -1154,12 +1148,9 @@
     "Clone001": {
       "label": "Compound003",
       "metrics": {
-        "edge_count": 13,
-        "face_count": 5,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Clone001",
       "type_id": "Part::FeaturePython"
@@ -1167,12 +1158,9 @@
     "Component003": {
       "label": "Trelica_Gerdau_",
       "metrics": {
-        "edge_count": 151,
-        "face_count": 65,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 94
+        "shell_is_closed": true
       },
       "name": "Component003",
       "type_id": "Part::FeaturePython"
@@ -1180,12 +1168,9 @@
     "Compound003": {
       "label": "Compound004",
       "metrics": {
-        "edge_count": 151,
-        "face_count": 65,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 94
+        "shell_is_closed": true
       },
       "name": "Compound003",
       "type_id": "Part::Compound"
@@ -1193,12 +1178,9 @@
     "Compound004": {
       "label": "Compound005",
       "metrics": {
-        "edge_count": 13,
-        "face_count": 5,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Compound004",
       "type_id": "Part::Compound"
@@ -1206,12 +1188,9 @@
     "Compound005": {
       "label": "Trelica_Gerdau",
       "metrics": {
-        "edge_count": 151,
-        "face_count": 65,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 94
+        "shell_is_closed": true
       },
       "name": "Compound005",
       "type_id": "Part::Compound"
@@ -1221,13 +1200,10 @@
     "Body008": {
       "label": "Banzo_Inf_003",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad008",
-        "vertex_count": 2
+        "tip_name": "Pad008"
       },
       "name": "Body008",
       "type_id": "PartDesign::Body"
@@ -1235,13 +1211,10 @@
     "Body009": {
       "label": "Banzo_Inf_004",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad009",
-        "vertex_count": 2
+        "tip_name": "Pad009"
       },
       "name": "Body009",
       "type_id": "PartDesign::Body"
@@ -1249,13 +1222,10 @@
     "Body010": {
       "label": "Banzo_sup001",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "feature_count": 3,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad010",
-        "vertex_count": 2
+        "tip_name": "Pad010"
       },
       "name": "Body010",
       "type_id": "PartDesign::Body"
@@ -1263,13 +1233,10 @@
     "Body011": {
       "label": "Diagonal_002",
       "metrics": {
-        "edge_count": 13,
-        "face_count": 5,
         "feature_count": 7,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Mirrored002",
-        "vertex_count": 8
+        "tip_name": "Mirrored002"
       },
       "name": "Body011",
       "type_id": "PartDesign::Body"
@@ -1277,13 +1244,10 @@
     "Body012": {
       "label": "Base002",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad012",
-        "vertex_count": 8
+        "tip_name": "Pad012"
       },
       "name": "Body012",
       "type_id": "PartDesign::Body"
@@ -1293,59 +1257,17 @@
     "Chamfer001": {
       "label": "Chamfer001",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 3
+        "shape_type": "Solid"
       },
       "name": "Chamfer001",
       "type_id": "PartDesign::Chamfer"
     },
-    "DatumPlane003": {
-      "label": "DatumPlane003",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane003",
-      "type_id": "PartDesign::Plane"
-    },
-    "DatumPlane004": {
-      "label": "DatumPlane004",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane004",
-      "type_id": "PartDesign::Plane"
-    },
-    "DatumPlane005": {
-      "label": "DatumPlane005",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane005",
-      "type_id": "PartDesign::Plane"
-    },
     "Mirrored002": {
       "label": "Mirrored002",
       "metrics": {
-        "edge_count": 13,
-        "face_count": 5,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Mirrored002",
       "type_id": "PartDesign::Mirrored"
@@ -1353,11 +1275,8 @@
     "Pad008": {
       "label": "Pad008",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Pad008",
       "type_id": "PartDesign::Pad"
@@ -1365,11 +1284,8 @@
     "Pad009": {
       "label": "Pad009",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Pad009",
       "type_id": "PartDesign::Pad"
@@ -1377,11 +1293,8 @@
     "Pad010": {
       "label": "Pad010",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Pad010",
       "type_id": "PartDesign::Pad"
@@ -1389,11 +1302,8 @@
     "Pad011": {
       "label": "Pad011",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Pad011",
       "type_id": "PartDesign::Pad"
@@ -1401,17 +1311,14 @@
     "Pad012": {
       "label": "Pad012",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Pad012",
       "type_id": "PartDesign::Pad"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch010": {
       "label": "Trelica001",
@@ -1499,11 +1406,13 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-16T01:47:15.117875+00:00",
+    "data_creation_date": "2026-03-27T21:08:33.514327+00:00",
     "document_label": "Precast_Beam_for_Slabs_BIM_Parametric",
     "document_name": "Precast_Beam_for_Slabs_BIM_Parametric",
     "freecad_version": "1.0.2 39320 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Precast_Beam_for_Slabs_BIM_Parametric.FCStd"
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Precast_Beam_for_Slabs_BIM_Parametric.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.3"
   },
   "spreadsheets": {
     "Spreadsheet005": {

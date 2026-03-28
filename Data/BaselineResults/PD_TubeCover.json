@@ -577,13 +577,10 @@
     "Body": {
       "label": "tube-1",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
         "feature_count": 3,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad001",
-        "vertex_count": 6
+        "tip_name": "Pad001"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -591,13 +588,10 @@
     "Body001": {
       "label": "cover-1",
       "metrics": {
-        "edge_count": 22,
-        "face_count": 11,
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pocket",
-        "vertex_count": 14
+        "tip_name": "Pocket"
       },
       "name": "Body001",
       "type_id": "PartDesign::Body"
@@ -605,87 +599,21 @@
     "Body003": {
       "label": "cover-3",
       "metrics": {
-        "edge_count": 210,
-        "face_count": 78,
         "feature_count": 18,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Chamfer003",
-        "vertex_count": 137
+        "tip_name": "Chamfer003"
       },
       "name": "Body003",
       "type_id": "PartDesign::Body"
     }
   },
   "partdesign_features": {
-    "Binder": {
-      "label": "Binder",
-      "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
-        "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
-      },
-      "name": "Binder",
-      "type_id": "PartDesign::SubShapeBinder"
-    },
-    "Binder001": {
-      "label": "Binder001",
-      "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
-        "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
-      },
-      "name": "Binder001",
-      "type_id": "PartDesign::SubShapeBinder"
-    },
-    "Binder005": {
-      "label": "Binder005",
-      "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
-        "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
-      },
-      "name": "Binder005",
-      "type_id": "PartDesign::SubShapeBinder"
-    },
-    "Binder006": {
-      "label": "Binder006",
-      "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
-        "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
-      },
-      "name": "Binder006",
-      "type_id": "PartDesign::SubShapeBinder"
-    },
-    "Binder007": {
-      "label": "Binder007",
-      "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
-        "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
-      },
-      "name": "Binder007",
-      "type_id": "PartDesign::SubShapeBinder"
-    },
     "Boolean": {
       "label": "Boolean",
       "metrics": {
-        "edge_count": 22,
-        "face_count": 12,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 14
+        "shape_type": "Compound"
       },
       "name": "Boolean",
       "type_id": "PartDesign::Boolean"
@@ -693,11 +621,8 @@
     "Boolean001": {
       "label": "Boolean001",
       "metrics": {
-        "edge_count": 144,
-        "face_count": 58,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 94
+        "shape_type": "Compound"
       },
       "name": "Boolean001",
       "type_id": "PartDesign::Boolean"
@@ -705,11 +630,8 @@
     "Box": {
       "label": "Box",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Box",
       "type_id": "PartDesign::AdditiveBox"
@@ -717,11 +639,8 @@
     "Box001": {
       "label": "Box001",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 16
+        "shape_type": "Compound"
       },
       "name": "Box001",
       "type_id": "PartDesign::AdditiveBox"
@@ -729,11 +648,8 @@
     "Box002": {
       "label": "Box002",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 18,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 32
+        "shape_type": "Compound"
       },
       "name": "Box002",
       "type_id": "PartDesign::SubtractiveBox"
@@ -741,11 +657,8 @@
     "Box003": {
       "label": "Box003",
       "metrics": {
-        "edge_count": 160,
-        "face_count": 61,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 104
+        "shape_type": "Compound"
       },
       "name": "Box003",
       "type_id": "PartDesign::SubtractiveBox"
@@ -753,11 +666,8 @@
     "Chamfer": {
       "label": "Chamfer",
       "metrics": {
-        "edge_count": 114,
-        "face_count": 40,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 76
+        "shape_type": "Compound"
       },
       "name": "Chamfer",
       "type_id": "PartDesign::Chamfer"
@@ -765,11 +675,8 @@
     "Chamfer001": {
       "label": "Chamfer001",
       "metrics": {
-        "edge_count": 108,
-        "face_count": 38,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 72
+        "shape_type": "Compound"
       },
       "name": "Chamfer001",
       "type_id": "PartDesign::Chamfer"
@@ -777,11 +684,8 @@
     "Chamfer002": {
       "label": "Chamfer002",
       "metrics": {
-        "edge_count": 150,
-        "face_count": 57,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 98
+        "shape_type": "Compound"
       },
       "name": "Chamfer002",
       "type_id": "PartDesign::Chamfer"
@@ -789,11 +693,8 @@
     "Chamfer003": {
       "label": "Chamfer003",
       "metrics": {
-        "edge_count": 210,
-        "face_count": 78,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 137
+        "shape_type": "Compound"
       },
       "name": "Chamfer003",
       "type_id": "PartDesign::Chamfer"
@@ -801,11 +702,8 @@
     "Cylinder": {
       "label": "Cylinder",
       "metrics": {
-        "edge_count": 6,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 4
+        "shape_type": "Compound"
       },
       "name": "Cylinder",
       "type_id": "PartDesign::SubtractiveCylinder"
@@ -813,11 +711,8 @@
     "Cylinder001": {
       "label": "Cylinder001",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Cylinder001",
       "type_id": "PartDesign::AdditiveCylinder"
@@ -825,11 +720,8 @@
     "Cylinder002": {
       "label": "Cylinder002",
       "metrics": {
-        "edge_count": 184,
-        "face_count": 69,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 120
+        "shape_type": "Compound"
       },
       "name": "Cylinder002",
       "type_id": "PartDesign::AdditiveCylinder"
@@ -837,11 +729,8 @@
     "Mirrored": {
       "label": "Mirrored",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 14,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 24
+        "shape_type": "Compound"
       },
       "name": "Mirrored",
       "type_id": "PartDesign::Mirrored"
@@ -849,11 +738,8 @@
     "Mirrored001": {
       "label": "Mirrored001",
       "metrics": {
-        "edge_count": 60,
-        "face_count": 22,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 40
+        "shape_type": "Compound"
       },
       "name": "Mirrored001",
       "type_id": "PartDesign::Mirrored"
@@ -861,11 +747,8 @@
     "Mirrored002": {
       "label": "Mirrored002",
       "metrics": {
-        "edge_count": 170,
-        "face_count": 65,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 110
+        "shape_type": "Compound"
       },
       "name": "Mirrored002",
       "type_id": "PartDesign::Mirrored"
@@ -873,11 +756,8 @@
     "Mirrored003": {
       "label": "Mirrored003",
       "metrics": {
-        "edge_count": 198,
-        "face_count": 73,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 130
+        "shape_type": "Compound"
       },
       "name": "Mirrored003",
       "type_id": "PartDesign::Mirrored"
@@ -885,11 +765,8 @@
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -897,11 +774,8 @@
     "Pad001": {
       "label": "Pad001",
       "metrics": {
-        "edge_count": 10,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 6
+        "shape_type": "Compound"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -909,11 +783,8 @@
     "Pocket": {
       "label": "Pocket",
       "metrics": {
-        "edge_count": 22,
-        "face_count": 11,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 14
+        "shape_type": "Compound"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -921,11 +792,8 @@
     "Pocket001": {
       "label": "Pocket001",
       "metrics": {
-        "edge_count": 144,
-        "face_count": 57,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 94
+        "shape_type": "Compound"
       },
       "name": "Pocket001",
       "type_id": "PartDesign::Pocket"
@@ -933,11 +801,8 @@
     "Pocket002": {
       "label": "Pocket002",
       "metrics": {
-        "edge_count": 144,
-        "face_count": 56,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 94
+        "shape_type": "Compound"
       },
       "name": "Pocket002",
       "type_id": "PartDesign::Pocket"
@@ -945,17 +810,14 @@
     "Pocket003": {
       "label": "Pocket003",
       "metrics": {
-        "edge_count": 144,
-        "face_count": 55,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 94
+        "shape_type": "Compound"
       },
       "name": "Pocket003",
       "type_id": "PartDesign::Pocket"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -973,10 +835,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T14:36:59.840757+00:00",
+    "data_creation_date": "2026-03-27T21:08:26.791143+00:00",
     "document_label": "PD_TubeCover",
     "document_name": "PD_TubeCover",
     "freecad_version": "1.2.0 45400 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_TubeCover.FCStd"
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_TubeCover.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.2"
   }
 }

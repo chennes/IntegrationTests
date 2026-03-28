@@ -137,6 +137,72 @@
       "type_id": "App::Part"
     }
   },
+  "materials": {
+    "ASSEMBLY001": {
+      "label": "female-connector",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "ASSEMBLY001",
+      "type_id": "App::Part"
+    },
+    "ASSEMBLY002": {
+      "label": "female-connector001",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "ASSEMBLY002",
+      "type_id": "App::Part"
+    },
+    "_x3_mape_pin_header_right_angle": {
+      "label": "1x3-mape-pin-header-right-angle",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "_x3_mape_pin_header_right_angle",
+      "type_id": "App::Part"
+    },
+    "_x3_mape_pin_header_right_angle001": {
+      "label": "1x3-mape-pin-header-right-angle001",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "_x3_mape_pin_header_right_angle001",
+      "type_id": "App::Part"
+    },
+    "cherry_mx_basic": {
+      "label": "cherry-mx-basic",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "cherry_mx_basic",
+      "type_id": "App::Part"
+    },
+    "cherry_mx_basic001": {
+      "label": "cherry-mx-basic001",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "cherry_mx_basic001",
+      "type_id": "App::Part"
+    },
+    "pins": {
+      "label": "pins003",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "pins",
+      "type_id": "App::Part"
+    },
+    "pins001": {
+      "label": "pins007",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "pins001",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "ASSEMBLY001": {
       "label": "female-connector",
@@ -206,15 +272,15 @@
           "index": 5,
           "metrics": {
             "bounding_box": {
-              "x_max": 0.6999999999999972,
-              "x_min": -0.7000000000000078,
+              "x_max": 0.699999999999997,
+              "x_min": -0.7000000000000076,
               "y_max": -23.55,
-              "y_min": -43.55000000000001,
-              "z_max": 1.9500000000000002,
-              "z_min": 0.5499999999999953
+              "y_min": -43.550000000000004,
+              "z_max": 1.9500000000000046,
+              "z_min": 0.5499999999999999
             },
             "is_valid": true,
-            "volume_mm3": 30.78760800518002
+            "volume_mm3": 30.787608005179987
           }
         },
         {
@@ -225,11 +291,11 @@
               "x_min": -3.240000000000008,
               "y_max": -23.550000000000004,
               "y_min": -43.55000000000001,
-              "z_max": 1.9500000000000002,
-              "z_min": 0.5499999999999953
+              "z_max": 1.9500000000000046,
+              "z_min": 0.5499999999999999
             },
             "is_valid": true,
-            "volume_mm3": 30.787608005180015
+            "volume_mm3": 30.78760800517999
           }
         },
         {
@@ -239,12 +305,12 @@
               "x_max": 3.2399999999999975,
               "x_min": 1.8399999999999928,
               "y_max": -23.55,
-              "y_min": -43.55000000000001,
-              "z_max": 1.9500000000000002,
-              "z_min": 0.5499999999999953
+              "y_min": -43.550000000000004,
+              "z_max": 1.9500000000000046,
+              "z_min": 0.5499999999999999
             },
             "is_valid": true,
-            "volume_mm3": 30.78760800518002
+            "volume_mm3": 30.787608005179987
           }
         }
       ],
@@ -318,15 +384,15 @@
           "index": 5,
           "metrics": {
             "bounding_box": {
-              "x_max": 0.699999999999993,
-              "x_min": -0.7000000000000121,
+              "x_max": 0.6999999999999927,
+              "x_min": -0.7000000000000118,
               "y_max": -42.550000000000004,
               "y_min": -62.55000000000001,
-              "z_max": 1.9500000000000002,
-              "z_min": 0.5499999999999953
+              "z_max": 1.9500000000000046,
+              "z_min": 0.5499999999999999
             },
             "is_valid": true,
-            "volume_mm3": 30.787608005180015
+            "volume_mm3": 30.78760800517999
           }
         },
         {
@@ -337,11 +403,11 @@
               "x_min": -3.2400000000000126,
               "y_max": -42.550000000000004,
               "y_min": -62.55000000000001,
-              "z_max": 1.9500000000000002,
-              "z_min": 0.5499999999999953
+              "z_max": 1.9500000000000046,
+              "z_min": 0.5499999999999999
             },
             "is_valid": true,
-            "volume_mm3": 30.787608005180015
+            "volume_mm3": 30.78760800517999
           }
         },
         {
@@ -351,12 +417,12 @@
               "x_max": 3.239999999999993,
               "x_min": 1.8399999999999883,
               "y_max": -42.55,
-              "y_min": -62.550000000000004,
-              "z_max": 1.9500000000000002,
-              "z_min": 0.5499999999999953
+              "y_min": -62.55,
+              "z_max": 1.9500000000000046,
+              "z_min": 0.5499999999999999
             },
             "is_valid": true,
-            "volume_mm3": 30.78760800518001
+            "volume_mm3": 30.787608005179987
           }
         }
       ],
@@ -392,12 +458,12 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 12.166459088161588,
-              "x_min": -12.166459088161591,
-              "y_max": 11.80317463428421,
-              "y_min": -11.311463848253805,
-              "z_max": 19.729276965076032,
-              "z_min": 5.889923372772362
+              "x_max": 14.25,
+              "x_min": -14.25,
+              "y_max": 14.499999999999996,
+              "y_min": -13.500000000000004,
+              "z_max": 21.177205855488246,
+              "z_min": 5.822794144511755
             },
             "is_valid": true,
             "volume_mm3": 949.740248292053
@@ -458,12 +524,12 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 12.166459088161588,
-              "x_min": -12.166459088161591,
-              "y_max": 11.80317463428421,
-              "y_min": -11.311463848253805,
-              "z_max": 54.72927696507603,
-              "z_min": 40.889923372772365
+              "x_max": 14.25,
+              "x_min": -14.25,
+              "y_max": 14.499999999999996,
+              "y_min": -13.500000000000004,
+              "z_max": 56.177205855488246,
+              "z_min": 40.822794144511754
             },
             "is_valid": true,
             "volume_mm3": 949.7402482920531
@@ -697,15 +763,15 @@
           "index": 14,
           "metrics": {
             "bounding_box": {
-              "x_max": 0.6999999999999972,
-              "x_min": -0.7000000000000078,
+              "x_max": 0.699999999999997,
+              "x_min": -0.7000000000000076,
               "y_max": -23.55,
-              "y_min": -43.55000000000001,
-              "z_max": 1.9500000000000002,
-              "z_min": 0.5499999999999953
+              "y_min": -43.550000000000004,
+              "z_max": 1.9500000000000046,
+              "z_min": 0.5499999999999999
             },
             "is_valid": true,
-            "volume_mm3": 30.78760800518002
+            "volume_mm3": 30.787608005179987
           }
         },
         {
@@ -716,11 +782,11 @@
               "x_min": -3.240000000000008,
               "y_max": -23.550000000000004,
               "y_min": -43.55000000000001,
-              "z_max": 1.9500000000000002,
-              "z_min": 0.5499999999999953
+              "z_max": 1.9500000000000046,
+              "z_min": 0.5499999999999999
             },
             "is_valid": true,
-            "volume_mm3": 30.787608005180015
+            "volume_mm3": 30.78760800517999
           }
         },
         {
@@ -730,24 +796,24 @@
               "x_max": 3.2399999999999975,
               "x_min": 1.8399999999999928,
               "y_max": -23.55,
-              "y_min": -43.55000000000001,
-              "z_max": 1.9500000000000002,
-              "z_min": 0.5499999999999953
+              "y_min": -43.550000000000004,
+              "z_max": 1.9500000000000046,
+              "z_min": 0.5499999999999999
             },
             "is_valid": true,
-            "volume_mm3": 30.78760800518002
+            "volume_mm3": 30.787608005179987
           }
         },
         {
           "index": 17,
           "metrics": {
             "bounding_box": {
-              "x_max": 12.166459088161588,
-              "x_min": -12.166459088161591,
-              "y_max": 11.80317463428421,
-              "y_min": -11.311463848253805,
-              "z_max": 19.729276965076032,
-              "z_min": 5.889923372772362
+              "x_max": 14.25,
+              "x_min": -14.25,
+              "y_max": 14.499999999999996,
+              "y_min": -13.500000000000004,
+              "z_max": 21.177205855488246,
+              "z_min": 5.822794144511755
             },
             "is_valid": true,
             "volume_mm3": 949.740248292053
@@ -1110,14 +1176,14 @@
           "metrics": {
             "bounding_box": {
               "x_max": 5.15,
-              "x_min": -14.850000000000003,
-              "y_max": 0.7000000000000001,
-              "y_min": -0.7000000000000001,
-              "z_max": 0.7000000000000001,
-              "z_min": -0.7000000000000045
+              "x_min": -14.85,
+              "y_max": 0.7,
+              "y_min": -0.7,
+              "z_max": 0.7000000000000044,
+              "z_min": -0.7
             },
             "is_valid": true,
-            "volume_mm3": 30.78760800517999
+            "volume_mm3": 30.78760800517997
           }
         }
       ],
@@ -1132,14 +1198,14 @@
           "metrics": {
             "bounding_box": {
               "x_max": 5.15,
-              "x_min": -14.850000000000003,
+              "x_min": -14.85,
               "y_max": 3.24,
-              "y_min": 1.8399999999999999,
-              "z_max": 0.7000000000000001,
-              "z_min": -0.7000000000000045
+              "y_min": 1.84,
+              "z_max": 0.7000000000000044,
+              "z_min": -0.7
             },
             "is_valid": true,
-            "volume_mm3": 30.787608005179983
+            "volume_mm3": 30.787608005179976
           }
         }
       ],
@@ -1154,14 +1220,14 @@
           "metrics": {
             "bounding_box": {
               "x_max": 5.15,
-              "x_min": -14.850000000000003,
-              "y_max": -1.8399999999999999,
+              "x_min": -14.85,
+              "y_max": -1.84,
               "y_min": -3.24,
-              "z_max": 0.7000000000000001,
-              "z_min": -0.7000000000000045
+              "z_max": 0.7000000000000044,
+              "z_min": -0.7
             },
             "is_valid": true,
-            "volume_mm3": 30.787608005179983
+            "volume_mm3": 30.78760800517997
           }
         }
       ],
@@ -1462,14 +1528,14 @@
           "metrics": {
             "bounding_box": {
               "x_max": 5.15,
-              "x_min": -14.850000000000003,
-              "y_max": 0.7000000000000001,
-              "y_min": -0.7000000000000001,
-              "z_max": 0.7000000000000001,
-              "z_min": -0.7000000000000045
+              "x_min": -14.85,
+              "y_max": 0.7,
+              "y_min": -0.7,
+              "z_max": 0.7000000000000044,
+              "z_min": -0.7
             },
             "is_valid": true,
-            "volume_mm3": 30.78760800517999
+            "volume_mm3": 30.78760800517997
           }
         }
       ],
@@ -1484,14 +1550,14 @@
           "metrics": {
             "bounding_box": {
               "x_max": 5.15,
-              "x_min": -14.850000000000003,
+              "x_min": -14.85,
               "y_max": 3.24,
-              "y_min": 1.8399999999999999,
-              "z_max": 0.7000000000000001,
-              "z_min": -0.7000000000000045
+              "y_min": 1.84,
+              "z_max": 0.7000000000000044,
+              "z_min": -0.7
             },
             "is_valid": true,
-            "volume_mm3": 30.787608005179983
+            "volume_mm3": 30.787608005179976
           }
         }
       ],
@@ -1506,14 +1572,14 @@
           "metrics": {
             "bounding_box": {
               "x_max": 5.15,
-              "x_min": -14.850000000000003,
-              "y_max": -1.8399999999999999,
+              "x_min": -14.85,
+              "y_max": -1.84,
               "y_min": -3.24,
-              "z_max": 0.7000000000000001,
-              "z_min": -0.7000000000000045
+              "z_max": 0.7000000000000044,
+              "z_min": -0.7
             },
             "is_valid": true,
-            "volume_mm3": 30.787608005179983
+            "volume_mm3": 30.78760800517997
           }
         }
       ],
@@ -1970,12 +2036,9 @@
     "Body001": {
       "label": "Keycap001",
       "metrics": {
-        "edge_count": 84,
-        "face_count": 32,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 56
+        "shell_is_closed": true
       },
       "name": "Body001",
       "type_id": "Part::Feature"
@@ -1983,12 +2046,9 @@
     "Body002": {
       "label": "pcbprint-cherry-mx001",
       "metrics": {
-        "edge_count": 60,
-        "face_count": 28,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 40
+        "shell_is_closed": true
       },
       "name": "Body002",
       "type_id": "Part::Feature"
@@ -1996,12 +2056,9 @@
     "Body003": {
       "label": "pcbprint-cherry-mx002",
       "metrics": {
-        "edge_count": 60,
-        "face_count": 28,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 40
+        "shell_is_closed": true
       },
       "name": "Body003",
       "type_id": "Part::Feature"
@@ -2009,12 +2066,9 @@
     "Body004": {
       "label": "Keycap002",
       "metrics": {
-        "edge_count": 84,
-        "face_count": 32,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 56
+        "shell_is_closed": true
       },
       "name": "Body004",
       "type_id": "Part::Feature"
@@ -2022,11 +2076,8 @@
     "Circle": {
       "label": "Circle",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 1
+        "shape_type": "Wire"
       },
       "name": "Circle",
       "type_id": "Part::Part2DObjectPython"
@@ -2034,11 +2085,8 @@
     "Circle001": {
       "label": "Circle001",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 1
+        "shape_type": "Wire"
       },
       "name": "Circle001",
       "type_id": "Part::Part2DObjectPython"
@@ -2046,11 +2094,8 @@
     "Circle002": {
       "label": "Circle002",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 1
+        "shape_type": "Wire"
       },
       "name": "Circle002",
       "type_id": "Part::Part2DObjectPython"
@@ -2058,11 +2103,8 @@
     "Circle003": {
       "label": "Circle003",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 1
+        "shape_type": "Wire"
       },
       "name": "Circle003",
       "type_id": "Part::Part2DObjectPython"
@@ -2070,11 +2112,8 @@
     "Circle004": {
       "label": "Circle004",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 1
+        "shape_type": "Wire"
       },
       "name": "Circle004",
       "type_id": "Part::Part2DObjectPython"
@@ -2082,11 +2121,8 @@
     "Line": {
       "label": "Line",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line",
       "type_id": "Part::Part2DObjectPython"
@@ -2094,11 +2130,8 @@
     "Line001": {
       "label": "Line001",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line001",
       "type_id": "Part::Part2DObjectPython"
@@ -2106,11 +2139,8 @@
     "Line002": {
       "label": "Line002",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line002",
       "type_id": "Part::Part2DObjectPython"
@@ -2118,11 +2148,8 @@
     "Line003": {
       "label": "Line003",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line003",
       "type_id": "Part::Part2DObjectPython"
@@ -2130,11 +2157,8 @@
     "Line004": {
       "label": "Line004",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line004",
       "type_id": "Part::Part2DObjectPython"
@@ -2142,11 +2166,8 @@
     "Line005": {
       "label": "Line005",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line005",
       "type_id": "Part::Part2DObjectPython"
@@ -2154,11 +2175,8 @@
     "Line006": {
       "label": "Line006",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line006",
       "type_id": "Part::Part2DObjectPython"
@@ -2166,11 +2184,8 @@
     "Line007": {
       "label": "Line007",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line007",
       "type_id": "Part::Part2DObjectPython"
@@ -2178,11 +2193,8 @@
     "Line008": {
       "label": "Line008",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line008",
       "type_id": "Part::Part2DObjectPython"
@@ -2190,11 +2202,8 @@
     "Line009": {
       "label": "Line009",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line009",
       "type_id": "Part::Part2DObjectPython"
@@ -2202,11 +2211,8 @@
     "Line010": {
       "label": "Line010",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line010",
       "type_id": "Part::Part2DObjectPython"
@@ -2214,11 +2220,8 @@
     "Line012": {
       "label": "Line012",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line012",
       "type_id": "Part::Part2DObjectPython"
@@ -2226,11 +2229,8 @@
     "Line013": {
       "label": "Line013",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line013",
       "type_id": "Part::Part2DObjectPython"
@@ -2238,11 +2238,8 @@
     "Line014": {
       "label": "Line014",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line014",
       "type_id": "Part::Part2DObjectPython"
@@ -2250,11 +2247,8 @@
     "Line015": {
       "label": "Line015",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line015",
       "type_id": "Part::Part2DObjectPython"
@@ -2262,11 +2256,8 @@
     "Line016": {
       "label": "Line016",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line016",
       "type_id": "Part::Part2DObjectPython"
@@ -2274,11 +2265,8 @@
     "Line017": {
       "label": "Line017",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line017",
       "type_id": "Part::Part2DObjectPython"
@@ -2286,11 +2274,8 @@
     "Line018": {
       "label": "Line018",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line018",
       "type_id": "Part::Part2DObjectPython"
@@ -2298,11 +2283,8 @@
     "Line019": {
       "label": "Line019",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line019",
       "type_id": "Part::Part2DObjectPython"
@@ -2310,11 +2292,8 @@
     "Line020": {
       "label": "Line020",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line020",
       "type_id": "Part::Part2DObjectPython"
@@ -2322,11 +2301,8 @@
     "Line021": {
       "label": "Line021",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line021",
       "type_id": "Part::Part2DObjectPython"
@@ -2334,11 +2310,8 @@
     "Line022": {
       "label": "Line022",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line022",
       "type_id": "Part::Part2DObjectPython"
@@ -2346,11 +2319,8 @@
     "Line023": {
       "label": "Line023",
       "metrics": {
-        "edge_count": 1,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 2
+        "shape_type": "Wire"
       },
       "name": "Line023",
       "type_id": "Part::Part2DObjectPython"
@@ -2358,12 +2328,9 @@
     "Part__Feature": {
       "label": "1x3-Insulator",
       "metrics": {
-        "edge_count": 80,
-        "face_count": 30,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 48
+        "shell_is_closed": true
       },
       "name": "Part__Feature",
       "type_id": "Part::Feature"
@@ -2371,12 +2338,9 @@
     "Part__Feature001": {
       "label": "pin",
       "metrics": {
-        "edge_count": 40,
-        "face_count": 18,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Part__Feature001",
       "type_id": "Part::Feature"
@@ -2384,12 +2348,9 @@
     "Part__Feature002": {
       "label": "pin2",
       "metrics": {
-        "edge_count": 40,
-        "face_count": 18,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Part__Feature002",
       "type_id": "Part::Feature"
@@ -2397,12 +2358,9 @@
     "Part__Feature003": {
       "label": "pin3",
       "metrics": {
-        "edge_count": 40,
-        "face_count": 18,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Part__Feature003",
       "type_id": "Part::Feature"
@@ -2410,12 +2368,9 @@
     "Part__Feature004": {
       "label": "cherry-body",
       "metrics": {
-        "edge_count": 185,
-        "face_count": 75,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 118
+        "shell_is_closed": true
       },
       "name": "Part__Feature004",
       "type_id": "Part::Feature"
@@ -2423,12 +2378,9 @@
     "Part__Feature005": {
       "label": "cherry-axis",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 19,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 32
+        "shell_is_closed": true
       },
       "name": "Part__Feature005",
       "type_id": "Part::Feature"
@@ -2436,12 +2388,9 @@
     "Part__Feature006": {
       "label": "cherry-peg",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 3
+        "shell_is_closed": true
       },
       "name": "Part__Feature006",
       "type_id": "Part::Feature"
@@ -2449,12 +2398,9 @@
     "Part__Feature007": {
       "label": "pin1",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Part__Feature007",
       "type_id": "Part::Feature"
@@ -2462,12 +2408,9 @@
     "Part__Feature008": {
       "label": "pin004",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Part__Feature008",
       "type_id": "Part::Feature"
@@ -2475,12 +2418,9 @@
     "Part__Feature016": {
       "label": "Connector",
       "metrics": {
-        "edge_count": 364,
-        "face_count": 133,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 238
+        "shell_is_closed": true
       },
       "name": "Part__Feature016",
       "type_id": "Part::Feature"
@@ -2488,12 +2428,9 @@
     "Part__Feature017": {
       "label": "pins",
       "metrics": {
-        "edge_count": 80,
-        "face_count": 26,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 54
+        "shell_is_closed": true
       },
       "name": "Part__Feature017",
       "type_id": "Part::Feature"
@@ -2501,12 +2438,9 @@
     "Part__Feature018": {
       "label": "pins001",
       "metrics": {
-        "edge_count": 80,
-        "face_count": 26,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 54
+        "shell_is_closed": true
       },
       "name": "Part__Feature018",
       "type_id": "Part::Feature"
@@ -2514,12 +2448,9 @@
     "Part__Feature019": {
       "label": "pins002",
       "metrics": {
-        "edge_count": 80,
-        "face_count": 26,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 54
+        "shell_is_closed": true
       },
       "name": "Part__Feature019",
       "type_id": "Part::Feature"
@@ -2527,12 +2458,9 @@
     "Part__Feature020": {
       "label": "vcc-wire001",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 2
+        "shell_is_closed": true
       },
       "name": "Part__Feature020",
       "type_id": "Part::Feature"
@@ -2540,12 +2468,9 @@
     "Part__Feature021": {
       "label": "vcc-signal001",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 2
+        "shell_is_closed": true
       },
       "name": "Part__Feature021",
       "type_id": "Part::Feature"
@@ -2553,12 +2478,9 @@
     "Part__Feature022": {
       "label": "wire-gnd001",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 2
+        "shell_is_closed": true
       },
       "name": "Part__Feature022",
       "type_id": "Part::Feature"
@@ -2566,12 +2488,9 @@
     "Part__Feature023": {
       "label": "1x3-Insulator001",
       "metrics": {
-        "edge_count": 80,
-        "face_count": 30,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 48
+        "shell_is_closed": true
       },
       "name": "Part__Feature023",
       "type_id": "Part::Feature"
@@ -2579,12 +2498,9 @@
     "Part__Feature024": {
       "label": "pin005",
       "metrics": {
-        "edge_count": 40,
-        "face_count": 18,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Part__Feature024",
       "type_id": "Part::Feature"
@@ -2592,12 +2508,9 @@
     "Part__Feature025": {
       "label": "pin006",
       "metrics": {
-        "edge_count": 40,
-        "face_count": 18,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Part__Feature025",
       "type_id": "Part::Feature"
@@ -2605,12 +2518,9 @@
     "Part__Feature026": {
       "label": "pin007",
       "metrics": {
-        "edge_count": 40,
-        "face_count": 18,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 24
+        "shell_is_closed": true
       },
       "name": "Part__Feature026",
       "type_id": "Part::Feature"
@@ -2618,12 +2528,9 @@
     "Part__Feature027": {
       "label": "cherry-body001",
       "metrics": {
-        "edge_count": 185,
-        "face_count": 75,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 118
+        "shell_is_closed": true
       },
       "name": "Part__Feature027",
       "type_id": "Part::Feature"
@@ -2631,12 +2538,9 @@
     "Part__Feature028": {
       "label": "cherry-axis001",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 19,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 32
+        "shell_is_closed": true
       },
       "name": "Part__Feature028",
       "type_id": "Part::Feature"
@@ -2644,12 +2548,9 @@
     "Part__Feature029": {
       "label": "cherry-peg001",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 4,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 3
+        "shell_is_closed": true
       },
       "name": "Part__Feature029",
       "type_id": "Part::Feature"
@@ -2657,12 +2558,9 @@
     "Part__Feature030": {
       "label": "pin008",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Part__Feature030",
       "type_id": "Part::Feature"
@@ -2670,12 +2568,9 @@
     "Part__Feature031": {
       "label": "pin009",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 8
+        "shell_is_closed": true
       },
       "name": "Part__Feature031",
       "type_id": "Part::Feature"
@@ -2683,12 +2578,9 @@
     "Part__Feature032": {
       "label": "Connector001",
       "metrics": {
-        "edge_count": 364,
-        "face_count": 133,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 238
+        "shell_is_closed": true
       },
       "name": "Part__Feature032",
       "type_id": "Part::Feature"
@@ -2696,12 +2588,9 @@
     "Part__Feature033": {
       "label": "pins004",
       "metrics": {
-        "edge_count": 80,
-        "face_count": 26,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 54
+        "shell_is_closed": true
       },
       "name": "Part__Feature033",
       "type_id": "Part::Feature"
@@ -2709,12 +2598,9 @@
     "Part__Feature034": {
       "label": "pins005",
       "metrics": {
-        "edge_count": 80,
-        "face_count": 26,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 54
+        "shell_is_closed": true
       },
       "name": "Part__Feature034",
       "type_id": "Part::Feature"
@@ -2722,12 +2608,9 @@
     "Part__Feature035": {
       "label": "pins006",
       "metrics": {
-        "edge_count": 80,
-        "face_count": 26,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 54
+        "shell_is_closed": true
       },
       "name": "Part__Feature035",
       "type_id": "Part::Feature"
@@ -2735,12 +2618,9 @@
     "Part__Feature036": {
       "label": "vcc-wire002",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 2
+        "shell_is_closed": true
       },
       "name": "Part__Feature036",
       "type_id": "Part::Feature"
@@ -2748,12 +2628,9 @@
     "Part__Feature037": {
       "label": "vcc-signal002",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 2
+        "shell_is_closed": true
       },
       "name": "Part__Feature037",
       "type_id": "Part::Feature"
@@ -2761,12 +2638,9 @@
     "Part__Feature038": {
       "label": "wire-gnd002",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 2
+        "shell_is_closed": true
       },
       "name": "Part__Feature038",
       "type_id": "Part::Feature"
@@ -2774,11 +2648,8 @@
     "Wire": {
       "label": "Wire",
       "metrics": {
-        "edge_count": 2,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 3
+        "shape_type": "Wire"
       },
       "name": "Wire",
       "type_id": "Part::Part2DObjectPython"
@@ -2786,11 +2657,8 @@
     "Wire001": {
       "label": "Wire001",
       "metrics": {
-        "edge_count": 2,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 3
+        "shape_type": "Wire"
       },
       "name": "Wire001",
       "type_id": "Part::Part2DObjectPython"
@@ -2798,11 +2666,8 @@
     "Wire002": {
       "label": "Wire002",
       "metrics": {
-        "edge_count": 2,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 3
+        "shape_type": "Wire"
       },
       "name": "Wire002",
       "type_id": "Part::Part2DObjectPython"
@@ -2810,11 +2675,8 @@
     "Wire003": {
       "label": "Wire003",
       "metrics": {
-        "edge_count": 2,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 3
+        "shape_type": "Wire"
       },
       "name": "Wire003",
       "type_id": "Part::Part2DObjectPython"
@@ -2822,11 +2684,8 @@
     "Wire004": {
       "label": "Wire004",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 0,
         "is_valid": true,
-        "shape_type": "Wire",
-        "vertex_count": 4
+        "shape_type": "Wire"
       },
       "name": "Wire004",
       "type_id": "Part::Part2DObjectPython"
@@ -2836,39 +2695,21 @@
     "Body": {
       "label": "pcbprint-cherry-mx",
       "metrics": {
-        "edge_count": 60,
-        "face_count": 28,
         "feature_count": 12,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Fillet",
-        "vertex_count": 40
+        "tip_name": "Fillet"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
     }
   },
   "partdesign_features": {
-    "DatumPlane": {
-      "label": "First-layer",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane",
-      "type_id": "PartDesign::Plane"
-    },
     "Fillet": {
       "label": "Fillet",
       "metrics": {
-        "edge_count": 60,
-        "face_count": 28,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 40
+        "shape_type": "Solid"
       },
       "name": "Fillet",
       "type_id": "PartDesign::Fillet"
@@ -2876,11 +2717,8 @@
     "Pad": {
       "label": "bottom-body",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -2888,11 +2726,8 @@
     "Pad001": {
       "label": "drills-fill",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 24,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 32
+        "shape_type": "Solid"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -2900,11 +2735,8 @@
     "Pocket": {
       "label": "drills-cutout",
       "metrics": {
-        "edge_count": 30,
-        "face_count": 12,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 20
+        "shape_type": "Solid"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -2912,23 +2744,20 @@
     "Pocket001": {
       "label": "tracks-cutout",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 19,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 32
+        "shape_type": "Solid"
       },
       "name": "Pocket001",
       "type_id": "PartDesign::Pocket"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "master_h",
       "metrics": {
         "constraint_count": 31,
-        "degrees_of_freedom": 3,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": false,
         "geometry_count": 14,
@@ -2942,7 +2771,7 @@
       "label": "master_v",
       "metrics": {
         "constraint_count": 6,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 2,
@@ -2956,7 +2785,7 @@
       "label": "botom_1_sk",
       "metrics": {
         "constraint_count": 10,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
         "fully_constrained": true,
         "geometry_count": 4,
@@ -2970,7 +2799,7 @@
       "label": "drills_sk",
       "metrics": {
         "constraint_count": 16,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
         "fully_constrained": true,
         "geometry_count": 8,
@@ -2984,7 +2813,7 @@
       "label": "tracks-sk",
       "metrics": {
         "constraint_count": 11,
-        "degrees_of_freedom": 7,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": false,
         "geometry_count": 6,
@@ -2998,7 +2827,7 @@
       "label": "drills-fill-sk",
       "metrics": {
         "constraint_count": 13,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
         "fully_constrained": true,
         "geometry_count": 6,
@@ -3010,10 +2839,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:37:27.249322+00:00",
+    "data_creation_date": "2026-03-27T21:08:10.515616+00:00",
     "document_label": "OBJ_CherryMXPCB",
     "document_name": "OBJ_CherryMXPCB",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\OBJ_CherryMXPCB.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\OBJ_CherryMXPCB.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   }
 }

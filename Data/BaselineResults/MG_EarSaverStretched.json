@@ -16,7 +16,7 @@
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 3305.4606479583704
+            "volume_mm3": 3305.46064795837
           }
         }
       ],
@@ -60,7 +60,7 @@
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 3305.4606479583704
+            "volume_mm3": 3305.46064795837
           }
         }
       ],
@@ -71,13 +71,10 @@
     "Body": {
       "label": "Body",
       "metrics": {
-        "edge_count": 262,
-        "face_count": 88,
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad001",
-        "vertex_count": 176
+        "tip_name": "Pad001"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -87,11 +84,8 @@
     "Pad": {
       "label": "Pad-base",
       "metrics": {
-        "edge_count": 72,
-        "face_count": 26,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 48
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -99,28 +93,25 @@
     "Pad001": {
       "label": "Pad-hooks",
       "metrics": {
-        "edge_count": 262,
-        "face_count": 88,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 176
+        "shape_type": "Solid"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch-base",
       "metrics": {
         "constraint_count": 58,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
-        "fully_constrained": false,
+        "fully_constrained": true,
         "geometry_count": 25,
-        "is_valid": false,
-        "solver_status": -2
+        "is_valid": true,
+        "solver_status": 0
       },
       "name": "Sketch",
       "type_id": "Sketcher::SketchObject"
@@ -129,9 +120,9 @@
       "label": "Sketch-hooks",
       "metrics": {
         "constraint_count": 91,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
-        "fully_constrained": false,
+        "fully_constrained": true,
         "geometry_count": 36,
         "is_valid": true,
         "solver_status": 0
@@ -141,10 +132,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:35:06.743415+00:00",
+    "data_creation_date": "2026-03-27T21:07:17.907113+00:00",
     "document_label": "MG_EarSaverStretched",
     "document_name": "MG_EarSaverStretched",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_EarSaverStretched.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_EarSaverStretched.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   }
 }

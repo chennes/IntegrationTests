@@ -42,38 +42,24 @@
       "type_id": "App::Link"
     }
   },
-  "partdesign_features": {
-    "AssyMount": {
-      "label": "AssyMount",
+  "materials": {
+    "Model": {
+      "label": "Model",
       "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
+        "is_valid": true
       },
-      "name": "AssyMount",
-      "type_id": "PartDesign::CoordinateSystem"
-    },
-    "LCS_Origin": {
-      "label": "LCS_Origin",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "LCS_Origin",
-      "type_id": "PartDesign::CoordinateSystem"
+      "name": "Model",
+      "type_id": "App::Part"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "source": {
-    "data_creation_date": "2026-03-27T01:34:10.996912+00:00",
+    "data_creation_date": "2026-03-27T21:06:34.034372+00:00",
     "document_label": "FL_AP3030S8_InnerBracketWithScrews",
     "document_name": "FL_AP3030S8_InnerBracketWithScrews",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_InnerBracketWithScrews.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_InnerBracketWithScrews.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   }
 }

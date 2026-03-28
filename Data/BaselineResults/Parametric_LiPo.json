@@ -311,13 +311,10 @@
     "Body": {
       "label": "Battery",
       "metrics": {
-        "edge_count": 64,
-        "face_count": 27,
         "feature_count": 5,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Fillet",
-        "vertex_count": 36
+        "tip_name": "Fillet"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -325,13 +322,10 @@
     "Body001": {
       "label": "Celofan",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 18,
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad001",
-        "vertex_count": 32
+        "tip_name": "Pad001"
       },
       "name": "Body001",
       "type_id": "PartDesign::Body"
@@ -339,13 +333,10 @@
     "Body002": {
       "label": "Plus",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad002",
-        "vertex_count": 2
+        "tip_name": "Pad002"
       },
       "name": "Body002",
       "type_id": "PartDesign::Body"
@@ -353,63 +344,21 @@
     "Body003": {
       "label": "Minus",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad003",
-        "vertex_count": 2
+        "tip_name": "Pad003"
       },
       "name": "Body003",
       "type_id": "PartDesign::Body"
     }
   },
   "partdesign_features": {
-    "DatumPlane": {
-      "label": "DatumPlane",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane",
-      "type_id": "PartDesign::Plane"
-    },
-    "DatumPlane001": {
-      "label": "DatumPlane001",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane001",
-      "type_id": "PartDesign::Plane"
-    },
-    "DatumPlane002": {
-      "label": "DatumPlane002",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "DatumPlane002",
-      "type_id": "PartDesign::Plane"
-    },
     "Fillet": {
       "label": "Fillet",
       "metrics": {
-        "edge_count": 64,
-        "face_count": 27,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 36
+        "shape_type": "Solid"
       },
       "name": "Fillet",
       "type_id": "PartDesign::Fillet"
@@ -417,11 +366,8 @@
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -429,11 +375,8 @@
     "Pad001": {
       "label": "Pad001",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 18,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 32
+        "shape_type": "Solid"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -441,11 +384,8 @@
     "Pad002": {
       "label": "Pad002",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Pad002",
       "type_id": "PartDesign::Pad"
@@ -453,11 +393,8 @@
     "Pad003": {
       "label": "Pad003",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Pad003",
       "type_id": "PartDesign::Pad"
@@ -465,53 +402,14 @@
     "Pocket": {
       "label": "Pocket",
       "metrics": {
-        "edge_count": 36,
-        "face_count": 15,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 24
+        "shape_type": "Solid"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
-    },
-    "ReferenceFillet": {
-      "label": "ReferenceFillet",
-      "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
-      },
-      "name": "ReferenceFillet",
-      "type_id": "PartDesign::ShapeBinder"
-    },
-    "ReferenceFillet001": {
-      "label": "ReferenceFillet001",
-      "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
-      },
-      "name": "ReferenceFillet001",
-      "type_id": "PartDesign::ShapeBinder"
-    },
-    "ReferencePocket": {
-      "label": "ReferencePocket",
-      "metrics": {
-        "edge_count": 8,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 8
-      },
-      "name": "ReferencePocket",
-      "type_id": "PartDesign::ShapeBinder"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -585,11 +483,13 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-16T01:47:18.842698+00:00",
+    "data_creation_date": "2026-03-27T21:08:30.304881+00:00",
     "document_label": "Parametric_LiPo",
     "document_name": "Parametric_LiPo",
     "freecad_version": "0.21.2 33799 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Parametric_LiPo.FCStd"
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Parametric_LiPo.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.8.17"
   },
   "spreadsheets": {
     "Spreadsheet": {

@@ -252,13 +252,10 @@
     "Body": {
       "label": "Pupil",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 4,
         "feature_count": 3,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Fillet",
-        "vertex_count": 3
+        "tip_name": "Fillet"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -266,13 +263,10 @@
     "Body001": {
       "label": "White base",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad001",
-        "vertex_count": 2
+        "tip_name": "Pad001"
       },
       "name": "Body001",
       "type_id": "PartDesign::Body"
@@ -280,13 +274,10 @@
     "Body002": {
       "label": "Plastic cover",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 2,
         "feature_count": 3,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pocket",
-        "vertex_count": 7
+        "tip_name": "Pocket"
       },
       "name": "Body002",
       "type_id": "PartDesign::Body"
@@ -296,11 +287,8 @@
     "Ellipsoid": {
       "label": "Ellipsoid",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 1,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Ellipsoid",
       "type_id": "PartDesign::AdditiveEllipsoid"
@@ -308,11 +296,8 @@
     "Fillet": {
       "label": "Fillet",
       "metrics": {
-        "edge_count": 5,
-        "face_count": 4,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 3
+        "shape_type": "Solid"
       },
       "name": "Fillet",
       "type_id": "PartDesign::Fillet"
@@ -320,11 +305,8 @@
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -332,11 +314,8 @@
     "Pad001": {
       "label": "Pad001",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -344,17 +323,14 @@
     "Pocket": {
       "label": "Pocket",
       "metrics": {
-        "edge_count": 8,
-        "face_count": 2,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 7
+        "shape_type": "Solid"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -400,11 +376,13 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-16T02:00:18.889348+00:00",
+    "data_creation_date": "2026-03-27T21:06:40.311459+00:00",
     "document_label": "Googly_eyes",
     "document_name": "Googly_eyes",
     "freecad_version": "0.21.2 33799 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Googly_eyes.FCStd"
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Googly_eyes.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.8.17"
   },
   "spreadsheets": {
     "Spreadsheet": {

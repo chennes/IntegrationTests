@@ -9,14 +9,14 @@
           "metrics": {
             "bounding_box": {
               "x_max": 76.0,
-              "x_min": 3.9999999999999973,
+              "x_min": 3.9999999999999947,
               "y_max": 17.000000000000007,
               "y_min": -6.6274169979695206,
               "z_max": 8.0,
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 4373.481150991029
+            "volume_mm3": 4373.557126648305
           }
         }
       ],
@@ -33,12 +33,12 @@
               "x_max": 13.064615384615387,
               "x_min": -6.6274169979695206,
               "y_max": 76.0,
-              "y_min": 3.9999999999999987,
+              "y_min": 3.9999999999999982,
               "z_max": 8.0,
               "z_min": -1.7763568394002505e-15
             },
             "is_valid": true,
-            "volume_mm3": 4358.717966105611
+            "volume_mm3": 4358.793941762933
           }
         }
       ],
@@ -54,13 +54,13 @@
             "bounding_box": {
               "x_max": 13.107465956066903,
               "x_min": -6.627416997969521,
-              "y_max": 4.000000000000016,
-              "y_min": -4.0,
+              "y_max": 4.0,
+              "y_min": -4.000000000000016,
               "z_max": 80.0,
-              "z_min": 7.999999999999999
+              "z_min": 7.999999999999998
             },
             "is_valid": true,
-            "volume_mm3": 4349.234960506027
+            "volume_mm3": 4349.395214175964
           }
         }
       ],
@@ -74,12 +74,12 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 10.0,
+              "x_max": 10.000000000000002,
               "x_min": -4.0,
               "y_max": 10.000000000000002,
               "y_min": -4.0,
               "z_max": 14.000000000000002,
-              "z_min": -1.2434497928741312e-15
+              "z_min": -1.887379141862766e-15
             },
             "is_valid": true,
             "volume_mm3": 847.8603505652248
@@ -142,13 +142,13 @@
             "bounding_box": {
               "x_max": 13.107465956066903,
               "x_min": -6.627416997969521,
-              "y_max": 4.000000000000016,
-              "y_min": -4.0,
+              "y_max": 4.0,
+              "y_min": -4.000000000000016,
               "z_max": 72.0,
               "z_min": -8.881784197001252e-16
             },
             "is_valid": true,
-            "volume_mm3": 4498.208036253993
+            "volume_mm3": 4498.208036253992
           }
         }
       ],
@@ -165,12 +165,12 @@
               "x_max": 13.064615384615387,
               "x_min": -6.6274169979695206,
               "y_max": 72.0,
-              "y_min": -1.154634656115594e-15,
+              "y_min": -1.7763568394002505e-15,
               "z_max": 8.0,
               "z_min": -1.7763568394002505e-15
             },
             "is_valid": true,
-            "volume_mm3": 4358.717966105612
+            "volume_mm3": 4358.793941762932
           }
         }
       ],
@@ -185,14 +185,14 @@
           "metrics": {
             "bounding_box": {
               "x_max": 72.0,
-              "x_min": -2.6645352591003757e-15,
+              "x_min": -3.552713678800501e-15,
               "y_max": 17.000000000000007,
               "y_min": -6.6274169979695206,
               "z_max": 8.0,
               "z_min": 0.0
             },
             "is_valid": true,
-            "volume_mm3": 4373.481150991078
+            "volume_mm3": 4373.557126648318
           }
         }
       ],
@@ -208,13 +208,13 @@
             "bounding_box": {
               "x_max": 13.107465956066903,
               "x_min": -6.627416997969521,
-              "y_max": 4.000000000000016,
-              "y_min": -4.0,
+              "y_max": 4.0,
+              "y_min": -4.000000000000016,
               "z_max": 72.0,
-              "z_min": -8.881784197001252e-16
+              "z_min": -1.1102230246251565e-15
             },
             "is_valid": true,
-            "volume_mm3": 4349.234960506027
+            "volume_mm3": 4349.395214175964
           }
         }
       ],
@@ -250,12 +250,12 @@
           "index": 1,
           "metrics": {
             "bounding_box": {
-              "x_max": 10.0,
+              "x_max": 10.000000000000002,
               "x_min": -4.0,
               "y_max": 10.000000000000002,
               "y_min": -4.0,
               "z_max": 14.000000000000002,
-              "z_min": -1.2434497928741312e-15
+              "z_min": -1.887379141862766e-15
             },
             "is_valid": true,
             "volume_mm3": 847.8603505652248
@@ -318,8 +318,8 @@
             "bounding_box": {
               "x_max": 6.627416997969521,
               "x_min": -6.627416997969521,
-              "y_max": 4.000000000000016,
-              "y_min": -4.0,
+              "y_max": 4.0,
+              "y_min": -4.000000000000016,
               "z_max": 72.0,
               "z_min": -8.881784197001252e-16
             },
@@ -384,13 +384,13 @@
             "bounding_box": {
               "x_max": 13.107465956066903,
               "x_min": -6.627416997969521,
-              "y_max": 4.000000000000016,
-              "y_min": -4.0,
+              "y_max": 4.0,
+              "y_min": -4.000000000000016,
               "z_max": 72.0,
               "z_min": -8.881784197001252e-16
             },
             "is_valid": true,
-            "volume_mm3": 4496.77506356431
+            "volume_mm3": 4496.775063564311
           }
         }
       ],
@@ -456,7 +456,7 @@
               "z_min": -1.3322676295501878e-15
             },
             "is_valid": true,
-            "volume_mm3": 718.0219480452251
+            "volume_mm3": 718.0219480452253
           }
         }
       ],
@@ -494,13 +494,13 @@
             "bounding_box": {
               "x_max": 13.107465956066903,
               "x_min": -6.627416997969521,
-              "y_max": 4.000000000000016,
-              "y_min": -4.0,
+              "y_max": 4.0,
+              "y_min": -4.000000000000016,
               "z_max": 72.0,
               "z_min": -8.881784197001252e-16
             },
             "is_valid": true,
-            "volume_mm3": 4352.570036253996
+            "volume_mm3": 4352.570036253995
           }
         }
       ],
@@ -555,13 +555,10 @@
     "Body": {
       "label": "Body-x",
       "metrics": {
-        "edge_count": 91,
-        "face_count": 31,
         "feature_count": 8,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Chamfer004002002002005",
-        "vertex_count": 61
+        "tip_name": "Chamfer004002002002005"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
@@ -569,13 +566,10 @@
     "Body001": {
       "label": "Body-y",
       "metrics": {
-        "edge_count": 80,
-        "face_count": 29,
         "feature_count": 8,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Chamfer004002002002004",
-        "vertex_count": 53
+        "tip_name": "Chamfer004002002002004"
       },
       "name": "Body001",
       "type_id": "PartDesign::Body"
@@ -583,13 +577,10 @@
     "Body002": {
       "label": "Body-z",
       "metrics": {
-        "edge_count": 83,
-        "face_count": 30,
         "feature_count": 8,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Chamfer004002002002006",
-        "vertex_count": 55
+        "tip_name": "Chamfer004002002002006"
       },
       "name": "Body002",
       "type_id": "PartDesign::Body"
@@ -597,13 +588,10 @@
     "Body002002": {
       "label": "Body-joint",
       "metrics": {
-        "edge_count": 115,
-        "face_count": 50,
         "feature_count": 10,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Chamfer004002002002008",
-        "vertex_count": 68
+        "tip_name": "Chamfer004002002002008"
       },
       "name": "Body002002",
       "type_id": "PartDesign::Body"
@@ -613,11 +601,8 @@
     "Chamfer": {
       "label": "Chamfer-Y",
       "metrics": {
-        "edge_count": 56,
-        "face_count": 20,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 38
+        "shape_type": "Solid"
       },
       "name": "Chamfer",
       "type_id": "PartDesign::Chamfer"
@@ -625,11 +610,8 @@
     "Chamfer004002002002002": {
       "label": "Chamfer-X-letter",
       "metrics": {
-        "edge_count": 67,
-        "face_count": 22,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 46
+        "shape_type": "Solid"
       },
       "name": "Chamfer004002002002002",
       "type_id": "PartDesign::Chamfer"
@@ -637,11 +619,8 @@
     "Chamfer004002002002003": {
       "label": "Chamfer-Z",
       "metrics": {
-        "edge_count": 58,
-        "face_count": 19,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 40
+        "shape_type": "Solid"
       },
       "name": "Chamfer004002002002003",
       "type_id": "PartDesign::Chamfer"
@@ -649,11 +628,8 @@
     "Chamfer004002002002004": {
       "label": "Chamfer-socket-Y",
       "metrics": {
-        "edge_count": 80,
-        "face_count": 29,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 53
+        "shape_type": "Solid"
       },
       "name": "Chamfer004002002002004",
       "type_id": "PartDesign::Chamfer"
@@ -661,11 +637,8 @@
     "Chamfer004002002002005": {
       "label": "Chamfer-socket-X",
       "metrics": {
-        "edge_count": 91,
-        "face_count": 31,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 61
+        "shape_type": "Solid"
       },
       "name": "Chamfer004002002002005",
       "type_id": "PartDesign::Chamfer"
@@ -673,11 +646,8 @@
     "Chamfer004002002002006": {
       "label": "Chamfer-socket-Z",
       "metrics": {
-        "edge_count": 83,
-        "face_count": 30,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 55
+        "shape_type": "Solid"
       },
       "name": "Chamfer004002002002006",
       "type_id": "PartDesign::Chamfer"
@@ -685,11 +655,8 @@
     "Chamfer004002002002007": {
       "label": "Chamfer-joint",
       "metrics": {
-        "edge_count": 85,
-        "face_count": 35,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 53
+        "shape_type": "Solid"
       },
       "name": "Chamfer004002002002007",
       "type_id": "PartDesign::Chamfer"
@@ -697,11 +664,8 @@
     "Chamfer004002002002008": {
       "label": "Chamfer-endings",
       "metrics": {
-        "edge_count": 115,
-        "face_count": 50,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 68
+        "shape_type": "Solid"
       },
       "name": "Chamfer004002002002008",
       "type_id": "PartDesign::Chamfer"
@@ -709,11 +673,8 @@
     "Pad": {
       "label": "X-axis",
       "metrics": {
-        "edge_count": 21,
-        "face_count": 9,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 14
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
@@ -721,11 +682,8 @@
     "Pad001": {
       "label": "Y-axis",
       "metrics": {
-        "edge_count": 21,
-        "face_count": 9,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 14
+        "shape_type": "Solid"
       },
       "name": "Pad001",
       "type_id": "PartDesign::Pad"
@@ -733,11 +691,8 @@
     "Pad002": {
       "label": "Z-axis",
       "metrics": {
-        "edge_count": 21,
-        "face_count": 9,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 14
+        "shape_type": "Solid"
       },
       "name": "Pad002",
       "type_id": "PartDesign::Pad"
@@ -745,11 +700,8 @@
     "Pad003": {
       "label": "X-letter",
       "metrics": {
-        "edge_count": 57,
-        "face_count": 20,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 38
+        "shape_type": "Solid"
       },
       "name": "Pad003",
       "type_id": "PartDesign::Pad"
@@ -757,11 +709,8 @@
     "Pad004": {
       "label": "Y-letter",
       "metrics": {
-        "edge_count": 51,
-        "face_count": 19,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 34
+        "shape_type": "Solid"
       },
       "name": "Pad004",
       "type_id": "PartDesign::Pad"
@@ -769,11 +718,8 @@
     "Pad005": {
       "label": "Z-letter",
       "metrics": {
-        "edge_count": 48,
-        "face_count": 17,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 32
+        "shape_type": "Solid"
       },
       "name": "Pad005",
       "type_id": "PartDesign::Pad"
@@ -781,11 +727,8 @@
     "Pad006": {
       "label": "Pad-joint-box",
       "metrics": {
-        "edge_count": 12,
-        "face_count": 6,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 8
+        "shape_type": "Solid"
       },
       "name": "Pad006",
       "type_id": "PartDesign::Pad"
@@ -793,11 +736,8 @@
     "Pad007": {
       "label": "Pad-shank-X",
       "metrics": {
-        "edge_count": 27,
-        "face_count": 11,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 18
+        "shape_type": "Solid"
       },
       "name": "Pad007",
       "type_id": "PartDesign::Pad"
@@ -805,11 +745,8 @@
     "Pad008": {
       "label": "Pad-shank-Y",
       "metrics": {
-        "edge_count": 42,
-        "face_count": 16,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 28
+        "shape_type": "Solid"
       },
       "name": "Pad008",
       "type_id": "PartDesign::Pad"
@@ -817,11 +754,8 @@
     "Pad009": {
       "label": "Pad-shank-Z",
       "metrics": {
-        "edge_count": 57,
-        "face_count": 22,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 38
+        "shape_type": "Solid"
       },
       "name": "Pad009",
       "type_id": "PartDesign::Pad"
@@ -829,11 +763,8 @@
     "Pocket": {
       "label": "Pocket-socket-Z",
       "metrics": {
-        "edge_count": 73,
-        "face_count": 25,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 50
+        "shape_type": "Solid"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -841,11 +772,8 @@
     "Pocket003": {
       "label": "Pocket-socket-Y",
       "metrics": {
-        "edge_count": 71,
-        "face_count": 25,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 48
+        "shape_type": "Solid"
       },
       "name": "Pocket003",
       "type_id": "PartDesign::Pocket"
@@ -853,23 +781,20 @@
     "Pocket004": {
       "label": "Pocket-socket-X",
       "metrics": {
-        "edge_count": 82,
-        "face_count": 27,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 56
+        "shape_type": "Solid"
       },
       "name": "Pocket004",
       "type_id": "PartDesign::Pocket"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch-X-axis",
       "metrics": {
         "constraint_count": 19,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 7,
@@ -883,7 +808,7 @@
       "label": "Sketch-Y-axis",
       "metrics": {
         "constraint_count": 19,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 7,
@@ -897,7 +822,7 @@
       "label": "Sketc-Z-axis",
       "metrics": {
         "constraint_count": 23,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 9,
@@ -911,7 +836,7 @@
       "label": "Sketch-X-letter",
       "metrics": {
         "constraint_count": 55,
-        "degrees_of_freedom": 1,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
         "fully_constrained": false,
         "geometry_count": 22,
@@ -925,7 +850,7 @@
       "label": "Sketch-Y-letter",
       "metrics": {
         "constraint_count": 52,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
         "fully_constrained": true,
         "geometry_count": 20,
@@ -939,7 +864,7 @@
       "label": "Sketch-Z-letter",
       "metrics": {
         "constraint_count": 37,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
         "fully_constrained": true,
         "geometry_count": 14,
@@ -953,7 +878,7 @@
       "label": "Sketch-joint-box",
       "metrics": {
         "constraint_count": 11,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 4,
@@ -967,7 +892,7 @@
       "label": "Sketch-shank-X",
       "metrics": {
         "constraint_count": 25,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 9,
@@ -981,7 +906,7 @@
       "label": "Sketch-shank-Y",
       "metrics": {
         "constraint_count": 25,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 9,
@@ -995,7 +920,7 @@
       "label": "Sketch-socket-Y",
       "metrics": {
         "constraint_count": 14,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 5,
@@ -1009,7 +934,7 @@
       "label": "Sketch-socket-X",
       "metrics": {
         "constraint_count": 14,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 5,
@@ -1023,7 +948,7 @@
       "label": "Sketch-shank-Z",
       "metrics": {
         "constraint_count": 35,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 13,
@@ -1037,7 +962,7 @@
       "label": "Sketch-socket-Z",
       "metrics": {
         "constraint_count": 16,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 6,
@@ -1049,17 +974,19 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:34:22.388830+00:00",
+    "data_creation_date": "2026-03-27T21:06:46.404104+00:00",
     "document_label": "MG_AxisCross",
     "document_name": "MG_AxisCross",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_AxisCross.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\MG_AxisCross.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   },
   "spreadsheets": {
     "Spreadsheet": {
       "label": "Config",
       "metrics": {
-        "cell_count": 8,
+        "cell_count": -1,
         "is_valid": true
       },
       "name": "Spreadsheet",

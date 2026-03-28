@@ -18,6 +18,16 @@
       "type_id": "App::Part"
     }
   },
+  "materials": {
+    "Part": {
+      "label": "AP3030S8_ConnectorSquare",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "Body": {
       "label": "Body",
@@ -90,101 +100,35 @@
     "Body": {
       "label": "Body",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Pad",
-        "vertex_count": 16
+        "tip_name": "Pad"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
     }
   },
   "partdesign_features": {
-    "AssyMountCenter": {
-      "label": "AssyMountCenter",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "AssyMountCenter",
-      "type_id": "PartDesign::CoordinateSystem"
-    },
-    "AssyMountHole1": {
-      "label": "AssyMountHole1",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "AssyMountHole1",
-      "type_id": "PartDesign::CoordinateSystem"
-    },
-    "AssyMountHole2": {
-      "label": "AssyMountHole2",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "AssyMountHole2",
-      "type_id": "PartDesign::CoordinateSystem"
-    },
-    "AssyMountHole3": {
-      "label": "AssyMountHole3",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "AssyMountHole3",
-      "type_id": "PartDesign::CoordinateSystem"
-    },
-    "AssyMountHole4": {
-      "label": "AssyMountHole4",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "AssyMountHole4",
-      "type_id": "PartDesign::CoordinateSystem"
-    },
     "Pad": {
       "label": "Pad",
       "metrics": {
-        "edge_count": 24,
-        "face_count": 10,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 16
+        "shape_type": "Solid"
       },
       "name": "Pad",
       "type_id": "PartDesign::Pad"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
       "metrics": {
         "constraint_count": 32,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
-        "fully_constrained": false,
+        "fully_constrained": true,
         "geometry_count": 12,
         "is_valid": false,
         "solver_status": -2
@@ -194,10 +138,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:34:04.616263+00:00",
+    "data_creation_date": "2026-03-27T21:06:29.554392+00:00",
     "document_label": "FL_AP3030S8_ConnectorSquare",
     "document_name": "FL_AP3030S8_ConnectorSquare",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_ConnectorSquare.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_ConnectorSquare.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   }
 }

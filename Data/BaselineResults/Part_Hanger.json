@@ -128,7 +128,7 @@
               "z_min": -15.0
             },
             "is_valid": true,
-            "volume_mm3": 544.0693770233541
+            "volume_mm3": 544.069377023354
           }
         }
       ],
@@ -175,12 +175,9 @@
     "Extrude": {
       "label": "Extrude",
       "metrics": {
-        "edge_count": 22,
-        "face_count": 7,
         "is_valid": true,
         "shape_type": "Shell",
-        "shell_is_closed": false,
-        "vertex_count": 16
+        "shell_is_closed": false
       },
       "name": "Extrude",
       "type_id": "Part::Extrusion"
@@ -188,12 +185,9 @@
     "Extrude001": {
       "label": "Extrude001",
       "metrics": {
-        "edge_count": 7,
-        "face_count": 2,
         "is_valid": true,
         "shape_type": "Shell",
-        "shell_is_closed": false,
-        "vertex_count": 6
+        "shell_is_closed": false
       },
       "name": "Extrude001",
       "type_id": "Part::Extrusion"
@@ -201,12 +195,9 @@
     "Fillet": {
       "label": "Fillet",
       "metrics": {
-        "edge_count": 25,
-        "face_count": 8,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": false,
-        "vertex_count": 18
+        "shell_is_closed": false
       },
       "name": "Fillet",
       "type_id": "Part::Fillet"
@@ -214,12 +205,9 @@
     "Fillet001": {
       "label": "Fillet001",
       "metrics": {
-        "edge_count": 28,
-        "face_count": 9,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": false,
-        "vertex_count": 20
+        "shell_is_closed": false
       },
       "name": "Fillet001",
       "type_id": "Part::Fillet"
@@ -227,12 +215,9 @@
     "Fillet002": {
       "label": "Fillet002",
       "metrics": {
-        "edge_count": 82,
-        "face_count": 40,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 44
+        "shell_is_closed": true
       },
       "name": "Fillet002",
       "type_id": "Part::Fillet"
@@ -240,12 +225,9 @@
     "Fillet003": {
       "label": "Fillet003",
       "metrics": {
-        "edge_count": 117,
-        "face_count": 51,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 66
+        "shell_is_closed": true
       },
       "name": "Fillet003",
       "type_id": "Part::Fillet"
@@ -253,12 +235,9 @@
     "Fusion": {
       "label": "Fusion",
       "metrics": {
-        "edge_count": 102,
-        "face_count": 48,
         "is_valid": true,
         "shape_type": "Compound",
-        "shell_is_closed": true,
-        "vertex_count": 54
+        "shell_is_closed": true
       },
       "name": "Fusion",
       "type_id": "Part::Fuse"
@@ -266,12 +245,9 @@
     "Offset": {
       "label": "Offset",
       "metrics": {
-        "edge_count": 76,
-        "face_count": 38,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 40
+        "shell_is_closed": true
       },
       "name": "Offset",
       "type_id": "Part::Offset"
@@ -279,12 +255,9 @@
     "Offset001": {
       "label": "Offset001",
       "metrics": {
-        "edge_count": 20,
-        "face_count": 10,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 12
+        "shell_is_closed": true
       },
       "name": "Offset001",
       "type_id": "Part::Offset"
@@ -303,7 +276,7 @@
       "type_id": "PartDesign::Body"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "Sketch",
@@ -335,10 +308,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-13T14:53:14.766084+00:00",
+    "data_creation_date": "2026-03-27T21:08:31.632824+00:00",
     "document_label": "Part_Hanger",
     "document_name": "Part_Hanger",
-    "freecad_version": "1.2.0 45706 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Part_Hanger.FCStd"
+    "freecad_version": "1.2.0 45400 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Part_Hanger.FCStd",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.2"
   }
 }

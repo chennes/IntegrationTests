@@ -18,6 +18,16 @@
       "type_id": "App::Part"
     }
   },
+  "materials": {
+    "Part": {
+      "label": "ISO4029_SetScrewCupPoint",
+      "metrics": {
+        "is_valid": true
+      },
+      "name": "Part",
+      "type_id": "App::Part"
+    }
+  },
   "objects": {
     "BaseFeature": {
       "label": "BaseFeature",
@@ -73,9 +83,9 @@
             "bounding_box": {
               "x_max": 2.4587341226347257,
               "x_min": -2.4587341226347257,
-              "y_max": 2.4587341226347257,
-              "y_min": -2.4587341226347275,
-              "z_max": 1.9984014443252826e-15,
+              "y_max": 2.4587341226347275,
+              "y_min": -2.4587341226347257,
+              "z_max": 2.220446049250313e-15,
               "z_min": -8.0
             },
             "is_valid": true,
@@ -178,12 +188,9 @@
     "ScrewTap": {
       "label": "M6x8.0-ScrewTap",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
         "shape_type": "Solid",
-        "shell_is_closed": true,
-        "vertex_count": 2
+        "shell_is_closed": true
       },
       "name": "ScrewTap",
       "type_id": "Part::FeaturePython"
@@ -193,51 +200,21 @@
     "Body": {
       "label": "Body",
       "metrics": {
-        "edge_count": 23,
-        "face_count": 11,
         "feature_count": 7,
         "is_valid": true,
         "tip_is_valid": true,
-        "tip_name": "Revolution",
-        "vertex_count": 15
+        "tip_name": "Revolution"
       },
       "name": "Body",
       "type_id": "PartDesign::Body"
     }
   },
   "partdesign_features": {
-    "AssyBottom": {
-      "label": "AssyBottom",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "AssyBottom",
-      "type_id": "PartDesign::CoordinateSystem"
-    },
-    "AssyTop": {
-      "label": "AssyTop",
-      "metrics": {
-        "edge_count": 0,
-        "face_count": 1,
-        "is_valid": true,
-        "shape_type": "Face",
-        "vertex_count": 0
-      },
-      "name": "AssyTop",
-      "type_id": "PartDesign::CoordinateSystem"
-    },
     "BaseFeature": {
       "label": "BaseFeature",
       "metrics": {
-        "edge_count": 3,
-        "face_count": 3,
         "is_valid": true,
-        "shape_type": "Solid",
-        "vertex_count": 2
+        "shape_type": "Solid"
       },
       "name": "BaseFeature",
       "type_id": "PartDesign::FeatureBase"
@@ -245,11 +222,8 @@
     "Groove": {
       "label": "Bevels",
       "metrics": {
-        "edge_count": 34,
-        "face_count": 18,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 17
+        "shape_type": "Solid"
       },
       "name": "Groove",
       "type_id": "PartDesign::Groove"
@@ -257,11 +231,8 @@
     "Pocket": {
       "label": "HeadHole",
       "metrics": {
-        "edge_count": 21,
-        "face_count": 10,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 14
+        "shape_type": "Solid"
       },
       "name": "Pocket",
       "type_id": "PartDesign::Pocket"
@@ -269,23 +240,20 @@
     "Revolution": {
       "label": "Revolution",
       "metrics": {
-        "edge_count": 23,
-        "face_count": 11,
         "is_valid": true,
-        "shape_type": "Compound",
-        "vertex_count": 15
+        "shape_type": "Solid"
       },
       "name": "Revolution",
       "type_id": "PartDesign::Revolution"
     }
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "sketches": {
     "Sketch": {
       "label": "SketchHexagonKey",
       "metrics": {
         "constraint_count": 20,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 7,
@@ -299,7 +267,7 @@
       "label": "SketchBevels",
       "metrics": {
         "constraint_count": 26,
-        "degrees_of_freedom": 6,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
         "fully_constrained": false,
         "geometry_count": 11,
@@ -313,7 +281,7 @@
       "label": "InnerHeadHexagonBevel",
       "metrics": {
         "constraint_count": 12,
-        "degrees_of_freedom": 0,
+        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
         "fully_constrained": true,
         "geometry_count": 4,
@@ -325,10 +293,12 @@
     }
   },
   "source": {
-    "data_creation_date": "2026-03-27T01:34:20.555447+00:00",
+    "data_creation_date": "2026-03-27T21:06:39.502384+00:00",
     "document_label": "FL_ISO4029_SetScrewCupPoint",
     "document_name": "FL_ISO4029_SetScrewCupPoint",
-    "freecad_version": "1.2.0 45935 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_ISO4029_SetScrewCupPoint.FCStd"
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_ISO4029_SetScrewCupPoint.FCStd",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
   }
 }

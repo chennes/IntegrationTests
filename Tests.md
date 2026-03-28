@@ -45,7 +45,6 @@
 | MG_SampleBox.FCStd | 2026-03-27 | 0.19 | Sample box with Chamfer, Fillet, Mirrored |
 | MG_B3FKeycap.FCStd | 2026-03-27 | 0.19 | Keycap with Pad and Revolution |
 | MG_NeoPixelBubble.FCStd | 2026-03-27 | 0.19 | NeoPixel bubble with Pocket and Revolution |
-| MG_XBeeSX868.FCStd | 2026-03-27 | 0.19 | XBee radio module with Chamfer and Fillet |
 | MG_XYZCube.FCStd | 2026-03-27 | 0.19 | XYZ calibration cube with Pad and Pocket |
 | MG_AxisCross.FCStd | 2026-03-27 | 0.19 | Axis cross with Chamfer and Pad |
 | MG_DupontCable.FCStd | 2026-03-27 | 0.19 | Dupont cable connector with AdditiveLoft |

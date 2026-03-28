@@ -114,9 +114,15 @@ def parse_args(argv: List[str]) -> argparse.Namespace:
         help="Folder containing accepted-change exception JSON files (optional)",
     )
     parser.add_argument(
+        "--known-failures-dir",
+        required=False,
+        default=None,
+        help="Folder containing known-failure rule JSON files (optional)",
+    )
+    parser.add_argument(
         "--strict",
         action="store_true",
-        help="Ignore all accepted-change exceptions and report every mismatch as a failure",
+        help="Ignore all accepted-change exceptions and known failures; report every mismatch",
     )
     return parser.parse_args(argv)
 
@@ -499,7 +505,9 @@ def main(argv: List[str]) -> int:
     fcstd_dir = Path(args.fcstd_dir)
     baseline_dir = Path(args.baseline_dir)
     exceptions_dir = Path(args.exceptions_dir) if args.exceptions_dir else None
+    known_failures_dir = Path(args.known_failures_dir) if args.known_failures_dir else None
     use_exceptions = exceptions_dir is not None and not args.strict
+    use_known_failures = known_failures_dir is not None and not args.strict
 
     single_test_to_run = None
     if args.filename:
@@ -511,6 +519,8 @@ def main(argv: List[str]) -> int:
     required_paths = [freecad_exe, script_path, fcstd_dir, baseline_dir]
     if exceptions_dir is not None:
         required_paths.append(exceptions_dir)
+    if known_failures_dir is not None:
+        required_paths.append(known_failures_dir)
     for path in required_paths:
         if not path.exists():
             print(f"ERROR: Path does not exist: {path}", file=sys.stderr)
@@ -529,8 +539,10 @@ def main(argv: List[str]) -> int:
     total_files = 0
     ok_files = 0
     mismatch_files = 0
+    known_failure_files = 0
     error_files = 0
     total_accepted = 0
+    total_known_failures = 0
 
     date_string = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
@@ -570,38 +582,63 @@ def main(argv: List[str]) -> int:
                     if not diff.ok:
                         bad_with_section.append((section_name, diff))
 
-            # Partition into truly-bad and accepted using exception rules
+            # Partition into accepted, known failures, and truly-bad
             accepted: List[tuple] = []
+            known: List[tuple] = []
             truly_bad: List[tuple] = []
-            if use_exceptions and bad_with_section:
+            remaining = bad_with_section
+
+            # First pass: accepted exceptions
+            if use_exceptions and remaining:
                 rules = load_accepted_changes(exceptions_dir, stem)
-                for section_name, diff in bad_with_section:
+                next_remaining = []
+                for section_name, diff in remaining:
                     rule = find_matching_rule(diff, section_name, rules)
                     if rule is not None:
                         accepted.append((section_name, diff, rule))
                     else:
-                        truly_bad.append((section_name, diff))
-            else:
-                truly_bad = bad_with_section
+                        next_remaining.append((section_name, diff))
+                remaining = next_remaining
+
+            # Second pass: known failures
+            if use_known_failures and remaining:
+                kf_rules = load_accepted_changes(known_failures_dir, stem)
+                next_remaining = []
+                for section_name, diff in remaining:
+                    rule = find_matching_rule(diff, section_name, kf_rules)
+                    if rule is not None:
+                        known.append((section_name, diff, rule))
+                    else:
+                        next_remaining.append((section_name, diff))
+                remaining = next_remaining
+
+            truly_bad = remaining
 
             total_accepted += len(accepted)
+            total_known_failures += len(known)
 
             if truly_bad:
                 mismatch_files += 1
                 print(f"[FAIL] {fcstd_path.name}: {len(truly_bad)} failure(s)")
                 for _, diff in truly_bad:
                     print_diff(diff, config)
+                if known:
+                    print(f"  ({len(known)} additional difference(s) are known failures)")
                 if accepted:
                     print(
                         f"  ({len(accepted)} additional difference(s) accepted by exception rules)"
                     )
-                    if args.verbose:
-                        for section_name, diff, rule in accepted:
-                            print(
-                                f"    [accepted] {diff.reason} {diff.key}"
-                                f" -- {rule.description} ({rule.source})"
-                            )
                 if args.verbose:
+                    for section_name, diff, rule in known:
+                        print(
+                            f"    [known] {diff.reason} {diff.key}"
+                            f" -- {rule.description} ({rule.source})"
+                        )
+                    for section_name, diff, rule in accepted:
+                        print(
+                            f"    [accepted] {diff.reason} {diff.key}"
+                            f" -- {rule.description} ({rule.source})"
+                        )
                     for section_name, _ in EXTRACTORS:
                         diffs = section_diffs[section_name]
                         bad_count = sum(1 for diff in diffs if not diff.ok)
@@ -614,6 +651,19 @@ def main(argv: List[str]) -> int:
                 os.makedirs(new_report_file.parent, exist_ok=True)
                 with open(new_report_file, "w", encoding="utf-8") as f:
                     json.dump(new_report, f, indent=2)
+            elif known:
+                known_failure_files += 1
+                print(f"[XFAIL] {fcstd_path.name}: {len(known)} known failure(s)")
+                if args.verbose:
+                    for section_name, diff, rule in known:
+                        print(
+                            f"    [known] {diff.reason} {diff.key}"
+                            f" -- {rule.description} ({rule.source})"
+                        )
+                if accepted:
+                    print(
+                        f"  ({len(accepted)} additional difference(s) accepted by exception rules)"
+                    )
             elif accepted:
                 ok_files += 1
                 print(f"[OK]   {fcstd_path.name}: {len(accepted)} accepted change(s)")
@@ -648,10 +698,14 @@ def main(argv: List[str]) -> int:
     print("\n" + 35 * "=" + " Summary " + 35 * "=")
     print(f"Files checked: {total_files}")
     print(f"OK:            {ok_files}")
+    if known_failure_files > 0:
+        print(f"Known fails:   {known_failure_files}")
     print(f"Mismatched:    {mismatch_files}")
     print(f"Errors:        {error_files}")
     if total_accepted > 0:
-        print(f"Accepted:      {total_accepted}")
+        print(f"Accepted:      {total_accepted} difference(s)")
+    if total_known_failures > 0:
+        print(f"Known:         {total_known_failures} difference(s)")
     print(
         f"Match pct:     {config.match_percentage}"
         f" (relative_tolerance={required_relative_tolerance(config.match_percentage):.12g})"
@@ -659,12 +713,16 @@ def main(argv: List[str]) -> int:
     print(f"Abs tol mm^3:  {config.absolute_tolerance_mm3:.12g}")
     if use_exceptions:
         print(f"Exceptions:    {exceptions_dir}")
-    elif args.strict:
-        print("Exceptions:    disabled (--strict)")
+    if use_known_failures:
+        print(f"Known fails:   {known_failures_dir}")
+    if args.strict:
+        print("Strict mode:   all exceptions and known failures disabled")
     print(79 * "=")
 
     if mismatch_files or error_files:
         print("Integration tests failed")
+    elif known_failure_files > 0:
+        print("Integration tests passed (with known failures)")
     else:
         print("Integration tests passed")
 
