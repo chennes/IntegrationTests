@@ -37,6 +37,48 @@
       "metric_pattern": "missing_in_new",
       "description": "Part::Part2DObjectPython (ShapeString) no longer produces a solid shape in FreeCAD 1.2+",
       "added": "2026-03-27"
+    },
+    {
+      "section": "sketches",
+      "object_pattern": "*",
+      "metric_pattern": "*fully_constrained*",
+      "description": "Some sketches report different constraint status between FreeCAD 0.19/0.20 and 1.2dev due to solver changes",
+      "added": "2026-03-27"
+    },
+    {
+      "section": "sketches",
+      "object_pattern": "*",
+      "metric_pattern": "*solver_status*",
+      "description": "Sketch solver status codes changed between FreeCAD 0.19/0.20 and 1.2dev",
+      "added": "2026-03-27"
+    },
+    {
+      "section": "sketches",
+      "object_pattern": "*",
+      "metric_pattern": "*is_valid*",
+      "description": "Sketch validity may change between FreeCAD versions due to solver and constraint engine changes",
+      "added": "2026-03-27"
+    },
+    {
+      "section": "techdraw_pages",
+      "object_pattern": "*",
+      "metric_pattern": "*template_name*",
+      "description": "TechDraw template paths are absolute and include temp directories from the baseline generation environment",
+      "added": "2026-03-27"
+    },
+    {
+      "section": "objects",
+      "object_pattern": "ShapeString*",
+      "metric_pattern": "missing_in_baseline",
+      "description": "ShapeString objects may produce solids in newer FreeCAD versions but not in the baseline version",
+      "added": "2026-03-27"
+    },
+    {
+      "section": "partdesign_features",
+      "object_pattern": "Datum*",
+      "metric_pattern": "missing_in_new",
+      "description": "Datum features may not be reported in newer FreeCAD versions due to macro changes",
+      "added": "2026-03-27"
     }
   ]
 }

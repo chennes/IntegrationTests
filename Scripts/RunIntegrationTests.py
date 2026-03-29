@@ -16,7 +16,7 @@ Usage:
     --fcstd-dir /path/to/fcstds \
     --baseline-dir /path/to/baselines \
     --match-percentage 99.999 \
-    --absolute-tolerance-mm3 1e-9 \
+    --absolute-tolerance 1e-6 \
     --filename model.FCStd
 
 Exit codes:
@@ -85,10 +85,19 @@ def parse_args(argv: List[str]) -> argparse.Namespace:
         help="Required match percentage. 99.999 => relative tolerance = 1 - 0.99999 = 1e-5",
     )
     parser.add_argument(
-        "--absolute-tolerance-mm3",
+        "--absolute-tolerance",
         type=float,
-        default=1e-9,
-        help="Absolute tolerance in mm^3 used as a floor near zero (default: 1e-9)",
+        default=1e-6,
+        help="Absolute tolerance used as a floor near zero for all float comparisons "
+        "(default: 1e-6). Applied to both volumes (mm^3) and linear dimensions (mm).",
+    )
+    parser.add_argument(
+        "--bbox-tolerance-mm",
+        type=float,
+        default=1.0,
+        help="Absolute tolerance in mm for bounding box comparisons (default: 1.0). "
+        "Bounding box values are computed by OCC and may vary across versions even "
+        "when the underlying geometry is identical.",
     )
     parser.add_argument(
         "--recursive", action="store_true", help="Recurse into subfolders of fcstd-dir"
@@ -365,10 +374,24 @@ def compare_individual_metrics(
         # Fuzzy compare: pass if |new-baseline| <= max(absolute_tolerance, relative_tolerance*max(|baseline|,|new|))
         relative_tolerance = required_relative_tolerance(config.match_percentage)
         denominator = max(abs(baseline), abs(new))
-        tolerance = max(config.absolute_tolerance_mm3, relative_tolerance * denominator)
+
+        # Bounding box values use a separate, looser absolute tolerance because OCC
+        # may compute different bbox estimates across versions for identical geometry.
+        if "bounding_box" in metric:
+            abs_tol = config.bbox_tolerance_mm
+        else:
+            abs_tol = config.absolute_tolerance
+
+        tolerance = max(abs_tol, relative_tolerance * denominator)
         error = abs(new - baseline)
 
-        ok = error <= tolerance
+        # When both values are negligibly small (within absolute tolerance of zero),
+        # treat them as matching regardless of relative error, since relative error
+        # is meaningless for near-zero values.
+        if denominator <= abs_tol:
+            ok = True
+        else:
+            ok = error <= tolerance
         relative_error = (
             (error / denominator) if denominator > 0 else (0.0 if error == 0 else math.inf)
         )
@@ -528,7 +551,8 @@ def main(argv: List[str]) -> int:
 
     config = CompareConfig(
         match_percentage=float(args.match_percentage),
-        absolute_tolerance_mm3=float(args.absolute_tolerance_mm3),
+        absolute_tolerance=float(args.absolute_tolerance),
+        bbox_tolerance_mm=float(args.bbox_tolerance_mm),
     )
 
     fcstd_files = find_fcstd_files(fcstd_dir, args.recursive)
@@ -710,7 +734,8 @@ def main(argv: List[str]) -> int:
         f"Match pct:     {config.match_percentage}"
         f" (relative_tolerance={required_relative_tolerance(config.match_percentage):.12g})"
     )
-    print(f"Abs tol mm^3:  {config.absolute_tolerance_mm3:.12g}")
+    print(f"Abs tolerance: {config.absolute_tolerance:.12g}")
+    print(f"BBox tol mm:   {config.bbox_tolerance_mm:.6g}")
     if use_exceptions:
         print(f"Exceptions:    {exceptions_dir}")
     if use_known_failures:

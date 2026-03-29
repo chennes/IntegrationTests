@@ -1,0 +1,11 @@
+{
+  "rules": [
+    {
+      "section": "objects",
+      "object_pattern": "*",
+      "metric_pattern": "*volume_mm3*",
+      "description": "Volume changed by ~0.002% between FreeCAD 0.19 and 1.2dev due to OCC kernel differences",
+      "added": "2026-03-28"
+    }
+  ]
+}

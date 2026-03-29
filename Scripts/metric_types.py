@@ -44,7 +44,8 @@ def make_simple_extractor(section: str) -> ExtractorFunction:
 @dataclass(frozen=True)
 class CompareConfig:
     match_percentage: float  # e.g. 99.999
-    absolute_tolerance_mm3: float  # absolute floor tolerance for very small volumes
+    absolute_tolerance: float  # absolute floor tolerance for near-zero values
+    bbox_tolerance_mm: float  # absolute tolerance in mm for bounding box comparisons
 
 
 @dataclass
