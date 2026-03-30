@@ -48,8 +48,6 @@
 | MG_XYZCube.FCStd | 2026-03-27 | 0.19 | XYZ calibration cube with Pad and Pocket |
 | MG_AxisCross.FCStd | 2026-03-27 | 0.19 | Axis cross with Chamfer and Pad |
 | MG_DupontCable.FCStd | 2026-03-27 | 0.19 | Dupont cable connector with AdditiveLoft |
-| MG_EarSaverStretched.FCStd | 2026-03-27 | 0.19 | COVID ear saver (stretched variant) |
-| MG_EarSaver.FCStd | 2026-03-27 | 0.19 | COVID ear saver |
 | MG_GigglingEye.FCStd | 2026-03-27 | 0.19 | Giggling eye toy with Fillet and Revolution |
 | MG_KidToy.FCStd | 2026-03-27 | 0.19 | Kid toy with Chamfer, Fillet, Pad, Pocket |
 | MG_MotorbikeMobileSupport.FCStd | 2026-03-27 | 0.19 | Motorbike phone mount with Fillet |

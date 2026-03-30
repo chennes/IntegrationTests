@@ -70,8 +70,6 @@ A personal collection of FreeCAD models covering electronics, mechanical parts, 
 | MG_B3FKeycap.FCStd | B3F-40XX-keycap/B3F-40XX-keycap.FCStd |
 | MG_CombinationLock.FCStd | combination-lock/combination-lock.FCStd |
 | MG_DupontCable.FCStd | dupont-cable/dupont-cable.FCStd |
-| MG_EarSaver.FCStd | ear-saver-covid19/ear-saver.FCStd |
-| MG_EarSaverStretched.FCStd | ear-saver-covid19/ear-saver-streched.FCStd |
 | MG_GigglingEye.FCStd | giggling-eye/giggling-eye.FCStd |
 | MG_KidToy.FCStd | kid-toy/kid-toy.FCStd |
 | MG_MotorbikeMobileSupport.FCStd | motorbike-mobile-support/motorbike-mobile-support.FCStd |
