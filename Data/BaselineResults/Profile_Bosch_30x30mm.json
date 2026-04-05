@@ -1,7 +1,9 @@
 {
-  "app_parts": {
-    "Part": {
-      "label": "Part",
+  "app_parts": [
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 16.432817,
@@ -13,117 +15,49 @@
         },
         "child_count": 1,
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "materials": {
-    "Part": {
-      "label": "Part",
+  ],
+  "materials": [
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 16.432817,
-              "x_min": -16.432817,
-              "y_max": 17.936304,
-              "y_min": -17.936304,
-              "z_max": 100.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 63550.5440176815
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 16.432817,
-              "x_min": -16.432817,
-              "y_max": 17.936304,
-              "y_min": -17.936304,
-              "z_max": 100.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 63550.5440176815
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Part": {
-      "label": "Part",
-      "name": "Part",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 16.432817,
-              "x_min": -16.432817,
-              "y_max": 17.936304,
-              "y_min": -17.936304,
-              "z_max": 100.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 63550.5440176815
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pad"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Pad": {
-      "label": "Pad",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 0,
         "degrees_of_freedom": -1,
@@ -132,12 +66,12 @@
         "geometry_count": 116,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 200,
         "degrees_of_freedom": -1,
@@ -146,13 +80,64 @@
         "geometry_count": 121,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 16.432817,
+          "x_min": -16.432817,
+          "y_max": 17.936304,
+          "y_min": -17.936304,
+          "z_max": 100.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 63550.544017700566
+      }
+    },
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 16.432817,
+          "x_min": -16.432817,
+          "y_max": 17.936304,
+          "y_min": -17.936304,
+          "z_max": 100.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 63550.544017700566
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 16.432817,
+          "x_min": -16.432817,
+          "y_max": 17.936304,
+          "y_min": -17.936304,
+          "z_max": 100.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 63550.544017700566
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:58:48.653620+00:00",
+    "data_creation_date": "2026-04-05T22:01:13.324847+00:00",
     "document_label": "Profile_Bosch_30x30mm",
     "document_name": "Profile_Bosch_30x30mm",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",
