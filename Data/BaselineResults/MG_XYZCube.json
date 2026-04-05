@@ -1,171 +1,61 @@
 {
-  "objects": {
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 20.0,
-              "x_min": 0.0,
-              "y_max": 20.0,
-              "y_min": 0.0,
-              "z_max": 20.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 7734.178494623657
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 20.0,
-              "x_min": 0.0,
-              "y_max": 20.0,
-              "y_min": 0.0,
-              "z_max": 20.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 7999.999999999998
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pocket": {
-      "label": "Pocket-X",
-      "name": "Pocket",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 20.0,
-              "x_min": 0.0,
-              "y_max": 20.0,
-              "y_min": 0.0,
-              "z_max": 20.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 7907.68888888889
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket001": {
-      "label": "Pocket-Y",
-      "name": "Pocket001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 20.0,
-              "x_min": 0.0,
-              "y_max": 20.0,
-              "y_min": 0.0,
-              "z_max": 20.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 7836.73333333333
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket002": {
-      "label": "Pocket-Z",
-      "name": "Pocket002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 20.0,
-              "x_min": 0.0,
-              "y_max": 20.0,
-              "y_min": 0.0,
-              "z_max": 20.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 7734.178494623657
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 8,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pocket002"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Pad": {
-      "label": "Pad",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pocket": {
-      "label": "Pocket-X",
+    {
+      "_source_label": "Pocket-X",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Pocket001": {
-      "label": "Pocket-Y",
+    {
+      "_source_label": "Pocket-Y",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket001",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Pocket002": {
-      "label": "Pocket-Z",
+    {
+      "_source_label": "Pocket-Z",
+      "_source_name": "Pocket002",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket002",
-      "type_id": "PartDesign::Pocket"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 11,
         "degrees_of_freedom": -1,
@@ -174,12 +64,12 @@
         "geometry_count": 4,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch-X",
+    {
+      "_source_label": "Sketch-X",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 40,
         "degrees_of_freedom": -1,
@@ -188,12 +78,12 @@
         "geometry_count": 16,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch002": {
-      "label": "Sketch-Y",
+    {
+      "_source_label": "Sketch-Y",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 41,
         "degrees_of_freedom": -1,
@@ -202,12 +92,12 @@
         "geometry_count": 15,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch002",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch003": {
-      "label": "Sketch-Z",
+    {
+      "_source_label": "Sketch-Z",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 38,
         "degrees_of_freedom": -1,
@@ -216,13 +106,98 @@
         "geometry_count": 14,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch003",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.0,
+          "x_min": 0.0,
+          "y_max": 20.0,
+          "y_min": 0.0,
+          "z_max": 20.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 7734.178494623657
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.0,
+          "x_min": 0.0,
+          "y_max": 20.0,
+          "y_min": 0.0,
+          "z_max": 20.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 7999.999999999998
+      }
+    },
+    {
+      "_source_label": "Pocket-X",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.0,
+          "x_min": 0.0,
+          "y_max": 20.0,
+          "y_min": 0.0,
+          "z_max": 20.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 7907.68888888889
+      }
+    },
+    {
+      "_source_label": "Pocket-Y",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.0,
+          "x_min": 0.0,
+          "y_max": 20.0,
+          "y_min": 0.0,
+          "z_max": 20.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 7836.73333333333
+      }
+    },
+    {
+      "_source_label": "Pocket-Z",
+      "_source_name": "Pocket002",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.0,
+          "x_min": 0.0,
+          "y_max": 20.0,
+          "y_min": 0.0,
+          "z_max": 20.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 7734.178494623657
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:08:09.187241+00:00",
+    "data_creation_date": "2026-04-05T21:21:47.090313+00:00",
     "document_label": "MG_XYZCube",
     "document_name": "MG_XYZCube",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

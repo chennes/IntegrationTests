@@ -1,7 +1,9 @@
 {
-  "app_parts": {
-    "Model": {
-      "label": "AP3030S8_BracketSmall_With_Two_StoneM6Heavy",
+  "app_parts": [
+    {
+      "_source_label": "AP3030S8_BracketSmall_With_Two_StoneM6Heavy",
+      "_source_name": "Model",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 6.799999999999998,
@@ -13,161 +15,146 @@
         },
         "child_count": 8,
         "is_valid": true
-      },
-      "name": "Model",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "links": {
-    "AP3030S8_BracketSmall_AP3030S8_BracketSmall": {
-      "label": "AP3030S8_BracketSmall_AP3030S8_BracketSmall",
+  ],
+  "links": [
+    {
+      "_source_label": "AP3030S8_BracketSmall_AP3030S8_BracketSmall",
+      "_source_name": "AP3030S8_BracketSmall_AP3030S8_BracketSmall",
+      "_source_type_id": "App::Link",
       "metrics": {
         "is_valid": false,
         "linked_object_is_valid": false,
         "linked_object_name": null
-      },
-      "name": "AP3030S8_BracketSmall_AP3030S8_BracketSmall",
-      "type_id": "App::Link"
+      }
     },
-    "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy": {
-      "label": "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy",
+    {
+      "_source_label": "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy",
+      "_source_name": "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy",
+      "_source_type_id": "App::Link",
       "metrics": {
         "is_valid": false,
         "linked_object_is_valid": false,
         "linked_object_name": null
-      },
-      "name": "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy",
-      "type_id": "App::Link"
+      }
     },
-    "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy_2": {
-      "label": "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy_2",
+    {
+      "_source_label": "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy_2",
+      "_source_name": "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy_2",
+      "_source_type_id": "App::Link",
       "metrics": {
         "is_valid": false,
         "linked_object_is_valid": false,
         "linked_object_name": null
-      },
-      "name": "AP3030S8_StoneM6Heavy_AP3030S8_StoneM6Heavy_2",
-      "type_id": "App::Link"
+      }
     }
-  },
-  "materials": {
-    "Model": {
-      "label": "AP3030S8_BracketSmall_With_Two_StoneM6Heavy",
+  ],
+  "materials": [
+    {
+      "_source_label": "AP3030S8_BracketSmall_With_Two_StoneM6Heavy",
+      "_source_name": "Model",
+      "_source_type_id": "App::Part",
       "metrics": {
         "is_valid": true
-      },
-      "name": "Model",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Model": {
-      "label": "AP3030S8_BracketSmall_With_Two_StoneM6Heavy",
-      "name": "Model",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.799999999999998,
-              "x_min": -6.800000000000002,
-              "y_max": -7.450000000000001,
-              "y_min": -21.05,
-              "z_max": 8.80000000000003,
-              "z_min": -6.499999999999981
-            },
-            "is_valid": true,
-            "volume_mm3": 571.3253903164408
-          }
+  ],
+  "part_features": [
+    {
+      "_source_label": "M6x12-Screw",
+      "_source_name": "Screw",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "M6x12-Screw001",
+      "_source_name": "Screw001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    }
+  ],
+  "schema_version": 4,
+  "solids": [
+    {
+      "_source_label": "AP3030S8_BracketSmall_With_Two_StoneM6Heavy",
+      "_source_name": "Model",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.799999999999998,
+          "x_min": -6.800000000000002,
+          "y_max": -7.450000000000001,
+          "y_min": -21.05,
+          "z_max": 8.80000000000003,
+          "z_min": -6.499999999999981
         },
-        {
-          "index": 2,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.799999999999997,
-              "x_min": -6.8000000000000025,
-              "y_max": 6.500000000000003,
-              "y_min": -8.800000000000002,
-              "z_max": 21.05,
-              "z_min": 7.450000000000002
-            },
-            "is_valid": true,
-            "volume_mm3": 571.325390316441
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    },
-    "Screw": {
-      "label": "M6x12-Screw",
-      "name": "Screw",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.799999999999998,
-              "x_min": -6.800000000000002,
-              "y_max": -7.450000000000001,
-              "y_min": -21.05,
-              "z_max": 8.80000000000003,
-              "z_min": -6.499999999999981
-            },
-            "is_valid": true,
-            "volume_mm3": 571.3253903164408
-          }
-        }
-      ],
-      "type_id": "Part::FeaturePython"
-    },
-    "Screw001": {
-      "label": "M6x12-Screw001",
-      "name": "Screw001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.799999999999997,
-              "x_min": -6.8000000000000025,
-              "y_max": 6.500000000000003,
-              "y_min": -8.800000000000002,
-              "z_max": 21.05,
-              "z_min": 7.450000000000002
-            },
-            "is_valid": true,
-            "volume_mm3": 571.325390316441
-          }
-        }
-      ],
-      "type_id": "Part::FeaturePython"
-    }
-  },
-  "part_features": {
-    "Screw": {
-      "label": "M6x12-Screw",
-      "metrics": {
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Screw",
-      "type_id": "Part::FeaturePython"
+        "volume_mm3": 571.3253903164408
+      }
     },
-    "Screw001": {
-      "label": "M6x12-Screw001",
+    {
+      "_source_label": "AP3030S8_BracketSmall_With_Two_StoneM6Heavy",
+      "_source_name": "Model",
+      "_source_type_id": "App::Part",
       "metrics": {
+        "bounding_box": {
+          "x_max": 6.799999999999997,
+          "x_min": -6.8000000000000025,
+          "y_max": 6.500000000000003,
+          "y_min": -8.800000000000002,
+          "z_max": 21.05,
+          "z_min": 7.450000000000002
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Screw001",
-      "type_id": "Part::FeaturePython"
+        "volume_mm3": 571.325390316441
+      }
+    },
+    {
+      "_source_label": "M6x12-Screw",
+      "_source_name": "Screw",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.799999999999998,
+          "x_min": -6.800000000000002,
+          "y_max": -7.450000000000001,
+          "y_min": -21.05,
+          "z_max": 8.80000000000003,
+          "z_min": -6.499999999999981
+        },
+        "is_valid": true,
+        "volume_mm3": 571.3253903164408
+      }
+    },
+    {
+      "_source_label": "M6x12-Screw001",
+      "_source_name": "Screw001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.799999999999997,
+          "x_min": -6.8000000000000025,
+          "y_max": 6.500000000000003,
+          "y_min": -8.800000000000002,
+          "z_max": 21.05,
+          "z_min": 7.450000000000002
+        },
+        "is_valid": true,
+        "volume_mm3": 571.325390316441
+      }
     }
-  },
-  "schema_version": 3,
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:06:27.232945+00:00",
+    "data_creation_date": "2026-04-05T21:20:06.372453+00:00",
     "document_label": "FL_AP3030S8_BracketSmallTwoStones",
     "document_name": "FL_AP3030S8_BracketSmallTwoStones",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

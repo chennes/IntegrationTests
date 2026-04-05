@@ -1,7 +1,9 @@
 {
-  "app_parts": {
-    "Part": {
-      "label": "Part",
+  "app_parts": [
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 42.00000000000009,
@@ -13,293 +15,93 @@
         },
         "child_count": 2,
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Body": {
-      "label": "Unterschrank_Abdeckung",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 42.00000000000009,
-              "x_min": -42.0,
-              "y_max": 135.5,
-              "y_min": -41.99999999999978,
-              "z_max": 0.6,
-              "z_min": -5.5
-            },
-            "is_valid": true,
-            "volume_mm3": 8114.739491984226
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Chamfer": {
-      "label": "Chamfer",
-      "name": "Chamfer",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 42.00000000000009,
-              "x_min": -42.0,
-              "y_max": 135.5,
-              "y_min": -41.99999999999978,
-              "z_max": 0.6,
-              "z_min": -5.5
-            },
-            "is_valid": true,
-            "volume_mm3": 8011.730610414999
-          }
-        }
-      ],
-      "type_id": "PartDesign::Chamfer"
-    },
-    "Fillet": {
-      "label": "Fillet",
-      "name": "Fillet",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 42.00000000000009,
-              "x_min": -42.0,
-              "y_max": 135.5,
-              "y_min": -41.99999999999978,
-              "z_max": 0.6,
-              "z_min": -5.5
-            },
-            "is_valid": true,
-            "volume_mm3": 8114.739491984226
-          }
-        }
-      ],
-      "type_id": "PartDesign::Fillet"
-    },
-    "Mirrored": {
-      "label": "Mirrored",
-      "name": "Mirrored",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 42.0,
-              "x_min": -42.0,
-              "y_max": 135.5,
-              "y_min": -41.99999999999978,
-              "z_max": 0.6,
-              "z_min": -5.5
-            },
-            "is_valid": true,
-            "volume_mm3": 8022.530610415004
-          }
-        }
-      ],
-      "type_id": "PartDesign::Mirrored"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 39.5,
-              "x_min": -39.5,
-              "y_max": 75.5,
-              "y_min": -39.5,
-              "z_max": 0.0,
-              "z_min": -5.5
-            },
-            "is_valid": true,
-            "volume_mm3": 46284.34232884956
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad001": {
-      "label": "Pad001",
-      "name": "Pad001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 42.0,
-              "x_min": -41.99999999999994,
-              "y_max": 75.5,
-              "y_min": -41.99999999999978,
-              "z_max": 0.6,
-              "z_min": -5.5
-            },
-            "is_valid": true,
-            "volume_mm3": 6762.530610414999
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad002": {
-      "label": "Pad002",
-      "name": "Pad002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 42.0,
-              "x_min": -42.0,
-              "y_max": 135.5,
-              "y_min": -41.99999999999978,
-              "z_max": 0.6,
-              "z_min": -5.5
-            },
-            "is_valid": true,
-            "volume_mm3": 7392.530610415001
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Part": {
-      "label": "Part",
-      "name": "Part",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 42.00000000000009,
-              "x_min": -42.0,
-              "y_max": 135.5,
-              "y_min": -41.99999999999978,
-              "z_max": 0.6,
-              "z_min": -5.5
-            },
-            "is_valid": true,
-            "volume_mm3": 8114.739491984226
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    },
-    "Thickness": {
-      "label": "Thickness",
-      "name": "Thickness",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 39.5,
-              "x_min": -39.5,
-              "y_max": 75.5,
-              "y_min": -39.5,
-              "z_max": 0.0,
-              "z_min": -5.5
-            },
-            "is_valid": true,
-            "volume_mm3": 1294.799778135306
-          }
-        }
-      ],
-      "type_id": "PartDesign::Thickness"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Unterschrank_Abdeckung",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Unterschrank_Abdeckung",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 10,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Fillet"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Chamfer": {
-      "label": "Chamfer",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Chamfer",
-      "type_id": "PartDesign::Chamfer"
-    },
-    "Fillet": {
-      "label": "Fillet",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Fillet",
-      "type_id": "PartDesign::Fillet"
-    },
-    "Mirrored": {
-      "label": "Mirrored",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Mirrored",
-      "type_id": "PartDesign::Mirrored"
-    },
-    "Pad": {
-      "label": "Pad",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad001": {
-      "label": "Pad001",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Pad001",
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad002": {
-      "label": "Pad002",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Pad002",
-      "type_id": "PartDesign::Pad"
-    },
-    "Thickness": {
-      "label": "Thickness",
+    {
+      "_source_label": "Thickness",
+      "_source_name": "Thickness",
+      "_source_type_id": "PartDesign::Thickness",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Thickness",
-      "type_id": "PartDesign::Thickness"
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Pad002",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Chamfer",
+      "_source_name": "Chamfer",
+      "_source_type_id": "PartDesign::Chamfer",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 11,
         "degrees_of_freedom": 0,
@@ -308,12 +110,12 @@
         "geometry_count": 4,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 10,
         "degrees_of_freedom": 0,
@@ -322,12 +124,12 @@
         "geometry_count": 4,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch002": {
-      "label": "Sketch002",
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 11,
         "degrees_of_freedom": 0,
@@ -336,12 +138,12 @@
         "geometry_count": 4,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch002",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch003": {
-      "label": "Abfluss",
+    {
+      "_source_label": "Abfluss",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 3,
         "degrees_of_freedom": 0,
@@ -350,16 +152,169 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch003",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 42.00000000000009,
+          "x_min": -42.0,
+          "y_max": 135.5,
+          "y_min": -41.99999999999978,
+          "z_max": 0.6,
+          "z_min": -5.5
+        },
+        "is_valid": true,
+        "volume_mm3": 8114.739491984226
+      }
+    },
+    {
+      "_source_label": "Unterschrank_Abdeckung",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 42.00000000000009,
+          "x_min": -42.0,
+          "y_max": 135.5,
+          "y_min": -41.99999999999978,
+          "z_max": 0.6,
+          "z_min": -5.5
+        },
+        "is_valid": true,
+        "volume_mm3": 8114.739491984226
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 39.5,
+          "x_min": -39.5,
+          "y_max": 75.5,
+          "y_min": -39.5,
+          "z_max": 0.0,
+          "z_min": -5.5
+        },
+        "is_valid": true,
+        "volume_mm3": 46284.34232884956
+      }
+    },
+    {
+      "_source_label": "Thickness",
+      "_source_name": "Thickness",
+      "_source_type_id": "PartDesign::Thickness",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 39.5,
+          "x_min": -39.5,
+          "y_max": 75.5,
+          "y_min": -39.5,
+          "z_max": 0.0,
+          "z_min": -5.5
+        },
+        "is_valid": true,
+        "volume_mm3": 1294.799778135306
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 42.0,
+          "x_min": -41.99999999999994,
+          "y_max": 75.5,
+          "y_min": -41.99999999999978,
+          "z_max": 0.6,
+          "z_min": -5.5
+        },
+        "is_valid": true,
+        "volume_mm3": 6762.530610414999
+      }
+    },
+    {
+      "_source_label": "Pad002",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 42.0,
+          "x_min": -42.0,
+          "y_max": 135.5,
+          "y_min": -41.99999999999978,
+          "z_max": 0.6,
+          "z_min": -5.5
+        },
+        "is_valid": true,
+        "volume_mm3": 7392.530610415001
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 42.0,
+          "x_min": -42.0,
+          "y_max": 135.5,
+          "y_min": -41.99999999999978,
+          "z_max": 0.6,
+          "z_min": -5.5
+        },
+        "is_valid": true,
+        "volume_mm3": 8022.530610415004
+      }
+    },
+    {
+      "_source_label": "Chamfer",
+      "_source_name": "Chamfer",
+      "_source_type_id": "PartDesign::Chamfer",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 42.00000000000009,
+          "x_min": -42.0,
+          "y_max": 135.5,
+          "y_min": -41.99999999999978,
+          "z_max": 0.6,
+          "z_min": -5.5
+        },
+        "is_valid": true,
+        "volume_mm3": 8011.730610414999
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 42.00000000000009,
+          "x_min": -42.0,
+          "y_max": 135.5,
+          "y_min": -41.99999999999978,
+          "z_max": 0.6,
+          "z_min": -5.5
+        },
+        "is_valid": true,
+        "volume_mm3": 8114.739491984226
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:08:15.188748+00:00",
+    "data_creation_date": "2026-04-05T21:21:52.617680+00:00",
     "document_label": "PD_Abdeckung",
     "document_name": "PD_Abdeckung",
-    "freecad_version": "1.2.0 45400 (Git)",
+    "freecad_version": "1.1.0 44790 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Abdeckung.FCStd",
     "platform": "Windows-11-10.0.26200-SP0",
     "python_version": "3.14.2"

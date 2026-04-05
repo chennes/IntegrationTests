@@ -1,7 +1,9 @@
 {
-  "app_parts": {
-    "Part": {
-      "label": "Part",
+  "app_parts": [
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 10.3775,
@@ -13,1202 +15,348 @@
         },
         "child_count": 7,
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "AdditiveLoft": {
-      "label": "AdditiveLoft",
-      "name": "AdditiveLoft",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -7.3,
-              "z_max": 4.799999999999999,
-              "z_min": -4.440892098500626e-16
-            },
-            "is_valid": true,
-            "volume_mm3": 136.31161084415868
-          }
-        }
-      ],
-      "type_id": "PartDesign::AdditiveLoft"
-    },
-    "AdditiveLoft002": {
-      "label": "AdditiveLoft002",
-      "name": "AdditiveLoft002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -7.3,
-              "z_max": 4.799999999999999,
-              "z_min": -4.440892098500626e-16
-            },
-            "is_valid": true,
-            "volume_mm3": 136.3116108441584
-          }
-        }
-      ],
-      "type_id": "PartDesign::AdditiveLoft"
-    },
-    "AdditiveLoft003": {
-      "label": "AdditiveLoft003",
-      "name": "AdditiveLoft003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -7.3,
-              "z_max": 4.799999999999999,
-              "z_min": -4.440892098500626e-16
-            },
-            "is_valid": true,
-            "volume_mm3": 136.31161084415868
-          }
-        }
-      ],
-      "type_id": "PartDesign::AdditiveLoft"
-    },
-    "AdditiveLoft004": {
-      "label": "AdditiveLoft004",
-      "name": "AdditiveLoft004",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.75,
-              "x_min": -4.75,
-              "y_max": 2.000000000000001,
-              "y_min": -6.300000000000001,
-              "z_max": 4.75,
-              "z_min": -4.75
-            },
-            "is_valid": true,
-            "volume_mm3": 126.69561686410104
-          }
-        }
-      ],
-      "type_id": "PartDesign::AdditiveLoft"
-    },
-    "AdditiveLoft005": {
-      "label": "AdditiveLoft005",
-      "name": "AdditiveLoft005",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -7.300000000000001,
-              "z_max": 4.799999999999999,
-              "z_min": -4.800000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 201.81020752850557
-          }
-        }
-      ],
-      "type_id": "PartDesign::AdditiveLoft"
-    },
-    "Body": {
-      "label": "Kleberblocker",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 10.3775,
-              "x_min": -10.377500000000003,
-              "y_max": 5.087155742747659,
-              "y_min": -0.08715574274765805,
-              "z_max": 3.8000000000000007,
-              "z_min": -1.7763568394002505e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 351.71606425829293
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body001": {
-      "label": "Schraubenhalter V001",
-      "name": "Body001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -7.3,
-              "z_max": 4.799999999999999,
-              "z_min": -4.440892098500626e-16
-            },
-            "is_valid": true,
-            "volume_mm3": 136.31161084415865
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body002": {
-      "label": "Schraubenhalter V002",
-      "name": "Body002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.75,
-              "x_min": -4.75,
-              "y_max": 2.000000000000001,
-              "y_min": -8.300000000000004,
-              "z_max": 4.75,
-              "z_min": -4.75
-            },
-            "is_valid": true,
-            "volume_mm3": 115.49945217170666
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body003": {
-      "label": "Schraubenhalter V003",
-      "name": "Body003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -7.3,
-              "z_max": 4.799999999999999,
-              "z_min": -4.440892098500626e-16
-            },
-            "is_valid": true,
-            "volume_mm3": 136.3116108441584
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body004": {
-      "label": "Schraubenhalter V004",
-      "name": "Body004",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -7.3,
-              "z_max": 4.799999999999999,
-              "z_min": -4.440892098500626e-16
-            },
-            "is_valid": true,
-            "volume_mm3": 136.31161084415865
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body005": {
-      "label": "Schraubenhalter V005",
-      "name": "Body005",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -8.000000000000002,
-              "z_max": 4.799999999999999,
-              "z_min": -4.800000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 176.26610389708165
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body006": {
-      "label": "Pin V005",
-      "name": "Body006",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.318152881013018,
-              "x_min": -2.318152881013018,
-              "y_max": 1.8000000000000005,
-              "y_min": -7.0,
-              "z_max": 2.318152881013018,
-              "z_min": -2.318152881013018
-            },
-            "is_valid": true,
-            "volume_mm3": 117.9459317471879
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Draft": {
-      "label": "Draft",
-      "name": "Draft",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 10.3775,
-              "x_min": -10.377500000000003,
-              "y_max": 5.000000000000001,
-              "y_min": 0.0,
-              "z_max": 3.8000000000000007,
-              "z_min": -1.590777234384892e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 352.44230072174895
-          }
-        }
-      ],
-      "type_id": "PartDesign::Draft"
-    },
-    "Draft003": {
-      "label": "Draft003",
-      "name": "Draft003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 3.635407258625066,
-              "x_min": -3.635407258625066,
-              "y_max": 6.106226635438361e-16,
-              "y_min": -6.300000000000001,
-              "z_max": 3.6354072586250674,
-              "z_min": -3.6354072586250648
-            },
-            "is_valid": true,
-            "volume_mm3": 130.45840448799862
-          }
-        }
-      ],
-      "type_id": "PartDesign::Draft"
-    },
-    "Draft004": {
-      "label": "Draft004",
-      "name": "Draft004",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 3.635407258625066,
-              "x_min": -3.635407258625066,
-              "y_max": 6.106226635438361e-16,
-              "y_min": -6.300000000000001,
-              "z_max": 3.6354072586250674,
-              "z_min": -3.6354072586250648
-            },
-            "is_valid": true,
-            "volume_mm3": 91.72796275368718
-          }
-        }
-      ],
-      "type_id": "PartDesign::Draft"
-    },
-    "Draft005": {
-      "label": "Draft005",
-      "name": "Draft005",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 3.8259480933274577,
-              "x_min": -3.8259480933274577,
-              "y_max": 6.217248937900876e-16,
-              "y_min": -7.300000000000001,
-              "z_max": 3.8259480933274594,
-              "z_min": -3.825948093327456
-            },
-            "is_valid": true,
-            "volume_mm3": 165.1745397672458
-          }
-        }
-      ],
-      "type_id": "PartDesign::Draft"
-    },
-    "Draft006": {
-      "label": "Draft006",
-      "name": "Draft006",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 3.8259480933274577,
-              "x_min": -3.8259480933274577,
-              "y_max": 6.217248937900876e-16,
-              "y_min": -7.300000000000001,
-              "z_max": 3.8259480933274594,
-              "z_min": -3.825948093327456
-            },
-            "is_valid": true,
-            "volume_mm3": 166.31790744494222
-          }
-        }
-      ],
-      "type_id": "PartDesign::Draft"
-    },
-    "Fillet": {
-      "label": "Fillet",
-      "name": "Fillet",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 10.3775,
-              "x_min": -10.377500000000003,
-              "y_max": 5.087155742747659,
-              "y_min": -0.08715574274765805,
-              "z_max": 3.8000000000000007,
-              "z_min": -1.5817279527770503e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 351.71606425829293
-          }
-        }
-      ],
-      "type_id": "PartDesign::Fillet"
-    },
-    "Fillet002": {
-      "label": "Fillet002",
-      "name": "Fillet002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -8.000000000000002,
-              "z_max": 4.799999999999999,
-              "z_min": -4.800000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 177.08402217065398
-          }
-        }
-      ],
-      "type_id": "PartDesign::Fillet"
-    },
-    "Groove": {
-      "label": "Groove",
-      "name": "Groove",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -8.000000000000002,
-              "z_max": 4.799999999999999,
-              "z_min": -4.800000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 176.26610389708165
-          }
-        }
-      ],
-      "type_id": "PartDesign::Groove"
-    },
-    "Groove001": {
-      "label": "Groove001",
-      "name": "Groove001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.318152881013018,
-              "x_min": -2.318152881013018,
-              "y_max": 4.696243394164412e-16,
-              "y_min": -7.0,
-              "z_max": 2.318152881013018,
-              "z_min": -2.318152881013018
-            },
-            "is_valid": true,
-            "volume_mm3": 93.77024530445917
-          }
-        }
-      ],
-      "type_id": "PartDesign::Groove"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 10.3775,
-              "x_min": -10.3775,
-              "y_max": 5.000000000000001,
-              "y_min": -9.860761315262648e-32,
-              "z_max": 3.8000000000000003,
-              "z_min": -1.3322676295501878e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 361.56999999999994
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad001": {
-      "label": "Pad001",
-      "name": "Pad001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.8,
-              "x_min": -2.8,
-              "y_max": 6.217248964370656e-16,
-              "y_min": -7.3,
-              "z_max": 2.8000000000000016,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 89.89981537512546
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad002": {
-      "label": "Pad002",
-      "name": "Pad002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.75,
-              "x_min": -2.75,
-              "y_max": 6.106226635438361e-16,
-              "y_min": -6.300000000000001,
-              "z_max": 2.7500000000000013,
-              "z_min": -2.75
-            },
-            "is_valid": true,
-            "volume_mm3": 77.09541413938548
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad003": {
-      "label": "Pad003",
-      "name": "Pad003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.8,
-              "x_min": -2.8,
-              "y_max": 6.217248964370656e-16,
-              "y_min": -7.3,
-              "z_max": 2.8000000000000016,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 89.89981537512521
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad004": {
-      "label": "Pad004",
-      "name": "Pad004",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.8,
-              "x_min": -2.8,
-              "y_max": 6.217248964370656e-16,
-              "y_min": -7.3,
-              "z_max": 2.8000000000000016,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 89.89981537512546
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad005": {
-      "label": "Pad005",
-      "name": "Pad005",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.8,
-              "x_min": -2.8,
-              "y_max": 6.217248937900876e-16,
-              "y_min": -7.300000000000001,
-              "z_max": 2.8000000000000016,
-              "z_min": -2.8
-            },
-            "is_valid": true,
-            "volume_mm3": 91.24773926509309
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad006": {
-      "label": "Pad006",
-      "name": "Pad006",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.1149999999999998,
-              "x_min": -2.1149999999999998,
-              "y_max": 4.696243394164412e-16,
-              "y_min": -7.000000000000001,
-              "z_max": 2.115000000000001,
-              "z_min": -2.1149999999999998
-            },
-            "is_valid": true,
-            "volume_mm3": 94.01655838838954
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad007": {
-      "label": "Pad007",
-      "name": "Pad007",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.318152881013018,
-              "x_min": -2.318152881013018,
-              "y_max": 0.20000000000000048,
-              "y_min": -7.0,
-              "z_max": 2.318152881013018,
-              "z_min": -2.318152881013018
-            },
-            "is_valid": true,
-            "volume_mm3": 96.4564326869846
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad008": {
-      "label": "Pad008",
-      "name": "Pad008",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.318152881013018,
-              "x_min": -2.318152881013018,
-              "y_max": 1.8000000000000005,
-              "y_min": -7.0,
-              "z_max": 2.318152881013018,
-              "z_min": -2.318152881013018
-            },
-            "is_valid": true,
-            "volume_mm3": 117.9459317471879
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Part": {
-      "label": "Part",
-      "name": "Part",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 10.3775,
-              "x_min": -10.377500000000003,
-              "y_max": 5.087155742747659,
-              "y_min": -0.08715574274765805,
-              "z_max": 3.8000000000000007,
-              "z_min": -1.7763568394002505e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 351.71606425829293
-          }
-        },
-        {
-          "index": 2,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -7.3,
-              "z_max": 4.799999999999999,
-              "z_min": -4.440892098500626e-16
-            },
-            "is_valid": true,
-            "volume_mm3": 136.3116108441584
-          }
-        },
-        {
-          "index": 3,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -7.3,
-              "z_max": 4.799999999999999,
-              "z_min": -4.440892098500626e-16
-            },
-            "is_valid": true,
-            "volume_mm3": 136.31161084415865
-          }
-        },
-        {
-          "index": 4,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -8.000000000000002,
-              "z_max": 4.799999999999999,
-              "z_min": -4.800000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 176.26610389708165
-          }
-        },
-        {
-          "index": 5,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.318152881013018,
-              "x_min": -2.318152881013018,
-              "y_max": 1.8000000000000005,
-              "y_min": -7.0,
-              "z_max": 2.318152881013018,
-              "z_min": -2.318152881013018
-            },
-            "is_valid": true,
-            "volume_mm3": 117.9459317471879
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    },
-    "Pocket": {
-      "label": "Pocket",
-      "name": "Pocket",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.75,
-              "x_min": -4.75,
-              "y_max": 2.000000000000001,
-              "y_min": -8.300000000000002,
-              "z_max": 4.75,
-              "z_min": -4.75
-            },
-            "is_valid": true,
-            "volume_mm3": 123.89657564638685
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket001": {
-      "label": "Pocket001",
-      "name": "Pocket001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -8.0,
-              "z_max": 4.799999999999999,
-              "z_min": -4.800000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 195.6450174558612
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "PolarPattern": {
-      "label": "PolarPattern",
-      "name": "PolarPattern",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.75,
-              "x_min": -4.75,
-              "y_max": 2.000000000000001,
-              "y_min": -8.300000000000004,
-              "z_max": 4.75,
-              "z_min": -4.75
-            },
-            "is_valid": true,
-            "volume_mm3": 115.49945217170672
-          }
-        }
-      ],
-      "type_id": "PartDesign::PolarPattern"
-    },
-    "PolarPattern001": {
-      "label": "PolarPattern001",
-      "name": "PolarPattern001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8,
-              "x_min": -4.8,
-              "y_max": 2.000000000000001,
-              "y_min": -8.000000000000002,
-              "z_max": 4.799999999999999,
-              "z_min": -4.800000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 177.1494472452493
-          }
-        }
-      ],
-      "type_id": "PartDesign::PolarPattern"
-    },
-    "Revolution": {
-      "label": "Revolution",
-      "name": "Revolution",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.318152881013018,
-              "x_min": -2.318152881013018,
-              "y_max": 4.696243394164412e-16,
-              "y_min": -7.000000000000001,
-              "z_max": 2.318152881013018,
-              "z_min": -2.318152881013018
-            },
-            "is_valid": true,
-            "volume_mm3": 94.0677231062007
-          }
-        }
-      ],
-      "type_id": "PartDesign::Revolution"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Kleberblocker",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Kleberblocker",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Fillet"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body001": {
-      "label": "Schraubenhalter V001",
+    {
+      "_source_label": "Schraubenhalter V001",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "AdditiveLoft"
-      },
-      "name": "Body001",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body002": {
-      "label": "Schraubenhalter V002",
+    {
+      "_source_label": "Schraubenhalter V002",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 9,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "PolarPattern"
-      },
-      "name": "Body002",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body003": {
-      "label": "Schraubenhalter V003",
-      "metrics": {
-        "feature_count": 4,
-        "is_valid": true,
-        "tip_is_valid": true,
-        "tip_name": "AdditiveLoft002"
-      },
-      "name": "Body003",
-      "type_id": "PartDesign::Body"
-    },
-    "Body004": {
-      "label": "Schraubenhalter V004",
-      "metrics": {
-        "feature_count": 4,
-        "is_valid": true,
-        "tip_is_valid": true,
-        "tip_name": "AdditiveLoft003"
-      },
-      "name": "Body004",
-      "type_id": "PartDesign::Body"
-    },
-    "Body005": {
-      "label": "Schraubenhalter V005",
+    {
+      "_source_label": "Schraubenhalter V005",
+      "_source_name": "Body005",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 12,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Groove"
-      },
-      "name": "Body005",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body006": {
-      "label": "Pin V005",
+    {
+      "_source_label": "Schraubenhalter V003",
+      "_source_name": "Body003",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "AdditiveLoft002"
+      }
+    },
+    {
+      "_source_label": "Schraubenhalter V004",
+      "_source_name": "Body004",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "AdditiveLoft003"
+      }
+    },
+    {
+      "_source_label": "Pin V005",
+      "_source_name": "Body006",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 9,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pad008"
-      },
-      "name": "Body006",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "AdditiveLoft": {
-      "label": "AdditiveLoft",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "AdditiveLoft",
-      "type_id": "PartDesign::AdditiveLoft"
-    },
-    "AdditiveLoft002": {
-      "label": "AdditiveLoft002",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "AdditiveLoft002",
-      "type_id": "PartDesign::AdditiveLoft"
-    },
-    "AdditiveLoft003": {
-      "label": "AdditiveLoft003",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "AdditiveLoft003",
-      "type_id": "PartDesign::AdditiveLoft"
-    },
-    "AdditiveLoft004": {
-      "label": "AdditiveLoft004",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "AdditiveLoft004",
-      "type_id": "PartDesign::AdditiveLoft"
-    },
-    "AdditiveLoft005": {
-      "label": "AdditiveLoft005",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "AdditiveLoft005",
-      "type_id": "PartDesign::AdditiveLoft"
-    },
-    "Draft": {
-      "label": "Draft",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Draft",
-      "type_id": "PartDesign::Draft"
+      }
     },
-    "Draft003": {
-      "label": "Draft003",
+    {
+      "_source_label": "Draft",
+      "_source_name": "Draft",
+      "_source_type_id": "PartDesign::Draft",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Draft003",
-      "type_id": "PartDesign::Draft"
+      }
     },
-    "Draft004": {
-      "label": "Draft004",
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Draft004",
-      "type_id": "PartDesign::Draft"
+      }
     },
-    "Draft005": {
-      "label": "Draft005",
+    {
+      "_source_label": "AdditiveLoft",
+      "_source_name": "AdditiveLoft",
+      "_source_type_id": "PartDesign::AdditiveLoft",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Pad002",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Draft005",
-      "type_id": "PartDesign::Draft"
+      }
     },
-    "Draft006": {
-      "label": "Draft006",
+    {
+      "_source_label": "Draft003",
+      "_source_name": "Draft003",
+      "_source_type_id": "PartDesign::Draft",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Draft006",
-      "type_id": "PartDesign::Draft"
+      }
     },
-    "Fillet": {
-      "label": "Fillet",
+    {
+      "_source_label": "AdditiveLoft004",
+      "_source_name": "AdditiveLoft004",
+      "_source_type_id": "PartDesign::AdditiveLoft",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound"
-      },
-      "name": "Fillet",
-      "type_id": "PartDesign::Fillet"
+      }
     },
-    "Fillet002": {
-      "label": "Fillet002",
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound"
-      },
-      "name": "Fillet002",
-      "type_id": "PartDesign::Fillet"
+      }
     },
-    "Groove": {
-      "label": "Groove",
+    {
+      "_source_label": "PolarPattern",
+      "_source_name": "PolarPattern",
+      "_source_type_id": "PartDesign::PolarPattern",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound"
-      },
-      "name": "Groove",
-      "type_id": "PartDesign::Groove"
+      }
     },
-    "Groove001": {
-      "label": "Groove001",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Groove001",
-      "type_id": "PartDesign::Groove"
-    },
-    "Pad": {
-      "label": "Pad",
+    {
+      "_source_label": "Draft004",
+      "_source_name": "Draft004",
+      "_source_type_id": "PartDesign::Draft",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad001": {
-      "label": "Pad001",
+    {
+      "_source_label": "AdditiveLoft005",
+      "_source_name": "AdditiveLoft005",
+      "_source_type_id": "PartDesign::AdditiveLoft",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Draft005",
+      "_source_name": "Draft005",
+      "_source_type_id": "PartDesign::Draft",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad001",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad002": {
-      "label": "Pad002",
+    {
+      "_source_label": "Draft006",
+      "_source_name": "Draft006",
+      "_source_type_id": "PartDesign::Draft",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad002",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad003": {
-      "label": "Pad003",
+    {
+      "_source_label": "Fillet002",
+      "_source_name": "Fillet002",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Pad005",
+      "_source_name": "Pad005",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad003",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad004": {
-      "label": "Pad004",
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "PolarPattern001",
+      "_source_name": "PolarPattern001",
+      "_source_type_id": "PartDesign::PolarPattern",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Pad003",
+      "_source_name": "Pad003",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad004",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad005": {
-      "label": "Pad005",
+    {
+      "_source_label": "AdditiveLoft002",
+      "_source_name": "AdditiveLoft002",
+      "_source_type_id": "PartDesign::AdditiveLoft",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Pad004",
+      "_source_name": "Pad004",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad005",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad006": {
-      "label": "Pad006",
+    {
+      "_source_label": "AdditiveLoft003",
+      "_source_name": "AdditiveLoft003",
+      "_source_type_id": "PartDesign::AdditiveLoft",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Pad006",
+      "_source_name": "Pad006",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad006",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad007": {
-      "label": "Pad007",
+    {
+      "_source_label": "Groove",
+      "_source_name": "Groove",
+      "_source_type_id": "PartDesign::Groove",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound"
-      },
-      "name": "Pad007",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad008": {
-      "label": "Pad008",
+    {
+      "_source_label": "Revolution",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound"
-      },
-      "name": "Pad008",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pocket": {
-      "label": "Pocket",
+    {
+      "_source_label": "Groove001",
+      "_source_name": "Groove001",
+      "_source_type_id": "PartDesign::Groove",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound"
-      },
-      "name": "Pocket",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Pocket001": {
-      "label": "Pocket001",
+    {
+      "_source_label": "Pad007",
+      "_source_name": "Pad007",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound"
-      },
-      "name": "Pocket001",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "PolarPattern": {
-      "label": "PolarPattern",
+    {
+      "_source_label": "Pad008",
+      "_source_name": "Pad008",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound"
-      },
-      "name": "PolarPattern",
-      "type_id": "PartDesign::PolarPattern"
-    },
-    "PolarPattern001": {
-      "label": "PolarPattern001",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "PolarPattern001",
-      "type_id": "PartDesign::PolarPattern"
-    },
-    "Revolution": {
-      "label": "Revolution",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Revolution",
-      "type_id": "PartDesign::Revolution"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 10,
         "degrees_of_freedom": 0,
@@ -1217,12 +365,12 @@
         "geometry_count": 4,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 6,
         "degrees_of_freedom": 0,
@@ -1231,12 +379,12 @@
         "geometry_count": 2,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch002": {
-      "label": "Sketch002",
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 6,
         "degrees_of_freedom": 0,
@@ -1245,12 +393,12 @@
         "geometry_count": 2,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch002",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch003": {
-      "label": "Sketch003",
+    {
+      "_source_label": "Sketch003",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 4,
         "degrees_of_freedom": 0,
@@ -1259,12 +407,12 @@
         "geometry_count": 2,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch003",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch004": {
-      "label": "Sketch004",
+    {
+      "_source_label": "Sketch004",
+      "_source_name": "Sketch004",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 4,
         "degrees_of_freedom": 0,
@@ -1273,68 +421,12 @@
         "geometry_count": 2,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch004",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch005": {
-      "label": "Sketch005",
-      "metrics": {
-        "constraint_count": 6,
-        "degrees_of_freedom": 0,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch005",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch006": {
-      "label": "Sketch006",
-      "metrics": {
-        "constraint_count": 6,
-        "degrees_of_freedom": 0,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch006",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch007": {
-      "label": "Sketch007",
-      "metrics": {
-        "constraint_count": 6,
-        "degrees_of_freedom": 0,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch007",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch008": {
-      "label": "Sketch008",
-      "metrics": {
-        "constraint_count": 6,
-        "degrees_of_freedom": 0,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch008",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch009": {
-      "label": "Sketch009",
+    {
+      "_source_label": "Sketch009",
+      "_source_name": "Sketch009",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 7,
         "degrees_of_freedom": 4,
@@ -1343,12 +435,12 @@
         "geometry_count": 4,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch009",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch010": {
-      "label": "Sketch010",
+    {
+      "_source_label": "Sketch010",
+      "_source_name": "Sketch010",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 4,
         "degrees_of_freedom": 0,
@@ -1357,12 +449,12 @@
         "geometry_count": 2,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch010",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch011": {
-      "label": "Sketch011",
+    {
+      "_source_label": "Sketch011",
+      "_source_name": "Sketch011",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 4,
         "degrees_of_freedom": 0,
@@ -1371,12 +463,12 @@
         "geometry_count": 2,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch011",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch012": {
-      "label": "Sketch012",
+    {
+      "_source_label": "Sketch012",
+      "_source_name": "Sketch012",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 7,
         "degrees_of_freedom": 4,
@@ -1385,12 +477,68 @@
         "geometry_count": 4,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch012",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch013": {
-      "label": "Sketch013",
+    {
+      "_source_label": "Sketch005",
+      "_source_name": "Sketch005",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 6,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch006",
+      "_source_name": "Sketch006",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 6,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch007",
+      "_source_name": "Sketch007",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 6,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch008",
+      "_source_name": "Sketch008",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 6,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 2,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch013",
+      "_source_name": "Sketch013",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 10,
         "degrees_of_freedom": 1,
@@ -1399,12 +547,12 @@
         "geometry_count": 4,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch013",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch014": {
-      "label": "Sketch014",
+    {
+      "_source_label": "Sketch014",
+      "_source_name": "Sketch014",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 4,
         "degrees_of_freedom": 1,
@@ -1413,12 +561,12 @@
         "geometry_count": 2,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch014",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch015": {
-      "label": "Sketch015",
+    {
+      "_source_label": "Sketch015",
+      "_source_name": "Sketch015",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 3,
         "degrees_of_freedom": 2,
@@ -1427,12 +575,12 @@
         "geometry_count": 2,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch015",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch016": {
-      "label": "Sketch016",
+    {
+      "_source_label": "Sketch016",
+      "_source_name": "Sketch016",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 3,
         "degrees_of_freedom": 6,
@@ -1441,16 +589,696 @@
         "geometry_count": 3,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch016",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.3775,
+          "x_min": -10.377500000000003,
+          "y_max": 5.087155742747659,
+          "y_min": -0.08715574274765805,
+          "z_max": 3.8000000000000007,
+          "z_min": -1.7763568394002505e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 351.71606425829293
+      }
+    },
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -7.3,
+          "z_max": 4.799999999999999,
+          "z_min": -4.440892098500626e-16
+        },
+        "is_valid": true,
+        "volume_mm3": 136.3116108441584
+      }
+    },
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -7.3,
+          "z_max": 4.799999999999999,
+          "z_min": -4.440892098500626e-16
+        },
+        "is_valid": true,
+        "volume_mm3": 136.31161084415865
+      }
+    },
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -8.000000000000002,
+          "z_max": 4.799999999999999,
+          "z_min": -4.800000000000001
+        },
+        "is_valid": true,
+        "volume_mm3": 176.26610389708165
+      }
+    },
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.318152881013018,
+          "x_min": -2.318152881013018,
+          "y_max": 1.8000000000000005,
+          "y_min": -7.0,
+          "z_max": 2.318152881013018,
+          "z_min": -2.318152881013018
+        },
+        "is_valid": true,
+        "volume_mm3": 117.9459317471879
+      }
+    },
+    {
+      "_source_label": "Kleberblocker",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.3775,
+          "x_min": -10.377500000000003,
+          "y_max": 5.087155742747659,
+          "y_min": -0.08715574274765805,
+          "z_max": 3.8000000000000007,
+          "z_min": -1.7763568394002505e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 351.71606425829293
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.3775,
+          "x_min": -10.3775,
+          "y_max": 5.000000000000001,
+          "y_min": -9.860761315262648e-32,
+          "z_max": 3.8000000000000003,
+          "z_min": -1.3322676295501878e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 361.56999999999994
+      }
+    },
+    {
+      "_source_label": "Draft",
+      "_source_name": "Draft",
+      "_source_type_id": "PartDesign::Draft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.3775,
+          "x_min": -10.377500000000003,
+          "y_max": 5.000000000000001,
+          "y_min": 0.0,
+          "z_max": 3.8000000000000007,
+          "z_min": -1.590777234384892e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 352.44230072174895
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.3775,
+          "x_min": -10.377500000000003,
+          "y_max": 5.087155742747659,
+          "y_min": -0.08715574274765805,
+          "z_max": 3.8000000000000007,
+          "z_min": -1.5817279527770503e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 351.71606425829293
+      }
+    },
+    {
+      "_source_label": "Schraubenhalter V001",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -7.3,
+          "z_max": 4.799999999999999,
+          "z_min": -4.440892098500626e-16
+        },
+        "is_valid": true,
+        "volume_mm3": 136.3116108441584
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.8,
+          "x_min": -2.8,
+          "y_max": 6.217248964370656e-16,
+          "y_min": -7.3,
+          "z_max": 2.8000000000000016,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 89.89981537512521
+      }
+    },
+    {
+      "_source_label": "AdditiveLoft",
+      "_source_name": "AdditiveLoft",
+      "_source_type_id": "PartDesign::AdditiveLoft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -7.3,
+          "z_max": 4.799999999999999,
+          "z_min": -4.440892098500626e-16
+        },
+        "is_valid": true,
+        "volume_mm3": 136.3116108441584
+      }
+    },
+    {
+      "_source_label": "Schraubenhalter V002",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.75,
+          "x_min": -4.75,
+          "y_max": 2.000000000000001,
+          "y_min": -8.300000000000004,
+          "z_max": 4.75,
+          "z_min": -4.75
+        },
+        "is_valid": true,
+        "volume_mm3": 115.49945217170666
+      }
+    },
+    {
+      "_source_label": "Pad002",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.75,
+          "x_min": -2.75,
+          "y_max": 6.106226635438361e-16,
+          "y_min": -6.300000000000001,
+          "z_max": 2.7500000000000013,
+          "z_min": -2.75
+        },
+        "is_valid": true,
+        "volume_mm3": 77.09541413938548
+      }
+    },
+    {
+      "_source_label": "Draft003",
+      "_source_name": "Draft003",
+      "_source_type_id": "PartDesign::Draft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 3.635407258625066,
+          "x_min": -3.635407258625066,
+          "y_max": 6.106226635438361e-16,
+          "y_min": -6.300000000000001,
+          "z_max": 3.6354072586250674,
+          "z_min": -3.6354072586250648
+        },
+        "is_valid": true,
+        "volume_mm3": 130.45840448799862
+      }
+    },
+    {
+      "_source_label": "AdditiveLoft004",
+      "_source_name": "AdditiveLoft004",
+      "_source_type_id": "PartDesign::AdditiveLoft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.75,
+          "x_min": -4.75,
+          "y_max": 2.000000000000001,
+          "y_min": -6.300000000000001,
+          "z_max": 4.75,
+          "z_min": -4.75
+        },
+        "is_valid": true,
+        "volume_mm3": 126.69561686410104
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.75,
+          "x_min": -4.75,
+          "y_max": 2.000000000000001,
+          "y_min": -8.300000000000002,
+          "z_max": 4.75,
+          "z_min": -4.75
+        },
+        "is_valid": true,
+        "volume_mm3": 123.89657564638685
+      }
+    },
+    {
+      "_source_label": "PolarPattern",
+      "_source_name": "PolarPattern",
+      "_source_type_id": "PartDesign::PolarPattern",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.75,
+          "x_min": -4.75,
+          "y_max": 2.000000000000001,
+          "y_min": -8.300000000000004,
+          "z_max": 4.75,
+          "z_min": -4.75
+        },
+        "is_valid": true,
+        "volume_mm3": 115.49945217170672
+      }
+    },
+    {
+      "_source_label": "Draft004",
+      "_source_name": "Draft004",
+      "_source_type_id": "PartDesign::Draft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 3.635407258625066,
+          "x_min": -3.635407258625066,
+          "y_max": 6.106226635438361e-16,
+          "y_min": -6.300000000000001,
+          "z_max": 3.6354072586250674,
+          "z_min": -3.6354072586250648
+        },
+        "is_valid": true,
+        "volume_mm3": 91.72796275368718
+      }
+    },
+    {
+      "_source_label": "AdditiveLoft005",
+      "_source_name": "AdditiveLoft005",
+      "_source_type_id": "PartDesign::AdditiveLoft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -7.300000000000001,
+          "z_max": 4.799999999999999,
+          "z_min": -4.800000000000001
+        },
+        "is_valid": true,
+        "volume_mm3": 201.81020752850557
+      }
+    },
+    {
+      "_source_label": "Schraubenhalter V005",
+      "_source_name": "Body005",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -8.000000000000002,
+          "z_max": 4.799999999999999,
+          "z_min": -4.800000000000001
+        },
+        "is_valid": true,
+        "volume_mm3": 176.26610389708165
+      }
+    },
+    {
+      "_source_label": "Draft005",
+      "_source_name": "Draft005",
+      "_source_type_id": "PartDesign::Draft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 3.8259480933274577,
+          "x_min": -3.8259480933274577,
+          "y_max": 6.217248937900876e-16,
+          "y_min": -7.300000000000001,
+          "z_max": 3.8259480933274594,
+          "z_min": -3.825948093327456
+        },
+        "is_valid": true,
+        "volume_mm3": 165.1745397672458
+      }
+    },
+    {
+      "_source_label": "Draft006",
+      "_source_name": "Draft006",
+      "_source_type_id": "PartDesign::Draft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 3.8259480933274577,
+          "x_min": -3.8259480933274577,
+          "y_max": 6.217248937900876e-16,
+          "y_min": -7.300000000000001,
+          "z_max": 3.8259480933274594,
+          "z_min": -3.825948093327456
+        },
+        "is_valid": true,
+        "volume_mm3": 166.31790744494222
+      }
+    },
+    {
+      "_source_label": "Fillet002",
+      "_source_name": "Fillet002",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -8.000000000000002,
+          "z_max": 4.799999999999999,
+          "z_min": -4.800000000000001
+        },
+        "is_valid": true,
+        "volume_mm3": 177.08402217065398
+      }
+    },
+    {
+      "_source_label": "Pad005",
+      "_source_name": "Pad005",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.8,
+          "x_min": -2.8,
+          "y_max": 6.217248937900876e-16,
+          "y_min": -7.300000000000001,
+          "z_max": 2.8000000000000016,
+          "z_min": -2.8
+        },
+        "is_valid": true,
+        "volume_mm3": 91.24773926509309
+      }
+    },
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -8.0,
+          "z_max": 4.799999999999999,
+          "z_min": -4.800000000000001
+        },
+        "is_valid": true,
+        "volume_mm3": 195.6450174558612
+      }
+    },
+    {
+      "_source_label": "PolarPattern001",
+      "_source_name": "PolarPattern001",
+      "_source_type_id": "PartDesign::PolarPattern",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -8.000000000000002,
+          "z_max": 4.799999999999999,
+          "z_min": -4.800000000000001
+        },
+        "is_valid": true,
+        "volume_mm3": 177.1494472452493
+      }
+    },
+    {
+      "_source_label": "Pad003",
+      "_source_name": "Pad003",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.8,
+          "x_min": -2.8,
+          "y_max": 6.217248964370656e-16,
+          "y_min": -7.3,
+          "z_max": 2.8000000000000016,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 89.89981537512521
+      }
+    },
+    {
+      "_source_label": "AdditiveLoft002",
+      "_source_name": "AdditiveLoft002",
+      "_source_type_id": "PartDesign::AdditiveLoft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -7.3,
+          "z_max": 4.799999999999999,
+          "z_min": -4.440892098500626e-16
+        },
+        "is_valid": true,
+        "volume_mm3": 136.3116108441584
+      }
+    },
+    {
+      "_source_label": "Schraubenhalter V003",
+      "_source_name": "Body003",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -7.3,
+          "z_max": 4.799999999999999,
+          "z_min": -4.440892098500626e-16
+        },
+        "is_valid": true,
+        "volume_mm3": 136.3116108441584
+      }
+    },
+    {
+      "_source_label": "Pad004",
+      "_source_name": "Pad004",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.8,
+          "x_min": -2.8,
+          "y_max": 6.217248964370656e-16,
+          "y_min": -7.3,
+          "z_max": 2.8000000000000016,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 89.89981537512546
+      }
+    },
+    {
+      "_source_label": "AdditiveLoft003",
+      "_source_name": "AdditiveLoft003",
+      "_source_type_id": "PartDesign::AdditiveLoft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -7.3,
+          "z_max": 4.799999999999999,
+          "z_min": -4.440892098500626e-16
+        },
+        "is_valid": true,
+        "volume_mm3": 136.31161084415868
+      }
+    },
+    {
+      "_source_label": "Schraubenhalter V004",
+      "_source_name": "Body004",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -7.3,
+          "z_max": 4.799999999999999,
+          "z_min": -4.440892098500626e-16
+        },
+        "is_valid": true,
+        "volume_mm3": 136.31161084415865
+      }
+    },
+    {
+      "_source_label": "Pin V005",
+      "_source_name": "Body006",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.318152881013018,
+          "x_min": -2.318152881013018,
+          "y_max": 1.8000000000000005,
+          "y_min": -7.0,
+          "z_max": 2.318152881013018,
+          "z_min": -2.318152881013018
+        },
+        "is_valid": true,
+        "volume_mm3": 117.9459317471879
+      }
+    },
+    {
+      "_source_label": "Pad006",
+      "_source_name": "Pad006",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.1149999999999998,
+          "x_min": -2.1149999999999998,
+          "y_max": 4.696243394164412e-16,
+          "y_min": -7.000000000000001,
+          "z_max": 2.115000000000001,
+          "z_min": -2.1149999999999998
+        },
+        "is_valid": true,
+        "volume_mm3": 94.01655838838954
+      }
+    },
+    {
+      "_source_label": "Groove",
+      "_source_name": "Groove",
+      "_source_type_id": "PartDesign::Groove",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8,
+          "x_min": -4.8,
+          "y_max": 2.000000000000001,
+          "y_min": -8.000000000000002,
+          "z_max": 4.799999999999999,
+          "z_min": -4.800000000000001
+        },
+        "is_valid": true,
+        "volume_mm3": 176.26610389708165
+      }
+    },
+    {
+      "_source_label": "Revolution",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.318152881013018,
+          "x_min": -2.318152881013018,
+          "y_max": 4.696243394164412e-16,
+          "y_min": -7.000000000000001,
+          "z_max": 2.318152881013018,
+          "z_min": -2.318152881013018
+        },
+        "is_valid": true,
+        "volume_mm3": 94.0677231062007
+      }
+    },
+    {
+      "_source_label": "Groove001",
+      "_source_name": "Groove001",
+      "_source_type_id": "PartDesign::Groove",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.318152881013018,
+          "x_min": -2.318152881013018,
+          "y_max": 4.696243394164412e-16,
+          "y_min": -7.0,
+          "z_max": 2.318152881013018,
+          "z_min": -2.318152881013018
+        },
+        "is_valid": true,
+        "volume_mm3": 93.77024530445917
+      }
+    },
+    {
+      "_source_label": "Pad007",
+      "_source_name": "Pad007",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.318152881013018,
+          "x_min": -2.318152881013018,
+          "y_max": 0.20000000000000048,
+          "y_min": -7.0,
+          "z_max": 2.318152881013018,
+          "z_min": -2.318152881013018
+        },
+        "is_valid": true,
+        "volume_mm3": 96.4564326869846
+      }
+    },
+    {
+      "_source_label": "Pad008",
+      "_source_name": "Pad008",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.318152881013018,
+          "x_min": -2.318152881013018,
+          "y_max": 1.8000000000000005,
+          "y_min": -7.0,
+          "z_max": 2.318152881013018,
+          "z_min": -2.318152881013018
+        },
+        "is_valid": true,
+        "volume_mm3": 117.9459317471879
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:08:19.647435+00:00",
+    "data_creation_date": "2026-04-05T21:21:57.010248+00:00",
     "document_label": "PD_Pins",
     "document_name": "PD_Pins",
-    "freecad_version": "1.2.0 45400 (Git)",
+    "freecad_version": "1.1.0 44790 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Pins.FCStd",
     "platform": "Windows-11-10.0.26200-SP0",
     "python_version": "3.14.2"

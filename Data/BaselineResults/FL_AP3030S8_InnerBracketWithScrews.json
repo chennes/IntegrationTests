@@ -1,60 +1,60 @@
 {
-  "app_parts": {
-    "Model": {
-      "label": "Model",
+  "app_parts": [
+    {
+      "_source_label": "Model",
+      "_source_name": "Model",
+      "_source_type_id": "App::Part",
       "metrics": {
         "child_count": 7,
         "is_valid": true
-      },
-      "name": "Model",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "links": {
-    "AP3030S8_InnerBracket_AP3030S8_InnerBracket": {
-      "label": "AP3030S8_InnerBracket_AP3030S8_InnerBracket",
+  ],
+  "links": [
+    {
+      "_source_label": "AP3030S8_InnerBracket_AP3030S8_InnerBracket",
+      "_source_name": "AP3030S8_InnerBracket_AP3030S8_InnerBracket",
+      "_source_type_id": "App::Link",
       "metrics": {
         "is_valid": false,
         "linked_object_is_valid": false,
         "linked_object_name": null
-      },
-      "name": "AP3030S8_InnerBracket_AP3030S8_InnerBracket",
-      "type_id": "App::Link"
+      }
     },
-    "ISO4029_SetScrewCupPoint_ISO4029_SetScrewCupPoint": {
-      "label": "ISO4029_SetScrewCupPoint_ISO4029_SetScrewCupPoint",
+    {
+      "_source_label": "ISO4029_SetScrewCupPoint_ISO4029_SetScrewCupPoint",
+      "_source_name": "ISO4029_SetScrewCupPoint_ISO4029_SetScrewCupPoint",
+      "_source_type_id": "App::Link",
       "metrics": {
         "is_valid": false,
         "linked_object_is_valid": false,
         "linked_object_name": null
-      },
-      "name": "ISO4029_SetScrewCupPoint_ISO4029_SetScrewCupPoint",
-      "type_id": "App::Link"
+      }
     },
-    "ISO4029_SetScrewCupPoint_ISO4029_SetScrewCupPoint001": {
-      "label": "ISO4029_SetScrewCupPoint_ISO4029_SetScrewCupPoint001",
+    {
+      "_source_label": "ISO4029_SetScrewCupPoint_ISO4029_SetScrewCupPoint001",
+      "_source_name": "ISO4029_SetScrewCupPoint_ISO4029_SetScrewCupPoint001",
+      "_source_type_id": "App::Link",
       "metrics": {
         "is_valid": false,
         "linked_object_is_valid": false,
         "linked_object_name": null
-      },
-      "name": "ISO4029_SetScrewCupPoint_ISO4029_SetScrewCupPoint001",
-      "type_id": "App::Link"
+      }
     }
-  },
-  "materials": {
-    "Model": {
-      "label": "Model",
+  ],
+  "materials": [
+    {
+      "_source_label": "Model",
+      "_source_name": "Model",
+      "_source_type_id": "App::Part",
       "metrics": {
         "is_valid": true
-      },
-      "name": "Model",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "schema_version": 3,
+  ],
+  "schema_version": 4,
   "source": {
-    "data_creation_date": "2026-03-27T21:06:34.034372+00:00",
+    "data_creation_date": "2026-04-05T21:20:13.326489+00:00",
     "document_label": "FL_AP3030S8_InnerBracketWithScrews",
     "document_name": "FL_AP3030S8_InnerBracketWithScrews",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

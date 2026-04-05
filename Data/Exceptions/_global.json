@@ -32,7 +32,7 @@
       "added": "2026-03-27"
     },
     {
-      "section": "objects",
+      "section": "solids",
       "object_pattern": "ShapeString*",
       "metric_pattern": "missing_in_new",
       "description": "Part::Part2DObjectPython (ShapeString) no longer produces a solid shape in FreeCAD 1.2+",
@@ -67,7 +67,7 @@
       "added": "2026-03-27"
     },
     {
-      "section": "objects",
+      "section": "solids",
       "object_pattern": "ShapeString*",
       "metric_pattern": "missing_in_baseline",
       "description": "ShapeString objects may produce solids in newer FreeCAD versions but not in the baseline version",

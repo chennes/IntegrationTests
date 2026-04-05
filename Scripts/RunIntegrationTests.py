@@ -250,10 +250,14 @@ def load_json(path: Path) -> Dict[str, Any]:
 def compare_maps(
     baseline: Dict[MetricKey, Dict], new: Dict[MetricKey, Dict], config: CompareConfig
 ) -> List[MetricDiff]:
-    """Compare two metric maps and return a list of diffs for all keys.
+    """Compare two canonically-sorted metric maps by position.
 
-    Keys present in one map but not the other are reported as missing. Keys present in both are
-    compared recursively via compare_individual_metrics.
+    Both maps are keyed by (sorted_position, source_name).  Entries are paired by position
+    (index 0 vs index 0, etc.), since both sides are independently sorted by the same
+    canonical geometric key.  The source_name annotation is kept for display but is never
+    used for matching.
+
+    If the two maps have different lengths, extra entries are reported as missing.
 
     Args:
         baseline: Metric map from the baseline report.
@@ -265,38 +269,51 @@ def compare_maps(
     """
     diffs: List[MetricDiff] = []
 
-    all_keys = set(baseline.keys()) | set(new.keys())
-    for key in sorted(all_keys, key=lambda k: (k[0], k[1])):
-        baseline_metrics = baseline.get(key)
-        new_metrics = new.get(key)
+    # Sort each map's entries by position (first element of the key)
+    base_entries = sorted(baseline.items(), key=lambda kv: kv[0][0])
+    new_entries = sorted(new.items(), key=lambda kv: kv[0][0])
 
-        if baseline_metrics is None:
-            diffs.append(
-                MetricDiff(
-                    key=key,
-                    baseline=None,
-                    new=new_metrics,
-                    relative_error=None,
-                    ok=False,
-                    reason="missing_in_baseline",
-                )
-            )
-            continue
-        if new_metrics is None:
-            diffs.append(
-                MetricDiff(
-                    key=key,
-                    baseline=None,
-                    new=None,
-                    relative_error=None,
-                    ok=False,
-                    reason="missing_in_new",
-                )
-            )
-            continue
+    n_common = min(len(base_entries), len(new_entries))
 
+    # Compare paired entries
+    for i in range(n_common):
+        base_key, base_metrics = base_entries[i]
+        new_key, new_metrics = new_entries[i]
+        # Use a combined key showing both source names when they differ
+        if base_key[1] == new_key[1]:
+            display_key = (i, base_key[1])
+        else:
+            display_key = (i, f"{base_key[1]} / {new_key[1]}")
         diffs.extend(
-            compare_individual_metrics(config, key, "metric", baseline_metrics, new_metrics)
+            compare_individual_metrics(config, display_key, "metric", base_metrics, new_metrics)
+        )
+
+    # Extra entries in new (not in baseline)
+    for i in range(n_common, len(new_entries)):
+        new_key, new_metrics = new_entries[i]
+        diffs.append(
+            MetricDiff(
+                key=new_key,
+                baseline=None,
+                new=new_metrics,
+                relative_error=None,
+                ok=False,
+                reason="missing_in_baseline",
+            )
+        )
+
+    # Extra entries in baseline (not in new)
+    for i in range(n_common, len(base_entries)):
+        base_key, _ = base_entries[i]
+        diffs.append(
+            MetricDiff(
+                key=base_key,
+                baseline=None,
+                new=None,
+                relative_error=None,
+                ok=False,
+                reason="missing_in_new",
+            )
         )
 
     return diffs
@@ -463,6 +480,19 @@ def find_fcstd_files(root: Path, recursive: bool) -> List[Path]:
 # ---------------------------------------------------------------------------
 
 
+def _format_key(key: MetricKey) -> str:
+    """Format a MetricKey for human-readable output.
+
+    Args:
+        key: A (sorted_position, source_name) tuple.
+
+    Returns:
+        A string like ``"#3 (Pad)"`` showing position and originating object name.
+    """
+    position, source_name = key
+    return f"#{position} ({source_name})"
+
+
 def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
     """Print a single metric diff to stdout in a human-readable format.
 
@@ -473,12 +503,13 @@ def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
         diff: The MetricDiff to print.
         config: The comparison config, used to display the required match percentage.
     """
+    fk = _format_key(diff.key)
     if diff.reason == "missing_in_baseline":
-        print(f"  - Feature exists in newly-recomputed file, but not in baseline: {diff.key[0]}")
+        print(f"  - Exists in new but not baseline: {fk}")
     elif diff.reason == "missing_in_new":
-        print(f"  - Feature exists in baseline, but not in newly-recomputed file: {diff.key[0]}")
+        print(f"  - Exists in baseline but not new: {fk}")
     elif isinstance(diff.new, dict) and not diff.new.get("is_valid", True):
-        print(f"  - Recomputation of {diff.key[0]} failed")
+        print(f"  - Recomputation failed: {fk}")
     elif (
         isinstance(diff.baseline, float)
         and isinstance(diff.new, float)
@@ -493,13 +524,13 @@ def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
             f"{relative_error_percent:.9f}%" if relative_error_percent is not None else "inf"
         )
         print(
-            f"  - {diff.reason} {diff.key}:"
+            f"  - {diff.reason} {fk}:"
             f" baseline={diff.baseline:.12g} new={diff.new:.12g}"
             f" relative_error={relative_error_string}"
             f" (required match >= {config.match_percentage}%)"
         )
     else:
-        print(f"  - {diff.reason} {diff.key}: baseline={diff.baseline} new={diff.new}")
+        print(f"  - {diff.reason} {fk}: baseline={diff.baseline} new={diff.new}")
 
 
 # ---------------------------------------------------------------------------
@@ -655,12 +686,12 @@ def main(argv: List[str]) -> int:
                 if args.verbose:
                     for section_name, diff, rule in known:
                         print(
-                            f"    [known] {diff.reason} {diff.key}"
+                            f"    [known] {diff.reason} {_format_key(diff.key)}"
                             f" -- {rule.description} ({rule.source})"
                         )
                     for section_name, diff, rule in accepted:
                         print(
-                            f"    [accepted] {diff.reason} {diff.key}"
+                            f"    [accepted] {diff.reason} {_format_key(diff.key)}"
                             f" -- {rule.description} ({rule.source})"
                         )
                     for section_name, _ in EXTRACTORS:
@@ -681,7 +712,7 @@ def main(argv: List[str]) -> int:
                 if args.verbose:
                     for section_name, diff, rule in known:
                         print(
-                            f"    [known] {diff.reason} {diff.key}"
+                            f"    [known] {diff.reason} {_format_key(diff.key)}"
                             f" -- {rule.description} ({rule.source})"
                         )
                 if accepted:
@@ -694,7 +725,7 @@ def main(argv: List[str]) -> int:
                 if args.verbose:
                     for section_name, diff, rule in accepted:
                         print(
-                            f"    [accepted] {diff.reason} {diff.key}"
+                            f"    [accepted] {diff.reason} {_format_key(diff.key)}"
                             f" -- {rule.description} ({rule.source})"
                         )
                     parts = ["         "]

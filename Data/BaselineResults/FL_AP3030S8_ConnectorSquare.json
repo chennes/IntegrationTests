@@ -1,7 +1,9 @@
 {
-  "app_parts": {
-    "Part": {
-      "label": "AP3030S8_ConnectorSquare",
+  "app_parts": [
+    {
+      "_source_label": "AP3030S8_ConnectorSquare",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 28.999999999999996,
@@ -13,117 +15,49 @@
         },
         "child_count": 7,
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "materials": {
-    "Part": {
-      "label": "AP3030S8_ConnectorSquare",
+  ],
+  "materials": [
+    {
+      "_source_label": "AP3030S8_ConnectorSquare",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 28.999999999999996,
-              "x_min": -29.000000000000004,
-              "y_max": 28.999999999999996,
-              "y_min": -29.000000000000004,
-              "z_max": 3.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 9693.803131157494
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 28.999999999999996,
-              "x_min": -29.000000000000004,
-              "y_max": 28.999999999999996,
-              "y_min": -29.000000000000004,
-              "z_max": 3.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 9693.803131157494
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Part": {
-      "label": "AP3030S8_ConnectorSquare",
-      "name": "Part",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 28.999999999999996,
-              "x_min": -29.000000000000004,
-              "y_max": 28.999999999999996,
-              "y_min": -29.000000000000004,
-              "z_max": 3.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 9693.803131157494
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pad"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Pad": {
-      "label": "Pad",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 32,
         "degrees_of_freedom": -1,
@@ -132,13 +66,64 @@
         "geometry_count": 12,
         "is_valid": false,
         "solver_status": -2
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "AP3030S8_ConnectorSquare",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 28.999999999999996,
+          "x_min": -29.000000000000004,
+          "y_max": 28.999999999999996,
+          "y_min": -29.000000000000004,
+          "z_max": 3.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 9693.803131157494
+      }
+    },
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 28.999999999999996,
+          "x_min": -29.000000000000004,
+          "y_max": 28.999999999999996,
+          "y_min": -29.000000000000004,
+          "z_max": 3.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 9693.803131157494
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 28.999999999999996,
+          "x_min": -29.000000000000004,
+          "y_max": 28.999999999999996,
+          "y_min": -29.000000000000004,
+          "z_max": 3.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 9693.803131157494
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:06:29.554392+00:00",
+    "data_creation_date": "2026-04-05T21:20:08.749739+00:00",
     "document_label": "FL_AP3030S8_ConnectorSquare",
     "document_name": "FL_AP3030S8_ConnectorSquare",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

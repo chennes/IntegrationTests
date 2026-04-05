@@ -1,7 +1,9 @@
 {
-  "app_parts": {
-    "Part": {
-      "label": "Googly eyes",
+  "app_parts": [
+    {
+      "_source_label": "Googly eyes",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 15.000162269023798,
@@ -13,327 +15,97 @@
         },
         "child_count": 3,
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Body": {
-      "label": "Pupil",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.500769858486844,
-              "x_min": -8.500769858486773,
-              "y_max": 2.109423746787798e-15,
-              "y_min": -4.000000000001247,
-              "z_max": 10.500000000000203,
-              "z_min": -9.500000000000234
-            },
-            "is_valid": true,
-            "volume_mm3": 775.21894470884
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body001": {
-      "label": "White base",
-      "name": "Body001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.0,
-              "x_min": -15.0,
-              "y_max": 0.40000000000000446,
-              "y_min": -4.440892098500633e-15,
-              "z_max": 20.000000000000032,
-              "z_min": -20.000000000000032
-            },
-            "is_valid": true,
-            "volume_mm3": 376.9911184307758
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body002": {
-      "label": "Plastic cover",
-      "name": "Body002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.000162269023798,
-              "x_min": -29.999999999999993,
-              "y_max": 13.856406460551012,
-              "y_min": -13.856406460551021,
-              "z_max": 20.0,
-              "z_min": -20.0
-            },
-            "is_valid": true,
-            "volume_mm3": 5032.2251234935275
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Ellipsoid": {
-      "label": "Ellipsoid",
-      "name": "Ellipsoid",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.0,
-              "x_min": -29.999999999999993,
-              "y_max": 13.856406460551012,
-              "y_min": -13.856406460551021,
-              "z_max": 20.0,
-              "z_min": -20.0
-            },
-            "is_valid": true,
-            "volume_mm3": 10048.699804303837
-          }
-        }
-      ],
-      "type_id": "PartDesign::AdditiveEllipsoid"
-    },
-    "Fillet": {
-      "label": "Fillet",
-      "name": "Fillet",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.500769858486844,
-              "x_min": -8.500769858486773,
-              "y_max": 2.109423746787798e-15,
-              "y_min": -4.000000000001247,
-              "z_max": 10.500000000000203,
-              "z_min": -9.500000000000234
-            },
-            "is_valid": true,
-            "volume_mm3": 775.2189447088401
-          }
-        }
-      ],
-      "type_id": "PartDesign::Fillet"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.5,
-              "x_min": -8.5,
-              "y_max": 2.109423746787798e-15,
-              "y_min": -4.000000000000003,
-              "z_max": 10.500000000000002,
-              "z_min": -9.500000000000004
-            },
-            "is_valid": true,
-            "volume_mm3": 942.4777960769379
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad001": {
-      "label": "Pad001",
-      "name": "Pad001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.0,
-              "x_min": -15.0,
-              "y_max": 0.40000000000000446,
-              "y_min": -4.440892098500633e-15,
-              "z_max": 20.000000000000032,
-              "z_min": -20.000000000000032
-            },
-            "is_valid": true,
-            "volume_mm3": 376.9911184307758
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Part": {
-      "label": "Googly eyes",
-      "name": "Part",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.500769858486844,
-              "x_min": -8.500769858486773,
-              "y_max": 2.109423746787798e-15,
-              "y_min": -4.000000000001247,
-              "z_max": 10.500000000000203,
-              "z_min": -9.500000000000234
-            },
-            "is_valid": true,
-            "volume_mm3": 775.21894470884
-          }
-        },
-        {
-          "index": 2,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.0,
-              "x_min": -15.0,
-              "y_max": 0.40000000000000446,
-              "y_min": -4.440892098500633e-15,
-              "z_max": 20.000000000000032,
-              "z_min": -20.000000000000032
-            },
-            "is_valid": true,
-            "volume_mm3": 376.9911184307758
-          }
-        },
-        {
-          "index": 3,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.000162269023798,
-              "x_min": -29.999999999999993,
-              "y_max": 13.856406460551012,
-              "y_min": -13.856406460551021,
-              "z_max": 20.0,
-              "z_min": -20.0
-            },
-            "is_valid": true,
-            "volume_mm3": 5032.2251234935275
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    },
-    "Pocket": {
-      "label": "Pocket",
-      "name": "Pocket",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.000162269023798,
-              "x_min": -29.999999999999993,
-              "y_max": 13.856406460551012,
-              "y_min": -13.856406460551021,
-              "z_max": 20.0,
-              "z_min": -20.0
-            },
-            "is_valid": true,
-            "volume_mm3": 5032.2251234935275
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Pupil",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Pupil",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 3,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Fillet"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body001": {
-      "label": "White base",
+    {
+      "_source_label": "White base",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pad001"
-      },
-      "name": "Body001",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body002": {
-      "label": "Plastic cover",
+    {
+      "_source_label": "Plastic cover",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 3,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pocket"
-      },
-      "name": "Body002",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Ellipsoid": {
-      "label": "Ellipsoid",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Ellipsoid",
-      "type_id": "PartDesign::AdditiveEllipsoid"
+      }
     },
-    "Fillet": {
-      "label": "Fillet",
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Fillet",
-      "type_id": "PartDesign::Fillet"
+      }
     },
-    "Pad": {
-      "label": "Pad",
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad001": {
-      "label": "Pad001",
+    {
+      "_source_label": "Ellipsoid",
+      "_source_name": "Ellipsoid",
+      "_source_type_id": "PartDesign::AdditiveEllipsoid",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad001",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pocket": {
-      "label": "Pocket",
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket",
-      "type_id": "PartDesign::Pocket"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 9,
         "degrees_of_freedom": 0,
@@ -342,12 +114,12 @@
         "geometry_count": 5,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 8,
         "degrees_of_freedom": 0,
@@ -356,12 +128,12 @@
         "geometry_count": 5,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch002": {
-      "label": "Sketch002",
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 12,
         "degrees_of_freedom": 0,
@@ -370,13 +142,200 @@
         "geometry_count": 5,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch002",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Googly eyes",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.500769858486844,
+          "x_min": -8.500769858486773,
+          "y_max": 2.109423746787798e-15,
+          "y_min": -4.000000000001247,
+          "z_max": 10.500000000000203,
+          "z_min": -9.500000000000234
+        },
+        "is_valid": true,
+        "volume_mm3": 775.21894470884
+      }
+    },
+    {
+      "_source_label": "Googly eyes",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.0,
+          "x_min": -15.0,
+          "y_max": 0.40000000000000446,
+          "y_min": -4.440892098500633e-15,
+          "z_max": 20.000000000000032,
+          "z_min": -20.000000000000032
+        },
+        "is_valid": true,
+        "volume_mm3": 376.9911184307758
+      }
+    },
+    {
+      "_source_label": "Googly eyes",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.000162269023798,
+          "x_min": -29.999999999999993,
+          "y_max": 13.856406460551012,
+          "y_min": -13.856406460551021,
+          "z_max": 20.0,
+          "z_min": -20.0
+        },
+        "is_valid": true,
+        "volume_mm3": 5032.2251234935275
+      }
+    },
+    {
+      "_source_label": "Pupil",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.500769858486844,
+          "x_min": -8.500769858486773,
+          "y_max": 2.109423746787798e-15,
+          "y_min": -4.000000000001247,
+          "z_max": 10.500000000000203,
+          "z_min": -9.500000000000234
+        },
+        "is_valid": true,
+        "volume_mm3": 775.21894470884
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.5,
+          "x_min": -8.5,
+          "y_max": 2.109423746787798e-15,
+          "y_min": -4.000000000000003,
+          "z_max": 10.500000000000002,
+          "z_min": -9.500000000000004
+        },
+        "is_valid": true,
+        "volume_mm3": 942.4777960769379
+      }
+    },
+    {
+      "_source_label": "White base",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.0,
+          "x_min": -15.0,
+          "y_max": 0.40000000000000446,
+          "y_min": -4.440892098500633e-15,
+          "z_max": 20.000000000000032,
+          "z_min": -20.000000000000032
+        },
+        "is_valid": true,
+        "volume_mm3": 376.9911184307758
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.0,
+          "x_min": -15.0,
+          "y_max": 0.40000000000000446,
+          "y_min": -4.440892098500633e-15,
+          "z_max": 20.000000000000032,
+          "z_min": -20.000000000000032
+        },
+        "is_valid": true,
+        "volume_mm3": 376.9911184307758
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.500769858486844,
+          "x_min": -8.500769858486773,
+          "y_max": 2.109423746787798e-15,
+          "y_min": -4.000000000001247,
+          "z_max": 10.500000000000203,
+          "z_min": -9.500000000000234
+        },
+        "is_valid": true,
+        "volume_mm3": 775.2189447088401
+      }
+    },
+    {
+      "_source_label": "Plastic cover",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.000162269023798,
+          "x_min": -29.999999999999993,
+          "y_max": 13.856406460551012,
+          "y_min": -13.856406460551021,
+          "z_max": 20.0,
+          "z_min": -20.0
+        },
+        "is_valid": true,
+        "volume_mm3": 5032.2251234935275
+      }
+    },
+    {
+      "_source_label": "Ellipsoid",
+      "_source_name": "Ellipsoid",
+      "_source_type_id": "PartDesign::AdditiveEllipsoid",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.0,
+          "x_min": -29.999999999999993,
+          "y_max": 13.856406460551012,
+          "y_min": -13.856406460551021,
+          "z_max": 20.0,
+          "z_min": -20.0
+        },
+        "is_valid": true,
+        "volume_mm3": 10048.699804303837
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.000162269023798,
+          "x_min": -29.999999999999993,
+          "y_max": 13.856406460551012,
+          "y_min": -13.856406460551021,
+          "z_max": 20.0,
+          "z_min": -20.0
+        },
+        "is_valid": true,
+        "volume_mm3": 5032.2251234935275
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:06:40.311459+00:00",
+    "data_creation_date": "2026-04-05T21:20:19.598985+00:00",
     "document_label": "Googly_eyes",
     "document_name": "Googly_eyes",
     "freecad_version": "0.21.2 33799 (Git)",
@@ -384,15 +343,15 @@
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.8.17"
   },
-  "spreadsheets": {
-    "Spreadsheet": {
-      "label": "Spreadsheet",
+  "spreadsheets": [
+    {
+      "_source_label": "Spreadsheet",
+      "_source_name": "Spreadsheet",
+      "_source_type_id": "Spreadsheet::Sheet",
       "metrics": {
         "cell_count": 324,
         "is_valid": true
-      },
-      "name": "Spreadsheet",
-      "type_id": "Spreadsheet::Sheet"
+      }
     }
-  }
+  ]
 }

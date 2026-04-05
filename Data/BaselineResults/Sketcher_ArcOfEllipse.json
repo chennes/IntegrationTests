@@ -1,140 +1,52 @@
 {
-  "objects": {
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 22.649991221849678,
-              "x_min": -17.556243728102817,
-              "y_max": 10.000000000000004,
-              "y_min": -22.594269171750156,
-              "z_max": 10.000000000311884,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 7472.562899490583
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Chamfer": {
-      "label": "Chamfer",
-      "name": "Chamfer",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 22.649991221849678,
-              "x_min": -17.556243728102817,
-              "y_max": 10.000000000000004,
-              "y_min": -22.594269171750156,
-              "z_max": 10.000000000207063,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 7474.5587523694185
-          }
-        }
-      ],
-      "type_id": "PartDesign::Chamfer"
-    },
-    "Fillet": {
-      "label": "Fillet",
-      "name": "Fillet",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 22.649991221849678,
-              "x_min": -17.556243728102817,
-              "y_max": 10.000000000000004,
-              "y_min": -22.594269171750156,
-              "z_max": 10.000000000311884,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 7472.562899490581
-          }
-        }
-      ],
-      "type_id": "PartDesign::Fillet"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 22.594247055390003,
-              "x_min": -14.605487812495008,
-              "y_max": 10.0,
-              "y_min": -22.594247055390003,
-              "z_max": 10.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 8104.7254409221605
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Fillet"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Chamfer": {
-      "label": "Chamfer",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Chamfer",
-      "type_id": "PartDesign::Chamfer"
-    },
-    "Fillet": {
-      "label": "Fillet",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Fillet",
-      "type_id": "PartDesign::Fillet"
-    },
-    "Pad": {
-      "label": "Pad",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
+    },
+    {
+      "_source_label": "Chamfer",
+      "_source_name": "Chamfer",
+      "_source_type_id": "PartDesign::Chamfer",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 18,
         "degrees_of_freedom": 0,
@@ -143,13 +55,81 @@
         "geometry_count": 8,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 22.649991221849678,
+          "x_min": -17.556243728102817,
+          "y_max": 10.000000000000004,
+          "y_min": -22.594269171750156,
+          "z_max": 10.000000000311884,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 7472.562899490583
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 22.594247055390003,
+          "x_min": -14.605487812495008,
+          "y_max": 10.0,
+          "y_min": -22.594247055390003,
+          "z_max": 10.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 8104.7254409221605
+      }
+    },
+    {
+      "_source_label": "Chamfer",
+      "_source_name": "Chamfer",
+      "_source_type_id": "PartDesign::Chamfer",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 22.649991221849678,
+          "x_min": -17.556243728102817,
+          "y_max": 10.000000000000004,
+          "y_min": -22.594269171750156,
+          "z_max": 10.000000000207063,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 7474.5587523694185
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 22.649991221849678,
+          "x_min": -17.556243728102817,
+          "y_max": 10.000000000000004,
+          "y_min": -22.594269171750156,
+          "z_max": 10.000000000311884,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 7472.562899490581
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:09:14.368687+00:00",
+    "data_creation_date": "2026-04-05T21:22:50.889458+00:00",
     "document_label": "Sketcher_ArcOfEllipse",
     "document_name": "Sketcher_ArcOfEllipse",
     "freecad_version": "1.1.0 44790 (Git)",

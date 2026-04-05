@@ -1,235 +1,81 @@
 {
-  "objects": {
-    "Body": {
-      "label": "Trichter",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.0,
-              "x_min": -40.0,
-              "y_max": 40.000000000000014,
-              "y_min": -39.999999999999986,
-              "z_max": 55.00000000000001,
-              "z_min": -2.3425705819590805e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 8767.62630582317
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body001": {
-      "label": "Trichter_Luftschlauch",
-      "name": "Body001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 39.800000000000004,
-              "x_min": -40.00000000000001,
-              "y_max": 40.00000000000002,
-              "y_min": -39.99999999999999,
-              "z_max": 55.000000000000014,
-              "z_min": -2.4424906541753444e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 10646.862654109627
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Clone": {
-      "label": "Clone",
-      "name": "Clone",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.0,
-              "x_min": -40.0,
-              "y_max": 40.000000000000014,
-              "y_min": -39.999999999999986,
-              "z_max": 55.00000000000001,
-              "z_min": -2.3425705819590805e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 98373.21697862667
-          }
-        }
-      ],
-      "type_id": "PartDesign::FeatureBase"
-    },
-    "Revolution": {
-      "label": "Revolution",
-      "name": "Revolution",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.0,
-              "x_min": -40.0,
-              "y_max": 40.000000000000014,
-              "y_min": -39.999999999999986,
-              "z_max": 55.00000000000001,
-              "z_min": -2.3425705819590805e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 98373.21697862667
-          }
-        }
-      ],
-      "type_id": "PartDesign::Revolution"
-    },
-    "SubtractivePipe": {
-      "label": "SubtractivePipe",
-      "name": "SubtractivePipe",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 39.800000000000004,
-              "x_min": -40.00000000000001,
-              "y_max": 40.00000000000002,
-              "y_min": -39.99999999999999,
-              "z_max": 55.000000000000014,
-              "z_min": -2.3425705846060583e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 97057.89871923492
-          }
-        }
-      ],
-      "type_id": "PartDesign::SubtractivePipe"
-    },
-    "Thickness": {
-      "label": "Thickness",
-      "name": "Thickness",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.0,
-              "x_min": -40.0,
-              "y_max": 40.000000000000014,
-              "y_min": -39.999999999999986,
-              "z_max": 55.00000000000001,
-              "z_min": -2.3425705819590805e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 8767.62630582317
-          }
-        }
-      ],
-      "type_id": "PartDesign::Thickness"
-    },
-    "Thickness001": {
-      "label": "Thickness001",
-      "name": "Thickness001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 39.800000000000004,
-              "x_min": -40.00000000000001,
-              "y_max": 40.00000000000002,
-              "y_min": -39.99999999999999,
-              "z_max": 55.000000000000014,
-              "z_min": -2.4424906541753444e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 10646.862654109635
-          }
-        }
-      ],
-      "type_id": "PartDesign::Thickness"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Trichter",
+  "partdesign_bodies": [
+    {
+      "_source_label": "Trichter",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 3,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Thickness"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body001": {
-      "label": "Trichter_Luftschlauch",
+    {
+      "_source_label": "Trichter_Luftschlauch",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Thickness001"
-      },
-      "name": "Body001",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Clone": {
-      "label": "Clone",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Revolution",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Clone",
-      "type_id": "PartDesign::FeatureBase"
+      }
     },
-    "Revolution": {
-      "label": "Revolution",
+    {
+      "_source_label": "Thickness",
+      "_source_name": "Thickness",
+      "_source_type_id": "PartDesign::Thickness",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Revolution",
-      "type_id": "PartDesign::Revolution"
+      }
     },
-    "SubtractivePipe": {
-      "label": "SubtractivePipe",
+    {
+      "_source_label": "Clone",
+      "_source_name": "Clone",
+      "_source_type_id": "PartDesign::FeatureBase",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "SubtractivePipe",
-      "type_id": "PartDesign::SubtractivePipe"
+      }
     },
-    "Thickness": {
-      "label": "Thickness",
+    {
+      "_source_label": "SubtractivePipe",
+      "_source_name": "SubtractivePipe",
+      "_source_type_id": "PartDesign::SubtractivePipe",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Thickness",
-      "type_id": "PartDesign::Thickness"
+      }
     },
-    "Thickness001": {
-      "label": "Thickness001",
+    {
+      "_source_label": "Thickness001",
+      "_source_name": "Thickness001",
+      "_source_type_id": "PartDesign::Thickness",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Thickness001",
-      "type_id": "PartDesign::Thickness"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 14,
         "degrees_of_freedom": 0,
@@ -238,12 +84,12 @@
         "geometry_count": 5,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 2,
         "degrees_of_freedom": 0,
@@ -252,16 +98,135 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Trichter",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.0,
+          "x_min": -40.0,
+          "y_max": 40.000000000000014,
+          "y_min": -39.999999999999986,
+          "z_max": 55.00000000000001,
+          "z_min": -2.3425705819590805e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 8767.62630582317
+      }
+    },
+    {
+      "_source_label": "Revolution",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.0,
+          "x_min": -40.0,
+          "y_max": 40.000000000000014,
+          "y_min": -39.999999999999986,
+          "z_max": 55.00000000000001,
+          "z_min": -2.3425705819590805e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 98373.21697862667
+      }
+    },
+    {
+      "_source_label": "Thickness",
+      "_source_name": "Thickness",
+      "_source_type_id": "PartDesign::Thickness",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.0,
+          "x_min": -40.0,
+          "y_max": 40.000000000000014,
+          "y_min": -39.999999999999986,
+          "z_max": 55.00000000000001,
+          "z_min": -2.3425705819590805e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 8767.62630582317
+      }
+    },
+    {
+      "_source_label": "Trichter_Luftschlauch",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 39.800000000000004,
+          "x_min": -40.00000000000001,
+          "y_max": 40.00000000000002,
+          "y_min": -39.99999999999999,
+          "z_max": 55.000000000000014,
+          "z_min": -2.4424906541753444e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 10646.862654109627
+      }
+    },
+    {
+      "_source_label": "Clone",
+      "_source_name": "Clone",
+      "_source_type_id": "PartDesign::FeatureBase",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.0,
+          "x_min": -40.0,
+          "y_max": 40.000000000000014,
+          "y_min": -39.999999999999986,
+          "z_max": 55.00000000000001,
+          "z_min": -2.3425705819590805e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 98373.21697862667
+      }
+    },
+    {
+      "_source_label": "SubtractivePipe",
+      "_source_name": "SubtractivePipe",
+      "_source_type_id": "PartDesign::SubtractivePipe",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 39.800000000000004,
+          "x_min": -40.00000000000001,
+          "y_max": 40.00000000000002,
+          "y_min": -39.99999999999999,
+          "z_max": 55.000000000000014,
+          "z_min": -2.3425705846060583e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 97057.89871923492
+      }
+    },
+    {
+      "_source_label": "Thickness001",
+      "_source_name": "Thickness001",
+      "_source_type_id": "PartDesign::Thickness",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 39.800000000000004,
+          "x_min": -40.00000000000001,
+          "y_max": 40.00000000000002,
+          "y_min": -39.99999999999999,
+          "z_max": 55.000000000000014,
+          "z_min": -2.4424906541753444e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 10646.862654109635
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:08:16.569974+00:00",
+    "data_creation_date": "2026-04-05T21:21:54.269101+00:00",
     "document_label": "PD_Funnels",
     "document_name": "PD_Funnels",
-    "freecad_version": "1.2.0 45400 (Git)",
+    "freecad_version": "1.1.0 44790 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Funnels.FCStd",
     "platform": "Windows-11-10.0.26200-SP0",
     "python_version": "3.14.2"

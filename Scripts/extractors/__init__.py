@@ -2,8 +2,8 @@
 
 Each extractor is a (section_name, extractor_function) tuple. Add new tuples here to match
 new analyzers added in EvaluateFile.FCMacro. Most sections use the simple (name, 0) -> metrics
-pattern via make_simple_extractor; only sections with non-trivial structure (like "objects"
-with its nested solids list) need a custom extractor.
+pattern via make_simple_extractor; only sections with non-trivial structure (like "solids"
+with its flat list) need a custom extractor.
 """
 
 from __future__ import annotations
@@ -14,7 +14,7 @@ from metric_types import ExtractorFunction, make_simple_extractor
 from extractors.solid import extract_solid_metrics
 
 EXTRACTORS: List[Tuple[str, ExtractorFunction]] = [
-    ("objects", extract_solid_metrics),
+    ("solids", extract_solid_metrics),
     ("sketches", make_simple_extractor("sketches")),
     ("partdesign_bodies", make_simple_extractor("partdesign_bodies")),
     ("partdesign_features", make_simple_extractor("partdesign_features")),

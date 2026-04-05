@@ -1,7 +1,9 @@
 {
-  "app_parts": {
-    "Part": {
-      "label": "Part",
+  "app_parts": [
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 17.5,
@@ -13,231 +15,75 @@
         },
         "child_count": 1,
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.5,
-              "x_min": -17.5,
-              "y_max": 17.500387282914765,
-              "y_min": -17.500387282914765,
-              "z_max": 15.5,
-              "z_min": -1.5
-            },
-            "is_valid": true,
-            "volume_mm3": 3167.886155135616
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Chamfer": {
-      "label": "Chamfer",
-      "name": "Chamfer",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.5,
-              "x_min": -17.5,
-              "y_max": 17.5,
-              "y_min": -17.5,
-              "z_max": 15.5,
-              "z_min": -1.5
-            },
-            "is_valid": true,
-            "volume_mm3": 3197.2770561254374
-          }
-        }
-      ],
-      "type_id": "PartDesign::Chamfer"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 13.75,
-              "x_min": -13.75,
-              "y_max": 13.75,
-              "y_min": -13.75,
-              "z_max": 15.5,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 1809.3423657204899
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad001": {
-      "label": "Pad001",
-      "name": "Pad001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.5,
-              "x_min": -17.5,
-              "y_max": 17.5,
-              "y_min": -17.5,
-              "z_max": 15.5,
-              "z_min": -1.5
-            },
-            "is_valid": true,
-            "volume_mm3": 3252.511490963302
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Part": {
-      "label": "Part",
-      "name": "Part",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.5,
-              "x_min": -17.5,
-              "y_max": 17.500387282914765,
-              "y_min": -17.500387282914765,
-              "z_max": 15.5,
-              "z_min": -1.5
-            },
-            "is_valid": true,
-            "volume_mm3": 3167.886155135616
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    },
-    "Pocket": {
-      "label": "Pocket",
-      "name": "Pocket",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.5,
-              "x_min": -17.5,
-              "y_max": 17.5,
-              "y_min": -17.5,
-              "z_max": 15.5,
-              "z_min": -1.5
-            },
-            "is_valid": true,
-            "volume_mm3": 3182.4152773939236
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "PolarPattern": {
-      "label": "PolarPattern",
-      "name": "PolarPattern",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.5,
-              "x_min": -17.5,
-              "y_max": 17.500387282914765,
-              "y_min": -17.500387282914765,
-              "z_max": 15.5,
-              "z_min": -1.5
-            },
-            "is_valid": true,
-            "volume_mm3": 3167.886155135616
-          }
-        }
-      ],
-      "type_id": "PartDesign::PolarPattern"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 8,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "PolarPattern"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Chamfer": {
-      "label": "Chamfer",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Chamfer",
-      "type_id": "PartDesign::Chamfer"
-    },
-    "Pad": {
-      "label": "Pad",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad001": {
-      "label": "Pad001",
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound"
-      },
-      "name": "Pad001",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pocket": {
-      "label": "Pocket",
+    {
+      "_source_label": "Chamfer",
+      "_source_name": "Chamfer",
+      "_source_type_id": "PartDesign::Chamfer",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound"
-      },
-      "name": "Pocket",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "PolarPattern": {
-      "label": "PolarPattern",
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound"
-      },
-      "name": "PolarPattern",
-      "type_id": "PartDesign::PolarPattern"
+      }
+    },
+    {
+      "_source_label": "PolarPattern",
+      "_source_name": "PolarPattern",
+      "_source_type_id": "PartDesign::PolarPattern",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 4,
         "degrees_of_freedom": 0,
@@ -246,12 +92,12 @@
         "geometry_count": 2,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 2,
         "degrees_of_freedom": 0,
@@ -260,12 +106,12 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch002": {
-      "label": "Sketch002",
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 2,
         "degrees_of_freedom": 0,
@@ -274,16 +120,135 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch002",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.5,
+          "x_min": -17.5,
+          "y_max": 17.500387282914765,
+          "y_min": -17.500387282914765,
+          "z_max": 15.5,
+          "z_min": -1.5
+        },
+        "is_valid": true,
+        "volume_mm3": 3167.886155135616
+      }
+    },
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.5,
+          "x_min": -17.5,
+          "y_max": 17.500387282914765,
+          "y_min": -17.500387282914765,
+          "z_max": 15.5,
+          "z_min": -1.5
+        },
+        "is_valid": true,
+        "volume_mm3": 3167.886155135616
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 13.75,
+          "x_min": -13.75,
+          "y_max": 13.75,
+          "y_min": -13.75,
+          "z_max": 15.5,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 1809.3423657204899
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.5,
+          "x_min": -17.5,
+          "y_max": 17.5,
+          "y_min": -17.5,
+          "z_max": 15.5,
+          "z_min": -1.5
+        },
+        "is_valid": true,
+        "volume_mm3": 3252.511490963302
+      }
+    },
+    {
+      "_source_label": "Chamfer",
+      "_source_name": "Chamfer",
+      "_source_type_id": "PartDesign::Chamfer",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.5,
+          "x_min": -17.5,
+          "y_max": 17.5,
+          "y_min": -17.5,
+          "z_max": 15.5,
+          "z_min": -1.5
+        },
+        "is_valid": true,
+        "volume_mm3": 3197.2770561254374
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.5,
+          "x_min": -17.5,
+          "y_max": 17.5,
+          "y_min": -17.5,
+          "z_max": 15.5,
+          "z_min": -1.5
+        },
+        "is_valid": true,
+        "volume_mm3": 3182.4152773939236
+      }
+    },
+    {
+      "_source_label": "PolarPattern",
+      "_source_name": "PolarPattern",
+      "_source_type_id": "PartDesign::PolarPattern",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.5,
+          "x_min": -17.5,
+          "y_max": 17.500387282914765,
+          "y_min": -17.500387282914765,
+          "z_max": 15.5,
+          "z_min": -1.5
+        },
+        "is_valid": true,
+        "volume_mm3": 3167.886155135616
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:08:21.927191+00:00",
+    "data_creation_date": "2026-04-05T21:21:58.957271+00:00",
     "document_label": "PD_PipeEndCap",
     "document_name": "PD_PipeEndCap",
-    "freecad_version": "1.2.0 45400 (Git)",
+    "freecad_version": "1.1.0 44790 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_PipeEndCap.FCStd",
     "platform": "Windows-11-10.0.26200-SP0",
     "python_version": "3.14.2"

@@ -1,202 +1,70 @@
 {
-  "objects": {
-    "Body": {
-      "label": "Garnhalter_einzeln",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.75,
-              "x_min": -7.171650363785087,
-              "y_max": 28.000000000000007,
-              "y_min": -3.7793225837486464,
-              "z_max": 50.5,
-              "z_min": -15.000000000000005
-            },
-            "is_valid": true,
-            "volume_mm3": 3088.1204191477304
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Fillet": {
-      "label": "Fillet",
-      "name": "Fillet",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.75,
-              "x_min": -7.171650363785087,
-              "y_max": 28.000000000000007,
-              "y_min": -3.7793225837486473,
-              "z_max": 50.5,
-              "z_min": -15.000000000000005
-            },
-            "is_valid": true,
-            "volume_mm3": 3111.5902209145684
-          }
-        }
-      ],
-      "type_id": "PartDesign::Fillet"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.750000000000001,
-              "x_min": -6.1,
-              "y_max": 11.05,
-              "y_min": -3.7793225837486473,
-              "z_max": 50.5,
-              "z_min": -11.05
-            },
-            "is_valid": true,
-            "volume_mm3": 1339.8983822965456
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad001": {
-      "label": "Pad001",
-      "name": "Pad001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.750000000000001,
-              "x_min": -6.1,
-              "y_max": 28.000000000000007,
-              "y_min": -3.7793225837486473,
-              "z_max": 50.5,
-              "z_min": -15.000000000000004
-            },
-            "is_valid": true,
-            "volume_mm3": 3170.0071514843
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pocket": {
-      "label": "Pocket",
-      "name": "Pocket",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.75,
-              "x_min": -7.171650363785087,
-              "y_max": 28.000000000000007,
-              "y_min": -3.7793225837486473,
-              "z_max": 50.5,
-              "z_min": -15.000000000000005
-            },
-            "is_valid": true,
-            "volume_mm3": 3088.1204191477304
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Revolution": {
-      "label": "Revolution",
-      "name": "Revolution",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.75,
-              "x_min": -5.75,
-              "y_max": 11.05,
-              "y_min": -3.7793225837486473,
-              "z_max": 11.050000000000002,
-              "z_min": -11.05
-            },
-            "is_valid": true,
-            "volume_mm3": 609.5229636479486
-          }
-        }
-      ],
-      "type_id": "PartDesign::Revolution"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Garnhalter_einzeln",
+  "partdesign_bodies": [
+    {
+      "_source_label": "Garnhalter_einzeln",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 9,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pocket"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Fillet": {
-      "label": "Fillet",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Fillet",
-      "type_id": "PartDesign::Fillet"
-    },
-    "Pad": {
-      "label": "Pad",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad001": {
-      "label": "Pad001",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Pad001",
-      "type_id": "PartDesign::Pad"
-    },
-    "Pocket": {
-      "label": "Pocket",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound"
-      },
-      "name": "Pocket",
-      "type_id": "PartDesign::Pocket"
-    },
-    "Revolution": {
-      "label": "Revolution",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Revolution",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Revolution",
-      "type_id": "PartDesign::Revolution"
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 21,
         "degrees_of_freedom": 0,
@@ -205,12 +73,12 @@
         "geometry_count": 8,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 3,
         "degrees_of_freedom": 0,
@@ -219,12 +87,12 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch002": {
-      "label": "Sketch002",
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 43,
         "degrees_of_freedom": 0,
@@ -233,16 +101,118 @@
         "geometry_count": 15,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch002",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Garnhalter_einzeln",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.75,
+          "x_min": -7.171650363785087,
+          "y_max": 28.000000000000007,
+          "y_min": -3.7793225837486464,
+          "z_max": 50.5,
+          "z_min": -15.000000000000005
+        },
+        "is_valid": true,
+        "volume_mm3": 3088.1204191477304
+      }
+    },
+    {
+      "_source_label": "Revolution",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.75,
+          "x_min": -5.75,
+          "y_max": 11.05,
+          "y_min": -3.7793225837486473,
+          "z_max": 11.050000000000002,
+          "z_min": -11.05
+        },
+        "is_valid": true,
+        "volume_mm3": 609.5229636479486
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.750000000000001,
+          "x_min": -6.1,
+          "y_max": 11.05,
+          "y_min": -3.7793225837486473,
+          "z_max": 50.5,
+          "z_min": -11.05
+        },
+        "is_valid": true,
+        "volume_mm3": 1339.8983822965456
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.750000000000001,
+          "x_min": -6.1,
+          "y_max": 28.000000000000007,
+          "y_min": -3.7793225837486473,
+          "z_max": 50.5,
+          "z_min": -15.000000000000004
+        },
+        "is_valid": true,
+        "volume_mm3": 3170.0071514843
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.75,
+          "x_min": -7.171650363785087,
+          "y_max": 28.000000000000007,
+          "y_min": -3.7793225837486473,
+          "z_max": 50.5,
+          "z_min": -15.000000000000005
+        },
+        "is_valid": true,
+        "volume_mm3": 3111.5902209145684
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.75,
+          "x_min": -7.171650363785087,
+          "y_max": 28.000000000000007,
+          "y_min": -3.7793225837486473,
+          "z_max": 50.5,
+          "z_min": -15.000000000000005
+        },
+        "is_valid": true,
+        "volume_mm3": 3088.1204191477304
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:08:23.452327+00:00",
+    "data_creation_date": "2026-04-05T21:22:00.207913+00:00",
     "document_label": "PD_SpoolHolder",
     "document_name": "PD_SpoolHolder",
-    "freecad_version": "1.2.0 45400 (Git)",
+    "freecad_version": "1.1.0 44790 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_SpoolHolder.FCStd",
     "platform": "Windows-11-10.0.26200-SP0",
     "python_version": "3.14.2"

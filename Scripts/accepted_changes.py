@@ -28,8 +28,8 @@ class AcceptedChangeRule:
     Attributes:
         section: fnmatch pattern matched against the extractor section name (e.g.
             "part_features", or "*" for all sections).
-        object_pattern: fnmatch pattern matched against the object name (diff.key[0]),
-            e.g. "Wall*".
+        object_pattern: fnmatch pattern matched against the source object name annotation
+            (diff.key[1]), e.g. "Wall*".
         metric_pattern: fnmatch pattern matched against the diff's reason string (e.g.
             "*shape_type*"). Defaults to "*" (match any reason).
         accepted_values: If provided, the diff's new value must appear in this list for the rule
@@ -59,7 +59,9 @@ class AcceptedChangeRule:
         """
         if not fnmatch.fnmatch(section, self.section):
             return False
-        if not fnmatch.fnmatch(diff.key[0], self.object_pattern):
+        # diff.key is (sorted_position, source_name); match against the source name annotation
+        source_name = diff.key[1] if len(diff.key) > 1 else str(diff.key[0])
+        if not fnmatch.fnmatch(source_name, self.object_pattern):
             return False
         if self.metric_pattern != "*":
             if not fnmatch.fnmatch(diff.reason, self.metric_pattern):

@@ -1,348 +1,120 @@
 {
-  "objects": {
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.00000000000032,
-              "x_min": -40.00000000000032,
-              "y_max": 20.00000000000032,
-              "y_min": -20.000000000000327,
-              "z_max": 100.00000000000001,
-              "z_min": -1.4210854715202004e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 113345.57139348514
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Mirrored": {
-      "label": "Mirrored",
-      "name": "Mirrored",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "is_valid": false
-          }
-        }
-      ],
-      "type_id": "PartDesign::Mirrored"
-    },
-    "Mirrored001": {
-      "label": "Mirrored001",
-      "name": "Mirrored001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "is_valid": false
-          }
-        }
-      ],
-      "type_id": "PartDesign::Mirrored"
-    },
-    "Mirrored002": {
-      "label": "Mirrored002",
-      "name": "Mirrored002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "is_valid": false
-          }
-        }
-      ],
-      "type_id": "PartDesign::Mirrored"
-    },
-    "MultiTransform": {
-      "label": "MultiTransform",
-      "name": "MultiTransform",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.00000000000032,
-              "x_min": -40.00000000000032,
-              "y_max": 20.00000000000032,
-              "y_min": -20.000000000000327,
-              "z_max": 100.00000000000001,
-              "z_min": -1.4210854715202004e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 204566.4872037278
-          }
-        }
-      ],
-      "type_id": "PartDesign::MultiTransform"
-    },
-    "MultiTransform001": {
-      "label": "MultiTransform001",
-      "name": "MultiTransform001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.00000000000032,
-              "x_min": -40.00000000000032,
-              "y_max": 20.00000000000032,
-              "y_min": -20.000000000000327,
-              "z_max": 100.00000000000001,
-              "z_min": -1.4210854715202004e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 192638.37448371048
-          }
-        }
-      ],
-      "type_id": "PartDesign::MultiTransform"
-    },
-    "Pad": {
-      "label": "Solid_Material",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.0,
-              "x_min": -40.0,
-              "y_max": 20.00000000000032,
-              "y_min": -19.999999999999666,
-              "z_max": 100.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 318626.54824574245
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pocket": {
-      "label": "Pocket",
-      "name": "Pocket",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.0,
-              "x_min": -40.0,
-              "y_max": 20.00000000000032,
-              "y_min": -19.999999999999666,
-              "z_max": 100.0,
-              "z_min": -1.4210854715202004e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 300279.21100097493
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket001": {
-      "label": "Pocket001",
-      "name": "Pocket001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.0,
-              "x_min": -40.0,
-              "y_max": 20.00000000000032,
-              "y_min": -19.999999999999666,
-              "z_max": 100.0,
-              "z_min": -1.4210854715202004e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 296303.17342763586
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket002": {
-      "label": "Pocket002",
-      "name": "Pocket002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.00000000000032,
-              "x_min": -40.00000000000032,
-              "y_max": 20.00000000000032,
-              "y_min": -20.000000000000327,
-              "z_max": 100.00000000000001,
-              "z_min": -1.4210854715202004e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 120396.87610446736
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket003": {
-      "label": "Pocket003",
-      "name": "Pocket003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 40.00000000000032,
-              "x_min": -40.00000000000032,
-              "y_max": 20.00000000000032,
-              "y_min": -20.000000000000327,
-              "z_max": 100.00000000000001,
-              "z_min": -1.4210854715202004e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 113345.57139348511
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "PolarPattern": {
-      "label": "PolarPattern",
-      "name": "PolarPattern",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "is_valid": false
-          }
-        }
-      ],
-      "type_id": "PartDesign::PolarPattern"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 18,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pocket003"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Mirrored": {
-      "label": "Mirrored",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Solid_Material",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "MultiTransform",
+      "_source_name": "MultiTransform",
+      "_source_type_id": "PartDesign::MultiTransform",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "PolarPattern",
+      "_source_name": "PolarPattern",
+      "_source_type_id": "PartDesign::PolarPattern",
       "metrics": {
         "is_valid": true
-      },
-      "name": "Mirrored",
-      "type_id": "PartDesign::Mirrored"
+      }
     },
-    "Mirrored001": {
-      "label": "Mirrored001",
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
       "metrics": {
         "is_valid": true
-      },
-      "name": "Mirrored001",
-      "type_id": "PartDesign::Mirrored"
+      }
     },
-    "Mirrored002": {
-      "label": "Mirrored002",
+    {
+      "_source_label": "MultiTransform001",
+      "_source_name": "MultiTransform001",
+      "_source_type_id": "PartDesign::MultiTransform",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Mirrored001",
+      "_source_name": "Mirrored001",
+      "_source_type_id": "PartDesign::Mirrored",
       "metrics": {
         "is_valid": true
-      },
-      "name": "Mirrored002",
-      "type_id": "PartDesign::Mirrored"
+      }
     },
-    "MultiTransform": {
-      "label": "MultiTransform",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Solid"
-      },
-      "name": "MultiTransform",
-      "type_id": "PartDesign::MultiTransform"
-    },
-    "MultiTransform001": {
-      "label": "MultiTransform001",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Solid"
-      },
-      "name": "MultiTransform001",
-      "type_id": "PartDesign::MultiTransform"
-    },
-    "Pad": {
-      "label": "Solid_Material",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
-    },
-    "Pocket": {
-      "label": "Pocket",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Solid"
-      },
-      "name": "Pocket",
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket001": {
-      "label": "Pocket001",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Solid"
-      },
-      "name": "Pocket001",
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket002": {
-      "label": "Pocket002",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Solid"
-      },
-      "name": "Pocket002",
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket003": {
-      "label": "Pocket003",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Solid"
-      },
-      "name": "Pocket003",
-      "type_id": "PartDesign::Pocket"
-    },
-    "PolarPattern": {
-      "label": "PolarPattern",
+    {
+      "_source_label": "Mirrored002",
+      "_source_name": "Mirrored002",
+      "_source_type_id": "PartDesign::Mirrored",
       "metrics": {
         "is_valid": true
-      },
-      "name": "PolarPattern",
-      "type_id": "PartDesign::PolarPattern"
+      }
+    },
+    {
+      "_source_label": "Pocket002",
+      "_source_name": "Pocket002",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Pocket003",
+      "_source_name": "Pocket003",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 18,
         "degrees_of_freedom": 0,
@@ -351,12 +123,12 @@
         "geometry_count": 8,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 68,
         "degrees_of_freedom": 0,
@@ -365,12 +137,12 @@
         "geometry_count": 26,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch003": {
-      "label": "Sketch003",
+    {
+      "_source_label": "Sketch003",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 20,
         "degrees_of_freedom": 0,
@@ -379,12 +151,12 @@
         "geometry_count": 8,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch003",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch004": {
-      "label": "Sketch004",
+    {
+      "_source_label": "Sketch004",
+      "_source_name": "Sketch004",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 2,
         "degrees_of_freedom": 0,
@@ -393,12 +165,12 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch004",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch005": {
-      "label": "Sketch005",
+    {
+      "_source_label": "Sketch005",
+      "_source_name": "Sketch005",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 135,
         "degrees_of_freedom": 0,
@@ -407,12 +179,12 @@
         "geometry_count": 64,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch005",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch006": {
-      "label": "Sketch006",
+    {
+      "_source_label": "Sketch006",
+      "_source_name": "Sketch006",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 6,
         "degrees_of_freedom": 0,
@@ -421,13 +193,181 @@
         "geometry_count": 2,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch006",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.00000000000032,
+          "x_min": -40.00000000000032,
+          "y_max": 20.00000000000032,
+          "y_min": -20.000000000000327,
+          "z_max": 100.00000000000001,
+          "z_min": -1.4210854715202004e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 113345.57139348525
+      }
+    },
+    {
+      "_source_label": "Solid_Material",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.0,
+          "x_min": -40.0,
+          "y_max": 20.00000000000032,
+          "y_min": -19.999999999999677,
+          "z_max": 100.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 318626.54824574257
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.0,
+          "x_min": -40.0,
+          "y_max": 20.00000000000032,
+          "y_min": -19.999999999999677,
+          "z_max": 100.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 300279.21100097516
+      }
+    },
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.0,
+          "x_min": -40.0,
+          "y_max": 20.00000000000032,
+          "y_min": -19.999999999999677,
+          "z_max": 100.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 296303.17342763604
+      }
+    },
+    {
+      "_source_label": "MultiTransform",
+      "_source_name": "MultiTransform",
+      "_source_type_id": "PartDesign::MultiTransform",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.00000000000032,
+          "x_min": -40.00000000000032,
+          "y_max": 20.00000000000032,
+          "y_min": -20.000000000000327,
+          "z_max": 100.00000000000001,
+          "z_min": -1.4210854715202004e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 204566.4872037279
+      }
+    },
+    {
+      "_source_label": "PolarPattern",
+      "_source_name": "PolarPattern",
+      "_source_type_id": "PartDesign::PolarPattern",
+      "metrics": {
+        "is_valid": false
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": false
+      }
+    },
+    {
+      "_source_label": "MultiTransform001",
+      "_source_name": "MultiTransform001",
+      "_source_type_id": "PartDesign::MultiTransform",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.00000000000032,
+          "x_min": -40.00000000000032,
+          "y_max": 20.00000000000032,
+          "y_min": -20.000000000000327,
+          "z_max": 100.00000000000001,
+          "z_min": -1.4210854715202004e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 192638.3744837106
+      }
+    },
+    {
+      "_source_label": "Mirrored001",
+      "_source_name": "Mirrored001",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": false
+      }
+    },
+    {
+      "_source_label": "Mirrored002",
+      "_source_name": "Mirrored002",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": false
+      }
+    },
+    {
+      "_source_label": "Pocket002",
+      "_source_name": "Pocket002",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.00000000000032,
+          "x_min": -40.00000000000032,
+          "y_max": 20.00000000000032,
+          "y_min": -20.000000000000327,
+          "z_max": 100.00000000000001,
+          "z_min": -1.4210854715202004e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 120396.8761044675
+      }
+    },
+    {
+      "_source_label": "Pocket003",
+      "_source_name": "Pocket003",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 40.00000000000032,
+          "x_min": -40.00000000000032,
+          "y_max": 20.00000000000032,
+          "y_min": -20.000000000000327,
+          "z_max": 100.00000000000001,
+          "z_min": -1.4210854715202004e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 113345.57139348528
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:08:37.885437+00:00",
+    "data_creation_date": "2026-04-05T21:22:13.536323+00:00",
     "document_label": "Profile_40x80L_Slot8",
     "document_name": "Profile_40x80L_Slot8",
     "freecad_version": "1.0.2 39320 (Git)",

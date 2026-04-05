@@ -1,78 +1,34 @@
 {
-  "objects": {
-    "AdditivePipe": {
-      "label": "AdditivePipe",
-      "name": "AdditivePipe",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 76.8780032317366,
-              "x_min": -76.87800323160934,
-              "y_max": 36.77749816834552,
-              "y_min": -26.678819444444375,
-              "z_max": 2.85016857486853,
-              "z_min": -2.8501685748684715
-            },
-            "is_valid": true,
-            "volume_mm3": 2453.656727461893
-          }
-        }
-      ],
-      "type_id": "PartDesign::AdditivePipe"
-    },
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 76.8780032317366,
-              "x_min": -76.87800323160934,
-              "y_max": 36.77749816834552,
-              "y_min": -26.678819444444375,
-              "z_max": 2.85016857486853,
-              "z_min": -2.8501685748684715
-            },
-            "is_valid": true,
-            "volume_mm3": 2453.656727461893
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 3,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "AdditivePipe"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "AdditivePipe": {
-      "label": "AdditivePipe",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "AdditivePipe",
+      "_source_name": "AdditivePipe",
+      "_source_type_id": "PartDesign::AdditivePipe",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "AdditivePipe",
-      "type_id": "PartDesign::AdditivePipe"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 17,
         "degrees_of_freedom": 0,
@@ -81,12 +37,12 @@
         "geometry_count": 8,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 2,
         "degrees_of_freedom": 0,
@@ -95,13 +51,47 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 76.8780032317366,
+          "x_min": -76.87800323160934,
+          "y_max": 36.77749816834552,
+          "y_min": -26.678819444444375,
+          "z_max": 2.85016857486853,
+          "z_min": -2.8501685748684715
+        },
+        "is_valid": true,
+        "volume_mm3": 2453.656727461893
+      }
+    },
+    {
+      "_source_label": "AdditivePipe",
+      "_source_name": "AdditivePipe",
+      "_source_type_id": "PartDesign::AdditivePipe",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 76.8780032317366,
+          "x_min": -76.87800323160934,
+          "y_max": 36.77749816834552,
+          "y_min": -26.678819444444375,
+          "z_max": 2.85016857486853,
+          "z_min": -2.8501685748684715
+        },
+        "is_valid": true,
+        "volume_mm3": 2453.656727461893
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:09:16.272673+00:00",
+    "data_creation_date": "2026-04-05T21:22:52.642776+00:00",
     "document_label": "Sketcher_ArcOfParabola",
     "document_name": "Sketcher_ArcOfParabola",
     "freecad_version": "1.1.0 44790 (Git)",

@@ -1,78 +1,34 @@
 {
-  "objects": {
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 20.0,
-              "x_min": 0.0,
-              "y_max": 20.0,
-              "y_min": 0.0,
-              "z_max": 5.0,
-              "z_min": -5.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3999.999999999999
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 20.0,
-              "x_min": 0.0,
-              "y_max": 20.0,
-              "y_min": 0.0,
-              "z_max": 5.0,
-              "z_min": -5.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3999.999999999999
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pad"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Pad": {
-      "label": "Pad",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 11,
         "degrees_of_freedom": 0,
@@ -81,13 +37,47 @@
         "geometry_count": 4,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.0,
+          "x_min": 0.0,
+          "y_max": 20.0,
+          "y_min": 0.0,
+          "z_max": 5.0,
+          "z_min": -5.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3999.999999999999
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.0,
+          "x_min": 0.0,
+          "y_max": 20.0,
+          "y_min": 0.0,
+          "z_max": 5.0,
+          "z_min": -5.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3999.999999999999
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:08:17.361809+00:00",
+    "data_creation_date": "2026-04-05T21:21:55.135117+00:00",
     "document_label": "PD_PadWithMidplaneFC102",
     "document_name": "PD_PadWithMidplaneFC102",
     "freecad_version": "1.0.2 39320 (Git)",

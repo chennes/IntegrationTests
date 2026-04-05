@@ -1,511 +1,96 @@
 {
-  "objects": {
-    "Array": {
-      "label": "apxlTProf",
-      "name": "Array",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 10.76120467488713,
-              "x_min": -10.761204674887132,
-              "y_max": 10.76120467488713,
-              "y_min": -10.761204674887132,
-              "z_max": 8.167894898328449,
-              "z_min": 1.505390803603885
-            },
-            "is_valid": true,
-            "volume_mm3": 1120.0844193995854
-          }
-        }
-      ],
-      "type_id": "Part::FeaturePython"
-    },
-    "Array001": {
-      "label": "apxlTopof",
-      "name": "Array001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 9.90486749854334,
-              "x_min": -9.992007221626409e-16,
-              "y_max": 8.881784197001252e-16,
-              "y_min": -2.4386290252100653,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.2971774913816714
-          }
-        },
-        {
-          "index": 2,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 9.904867498546706,
-              "x_min": -1.3055186580554364e-15,
-              "y_max": 2.4386290251931406,
-              "y_min": 5.407635340976849e-16,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.297177491381671
-          }
-        },
-        {
-          "index": 3,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 8.590970598769237,
-              "x_min": -1.4130832128153975e-15,
-              "y_max": 5.969176302657212,
-              "y_min": 0.0,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.2971774913816723
-          }
-        },
-        {
-          "index": 4,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.96917630267156,
-              "x_min": -8.881784197001252e-16,
-              "y_max": 8.590970598759649,
-              "y_min": 0.0,
-              "z_max": 5.219912551233925,
-              "z_min": 2.9999999999999996
-            },
-            "is_valid": true,
-            "volume_mm3": 3.29717749138167
-          }
-        },
-        {
-          "index": 5,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.4386290252100635,
-              "x_min": -9.992007221626409e-16,
-              "y_max": 9.904867498543341,
-              "y_min": -9.992007221626413e-16,
-              "z_max": 5.219912551233927,
-              "z_min": 3.000000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 3.2971774913816736
-          }
-        },
-        {
-          "index": 6,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -5.40763534097685e-16,
-              "x_min": -2.4386290251931415,
-              "y_max": 9.904867498546706,
-              "y_min": -1.3055186580554368e-15,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.297177491381672
-          }
-        },
-        {
-          "index": 7,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -1.9721522630525295e-31,
-              "x_min": -5.969176302657211,
-              "y_max": 8.590970598769239,
-              "y_min": -1.4130832128153977e-15,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.2971774913816727
-          }
-        },
-        {
-          "index": 8,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 0.0,
-              "x_min": -8.59097059875965,
-              "y_max": 5.969176302671561,
-              "y_min": -8.881784197001252e-16,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.297177491381671
-          }
-        },
-        {
-          "index": 9,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 9.992007221626407e-16,
-              "x_min": -9.90486749854334,
-              "y_max": 2.4386290252100666,
-              "y_min": -9.99200722162641e-16,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.2971774913816714
-          }
-        },
-        {
-          "index": 10,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1.3055186580554366e-15,
-              "x_min": -9.90486749854671,
-              "y_max": -5.407635340976859e-16,
-              "y_min": -2.4386290251931353,
-              "z_max": 5.219912551233927,
-              "z_min": 3.000000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 3.2971774913816736
-          }
-        },
-        {
-          "index": 11,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1.4130832128153975e-15,
-              "x_min": -8.590970598769236,
-              "y_max": 0.0,
-              "y_min": -5.969176302657211,
-              "z_max": 5.219912551233925,
-              "z_min": 2.9999999999999996
-            },
-            "is_valid": true,
-            "volume_mm3": 3.29717749138167
-          }
-        },
-        {
-          "index": 12,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 8.881784197001252e-16,
-              "x_min": -5.969176302671561,
-              "y_max": 0.0,
-              "y_min": -8.590970598759654,
-              "z_max": 5.219912551233927,
-              "z_min": 3.000000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 3.2971774913816727
-          }
-        },
-        {
-          "index": 13,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 9.99200722162641e-16,
-              "x_min": -2.4386290252100675,
-              "y_max": 9.992007221626407e-16,
-              "y_min": -9.90486749854334,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.2971774913816714
-          }
-        },
-        {
-          "index": 14,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.4386290251931415,
-              "x_min": 5.40763534097685e-16,
-              "y_max": 1.3055186580554368e-15,
-              "y_min": -9.904867498546706,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.297177491381672
-          }
-        },
-        {
-          "index": 15,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.96917630265721,
-              "x_min": 3.944304526105059e-31,
-              "y_max": 1.4130832128153975e-15,
-              "y_min": -8.590970598769239,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.2971774913816723
-          }
-        },
-        {
-          "index": 16,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 8.590970598759652,
-              "x_min": 0.0,
-              "y_max": 8.881784197001252e-16,
-              "y_min": -5.969176302671558,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.297177491381671
-          }
-        }
-      ],
-      "type_id": "Part::FeaturePython"
-    },
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 9.999999999999996,
-              "x_min": -9.999999999999996,
-              "y_max": 9.999999999999996,
-              "y_min": -9.999999999999998,
-              "z_max": 4.722631632776153,
-              "z_min": -2.2204460492503123e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 1129.3780981645739
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Cut": {
-      "label": "cTprof",
-      "name": "Cut",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 10.000000000000682,
-              "x_min": -10.000000000000682,
-              "y_max": 10.000000000000684,
-              "y_min": -10.000000000000682,
-              "z_max": 4.6895317490138195,
-              "z_min": -2.2204460492503123e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 790.5398997867801
-          }
-        }
-      ],
-      "type_id": "Part::Cut"
-    },
-    "Cut001": {
-      "label": "HirthJoint",
-      "name": "Cut001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 10.000000000000682,
-              "x_min": -10.000000000000682,
-              "y_max": 10.000000000000684,
-              "y_min": -10.000000000000682,
-              "z_max": 4.225350714335636,
-              "z_min": -2.220446049250313e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 784.3322233683191
-          }
-        }
-      ],
-      "type_id": "Part::Cut"
-    },
-    "Loft": {
-      "label": "xlTProf",
-      "name": "Loft",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 10.000000000000682,
-              "x_min": -9.992007221626409e-16,
-              "y_max": 3.978247347593159,
-              "y_min": -3.9782473475931615,
-              "z_max": 8.167894898328447,
-              "z_min": 1.5053908036038852
-            },
-            "is_valid": true,
-            "volume_mm3": 91.23293281304802
-          }
-        }
-      ],
-      "type_id": "Part::Loft"
-    },
-    "Loft001": {
-      "label": "xlTopof",
-      "name": "Loft001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 9.90486749854334,
-              "x_min": -9.992007221626409e-16,
-              "y_max": 8.881784197001252e-16,
-              "y_min": -2.4386290252100653,
-              "z_max": 5.219912551233926,
-              "z_min": 3.0
-            },
-            "is_valid": true,
-            "volume_mm3": 3.2971774913816714
-          }
-        }
-      ],
-      "type_id": "Part::Loft"
-    },
-    "Revolution": {
-      "label": "xrAxis",
-      "name": "Revolution",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 9.999999999999996,
-              "x_min": -9.999999999999996,
-              "y_max": 9.999999999999996,
-              "y_min": -9.999999999999998,
-              "z_max": 4.722631632776153,
-              "z_min": -2.2204460492503123e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 1129.3780981645739
-          }
-        }
-      ],
-      "type_id": "PartDesign::Revolution"
-    }
-  },
-  "part_features": {
-    "Array": {
-      "label": "apxlTProf",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound",
-        "shell_is_closed": true
-      },
-      "name": "Array",
-      "type_id": "Part::FeaturePython"
-    },
-    "Array001": {
-      "label": "apxlTopof",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound",
-        "shell_is_closed": true
-      },
-      "name": "Array001",
-      "type_id": "Part::FeaturePython"
-    },
-    "Cut": {
-      "label": "cTprof",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound",
-        "shell_is_closed": true
-      },
-      "name": "Cut",
-      "type_id": "Part::Cut"
-    },
-    "Cut001": {
-      "label": "HirthJoint",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound",
-        "shell_is_closed": true
-      },
-      "name": "Cut001",
-      "type_id": "Part::Cut"
-    },
-    "Loft": {
-      "label": "xlTProf",
+  "part_features": [
+    {
+      "_source_label": "xlTProf",
+      "_source_name": "Loft",
+      "_source_type_id": "Part::Loft",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid",
         "shell_is_closed": true
-      },
-      "name": "Loft",
-      "type_id": "Part::Loft"
+      }
     },
-    "Loft001": {
-      "label": "xlTopof",
+    {
+      "_source_label": "xlTopof",
+      "_source_name": "Loft001",
+      "_source_type_id": "Part::Loft",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid",
         "shell_is_closed": true
-      },
-      "name": "Loft001",
-      "type_id": "Part::Loft"
+      }
+    },
+    {
+      "_source_label": "apxlTProf",
+      "_source_name": "Array",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "cTprof",
+      "_source_name": "Cut",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "HirthJoint",
+      "_source_name": "Cut001",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
     }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 8,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Revolution"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Revolution": {
-      "label": "xrAxis",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "xrAxis",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Revolution",
-      "type_id": "PartDesign::Revolution"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "sxlTopof",
-      "metrics": {
-        "constraint_count": 19,
-        "degrees_of_freedom": -1,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 7,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch001": {
-      "label": "sTrefs",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "sTrefs",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 15,
         "degrees_of_freedom": -1,
@@ -514,12 +99,12 @@
         "geometry_count": 6,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch002": {
-      "label": "sxrAxis",
+    {
+      "_source_label": "sxrAxis",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 14,
         "degrees_of_freedom": -1,
@@ -528,12 +113,12 @@
         "geometry_count": 5,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch002",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch003": {
-      "label": "sxlTProf",
+    {
+      "_source_label": "sxlTProf",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 14,
         "degrees_of_freedom": -1,
@@ -542,13 +127,418 @@
         "geometry_count": 6,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch003",
-      "type_id": "Sketcher::SketchObject"
+      }
+    },
+    {
+      "_source_label": "sxlTopof",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 19,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 7,
+        "is_valid": true,
+        "solver_status": 0
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 9.999999999999996,
+          "x_min": -9.999999999999996,
+          "y_max": 9.999999999999996,
+          "y_min": -9.999999999999998,
+          "z_max": 4.722631632776153,
+          "z_min": -2.2204460492503123e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 1129.3780981645739
+      }
+    },
+    {
+      "_source_label": "xrAxis",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 9.999999999999996,
+          "x_min": -9.999999999999996,
+          "y_max": 9.999999999999996,
+          "y_min": -9.999999999999998,
+          "z_max": 4.722631632776153,
+          "z_min": -2.2204460492503123e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 1129.3780981645739
+      }
+    },
+    {
+      "_source_label": "xlTProf",
+      "_source_name": "Loft",
+      "_source_type_id": "Part::Loft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.000000000000682,
+          "x_min": -9.992007221626409e-16,
+          "y_max": 3.978247347593159,
+          "y_min": -3.9782473475931615,
+          "z_max": 8.167894898328447,
+          "z_min": 1.5053908036038852
+        },
+        "is_valid": true,
+        "volume_mm3": 91.23293281304802
+      }
+    },
+    {
+      "_source_label": "xlTopof",
+      "_source_name": "Loft001",
+      "_source_type_id": "Part::Loft",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 9.90486749854334,
+          "x_min": -9.992007221626409e-16,
+          "y_max": 8.881784197001252e-16,
+          "y_min": -2.4386290252100653,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.2971774913816714
+      }
+    },
+    {
+      "_source_label": "apxlTProf",
+      "_source_name": "Array",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.76120467488713,
+          "x_min": -10.761204674887132,
+          "y_max": 10.76120467488713,
+          "y_min": -10.761204674887132,
+          "z_max": 8.167894898328449,
+          "z_min": 1.505390803603885
+        },
+        "is_valid": true,
+        "volume_mm3": 1120.0844193995854
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 9.90486749854334,
+          "x_min": -9.992007221626409e-16,
+          "y_max": 8.881784197001252e-16,
+          "y_min": -2.4386290252100653,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.2971774913816714
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 9.904867498546706,
+          "x_min": -1.3055186580554364e-15,
+          "y_max": 2.4386290251931406,
+          "y_min": 5.407635340976849e-16,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.297177491381671
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 8.590970598769237,
+          "x_min": -1.4130832128153975e-15,
+          "y_max": 5.969176302657212,
+          "y_min": 0.0,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.2971774913816723
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.96917630267156,
+          "x_min": -8.881784197001252e-16,
+          "y_max": 8.590970598759649,
+          "y_min": 0.0,
+          "z_max": 5.219912551233925,
+          "z_min": 2.9999999999999996
+        },
+        "is_valid": true,
+        "volume_mm3": 3.29717749138167
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.4386290252100635,
+          "x_min": -9.992007221626409e-16,
+          "y_max": 9.904867498543341,
+          "y_min": -9.992007221626413e-16,
+          "z_max": 5.219912551233927,
+          "z_min": 3.000000000000001
+        },
+        "is_valid": true,
+        "volume_mm3": 3.2971774913816736
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -5.40763534097685e-16,
+          "x_min": -2.4386290251931415,
+          "y_max": 9.904867498546706,
+          "y_min": -1.3055186580554368e-15,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.297177491381672
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -1.9721522630525295e-31,
+          "x_min": -5.969176302657211,
+          "y_max": 8.590970598769239,
+          "y_min": -1.4130832128153977e-15,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.2971774913816727
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 0.0,
+          "x_min": -8.59097059875965,
+          "y_max": 5.969176302671561,
+          "y_min": -8.881784197001252e-16,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.297177491381671
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 9.992007221626407e-16,
+          "x_min": -9.90486749854334,
+          "y_max": 2.4386290252100666,
+          "y_min": -9.99200722162641e-16,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.2971774913816714
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1.3055186580554366e-15,
+          "x_min": -9.90486749854671,
+          "y_max": -5.407635340976859e-16,
+          "y_min": -2.4386290251931353,
+          "z_max": 5.219912551233927,
+          "z_min": 3.000000000000001
+        },
+        "is_valid": true,
+        "volume_mm3": 3.2971774913816736
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1.4130832128153975e-15,
+          "x_min": -8.590970598769236,
+          "y_max": 0.0,
+          "y_min": -5.969176302657211,
+          "z_max": 5.219912551233925,
+          "z_min": 2.9999999999999996
+        },
+        "is_valid": true,
+        "volume_mm3": 3.29717749138167
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 8.881784197001252e-16,
+          "x_min": -5.969176302671561,
+          "y_max": 0.0,
+          "y_min": -8.590970598759654,
+          "z_max": 5.219912551233927,
+          "z_min": 3.000000000000001
+        },
+        "is_valid": true,
+        "volume_mm3": 3.2971774913816727
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 9.99200722162641e-16,
+          "x_min": -2.4386290252100675,
+          "y_max": 9.992007221626407e-16,
+          "y_min": -9.90486749854334,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.2971774913816714
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.4386290251931415,
+          "x_min": 5.40763534097685e-16,
+          "y_max": 1.3055186580554368e-15,
+          "y_min": -9.904867498546706,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.297177491381672
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.96917630265721,
+          "x_min": 3.944304526105059e-31,
+          "y_max": 1.4130832128153975e-15,
+          "y_min": -8.590970598769239,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.2971774913816723
+      }
+    },
+    {
+      "_source_label": "apxlTopof",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 8.590970598759652,
+          "x_min": 0.0,
+          "y_max": 8.881784197001252e-16,
+          "y_min": -5.969176302671558,
+          "z_max": 5.219912551233926,
+          "z_min": 3.0
+        },
+        "is_valid": true,
+        "volume_mm3": 3.297177491381671
+      }
+    },
+    {
+      "_source_label": "cTprof",
+      "_source_name": "Cut",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.000000000000682,
+          "x_min": -10.000000000000682,
+          "y_max": 10.000000000000684,
+          "y_min": -10.000000000000682,
+          "z_max": 4.68953174901382,
+          "z_min": -2.2204460492503123e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 790.5398997867812
+      }
+    },
+    {
+      "_source_label": "HirthJoint",
+      "_source_name": "Cut001",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.000000000000682,
+          "x_min": -10.000000000000682,
+          "y_max": 10.000000000000684,
+          "y_min": -10.000000000000682,
+          "z_max": 4.225350714335636,
+          "z_min": -2.220446049250313e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 784.3322233683216
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:06:45.093043+00:00",
+    "data_creation_date": "2026-04-05T21:20:26.700420+00:00",
     "document_label": "Hirth-joint-generator",
     "document_name": "Hirth_joint_generator",
     "freecad_version": "0.20.2 29603 (Git)",
@@ -556,15 +546,15 @@
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.8.10"
   },
-  "spreadsheets": {
-    "Spreadsheet": {
-      "label": "cfg",
+  "spreadsheets": [
+    {
+      "_source_label": "cfg",
+      "_source_name": "Spreadsheet",
+      "_source_type_id": "Spreadsheet::Sheet",
       "metrics": {
         "cell_count": -1,
         "is_valid": true
-      },
-      "name": "Spreadsheet",
-      "type_id": "Spreadsheet::Sheet"
+      }
     }
-  }
+  ]
 }

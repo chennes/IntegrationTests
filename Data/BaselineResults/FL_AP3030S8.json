@@ -1,7 +1,9 @@
 {
-  "app_parts": {
-    "Part": {
-      "label": "AP3030S8",
+  "app_parts": [
+    {
+      "_source_label": "AP3030S8",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 15.000000436112455,
@@ -13,117 +15,49 @@
         },
         "child_count": 19,
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "materials": {
-    "Part": {
-      "label": "AP3030S8",
+  ],
+  "materials": [
+    {
+      "_source_label": "AP3030S8",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.000000436112455,
-              "x_min": -14.99999956408815,
-              "y_max": 5.000000000000005,
-              "y_min": -5.000000000000005,
-              "z_max": 15.000000000000162,
-              "z_min": -15.000000000198725
-            },
-            "is_valid": true,
-            "volume_mm3": 3139.2993817696197
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.000000436112455,
-              "x_min": -14.99999956408815,
-              "y_max": 5.000000000000005,
-              "y_min": -5.000000000000005,
-              "z_max": 15.000000000000162,
-              "z_min": -15.000000000198725
-            },
-            "is_valid": true,
-            "volume_mm3": 3139.2993817696197
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Part": {
-      "label": "AP3030S8",
-      "name": "Part",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.000000436112455,
-              "x_min": -14.99999956408815,
-              "y_max": 5.000000000000005,
-              "y_min": -5.000000000000005,
-              "z_max": 15.000000000000162,
-              "z_min": -15.000000000198725
-            },
-            "is_valid": true,
-            "volume_mm3": 3139.2993817696197
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pad"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Pad": {
-      "label": "Pad",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch007": {
-      "label": "AP3030N8",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "AP3030N8",
+      "_source_name": "Sketch007",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 184,
         "degrees_of_freedom": -1,
@@ -132,13 +66,64 @@
         "geometry_count": 184,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch007",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.000000436112455,
+          "x_min": -14.99999956408815,
+          "y_max": 5.000000000000005,
+          "y_min": -5.000000000000005,
+          "z_max": 15.000000000000162,
+          "z_min": -15.000000000198725
+        },
+        "is_valid": true,
+        "volume_mm3": 3139.2993817696206
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.000000436112455,
+          "x_min": -14.99999956408815,
+          "y_max": 5.000000000000005,
+          "y_min": -5.000000000000005,
+          "z_max": 15.000000000000162,
+          "z_min": -15.000000000198725
+        },
+        "is_valid": true,
+        "volume_mm3": 3139.2993817696197
+      }
+    },
+    {
+      "_source_label": "AP3030S8",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.000000436112455,
+          "x_min": -14.99999956408815,
+          "y_max": 5.000000000000005,
+          "y_min": -5.000000000000005,
+          "z_max": 15.000000000000162,
+          "z_min": -15.000000000198725
+        },
+        "is_valid": true,
+        "volume_mm3": 3139.2993817696206
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:06:23.768215+00:00",
+    "data_creation_date": "2026-04-05T21:20:01.668769+00:00",
     "document_label": "FL_AP3030S8",
     "document_name": "FL_AP3030S8",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",
@@ -146,22 +131,22 @@
     "platform": "Windows-10-10.0.26100",
     "python_version": "3.8.6+"
   },
-  "techdraw_pages": {
-    "Page": {
-      "label": "Spec",
+  "techdraw_pages": [
+    {
+      "_source_label": "Spec",
+      "_source_name": "Page",
+      "_source_type_id": "TechDraw::DrawPage",
       "metrics": {
         "is_valid": true,
         "template_loaded": true,
-        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmpsrchqtzp/config/temp/FreeCAD_Doc_2c58634f-0c8d-49ee-81b5-27a1ca297670_aefb3c_13824/A4_Landscape_blank.svg",
+        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmpjxdgcuty/temp/FreeCAD_Doc_2c58634f-0c8d-49ee-81b5-27a1ca297670_aefb3c_40872/A4_Landscape_blank.svg",
         "view_count": 8,
         "view_types": {
           "TechDraw::DrawViewClip": 1,
           "TechDraw::DrawViewDimension": 6,
           "TechDraw::DrawViewPart": 1
         }
-      },
-      "name": "Page",
-      "type_id": "TechDraw::DrawPage"
+      }
     }
-  }
+  ]
 }

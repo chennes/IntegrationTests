@@ -1,7 +1,9 @@
 {
-  "app_parts": {
-    "Part": {
-      "label": "T8 housing bracket",
+  "app_parts": [
+    {
+      "_source_label": "T8 housing bracket",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 17.0,
@@ -13,231 +15,75 @@
         },
         "child_count": 1,
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.0,
-              "x_min": -17.0,
-              "y_max": 15.000000000000002,
-              "y_min": -15.000000000000002,
-              "z_max": 16.0,
-              "z_min": -14.0
-            },
-            "is_valid": true,
-            "volume_mm3": 26608.57006512746
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Hole": {
-      "label": "Hole",
-      "name": "Hole",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.0,
-              "x_min": -17.0,
-              "y_max": 15.0,
-              "y_min": -15.0,
-              "z_max": 16.0,
-              "z_min": -14.0
-            },
-            "is_valid": true,
-            "volume_mm3": 29617.0724057536
-          }
-        }
-      ],
-      "type_id": "PartDesign::Hole"
-    },
-    "Hole001": {
-      "label": "Hole001",
-      "name": "Hole001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.0,
-              "x_min": -17.0,
-              "y_max": 15.000000000000002,
-              "y_min": -15.000000000000002,
-              "z_max": 16.0,
-              "z_min": -14.0
-            },
-            "is_valid": true,
-            "volume_mm3": 27026.408259899963
-          }
-        }
-      ],
-      "type_id": "PartDesign::Hole"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.0,
-              "x_min": -17.0,
-              "y_max": 15.0,
-              "y_min": -15.0,
-              "z_max": 16.0,
-              "z_min": -14.0
-            },
-            "is_valid": true,
-            "volume_mm3": 30600.000000000004
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Part": {
-      "label": "T8 housing bracket",
-      "name": "Part",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.0,
-              "x_min": -17.0,
-              "y_max": 15.000000000000002,
-              "y_min": -15.000000000000002,
-              "z_max": 16.0,
-              "z_min": -14.0
-            },
-            "is_valid": true,
-            "volume_mm3": 26608.57006512746
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    },
-    "Pocket": {
-      "label": "Pocket",
-      "name": "Pocket",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.0,
-              "x_min": -17.0,
-              "y_max": 15.000000000000002,
-              "y_min": -15.000000000000002,
-              "z_max": 16.0,
-              "z_min": -14.0
-            },
-            "is_valid": true,
-            "volume_mm3": 27165.687658157487
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "PolarPattern": {
-      "label": "PolarPattern",
-      "name": "PolarPattern",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.0,
-              "x_min": -17.0,
-              "y_max": 15.000000000000002,
-              "y_min": -15.000000000000002,
-              "z_max": 16.0,
-              "z_min": -14.0
-            },
-            "is_valid": true,
-            "volume_mm3": 26608.57006512746
-          }
-        }
-      ],
-      "type_id": "PartDesign::PolarPattern"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 9,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "PolarPattern"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Hole": {
-      "label": "Hole",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Hole",
-      "type_id": "PartDesign::Hole"
+      }
     },
-    "Hole001": {
-      "label": "Hole001",
+    {
+      "_source_label": "Hole",
+      "_source_name": "Hole",
+      "_source_type_id": "PartDesign::Hole",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Hole001",
-      "type_id": "PartDesign::Hole"
+      }
     },
-    "Pad": {
-      "label": "Pad",
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pocket": {
-      "label": "Pocket",
+    {
+      "_source_label": "Hole001",
+      "_source_name": "Hole001",
+      "_source_type_id": "PartDesign::Hole",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "PolarPattern": {
-      "label": "PolarPattern",
+    {
+      "_source_label": "PolarPattern",
+      "_source_name": "PolarPattern",
+      "_source_type_id": "PartDesign::PolarPattern",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "PolarPattern",
-      "type_id": "PartDesign::PolarPattern"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 12,
         "degrees_of_freedom": -1,
@@ -246,12 +92,12 @@
         "geometry_count": 5,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 20,
         "degrees_of_freedom": -1,
@@ -260,12 +106,12 @@
         "geometry_count": 9,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch002": {
-      "label": "Sketch002",
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 2,
         "degrees_of_freedom": -1,
@@ -274,12 +120,12 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch002",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch003": {
-      "label": "Sketch003",
+    {
+      "_source_label": "Sketch003",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 3,
         "degrees_of_freedom": -1,
@@ -288,13 +134,132 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch003",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "T8 housing bracket",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.0,
+          "x_min": -17.0,
+          "y_max": 15.000000000000002,
+          "y_min": -15.000000000000002,
+          "z_max": 16.0,
+          "z_min": -14.0
+        },
+        "is_valid": true,
+        "volume_mm3": 26608.57006512746
+      }
+    },
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.0,
+          "x_min": -17.0,
+          "y_max": 15.000000000000002,
+          "y_min": -15.000000000000002,
+          "z_max": 16.0,
+          "z_min": -14.0
+        },
+        "is_valid": true,
+        "volume_mm3": 26608.57006512746
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.0,
+          "x_min": -17.0,
+          "y_max": 15.0,
+          "y_min": -15.0,
+          "z_max": 16.0,
+          "z_min": -14.0
+        },
+        "is_valid": true,
+        "volume_mm3": 30600.000000000004
+      }
+    },
+    {
+      "_source_label": "Hole",
+      "_source_name": "Hole",
+      "_source_type_id": "PartDesign::Hole",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.0,
+          "x_min": -17.0,
+          "y_max": 15.0,
+          "y_min": -15.0,
+          "z_max": 16.0,
+          "z_min": -14.0
+        },
+        "is_valid": true,
+        "volume_mm3": 29617.0724057536
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.0,
+          "x_min": -17.0,
+          "y_max": 15.000000000000002,
+          "y_min": -15.000000000000002,
+          "z_max": 16.0,
+          "z_min": -14.0
+        },
+        "is_valid": true,
+        "volume_mm3": 27165.687658157487
+      }
+    },
+    {
+      "_source_label": "Hole001",
+      "_source_name": "Hole001",
+      "_source_type_id": "PartDesign::Hole",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.0,
+          "x_min": -17.0,
+          "y_max": 15.000000000000002,
+          "y_min": -15.000000000000002,
+          "z_max": 16.0,
+          "z_min": -14.0
+        },
+        "is_valid": true,
+        "volume_mm3": 27026.408259899963
+      }
+    },
+    {
+      "_source_label": "PolarPattern",
+      "_source_name": "PolarPattern",
+      "_source_type_id": "PartDesign::PolarPattern",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.0,
+          "x_min": -17.0,
+          "y_max": 15.000000000000002,
+          "y_min": -15.000000000000002,
+          "z_max": 16.0,
+          "z_min": -14.0
+        },
+        "is_valid": true,
+        "volume_mm3": 26608.57006512746
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:09:17.958258+00:00",
+    "data_creation_date": "2026-04-05T21:22:54.263801+00:00",
     "document_label": "T8_housing_bracket",
     "document_name": "T8_housing_bracket",
     "freecad_version": "0.20.2 29603 (Git)",

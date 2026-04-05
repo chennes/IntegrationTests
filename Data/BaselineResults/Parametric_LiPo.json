@@ -1,7 +1,9 @@
 {
-  "app_parts": {
-    "Part": {
-      "label": "LiPo battery",
+  "app_parts": [
+    {
+      "_source_label": "LiPo battery",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 15.250000000000012,
@@ -13,406 +15,117 @@
         },
         "child_count": 4,
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Body": {
-      "label": "Battery",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 21.0,
-              "x_min": -21.0,
-              "y_max": 15.25,
-              "y_min": -15.25,
-              "z_max": 5.0,
-              "z_min": -5.0
-            },
-            "is_valid": true,
-            "volume_mm3": 12534.24550787685
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body001": {
-      "label": "Celofan",
-      "name": "Body001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -16.799999999999997,
-              "x_min": -21.000000000000004,
-              "y_max": 15.25,
-              "y_min": -15.250000000000004,
-              "z_max": 5.000000000000001,
-              "z_min": -5.0
-            },
-            "is_valid": true,
-            "volume_mm3": 67.36800000000035
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body002": {
-      "label": "Plus",
-      "name": "Body002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -21.0,
-              "x_min": -26.0,
-              "y_max": 3.7500000000000013,
-              "y_min": 2.2499999999999996,
-              "z_max": 0.7500000000000018,
-              "z_min": -0.75
-            },
-            "is_valid": true,
-            "volume_mm3": 8.835729338221293
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body003": {
-      "label": "Minus",
-      "name": "Body003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -21.0,
-              "x_min": -26.0,
-              "y_max": -2.2499999999999987,
-              "y_min": -3.7500000000000004,
-              "z_max": 0.7500000000000018,
-              "z_min": -0.75
-            },
-            "is_valid": true,
-            "volume_mm3": 8.835729338221293
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Fillet": {
-      "label": "Fillet",
-      "name": "Fillet",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 21.0,
-              "x_min": -21.0,
-              "y_max": 15.25,
-              "y_min": -15.25,
-              "z_max": 5.0,
-              "z_min": -5.0
-            },
-            "is_valid": true,
-            "volume_mm3": 12534.24550787685
-          }
-        }
-      ],
-      "type_id": "PartDesign::Fillet"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 21.0,
-              "x_min": -21.0,
-              "y_max": 15.25,
-              "y_min": -15.25,
-              "z_max": 5.0,
-              "z_min": -5.0
-            },
-            "is_valid": true,
-            "volume_mm3": 12810.0
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad001": {
-      "label": "Pad001",
-      "name": "Pad001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -16.8,
-              "x_min": -21.0,
-              "y_max": 15.249999999999998,
-              "y_min": -15.250000000000004,
-              "z_max": 5.0,
-              "z_min": -5.0
-            },
-            "is_valid": true,
-            "volume_mm3": 67.3680000000002
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad002": {
-      "label": "Pad002",
-      "name": "Pad002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -21.0,
-              "x_min": -26.0,
-              "y_max": 3.75,
-              "y_min": 2.2499999999999996,
-              "z_max": 0.7500000000000002,
-              "z_min": -0.75
-            },
-            "is_valid": true,
-            "volume_mm3": 8.835729338221295
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad003": {
-      "label": "Pad003",
-      "name": "Pad003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -21.0,
-              "x_min": -26.0,
-              "y_max": -2.25,
-              "y_min": -3.7500000000000004,
-              "z_max": 0.7500000000000002,
-              "z_min": -0.75
-            },
-            "is_valid": true,
-            "volume_mm3": 8.835729338221295
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Part": {
-      "label": "LiPo battery",
-      "name": "Part",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.250000000000007,
-              "x_min": -15.250000000000009,
-              "y_max": 21.000000000000007,
-              "y_min": -21.000000000000007,
-              "z_max": 5.000000000000002,
-              "z_min": -5.000000000000002
-            },
-            "is_valid": true,
-            "volume_mm3": 12534.245507876858
-          }
-        },
-        {
-          "index": 2,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.250000000000012,
-              "x_min": -15.25,
-              "y_max": -16.8,
-              "y_min": -21.000000000000007,
-              "z_max": 5.0000000000000036,
-              "z_min": -5.000000000000001
-            },
-            "is_valid": true,
-            "volume_mm3": 67.36800000000024
-          }
-        },
-        {
-          "index": 3,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -2.2499999999999947,
-              "x_min": -3.7499999999999973,
-              "y_max": -21.000000000000004,
-              "y_min": -26.000000000000007,
-              "z_max": 0.7500000000000016,
-              "z_min": -0.7500000000000002
-            },
-            "is_valid": true,
-            "volume_mm3": 8.8357293382213
-          }
-        },
-        {
-          "index": 4,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 3.750000000000007,
-              "x_min": 2.2500000000000036,
-              "y_max": -21.000000000000004,
-              "y_min": -26.000000000000007,
-              "z_max": 0.7500000000000012,
-              "z_min": -0.7500000000000002
-            },
-            "is_valid": true,
-            "volume_mm3": 8.8357293382213
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    },
-    "Pocket": {
-      "label": "Pocket",
-      "name": "Pocket",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 21.0,
-              "x_min": -21.0,
-              "y_max": 15.25,
-              "y_min": -15.25,
-              "z_max": 5.0,
-              "z_min": -5.0
-            },
-            "is_valid": true,
-            "volume_mm3": 12728.210756580307
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Battery",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Battery",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 5,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Fillet"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body001": {
-      "label": "Celofan",
+    {
+      "_source_label": "Celofan",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pad001"
-      },
-      "name": "Body001",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body002": {
-      "label": "Plus",
+    {
+      "_source_label": "Plus",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pad002"
-      },
-      "name": "Body002",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body003": {
-      "label": "Minus",
+    {
+      "_source_label": "Minus",
+      "_source_name": "Body003",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pad003"
-      },
-      "name": "Body003",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Fillet": {
-      "label": "Fillet",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Fillet",
-      "type_id": "PartDesign::Fillet"
+      }
     },
-    "Pad": {
-      "label": "Pad",
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad001": {
-      "label": "Pad001",
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad001",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad002": {
-      "label": "Pad002",
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad002",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad003": {
-      "label": "Pad003",
+    {
+      "_source_label": "Pad002",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad003",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pocket": {
-      "label": "Pocket",
+    {
+      "_source_label": "Pad003",
+      "_source_name": "Pad003",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket",
-      "type_id": "PartDesign::Pocket"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 12,
         "degrees_of_freedom": 0,
@@ -421,12 +134,12 @@
         "geometry_count": 5,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 38,
         "degrees_of_freedom": 0,
@@ -435,12 +148,12 @@
         "geometry_count": 16,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch002": {
-      "label": "Sketch002",
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 56,
         "degrees_of_freedom": 0,
@@ -449,12 +162,12 @@
         "geometry_count": 26,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch002",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch003": {
-      "label": "Sketch003",
+    {
+      "_source_label": "Sketch003",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 3,
         "degrees_of_freedom": 0,
@@ -463,12 +176,12 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch003",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch004": {
-      "label": "Sketch004",
+    {
+      "_source_label": "Sketch004",
+      "_source_name": "Sketch004",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 3,
         "degrees_of_freedom": 0,
@@ -477,13 +190,251 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch004",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "LiPo battery",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.250000000000007,
+          "x_min": -15.250000000000009,
+          "y_max": 21.000000000000007,
+          "y_min": -21.000000000000007,
+          "z_max": 5.000000000000002,
+          "z_min": -5.000000000000002
+        },
+        "is_valid": true,
+        "volume_mm3": 12534.245507876858
+      }
+    },
+    {
+      "_source_label": "LiPo battery",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.250000000000012,
+          "x_min": -15.25,
+          "y_max": -16.8,
+          "y_min": -21.000000000000007,
+          "z_max": 5.0000000000000036,
+          "z_min": -5.000000000000001
+        },
+        "is_valid": true,
+        "volume_mm3": 67.36800000000024
+      }
+    },
+    {
+      "_source_label": "LiPo battery",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -2.2499999999999947,
+          "x_min": -3.7499999999999973,
+          "y_max": -21.000000000000004,
+          "y_min": -26.000000000000007,
+          "z_max": 0.7500000000000016,
+          "z_min": -0.7500000000000002
+        },
+        "is_valid": true,
+        "volume_mm3": 8.8357293382213
+      }
+    },
+    {
+      "_source_label": "LiPo battery",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 3.750000000000007,
+          "x_min": 2.2500000000000036,
+          "y_max": -21.000000000000004,
+          "y_min": -26.000000000000007,
+          "z_max": 0.7500000000000012,
+          "z_min": -0.7500000000000002
+        },
+        "is_valid": true,
+        "volume_mm3": 8.8357293382213
+      }
+    },
+    {
+      "_source_label": "Battery",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 21.0,
+          "x_min": -21.0,
+          "y_max": 15.25,
+          "y_min": -15.25,
+          "z_max": 5.0,
+          "z_min": -5.0
+        },
+        "is_valid": true,
+        "volume_mm3": 12534.24550787685
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 21.0,
+          "x_min": -21.0,
+          "y_max": 15.25,
+          "y_min": -15.25,
+          "z_max": 5.0,
+          "z_min": -5.0
+        },
+        "is_valid": true,
+        "volume_mm3": 12810.0
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 21.0,
+          "x_min": -21.0,
+          "y_max": 15.25,
+          "y_min": -15.25,
+          "z_max": 5.0,
+          "z_min": -5.0
+        },
+        "is_valid": true,
+        "volume_mm3": 12728.210756580307
+      }
+    },
+    {
+      "_source_label": "Celofan",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -16.799999999999997,
+          "x_min": -21.000000000000004,
+          "y_max": 15.25,
+          "y_min": -15.250000000000004,
+          "z_max": 5.000000000000001,
+          "z_min": -5.0
+        },
+        "is_valid": true,
+        "volume_mm3": 67.36800000000035
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -16.8,
+          "x_min": -21.0,
+          "y_max": 15.249999999999998,
+          "y_min": -15.250000000000004,
+          "z_max": 5.0,
+          "z_min": -5.0
+        },
+        "is_valid": true,
+        "volume_mm3": 67.3680000000002
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 21.0,
+          "x_min": -21.0,
+          "y_max": 15.25,
+          "y_min": -15.25,
+          "z_max": 5.0,
+          "z_min": -5.0
+        },
+        "is_valid": true,
+        "volume_mm3": 12534.24550787685
+      }
+    },
+    {
+      "_source_label": "Plus",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -21.0,
+          "x_min": -26.0,
+          "y_max": 3.7500000000000013,
+          "y_min": 2.2499999999999996,
+          "z_max": 0.7500000000000018,
+          "z_min": -0.75
+        },
+        "is_valid": true,
+        "volume_mm3": 8.835729338221293
+      }
+    },
+    {
+      "_source_label": "Pad002",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -21.0,
+          "x_min": -26.0,
+          "y_max": 3.75,
+          "y_min": 2.2499999999999996,
+          "z_max": 0.7500000000000002,
+          "z_min": -0.75
+        },
+        "is_valid": true,
+        "volume_mm3": 8.835729338221295
+      }
+    },
+    {
+      "_source_label": "Minus",
+      "_source_name": "Body003",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -21.0,
+          "x_min": -26.0,
+          "y_max": -2.2499999999999987,
+          "y_min": -3.7500000000000004,
+          "z_max": 0.7500000000000018,
+          "z_min": -0.75
+        },
+        "is_valid": true,
+        "volume_mm3": 8.835729338221293
+      }
+    },
+    {
+      "_source_label": "Pad003",
+      "_source_name": "Pad003",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -21.0,
+          "x_min": -26.0,
+          "y_max": -2.25,
+          "y_min": -3.7500000000000004,
+          "z_max": 0.7500000000000002,
+          "z_min": -0.75
+        },
+        "is_valid": true,
+        "volume_mm3": 8.835729338221295
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:08:30.304881+00:00",
+    "data_creation_date": "2026-04-05T21:22:06.170044+00:00",
     "document_label": "Parametric_LiPo",
     "document_name": "Parametric_LiPo",
     "freecad_version": "0.21.2 33799 (Git)",
@@ -491,15 +442,15 @@
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.8.17"
   },
-  "spreadsheets": {
-    "Spreadsheet": {
-      "label": "Parameters",
+  "spreadsheets": [
+    {
+      "_source_label": "Parameters",
+      "_source_name": "Spreadsheet",
+      "_source_type_id": "Spreadsheet::Sheet",
       "metrics": {
         "cell_count": 90,
         "is_valid": true
-      },
-      "name": "Spreadsheet",
-      "type_id": "Spreadsheet::Sheet"
+      }
     }
-  }
+  ]
 }

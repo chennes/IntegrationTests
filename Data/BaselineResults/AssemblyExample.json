@@ -1,1278 +1,1186 @@
 {
-  "assemblies": {
-    "Assembly": {
-      "label": "Assembly",
+  "assemblies": [
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
       "metrics": {
         "child_count": 31,
         "is_valid": true,
         "joint_count": 0,
         "joint_types": {}
-      },
-      "name": "Assembly",
-      "type_id": "Assembly::AssemblyObject"
+      }
     }
-  },
-  "links": {
-    "Base": {
-      "label": "Base001",
-      "metrics": {
-        "is_valid": true,
-        "linked_object_is_valid": true,
-        "linked_object_name": "Shape001",
-        "shape_type": "Solid"
-      },
-      "name": "Base",
-      "type_id": "App::Link"
-    },
-    "BasePin": {
-      "label": "BasePin001",
+  ],
+  "links": [
+    {
+      "_source_label": "BasePin001",
+      "_source_name": "BasePin",
+      "_source_type_id": "App::Link",
       "metrics": {
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape012",
         "shape_type": "Solid"
-      },
-      "name": "BasePin",
-      "type_id": "App::Link"
+      }
     },
-    "Boom": {
-      "label": "Boom001",
+    {
+      "_source_label": "Base001",
+      "_source_name": "Base",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Shape001",
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Boom001",
+      "_source_name": "Boom",
+      "_source_type_id": "App::Link",
       "metrics": {
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape",
         "shape_type": "Solid"
-      },
-      "name": "Boom",
-      "type_id": "App::Link"
+      }
     },
-    "BoomCylinderInner": {
-      "label": "BoomCylinderInner001",
-      "metrics": {
-        "is_valid": true,
-        "linked_object_is_valid": true,
-        "linked_object_name": "Shape016",
-        "shape_type": "Solid"
-      },
-      "name": "BoomCylinderInner",
-      "type_id": "App::Link"
-    },
-    "BoomCylinderOuter": {
-      "label": "BoomCylinderOuter001",
-      "metrics": {
-        "is_valid": true,
-        "linked_object_is_valid": true,
-        "linked_object_name": "Shape020",
-        "shape_type": "Solid"
-      },
-      "name": "BoomCylinderOuter",
-      "type_id": "App::Link"
-    },
-    "Bucket": {
-      "label": "Bucket001",
-      "metrics": {
-        "is_valid": true,
-        "linked_object_is_valid": true,
-        "linked_object_name": "Shape015",
-        "shape_type": "Solid"
-      },
-      "name": "Bucket",
-      "type_id": "App::Link"
-    },
-    "BucketCylinderInner": {
-      "label": "BucketCylinderInner001",
-      "metrics": {
-        "is_valid": true,
-        "linked_object_is_valid": true,
-        "linked_object_name": "Shape018",
-        "shape_type": "Solid"
-      },
-      "name": "BucketCylinderInner",
-      "type_id": "App::Link"
-    },
-    "BucketCylinderOuter": {
-      "label": "BucketCylinderOuter001",
-      "metrics": {
-        "is_valid": true,
-        "linked_object_is_valid": true,
-        "linked_object_name": "Shape022",
-        "shape_type": "Solid"
-      },
-      "name": "BucketCylinderOuter",
-      "type_id": "App::Link"
-    },
-    "BucketLink1": {
-      "label": "BucketLink004",
-      "metrics": {
-        "is_valid": true,
-        "linked_object_is_valid": true,
-        "linked_object_name": "Shape014",
-        "shape_type": "Solid"
-      },
-      "name": "BucketLink1",
-      "type_id": "App::Link"
-    },
-    "BucketLink2": {
-      "label": "BucketLink003",
-      "metrics": {
-        "is_valid": true,
-        "linked_object_is_valid": true,
-        "linked_object_name": "Shape019",
-        "shape_type": "Solid"
-      },
-      "name": "BucketLink2",
-      "type_id": "App::Link"
-    },
-    "Stick": {
-      "label": "Stick001",
+    {
+      "_source_label": "Stick001",
+      "_source_name": "Stick",
+      "_source_type_id": "App::Link",
       "metrics": {
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape013",
         "shape_type": "Solid"
-      },
-      "name": "Stick",
-      "type_id": "App::Link"
+      }
     },
-    "StickCylinderInner": {
-      "label": "StickCylinderInner001",
+    {
+      "_source_label": "Bucket001",
+      "_source_name": "Bucket",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Shape015",
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "BucketLink003",
+      "_source_name": "BucketLink2",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Shape019",
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "BucketLink004",
+      "_source_name": "BucketLink1",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Shape014",
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "BoomCylinderOuter001",
+      "_source_name": "BoomCylinderOuter",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Shape020",
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "BoomCylinderInner001",
+      "_source_name": "BoomCylinderInner",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Shape016",
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "StickCylinderInner001",
+      "_source_name": "StickCylinderInner",
+      "_source_type_id": "App::Link",
       "metrics": {
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape017",
         "shape_type": "Solid"
-      },
-      "name": "StickCylinderInner",
-      "type_id": "App::Link"
+      }
     },
-    "StickCylinderOuter": {
-      "label": "StickCylinderOuter001",
+    {
+      "_source_label": "StickCylinderOuter001",
+      "_source_name": "StickCylinderOuter",
+      "_source_type_id": "App::Link",
       "metrics": {
         "is_valid": true,
         "linked_object_is_valid": true,
         "linked_object_name": "Shape021",
         "shape_type": "Solid"
-      },
-      "name": "StickCylinderOuter",
-      "type_id": "App::Link"
+      }
+    },
+    {
+      "_source_label": "BucketCylinderInner001",
+      "_source_name": "BucketCylinderInner",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Shape018",
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "BucketCylinderOuter001",
+      "_source_name": "BucketCylinderOuter",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Shape022",
+        "shape_type": "Solid"
+      }
     }
-  },
-  "objects": {
-    "Assembly": {
-      "label": "Assembly",
-      "name": "Assembly",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -196.51702880859375,
-              "x_min": -216.51702880859375,
-              "y_max": 109.41569915771487,
-              "y_min": 89.41569915771487,
-              "z_max": 464.26800537109375,
-              "z_min": 364.26800537109375
-            },
-            "is_valid": true,
-            "volume_mm3": 31415.92653589793
-          }
-        },
-        {
-          "index": 2,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -162.67725384884972,
-              "x_min": -250.95428642138614,
-              "y_max": 124.41569915771487,
-              "y_min": 4.730984051629491,
-              "z_max": 470.2680053710938,
-              "z_min": 364.2680053710937
-            },
-            "is_valid": true,
-            "volume_mm3": 241280.93951159055
-          }
-        },
-        {
-          "index": 3,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -176.8208090026009,
-              "x_min": -237.76251278996315,
-              "y_max": 34.05539061667647,
-              "y_min": -169.62162848779843,
-              "z_max": 801.0875515573643,
-              "z_min": 364.7680053710938
-            },
-            "is_valid": true,
-            "volume_mm3": 1204575.2487515295
-          }
-        },
-        {
-          "index": 4,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -192.3624398143456,
-              "x_min": -224.1210843314565,
-              "y_max": -82.95600302124129,
-              "y_min": -462.75537684572765,
-              "z_max": 879.0252032156478,
-              "z_min": 757.8355386218964
-            },
-            "is_valid": true,
-            "volume_mm3": 333942.17860695574
-          }
-        },
-        {
-          "index": 5,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -157.5913682580969,
-              "x_min": -261.0083458153424,
-              "y_max": -433.9625021260341,
-              "y_min": -551.5392465000087,
-              "z_max": 932.2694669631433,
-              "z_min": 830.7783730617862
-            },
-            "is_valid": true,
-            "volume_mm3": 58312.05357449834
-          }
-        },
-        {
-          "index": 6,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -184.7698165320599,
-              "x_min": -232.9813810557213,
-              "y_max": -385.5056852928306,
-              "y_min": -432.66399709994164,
-              "z_max": 924.7296101778703,
-              "z_min": 851.7527122459916
-            },
-            "is_valid": true,
-            "volume_mm3": 17079.25988420045
-          }
-        },
-        {
-          "index": 7,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -193.76971990490333,
-              "x_min": -224.06022746661688,
-              "y_max": -386.70738591278945,
-              "y_min": -449.6198560794054,
-              "z_max": 924.7296101778703,
-              "z_min": 897.951002214408
-            },
-            "is_valid": true,
-            "volume_mm3": 12304.424386084174
-          }
-        },
-        {
-          "index": 8,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -191.62395354039703,
-              "x_min": -221.76262007705523,
-              "y_max": 76.44099865825345,
-              "y_min": -10.688970107270071,
-              "z_max": 621.4643277961738,
-              "z_min": 443.7272637143071
-            },
-            "is_valid": true,
-            "volume_mm3": 48197.41144068806
-          }
-        },
-        {
-          "index": 9,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -199.49419187958475,
-              "x_min": -214.60522169844774,
-              "y_max": 54.35885348623219,
-              "y_min": -27.59366676383107,
-              "z_max": 665.71505074858,
-              "z_min": 488.4461076848921
-            },
-            "is_valid": true,
-            "volume_mm3": 22989.416923964374
-          }
-        },
-        {
-          "index": 10,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -199.86699227312434,
-              "x_min": -214.97802209198733,
-              "y_max": -51.690845855480745,
-              "y_min": -108.05997609330807,
-              "z_max": 782.8355386218961,
-              "z_min": 598.4942242756122
-            },
-            "is_valid": true,
-            "volume_mm3": 22989.41692396436
-          }
-        },
-        {
-          "index": 11,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -192.1167574123626,
-              "x_min": -222.2554239490208,
-              "y_max": -29.927206653679804,
-              "y_min": -92.28957747796476,
-              "z_max": 713.0674603673426,
-              "z_min": 529.0431970496282
-            },
-            "is_valid": true,
-            "volume_mm3": 48197.4114406881
-          }
-        },
-        {
-          "index": 12,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -201.26500646356348,
-              "x_min": -216.34823858207056,
-              "y_max": -230.61722623752925,
-              "y_min": -403.8114448422217,
-              "z_max": 925.7296101778707,
-              "z_min": 848.6352589494682
-            },
-            "is_valid": true,
-            "volume_mm3": 9045.578366152831
-          }
-        },
-        {
-          "index": 13,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -200.11017143942672,
-              "x_min": -215.20266945805244,
-              "y_max": -136.4792301920662,
-              "y_min": -307.60326472520495,
-              "z_max": 886.7133314661124,
-              "z_min": 807.88684483314
-            },
-            "is_valid": true,
-            "volume_mm3": 16011.734991211935
-          }
-        }
-      ],
-      "type_id": "Assembly::AssemblyObject"
+  ],
+  "part_features": [
+    {
+      "_source_label": "Base",
+      "_source_name": "Shape001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "Base": {
-      "label": "Base001",
-      "name": "Base",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -162.67725384884972,
-              "x_min": -250.95428642138614,
-              "y_max": 124.41569915771487,
-              "y_min": 4.730984051629491,
-              "z_max": 470.2680053710938,
-              "z_min": 364.2680053710937
-            },
-            "is_valid": true,
-            "volume_mm3": 241280.93951159055
-          }
-        }
-      ],
-      "type_id": "App::Link"
+    {
+      "_source_label": "BasePin",
+      "_source_name": "Shape012",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "BasePin": {
-      "label": "BasePin001",
-      "name": "BasePin",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -196.51702880859375,
-              "x_min": -216.51702880859375,
-              "y_max": 109.41569915771487,
-              "y_min": 89.41569915771487,
-              "z_max": 464.26800537109375,
-              "z_min": 364.26800537109375
-            },
-            "is_valid": true,
-            "volume_mm3": 31415.92653589793
-          }
-        }
-      ],
-      "type_id": "App::Link"
+    {
+      "_source_label": "Stick",
+      "_source_name": "Shape013",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "Boom": {
-      "label": "Boom001",
-      "name": "Boom",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -176.8208090026009,
-              "x_min": -237.76251278996315,
-              "y_max": 34.05539061667647,
-              "y_min": -169.62162848779843,
-              "z_max": 801.0875515573643,
-              "z_min": 364.7680053710938
-            },
-            "is_valid": true,
-            "volume_mm3": 1204575.2487515295
-          }
-        }
-      ],
-      "type_id": "App::Link"
+    {
+      "_source_label": "BucketLink1",
+      "_source_name": "Shape014",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "BoomCylinderInner": {
-      "label": "BoomCylinderInner001",
-      "name": "BoomCylinderInner",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -199.49419187958475,
-              "x_min": -214.60522169844774,
-              "y_max": 54.35885348623219,
-              "y_min": -27.59366676383107,
-              "z_max": 665.71505074858,
-              "z_min": 488.4461076848921
-            },
-            "is_valid": true,
-            "volume_mm3": 22989.416923964374
-          }
-        }
-      ],
-      "type_id": "App::Link"
+    {
+      "_source_label": "Bucket",
+      "_source_name": "Shape015",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "BoomCylinderOuter": {
-      "label": "BoomCylinderOuter001",
-      "name": "BoomCylinderOuter",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -191.62395354039703,
-              "x_min": -221.76262007705523,
-              "y_max": 76.44099865825345,
-              "y_min": -10.688970107270071,
-              "z_max": 621.4643277961738,
-              "z_min": 443.7272637143071
-            },
-            "is_valid": true,
-            "volume_mm3": 48197.41144068806
-          }
-        }
-      ],
-      "type_id": "App::Link"
+    {
+      "_source_label": "BoomCylinderInner",
+      "_source_name": "Shape016",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "Bucket": {
-      "label": "Bucket001",
-      "name": "Bucket",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -157.5913682580969,
-              "x_min": -261.0083458153424,
-              "y_max": -433.9625021260341,
-              "y_min": -551.5392465000087,
-              "z_max": 932.2694669631433,
-              "z_min": 830.7783730617862
-            },
-            "is_valid": true,
-            "volume_mm3": 58312.05357449834
-          }
-        }
-      ],
-      "type_id": "App::Link"
+    {
+      "_source_label": "StickCylinderInner",
+      "_source_name": "Shape017",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "BucketCylinderInner": {
-      "label": "BucketCylinderInner001",
-      "name": "BucketCylinderInner",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -201.26500646356348,
-              "x_min": -216.34823858207056,
-              "y_max": -230.61722623752925,
-              "y_min": -403.8114448422217,
-              "z_max": 925.7296101778707,
-              "z_min": 848.6352589494682
-            },
-            "is_valid": true,
-            "volume_mm3": 9045.578366152831
-          }
-        }
-      ],
-      "type_id": "App::Link"
+    {
+      "_source_label": "BucketCylinderInner",
+      "_source_name": "Shape018",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "BucketCylinderOuter": {
-      "label": "BucketCylinderOuter001",
-      "name": "BucketCylinderOuter",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -200.11017143942672,
-              "x_min": -215.20266945805244,
-              "y_max": -136.4792301920662,
-              "y_min": -307.60326472520495,
-              "z_max": 886.7133314661124,
-              "z_min": 807.88684483314
-            },
-            "is_valid": true,
-            "volume_mm3": 16011.734991211935
-          }
-        }
-      ],
-      "type_id": "App::Link"
+    {
+      "_source_label": "BucketLink2",
+      "_source_name": "Shape019",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "BucketLink1": {
-      "label": "BucketLink004",
-      "name": "BucketLink1",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -193.76971990490333,
-              "x_min": -224.06022746661688,
-              "y_max": -386.70738591278945,
-              "y_min": -449.6198560794054,
-              "z_max": 924.7296101778703,
-              "z_min": 897.951002214408
-            },
-            "is_valid": true,
-            "volume_mm3": 12304.424386084174
-          }
-        }
-      ],
-      "type_id": "App::Link"
+    {
+      "_source_label": "BoomCylinderOuter",
+      "_source_name": "Shape020",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "BucketLink2": {
-      "label": "BucketLink003",
-      "name": "BucketLink2",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -184.7698165320599,
-              "x_min": -232.9813810557213,
-              "y_max": -385.5056852928306,
-              "y_min": -432.66399709994164,
-              "z_max": 924.7296101778703,
-              "z_min": 851.7527122459916
-            },
-            "is_valid": true,
-            "volume_mm3": 17079.25988420045
-          }
-        }
-      ],
-      "type_id": "App::Link"
+    {
+      "_source_label": "StickCylinderOuter",
+      "_source_name": "Shape021",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "Group": {
-      "label": "CAD",
-      "name": "Group",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 44.00000000000001,
-              "x_min": -44.00000000000012,
-              "y_max": 25.000000000000004,
-              "y_min": -94.48187929913335,
-              "z_max": 106.00000000000004,
-              "z_min": -3.44e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 241280.9395115904
-          }
-        },
-        {
-          "index": 2,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 10.0,
-              "x_min": -10.0,
-              "y_max": 69.16000000000003,
-              "y_min": 49.16000000000002,
-              "z_max": 100.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 31415.926535897932
-          }
-        },
-        {
-          "index": 3,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.299999999999955,
-              "x_min": -14.700000000000053,
-              "y_max": -656.12,
-              "y_min": -1044.516781849646,
-              "z_max": 368.39401797418674,
-              "z_min": 258.5584707448439
-            },
-            "is_valid": true,
-            "volume_mm3": 333942.1786069555
-          }
-        },
-        {
-          "index": 4,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 20.099999999999913,
-              "x_min": -9.900000000000095,
-              "y_max": -995.6154985201181,
-              "y_min": -1026.98,
-              "z_max": 165.6745213748832,
-              "z_min": 104.2
-            },
-            "is_valid": true,
-            "volume_mm3": 12304.424386084183
-          }
-        },
-        {
-          "index": 5,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 56.600000000000186,
-              "x_min": -46.39999999999991,
-              "y_max": -1080.8400000000001,
-              "y_min": -1189.4875103033628,
-              "z_max": 247.88998270397252,
-              "z_min": 123.86376214781501
-            },
-            "is_valid": true,
-            "volume_mm3": 58312.05357449856
-          }
-        },
-        {
-          "index": 6,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 9.751999999999953,
-              "x_min": -5.248000000000047,
-              "y_max": -150.90125836050535,
-              "y_min": -291.09971778962614,
-              "z_max": 343.15295487206527,
-              "z_min": 202.95449544294425
-            },
-            "is_valid": true,
-            "volume_mm3": 22989.41692396437
-          }
-        },
-        {
-          "index": 7,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.671999999999684,
-              "x_min": -9.328000000000316,
-              "y_max": -506.5876196978643,
-              "y_min": -652.8756912422045,
-              "z_max": 212.5199455509029,
-              "z_min": 78.7624813033308
-            },
-            "is_valid": true,
-            "volume_mm3": 22989.41692396436
-          }
-        },
-        {
-          "index": 8,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 7.712000000000163,
-              "x_min": -7.28799999999984,
-              "y_max": -917.8772363407865,
-              "y_min": -1100.5665230747547,
-              "z_max": 320.18168199801084,
-              "z_min": 280.3018110843754
-            },
-            "is_valid": true,
-            "volume_mm3": 9045.578366152828
-          }
-        },
-        {
-          "index": 9,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 26.781083518149103,
-              "x_min": -21.2189164818477,
-              "y_max": -979.0517265955671,
-              "y_min": -1057.0517442776702,
-              "z_max": 217.38103034879077,
-              "z_min": 179.81592977546782
-            },
-            "is_valid": true,
-            "volume_mm3": 17079.25988420046
-          }
-        },
-        {
-          "index": 10,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.759999999999998,
-              "x_min": -12.24,
-              "y_max": -129.24978336205578,
-              "y_min": -272.23611075682095,
-              "z_max": 272.23611075682066,
-              "z_min": 129.24978336205567
-            },
-            "is_valid": true,
-            "volume_mm3": 48197.411440688076
-          }
-        },
-        {
-          "index": 11,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 12.660000000000021,
-              "x_min": -17.33999999999998,
-              "y_max": -491.59649126114704,
-              "y_min": -640.3655624813703,
-              "z_max": 157.68999252354072,
-              "z_min": 20.837210581402104
-            },
-            "is_valid": true,
-            "volume_mm3": 48197.411440688105
-          }
-        },
-        {
-          "index": 12,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 7.859999999998507,
-              "x_min": -7.140000000001493,
-              "y_max": -875.2528738519441,
-              "y_min": -1054.6968886830334,
-              "z_max": 369.7943797438405,
-              "z_min": 324.1916948447226
-            },
-            "is_valid": true,
-            "volume_mm3": 16011.734991211933
-          }
-        },
-        {
-          "index": 13,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 27.02417968750005,
-              "x_min": -32.97582031249996,
-              "y_max": -241.3771169192164,
-              "y_min": -605.3771169192164,
-              "z_max": 346.8643794668926,
-              "z_min": 27.864379466892526
-            },
-            "is_valid": true,
-            "volume_mm3": 1204575.2487515295
-          }
-        }
-      ],
-      "type_id": "App::DocumentObjectGroup"
+    {
+      "_source_label": "BucketCylinderOuter",
+      "_source_name": "Shape022",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     },
-    "Shape": {
-      "label": "Boom",
-      "name": "Shape",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 27.02417968750005,
-              "x_min": -32.97582031249996,
-              "y_max": -241.3771169192164,
-              "y_min": -605.3771169192164,
-              "z_max": 346.8643794668926,
-              "z_min": 27.864379466892526
-            },
-            "is_valid": true,
-            "volume_mm3": 1204575.2487515295
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape001": {
-      "label": "Base",
-      "name": "Shape001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 44.00000000000001,
-              "x_min": -44.00000000000012,
-              "y_max": 25.000000000000004,
-              "y_min": -94.48187929913335,
-              "z_max": 106.00000000000004,
-              "z_min": -3.44e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 241280.9395115904
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape012": {
-      "label": "BasePin",
-      "name": "Shape012",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 10.0,
-              "x_min": -10.0,
-              "y_max": 69.16000000000003,
-              "y_min": 49.16000000000002,
-              "z_max": 100.0,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 31415.926535897932
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape013": {
-      "label": "Stick",
-      "name": "Shape013",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 15.299999999999955,
-              "x_min": -14.700000000000053,
-              "y_max": -656.12,
-              "y_min": -1044.516781849646,
-              "z_max": 368.39401797418674,
-              "z_min": 258.5584707448439
-            },
-            "is_valid": true,
-            "volume_mm3": 333942.1786069555
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape014": {
-      "label": "BucketLink1",
-      "name": "Shape014",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 20.099999999999913,
-              "x_min": -9.900000000000095,
-              "y_max": -995.6154985201181,
-              "y_min": -1026.98,
-              "z_max": 165.6745213748832,
-              "z_min": 104.2
-            },
-            "is_valid": true,
-            "volume_mm3": 12304.424386084183
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape015": {
-      "label": "Bucket",
-      "name": "Shape015",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 56.600000000000186,
-              "x_min": -46.39999999999991,
-              "y_max": -1080.8400000000001,
-              "y_min": -1189.4875103033628,
-              "z_max": 247.88998270397252,
-              "z_min": 123.86376214781501
-            },
-            "is_valid": true,
-            "volume_mm3": 58312.05357449856
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape016": {
-      "label": "BoomCylinderInner",
-      "name": "Shape016",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 9.751999999999953,
-              "x_min": -5.248000000000047,
-              "y_max": -150.90125836050535,
-              "y_min": -291.09971778962614,
-              "z_max": 343.15295487206527,
-              "z_min": 202.95449544294425
-            },
-            "is_valid": true,
-            "volume_mm3": 22989.41692396437
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape017": {
-      "label": "StickCylinderInner",
-      "name": "Shape017",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.671999999999684,
-              "x_min": -9.328000000000316,
-              "y_max": -506.5876196978643,
-              "y_min": -652.8756912422045,
-              "z_max": 212.5199455509029,
-              "z_min": 78.7624813033308
-            },
-            "is_valid": true,
-            "volume_mm3": 22989.41692396436
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape018": {
-      "label": "BucketCylinderInner",
-      "name": "Shape018",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 7.712000000000163,
-              "x_min": -7.28799999999984,
-              "y_max": -917.8772363407865,
-              "y_min": -1100.5665230747547,
-              "z_max": 320.18168199801084,
-              "z_min": 280.3018110843754
-            },
-            "is_valid": true,
-            "volume_mm3": 9045.578366152828
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape019": {
-      "label": "BucketLink2",
-      "name": "Shape019",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 26.781083518149103,
-              "x_min": -21.2189164818477,
-              "y_max": -979.0517265955671,
-              "y_min": -1057.0517442776702,
-              "z_max": 217.38103034879077,
-              "z_min": 179.81592977546782
-            },
-            "is_valid": true,
-            "volume_mm3": 17079.25988420046
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape020": {
-      "label": "BoomCylinderOuter",
-      "name": "Shape020",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 17.759999999999998,
-              "x_min": -12.24,
-              "y_max": -129.24978336205578,
-              "y_min": -272.23611075682095,
-              "z_max": 272.23611075682066,
-              "z_min": 129.24978336205567
-            },
-            "is_valid": true,
-            "volume_mm3": 48197.411440688076
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape021": {
-      "label": "StickCylinderOuter",
-      "name": "Shape021",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 12.660000000000021,
-              "x_min": -17.33999999999998,
-              "y_max": -491.59649126114704,
-              "y_min": -640.3655624813703,
-              "z_max": 157.68999252354072,
-              "z_min": 20.837210581402104
-            },
-            "is_valid": true,
-            "volume_mm3": 48197.411440688105
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Shape022": {
-      "label": "BucketCylinderOuter",
-      "name": "Shape022",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 7.859999999998507,
-              "x_min": -7.140000000001493,
-              "y_max": -875.2528738519441,
-              "y_min": -1054.6968886830334,
-              "z_max": 369.7943797438405,
-              "z_min": 324.1916948447226
-            },
-            "is_valid": true,
-            "volume_mm3": 16011.734991211933
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Stick": {
-      "label": "Stick001",
-      "name": "Stick",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -192.3624398143456,
-              "x_min": -224.1210843314565,
-              "y_max": -82.95600302124129,
-              "y_min": -462.75537684572765,
-              "z_max": 879.0252032156478,
-              "z_min": 757.8355386218964
-            },
-            "is_valid": true,
-            "volume_mm3": 333942.17860695574
-          }
-        }
-      ],
-      "type_id": "App::Link"
-    },
-    "StickCylinderInner": {
-      "label": "StickCylinderInner001",
-      "name": "StickCylinderInner",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -199.86699227312434,
-              "x_min": -214.97802209198733,
-              "y_max": -51.690845855480745,
-              "y_min": -108.05997609330807,
-              "z_max": 782.8355386218961,
-              "z_min": 598.4942242756122
-            },
-            "is_valid": true,
-            "volume_mm3": 22989.41692396436
-          }
-        }
-      ],
-      "type_id": "App::Link"
-    },
-    "StickCylinderOuter": {
-      "label": "StickCylinderOuter001",
-      "name": "StickCylinderOuter",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -192.1167574123626,
-              "x_min": -222.2554239490208,
-              "y_max": -29.927206653679804,
-              "y_min": -92.28957747796476,
-              "z_max": 713.0674603673426,
-              "z_min": 529.0431970496282
-            },
-            "is_valid": true,
-            "volume_mm3": 48197.4114406881
-          }
-        }
-      ],
-      "type_id": "App::Link"
+    {
+      "_source_label": "Boom",
+      "_source_name": "Shape",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     }
-  },
-  "part_features": {
-    "Shape": {
-      "label": "Boom",
+  ],
+  "schema_version": 4,
+  "solids": [
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 44.00000000000001,
+          "x_min": -44.00000000000012,
+          "y_max": 25.000000000000004,
+          "y_min": -94.48187929913335,
+          "z_max": 106.00000000000004,
+          "z_min": -3.44e-14
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape",
-      "type_id": "Part::Feature"
+        "volume_mm3": 241280.9395115904
+      }
     },
-    "Shape001": {
-      "label": "Base",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 10.0,
+          "x_min": -10.0,
+          "y_max": 69.16000000000003,
+          "y_min": 49.16000000000002,
+          "z_max": 100.0,
+          "z_min": 0.0
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape001",
-      "type_id": "Part::Feature"
+        "volume_mm3": 31415.926535897932
+      }
     },
-    "Shape012": {
-      "label": "BasePin",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 15.299999999999955,
+          "x_min": -14.700000000000053,
+          "y_max": -656.12,
+          "y_min": -1044.516781849646,
+          "z_max": 368.39401797418674,
+          "z_min": 258.5584707448439
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape012",
-      "type_id": "Part::Feature"
+        "volume_mm3": 333942.1786069555
+      }
     },
-    "Shape013": {
-      "label": "Stick",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 20.099999999999913,
+          "x_min": -9.900000000000095,
+          "y_max": -995.6154985201181,
+          "y_min": -1026.98,
+          "z_max": 165.6745213748832,
+          "z_min": 104.2
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape013",
-      "type_id": "Part::Feature"
+        "volume_mm3": 12304.424386084183
+      }
     },
-    "Shape014": {
-      "label": "BucketLink1",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 56.600000000000186,
+          "x_min": -46.39999999999991,
+          "y_max": -1080.8400000000001,
+          "y_min": -1189.4875103033628,
+          "z_max": 247.88998270397252,
+          "z_min": 123.86376214781501
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape014",
-      "type_id": "Part::Feature"
+        "volume_mm3": 58312.05357449856
+      }
     },
-    "Shape015": {
-      "label": "Bucket",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 9.751999999999953,
+          "x_min": -5.248000000000047,
+          "y_max": -150.90125836050535,
+          "y_min": -291.09971778962614,
+          "z_max": 343.15295487206527,
+          "z_min": 202.95449544294425
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape015",
-      "type_id": "Part::Feature"
+        "volume_mm3": 22989.41692396437
+      }
     },
-    "Shape016": {
-      "label": "BoomCylinderInner",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 5.671999999999684,
+          "x_min": -9.328000000000316,
+          "y_max": -506.5876196978643,
+          "y_min": -652.8756912422045,
+          "z_max": 212.5199455509029,
+          "z_min": 78.7624813033308
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape016",
-      "type_id": "Part::Feature"
+        "volume_mm3": 22989.41692396436
+      }
     },
-    "Shape017": {
-      "label": "StickCylinderInner",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 7.712000000000163,
+          "x_min": -7.28799999999984,
+          "y_max": -917.8772363407865,
+          "y_min": -1100.5665230747547,
+          "z_max": 320.18168199801084,
+          "z_min": 280.3018110843754
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape017",
-      "type_id": "Part::Feature"
+        "volume_mm3": 9045.578366152828
+      }
     },
-    "Shape018": {
-      "label": "BucketCylinderInner",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 26.781083518149103,
+          "x_min": -21.2189164818477,
+          "y_max": -979.0517265955671,
+          "y_min": -1057.0517442776702,
+          "z_max": 217.38103034879077,
+          "z_min": 179.81592977546782
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape018",
-      "type_id": "Part::Feature"
+        "volume_mm3": 17079.25988420046
+      }
     },
-    "Shape019": {
-      "label": "BucketLink2",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 17.759999999999998,
+          "x_min": -12.24,
+          "y_max": -129.24978336205578,
+          "y_min": -272.23611075682095,
+          "z_max": 272.23611075682066,
+          "z_min": 129.24978336205567
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape019",
-      "type_id": "Part::Feature"
+        "volume_mm3": 48197.411440688076
+      }
     },
-    "Shape020": {
-      "label": "BoomCylinderOuter",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 12.660000000000021,
+          "x_min": -17.33999999999998,
+          "y_max": -491.59649126114704,
+          "y_min": -640.3655624813703,
+          "z_max": 157.68999252354072,
+          "z_min": 20.837210581402104
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape020",
-      "type_id": "Part::Feature"
+        "volume_mm3": 48197.411440688105
+      }
     },
-    "Shape021": {
-      "label": "StickCylinderOuter",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 7.859999999998507,
+          "x_min": -7.140000000001493,
+          "y_max": -875.2528738519441,
+          "y_min": -1054.6968886830334,
+          "z_max": 369.7943797438405,
+          "z_min": 324.1916948447226
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape021",
-      "type_id": "Part::Feature"
+        "volume_mm3": 16011.734991211933
+      }
     },
-    "Shape022": {
-      "label": "BucketCylinderOuter",
+    {
+      "_source_label": "CAD",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
       "metrics": {
+        "bounding_box": {
+          "x_max": 27.02417968750005,
+          "x_min": -32.97582031249996,
+          "y_max": -241.3771169192164,
+          "y_min": -605.3771169192164,
+          "z_max": 346.8643794668926,
+          "z_min": 27.864379466892526
+        },
         "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Shape022",
-      "type_id": "Part::Feature"
+        "volume_mm3": 1204575.2487515295
+      }
+    },
+    {
+      "_source_label": "Base",
+      "_source_name": "Shape001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 44.00000000000001,
+          "x_min": -44.00000000000012,
+          "y_max": 25.000000000000004,
+          "y_min": -94.48187929913335,
+          "z_max": 106.00000000000004,
+          "z_min": -3.44e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 241280.9395115904
+      }
+    },
+    {
+      "_source_label": "BasePin",
+      "_source_name": "Shape012",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.0,
+          "x_min": -10.0,
+          "y_max": 69.16000000000003,
+          "y_min": 49.16000000000002,
+          "z_max": 100.0,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 31415.926535897932
+      }
+    },
+    {
+      "_source_label": "Stick",
+      "_source_name": "Shape013",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.299999999999955,
+          "x_min": -14.700000000000053,
+          "y_max": -656.12,
+          "y_min": -1044.516781849646,
+          "z_max": 368.39401797418674,
+          "z_min": 258.5584707448439
+        },
+        "is_valid": true,
+        "volume_mm3": 333942.1786069555
+      }
+    },
+    {
+      "_source_label": "BucketLink1",
+      "_source_name": "Shape014",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.099999999999913,
+          "x_min": -9.900000000000095,
+          "y_max": -995.6154985201181,
+          "y_min": -1026.98,
+          "z_max": 165.6745213748832,
+          "z_min": 104.2
+        },
+        "is_valid": true,
+        "volume_mm3": 12304.424386084183
+      }
+    },
+    {
+      "_source_label": "Bucket",
+      "_source_name": "Shape015",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 56.600000000000186,
+          "x_min": -46.39999999999991,
+          "y_max": -1080.8400000000001,
+          "y_min": -1189.4875103033628,
+          "z_max": 247.88998270397252,
+          "z_min": 123.86376214781501
+        },
+        "is_valid": true,
+        "volume_mm3": 58312.05357449856
+      }
+    },
+    {
+      "_source_label": "BoomCylinderInner",
+      "_source_name": "Shape016",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 9.751999999999953,
+          "x_min": -5.248000000000047,
+          "y_max": -150.90125836050535,
+          "y_min": -291.09971778962614,
+          "z_max": 343.15295487206527,
+          "z_min": 202.95449544294425
+        },
+        "is_valid": true,
+        "volume_mm3": 22989.41692396437
+      }
+    },
+    {
+      "_source_label": "StickCylinderInner",
+      "_source_name": "Shape017",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.671999999999684,
+          "x_min": -9.328000000000316,
+          "y_max": -506.5876196978643,
+          "y_min": -652.8756912422045,
+          "z_max": 212.5199455509029,
+          "z_min": 78.7624813033308
+        },
+        "is_valid": true,
+        "volume_mm3": 22989.41692396436
+      }
+    },
+    {
+      "_source_label": "BucketCylinderInner",
+      "_source_name": "Shape018",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 7.712000000000163,
+          "x_min": -7.28799999999984,
+          "y_max": -917.8772363407865,
+          "y_min": -1100.5665230747547,
+          "z_max": 320.18168199801084,
+          "z_min": 280.3018110843754
+        },
+        "is_valid": true,
+        "volume_mm3": 9045.578366152828
+      }
+    },
+    {
+      "_source_label": "BucketLink2",
+      "_source_name": "Shape019",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 26.781083518149103,
+          "x_min": -21.2189164818477,
+          "y_max": -979.0517265955671,
+          "y_min": -1057.0517442776702,
+          "z_max": 217.38103034879077,
+          "z_min": 179.81592977546782
+        },
+        "is_valid": true,
+        "volume_mm3": 17079.25988420046
+      }
+    },
+    {
+      "_source_label": "BoomCylinderOuter",
+      "_source_name": "Shape020",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.759999999999998,
+          "x_min": -12.24,
+          "y_max": -129.24978336205578,
+          "y_min": -272.23611075682095,
+          "z_max": 272.23611075682066,
+          "z_min": 129.24978336205567
+        },
+        "is_valid": true,
+        "volume_mm3": 48197.411440688076
+      }
+    },
+    {
+      "_source_label": "StickCylinderOuter",
+      "_source_name": "Shape021",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 12.660000000000021,
+          "x_min": -17.33999999999998,
+          "y_max": -491.59649126114704,
+          "y_min": -640.3655624813703,
+          "z_max": 157.68999252354072,
+          "z_min": 20.837210581402104
+        },
+        "is_valid": true,
+        "volume_mm3": 48197.411440688105
+      }
+    },
+    {
+      "_source_label": "BucketCylinderOuter",
+      "_source_name": "Shape022",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 7.859999999998507,
+          "x_min": -7.140000000001493,
+          "y_max": -875.2528738519441,
+          "y_min": -1054.6968886830334,
+          "z_max": 369.7943797438405,
+          "z_min": 324.1916948447226
+        },
+        "is_valid": true,
+        "volume_mm3": 16011.734991211933
+      }
+    },
+    {
+      "_source_label": "Boom",
+      "_source_name": "Shape",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 27.02417968750005,
+          "x_min": -32.97582031249996,
+          "y_max": -241.3771169192164,
+          "y_min": -605.3771169192164,
+          "z_max": 346.8643794668926,
+          "z_min": 27.864379466892526
+        },
+        "is_valid": true,
+        "volume_mm3": 1204575.2487515295
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -196.51702880859375,
+          "x_min": -216.51702880859375,
+          "y_max": 109.41569915771487,
+          "y_min": 89.41569915771487,
+          "z_max": 464.26800537109375,
+          "z_min": 364.26800537109375
+        },
+        "is_valid": true,
+        "volume_mm3": 31415.92653589793
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -162.67725384884972,
+          "x_min": -250.95428642138614,
+          "y_max": 124.41569915771487,
+          "y_min": 4.730984051629491,
+          "z_max": 470.2680053710938,
+          "z_min": 364.2680053710937
+        },
+        "is_valid": true,
+        "volume_mm3": 241280.93951159055
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -176.8208090026009,
+          "x_min": -237.76251278996315,
+          "y_max": 34.05539061667647,
+          "y_min": -169.62162848779843,
+          "z_max": 801.0875515573643,
+          "z_min": 364.7680053710938
+        },
+        "is_valid": true,
+        "volume_mm3": 1204575.2487515295
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -192.3624398143456,
+          "x_min": -224.1210843314565,
+          "y_max": -82.95600302124129,
+          "y_min": -462.75537684572765,
+          "z_max": 879.0252032156478,
+          "z_min": 757.8355386218964
+        },
+        "is_valid": true,
+        "volume_mm3": 333942.17860695574
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -157.5913682580969,
+          "x_min": -261.0083458153424,
+          "y_max": -433.9625021260341,
+          "y_min": -551.5392465000087,
+          "z_max": 932.2694669631433,
+          "z_min": 830.7783730617862
+        },
+        "is_valid": true,
+        "volume_mm3": 58312.05357449834
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -184.7698165320599,
+          "x_min": -232.9813810557213,
+          "y_max": -385.5056852928306,
+          "y_min": -432.66399709994164,
+          "z_max": 924.7296101778703,
+          "z_min": 851.7527122459916
+        },
+        "is_valid": true,
+        "volume_mm3": 17079.25988420045
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -193.76971990490333,
+          "x_min": -224.06022746661688,
+          "y_max": -386.70738591278945,
+          "y_min": -449.6198560794054,
+          "z_max": 924.7296101778703,
+          "z_min": 897.951002214408
+        },
+        "is_valid": true,
+        "volume_mm3": 12304.424386084174
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -191.62395354039703,
+          "x_min": -221.76262007705523,
+          "y_max": 76.44099865825345,
+          "y_min": -10.688970107270071,
+          "z_max": 621.4643277961738,
+          "z_min": 443.7272637143071
+        },
+        "is_valid": true,
+        "volume_mm3": 48197.41144068806
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -199.49419187958475,
+          "x_min": -214.60522169844774,
+          "y_max": 54.35885348623219,
+          "y_min": -27.59366676383107,
+          "z_max": 665.71505074858,
+          "z_min": 488.4461076848921
+        },
+        "is_valid": true,
+        "volume_mm3": 22989.416923964374
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -199.86699227312434,
+          "x_min": -214.97802209198733,
+          "y_max": -51.690845855480745,
+          "y_min": -108.05997609330807,
+          "z_max": 782.8355386218961,
+          "z_min": 598.4942242756122
+        },
+        "is_valid": true,
+        "volume_mm3": 22989.41692396436
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -192.1167574123626,
+          "x_min": -222.2554239490208,
+          "y_max": -29.927206653679804,
+          "y_min": -92.28957747796476,
+          "z_max": 713.0674603673426,
+          "z_min": 529.0431970496282
+        },
+        "is_valid": true,
+        "volume_mm3": 48197.4114406881
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -201.26500646356348,
+          "x_min": -216.34823858207056,
+          "y_max": -230.61722623752925,
+          "y_min": -403.8114448422217,
+          "z_max": 925.7296101778707,
+          "z_min": 848.6352589494682
+        },
+        "is_valid": true,
+        "volume_mm3": 9045.578366152831
+      }
+    },
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -200.11017143942672,
+          "x_min": -215.20266945805244,
+          "y_max": -136.4792301920662,
+          "y_min": -307.60326472520495,
+          "z_max": 886.7133314661124,
+          "z_min": 807.88684483314
+        },
+        "is_valid": true,
+        "volume_mm3": 16011.734991211935
+      }
+    },
+    {
+      "_source_label": "BasePin001",
+      "_source_name": "BasePin",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -196.51702880859375,
+          "x_min": -216.51702880859375,
+          "y_max": 109.41569915771487,
+          "y_min": 89.41569915771487,
+          "z_max": 464.26800537109375,
+          "z_min": 364.26800537109375
+        },
+        "is_valid": true,
+        "volume_mm3": 31415.92653589793
+      }
+    },
+    {
+      "_source_label": "Base001",
+      "_source_name": "Base",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -162.67725384884972,
+          "x_min": -250.95428642138614,
+          "y_max": 124.41569915771487,
+          "y_min": 4.730984051629491,
+          "z_max": 470.2680053710938,
+          "z_min": 364.2680053710937
+        },
+        "is_valid": true,
+        "volume_mm3": 241280.93951159055
+      }
+    },
+    {
+      "_source_label": "Boom001",
+      "_source_name": "Boom",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -176.8208090026009,
+          "x_min": -237.76251278996315,
+          "y_max": 34.05539061667647,
+          "y_min": -169.62162848779843,
+          "z_max": 801.0875515573643,
+          "z_min": 364.7680053710938
+        },
+        "is_valid": true,
+        "volume_mm3": 1204575.2487515295
+      }
+    },
+    {
+      "_source_label": "Stick001",
+      "_source_name": "Stick",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -192.3624398143456,
+          "x_min": -224.1210843314565,
+          "y_max": -82.95600302124129,
+          "y_min": -462.75537684572765,
+          "z_max": 879.0252032156478,
+          "z_min": 757.8355386218964
+        },
+        "is_valid": true,
+        "volume_mm3": 333942.17860695574
+      }
+    },
+    {
+      "_source_label": "Bucket001",
+      "_source_name": "Bucket",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -157.5913682580969,
+          "x_min": -261.0083458153424,
+          "y_max": -433.9625021260341,
+          "y_min": -551.5392465000087,
+          "z_max": 932.2694669631433,
+          "z_min": 830.7783730617862
+        },
+        "is_valid": true,
+        "volume_mm3": 58312.05357449834
+      }
+    },
+    {
+      "_source_label": "BucketLink003",
+      "_source_name": "BucketLink2",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -184.7698165320599,
+          "x_min": -232.9813810557213,
+          "y_max": -385.5056852928306,
+          "y_min": -432.66399709994164,
+          "z_max": 924.7296101778703,
+          "z_min": 851.7527122459916
+        },
+        "is_valid": true,
+        "volume_mm3": 17079.25988420045
+      }
+    },
+    {
+      "_source_label": "BucketLink004",
+      "_source_name": "BucketLink1",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -193.76971990490333,
+          "x_min": -224.06022746661688,
+          "y_max": -386.70738591278945,
+          "y_min": -449.6198560794054,
+          "z_max": 924.7296101778703,
+          "z_min": 897.951002214408
+        },
+        "is_valid": true,
+        "volume_mm3": 12304.424386084174
+      }
+    },
+    {
+      "_source_label": "BoomCylinderOuter001",
+      "_source_name": "BoomCylinderOuter",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -191.62395354039703,
+          "x_min": -221.76262007705523,
+          "y_max": 76.44099865825345,
+          "y_min": -10.688970107270071,
+          "z_max": 621.4643277961738,
+          "z_min": 443.7272637143071
+        },
+        "is_valid": true,
+        "volume_mm3": 48197.41144068806
+      }
+    },
+    {
+      "_source_label": "BoomCylinderInner001",
+      "_source_name": "BoomCylinderInner",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -199.49419187958475,
+          "x_min": -214.60522169844774,
+          "y_max": 54.35885348623219,
+          "y_min": -27.59366676383107,
+          "z_max": 665.71505074858,
+          "z_min": 488.4461076848921
+        },
+        "is_valid": true,
+        "volume_mm3": 22989.416923964374
+      }
+    },
+    {
+      "_source_label": "StickCylinderInner001",
+      "_source_name": "StickCylinderInner",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -199.86699227312434,
+          "x_min": -214.97802209198733,
+          "y_max": -51.690845855480745,
+          "y_min": -108.05997609330807,
+          "z_max": 782.8355386218961,
+          "z_min": 598.4942242756122
+        },
+        "is_valid": true,
+        "volume_mm3": 22989.41692396436
+      }
+    },
+    {
+      "_source_label": "StickCylinderOuter001",
+      "_source_name": "StickCylinderOuter",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -192.1167574123626,
+          "x_min": -222.2554239490208,
+          "y_max": -29.927206653679804,
+          "y_min": -92.28957747796476,
+          "z_max": 713.0674603673426,
+          "z_min": 529.0431970496282
+        },
+        "is_valid": true,
+        "volume_mm3": 48197.4114406881
+      }
+    },
+    {
+      "_source_label": "BucketCylinderInner001",
+      "_source_name": "BucketCylinderInner",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -201.26500646356348,
+          "x_min": -216.34823858207056,
+          "y_max": -230.61722623752925,
+          "y_min": -403.8114448422217,
+          "z_max": 925.7296101778707,
+          "z_min": 848.6352589494682
+        },
+        "is_valid": true,
+        "volume_mm3": 9045.578366152831
+      }
+    },
+    {
+      "_source_label": "BucketCylinderOuter001",
+      "_source_name": "BucketCylinderOuter",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -200.11017143942672,
+          "x_min": -215.20266945805244,
+          "y_max": -136.4792301920662,
+          "y_min": -307.60326472520495,
+          "z_max": 886.7133314661124,
+          "z_min": 807.88684483314
+        },
+        "is_valid": true,
+        "volume_mm3": 16011.734991211935
+      }
     }
-  },
-  "schema_version": 3,
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:05:55.764515+00:00",
+    "data_creation_date": "2026-04-05T21:17:44.051672+00:00",
     "document_label": "AssemblyExample",
     "document_name": "AssemblyExample",
-    "freecad_version": "1.2.0 45400 (Git)",
+    "freecad_version": "1.1.0 44790 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\AssemblyExample.FCStd",
     "platform": "Windows-11-10.0.26200-SP0",
     "python_version": "3.14.2"

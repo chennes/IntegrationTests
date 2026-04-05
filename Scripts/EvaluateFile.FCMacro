@@ -89,10 +89,12 @@ class Analyzer:
     """Base class for object analyzers.
 
     Subclasses must set ``section`` and implement ``can_handle`` and ``evaluate``.
-    The ``evaluate`` method returns a dict stored under ``report[section][obj.Name]``.
+    The ``evaluate`` method returns either a single dict or a list of dicts
+    (when ``flat_list`` is True), appended to ``report[section]``.
     """
 
     section: str = ""
+    flat_list: bool = False
 
     def can_handle(self, obj) -> bool:
         """Return True if this analyzer should process the given object.
@@ -102,25 +104,32 @@ class Analyzer:
         """
         raise NotImplementedError
 
-    def evaluate(self, obj) -> dict:
-        """Compute metrics for the given object and return them as a dict.
+    def evaluate(self, obj):
+        """Compute metrics for the given object.
 
-        The returned dict is stored in the report under ``report[section][obj.Name]``.
+        When ``flat_list`` is False (the default), returns a single dict with
+        ``_source_name``, ``_source_label``, ``_source_type_id``, and ``metrics``.
+
+        When ``flat_list`` is True, returns a list of such dicts (one per
+        sub-element, e.g. one per solid).
 
         Args:
             obj: A FreeCAD document object that passed ``can_handle``.
 
         Returns:
-            A dictionary containing at minimum "name", "label", and "type_id" keys,
-            plus analyzer-specific metric data.
+            A dict or list of dicts containing metric data.
         """
         raise NotImplementedError
 
 
 class SolidAnalyzer(Analyzer):
-    """Analyzer for objects that contain solid geometry (volumes, bounding boxes)."""
+    """Analyzer for objects that contain solid geometry (volumes, bounding boxes).
 
-    section = "objects"
+    Returns a flat list of per-solid entries rather than a single per-object dict.
+    """
+
+    section = "solids"
+    flat_list = True
 
     # TypeIds that have a Shape attribute but are inherently non-solid construction
     # geometry. These should never be reported as invalid solids.
@@ -153,22 +162,21 @@ class SolidAnalyzer(Analyzer):
             return False
         return bool(get_solids_from_shape(shape))
 
-    def evaluate(self, obj) -> dict:
-        entry = {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": getattr(obj, "TypeId", None),
-            "solids": [],
+    def evaluate(self, obj) -> list:
+        source = {
+            "_source_name": obj.Name,
+            "_source_label": obj.Label,
+            "_source_type_id": getattr(obj, "TypeId", None),
         }
 
         if not obj.isValid() or not is_shape_valid(obj.Shape):
-            entry["solids"].append({"index": 1, "metrics": {"is_valid": False}})
-            return entry
+            return [{**source, "metrics": {"is_valid": False}}]
 
+        results = []
         solids = get_solids_from_shape(obj.Shape)
-        for index, solid in enumerate(solids, start=1):
+        for solid in solids:
             if not is_shape_valid(solid):
-                entry["solids"].append({"index": index, "metrics": {"is_valid": False}})
+                results.append({**source, "metrics": {"is_valid": False}})
                 continue
             try:
                 metrics = {
@@ -185,9 +193,9 @@ class SolidAnalyzer(Analyzer):
                 }
             except Exception:
                 continue
-            entry["solids"].append({"index": index, "metrics": metrics})
+            results.append({**source, "metrics": metrics})
 
-        return entry
+        return results
 
 
 class SketchAnalyzer(Analyzer):
@@ -223,9 +231,9 @@ class SketchAnalyzer(Analyzer):
             metrics = {"is_valid": False}
 
         return {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": obj.TypeId,
+            "_source_name": obj.Name,
+            "_source_label": obj.Label,
+            "_source_type_id": obj.TypeId,
             "metrics": metrics,
         }
 
@@ -259,9 +267,9 @@ class PartDesignBodyAnalyzer(Analyzer):
             metrics = {"is_valid": False}
 
         return {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": obj.TypeId,
+            "_source_name": obj.Name,
+            "_source_label": obj.Label,
+            "_source_type_id": obj.TypeId,
             "metrics": metrics,
         }
 
@@ -302,9 +310,9 @@ class PartDesignFeatureAnalyzer(Analyzer):
             metrics = {"is_valid": False}
 
         return {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": obj.TypeId,
+            "_source_name": obj.Name,
+            "_source_label": obj.Label,
+            "_source_type_id": obj.TypeId,
             "metrics": metrics,
         }
 
@@ -337,9 +345,9 @@ class PartFeatureAnalyzer(Analyzer):
             metrics = {"is_valid": False}
 
         return {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": obj.TypeId,
+            "_source_name": obj.Name,
+            "_source_label": obj.Label,
+            "_source_type_id": obj.TypeId,
             "metrics": metrics,
         }
 
@@ -376,9 +384,9 @@ class AppPartAnalyzer(Analyzer):
             metrics = {"is_valid": False}
 
         return {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": obj.TypeId,
+            "_source_name": obj.Name,
+            "_source_label": obj.Label,
+            "_source_type_id": obj.TypeId,
             "metrics": metrics,
         }
 
@@ -415,9 +423,9 @@ class AssemblyAnalyzer(Analyzer):
             metrics = {"is_valid": False}
 
         return {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": obj.TypeId,
+            "_source_name": obj.Name,
+            "_source_label": obj.Label,
+            "_source_type_id": obj.TypeId,
             "metrics": metrics,
         }
 
@@ -458,9 +466,9 @@ class TechDrawPageAnalyzer(Analyzer):
             metrics = {"is_valid": False}
 
         return {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": obj.TypeId,
+            "_source_name": obj.Name,
+            "_source_label": obj.Label,
+            "_source_type_id": obj.TypeId,
             "metrics": metrics,
         }
 
@@ -508,9 +516,9 @@ class SpreadsheetAnalyzer(Analyzer):
             metrics = {"is_valid": False}
 
         return {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": obj.TypeId,
+            "_source_name": obj.Name,
+            "_source_label": obj.Label,
+            "_source_type_id": obj.TypeId,
             "metrics": metrics,
         }
 
@@ -542,9 +550,9 @@ class LinkAnalyzer(Analyzer):
             metrics = {"is_valid": False}
 
         return {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": obj.TypeId,
+            "_source_name": obj.Name,
+            "_source_label": obj.Label,
+            "_source_type_id": obj.TypeId,
             "metrics": metrics,
         }
 
@@ -605,9 +613,9 @@ class PartExtrusionAnalyzer(Analyzer):
             metrics = {"is_valid": False}
 
         return {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": obj.TypeId,
+            "_source_name": obj.Name,
+            "_source_label": obj.Label,
+            "_source_type_id": obj.TypeId,
             "metrics": metrics,
         }
 
@@ -650,9 +658,9 @@ class MaterialAnalyzer(Analyzer):
             metrics = {"is_valid": False}
 
         return {
-            "name": obj.Name,
-            "label": obj.Label,
-            "type_id": getattr(obj, "TypeId", "unknown"),
+            "_source_name": obj.Name,
+            "_source_label": getattr(obj, "Label", obj.Name),
+            "_source_type_id": getattr(obj, "TypeId", "unknown"),
             "metrics": metrics,
         }
 
@@ -694,7 +702,7 @@ def build_report_dict(doc, source_path: str) -> dict:
         section (e.g. "objects", "sketches") mapping object names to their metric entries.
     """
     report = {
-        "schema_version": 3,
+        "schema_version": 4,
         "source": {
             "path": source_path,
             "document_name": doc.Name,
@@ -709,8 +717,12 @@ def build_report_dict(doc, source_path: str) -> dict:
     for obj in doc.Objects:
         for analyzer in ANALYZERS:
             if analyzer.can_handle(obj):
-                entry = analyzer.evaluate(obj)
-                report.setdefault(analyzer.section, {})[obj.Name] = entry
+                result = analyzer.evaluate(obj)
+                section_list = report.setdefault(analyzer.section, [])
+                if analyzer.flat_list:
+                    section_list.extend(result)
+                else:
+                    section_list.append(result)
 
     return report
 

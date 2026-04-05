@@ -1,232 +1,55 @@
 {
-  "objects": {
-    "Body004005": {
-      "label": "Body-NeoPixel-bubble",
-      "name": "Body004005",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 7.199999999999999,
-              "x_min": -7.199999999999999,
-              "y_max": 7.199999999999999,
-              "y_min": -7.199999999999999,
-              "z_max": 3.200000000000001,
-              "z_min": -1.8000000000000016
-            },
-            "is_valid": true,
-            "volume_mm3": 372.1642781758552
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Group001": {
-      "label": "neopixel",
-      "name": "Group001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.4750000000000005,
-              "x_min": -2.475,
-              "y_max": 2.6750000000000003,
-              "y_min": -2.6750000000000003,
-              "z_max": 1.7000000000000002,
-              "z_min": 1.6653345369377348e-16
-            },
-            "is_valid": true,
-            "volume_mm3": 33.00643530196568
-          }
-        },
-        {
-          "index": 2,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.5,
-              "x_min": -4.5,
-              "y_max": 4.5,
-              "y_min": -4.5,
-              "z_max": 0.0,
-              "z_min": -1.4009999999999998
-            },
-            "is_valid": true,
-            "volume_mm3": 89.076064118251
-          }
-        },
-        {
-          "index": 3,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 3.600000043715,
-              "x_min": 2.8000000437150003,
-              "y_max": 0.8,
-              "y_min": -0.8,
-              "z_max": 0.6,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 0.7107175743478532
-          }
-        },
-        {
-          "index": 4,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -2.8000000000000003,
-              "x_min": -3.6000000000000005,
-              "y_max": -0.5,
-              "y_min": -0.8,
-              "z_max": 0.55,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 0.13200000000000003
-          }
-        },
-        {
-          "index": 5,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -2.8000000000000003,
-              "x_min": -3.6000000000000005,
-              "y_max": 0.8,
-              "y_min": 0.5,
-              "z_max": 0.55,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 0.13200000000000003
-          }
-        },
-        {
-          "index": 6,
-          "metrics": {
-            "bounding_box": {
-              "x_max": -2.8080000000000003,
-              "x_min": -3.5920000000000005,
-              "y_max": 0.5,
-              "y_min": -0.5,
-              "z_max": 0.5445,
-              "z_min": 0.0055
-            },
-            "is_valid": true,
-            "volume_mm3": 0.422576
-          }
-        }
-      ],
-      "type_id": "Part::Feature"
-    },
-    "Pocket": {
-      "label": "Pocket-neopixel-support-hole",
-      "name": "Pocket",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 7.199999999999999,
-              "x_min": -7.199999999999999,
-              "y_max": 7.199999999999999,
-              "y_min": -7.199999999999999,
-              "z_max": 3.200000000000001,
-              "z_min": -1.8000000000000016
-            },
-            "is_valid": true,
-            "volume_mm3": 372.1642781758552
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Revolution": {
-      "label": "Revolution-bubble",
-      "name": "Revolution",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 7.199999999999999,
-              "x_min": -7.199999999999999,
-              "y_max": 7.199999999999999,
-              "y_min": -7.199999999999999,
-              "z_max": 3.200000000000001,
-              "z_min": -1.8000000000000016
-            },
-            "is_valid": true,
-            "volume_mm3": 432.57227817585346
-          }
-        }
-      ],
-      "type_id": "PartDesign::Revolution"
-    }
-  },
-  "part_features": {
-    "Group001": {
-      "label": "neopixel",
+  "part_features": [
+    {
+      "_source_label": "neopixel",
+      "_source_name": "Group001",
+      "_source_type_id": "Part::Feature",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound",
         "shell_is_closed": true
-      },
-      "name": "Group001",
-      "type_id": "Part::Feature"
+      }
     }
-  },
-  "partdesign_bodies": {
-    "Body004005": {
-      "label": "Body-NeoPixel-bubble",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body-NeoPixel-bubble",
+      "_source_name": "Body004005",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 4,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pocket"
-      },
-      "name": "Body004005",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Pocket": {
-      "label": "Pocket-neopixel-support-hole",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Revolution-bubble",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Revolution": {
-      "label": "Revolution-bubble",
+    {
+      "_source_label": "Pocket-neopixel-support-hole",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Revolution",
-      "type_id": "PartDesign::Revolution"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch-bubble-profile",
-      "metrics": {
-        "constraint_count": 28,
-        "degrees_of_freedom": -1,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 10,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch021": {
-      "label": "Sketch-neopixel-support-hole",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch-neopixel-support-hole",
+      "_source_name": "Sketch021",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 39,
         "degrees_of_freedom": -1,
@@ -235,13 +58,180 @@
         "geometry_count": 14,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch021",
-      "type_id": "Sketcher::SketchObject"
+      }
+    },
+    {
+      "_source_label": "Sketch-bubble-profile",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 28,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 10,
+        "is_valid": true,
+        "solver_status": 0
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Body-NeoPixel-bubble",
+      "_source_name": "Body004005",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 7.199999999999999,
+          "x_min": -7.199999999999999,
+          "y_max": 7.199999999999999,
+          "y_min": -7.199999999999999,
+          "z_max": 3.200000000000001,
+          "z_min": -1.8000000000000016
+        },
+        "is_valid": true,
+        "volume_mm3": 372.1642781758552
+      }
+    },
+    {
+      "_source_label": "neopixel",
+      "_source_name": "Group001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.4750000000000005,
+          "x_min": -2.475,
+          "y_max": 2.6750000000000003,
+          "y_min": -2.6750000000000003,
+          "z_max": 1.7000000000000002,
+          "z_min": 1.6653345369377348e-16
+        },
+        "is_valid": true,
+        "volume_mm3": 33.00643530196568
+      }
+    },
+    {
+      "_source_label": "neopixel",
+      "_source_name": "Group001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.5,
+          "x_min": -4.5,
+          "y_max": 4.5,
+          "y_min": -4.5,
+          "z_max": 0.0,
+          "z_min": -1.4009999999999998
+        },
+        "is_valid": true,
+        "volume_mm3": 89.076064118251
+      }
+    },
+    {
+      "_source_label": "neopixel",
+      "_source_name": "Group001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 3.600000043715,
+          "x_min": 2.8000000437150003,
+          "y_max": 0.8,
+          "y_min": -0.8,
+          "z_max": 0.6,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 0.7107175743478532
+      }
+    },
+    {
+      "_source_label": "neopixel",
+      "_source_name": "Group001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -2.8000000000000003,
+          "x_min": -3.6000000000000005,
+          "y_max": -0.5,
+          "y_min": -0.8,
+          "z_max": 0.55,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 0.13200000000000003
+      }
+    },
+    {
+      "_source_label": "neopixel",
+      "_source_name": "Group001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -2.8000000000000003,
+          "x_min": -3.6000000000000005,
+          "y_max": 0.8,
+          "y_min": 0.5,
+          "z_max": 0.55,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 0.13200000000000003
+      }
+    },
+    {
+      "_source_label": "neopixel",
+      "_source_name": "Group001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -2.8080000000000003,
+          "x_min": -3.5920000000000005,
+          "y_max": 0.5,
+          "y_min": -0.5,
+          "z_max": 0.5445,
+          "z_min": 0.0055
+        },
+        "is_valid": true,
+        "volume_mm3": 0.422576
+      }
+    },
+    {
+      "_source_label": "Revolution-bubble",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 7.199999999999999,
+          "x_min": -7.199999999999999,
+          "y_max": 7.199999999999999,
+          "y_min": -7.199999999999999,
+          "z_max": 3.200000000000001,
+          "z_min": -1.8000000000000016
+        },
+        "is_valid": true,
+        "volume_mm3": 432.57227817585346
+      }
+    },
+    {
+      "_source_label": "Pocket-neopixel-support-hole",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 7.199999999999999,
+          "x_min": -7.199999999999999,
+          "y_max": 7.199999999999999,
+          "y_min": -7.199999999999999,
+          "z_max": 3.200000000000001,
+          "z_min": -1.8000000000000016
+        },
+        "is_valid": true,
+        "volume_mm3": 372.1642781758552
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:07:30.637798+00:00",
+    "data_creation_date": "2026-04-05T21:21:09.898307+00:00",
     "document_label": "MG_NeoPixelBubble",
     "document_name": "MG_NeoPixelBubble",
     "freecad_version": "0.20.2 29603 (Git)",

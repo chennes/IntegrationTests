@@ -1,7 +1,7 @@
 {
   "rules": [
     {
-      "section": "objects",
+      "section": "solids",
       "object_pattern": "*",
       "metric_pattern": "*bounding_box*",
       "description": "Stale baseline: OCC 7.7+ loads stored BRep with different bounding boxes than OCC 7.3 wrote; baseline needs regeneration",

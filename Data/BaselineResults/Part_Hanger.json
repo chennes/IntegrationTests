@@ -1,143 +1,20 @@
 {
-  "app_parts": {
-    "Part": {
-      "label": "Part",
+  "app_parts": [
+    {
+      "_source_label": "Part",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "child_count": 1,
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "is_valid": false
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Fillet002": {
-      "label": "Fillet002",
-      "name": "Fillet002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.000000000000484,
-              "x_min": -5.000000000000484,
-              "y_max": 42.22,
-              "y_min": -15.102204000000004,
-              "z_max": 39.870000000000005,
-              "z_min": -1.5827815253461605e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 1908.654070046238
-          }
-        }
-      ],
-      "type_id": "Part::Fillet"
-    },
-    "Fillet003": {
-      "label": "Fillet003",
-      "name": "Fillet003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.000000000000484,
-              "x_min": -5.000000000000484,
-              "y_max": 42.22,
-              "y_min": -35.62864899813728,
-              "z_max": 39.870000000000005,
-              "z_min": -44.073953316034874
-            },
-            "is_valid": true,
-            "volume_mm3": 2386.933858812804
-          }
-        }
-      ],
-      "type_id": "Part::Fillet"
-    },
-    "Fusion": {
-      "label": "Fusion",
-      "name": "Fusion",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.000000000000484,
-              "x_min": -5.000000000000484,
-              "y_max": 42.22,
-              "y_min": -15.102204000000004,
-              "z_max": 39.870000000000005,
-              "z_min": -15.0
-            },
-            "is_valid": true,
-            "volume_mm3": 2397.819508265556
-          }
-        }
-      ],
-      "type_id": "Part::Fuse"
-    },
-    "Offset": {
-      "label": "Offset",
-      "name": "Offset",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.000000000000484,
-              "x_min": -5.000000000000484,
-              "y_max": 42.22,
-              "y_min": -15.0,
-              "z_max": 39.870000000000005,
-              "z_min": -1.5827815253461605e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 1911.5211518274514
-          }
-        }
-      ],
-      "type_id": "Part::Offset"
-    },
-    "Offset001": {
-      "label": "Offset001",
-      "name": "Offset001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.0,
-              "x_min": -5.0,
-              "y_max": 0.0,
-              "y_min": -10.0,
-              "z_max": 5.0,
-              "z_min": -15.0
-            },
-            "is_valid": true,
-            "volume_mm3": 544.069377023354
-          }
-        }
-      ],
-      "type_id": "Part::Offset"
-    }
-  },
-  "part_extrusions": {
-    "Extrude": {
-      "label": "Extrude",
+  ],
+  "part_extrusions": [
+    {
+      "_source_label": "Extrude",
+      "_source_name": "Extrude",
+      "_source_type_id": "Part::Extrusion",
       "metrics": {
         "direction": {
           "x": -1.0,
@@ -149,12 +26,12 @@
         "length_reverse": 0.0,
         "solid": false,
         "symmetric": true
-      },
-      "name": "Extrude",
-      "type_id": "Part::Extrusion"
+      }
     },
-    "Extrude001": {
-      "label": "Extrude001",
+    {
+      "_source_label": "Extrude001",
+      "_source_name": "Extrude001",
+      "_source_type_id": "Part::Extrusion",
       "metrics": {
         "direction": {
           "x": 1.0,
@@ -166,120 +43,120 @@
         "length_reverse": 0.0,
         "solid": false,
         "symmetric": true
-      },
-      "name": "Extrude001",
-      "type_id": "Part::Extrusion"
+      }
     }
-  },
-  "part_features": {
-    "Extrude": {
-      "label": "Extrude",
+  ],
+  "part_features": [
+    {
+      "_source_label": "Extrude",
+      "_source_name": "Extrude",
+      "_source_type_id": "Part::Extrusion",
       "metrics": {
         "is_valid": true,
         "shape_type": "Shell",
         "shell_is_closed": false
-      },
-      "name": "Extrude",
-      "type_id": "Part::Extrusion"
+      }
     },
-    "Extrude001": {
-      "label": "Extrude001",
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": false
+      }
+    },
+    {
+      "_source_label": "Fillet001",
+      "_source_name": "Fillet001",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": false
+      }
+    },
+    {
+      "_source_label": "Offset",
+      "_source_name": "Offset",
+      "_source_type_id": "Part::Offset",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Fillet002",
+      "_source_name": "Fillet002",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Extrude001",
+      "_source_name": "Extrude001",
+      "_source_type_id": "Part::Extrusion",
       "metrics": {
         "is_valid": true,
         "shape_type": "Shell",
         "shell_is_closed": false
-      },
-      "name": "Extrude001",
-      "type_id": "Part::Extrusion"
+      }
     },
-    "Fillet": {
-      "label": "Fillet",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound",
-        "shell_is_closed": false
-      },
-      "name": "Fillet",
-      "type_id": "Part::Fillet"
-    },
-    "Fillet001": {
-      "label": "Fillet001",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound",
-        "shell_is_closed": false
-      },
-      "name": "Fillet001",
-      "type_id": "Part::Fillet"
-    },
-    "Fillet002": {
-      "label": "Fillet002",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound",
-        "shell_is_closed": true
-      },
-      "name": "Fillet002",
-      "type_id": "Part::Fillet"
-    },
-    "Fillet003": {
-      "label": "Fillet003",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound",
-        "shell_is_closed": true
-      },
-      "name": "Fillet003",
-      "type_id": "Part::Fillet"
-    },
-    "Fusion": {
-      "label": "Fusion",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Compound",
-        "shell_is_closed": true
-      },
-      "name": "Fusion",
-      "type_id": "Part::Fuse"
-    },
-    "Offset": {
-      "label": "Offset",
+    {
+      "_source_label": "Offset001",
+      "_source_name": "Offset001",
+      "_source_type_id": "Part::Offset",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid",
         "shell_is_closed": true
-      },
-      "name": "Offset",
-      "type_id": "Part::Offset"
+      }
     },
-    "Offset001": {
-      "label": "Offset001",
+    {
+      "_source_label": "Fusion",
+      "_source_name": "Fusion",
+      "_source_type_id": "Part::Fuse",
       "metrics": {
         "is_valid": true,
-        "shape_type": "Solid",
+        "shape_type": "Compound",
         "shell_is_closed": true
-      },
-      "name": "Offset001",
-      "type_id": "Part::Offset"
+      }
+    },
+    {
+      "_source_label": "Fillet003",
+      "_source_name": "Fillet003",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
     }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": false,
         "tip_name": null
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Sketch",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 21,
         "degrees_of_freedom": 0,
@@ -288,12 +165,12 @@
         "geometry_count": 7,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch001": {
-      "label": "Sketch001",
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 6,
         "degrees_of_freedom": 1,
@@ -302,16 +179,109 @@
         "geometry_count": 2,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Offset",
+      "_source_name": "Offset",
+      "_source_type_id": "Part::Offset",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.000000000000484,
+          "x_min": -5.000000000000484,
+          "y_max": 42.22,
+          "y_min": -15.0,
+          "z_max": 39.870000000000005,
+          "z_min": -1.5827815253461605e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 1911.5211518274514
+      }
+    },
+    {
+      "_source_label": "Fillet002",
+      "_source_name": "Fillet002",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.000000000000484,
+          "x_min": -5.000000000000484,
+          "y_max": 42.22,
+          "y_min": -15.102204000000004,
+          "z_max": 39.870000000000005,
+          "z_min": -1.5827815253461605e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 1908.654070046238
+      }
+    },
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "is_valid": false
+      }
+    },
+    {
+      "_source_label": "Offset001",
+      "_source_name": "Offset001",
+      "_source_type_id": "Part::Offset",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.0,
+          "x_min": -5.0,
+          "y_max": 0.0,
+          "y_min": -10.0,
+          "z_max": 5.0,
+          "z_min": -15.0
+        },
+        "is_valid": true,
+        "volume_mm3": 544.0693770233541
+      }
+    },
+    {
+      "_source_label": "Fusion",
+      "_source_name": "Fusion",
+      "_source_type_id": "Part::Fuse",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.000000000000484,
+          "x_min": -5.000000000000484,
+          "y_max": 42.22,
+          "y_min": -15.102204000000004,
+          "z_max": 39.870000000000005,
+          "z_min": -15.0
+        },
+        "is_valid": true,
+        "volume_mm3": 2397.819508265556
+      }
+    },
+    {
+      "_source_label": "Fillet003",
+      "_source_name": "Fillet003",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.000000000000484,
+          "x_min": -5.000000000000484,
+          "y_max": 42.22,
+          "y_min": -35.62864899813728,
+          "z_max": 39.870000000000005,
+          "z_min": -44.073953316034874
+        },
+        "is_valid": true,
+        "volume_mm3": 2386.933858812804
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:08:31.632824+00:00",
+    "data_creation_date": "2026-04-05T21:22:07.261566+00:00",
     "document_label": "Part_Hanger",
     "document_name": "Part_Hanger",
-    "freecad_version": "1.2.0 45400 (Git)",
+    "freecad_version": "1.1.0 44790 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Part_Hanger.FCStd",
     "platform": "Windows-11-10.0.26200-SP0",
     "python_version": "3.14.2"

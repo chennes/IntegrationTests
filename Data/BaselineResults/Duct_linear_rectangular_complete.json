@@ -1,315 +1,35 @@
 {
-  "materials": {
-    "Material049": {
-      "label": "galvanized steel generic",
+  "materials": [
+    {
+      "_source_label": "galvanized steel generic",
+      "_source_name": "Material049",
+      "_source_type_id": "App::MaterialObjectPython",
       "metrics": {
         "density": 7874.0,
         "is_valid": true,
         "material_name": "galvanized steel generic",
         "poisson_ratio": 0.29,
         "youngs_modulus_raw": "211 GPa"
-      },
-      "name": "Material049",
-      "type_id": "App::MaterialObjectPython"
+      }
     },
-    "Material050": {
-      "label": "glass wool with aluminium foill generic",
+    {
+      "_source_label": "glass wool with aluminium foill generic",
+      "_source_name": "Material050",
+      "_source_type_id": "App::MaterialObjectPython",
       "metrics": {
         "density": 7874.0,
         "is_valid": true,
         "material_name": "glass wool with aluminium foill generic",
         "poisson_ratio": 0.29,
         "youngs_modulus_raw": "211 GPa"
-      },
-      "name": "Material050",
-      "type_id": "App::MaterialObjectPython"
+      }
     }
-  },
-  "objects": {
-    "Cut": {
-      "label": "Duct_rectangular_",
-      "name": "Cut",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1000.0,
-              "x_min": 0.0,
-              "y_max": 301.0,
-              "y_min": -301.0,
-              "z_max": 201.0,
-              "z_min": -201.0
-            },
-            "is_valid": true,
-            "volume_mm3": 2004000.0
-          }
-        }
-      ],
-      "type_id": "Part::Cut"
-    },
-    "Cut001": {
-      "label": "Insulation_",
-      "name": "Cut001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1000.0,
-              "x_min": 0.0,
-              "y_max": 351.8,
-              "y_min": -351.8,
-              "z_max": 251.8,
-              "z_min": -251.8
-            },
-            "is_valid": true,
-            "volume_mm3": 112328960.0
-          }
-        }
-      ],
-      "type_id": "Part::Cut"
-    },
-    "Extrude": {
-      "label": "Flange1_",
-      "name": "Extrude",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1.0,
-              "x_min": 0.0,
-              "y_max": 320.0,
-              "y_min": -320.0,
-              "z_max": 220.0,
-              "z_min": -220.0
-            },
-            "is_valid": true,
-            "volume_mm3": 41599.99999999997
-          }
-        }
-      ],
-      "type_id": "Part::Extrusion"
-    },
-    "Extrude001": {
-      "label": "Flange2_",
-      "name": "Extrude001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1000.0,
-              "x_min": 999.0,
-              "y_max": 320.0,
-              "y_min": -320.0,
-              "z_max": 220.0,
-              "z_min": -220.0
-            },
-            "is_valid": true,
-            "volume_mm3": 41599.99999999997
-          }
-        }
-      ],
-      "type_id": "Part::Extrusion"
-    },
-    "Extrude002": {
-      "label": "Closure_",
-      "name": "Extrude002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1001.0,
-              "x_min": 1000.0,
-              "y_max": 300.0,
-              "y_min": -300.0,
-              "z_max": 200.0,
-              "z_min": -200.0
-            },
-            "is_valid": true,
-            "volume_mm3": 240000.0
-          }
-        }
-      ],
-      "type_id": "Part::Extrusion"
-    },
-    "Group": {
-      "label": "Components",
-      "name": "Group",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1000.0,
-              "x_min": 0.0,
-              "y_max": 301.0,
-              "y_min": -301.0,
-              "z_max": 201.0,
-              "z_min": -201.0
-            },
-            "is_valid": true,
-            "volume_mm3": 2004000.0
-          }
-        },
-        {
-          "index": 2,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1.0,
-              "x_min": 0.0,
-              "y_max": 320.0,
-              "y_min": -320.0,
-              "z_max": 220.0,
-              "z_min": -220.0
-            },
-            "is_valid": true,
-            "volume_mm3": 41599.99999999997
-          }
-        },
-        {
-          "index": 3,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1000.0,
-              "x_min": 999.0,
-              "y_max": 320.0,
-              "y_min": -320.0,
-              "z_max": 220.0,
-              "z_min": -220.0
-            },
-            "is_valid": true,
-            "volume_mm3": 41599.99999999997
-          }
-        }
-      ],
-      "type_id": "App::DocumentObjectGroup"
-    },
-    "Group003": {
-      "label": "Duct_linear_rectangular_#_",
-      "name": "Group003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1000.0,
-              "x_min": 0.0,
-              "y_max": 301.0,
-              "y_min": -301.0,
-              "z_max": 201.0,
-              "z_min": -201.0
-            },
-            "is_valid": true,
-            "volume_mm3": 2004000.0
-          }
-        },
-        {
-          "index": 2,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1.0,
-              "x_min": 0.0,
-              "y_max": 320.0,
-              "y_min": -320.0,
-              "z_max": 220.0,
-              "z_min": -220.0
-            },
-            "is_valid": true,
-            "volume_mm3": 41599.99999999997
-          }
-        },
-        {
-          "index": 3,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1000.0,
-              "x_min": 999.0,
-              "y_max": 320.0,
-              "y_min": -320.0,
-              "z_max": 220.0,
-              "z_min": -220.0
-            },
-            "is_valid": true,
-            "volume_mm3": 41599.99999999997
-          }
-        }
-      ],
-      "type_id": "App::DocumentObjectGroup"
-    },
-    "Sweep001": {
-      "label": "Sweep001_internal_",
-      "name": "Sweep001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1000.0,
-              "x_min": 0.0,
-              "y_max": 300.0,
-              "y_min": -300.0,
-              "z_max": 200.0,
-              "z_min": -200.0
-            },
-            "is_valid": true,
-            "volume_mm3": 240000000.0
-          }
-        }
-      ],
-      "type_id": "Part::Sweep"
-    },
-    "Sweep002": {
-      "label": "Sweep001_external_volume",
-      "name": "Sweep002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1000.0,
-              "x_min": 0.0,
-              "y_max": 301.0,
-              "y_min": -301.0,
-              "z_max": 201.0,
-              "z_min": -201.0
-            },
-            "is_valid": true,
-            "volume_mm3": 242004000.0
-          }
-        }
-      ],
-      "type_id": "Part::Sweep"
-    },
-    "Sweep003": {
-      "label": "Sweep001_external_insulation",
-      "name": "Sweep003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 1000.0,
-              "x_min": 0.0,
-              "y_max": 351.8,
-              "y_min": -351.8,
-              "z_max": 251.8,
-              "z_min": -251.8
-            },
-            "is_valid": true,
-            "volume_mm3": 354332960.0
-          }
-        }
-      ],
-      "type_id": "Part::Sweep"
-    }
-  },
-  "part_extrusions": {
-    "Extrude": {
-      "label": "Flange1_",
+  ],
+  "part_extrusions": [
+    {
+      "_source_label": "Flange1_",
+      "_source_name": "Extrude",
+      "_source_type_id": "Part::Extrusion",
       "metrics": {
         "direction": {
           "x": 1.0,
@@ -321,12 +41,12 @@
         "length_reverse": 0.0,
         "solid": true,
         "symmetric": false
-      },
-      "name": "Extrude",
-      "type_id": "Part::Extrusion"
+      }
     },
-    "Extrude001": {
-      "label": "Flange2_",
+    {
+      "_source_label": "Flange2_",
+      "_source_name": "Extrude001",
+      "_source_type_id": "Part::Extrusion",
       "metrics": {
         "direction": {
           "x": 1.0,
@@ -338,12 +58,12 @@
         "length_reverse": 0.0,
         "solid": true,
         "symmetric": false
-      },
-      "name": "Extrude001",
-      "type_id": "Part::Extrusion"
+      }
     },
-    "Extrude002": {
-      "label": "Closure_",
+    {
+      "_source_label": "Closure_",
+      "_source_name": "Extrude002",
+      "_source_type_id": "Part::Extrusion",
       "metrics": {
         "direction": {
           "x": 1.0,
@@ -355,120 +75,106 @@
         "length_reverse": 0.0,
         "solid": true,
         "symmetric": false
-      },
-      "name": "Extrude002",
-      "type_id": "Part::Extrusion"
+      }
     }
-  },
-  "part_features": {
-    "Cut": {
-      "label": "Duct_rectangular_",
+  ],
+  "part_features": [
+    {
+      "_source_label": "Duct_rectangular_",
+      "_source_name": "Cut",
+      "_source_type_id": "Part::Cut",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound",
         "shell_is_closed": true
-      },
-      "name": "Cut",
-      "type_id": "Part::Cut"
+      }
     },
-    "Cut001": {
-      "label": "Insulation_",
+    {
+      "_source_label": "Insulation_",
+      "_source_name": "Cut001",
+      "_source_type_id": "Part::Cut",
       "metrics": {
         "is_valid": true,
         "shape_type": "Compound",
         "shell_is_closed": true
-      },
-      "name": "Cut001",
-      "type_id": "Part::Cut"
+      }
     },
-    "Extrude": {
-      "label": "Flange1_",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Extrude",
-      "type_id": "Part::Extrusion"
-    },
-    "Extrude001": {
-      "label": "Flange2_",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Extrude001",
-      "type_id": "Part::Extrusion"
-    },
-    "Extrude002": {
-      "label": "Closure_",
-      "metrics": {
-        "is_valid": true,
-        "shape_type": "Solid",
-        "shell_is_closed": true
-      },
-      "name": "Extrude002",
-      "type_id": "Part::Extrusion"
-    },
-    "Line": {
-      "label": "Axis",
+    {
+      "_source_label": "Axis",
+      "_source_name": "Line",
+      "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
         "is_valid": true,
         "shape_type": "Wire"
-      },
-      "name": "Line",
-      "type_id": "Part::Part2DObjectPython"
+      }
     },
-    "Sweep001": {
-      "label": "Sweep001_internal_",
+    {
+      "_source_label": "Sweep001_internal_",
+      "_source_name": "Sweep001",
+      "_source_type_id": "Part::Sweep",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid",
         "shell_is_closed": true
-      },
-      "name": "Sweep001",
-      "type_id": "Part::Sweep"
+      }
     },
-    "Sweep002": {
-      "label": "Sweep001_external_volume",
+    {
+      "_source_label": "Sweep001_external_volume",
+      "_source_name": "Sweep002",
+      "_source_type_id": "Part::Sweep",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid",
         "shell_is_closed": true
-      },
-      "name": "Sweep002",
-      "type_id": "Part::Sweep"
+      }
     },
-    "Sweep003": {
-      "label": "Sweep001_external_insulation",
+    {
+      "_source_label": "Sweep001_external_insulation",
+      "_source_name": "Sweep003",
+      "_source_type_id": "Part::Sweep",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid",
         "shell_is_closed": true
-      },
-      "name": "Sweep003",
-      "type_id": "Part::Sweep"
+      }
+    },
+    {
+      "_source_label": "Flange1_",
+      "_source_name": "Extrude",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Flange2_",
+      "_source_name": "Extrude001",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Closure_",
+      "_source_name": "Extrude002",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "Opening_01_internal_rectangular_",
-      "metrics": {
-        "constraint_count": 16,
-        "degrees_of_freedom": 0,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 6,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch026": {
-      "label": "Flange1_003",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Flange1_003",
+      "_source_name": "Sketch026",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 20,
         "degrees_of_freedom": 0,
@@ -477,12 +183,12 @@
         "geometry_count": 8,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch026",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch027": {
-      "label": "Flange2_003",
+    {
+      "_source_label": "Flange2_003",
+      "_source_name": "Sketch027",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 34,
         "degrees_of_freedom": 0,
@@ -491,26 +197,12 @@
         "geometry_count": 13,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch027",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch033": {
-      "label": "Opening_02_internal_rectangular_",
-      "metrics": {
-        "constraint_count": 18,
-        "degrees_of_freedom": 0,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 7,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch033",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch034": {
-      "label": "Opening_01_external_rectangular_",
+    {
+      "_source_label": "Opening_01_internal_rectangular_",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 16,
         "degrees_of_freedom": 0,
@@ -519,12 +211,12 @@
         "geometry_count": 6,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch034",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch035": {
-      "label": "Opening_02_external_rectangular_",
+    {
+      "_source_label": "Opening_02_internal_rectangular_",
+      "_source_name": "Sketch033",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 18,
         "degrees_of_freedom": 0,
@@ -533,12 +225,12 @@
         "geometry_count": 7,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch035",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch036": {
-      "label": "Opening_01_external_insulation_rectangular_",
+    {
+      "_source_label": "Opening_01_external_rectangular_",
+      "_source_name": "Sketch034",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 16,
         "degrees_of_freedom": 0,
@@ -547,12 +239,12 @@
         "geometry_count": 6,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch036",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch037": {
-      "label": "Opening_02_external_insulation_rectangular_",
+    {
+      "_source_label": "Opening_02_external_rectangular_",
+      "_source_name": "Sketch035",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 18,
         "degrees_of_freedom": 0,
@@ -561,12 +253,26 @@
         "geometry_count": 7,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch037",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch038": {
-      "label": "Closure2_",
+    {
+      "_source_label": "Opening_01_external_insulation_rectangular_",
+      "_source_name": "Sketch036",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 16,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 6,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Opening_02_external_insulation_rectangular_",
+      "_source_name": "Sketch037",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 18,
         "degrees_of_freedom": 0,
@@ -575,13 +281,265 @@
         "geometry_count": 7,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch038",
-      "type_id": "Sketcher::SketchObject"
+      }
+    },
+    {
+      "_source_label": "Closure2_",
+      "_source_name": "Sketch038",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 18,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 7,
+        "is_valid": true,
+        "solver_status": 0
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Components",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1000.0,
+          "x_min": 0.0,
+          "y_max": 301.0,
+          "y_min": -301.0,
+          "z_max": 201.0,
+          "z_min": -201.0
+        },
+        "is_valid": true,
+        "volume_mm3": 2004000.0
+      }
+    },
+    {
+      "_source_label": "Components",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1.0,
+          "x_min": 0.0,
+          "y_max": 320.0,
+          "y_min": -320.0,
+          "z_max": 220.0,
+          "z_min": -220.0
+        },
+        "is_valid": true,
+        "volume_mm3": 41599.99999999997
+      }
+    },
+    {
+      "_source_label": "Components",
+      "_source_name": "Group",
+      "_source_type_id": "App::DocumentObjectGroup",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1000.0,
+          "x_min": 999.0,
+          "y_max": 320.0,
+          "y_min": -320.0,
+          "z_max": 220.0,
+          "z_min": -220.0
+        },
+        "is_valid": true,
+        "volume_mm3": 41599.99999999997
+      }
+    },
+    {
+      "_source_label": "Duct_rectangular_",
+      "_source_name": "Cut",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1000.0,
+          "x_min": 0.0,
+          "y_max": 301.0,
+          "y_min": -301.0,
+          "z_max": 201.0,
+          "z_min": -201.0
+        },
+        "is_valid": true,
+        "volume_mm3": 2004000.0
+      }
+    },
+    {
+      "_source_label": "Insulation_",
+      "_source_name": "Cut001",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1000.0,
+          "x_min": 0.0,
+          "y_max": 351.8,
+          "y_min": -351.8,
+          "z_max": 251.8,
+          "z_min": -251.8
+        },
+        "is_valid": true,
+        "volume_mm3": 112328960.0
+      }
+    },
+    {
+      "_source_label": "Sweep001_internal_",
+      "_source_name": "Sweep001",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1000.0,
+          "x_min": 0.0,
+          "y_max": 300.0,
+          "y_min": -300.0,
+          "z_max": 200.0,
+          "z_min": -200.0
+        },
+        "is_valid": true,
+        "volume_mm3": 240000000.0
+      }
+    },
+    {
+      "_source_label": "Sweep001_external_volume",
+      "_source_name": "Sweep002",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1000.0,
+          "x_min": 0.0,
+          "y_max": 301.0,
+          "y_min": -301.0,
+          "z_max": 201.0,
+          "z_min": -201.0
+        },
+        "is_valid": true,
+        "volume_mm3": 242004000.0
+      }
+    },
+    {
+      "_source_label": "Sweep001_external_insulation",
+      "_source_name": "Sweep003",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1000.0,
+          "x_min": 0.0,
+          "y_max": 351.8,
+          "y_min": -351.8,
+          "z_max": 251.8,
+          "z_min": -251.8
+        },
+        "is_valid": true,
+        "volume_mm3": 354332960.0
+      }
+    },
+    {
+      "_source_label": "Duct_linear_rectangular_#_",
+      "_source_name": "Group003",
+      "_source_type_id": "App::DocumentObjectGroup",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1000.0,
+          "x_min": 0.0,
+          "y_max": 301.0,
+          "y_min": -301.0,
+          "z_max": 201.0,
+          "z_min": -201.0
+        },
+        "is_valid": true,
+        "volume_mm3": 2004000.0
+      }
+    },
+    {
+      "_source_label": "Duct_linear_rectangular_#_",
+      "_source_name": "Group003",
+      "_source_type_id": "App::DocumentObjectGroup",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1.0,
+          "x_min": 0.0,
+          "y_max": 320.0,
+          "y_min": -320.0,
+          "z_max": 220.0,
+          "z_min": -220.0
+        },
+        "is_valid": true,
+        "volume_mm3": 41599.99999999997
+      }
+    },
+    {
+      "_source_label": "Duct_linear_rectangular_#_",
+      "_source_name": "Group003",
+      "_source_type_id": "App::DocumentObjectGroup",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1000.0,
+          "x_min": 999.0,
+          "y_max": 320.0,
+          "y_min": -320.0,
+          "z_max": 220.0,
+          "z_min": -220.0
+        },
+        "is_valid": true,
+        "volume_mm3": 41599.99999999997
+      }
+    },
+    {
+      "_source_label": "Flange1_",
+      "_source_name": "Extrude",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1.0,
+          "x_min": 0.0,
+          "y_max": 320.0,
+          "y_min": -320.0,
+          "z_max": 220.0,
+          "z_min": -220.0
+        },
+        "is_valid": true,
+        "volume_mm3": 41599.99999999997
+      }
+    },
+    {
+      "_source_label": "Flange2_",
+      "_source_name": "Extrude001",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1000.0,
+          "x_min": 999.0,
+          "y_max": 320.0,
+          "y_min": -320.0,
+          "z_max": 220.0,
+          "z_min": -220.0
+        },
+        "is_valid": true,
+        "volume_mm3": 41599.99999999997
+      }
+    },
+    {
+      "_source_label": "Closure_",
+      "_source_name": "Extrude002",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1001.0,
+          "x_min": 1000.0,
+          "y_max": 300.0,
+          "y_min": -300.0,
+          "z_max": 200.0,
+          "z_min": -200.0
+        },
+        "is_valid": true,
+        "volume_mm3": 240000.0
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:06:22.406281+00:00",
+    "data_creation_date": "2026-04-05T21:19:59.188914+00:00",
     "document_label": "Duct_linear_rectangular_complete",
     "document_name": "Duct_linear_rectangular_complete",
     "freecad_version": "1.0.2 39320 (Git)",
@@ -589,20 +547,22 @@
     "platform": "Windows-11-10.0.26200-SP0",
     "python_version": "3.12.3"
   },
-  "spreadsheets": {
-    "Spreadsheet003": {
-      "label": "Output_duct_linear_rectangular",
+  "spreadsheets": [
+    {
+      "_source_label": "Output_duct_linear_rectangular",
+      "_source_name": "Spreadsheet003",
+      "_source_type_id": "Spreadsheet::Sheet",
       "metrics": {
         "cell_count": 80,
         "is_valid": true
-      },
-      "name": "Spreadsheet003",
-      "type_id": "Spreadsheet::Sheet"
+      }
     }
-  },
-  "techdraw_pages": {
-    "Page": {
-      "label": "Sheet_01",
+  ],
+  "techdraw_pages": [
+    {
+      "_source_label": "Sheet_01",
+      "_source_name": "Page",
+      "_source_type_id": "TechDraw::DrawPage",
       "metrics": {
         "is_valid": true,
         "template_loaded": true,
@@ -613,9 +573,7 @@
           "TechDraw::DrawViewSection": 1,
           "TechDraw::DrawViewSpreadsheet": 1
         }
-      },
-      "name": "Page",
-      "type_id": "TechDraw::DrawPage"
+      }
     }
-  }
+  ]
 }

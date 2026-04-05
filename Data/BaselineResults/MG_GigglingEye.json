@@ -1,7 +1,9 @@
 {
-  "app_parts": {
-    "Part001": {
-      "label": "Part-giggling-eye",
+  "app_parts": [
+    {
+      "_source_label": "Part-giggling-eye",
+      "_source_name": "Part001",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 6.494353201754364,
@@ -13,296 +15,88 @@
         },
         "child_count": 3,
         "is_valid": true
-      },
-      "name": "Part001",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Body001": {
-      "label": "Body-clear-cover",
-      "name": "Body001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.494353201754364,
-              "x_min": -6.494353201754364,
-              "y_max": 6.494353201754364,
-              "y_min": -6.494353201754364,
-              "z_max": 4.0,
-              "z_min": -1.3877787807814457e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 316.82459639828
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body002": {
-      "label": "Body-base",
-      "name": "Body002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.0,
-              "x_min": -6.0,
-              "y_max": 6.0,
-              "y_min": -6.0,
-              "z_max": 0.0,
-              "z_min": -0.2
-            },
-            "is_valid": true,
-            "volume_mm3": 22.61946710584651
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body003": {
-      "label": "Body-pupil",
-      "name": "Body003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.076578550804084,
-              "x_min": -1.8765785508040835,
-              "y_max": 4.076578550804084,
-              "y_min": -1.8765785508040835,
-              "z_max": 0.6,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 14.181417965909642
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Fillet": {
-      "label": "Fillet",
-      "name": "Fillet",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.076578550804084,
-              "x_min": -1.8765785508040835,
-              "y_max": 4.076578550804084,
-              "y_min": -1.8765785508040835,
-              "z_max": 0.6,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 14.181417965909642
-          }
-        }
-      ],
-      "type_id": "PartDesign::Fillet"
-    },
-    "Pad005": {
-      "label": "Pad-eye-base",
-      "name": "Pad005",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.0,
-              "x_min": -6.0,
-              "y_max": 6.0,
-              "y_min": -6.0,
-              "z_max": 0.0,
-              "z_min": -0.2
-            },
-            "is_valid": true,
-            "volume_mm3": 22.61946710584651
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pad006": {
-      "label": "Pad-pupil",
-      "name": "Pad006",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 3.85,
-              "x_min": -1.65,
-              "y_max": 3.85,
-              "y_min": -1.65,
-              "z_max": 0.6,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 14.254976665663687
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Part001": {
-      "label": "Part-giggling-eye",
-      "name": "Part001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.494353201754364,
-              "x_min": -6.494353201754364,
-              "y_max": 6.494353201754364,
-              "y_min": -6.494353201754364,
-              "z_max": 4.0,
-              "z_min": -1.3877787807814457e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 316.82459639828
-          }
-        },
-        {
-          "index": 2,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.0,
-              "x_min": -6.0,
-              "y_max": 6.0,
-              "y_min": -6.0,
-              "z_max": 0.0,
-              "z_min": -0.2
-            },
-            "is_valid": true,
-            "volume_mm3": 22.61946710584651
-          }
-        },
-        {
-          "index": 3,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.076578550804084,
-              "x_min": -1.8765785508040835,
-              "y_max": 4.076578550804084,
-              "y_min": -1.8765785508040835,
-              "z_max": 0.6,
-              "z_min": 0.0
-            },
-            "is_valid": true,
-            "volume_mm3": 14.181417965909642
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    },
-    "Revolution": {
-      "label": "Revolution-cover",
-      "name": "Revolution",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 6.494353201754364,
-              "x_min": -6.494353201754364,
-              "y_max": 6.494353201754364,
-              "y_min": -6.494353201754364,
-              "z_max": 4.0,
-              "z_min": -1.3877787807814457e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 316.82459639828
-          }
-        }
-      ],
-      "type_id": "PartDesign::Revolution"
-    }
-  },
-  "partdesign_bodies": {
-    "Body001": {
-      "label": "Body-clear-cover",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body-clear-cover",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Revolution"
-      },
-      "name": "Body001",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body002": {
-      "label": "Body-base",
+    {
+      "_source_label": "Body-base",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 2,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pad005"
-      },
-      "name": "Body002",
-      "type_id": "PartDesign::Body"
+      }
     },
-    "Body003": {
-      "label": "Body-pupil",
+    {
+      "_source_label": "Body-pupil",
+      "_source_name": "Body003",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 3,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Fillet"
-      },
-      "name": "Body003",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Fillet": {
-      "label": "Fillet",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Revolution-cover",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Fillet",
-      "type_id": "PartDesign::Fillet"
+      }
     },
-    "Pad005": {
-      "label": "Pad-eye-base",
+    {
+      "_source_label": "Pad-eye-base",
+      "_source_name": "Pad005",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad005",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pad006": {
-      "label": "Pad-pupil",
+    {
+      "_source_label": "Pad-pupil",
+      "_source_name": "Pad006",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad006",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Revolution": {
-      "label": "Revolution-cover",
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Revolution",
-      "type_id": "PartDesign::Revolution"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch008": {
-      "label": "Sketch-clear-cover",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch-clear-cover",
+      "_source_name": "Sketch008",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 18,
         "degrees_of_freedom": -1,
@@ -311,12 +105,12 @@
         "geometry_count": 7,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch008",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch009": {
-      "label": "Sketch-eye-base",
+    {
+      "_source_label": "Sketch-eye-base",
+      "_source_name": "Sketch009",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 2,
         "degrees_of_freedom": -1,
@@ -325,12 +119,12 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch009",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch010": {
-      "label": "Sketch-pupil",
+    {
+      "_source_label": "Sketch-pupil",
+      "_source_name": "Sketch010",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 3,
         "degrees_of_freedom": -1,
@@ -339,13 +133,183 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch010",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Body-clear-cover",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.494353201754364,
+          "x_min": -6.494353201754364,
+          "y_max": 6.494353201754364,
+          "y_min": -6.494353201754364,
+          "z_max": 4.0,
+          "z_min": -1.3877787807814457e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 316.82459639828
+      }
+    },
+    {
+      "_source_label": "Revolution-cover",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.494353201754364,
+          "x_min": -6.494353201754364,
+          "y_max": 6.494353201754364,
+          "y_min": -6.494353201754364,
+          "z_max": 4.0,
+          "z_min": -1.3877787807814457e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 316.82459639828
+      }
+    },
+    {
+      "_source_label": "Part-giggling-eye",
+      "_source_name": "Part001",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.494353201754364,
+          "x_min": -6.494353201754364,
+          "y_max": 6.494353201754364,
+          "y_min": -6.494353201754364,
+          "z_max": 4.0,
+          "z_min": -1.3877787807814457e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 316.82459639828
+      }
+    },
+    {
+      "_source_label": "Part-giggling-eye",
+      "_source_name": "Part001",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.0,
+          "x_min": -6.0,
+          "y_max": 6.0,
+          "y_min": -6.0,
+          "z_max": 0.0,
+          "z_min": -0.2
+        },
+        "is_valid": true,
+        "volume_mm3": 22.61946710584651
+      }
+    },
+    {
+      "_source_label": "Part-giggling-eye",
+      "_source_name": "Part001",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.076578550804084,
+          "x_min": -1.8765785508040835,
+          "y_max": 4.076578550804084,
+          "y_min": -1.8765785508040835,
+          "z_max": 0.6,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 14.181417965909642
+      }
+    },
+    {
+      "_source_label": "Body-base",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.0,
+          "x_min": -6.0,
+          "y_max": 6.0,
+          "y_min": -6.0,
+          "z_max": 0.0,
+          "z_min": -0.2
+        },
+        "is_valid": true,
+        "volume_mm3": 22.61946710584651
+      }
+    },
+    {
+      "_source_label": "Pad-eye-base",
+      "_source_name": "Pad005",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.0,
+          "x_min": -6.0,
+          "y_max": 6.0,
+          "y_min": -6.0,
+          "z_max": 0.0,
+          "z_min": -0.2
+        },
+        "is_valid": true,
+        "volume_mm3": 22.61946710584651
+      }
+    },
+    {
+      "_source_label": "Body-pupil",
+      "_source_name": "Body003",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.076578550804084,
+          "x_min": -1.8765785508040835,
+          "y_max": 4.076578550804084,
+          "y_min": -1.8765785508040835,
+          "z_max": 0.6,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 14.181417965909642
+      }
+    },
+    {
+      "_source_label": "Pad-pupil",
+      "_source_name": "Pad006",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 3.85,
+          "x_min": -1.65,
+          "y_max": 3.85,
+          "y_min": -1.65,
+          "z_max": 0.6,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 14.254976665663687
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.076578550804084,
+          "x_min": -1.8765785508040835,
+          "y_max": 4.076578550804084,
+          "y_min": -1.8765785508040835,
+          "z_max": 0.6,
+          "z_min": 0.0
+        },
+        "is_valid": true,
+        "volume_mm3": 14.181417965909642
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:07:18.769389+00:00",
+    "data_creation_date": "2026-04-05T21:20:58.488893+00:00",
     "document_label": "MG_GigglingEye",
     "document_name": "MG_GigglingEye",
     "freecad_version": "0.20.2 29603 (Git)",
@@ -353,15 +317,15 @@
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.8.10"
   },
-  "spreadsheets": {
-    "Spreadsheet": {
-      "label": "Configs",
+  "spreadsheets": [
+    {
+      "_source_label": "Configs",
+      "_source_name": "Spreadsheet",
+      "_source_type_id": "Spreadsheet::Sheet",
       "metrics": {
         "cell_count": -1,
         "is_valid": true
-      },
-      "name": "Spreadsheet",
-      "type_id": "Spreadsheet::Sheet"
+      }
     }
-  }
+  ]
 }

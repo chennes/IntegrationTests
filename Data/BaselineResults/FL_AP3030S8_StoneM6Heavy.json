@@ -1,205 +1,81 @@
 {
-  "app_parts": {
-    "Part": {
-      "label": "AP3030S8_StoneM6Heavy",
+  "app_parts": [
+    {
+      "_source_label": "AP3030S8_StoneM6Heavy",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
           "x_max": 8.0,
           "x_min": -7.999999999999999,
-          "y_max": 8.000000000000005,
+          "y_max": 8.000000000000004,
           "y_min": -8.000000000000002,
-          "z_max": 6.0000000000001,
+          "z_max": 6.000000000000099,
           "z_min": -3.2802435084595266e-15
         },
         "child_count": 4,
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "materials": {
-    "Part": {
-      "label": "AP3030S8_StoneM6Heavy",
+  ],
+  "materials": [
+    {
+      "_source_label": "AP3030S8_StoneM6Heavy",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
       "metrics": {
         "is_valid": true
-      },
-      "name": "Part",
-      "type_id": "App::Part"
+      }
     }
-  },
-  "objects": {
-    "Body": {
-      "label": "Body",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 8.0,
-              "x_min": -7.999999999999999,
-              "y_max": 8.000000000000005,
-              "y_min": -8.000000000000002,
-              "z_max": 6.0000000000001,
-              "z_min": -3.2802435084595266e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 1148.5643355722918
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Groove": {
-      "label": "ScrewHoleBevel",
-      "name": "Groove",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 8.0,
-              "x_min": -7.999999999999999,
-              "y_max": 8.000000000000005,
-              "y_min": -8.000000000000002,
-              "z_max": 6.0000000000001,
-              "z_min": -3.2802435084595266e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 1148.5643355722918
-          }
-        }
-      ],
-      "type_id": "PartDesign::Groove"
-    },
-    "Hole": {
-      "label": "Hole",
-      "name": "Hole",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 8.0,
-              "x_min": -7.999999999999999,
-              "y_max": 8.0,
-              "y_min": -8.000000000000002,
-              "z_max": 6.000000000000003,
-              "z_min": -1.7763568394002505e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 1169.2233226200615
-          }
-        }
-      ],
-      "type_id": "PartDesign::Hole"
-    },
-    "Pad": {
-      "label": "Pad",
-      "name": "Pad",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 8.0,
-              "x_min": -7.999999999999999,
-              "y_max": 8.0,
-              "y_min": -8.000000000000002,
-              "z_max": 6.000000000000003,
-              "z_min": -1.7763568394002505e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 1182.7780233019002
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Part": {
-      "label": "AP3030S8_StoneM6Heavy",
-      "name": "Part",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 8.0,
-              "x_min": -7.999999999999999,
-              "y_max": 8.000000000000005,
-              "y_min": -8.000000000000002,
-              "z_max": 6.0000000000001,
-              "z_min": -3.2802435084595266e-15
-            },
-            "is_valid": true,
-            "volume_mm3": 1148.5643355722918
-          }
-        }
-      ],
-      "type_id": "App::Part"
-    }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Body",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 6,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Groove"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
+      }
     }
-  },
-  "partdesign_features": {
-    "Groove": {
-      "label": "ScrewHoleBevel",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Groove",
-      "type_id": "PartDesign::Groove"
+      }
     },
-    "Hole": {
-      "label": "Hole",
+    {
+      "_source_label": "Hole",
+      "_source_name": "Hole",
+      "_source_type_id": "PartDesign::Hole",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Hole",
-      "type_id": "PartDesign::Hole"
+      }
     },
-    "Pad": {
-      "label": "Pad",
+    {
+      "_source_label": "ScrewHoleBevel",
+      "_source_name": "Groove",
+      "_source_type_id": "PartDesign::Groove",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad",
-      "type_id": "PartDesign::Pad"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "StoneSectionSketch",
-      "metrics": {
-        "constraint_count": 65,
-        "degrees_of_freedom": -1,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 26,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch001": {
-      "label": "PocketM6",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "PocketM6",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 1,
         "degrees_of_freedom": -1,
@@ -208,12 +84,26 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch001",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch002": {
-      "label": "SketchScrewHoleBevel",
+    {
+      "_source_label": "StoneSectionSketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 65,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 26,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "SketchScrewHoleBevel",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 22,
         "degrees_of_freedom": -1,
@@ -222,13 +112,98 @@
         "geometry_count": 8,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch002",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 8.0,
+          "x_min": -7.999999999999999,
+          "y_max": 8.000000000000004,
+          "y_min": -8.000000000000002,
+          "z_max": 6.000000000000099,
+          "z_min": -3.2802435084595266e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 1148.5643355722927
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 8.0,
+          "x_min": -7.999999999999999,
+          "y_max": 8.0,
+          "y_min": -8.000000000000002,
+          "z_max": 6.000000000000003,
+          "z_min": -1.7763568394002505e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 1182.7780233019002
+      }
+    },
+    {
+      "_source_label": "Hole",
+      "_source_name": "Hole",
+      "_source_type_id": "PartDesign::Hole",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 8.0,
+          "x_min": -7.999999999999999,
+          "y_max": 8.0,
+          "y_min": -8.000000000000002,
+          "z_max": 6.000000000000003,
+          "z_min": -1.7763568394002505e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 1169.2233226200615
+      }
+    },
+    {
+      "_source_label": "AP3030S8_StoneM6Heavy",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 8.0,
+          "x_min": -7.999999999999999,
+          "y_max": 8.000000000000004,
+          "y_min": -8.000000000000002,
+          "z_max": 6.000000000000099,
+          "z_min": -3.2802435084595266e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 1148.5643355722927
+      }
+    },
+    {
+      "_source_label": "ScrewHoleBevel",
+      "_source_name": "Groove",
+      "_source_type_id": "PartDesign::Groove",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 8.0,
+          "x_min": -7.999999999999999,
+          "y_max": 8.000000000000004,
+          "y_min": -8.000000000000002,
+          "z_max": 6.000000000000099,
+          "z_min": -3.2802435084595266e-15
+        },
+        "is_valid": true,
+        "volume_mm3": 1148.5643355722927
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:06:34.652175+00:00",
+    "data_creation_date": "2026-04-05T21:20:13.936729+00:00",
     "document_label": "FL_AP3030S8_StoneM6Heavy",
     "document_name": "FL_AP3030S8_StoneM6Heavy",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",
@@ -236,22 +211,22 @@
     "platform": "Windows-10-10.0.26100",
     "python_version": "3.8.6+"
   },
-  "techdraw_pages": {
-    "Page": {
-      "label": "Spec",
+  "techdraw_pages": [
+    {
+      "_source_label": "Spec",
+      "_source_name": "Page",
+      "_source_type_id": "TechDraw::DrawPage",
       "metrics": {
         "is_valid": true,
         "template_loaded": true,
-        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmpu7geaqb2/config/temp/FreeCAD_Doc_b8037ab8-3688-4c99-8383-857f9895677c_4c6012_71020/A4_Landscape.svg",
+        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmpjn8ux77i/temp/FreeCAD_Doc_b8037ab8-3688-4c99-8383-857f9895677c_4c6012_16352/A4_Landscape.svg",
         "view_count": 14,
         "view_types": {
           "TechDraw::DrawViewClip": 2,
           "TechDraw::DrawViewDimension": 10,
           "TechDraw::DrawViewPart": 2
         }
-      },
-      "name": "Page",
-      "type_id": "TechDraw::DrawPage"
+      }
     }
-  }
+  ]
 }

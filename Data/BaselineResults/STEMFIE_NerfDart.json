@@ -1,583 +1,182 @@
 {
-  "objects": {
-    "Body": {
-      "label": "Nerf Dart Blunt 13 x 73 mm - SPN-NPH-0003 (stemfie.org)",
-      "name": "Body",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 72.99999999999991,
-              "x_min": 0.0,
-              "y_max": 6.5,
-              "y_min": -6.500012212007169,
-              "z_max": 6.5,
-              "z_min": -6.5
-            },
-            "is_valid": true,
-            "volume_mm3": 8093.309255161167
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Body001": {
-      "label": "Beam STR ESS (stemfie.org)",
-      "name": "Body001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 31.25000000000021,
-              "x_min": -6.249999999999998,
-              "y_max": 25.000000000000004,
-              "y_min": 12.49999999999983,
-              "z_max": 12.500000001744997,
-              "z_min": -4.7323256424647474e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 2922.0252100936555
-          }
-        }
-      ],
-      "type_id": "PartDesign::Body"
-    },
-    "Chamfer002": {
-      "label": "EndFaces",
-      "name": "Chamfer002",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.1823744913682025e-15,
-              "x_min": -37.50000000000001,
-              "y_max": 12.50000000000003,
-              "y_min": -1.0073301420447227e-15,
-              "z_max": 12.500000000000004,
-              "z_min": -2.129685316987207e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 4403.0430344059105
-          }
-        }
-      ],
-      "type_id": "PartDesign::Chamfer"
-    },
-    "Chamfer003": {
-      "label": "SideHoles",
-      "name": "Chamfer003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8997578488051275e-15,
-              "x_min": -37.50000000000003,
-              "y_max": 12.500000000000053,
-              "y_min": -8.07489997612194e-16,
-              "z_max": 12.500000000000009,
-              "z_min": -3.768374501333941e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 3922.951907858859
-          }
-        }
-      ],
-      "type_id": "PartDesign::Chamfer"
-    },
-    "LinearPattern": {
-      "label": "Holes along the length",
-      "name": "LinearPattern",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8997578488051275e-15,
-              "x_min": -37.50000000000003,
-              "y_max": 12.500000000000053,
-              "y_min": -8.07489997612194e-16,
-              "z_max": 12.500000000000009,
-              "z_min": -3.768374501333941e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 2962.769654772586
-          }
-        }
-      ],
-      "type_id": "PartDesign::LinearPattern"
-    },
-    "LinearPattern003": {
-      "label": "FirstHoleTopLedgeArray",
-      "name": "LinearPattern003",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.475832884960515e-15,
-              "x_min": -37.50000000000007,
-              "y_max": 12.500000000000092,
-              "y_min": -5.077297809634003e-16,
-              "z_max": 12.500000001744958,
-              "z_min": -6.226408277854049e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 2922.039351902977
-          }
-        }
-      ],
-      "type_id": "PartDesign::LinearPattern"
-    },
-    "Pad001": {
-      "label": "Length and Centre Hole",
-      "name": "Pad001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 2.708944180085384e-15,
-              "x_min": -37.50000000000001,
-              "y_max": 12.500000000000025,
-              "y_min": 9.992007221626414e-17,
-              "z_max": 12.500000000000004,
-              "z_min": -2.1371793224034263e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 4409.455874757191
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pad"
-    },
-    "Pocket": {
-      "label": "Hole - Side",
-      "name": "Pocket",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 5.041066170086666e-15,
-              "x_min": -37.50000000000002,
-              "y_max": 12.500000000000044,
-              "y_min": -9.074100698284585e-16,
-              "z_max": 12.500000000000007,
-              "z_min": -2.9490299091605733e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 4150.653325989972
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket001": {
-      "label": "Hole - Top",
-      "name": "Pocket001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.8997578488051275e-15,
-              "x_min": -37.50000000000003,
-              "y_max": 12.500000000000053,
-              "y_min": -8.204492078679644e-15,
-              "z_max": 12.500000000000009,
-              "z_min": -3.768374501333941e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 3926.0055359180974
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket007": {
-      "label": "TopSunkenLayer",
-      "name": "Pocket007",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.758449527523592e-15,
-              "x_min": -37.50000000000005,
-              "y_max": 12.500000000000068,
-              "y_min": -7.075699253959296e-16,
-              "z_max": 12.500000000000012,
-              "z_min": -4.587719093507309e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 2913.1423607766005
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket008": {
-      "label": "TopHoleChamferVoid",
-      "name": "Pocket008",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.617141206242058e-15,
-              "x_min": -37.50000000000006,
-              "y_max": 12.50000000000008,
-              "y_min": -6.076498531796651e-16,
-              "z_max": 12.500000000000014,
-              "z_min": -5.407063685680678e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 2911.078334403162
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket009": {
-      "label": "Logo STEMFIE URL001",
-      "name": "Pocket009",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.334524563678974e-15,
-              "x_min": -37.500000000000085,
-              "y_max": 12.500000000000103,
-              "y_min": -4.0780970874713566e-16,
-              "z_max": 12.500000001744953,
-              "z_min": -7.045752870027417e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 2922.0252100936273
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket010": {
-      "label": "STEMFIE.org",
-      "name": "Pocket010",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 72.99999999999991,
-              "x_min": 0.0,
-              "y_max": 6.5,
-              "y_min": -6.5,
-              "z_max": 6.5,
-              "z_min": -6.5
-            },
-            "is_valid": true,
-            "volume_mm3": 8093.3102769255975
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket011": {
-      "label": "SPN",
-      "name": "Pocket011",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 72.99999999999991,
-              "x_min": 0.0,
-              "y_max": 6.5,
-              "y_min": -6.500012212007169,
-              "z_max": 6.5,
-              "z_min": -6.5
-            },
-            "is_valid": true,
-            "volume_mm3": 8093.309255161167
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Pocket012": {
-      "label": "Tip Whistle Hole",
-      "name": "Pocket012",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 72.99999999999991,
-              "x_min": 0.0,
-              "y_max": 6.5,
-              "y_min": -6.5,
-              "z_max": 6.5,
-              "z_min": -6.5
-            },
-            "is_valid": true,
-            "volume_mm3": 8093.3156416613865
-          }
-        }
-      ],
-      "type_id": "PartDesign::Pocket"
-    },
-    "Revolution": {
-      "label": "Revolution",
-      "name": "Revolution",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 72.99999999999991,
-              "x_min": 0.0,
-              "y_max": 6.5,
-              "y_min": -6.5,
-              "z_max": 6.5,
-              "z_min": -6.5
-            },
-            "is_valid": true,
-            "volume_mm3": 8122.813013752273
-          }
-        }
-      ],
-      "type_id": "PartDesign::Revolution"
-    },
-    "Revolution001": {
-      "label": "FirstHoleTopLedge",
-      "name": "Revolution001",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "bounding_box": {
-              "x_max": 4.475832884960515e-15,
-              "x_min": -37.50000000000007,
-              "y_max": 12.500000000000092,
-              "y_min": -5.077297809634003e-16,
-              "z_max": 12.500000001744953,
-              "z_min": -6.226408277854049e-14
-            },
-            "is_valid": true,
-            "volume_mm3": 2917.722803616676
-          }
-        }
-      ],
-      "type_id": "PartDesign::Revolution"
-    },
-    "ShapeString": {
-      "label": "STEMFIE part number",
-      "name": "ShapeString",
-      "solids": [
-        {
-          "index": 1,
-          "metrics": {
-            "is_valid": false
-          }
-        }
-      ],
-      "type_id": "Part::Part2DObjectPython"
-    }
-  },
-  "part_features": {
-    "ShapeString": {
-      "label": "STEMFIE part number",
+  "part_features": [
+    {
+      "_source_label": "STEMFIE part number",
+      "_source_name": "ShapeString",
+      "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
         "is_valid": false,
         "shape_type": "Compound"
-      },
-      "name": "ShapeString",
-      "type_id": "Part::Part2DObjectPython"
+      }
     }
-  },
-  "partdesign_bodies": {
-    "Body": {
-      "label": "Nerf Dart Blunt 13 x 73 mm - SPN-NPH-0003 (stemfie.org)",
-      "metrics": {
-        "feature_count": 8,
-        "is_valid": true,
-        "tip_is_valid": true,
-        "tip_name": "Pocket011"
-      },
-      "name": "Body",
-      "type_id": "PartDesign::Body"
-    },
-    "Body001": {
-      "label": "Beam STR ESS (stemfie.org)",
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Beam STR ESS (stemfie.org)",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 21,
         "is_valid": true,
         "tip_is_valid": true,
         "tip_name": "Pocket009"
-      },
-      "name": "Body001",
-      "type_id": "PartDesign::Body"
+      }
+    },
+    {
+      "_source_label": "Nerf Dart Blunt 13 x 73 mm - SPN-NPH-0003 (stemfie.org)",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 8,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket011"
+      }
     }
-  },
-  "partdesign_features": {
-    "Chamfer002": {
-      "label": "EndFaces",
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Length and Centre Hole",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Chamfer002",
-      "type_id": "PartDesign::Chamfer"
+      }
     },
-    "Chamfer003": {
-      "label": "SideHoles",
+    {
+      "_source_label": "EndFaces",
+      "_source_name": "Chamfer002",
+      "_source_type_id": "PartDesign::Chamfer",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Chamfer003",
-      "type_id": "PartDesign::Chamfer"
+      }
     },
-    "LinearPattern": {
-      "label": "Holes along the length",
+    {
+      "_source_label": "Hole - Side",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "LinearPattern",
-      "type_id": "PartDesign::LinearPattern"
+      }
     },
-    "LinearPattern003": {
-      "label": "FirstHoleTopLedgeArray",
+    {
+      "_source_label": "Hole - Top",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "LinearPattern003",
-      "type_id": "PartDesign::LinearPattern"
+      }
     },
-    "Pad001": {
-      "label": "Length and Centre Hole",
+    {
+      "_source_label": "SideHoles",
+      "_source_name": "Chamfer003",
+      "_source_type_id": "PartDesign::Chamfer",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pad001",
-      "type_id": "PartDesign::Pad"
+      }
     },
-    "Pocket": {
-      "label": "Hole - Side",
+    {
+      "_source_label": "Holes along the length",
+      "_source_name": "LinearPattern",
+      "_source_type_id": "PartDesign::LinearPattern",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Pocket001": {
-      "label": "Hole - Top",
+    {
+      "_source_label": "TopSunkenLayer",
+      "_source_name": "Pocket007",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket001",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Pocket007": {
-      "label": "TopSunkenLayer",
+    {
+      "_source_label": "TopHoleChamferVoid",
+      "_source_name": "Pocket008",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket007",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Pocket008": {
-      "label": "TopHoleChamferVoid",
+    {
+      "_source_label": "FirstHoleTopLedge",
+      "_source_name": "Revolution001",
+      "_source_type_id": "PartDesign::Revolution",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket008",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Pocket009": {
-      "label": "Logo STEMFIE URL001",
+    {
+      "_source_label": "FirstHoleTopLedgeArray",
+      "_source_name": "LinearPattern003",
+      "_source_type_id": "PartDesign::LinearPattern",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket009",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Pocket010": {
-      "label": "STEMFIE.org",
+    {
+      "_source_label": "Logo STEMFIE URL001",
+      "_source_name": "Pocket009",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket010",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Pocket011": {
-      "label": "SPN",
+    {
+      "_source_label": "Revolution",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket011",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Pocket012": {
-      "label": "Tip Whistle Hole",
+    {
+      "_source_label": "STEMFIE.org",
+      "_source_name": "Pocket010",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Pocket012",
-      "type_id": "PartDesign::Pocket"
+      }
     },
-    "Revolution": {
-      "label": "Revolution",
+    {
+      "_source_label": "SPN",
+      "_source_name": "Pocket011",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Revolution",
-      "type_id": "PartDesign::Revolution"
+      }
     },
-    "Revolution001": {
-      "label": "FirstHoleTopLedge",
+    {
+      "_source_label": "Tip Whistle Hole",
+      "_source_name": "Pocket012",
+      "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
         "shape_type": "Solid"
-      },
-      "name": "Revolution001",
-      "type_id": "PartDesign::Revolution"
+      }
     }
-  },
-  "schema_version": 3,
-  "sketches": {
-    "Sketch": {
-      "label": "STEMFIE.org - Logo - PartMarking (2.7 mm)",
-      "metrics": {
-        "constraint_count": 261,
-        "degrees_of_freedom": -1,
-        "external_geometry_count": 0,
-        "fully_constrained": false,
-        "geometry_count": 206,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch003": {
-      "label": "STEMFIE.org - Logo - Lowres",
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "STEMFIE.org - Logo - Lowres",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 206,
         "degrees_of_freedom": -1,
@@ -586,96 +185,12 @@
         "geometry_count": 206,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch003",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch011": {
-      "label": "Base and centre hole",
-      "metrics": {
-        "constraint_count": 27,
-        "degrees_of_freedom": -1,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 9,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch011",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch012": {
-      "label": "Side hole",
-      "metrics": {
-        "constraint_count": 3,
-        "degrees_of_freedom": -1,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 1,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch012",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch013": {
-      "label": "Top hole",
-      "metrics": {
-        "constraint_count": 3,
-        "degrees_of_freedom": -1,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 1,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch013",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch019": {
-      "label": "TopSunkenLayer001",
-      "metrics": {
-        "constraint_count": 12,
-        "degrees_of_freedom": -1,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 4,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch019",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch020": {
-      "label": "TopHoleChamferVoid001",
-      "metrics": {
-        "constraint_count": 3,
-        "degrees_of_freedom": -1,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 1,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch020",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch021": {
-      "label": "FirstHoleLedge002",
-      "metrics": {
-        "constraint_count": 20,
-        "degrees_of_freedom": -1,
-        "external_geometry_count": 0,
-        "fully_constrained": true,
-        "geometry_count": 7,
-        "is_valid": true,
-        "solver_status": 0
-      },
-      "name": "Sketch021",
-      "type_id": "Sketcher::SketchObject"
-    },
-    "Sketch023": {
-      "label": "STEMFIE.org - Logo - PartMarking (2.7 mm)001",
+    {
+      "_source_label": "STEMFIE.org - Logo - PartMarking (2.7 mm)",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 261,
         "degrees_of_freedom": -1,
@@ -684,12 +199,110 @@
         "geometry_count": 206,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch023",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch024": {
-      "label": "Section sketch",
+    {
+      "_source_label": "Base and centre hole",
+      "_source_name": "Sketch011",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 27,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 9,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Side hole",
+      "_source_name": "Sketch012",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Top hole",
+      "_source_name": "Sketch013",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "TopSunkenLayer001",
+      "_source_name": "Sketch019",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "TopHoleChamferVoid001",
+      "_source_name": "Sketch020",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "FirstHoleLedge002",
+      "_source_name": "Sketch021",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 20,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 7,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "STEMFIE.org - Logo - PartMarking (2.7 mm)001",
+      "_source_name": "Sketch023",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 261,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 206,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Section sketch",
+      "_source_name": "Sketch024",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 29,
         "degrees_of_freedom": -1,
@@ -698,12 +311,12 @@
         "geometry_count": 11,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch024",
-      "type_id": "Sketcher::SketchObject"
+      }
     },
-    "Sketch025": {
-      "label": "Tip whisle hole",
+    {
+      "_source_label": "Tip whisle hole",
+      "_source_name": "Sketch025",
+      "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 3,
         "degrees_of_freedom": -1,
@@ -712,13 +325,310 @@
         "geometry_count": 1,
         "is_valid": true,
         "solver_status": 0
-      },
-      "name": "Sketch025",
-      "type_id": "Sketcher::SketchObject"
+      }
     }
-  },
+  ],
+  "solids": [
+    {
+      "_source_label": "STEMFIE part number",
+      "_source_name": "ShapeString",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": false
+      }
+    },
+    {
+      "_source_label": "Length and Centre Hole",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.708944180085384e-15,
+          "x_min": -37.50000000000001,
+          "y_max": 12.500000000000025,
+          "y_min": 9.992007221626414e-17,
+          "z_max": 12.500000000000004,
+          "z_min": -2.1371793224034263e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 4409.455874757191
+      }
+    },
+    {
+      "_source_label": "EndFaces",
+      "_source_name": "Chamfer002",
+      "_source_type_id": "PartDesign::Chamfer",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.1823744913682025e-15,
+          "x_min": -37.50000000000001,
+          "y_max": 12.50000000000003,
+          "y_min": -1.0073301420447227e-15,
+          "z_max": 12.500000000000004,
+          "z_min": -2.129685316987207e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 4403.0430344059105
+      }
+    },
+    {
+      "_source_label": "Hole - Side",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.041066170086666e-15,
+          "x_min": -37.50000000000002,
+          "y_max": 12.500000000000044,
+          "y_min": -9.074100698284585e-16,
+          "z_max": 12.500000000000007,
+          "z_min": -2.9490299091605733e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 4150.653325989972
+      }
+    },
+    {
+      "_source_label": "Hole - Top",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8997578488051275e-15,
+          "x_min": -37.50000000000003,
+          "y_max": 12.500000000000053,
+          "y_min": -8.204492078679644e-15,
+          "z_max": 12.500000000000009,
+          "z_min": -3.768374501333941e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 3926.0055359180974
+      }
+    },
+    {
+      "_source_label": "SideHoles",
+      "_source_name": "Chamfer003",
+      "_source_type_id": "PartDesign::Chamfer",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8997578488051275e-15,
+          "x_min": -37.50000000000003,
+          "y_max": 12.500000000000053,
+          "y_min": -8.07489997612194e-16,
+          "z_max": 12.500000000000009,
+          "z_min": -3.768374501333941e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 3922.951907858859
+      }
+    },
+    {
+      "_source_label": "Holes along the length",
+      "_source_name": "LinearPattern",
+      "_source_type_id": "PartDesign::LinearPattern",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.8997578488051275e-15,
+          "x_min": -37.50000000000003,
+          "y_max": 12.500000000000053,
+          "y_min": -8.07489997612194e-16,
+          "z_max": 12.500000000000009,
+          "z_min": -3.768374501333941e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 2962.769654772586
+      }
+    },
+    {
+      "_source_label": "TopSunkenLayer",
+      "_source_name": "Pocket007",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.758449527523592e-15,
+          "x_min": -37.50000000000005,
+          "y_max": 12.500000000000068,
+          "y_min": -7.075699253959296e-16,
+          "z_max": 12.500000000000012,
+          "z_min": -4.587719093507309e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 2913.1423607766005
+      }
+    },
+    {
+      "_source_label": "TopHoleChamferVoid",
+      "_source_name": "Pocket008",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.617141206242058e-15,
+          "x_min": -37.50000000000006,
+          "y_max": 12.50000000000008,
+          "y_min": -6.076498531796651e-16,
+          "z_max": 12.500000000000014,
+          "z_min": -5.407063685680678e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 2911.078334403162
+      }
+    },
+    {
+      "_source_label": "FirstHoleTopLedge",
+      "_source_name": "Revolution001",
+      "_source_type_id": "PartDesign::Revolution",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.475832884960515e-15,
+          "x_min": -37.50000000000007,
+          "y_max": 12.500000000000092,
+          "y_min": -5.077297809634003e-16,
+          "z_max": 12.500000001744953,
+          "z_min": -6.226408277854049e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 2917.722803616676
+      }
+    },
+    {
+      "_source_label": "FirstHoleTopLedgeArray",
+      "_source_name": "LinearPattern003",
+      "_source_type_id": "PartDesign::LinearPattern",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.475832884960515e-15,
+          "x_min": -37.50000000000007,
+          "y_max": 12.500000000000092,
+          "y_min": -5.077297809634003e-16,
+          "z_max": 12.500000001744958,
+          "z_min": -6.226408277854049e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 2922.039351902977
+      }
+    },
+    {
+      "_source_label": "Logo STEMFIE URL001",
+      "_source_name": "Pocket009",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.334524563678974e-15,
+          "x_min": -37.500000000000085,
+          "y_max": 12.500000000000103,
+          "y_min": -4.0780970874713566e-16,
+          "z_max": 12.500000001744953,
+          "z_min": -7.045752870027417e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 2922.0252100936273
+      }
+    },
+    {
+      "_source_label": "Beam STR ESS (stemfie.org)",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 31.25000000000021,
+          "x_min": -6.249999999999998,
+          "y_max": 25.000000000000004,
+          "y_min": 12.49999999999983,
+          "z_max": 12.500000001744997,
+          "z_min": -4.7323256424647474e-14
+        },
+        "is_valid": true,
+        "volume_mm3": 2922.0252100936555
+      }
+    },
+    {
+      "_source_label": "Nerf Dart Blunt 13 x 73 mm - SPN-NPH-0003 (stemfie.org)",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 72.99999999999991,
+          "x_min": 0.0,
+          "y_max": 6.5,
+          "y_min": -6.500012212007169,
+          "z_max": 6.5,
+          "z_min": -6.5
+        },
+        "is_valid": true,
+        "volume_mm3": 8093.309255161167
+      }
+    },
+    {
+      "_source_label": "Revolution",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 72.99999999999991,
+          "x_min": 0.0,
+          "y_max": 6.5,
+          "y_min": -6.5,
+          "z_max": 6.5,
+          "z_min": -6.5
+        },
+        "is_valid": true,
+        "volume_mm3": 8122.813013752273
+      }
+    },
+    {
+      "_source_label": "STEMFIE.org",
+      "_source_name": "Pocket010",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 72.99999999999991,
+          "x_min": 0.0,
+          "y_max": 6.5,
+          "y_min": -6.5,
+          "z_max": 6.5,
+          "z_min": -6.5
+        },
+        "is_valid": true,
+        "volume_mm3": 8093.3102769255975
+      }
+    },
+    {
+      "_source_label": "SPN",
+      "_source_name": "Pocket011",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 72.99999999999991,
+          "x_min": 0.0,
+          "y_max": 6.5,
+          "y_min": -6.500012212007169,
+          "z_max": 6.5,
+          "z_min": -6.5
+        },
+        "is_valid": true,
+        "volume_mm3": 8093.309255161167
+      }
+    },
+    {
+      "_source_label": "Tip Whistle Hole",
+      "_source_name": "Pocket012",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 72.99999999999991,
+          "x_min": 0.0,
+          "y_max": 6.5,
+          "y_min": -6.5,
+          "z_max": 6.5,
+          "z_min": -6.5
+        },
+        "is_valid": true,
+        "volume_mm3": 8093.3156416613865
+      }
+    }
+  ],
   "source": {
-    "data_creation_date": "2026-03-27T21:08:49.519352+00:00",
+    "data_creation_date": "2026-04-05T21:22:26.629675+00:00",
     "document_label": "STEMFIE_NerfDart",
     "document_name": "STEMFIE_NerfDart",
     "freecad_version": "0.20.2 29603 (Git)",
@@ -726,15 +636,15 @@
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.8.10"
   },
-  "spreadsheets": {
-    "Spreadsheet": {
-      "label": "STEMFIE.dimensions",
+  "spreadsheets": [
+    {
+      "_source_label": "STEMFIE.dimensions",
+      "_source_name": "Spreadsheet",
+      "_source_type_id": "Spreadsheet::Sheet",
       "metrics": {
         "cell_count": -1,
         "is_valid": true
-      },
-      "name": "Spreadsheet",
-      "type_id": "Spreadsheet::Sheet"
+      }
     }
-  }
+  ]
 }
