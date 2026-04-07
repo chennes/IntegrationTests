@@ -20,20 +20,24 @@ Example files shipped with FreeCAD in `data/examples/`.
 
 A community-maintained library of reusable parts for FreeCAD.
 
-| Test file                                   | Author                             | License in file | Original path                                  |
-|---------------------------------------------|------------------------------------|-----------------|------------------------------------------------|
-| Draft_Kitchen_cabinet_base.FCStd            | Francisco Rosa                     | CC-BY-3.0       | Architectural Parts/Kitchen/                   |
-| Duct_flex_complete.FCStd                    | Francisco Rosa                     | CC-BY-3.0       | HVAC/Ducts/Flex/                               |
-| Duct_linear_rectangular_complete.FCStd      | Francisco Rosa                     | CC-BY-3.0       | HVAC/Ducts/Rectangular/                        |
-| FL_PinHeader2x18.FCStd                      | (unknown)                          | CC-BY-3.0       | Electronics Parts/Headers/2.54mm-pitch/female/ |
-| FL_ServoSG90.FCStd                          | (unknown)                          | CC-BY-3.0       | Electrical Parts/Servos/SG-90/                 |
-| FL_ToyDoll.FCStd                            | (unknown)                          | CC-BY-3.0       | Generic objects/LEGO Doll/                     |
-| Googly_eyes.FCStd                           | @hasecilu                          | CC-BY-3.0       | --                                             |
-| Hirth-joint-generator.FCStd                 | Robert Goossens (RBGO.web)         | CC-BY-SA-4.0    | Mechanical Parts/Coupling/Hirth-joint/         |
-| Parametric_LiPo.FCStd                       | @hasecilu                          | CC-BY-4.0       | --                                             |
-| Precast_Beam_for_Slabs_BIM_Parametric.FCStd | Bruno (Linhares Engenharia)        | CC-BY-3.0       | Architectural Parts/Beams/Precast Concrete/    |
-| Profile_Bosch_30x30mm.FCStd                 | Alejandro Alvarez (BERSERK.DESIGN) | CC-BY-3.0       | Mechanical Parts/Profiles EN/BOSCH/            |
-| T8_housing_bracket.FCStd                    | @hasecilu                          | CC-BY-4.0       | --                                             |
+| Test file                               | Author                             | License in file | Original path                                   |
+|-----------------------------------------|------------------------------------|-----------------|-------------------------------------------------|
+| FPL_KitchenCabinetBase.FCStd            | Francisco Rosa                     | CC-BY-3.0       | Architectural Parts/Kitchen/                    |
+| FPL_DuctFlexComplete.FCStd              | Francisco Rosa                     | CC-BY-3.0       | HVAC/Ducts/Flex/                                |
+| FPL_DuctLinearRectangularComplete.FCStd | Francisco Rosa                     | CC-BY-3.0       | HVAC/Ducts/Rectangular/                         |
+| FPL_PinHeader2x18.FCStd                 | (unknown)                          | CC-BY-3.0       | Electronics Parts/Headers/2.54mm-pitch/female/  |
+| FPL_ServoSG90.FCStd                     | (unknown)                          | CC-BY-3.0       | Electrical Parts/Servos/SG-90/                  |
+| FPL_ToyDoll.FCStd                       | (unknown)                          | CC-BY-3.0       | Generic objects/LEGO Doll/                      |
+| FPL_AudioJack3_5mm.FCStd                | (unknown)                          | CC-BY-3.0       | Electronics Parts/Connectors/Audio-connectors/  |
+| FPL_DupontFemaleConnector.FCStd         | Pablo Bacho                        | CC-BY-SA        | Electronics Parts/Connectors/dupont-connectors/ |
+| FPL_LED5mm.FCStd                        | (unknown)                          | CC-BY-3.0       | Electronics Parts/LEDs/                         |
+| FPL_TrapezoidalThread.FCStd             | Marcelo Vioque                     | CC-BY-SA        | Mechanical Parts/4-wire thread/                 |
+| FPL_GooglyEyes.FCStd                    | @hasecilu                          | CC-BY-3.0       | --                                              |
+| FPL_HirthJointGenerator.FCStd           | Robert Goossens (RBGO.web)         | CC-BY-SA-4.0    | Mechanical Parts/Coupling/Hirth-joint/          |
+| FPL_ParametricLiPo.FCStd                | @hasecilu                          | CC-BY-4.0       | --                                              |
+| FPL_PrecastBeamParametric.FCStd         | Bruno (Linhares Engenharia)        | CC-BY-3.0       | Architectural Parts/Beams/Precast Concrete/     |
+| FPL_ProfileBosch30x30mm.FCStd           | Alejandro Alvarez (BERSERK.DESIGN) | CC-BY-3.0       | Mechanical Parts/Profiles EN/BOSCH/             |
+| FPL_T8HousingBracket.FCStd              | @hasecilu                          | CC-BY-4.0       | --                                              |
 
 ## FreeCAD-Library -- Philipp Serr
 
@@ -45,17 +49,17 @@ Reusable mechanical parts modeled in FreeCAD, focused on aluminum slot profiles 
 
 | Test file                                 | Original file                                        |
 |-------------------------------------------|------------------------------------------------------|
-| FL_AP3030S8.FCStd                         | AP3030S8.FCStd                                       |
-| FL_AP3030S8_BracketSmallSingleStone.FCStd | AP3030S8_BracketSmall_With_Single_StoneM6Heavy.FCStd |
-| FL_AP3030S8_BracketSmallTwoStones.FCStd   | AP3030S8_BracketSmall_With_Two_StoneM6Heavy.FCStd    |
-| FL_AP3030S8_Cap.FCStd                     | AP3030S8_Cap.FCStd                                   |
-| FL_AP3030S8_ConnectorSquare.FCStd         | AP3030S8_ConnectorSquare.FCStd                       |
-| FL_AP3030S8_InnerBracket.FCStd            | AP3030S8_InnerBracket.FCStd                          |
-| FL_AP3030S8_InnerBracketWithScrews.FCStd  | AP3030S8_InnerBracketWithScrews.FCStd                |
-| FL_AP3030S8_StoneM6Heavy.FCStd            | AP3030S8_StoneM6Heavy.FCStd                          |
-| FL_AP3030S8_StoneM8Heavy.FCStd            | AP3030S8_StoneM8Heavy.FCStd                          |
-| FL_AP3030S8_TNutM6.FCStd                  | AP3030S8_TNutM6.FCStd                                |
-| FL_ISO4029_SetScrewCupPoint.FCStd         | ISO4029_SetScrewCupPoint.FCStd                       |
+| PS_AP3030S8.FCStd                         | AP3030S8.FCStd                                       |
+| PS_AP3030S8_BracketSmallSingleStone.FCStd | AP3030S8_BracketSmall_With_Single_StoneM6Heavy.FCStd |
+| PS_AP3030S8_BracketSmallTwoStones.FCStd   | AP3030S8_BracketSmall_With_Two_StoneM6Heavy.FCStd    |
+| PS_AP3030S8_Cap.FCStd                     | AP3030S8_Cap.FCStd                                   |
+| PS_AP3030S8_ConnectorSquare.FCStd         | AP3030S8_ConnectorSquare.FCStd                       |
+| PS_AP3030S8_InnerBracket.FCStd            | AP3030S8_InnerBracket.FCStd                          |
+| PS_AP3030S8_InnerBracketWithScrews.FCStd  | AP3030S8_InnerBracketWithScrews.FCStd                |
+| PS_AP3030S8_StoneM6Heavy.FCStd            | AP3030S8_StoneM6Heavy.FCStd                          |
+| PS_AP3030S8_StoneM8Heavy.FCStd            | AP3030S8_StoneM8Heavy.FCStd                          |
+| PS_AP3030S8_TNutM6.FCStd                  | AP3030S8_TNutM6.FCStd                                |
+| PS_ISO4029_SetScrewCupPoint.FCStd         | ISO4029_SetScrewCupPoint.FCStd                       |
 
 ## FreeCAD-models -- Miguel Gesteiro
 
@@ -87,8 +91,8 @@ A collection of 3D-printable parts.
 
 | Test file              | Original file                                      |
 |------------------------|----------------------------------------------------|
-| OBJ_CherryKeycap.FCStd | 2020-01-08-cherry-buttons/keycap.FCStd             |
-| OBJ_CherryMXPCB.FCStd  | 2020-01-08-cherry-buttons/pcbprint-cherry-mx.FCStd |
+| JGG_CherryKeycap.FCStd | 2020-01-08-cherry-buttons/keycap.FCStd             |
+| JGG_CherryMXPCB.FCStd  | 2020-01-08-cherry-buttons/pcbprint-cherry-mx.FCStd |
 
 ## SatNOGS -- Libre Space Foundation
 
@@ -109,21 +113,21 @@ The following files were created by Max Wilfinger specifically for this test sui
 
 | Test file                     | Description                            |
 |-------------------------------|----------------------------------------|
-| PD_Abdeckung.FCStd            | Cabinet cover (Unterschrank Abdeckung) |
-| PD_Funnels.FCStd              | Funnels (Trichter)                     |
-| PD_PadWithMidplaneFC102.FCStd | Simple pad with midplane               |
-| PD_Pins.FCStd                 | Pins and fasteners                     |
-| PD_PipeEndCap.FCStd           | Pipe end cap                           |
-| PD_SpoolHolder.FCStd          | Thread spool holder (Garnhalter)       |
-| PD_TubeCover.FCStd            | Tube cover                             |
+| MW_Abdeckung.FCStd            | Cabinet cover (Unterschrank Abdeckung) |
+| MW_Funnels.FCStd              | Funnels (Trichter)                     |
+| MW_PadWithMidplaneFC102.FCStd | Simple pad with midplane               |
+| MW_Pins.FCStd                 | Pins and fasteners                     |
+| MW_PipeEndCap.FCStd           | Pipe end cap                           |
+| MW_SpoolHolder.FCStd          | Thread spool holder (Garnhalter)       |
+| MW_TubeCover.FCStd            | Tube cover                             |
 | Part_Hanger.FCStd             | Part workbench hanger                  |
 
 ## Original Files -- Chris Hennes
 
 The following files were created by Chris Hennes specifically for this test suite and are released into the [Public Domain](https://en.wikipedia.org/wiki/Public_domain).
 
-| Test file                     | Description                             |
-|-------------------------------|-----------------------------------------|
-| Sketcher_ArcOfEllipse.FCStd   | Sketcher arc of ellipse geometry test   |
-| Sketcher_ArcOfHyperbola.FCStd | Sketcher arc of hyperbola geometry test |
-| Sketcher_ArcOfParabola.FCStd  | Sketcher arc of parabola geometry test  |
+| Test file               | Description                             |
+|-------------------------|-----------------------------------------|
+| CH_ArcOfEllipse.FCStd   | Sketcher arc of ellipse geometry test   |
+| CH_ArcOfHyperbola.FCStd | Sketcher arc of hyperbola geometry test |
+| CH_ArcOfParabola.FCStd  | Sketcher arc of parabola geometry test  |

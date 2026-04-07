@@ -324,12 +324,11 @@ def step_choose_filename(source_path: Path) -> str:
     """
     print("\n--- Step 3: Choose test filename ---\n")
     print("  Naming conventions:")
-    print("    - Original files: use workbench prefix (PD_, Part_, Sketcher_, BIM_, ...)")
-    print("    - External files: use source prefix (FL_, MG_, STEMFIE_, OBJ_, ...)")
+    print("    - Use author/source prefix: MW_, CH_, FPL_, PS_, MG_, JGG_, ...")
     print(f"\n  Original filename: {source_path.name}")
 
     while True:
-        name = prompt("  Enter the test filename (e.g. PD_MyPart.FCStd)")
+        name = prompt("  Enter the test filename (e.g. MW_MyPart.FCStd)")
         if not name:
             continue
         if not name.endswith(".FCStd"):
