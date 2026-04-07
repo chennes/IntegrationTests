@@ -1018,115 +1018,20 @@
         "bounding_box": {
           "x_max": 7.851403,
           "x_min": -7.851403,
-          "y_max": 7.829343,
+          "y_max": 7.829342999999998,
           "y_min": -13.235685,
           "z_max": 0.0,
           "z_min": -4.0
         },
-        "is_valid": true,
-        "volume_mm3": 981.5537128262409
-      }
-    },
-    {
-      "_source_label": "bottom-body",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 7.851403,
-          "x_min": -7.851403,
-          "y_max": 7.829343,
-          "y_min": -13.235685,
-          "z_max": 0.0,
-          "z_min": -4.0
+        "center_of_mass": {
+          "x": -0.06390622525331928,
+          "y": -1.7167344701008098,
+          "z": -1.8375962332484637
         },
         "is_valid": true,
-        "volume_mm3": 1323.1201922742716
-      }
-    },
-    {
-      "_source_label": "drills-cutout",
-      "_source_name": "Pocket",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 7.851403,
-          "x_min": -7.851403,
-          "y_max": 7.829343,
-          "y_min": -13.235685,
-          "z_max": 0.0,
-          "z_min": -4.0
-        },
-        "is_valid": true,
-        "volume_mm3": 1252.583583219547
-      }
-    },
-    {
-      "_source_label": "1x3-Insulator",
-      "_source_name": "Part__Feature",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 2.5400000000000014,
-          "x_min": -7.99e-15,
-          "y_max": 6.350000000000364,
-          "y_min": -1.2700000000004366,
-          "z_max": 1.2500000000000007,
-          "z_min": -1.25
-        },
-        "is_valid": true,
-        "volume_mm3": 40.90035000000021
-      }
-    },
-    {
-      "_source_label": "pin",
-      "_source_name": "Part__Feature001",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.36,
-          "x_min": -6.0,
-          "y_max": 0.3200000000000006,
-          "y_min": -0.320000000000001,
-          "z_max": 0.32000000000000195,
-          "z_min": -4.25
-        },
-        "is_valid": true,
-        "volume_mm3": 5.57354001966122
-      }
-    },
-    {
-      "_source_label": "pin2",
-      "_source_name": "Part__Feature002",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.36,
-          "x_min": -6.0,
-          "y_max": 2.8600000000000003,
-          "y_min": 2.219999999999999,
-          "z_max": 0.3200000000000029,
-          "z_min": -4.25
-        },
-        "is_valid": true,
-        "volume_mm3": 5.573540019661216
-      }
-    },
-    {
-      "_source_label": "pin3",
-      "_source_name": "Part__Feature003",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.36,
-          "x_min": -6.0,
-          "y_max": 5.400000000000001,
-          "y_min": 4.759999999999998,
-          "z_max": 0.3200000000000029,
-          "z_min": -4.25
-        },
-        "is_valid": true,
-        "volume_mm3": 5.573540019661219
+        "solid_count": 1,
+        "total_area_mm2": 1103.472038508636,
+        "total_volume_mm3": 981.5537128262409
       }
     },
     {
@@ -1137,149 +1042,20 @@
         "bounding_box": {
           "x_max": 3.820000000001528,
           "x_min": -3.80000000000001,
-          "y_max": -10.709999999999999,
-          "y_min": -13.25000000000001,
-          "z_max": 2.500000000000001,
-          "z_min": -2.220446049250313e-16
-        },
-        "is_valid": true,
-        "volume_mm3": 40.90035000000023
-      }
-    },
-    {
-      "_source_label": "1x3-mape-pin-header-right-angle",
-      "_source_name": "_x3_mape_pin_header_right_angle",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 2.8700000000000028,
-          "x_min": 2.2300000000000004,
           "y_max": -8.89,
-          "y_min": -19.250000000000004,
-          "z_max": 1.570000000000002,
-          "z_min": -3.000000000000001
-        },
-        "is_valid": true,
-        "volume_mm3": 5.573540019661221
-      }
-    },
-    {
-      "_source_label": "1x3-mape-pin-header-right-angle",
-      "_source_name": "_x3_mape_pin_header_right_angle",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 0.3300000000000024,
-          "x_min": -0.31000000000000016,
-          "y_max": -8.89,
-          "y_min": -19.250000000000004,
-          "z_max": 1.570000000000003,
-          "z_min": -3.000000000000001
-        },
-        "is_valid": true,
-        "volume_mm3": 5.5735400196612215
-      }
-    },
-    {
-      "_source_label": "1x3-mape-pin-header-right-angle",
-      "_source_name": "_x3_mape_pin_header_right_angle",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -2.209999999999998,
-          "x_min": -2.8500000000000005,
-          "y_max": -8.890000000000002,
           "y_min": -19.250000000000007,
-          "z_max": 1.570000000000003,
+          "z_max": 2.500000000000001,
           "z_min": -3.000000000000001
         },
-        "is_valid": true,
-        "volume_mm3": 5.5735400196612215
-      }
-    },
-    {
-      "_source_label": "cherry-body",
-      "_source_name": "Part__Feature004",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 7.82,
-          "x_min": -7.82,
-          "y_max": 8.165,
-          "y_min": -8.165,
-          "z_max": 5.35,
-          "z_min": -5.6
+        "center_of_mass": {
+          "x": 0.010000000000000401,
+          "y": -12.312926647702144,
+          "z": 1.0735910483272981
         },
         "is_valid": true,
-        "volume_mm3": 1905.8504985626828
-      }
-    },
-    {
-      "_source_label": "cherry-axis",
-      "_source_name": "Part__Feature005",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.6,
-          "x_min": -3.6,
-          "y_max": 2.78,
-          "y_min": -2.78,
-          "z_max": 9.3,
-          "z_min": 5.25
-        },
-        "is_valid": true,
-        "volume_mm3": 52.31871
-      }
-    },
-    {
-      "_source_label": "cherry-peg",
-      "_source_name": "Part__Feature006",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 1.925,
-          "x_min": -1.925,
-          "y_max": 1.925,
-          "y_min": -1.925,
-          "z_max": -5.500000000000001,
-          "z_min": -8.55
-        },
-        "is_valid": true,
-        "volume_mm3": 33.9532534775221
-      }
-    },
-    {
-      "_source_label": "pin1",
-      "_source_name": "Part__Feature007",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -2.5999999999999996,
-          "x_min": -3.46,
-          "y_max": -5.1,
-          "y_min": -5.300000000000001,
-          "z_max": -5.500000000000001,
-          "z_min": -8.55
-        },
-        "is_valid": true,
-        "volume_mm3": 0.5245999999999995
-      }
-    },
-    {
-      "_source_label": "pin004",
-      "_source_name": "Part__Feature008",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.2,
-          "x_min": 3.34,
-          "y_max": -2.6,
-          "y_min": -2.8000000000000003,
-          "z_max": -5.500000000000001,
-          "z_min": -8.55
-        },
-        "is_valid": true,
-        "volume_mm3": 0.5246000000000002
+        "solid_count": 4,
+        "total_area_mm2": 205.57730471472865,
+        "total_volume_mm3": 57.6209700589839
       }
     },
     {
@@ -1292,181 +1068,18 @@
           "x_min": -7.82,
           "y_max": 8.165,
           "y_min": -8.165,
-          "z_max": 10.95,
-          "z_min": 0.0
-        },
-        "is_valid": true,
-        "volume_mm3": 1905.8504985626832
-      }
-    },
-    {
-      "_source_label": "cherry-mx-basic",
-      "_source_name": "cherry_mx_basic",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.6,
-          "x_min": -3.6,
-          "y_max": 2.78,
-          "y_min": -2.78,
           "z_max": 14.899999999999999,
-          "z_min": 10.85
-        },
-        "is_valid": true,
-        "volume_mm3": 52.31871
-      }
-    },
-    {
-      "_source_label": "cherry-mx-basic",
-      "_source_name": "cherry_mx_basic",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 1.925,
-          "x_min": -1.925,
-          "y_max": 1.925,
-          "y_min": -1.925,
-          "z_max": 0.09999999999999876,
           "z_min": -2.950000000000001
         },
-        "is_valid": true,
-        "volume_mm3": 33.9532534775221
-      }
-    },
-    {
-      "_source_label": "cherry-mx-basic",
-      "_source_name": "cherry_mx_basic",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -2.5999999999999996,
-          "x_min": -3.46,
-          "y_max": -5.1,
-          "y_min": -5.300000000000001,
-          "z_max": 0.09999999999999876,
-          "z_min": -2.950000000000001
+        "center_of_mass": {
+          "x": 0.0001883811621023183,
+          "y": -0.0020110962262975276,
+          "z": 5.179987673648622
         },
         "is_valid": true,
-        "volume_mm3": 0.5245999999999994
-      }
-    },
-    {
-      "_source_label": "cherry-mx-basic",
-      "_source_name": "cherry_mx_basic",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.2,
-          "x_min": 3.34,
-          "y_max": -2.6,
-          "y_min": -2.8000000000000003,
-          "z_max": 0.09999999999999876,
-          "z_min": -2.950000000000001
-        },
-        "is_valid": true,
-        "volume_mm3": 0.5246000000000002
-      }
-    },
-    {
-      "_source_label": "Connector",
-      "_source_name": "Part__Feature016",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.3,
-          "x_min": 0.0,
-          "y_max": 3.95,
-          "y_min": -3.95,
-          "z_max": 4.2700000000000005,
-          "z_min": -1.97
-        },
-        "is_valid": true,
-        "volume_mm3": 246.296592777589
-      }
-    },
-    {
-      "_source_label": "pins",
-      "_source_name": "Part__Feature017",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": 1.65,
-          "y_max": -1.7899999999999987,
-          "y_min": -3.2900000000000014,
-          "z_max": 0.7500000000000011,
-          "z_min": -1.208596022188
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606553
-      }
-    },
-    {
-      "_source_label": "pins001",
-      "_source_name": "Part__Feature018",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": 1.65,
-          "y_max": 0.7500000000000014,
-          "y_min": -0.7500000000000014,
-          "z_max": 0.7500000000000011,
-          "z_min": -1.208596022188
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606554
-      }
-    },
-    {
-      "_source_label": "pins002",
-      "_source_name": "Part__Feature019",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": 1.65,
-          "y_max": 3.2900000000000014,
-          "y_min": 1.7899999999999987,
-          "z_max": 0.7500000000000011,
-          "z_min": -1.208596022188
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606553
-      }
-    },
-    {
-      "_source_label": "pins003",
-      "_source_name": "pins",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": 1.65,
-          "y_max": -1.7899999999999987,
-          "y_min": -3.2900000000000014,
-          "z_max": 0.7500000000000011,
-          "z_min": -1.208596022188
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606553
-      }
-    },
-    {
-      "_source_label": "pins003",
-      "_source_name": "pins",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": 1.65,
-          "y_max": 0.7500000000000014,
-          "y_min": -0.7500000000000014,
-          "z_max": 0.7500000000000011,
-          "z_min": -1.208596022188
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606554
+        "solid_count": 5,
+        "total_area_mm2": 1172.262000342449,
+        "total_volume_mm3": 1993.1716620402053
       }
     },
     {
@@ -1478,63 +1091,19 @@
           "x_max": 14.25,
           "x_min": 1.65,
           "y_max": 3.2900000000000014,
-          "y_min": 1.7899999999999987,
+          "y_min": -3.2900000000000014,
           "z_max": 0.7500000000000011,
           "z_min": -1.208596022188
         },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606553
-      }
-    },
-    {
-      "_source_label": "vcc-wire001",
-      "_source_name": "Part__Feature020",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 5.15,
-          "x_min": -14.85,
-          "y_max": 0.7,
-          "y_min": -0.7,
-          "z_max": 0.7000000000000044,
-          "z_min": -0.7
+        "center_of_mass": {
+          "x": 8.880229555104613,
+          "y": -1.0633150221868447e-15,
+          "z": 0.09124201221075695
         },
         "is_valid": true,
-        "volume_mm3": 30.78760800517997
-      }
-    },
-    {
-      "_source_label": "vcc-signal001",
-      "_source_name": "Part__Feature021",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 5.15,
-          "x_min": -14.85,
-          "y_max": 3.24,
-          "y_min": 1.84,
-          "z_max": 0.7000000000000044,
-          "z_min": -0.7
-        },
-        "is_valid": true,
-        "volume_mm3": 30.787608005179976
-      }
-    },
-    {
-      "_source_label": "wire-gnd001",
-      "_source_name": "Part__Feature022",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 5.15,
-          "x_min": -14.85,
-          "y_max": -1.84,
-          "y_min": -3.24,
-          "z_max": 0.7000000000000044,
-          "z_min": -0.7
-        },
-        "is_valid": true,
-        "volume_mm3": 30.78760800517997
+        "solid_count": 3,
+        "total_area_mm2": 287.6061718850293,
+        "total_volume_mm3": 33.411675793819654
       }
     },
     {
@@ -1546,505 +1115,19 @@
           "x_max": 3.949999999999995,
           "x_min": -3.950000000000011,
           "y_max": -13.399999999999997,
-          "y_min": -28.700000000000003,
+          "y_min": -43.55000000000001,
           "z_max": 5.520000000000001,
           "z_min": -0.7200000000000004
         },
-        "is_valid": true,
-        "volume_mm3": 246.29659277758935
-      }
-    },
-    {
-      "_source_label": "female-connector",
-      "_source_name": "ASSEMBLY001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.2899999999999956,
-          "x_min": 1.7899999999999896,
-          "y_max": -14.45,
-          "y_min": -27.05,
-          "z_max": 2.0000000000000013,
-          "z_min": 0.04140397781199967
+        "center_of_mass": {
+          "x": 0.006320700658676494,
+          "y": -24.06667023462752,
+          "z": 1.6384648074239636
         },
         "is_valid": true,
-        "volume_mm3": 11.137225264606567
-      }
-    },
-    {
-      "_source_label": "female-connector",
-      "_source_name": "ASSEMBLY001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 0.7499999999999948,
-          "x_min": -0.7500000000000112,
-          "y_max": -14.45,
-          "y_min": -27.050000000000004,
-          "z_max": 2.0000000000000013,
-          "z_min": 0.04140397781199967
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606567
-      }
-    },
-    {
-      "_source_label": "female-connector",
-      "_source_name": "ASSEMBLY001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -1.790000000000006,
-          "x_min": -3.2900000000000116,
-          "y_max": -14.45,
-          "y_min": -27.050000000000004,
-          "z_max": 2.0000000000000013,
-          "z_min": 0.04140397781199967
-        },
-        "is_valid": true,
-        "volume_mm3": 11.13722526460656
-      }
-    },
-    {
-      "_source_label": "female-connector",
-      "_source_name": "ASSEMBLY001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 0.699999999999997,
-          "x_min": -0.7000000000000076,
-          "y_max": -23.55,
-          "y_min": -43.550000000000004,
-          "z_max": 1.9500000000000046,
-          "z_min": 0.5499999999999999
-        },
-        "is_valid": true,
-        "volume_mm3": 30.787608005179987
-      }
-    },
-    {
-      "_source_label": "female-connector",
-      "_source_name": "ASSEMBLY001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -1.8400000000000034,
-          "x_min": -3.240000000000008,
-          "y_max": -23.550000000000004,
-          "y_min": -43.55000000000001,
-          "z_max": 1.9500000000000046,
-          "z_min": 0.5499999999999999
-        },
-        "is_valid": true,
-        "volume_mm3": 30.78760800517999
-      }
-    },
-    {
-      "_source_label": "female-connector",
-      "_source_name": "ASSEMBLY001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.2399999999999975,
-          "x_min": 1.8399999999999928,
-          "y_max": -23.55,
-          "y_min": -43.550000000000004,
-          "z_max": 1.9500000000000046,
-          "z_min": 0.5499999999999999
-        },
-        "is_valid": true,
-        "volume_mm3": 30.787608005179987
-      }
-    },
-    {
-      "_source_label": "tracks-cutout",
-      "_source_name": "Pocket001",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 7.851403,
-          "x_min": -7.851403,
-          "y_max": 7.829343,
-          "y_min": -13.235685,
-          "z_max": 0.0,
-          "z_min": -4.0
-        },
-        "is_valid": true,
-        "volume_mm3": 969.453723162413
-      }
-    },
-    {
-      "_source_label": "Fillet",
-      "_source_name": "Fillet",
-      "_source_type_id": "PartDesign::Fillet",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 7.851403,
-          "x_min": -7.851403,
-          "y_max": 7.829343,
-          "y_min": -13.235685,
-          "z_max": 0.0,
-          "z_min": -4.0
-        },
-        "is_valid": true,
-        "volume_mm3": 981.5537128262409
-      }
-    },
-    {
-      "_source_label": "drills-fill",
-      "_source_name": "Pad001",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 7.851403,
-          "x_min": -7.851403,
-          "y_max": 7.829343,
-          "y_min": -13.235685,
-          "z_max": 0.0,
-          "z_min": -4.0
-        },
-        "is_valid": true,
-        "volume_mm3": 989.279378943933
-      }
-    },
-    {
-      "_source_label": "Keycap001",
-      "_source_name": "Body001",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": -14.25,
-          "y_max": 14.499999999999996,
-          "y_min": -13.500000000000004,
-          "z_max": 21.177205855488246,
-          "z_min": 5.822794144511755
-        },
-        "is_valid": true,
-        "volume_mm3": 949.740248292053
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.820000000001528,
-          "x_min": -3.80000000000001,
-          "y_max": -10.709999999999999,
-          "y_min": -13.25000000000001,
-          "z_max": 2.500000000000001,
-          "z_min": -2.220446049250313e-16
-        },
-        "is_valid": true,
-        "volume_mm3": 40.90035000000023
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 2.8700000000000028,
-          "x_min": 2.2300000000000004,
-          "y_max": -8.89,
-          "y_min": -19.250000000000004,
-          "z_max": 1.570000000000002,
-          "z_min": -3.000000000000001
-        },
-        "is_valid": true,
-        "volume_mm3": 5.573540019661221
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 0.3300000000000024,
-          "x_min": -0.31000000000000016,
-          "y_max": -8.89,
-          "y_min": -19.250000000000004,
-          "z_max": 1.570000000000003,
-          "z_min": -3.000000000000001
-        },
-        "is_valid": true,
-        "volume_mm3": 5.5735400196612215
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -2.209999999999998,
-          "x_min": -2.8500000000000005,
-          "y_max": -8.890000000000002,
-          "y_min": -19.250000000000007,
-          "z_max": 1.570000000000003,
-          "z_min": -3.000000000000001
-        },
-        "is_valid": true,
-        "volume_mm3": 5.5735400196612215
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 7.82,
-          "x_min": -7.82,
-          "y_max": 8.165,
-          "y_min": -8.165,
-          "z_max": 10.95,
-          "z_min": 0.0
-        },
-        "is_valid": true,
-        "volume_mm3": 1905.8504985626832
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.6,
-          "x_min": -3.6,
-          "y_max": 2.78,
-          "y_min": -2.78,
-          "z_max": 14.899999999999999,
-          "z_min": 10.85
-        },
-        "is_valid": true,
-        "volume_mm3": 52.31871
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 1.925,
-          "x_min": -1.925,
-          "y_max": 1.925,
-          "y_min": -1.925,
-          "z_max": 0.09999999999999876,
-          "z_min": -2.950000000000001
-        },
-        "is_valid": true,
-        "volume_mm3": 33.9532534775221
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -2.5999999999999996,
-          "x_min": -3.46,
-          "y_max": -5.1,
-          "y_min": -5.300000000000001,
-          "z_max": 0.09999999999999876,
-          "z_min": -2.950000000000001
-        },
-        "is_valid": true,
-        "volume_mm3": 0.5245999999999994
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.2,
-          "x_min": 3.34,
-          "y_max": -2.6,
-          "y_min": -2.8000000000000003,
-          "z_max": 0.09999999999999876,
-          "z_min": -2.950000000000001
-        },
-        "is_valid": true,
-        "volume_mm3": 0.5246000000000002
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.949999999999995,
-          "x_min": -3.950000000000011,
-          "y_max": -13.399999999999997,
-          "y_min": -28.700000000000003,
-          "z_max": 5.520000000000001,
-          "z_min": -0.7200000000000004
-        },
-        "is_valid": true,
-        "volume_mm3": 246.29659277758935
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.2899999999999956,
-          "x_min": 1.7899999999999896,
-          "y_max": -14.45,
-          "y_min": -27.05,
-          "z_max": 2.0000000000000013,
-          "z_min": 0.04140397781199967
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606567
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 0.7499999999999948,
-          "x_min": -0.7500000000000112,
-          "y_max": -14.45,
-          "y_min": -27.050000000000004,
-          "z_max": 2.0000000000000013,
-          "z_min": 0.04140397781199967
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606567
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -1.790000000000006,
-          "x_min": -3.2900000000000116,
-          "y_max": -14.45,
-          "y_min": -27.050000000000004,
-          "z_max": 2.0000000000000013,
-          "z_min": 0.04140397781199967
-        },
-        "is_valid": true,
-        "volume_mm3": 11.13722526460656
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 0.699999999999997,
-          "x_min": -0.7000000000000076,
-          "y_max": -23.55,
-          "y_min": -43.550000000000004,
-          "z_max": 1.9500000000000046,
-          "z_min": 0.5499999999999999
-        },
-        "is_valid": true,
-        "volume_mm3": 30.787608005179987
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -1.8400000000000034,
-          "x_min": -3.240000000000008,
-          "y_max": -23.550000000000004,
-          "y_min": -43.55000000000001,
-          "z_max": 1.9500000000000046,
-          "z_min": 0.5499999999999999
-        },
-        "is_valid": true,
-        "volume_mm3": 30.78760800517999
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.2399999999999975,
-          "x_min": 1.8399999999999928,
-          "y_max": -23.55,
-          "y_min": -43.550000000000004,
-          "z_max": 1.9500000000000046,
-          "z_min": 0.5499999999999999
-        },
-        "is_valid": true,
-        "volume_mm3": 30.787608005179987
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": -14.25,
-          "y_max": 14.499999999999996,
-          "y_min": -13.500000000000004,
-          "z_max": 21.177205855488246,
-          "z_min": 5.822794144511755
-        },
-        "is_valid": true,
-        "volume_mm3": 949.740248292053
-      }
-    },
-    {
-      "_source_label": "Assembly",
-      "_source_name": "Group",
-      "_source_type_id": "App::DocumentObjectGroup",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 7.851403,
-          "x_min": -7.851403,
-          "y_max": 7.829342999999999,
-          "y_min": -13.235685,
-          "z_max": 0.0,
-          "z_min": -4.0
-        },
-        "is_valid": true,
-        "volume_mm3": 981.5537128262409
-      }
-    },
-    {
-      "_source_label": "pcbprint-cherry-mx001",
-      "_source_name": "Body002",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 7.851403,
-          "x_min": -7.851403,
-          "y_max": 7.829342999999999,
-          "y_min": -13.235685,
-          "z_max": 0.0,
-          "z_min": -4.0
-        },
-        "is_valid": true,
-        "volume_mm3": 981.5537128262409
+        "solid_count": 7,
+        "total_area_mm2": 1366.6052069928053,
+        "total_volume_mm3": 372.0710925869491
       }
     },
     {
@@ -2060,76 +1143,15 @@
           "z_max": -19.0,
           "z_min": -23.0
         },
-        "is_valid": true,
-        "volume_mm3": 981.5537128262409
-      }
-    },
-    {
-      "_source_label": "1x3-Insulator001",
-      "_source_name": "Part__Feature023",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 2.5400000000000014,
-          "x_min": -7.99e-15,
-          "y_max": 6.350000000000364,
-          "y_min": -1.2700000000004366,
-          "z_max": 1.2500000000000007,
-          "z_min": -1.25
+        "center_of_mass": {
+          "x": -0.06390622525331932,
+          "y": -1.7167344701008094,
+          "z": -20.837596233248462
         },
         "is_valid": true,
-        "volume_mm3": 40.90035000000021
-      }
-    },
-    {
-      "_source_label": "pin005",
-      "_source_name": "Part__Feature024",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.36,
-          "x_min": -6.0,
-          "y_max": 0.3200000000000006,
-          "y_min": -0.320000000000001,
-          "z_max": 0.32000000000000195,
-          "z_min": -4.25
-        },
-        "is_valid": true,
-        "volume_mm3": 5.57354001966122
-      }
-    },
-    {
-      "_source_label": "pin006",
-      "_source_name": "Part__Feature025",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.36,
-          "x_min": -6.0,
-          "y_max": 2.8600000000000003,
-          "y_min": 2.219999999999999,
-          "z_max": 0.3200000000000029,
-          "z_min": -4.25
-        },
-        "is_valid": true,
-        "volume_mm3": 5.573540019661216
-      }
-    },
-    {
-      "_source_label": "pin007",
-      "_source_name": "Part__Feature026",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.36,
-          "x_min": -6.0,
-          "y_max": 5.400000000000001,
-          "y_min": 4.759999999999998,
-          "z_max": 0.3200000000000029,
-          "z_min": -4.25
-        },
-        "is_valid": true,
-        "volume_mm3": 5.573540019661219
+        "solid_count": 1,
+        "total_area_mm2": 1103.472038508636,
+        "total_volume_mm3": 981.5537128262409
       }
     },
     {
@@ -2140,149 +1162,20 @@
         "bounding_box": {
           "x_max": 3.820000000001528,
           "x_min": -3.80000000000001,
-          "y_max": -10.709999999999999,
-          "y_min": -13.25000000000001,
-          "z_max": 2.500000000000001,
-          "z_min": -2.220446049250313e-16
-        },
-        "is_valid": true,
-        "volume_mm3": 40.90035000000023
-      }
-    },
-    {
-      "_source_label": "1x3-mape-pin-header-right-angle001",
-      "_source_name": "_x3_mape_pin_header_right_angle001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 2.8700000000000028,
-          "x_min": 2.2300000000000004,
           "y_max": -8.89,
-          "y_min": -19.250000000000004,
-          "z_max": 1.570000000000002,
-          "z_min": -3.000000000000001
-        },
-        "is_valid": true,
-        "volume_mm3": 5.573540019661221
-      }
-    },
-    {
-      "_source_label": "1x3-mape-pin-header-right-angle001",
-      "_source_name": "_x3_mape_pin_header_right_angle001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 0.3300000000000024,
-          "x_min": -0.31000000000000016,
-          "y_max": -8.89,
-          "y_min": -19.250000000000004,
-          "z_max": 1.570000000000003,
-          "z_min": -3.000000000000001
-        },
-        "is_valid": true,
-        "volume_mm3": 5.5735400196612215
-      }
-    },
-    {
-      "_source_label": "1x3-mape-pin-header-right-angle001",
-      "_source_name": "_x3_mape_pin_header_right_angle001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -2.209999999999998,
-          "x_min": -2.8500000000000005,
-          "y_max": -8.890000000000002,
           "y_min": -19.250000000000007,
-          "z_max": 1.570000000000003,
+          "z_max": 2.500000000000001,
           "z_min": -3.000000000000001
         },
-        "is_valid": true,
-        "volume_mm3": 5.5735400196612215
-      }
-    },
-    {
-      "_source_label": "cherry-body001",
-      "_source_name": "Part__Feature027",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 7.82,
-          "x_min": -7.82,
-          "y_max": 8.165,
-          "y_min": -8.165,
-          "z_max": 5.35,
-          "z_min": -5.6
+        "center_of_mass": {
+          "x": 0.010000000000000401,
+          "y": -12.312926647702144,
+          "z": 1.0735910483272981
         },
         "is_valid": true,
-        "volume_mm3": 1905.8504985626828
-      }
-    },
-    {
-      "_source_label": "cherry-axis001",
-      "_source_name": "Part__Feature028",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.6,
-          "x_min": -3.6,
-          "y_max": 2.78,
-          "y_min": -2.78,
-          "z_max": 9.3,
-          "z_min": 5.25
-        },
-        "is_valid": true,
-        "volume_mm3": 52.31871
-      }
-    },
-    {
-      "_source_label": "cherry-peg001",
-      "_source_name": "Part__Feature029",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 1.925,
-          "x_min": -1.925,
-          "y_max": 1.925,
-          "y_min": -1.925,
-          "z_max": -5.500000000000001,
-          "z_min": -8.55
-        },
-        "is_valid": true,
-        "volume_mm3": 33.9532534775221
-      }
-    },
-    {
-      "_source_label": "pin008",
-      "_source_name": "Part__Feature030",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -2.5999999999999996,
-          "x_min": -3.46,
-          "y_max": -5.1,
-          "y_min": -5.300000000000001,
-          "z_max": -5.500000000000001,
-          "z_min": -8.55
-        },
-        "is_valid": true,
-        "volume_mm3": 0.5245999999999995
-      }
-    },
-    {
-      "_source_label": "pin009",
-      "_source_name": "Part__Feature031",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.2,
-          "x_min": 3.34,
-          "y_max": -2.6,
-          "y_min": -2.8000000000000003,
-          "z_max": -5.500000000000001,
-          "z_min": -8.55
-        },
-        "is_valid": true,
-        "volume_mm3": 0.5246000000000002
+        "solid_count": 4,
+        "total_area_mm2": 205.57730471472865,
+        "total_volume_mm3": 57.6209700589839
       }
     },
     {
@@ -2295,181 +1188,18 @@
           "x_min": -7.82,
           "y_max": 8.165,
           "y_min": -8.165,
-          "z_max": 17.95,
-          "z_min": 7.0
-        },
-        "is_valid": true,
-        "volume_mm3": 1905.850498562683
-      }
-    },
-    {
-      "_source_label": "cherry-mx-basic001",
-      "_source_name": "cherry_mx_basic001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.6,
-          "x_min": -3.6,
-          "y_max": 2.78,
-          "y_min": -2.78,
           "z_max": 21.900000000000002,
-          "z_min": 17.85
-        },
-        "is_valid": true,
-        "volume_mm3": 52.31871000000001
-      }
-    },
-    {
-      "_source_label": "cherry-mx-basic001",
-      "_source_name": "cherry_mx_basic001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 1.925,
-          "x_min": -1.925,
-          "y_max": 1.925,
-          "y_min": -1.925,
-          "z_max": 7.099999999999999,
           "z_min": 4.049999999999999
         },
-        "is_valid": true,
-        "volume_mm3": 33.9532534775221
-      }
-    },
-    {
-      "_source_label": "cherry-mx-basic001",
-      "_source_name": "cherry_mx_basic001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -2.5999999999999996,
-          "x_min": -3.46,
-          "y_max": -5.1,
-          "y_min": -5.300000000000001,
-          "z_max": 7.099999999999999,
-          "z_min": 4.049999999999999
+        "center_of_mass": {
+          "x": 0.0001883811621023122,
+          "y": -0.002011096226297672,
+          "z": 12.179987673648624
         },
         "is_valid": true,
-        "volume_mm3": 0.5245999999999994
-      }
-    },
-    {
-      "_source_label": "cherry-mx-basic001",
-      "_source_name": "cherry_mx_basic001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.2,
-          "x_min": 3.34,
-          "y_max": -2.6,
-          "y_min": -2.8000000000000003,
-          "z_max": 7.099999999999999,
-          "z_min": 4.049999999999999
-        },
-        "is_valid": true,
-        "volume_mm3": 0.5246000000000002
-      }
-    },
-    {
-      "_source_label": "Connector001",
-      "_source_name": "Part__Feature032",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.3,
-          "x_min": 0.0,
-          "y_max": 3.95,
-          "y_min": -3.95,
-          "z_max": 4.2700000000000005,
-          "z_min": -1.97
-        },
-        "is_valid": true,
-        "volume_mm3": 246.296592777589
-      }
-    },
-    {
-      "_source_label": "pins004",
-      "_source_name": "Part__Feature033",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": 1.65,
-          "y_max": -1.7899999999999987,
-          "y_min": -3.2900000000000014,
-          "z_max": 0.7500000000000011,
-          "z_min": -1.208596022188
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606553
-      }
-    },
-    {
-      "_source_label": "pins005",
-      "_source_name": "Part__Feature034",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": 1.65,
-          "y_max": 0.7500000000000014,
-          "y_min": -0.7500000000000014,
-          "z_max": 0.7500000000000011,
-          "z_min": -1.208596022188
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606554
-      }
-    },
-    {
-      "_source_label": "pins006",
-      "_source_name": "Part__Feature035",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": 1.65,
-          "y_max": 3.2900000000000014,
-          "y_min": 1.7899999999999987,
-          "z_max": 0.7500000000000011,
-          "z_min": -1.208596022188
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606553
-      }
-    },
-    {
-      "_source_label": "pins007",
-      "_source_name": "pins001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": 1.65,
-          "y_max": -1.7899999999999987,
-          "y_min": -3.2900000000000014,
-          "z_max": 0.7500000000000011,
-          "z_min": -1.208596022188
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606553
-      }
-    },
-    {
-      "_source_label": "pins007",
-      "_source_name": "pins001",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 14.25,
-          "x_min": 1.65,
-          "y_max": 0.7500000000000014,
-          "y_min": -0.7500000000000014,
-          "z_max": 0.7500000000000011,
-          "z_min": -1.208596022188
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606554
+        "solid_count": 5,
+        "total_area_mm2": 1172.262000342449,
+        "total_volume_mm3": 1993.171662040205
       }
     },
     {
@@ -2481,63 +1211,19 @@
           "x_max": 14.25,
           "x_min": 1.65,
           "y_max": 3.2900000000000014,
-          "y_min": 1.7899999999999987,
+          "y_min": -3.2900000000000014,
           "z_max": 0.7500000000000011,
           "z_min": -1.208596022188
         },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606553
-      }
-    },
-    {
-      "_source_label": "vcc-wire002",
-      "_source_name": "Part__Feature036",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 5.15,
-          "x_min": -14.85,
-          "y_max": 0.7,
-          "y_min": -0.7,
-          "z_max": 0.7000000000000044,
-          "z_min": -0.7
+        "center_of_mass": {
+          "x": 8.880229555104613,
+          "y": -1.0633150221868447e-15,
+          "z": 0.09124201221075695
         },
         "is_valid": true,
-        "volume_mm3": 30.78760800517997
-      }
-    },
-    {
-      "_source_label": "vcc-signal002",
-      "_source_name": "Part__Feature037",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 5.15,
-          "x_min": -14.85,
-          "y_max": 3.24,
-          "y_min": 1.84,
-          "z_max": 0.7000000000000044,
-          "z_min": -0.7
-        },
-        "is_valid": true,
-        "volume_mm3": 30.787608005179976
-      }
-    },
-    {
-      "_source_label": "wire-gnd002",
-      "_source_name": "Part__Feature038",
-      "_source_type_id": "Part::Feature",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 5.15,
-          "x_min": -14.85,
-          "y_max": -1.84,
-          "y_min": -3.24,
-          "z_max": 0.7000000000000044,
-          "z_min": -0.7
-        },
-        "is_valid": true,
-        "volume_mm3": 30.78760800517997
+        "solid_count": 3,
+        "total_area_mm2": 287.6061718850293,
+        "total_volume_mm3": 33.411675793819654
       }
     },
     {
@@ -2549,114 +1235,19 @@
           "x_max": 3.9499999999999904,
           "x_min": -3.9500000000000153,
           "y_max": -32.4,
-          "y_min": -47.7,
+          "y_min": -62.55000000000001,
           "z_max": 5.520000000000001,
           "z_min": -0.7200000000000004
         },
-        "is_valid": true,
-        "volume_mm3": 246.29659277758915
-      }
-    },
-    {
-      "_source_label": "female-connector001",
-      "_source_name": "ASSEMBLY002",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.289999999999991,
-          "x_min": 1.7899999999999854,
-          "y_max": -33.45,
-          "y_min": -46.050000000000004,
-          "z_max": 2.0000000000000013,
-          "z_min": 0.04140397781199967
+        "center_of_mass": {
+          "x": 0.006320700658672258,
+          "y": -43.06667023462751,
+          "z": 1.6384648074239636
         },
         "is_valid": true,
-        "volume_mm3": 11.13722526460656
-      }
-    },
-    {
-      "_source_label": "female-connector001",
-      "_source_name": "ASSEMBLY002",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 0.7499999999999907,
-          "x_min": -0.7500000000000153,
-          "y_max": -33.45,
-          "y_min": -46.050000000000004,
-          "z_max": 2.0000000000000013,
-          "z_min": 0.04140397781199967
-        },
-        "is_valid": true,
-        "volume_mm3": 11.137225264606561
-      }
-    },
-    {
-      "_source_label": "female-connector001",
-      "_source_name": "ASSEMBLY002",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -1.7900000000000102,
-          "x_min": -3.290000000000016,
-          "y_max": -33.45,
-          "y_min": -46.050000000000004,
-          "z_max": 2.0000000000000013,
-          "z_min": 0.04140397781199967
-        },
-        "is_valid": true,
-        "volume_mm3": 11.13722526460656
-      }
-    },
-    {
-      "_source_label": "female-connector001",
-      "_source_name": "ASSEMBLY002",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 0.6999999999999927,
-          "x_min": -0.7000000000000118,
-          "y_max": -42.550000000000004,
-          "y_min": -62.55000000000001,
-          "z_max": 1.9500000000000046,
-          "z_min": 0.5499999999999999
-        },
-        "is_valid": true,
-        "volume_mm3": 30.78760800517999
-      }
-    },
-    {
-      "_source_label": "female-connector001",
-      "_source_name": "ASSEMBLY002",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -1.8400000000000079,
-          "x_min": -3.2400000000000126,
-          "y_max": -42.550000000000004,
-          "y_min": -62.55000000000001,
-          "z_max": 1.9500000000000046,
-          "z_min": 0.5499999999999999
-        },
-        "is_valid": true,
-        "volume_mm3": 30.78760800517999
-      }
-    },
-    {
-      "_source_label": "female-connector001",
-      "_source_name": "ASSEMBLY002",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.239999999999993,
-          "x_min": 1.8399999999999883,
-          "y_max": -42.55,
-          "y_min": -62.55,
-          "z_max": 1.9500000000000046,
-          "z_min": 0.5499999999999999
-        },
-        "is_valid": true,
-        "volume_mm3": 30.787608005179987
+        "solid_count": 7,
+        "total_area_mm2": 1366.6052069928053,
+        "total_volume_mm3": 372.07109258694885
       }
     },
     {
@@ -2672,13 +1263,20 @@
           "z_max": 56.177205855488246,
           "z_min": 40.822794144511754
         },
+        "center_of_mass": {
+          "x": -2.411656848223731e-10,
+          "y": -0.8462490102512139,
+          "z": 49.07510976943274
+        },
         "is_valid": true,
-        "volume_mm3": 949.7402482920531
+        "solid_count": 1,
+        "total_area_mm2": 1640.3439048997088,
+        "total_volume_mm3": 949.7402482920531
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:21:48.405707+00:00",
+    "data_creation_date": "2026-04-07T02:38:05.070115+00:00",
     "document_label": "OBJ_CherryMXPCB",
     "document_name": "OBJ_CherryMXPCB",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

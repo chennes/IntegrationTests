@@ -68,30 +68,20 @@
           "z_max": 2.85016857486853,
           "z_min": -2.8501685748684715
         },
-        "is_valid": true,
-        "volume_mm3": 2453.656727461893
-      }
-    },
-    {
-      "_source_label": "AdditivePipe",
-      "_source_name": "AdditivePipe",
-      "_source_type_id": "PartDesign::AdditivePipe",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 76.8780032317366,
-          "x_min": -76.87800323160934,
-          "y_max": 36.77749816834552,
-          "y_min": -26.678819444444375,
-          "z_max": 2.85016857486853,
-          "z_min": -2.8501685748684715
+        "center_of_mass": {
+          "x": -4.236970078874691e-11,
+          "y": 13.148626638653097,
+          "z": -2.9427420110470255e-16
         },
         "is_valid": true,
-        "volume_mm3": 2453.656727461893
+        "solid_count": 1,
+        "total_area_mm2": 3271.542303237856,
+        "total_volume_mm3": 2453.656727461893
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:22:52.642776+00:00",
+    "data_creation_date": "2026-04-07T01:45:13.690084+00:00",
     "document_label": "Sketcher_ArcOfParabola",
     "document_name": "Sketcher_ArcOfParabola",
     "freecad_version": "1.1.0 44790 (Git)",

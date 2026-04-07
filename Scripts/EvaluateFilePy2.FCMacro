@@ -1,0 +1,473 @@
+#!/usr/bin/env python
+#
+# Python 2 compatible version of EvaluateFile.FCMacro for FreeCAD 0.14-0.17.
+#
+# Produces the same schema v4 JSON output as the main macro, but avoids:
+#   - Type annotations (-> bool, : str)
+#   - f-strings
+#   - from __future__ imports beyond what Python 2.7 supports
+#   - APIs added after FreeCAD 0.17 (e.g. DocumentObject.isValid())
+#
+# Usage:
+#   freecadcmd EvaluateFilePy2.FCMacro /path/to/model.FCStd --out results.json
+
+import datetime
+import platform
+import sys
+import os
+import json
+import argparse
+
+import FreeCAD as App
+
+
+# ---------------------------------------------------------------------------
+# Utility helpers
+# ---------------------------------------------------------------------------
+
+
+def is_obj_valid(obj):
+    """Check whether a FreeCAD document object is valid.
+
+    Returns True on older FreeCAD where isValid() does not exist.
+    """
+    try:
+        return obj.isValid()
+    except AttributeError:
+        return True
+
+
+def is_shape_valid(shape):
+    """Check whether a FreeCAD shape is non-null and geometrically valid."""
+    try:
+        return (shape is not None) and (not shape.isNull()) and shape.isValid()
+    except Exception:
+        return False
+
+
+def get_solids_from_shape(shape):
+    """Extract all solid sub-shapes from a FreeCAD shape."""
+    try:
+        solids = list(shape.Solids)
+        if solids:
+            return solids
+    except Exception:
+        pass
+    try:
+        if getattr(shape, "ShapeType", "") == "Solid":
+            return [shape]
+    except Exception:
+        pass
+    return []
+
+
+def get_freecad_version_string():
+    """Return a human-readable FreeCAD version string."""
+    try:
+        v = App.Version()
+        return ".".join(v[:3]) + (" " + v[3] if len(v) > 3 else "")
+    except Exception:
+        return "unknown"
+
+
+# ---------------------------------------------------------------------------
+# Analyzers
+# ---------------------------------------------------------------------------
+
+# TypeIds that have a Shape but are non-solid construction geometry
+_NON_SOLID_TYPES = set(
+    [
+        "PartDesign::Line",
+        "PartDesign::Plane",
+        "PartDesign::Point",
+        "PartDesign::CoordinateSystem",
+        "PartDesign::ShapeBinder",
+        "PartDesign::SubShapeBinder",
+        "Sketcher::SketchObject",
+        # Body's shape duplicates its tip; App::Part aggregates children.
+        "PartDesign::Body",
+        "App::Part",
+    ]
+)
+
+_PD_SKIP_TYPES = set(
+    [
+        "PartDesign::Line",
+        "PartDesign::Plane",
+        "PartDesign::Point",
+        "PartDesign::CoordinateSystem",
+        "PartDesign::ShapeBinder",
+        "PartDesign::SubShapeBinder",
+    ]
+)
+
+
+def _source_dict(obj):
+    """Build the _source annotation dict for an object."""
+    return {
+        "_source_name": obj.Name,
+        "_source_label": getattr(obj, "Label", obj.Name),
+        "_source_type_id": getattr(obj, "TypeId", "unknown"),
+    }
+
+
+def evaluate_shape(obj):
+    """Compute aggregate solid metrics for an object's shape."""
+    result = _source_dict(obj)
+
+    if not is_obj_valid(obj) or not hasattr(obj, "Shape") or not is_shape_valid(obj.Shape):
+        result["metrics"] = {"is_valid": False}
+        return result
+
+    shape = obj.Shape
+    solids = get_solids_from_shape(shape)
+    if not solids:
+        result["metrics"] = {"is_valid": False}
+        return result
+
+    try:
+        valid_solids = [s for s in solids if is_shape_valid(s)]
+        total_volume = sum(float(s.Volume) for s in valid_solids)
+        metrics = {
+            "is_valid": True,
+            "solid_count": len(solids),
+            "total_volume_mm3": total_volume,
+            "total_area_mm2": float(shape.Area),
+            "bounding_box": {
+                "x_min": float(shape.BoundBox.XMin),
+                "y_min": float(shape.BoundBox.YMin),
+                "z_min": float(shape.BoundBox.ZMin),
+                "x_max": float(shape.BoundBox.XMax),
+                "y_max": float(shape.BoundBox.YMax),
+                "z_max": float(shape.BoundBox.ZMax),
+            },
+        }
+        try:
+            com = shape.CenterOfMass
+            metrics["center_of_mass"] = {
+                "x": float(com.x),
+                "y": float(com.y),
+                "z": float(com.z),
+            }
+        except AttributeError:
+            if total_volume > 0 and valid_solids:
+                wx = sum(float(s.CenterOfMass.x) * float(s.Volume) for s in valid_solids)
+                wy = sum(float(s.CenterOfMass.y) * float(s.Volume) for s in valid_solids)
+                wz = sum(float(s.CenterOfMass.z) * float(s.Volume) for s in valid_solids)
+                metrics["center_of_mass"] = {
+                    "x": wx / total_volume,
+                    "y": wy / total_volume,
+                    "z": wz / total_volume,
+                }
+    except Exception:
+        metrics = {"is_valid": False}
+
+    result["metrics"] = metrics
+    return result
+
+
+def analyze_sketch(obj):
+    """Analyze a Sketcher::SketchObject.  Returns an entry dict, or None."""
+    if getattr(obj, "TypeId", "") != "Sketcher::SketchObject":
+        return None
+    try:
+        metrics = {
+            "is_valid": is_obj_valid(obj),
+            "fully_constrained": bool(getattr(obj, "FullyConstrained", False)),
+            "degrees_of_freedom": int(getattr(obj, "DoF", -1)),
+            "constraint_count": int(getattr(obj, "ConstraintCount", 0)),
+            "geometry_count": int(getattr(obj, "GeometryCount", 0)),
+        }
+        try:
+            metrics["external_geometry_count"] = len(obj.ExternalGeometry)
+        except Exception:
+            metrics["external_geometry_count"] = 0
+        try:
+            metrics["solver_status"] = int(obj.solve())
+        except Exception:
+            metrics["solver_status"] = -1
+    except Exception:
+        metrics = {"is_valid": False}
+    return dict(_source_dict(obj), metrics=metrics)
+
+
+def analyze_pd_body(obj):
+    """Analyze a PartDesign::Body.  Returns an entry dict, or None."""
+    if getattr(obj, "TypeId", "") != "PartDesign::Body":
+        return None
+    try:
+        metrics = {"is_valid": is_obj_valid(obj)}
+        group = getattr(obj, "Group", [])
+        metrics["feature_count"] = len(group)
+        tip = getattr(obj, "Tip", None)
+        if tip is not None:
+            metrics["tip_name"] = tip.Name
+            metrics["tip_is_valid"] = is_obj_valid(tip)
+        else:
+            metrics["tip_name"] = None
+            metrics["tip_is_valid"] = False
+    except Exception:
+        metrics = {"is_valid": False}
+    return dict(_source_dict(obj), metrics=metrics)
+
+
+def analyze_pd_feature(obj):
+    """Analyze a PartDesign feature.  Returns an entry dict, or None."""
+    tid = getattr(obj, "TypeId", "")
+    if not tid.startswith("PartDesign::"):
+        return None
+    if tid == "PartDesign::Body" or tid in _PD_SKIP_TYPES:
+        return None
+    if not hasattr(obj, "Shape"):
+        return None
+    try:
+        metrics = {"is_valid": is_obj_valid(obj)}
+        shape = getattr(obj, "Shape", None)
+        if shape is not None and is_shape_valid(shape):
+            metrics["shape_type"] = shape.ShapeType
+    except Exception:
+        metrics = {"is_valid": False}
+    return dict(_source_dict(obj), metrics=metrics)
+
+
+def analyze_part_feature(obj):
+    """Analyze a Part:: feature.  Returns an entry dict, or None."""
+    if not getattr(obj, "TypeId", "").startswith("Part::"):
+        return None
+    if not hasattr(obj, "Shape"):
+        return None
+    try:
+        metrics = {"is_valid": is_obj_valid(obj)}
+        shape = getattr(obj, "Shape", None)
+        if shape is not None and is_shape_valid(shape):
+            metrics["shape_type"] = shape.ShapeType
+            try:
+                shells = shape.Shells
+                if shells:
+                    metrics["shell_is_closed"] = all(shell.isClosed() for shell in shells)
+            except Exception:
+                pass
+    except Exception:
+        metrics = {"is_valid": False}
+    return dict(_source_dict(obj), metrics=metrics)
+
+
+def analyze_app_part(obj):
+    """Analyze an App::Part container.  Returns an entry dict, or None."""
+    if getattr(obj, "TypeId", "") != "App::Part":
+        return None
+    try:
+        metrics = {"is_valid": is_obj_valid(obj)}
+        group = getattr(obj, "Group", [])
+        metrics["child_count"] = len(group)
+        shape = getattr(obj, "Shape", None)
+        if shape is not None and is_shape_valid(shape):
+            metrics["bounding_box"] = {
+                "x_min": float(shape.BoundBox.XMin),
+                "y_min": float(shape.BoundBox.YMin),
+                "z_min": float(shape.BoundBox.ZMin),
+                "x_max": float(shape.BoundBox.XMax),
+                "y_max": float(shape.BoundBox.YMax),
+                "z_max": float(shape.BoundBox.ZMax),
+            }
+    except Exception:
+        metrics = {"is_valid": False}
+    return dict(_source_dict(obj), metrics=metrics)
+
+
+def analyze_spreadsheet(obj):
+    """Analyze a Spreadsheet::Sheet.  Returns an entry dict, or None."""
+    if getattr(obj, "TypeId", "") != "Spreadsheet::Sheet":
+        return None
+    try:
+        metrics = {"is_valid": is_obj_valid(obj)}
+        try:
+            used_cells = obj.getUsedCells()
+            metrics["cell_count"] = len(used_cells)
+        except Exception:
+            metrics["cell_count"] = -1
+    except Exception:
+        metrics = {"is_valid": False}
+    return dict(_source_dict(obj), metrics=metrics)
+
+
+def analyze_material(obj):
+    """Analyze a material object.  Returns an entry dict, or None."""
+    type_id = getattr(obj, "TypeId", "")
+    if "Material" not in type_id:
+        if not (hasattr(obj, "Material") and isinstance(getattr(obj, "Material", None), dict)):
+            return None
+    try:
+        metrics = {"is_valid": is_obj_valid(obj)}
+        material = getattr(obj, "Material", None)
+        if isinstance(material, dict):
+            if "Name" in material:
+                metrics["material_name"] = str(material["Name"])
+    except Exception:
+        metrics = {"is_valid": False}
+    return dict(_source_dict(obj), metrics=metrics)
+
+
+# Non-solid analyzer functions and their section names.
+ANALYZERS = [
+    ("sketches", analyze_sketch),
+    ("partdesign_bodies", analyze_pd_body),
+    ("partdesign_features", analyze_pd_feature),
+    ("part_features", analyze_part_feature),
+    ("app_parts", analyze_app_part),
+    ("spreadsheets", analyze_spreadsheet),
+    ("materials", analyze_material),
+]
+
+
+def _find_final_solid_objects(doc):
+    """Return only the top-level shape-producing objects in a document."""
+    owned = set()
+    for obj in doc.Objects:
+        type_id = getattr(obj, "TypeId", "")
+        if type_id in ("PartDesign::Body", "App::Part"):
+            for child in getattr(obj, "Group", []):
+                owned.add(child.Name)
+                if getattr(child, "TypeId", "") == "PartDesign::Body":
+                    for grandchild in getattr(child, "Group", []):
+                        owned.add(grandchild.Name)
+
+    consumed = set()
+    for obj in doc.Objects:
+        if not hasattr(obj, "Shape"):
+            continue
+        for dep in getattr(obj, "OutList", []):
+            if hasattr(dep, "Shape"):
+                consumed.add(dep.Name)
+
+    skip_types = set(
+        [
+            "PartDesign::Line",
+            "PartDesign::Plane",
+            "PartDesign::Point",
+            "PartDesign::CoordinateSystem",
+            "PartDesign::ShapeBinder",
+            "PartDesign::SubShapeBinder",
+            "Sketcher::SketchObject",
+            "App::Origin",
+            "App::Line",
+            "App::Plane",
+            "App::DocumentObjectGroup",
+        ]
+    )
+
+    finals = []
+    for obj in doc.Objects:
+        type_id = getattr(obj, "TypeId", "")
+        if not hasattr(obj, "Shape"):
+            continue
+        if type_id in skip_types:
+            continue
+        if type_id in ("PartDesign::Body", "App::Part"):
+            finals.append(obj)
+            continue
+        if obj.Name in owned:
+            continue
+        if obj.Name in consumed:
+            continue
+        shape = obj.Shape
+        if not is_obj_valid(obj) or not is_shape_valid(shape):
+            finals.append(obj)
+            continue
+        if shape.ShapeType in ("Vertex", "Edge", "Wire", "Face"):
+            continue
+        if get_solids_from_shape(shape):
+            finals.append(obj)
+    return finals
+
+
+# ---------------------------------------------------------------------------
+# Report builder
+# ---------------------------------------------------------------------------
+
+
+def build_report_dict(doc, source_path):
+    """Build the complete metrics report for a FreeCAD document."""
+    report = {
+        "schema_version": 4,
+        "source": {
+            "path": source_path,
+            "document_name": doc.Name,
+            "document_label": getattr(doc, "Label", doc.Name),
+            "freecad_version": get_freecad_version_string(),
+            "data_creation_date": datetime.datetime.utcnow().isoformat() + "Z",
+            "platform": platform.platform(),
+            "python_version": platform.python_version(),
+        },
+    }
+
+    for obj in _find_final_solid_objects(doc):
+        report.setdefault("solids", []).append(evaluate_shape(obj))
+
+    for obj in doc.Objects:
+        for section_name, analyzer_fn in ANALYZERS:
+            result = analyzer_fn(obj)
+            if result is None:
+                continue
+            report.setdefault(section_name, []).append(result)
+
+    return report
+
+
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+
+def parse_args(argv):
+    """Parse command-line arguments."""
+    parser = argparse.ArgumentParser(
+        prog=os.path.basename(argv[1]),
+        description="Compute per-object metrics from an FCStd file (Python 2 compatible).",
+    )
+    parser.add_argument("fcstd", help="Path to .FCStd file")
+    parser.add_argument(
+        "--out", "-o", default=None, help="Write JSON to this file instead of stdout"
+    )
+    return parser.parse_args(argv[2:])
+
+
+def main(argv):
+    """Open an FCStd file, force recompute, and write a JSON metrics report."""
+    args = parse_args(argv)
+
+    fcstd_path = os.path.abspath(args.fcstd)
+    if not os.path.isfile(fcstd_path):
+        raise SystemExit("Input file not found: " + fcstd_path)
+
+    doc = App.openDocument(fcstd_path)
+    for obj in doc.Objects:
+        try:
+            obj.touch()
+        except Exception:
+            pass
+    try:
+        doc.recompute()
+    except Exception:
+        pass
+
+    report = build_report_dict(doc, fcstd_path)
+
+    json_text = json.dumps(report, indent=2, sort_keys=True)
+
+    if args.out:
+        out_path = os.path.abspath(args.out)
+        with open(out_path, "w") as f:
+            f.write(json_text)
+            f.write("\n")
+    else:
+        print(json_text)
+
+    try:
+        App.closeDocument(doc.Name)
+    except Exception:
+        pass
+
+
+if __name__ == "__main__":
+    main(sys.argv)

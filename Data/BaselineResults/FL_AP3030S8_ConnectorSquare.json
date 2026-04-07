@@ -83,8 +83,15 @@
           "z_max": 3.0,
           "z_min": 0.0
         },
+        "center_of_mass": {
+          "x": -5.4182366112396e-15,
+          "y": -5.694705046481518e-15,
+          "z": 1.5000000000000002
+        },
         "is_valid": true,
-        "volume_mm3": 9693.803131157494
+        "solid_count": 1,
+        "total_area_mm2": 7403.579647751667,
+        "total_volume_mm3": 9693.803131157494
       }
     },
     {
@@ -100,30 +107,20 @@
           "z_max": 3.0,
           "z_min": 0.0
         },
-        "is_valid": true,
-        "volume_mm3": 9693.803131157494
-      }
-    },
-    {
-      "_source_label": "Pad",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 28.999999999999996,
-          "x_min": -29.000000000000004,
-          "y_max": 28.999999999999996,
-          "y_min": -29.000000000000004,
-          "z_max": 3.0,
-          "z_min": 0.0
+        "center_of_mass": {
+          "x": -5.4182366112396e-15,
+          "y": -5.694705046481518e-15,
+          "z": 1.5000000000000002
         },
         "is_valid": true,
-        "volume_mm3": 9693.803131157494
+        "solid_count": 1,
+        "total_area_mm2": 7403.579647751667,
+        "total_volume_mm3": 9693.803131157494
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:20:08.749739+00:00",
+    "data_creation_date": "2026-04-07T02:37:22.278781+00:00",
     "document_label": "FL_AP3030S8_ConnectorSquare",
     "document_name": "FL_AP3030S8_ConnectorSquare",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

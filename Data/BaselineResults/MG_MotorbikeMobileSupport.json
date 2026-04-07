@@ -86,64 +86,20 @@
           "z_max": 62.924385094791575,
           "z_min": -15.750000107657824
         },
-        "is_valid": true,
-        "volume_mm3": 16447.8042700252
-      }
-    },
-    {
-      "_source_label": "Pad-profile",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.00000000000001,
-          "x_min": -15.000000000000028,
-          "y_max": 37.44303904400563,
-          "y_min": -37.38985722416672,
-          "z_max": 62.92438509479153,
-          "z_min": -15.750000107657817
+        "center_of_mass": {
+          "x": -3.017909198491663e-14,
+          "y": 0.34452483209173534,
+          "z": 19.09907936641182
         },
         "is_valid": true,
-        "volume_mm3": 16546.17596958106
-      }
-    },
-    {
-      "_source_label": "Pocket-zip-tie-hole",
-      "_source_name": "Pocket",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.000000000000018,
-          "x_min": -15.000000000000053,
-          "y_max": 37.443039044005644,
-          "y_min": -37.38985722416672,
-          "z_max": 62.924385094791546,
-          "z_min": -15.750000107657819
-        },
-        "is_valid": true,
-        "volume_mm3": 16509.609598966716
-      }
-    },
-    {
-      "_source_label": "Fillet",
-      "_source_name": "Fillet",
-      "_source_type_id": "PartDesign::Fillet",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.000000000000018,
-          "x_min": -15.000000000000053,
-          "y_max": 37.443039044005644,
-          "y_min": -37.38985722416672,
-          "z_max": 62.924385094791546,
-          "z_min": -15.750000107657819
-        },
-        "is_valid": true,
-        "volume_mm3": 16447.80427002518
+        "solid_count": 1,
+        "total_area_mm2": 16194.009648897523,
+        "total_volume_mm3": 16447.8042700252
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:21:06.092386+00:00",
+    "data_creation_date": "2026-04-07T02:37:48.322739+00:00",
     "document_label": "MG_MotorbikeMobileSupport",
     "document_name": "MG_MotorbikeMobileSupport",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

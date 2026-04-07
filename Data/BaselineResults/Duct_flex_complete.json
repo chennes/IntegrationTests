@@ -1,0 +1,271 @@
+{
+  "materials": [
+    {
+      "_source_label": "glass wool",
+      "_source_name": "Material001",
+      "_source_type_id": "App::MaterialObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "material_name": "glass wool"
+      }
+    },
+    {
+      "_source_label": "galvanized steel generic",
+      "_source_name": "Material049",
+      "_source_type_id": "App::MaterialObjectPython",
+      "metrics": {
+        "density": 7874.0,
+        "is_valid": true,
+        "material_name": "galvanized steel generic",
+        "poisson_ratio": 0.29,
+        "youngs_modulus_raw": "211 GPa"
+      }
+    },
+    {
+      "_source_label": "glass wool with aluminium foill generic",
+      "_source_name": "Material050",
+      "_source_type_id": "App::MaterialObjectPython",
+      "metrics": {
+        "density": 7874.0,
+        "is_valid": true,
+        "material_name": "glass wool with aluminium foill generic",
+        "poisson_ratio": 0.29,
+        "youngs_modulus_raw": "211 GPa"
+      }
+    }
+  ],
+  "part_features": [
+    {
+      "_source_label": "Opening1_axis",
+      "_source_name": "Line",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Opening2_axis",
+      "_source_name": "Line001",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Duct_flex_internal_",
+      "_source_name": "Sweep",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Axis_BezCurve",
+      "_source_name": "BezCurve",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Duct_flex_external_",
+      "_source_name": "Sweep001",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Duct_flex_internal_001",
+      "_source_name": "Cut",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Duct_flex_external_insulation",
+      "_source_name": "Sweep002",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Insulation_",
+      "_source_name": "Cut001",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Duct_flex_external_02",
+      "_source_name": "Sweep003",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Duct_flex_external_003",
+      "_source_name": "Cut002",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Opening_internal_02_",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Opening_internal_01",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Opening_02_external_",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Opening_01_external_",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Opening_01_external_insulation",
+      "_source_name": "Sketch004",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Opening_02_external_insulation",
+      "_source_name": "Sketch005",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Opening_01_external_02",
+      "_source_name": "Sketch006",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Opening_02_external_02",
+      "_source_name": "Sketch007",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-04-07T02:37:15.545075+00:00",
+    "document_label": "Duct_flex_complete",
+    "document_name": "Duct_flex_complete",
+    "freecad_version": "1.0.2 39319 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Duct_flex_complete.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.13"
+  },
+  "spreadsheets": [
+    {
+      "_source_label": "Output_flex_duct_",
+      "_source_name": "Spreadsheet003",
+      "_source_type_id": "Spreadsheet::Sheet",
+      "metrics": {
+        "cell_count": 34,
+        "is_valid": true
+      }
+    }
+  ]
+}

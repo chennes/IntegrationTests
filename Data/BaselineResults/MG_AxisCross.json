@@ -435,8 +435,15 @@
           "z_max": 8.0,
           "z_min": 0.0
         },
+        "center_of_mass": {
+          "x": 39.404604542940824,
+          "y": 0.1471355226282931,
+          "z": 4.079575344447978
+        },
         "is_valid": true,
-        "volume_mm3": 4373.557126648305
+        "solid_count": 1,
+        "total_area_mm2": 2620.561450682017,
+        "total_volume_mm3": 4373.557126648305
       }
     },
     {
@@ -452,42 +459,15 @@
           "z_max": 8.0,
           "z_min": -1.7763568394002505e-15
         },
-        "is_valid": true,
-        "volume_mm3": 4358.793941762933
-      }
-    },
-    {
-      "_source_label": "X-axis",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 72.0,
-          "x_min": 0.0,
-          "y_max": 6.6274169979695206,
-          "y_min": -6.6274169979695206,
-          "z_max": 8.0,
-          "z_min": 0.0
+        "center_of_mass": {
+          "x": 0.08972775043170902,
+          "y": 39.35843769152473,
+          "z": 4.068147075295164
         },
         "is_valid": true,
-        "volume_mm3": 4432.309375740098
-      }
-    },
-    {
-      "_source_label": "Y-axis",
-      "_source_name": "Pad001",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 6.62741699796952,
-          "x_min": -6.6274169979695206,
-          "y_max": 72.0,
-          "y_min": 0.0,
-          "z_max": 8.0,
-          "z_min": 0.0
-        },
-        "is_valid": true,
-        "volume_mm3": 4432.309375740098
+        "solid_count": 1,
+        "total_area_mm2": 2584.438330515884,
+        "total_volume_mm3": 4358.793941762933
       }
     },
     {
@@ -503,161 +483,15 @@
           "z_max": 80.0,
           "z_min": 7.999999999999998
         },
-        "is_valid": true,
-        "volume_mm3": 4349.395214175964
-      }
-    },
-    {
-      "_source_label": "Z-axis",
-      "_source_name": "Pad002",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 6.627416997969521,
-          "x_min": -6.627416997969521,
-          "y_max": 4.0,
-          "y_min": -4.000000000000016,
-          "z_max": 72.0,
-          "z_min": -8.881784197001252e-16
+        "center_of_mass": {
+          "x": 0.12454318307075068,
+          "y": -0.036210847890391036,
+          "z": 43.6311148873407
         },
         "is_valid": true,
-        "volume_mm3": 4432.309375740099
-      }
-    },
-    {
-      "_source_label": "X-letter",
-      "_source_name": "Pad003",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 72.0,
-          "x_min": 0.0,
-          "y_max": 17.000000000000007,
-          "y_min": -6.6274169979695206,
-          "z_max": 8.0,
-          "z_min": 0.0
-        },
-        "is_valid": true,
-        "volume_mm3": 4489.783059950626
-      }
-    },
-    {
-      "_source_label": "Y-letter",
-      "_source_name": "Pad004",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 13.064615384615387,
-          "x_min": -6.6274169979695206,
-          "y_max": 72.0,
-          "y_min": 0.0,
-          "z_max": 8.0,
-          "z_min": 0.0
-        },
-        "is_valid": true,
-        "volume_mm3": 4475.897910153054
-      }
-    },
-    {
-      "_source_label": "Z-letter",
-      "_source_name": "Pad005",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 13.107465956066903,
-          "x_min": -6.627416997969521,
-          "y_max": 4.0,
-          "y_min": -4.000000000000016,
-          "z_max": 72.0,
-          "z_min": -8.881784197001252e-16
-        },
-        "is_valid": true,
-        "volume_mm3": 4496.775063564311
-      }
-    },
-    {
-      "_source_label": "Chamfer-X-letter",
-      "_source_name": "Chamfer004002002002002",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 72.0,
-          "x_min": 0.0,
-          "y_max": 17.000000000000007,
-          "y_min": -6.6274169979695206,
-          "z_max": 8.0,
-          "z_min": 0.0
-        },
-        "is_valid": true,
-        "volume_mm3": 4491.319059950625
-      }
-    },
-    {
-      "_source_label": "Chamfer-Y",
-      "_source_name": "Chamfer",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 13.064615384615387,
-          "x_min": -6.6274169979695206,
-          "y_max": 72.0,
-          "y_min": 0.0,
-          "z_max": 8.0,
-          "z_min": 0.0
-        },
-        "is_valid": true,
-        "volume_mm3": 4476.5558750653345
-      }
-    },
-    {
-      "_source_label": "Chamfer-Z",
-      "_source_name": "Chamfer004002002002003",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 13.107465956066903,
-          "x_min": -6.627416997969521,
-          "y_max": 4.0,
-          "y_min": -4.000000000000016,
-          "z_max": 72.0,
-          "z_min": -8.881784197001252e-16
-        },
-        "is_valid": true,
-        "volume_mm3": 4498.208036253992
-      }
-    },
-    {
-      "_source_label": "Pocket-socket-Y",
-      "_source_name": "Pocket003",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 13.064615384615387,
-          "x_min": -6.6274169979695206,
-          "y_max": 72.0,
-          "y_min": 0.0,
-          "z_max": 8.0,
-          "z_min": -1.7763568394002505e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 4361.198468520852
-      }
-    },
-    {
-      "_source_label": "Pocket-socket-X",
-      "_source_name": "Pocket004",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 72.0,
-          "x_min": 0.0,
-          "y_max": 17.000000000000007,
-          "y_min": -6.6274169979695206,
-          "z_max": 8.0,
-          "z_min": 0.0
-        },
-        "is_valid": true,
-        "volume_mm3": 4375.961653406143
+        "solid_count": 1,
+        "total_area_mm2": 2677.9115727613994,
+        "total_volume_mm3": 4349.395214175964
       }
     },
     {
@@ -673,183 +507,20 @@
           "z_max": 14.000000000000002,
           "z_min": -1.6653345369377348e-15
         },
-        "is_valid": true,
-        "volume_mm3": 847.8603505652248
-      }
-    },
-    {
-      "_source_label": "Pad-joint-box",
-      "_source_name": "Pad006",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 4.0,
-          "x_min": -4.0,
-          "y_max": 4.0,
-          "y_min": -4.0,
-          "z_max": 8.0,
-          "z_min": 0.0
+        "center_of_mass": {
+          "x": 0.8064210259417537,
+          "y": 0.7330813228725069,
+          "z": 4.75825204019558
         },
         "is_valid": true,
-        "volume_mm3": 511.9999999999999
-      }
-    },
-    {
-      "_source_label": "Pad-shank-X",
-      "_source_name": "Pad007",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 10.0,
-          "x_min": -4.0,
-          "y_max": 4.0,
-          "y_min": -4.0,
-          "z_max": 8.0,
-          "z_min": -8.881784197001252e-16
-        },
-        "is_valid": true,
-        "volume_mm3": 615.0109740226126
-      }
-    },
-    {
-      "_source_label": "Pad-shank-Y",
-      "_source_name": "Pad008",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 10.0,
-          "x_min": -4.0,
-          "y_max": 10.000000000000002,
-          "y_min": -4.0,
-          "z_max": 8.0,
-          "z_min": -1.3322676295501878e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 718.0219480452253
-      }
-    },
-    {
-      "_source_label": "Pad-shank-Z",
-      "_source_name": "Pad009",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 10.0,
-          "x_min": -4.0,
-          "y_max": 10.000000000000002,
-          "y_min": -4.0,
-          "z_max": 14.0,
-          "z_min": -1.3322676295501878e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 847.8826732382148
-      }
-    },
-    {
-      "_source_label": "Pocket-socket-Z",
-      "_source_name": "Pocket",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 13.107465956066903,
-          "x_min": -6.627416997969521,
-          "y_max": 4.0,
-          "y_min": -4.000000000000016,
-          "z_max": 72.0,
-          "z_min": -8.881784197001252e-16
-        },
-        "is_valid": true,
-        "volume_mm3": 4352.570036253995
-      }
-    },
-    {
-      "_source_label": "Chamfer-socket-Y",
-      "_source_name": "Chamfer004002002002004",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 13.064615384615387,
-          "x_min": -6.6274169979695206,
-          "y_max": 72.0,
-          "y_min": -1.7763568394002505e-15,
-          "z_max": 8.0,
-          "z_min": -1.7763568394002505e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 4358.793941762932
-      }
-    },
-    {
-      "_source_label": "Chamfer-socket-X",
-      "_source_name": "Chamfer004002002002005",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 72.0,
-          "x_min": -3.552713678800501e-15,
-          "y_max": 17.000000000000007,
-          "y_min": -6.6274169979695206,
-          "z_max": 8.0,
-          "z_min": 0.0
-        },
-        "is_valid": true,
-        "volume_mm3": 4373.557126648318
-      }
-    },
-    {
-      "_source_label": "Chamfer-socket-Z",
-      "_source_name": "Chamfer004002002002006",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 13.107465956066903,
-          "x_min": -6.627416997969521,
-          "y_max": 4.0,
-          "y_min": -4.000000000000016,
-          "z_max": 72.0,
-          "z_min": -1.1102230246251565e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 4349.395214175964
-      }
-    },
-    {
-      "_source_label": "Chamfer-joint",
-      "_source_name": "Chamfer004002002002007",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 10.0,
-          "x_min": -4.0,
-          "y_max": 10.000000000000002,
-          "y_min": -4.0,
-          "z_max": 14.0,
-          "z_min": -1.3322676295501878e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 851.7575341659349
-      }
-    },
-    {
-      "_source_label": "Chamfer-endings",
-      "_source_name": "Chamfer004002002002008",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 10.000000000000002,
-          "x_min": -4.0,
-          "y_max": 10.000000000000002,
-          "y_min": -4.0,
-          "z_max": 14.000000000000002,
-          "z_min": -1.6653345369377348e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 847.8603505652248
+        "solid_count": 1,
+        "total_area_mm2": 671.1269329181451,
+        "total_volume_mm3": 847.8603505652248
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:20:28.704113+00:00",
+    "data_creation_date": "2026-04-07T02:37:45.309780+00:00",
     "document_label": "MG_AxisCross",
     "document_name": "MG_AxisCross",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

@@ -151,8 +151,15 @@
           "z_max": 16.0,
           "z_min": -14.0
         },
+        "center_of_mass": {
+          "x": -2.5635388322639225e-16,
+          "y": 0.15342739310401007,
+          "z": 0.84445805219912
+        },
         "is_valid": true,
-        "volume_mm3": 26608.57006512746
+        "solid_count": 1,
+        "total_area_mm2": 8183.668972260651,
+        "total_volume_mm3": 26608.57006512746
       }
     },
     {
@@ -168,98 +175,20 @@
           "z_max": 16.0,
           "z_min": -14.0
         },
-        "is_valid": true,
-        "volume_mm3": 26608.57006512746
-      }
-    },
-    {
-      "_source_label": "Pad",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 17.0,
-          "x_min": -17.0,
-          "y_max": 15.0,
-          "y_min": -15.0,
-          "z_max": 16.0,
-          "z_min": -14.0
+        "center_of_mass": {
+          "x": -2.5635388322639225e-16,
+          "y": 0.15342739310401007,
+          "z": 0.84445805219912
         },
         "is_valid": true,
-        "volume_mm3": 30600.000000000004
-      }
-    },
-    {
-      "_source_label": "Hole",
-      "_source_name": "Hole",
-      "_source_type_id": "PartDesign::Hole",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 17.0,
-          "x_min": -17.0,
-          "y_max": 15.0,
-          "y_min": -15.0,
-          "z_max": 16.0,
-          "z_min": -14.0
-        },
-        "is_valid": true,
-        "volume_mm3": 29617.0724057536
-      }
-    },
-    {
-      "_source_label": "Pocket",
-      "_source_name": "Pocket",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 17.0,
-          "x_min": -17.0,
-          "y_max": 15.000000000000002,
-          "y_min": -15.000000000000002,
-          "z_max": 16.0,
-          "z_min": -14.0
-        },
-        "is_valid": true,
-        "volume_mm3": 27165.687658157487
-      }
-    },
-    {
-      "_source_label": "Hole001",
-      "_source_name": "Hole001",
-      "_source_type_id": "PartDesign::Hole",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 17.0,
-          "x_min": -17.0,
-          "y_max": 15.000000000000002,
-          "y_min": -15.000000000000002,
-          "z_max": 16.0,
-          "z_min": -14.0
-        },
-        "is_valid": true,
-        "volume_mm3": 27026.408259899963
-      }
-    },
-    {
-      "_source_label": "PolarPattern",
-      "_source_name": "PolarPattern",
-      "_source_type_id": "PartDesign::PolarPattern",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 17.0,
-          "x_min": -17.0,
-          "y_max": 15.000000000000002,
-          "y_min": -15.000000000000002,
-          "z_max": 16.0,
-          "z_min": -14.0
-        },
-        "is_valid": true,
-        "volume_mm3": 26608.57006512746
+        "solid_count": 1,
+        "total_area_mm2": 8183.668972260651,
+        "total_volume_mm3": 26608.57006512746
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:22:54.263801+00:00",
+    "data_creation_date": "2026-04-07T02:38:40.887361+00:00",
     "document_label": "T8_housing_bracket",
     "document_name": "T8_housing_bracket",
     "freecad_version": "0.20.2 29603 (Git)",

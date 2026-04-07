@@ -79,6 +79,13 @@
       "metric_pattern": "missing_in_new",
       "description": "Datum features may not be reported in newer FreeCAD versions due to macro changes",
       "added": "2026-03-27"
+    },
+    {
+      "section": "solids",
+      "object_pattern": "Part*",
+      "metric_pattern": "missing_in_baseline",
+      "description": "App::Part containers are created by newer FreeCAD versions to wrap Bodies that were standalone in older versions",
+      "added": "2026-04-06"
     }
   ]
 }

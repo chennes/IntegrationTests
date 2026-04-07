@@ -184,25 +184,15 @@
           "z_max": 6.000000000000002,
           "z_min": -1.7e-15
         },
-        "is_valid": true,
-        "volume_mm3": 421.0984747170003
-      }
-    },
-    {
-      "_source_label": "Pad",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.000000016362383,
-          "x_min": -8.000000016362401,
-          "y_max": 3.85,
-          "y_min": -3.8500000000000014,
-          "z_max": 4.500000000000001,
-          "z_min": -9.992007221626409e-16
+        "center_of_mass": {
+          "x": -4.139456215698994e-05,
+          "y": 8.544063942142202e-06,
+          "z": 2.643968163367377
         },
         "is_valid": true,
-        "volume_mm3": 489.5833629934839
+        "solid_count": 1,
+        "total_area_mm2": 507.8514319367989,
+        "total_volume_mm3": 421.0984747170003
       }
     },
     {
@@ -218,98 +208,20 @@
           "z_max": 6.000000000000002,
           "z_min": -1.7e-15
         },
-        "is_valid": true,
-        "volume_mm3": 421.0984747170003
-      }
-    },
-    {
-      "_source_label": "TopRise",
-      "_source_name": "Pad001",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.000000016362387,
-          "x_min": -8.0000000163624,
-          "y_max": 3.8500000000000028,
-          "y_min": -3.8500000000000014,
-          "z_max": 6.0,
-          "z_min": -9.992007221626409e-16
+        "center_of_mass": {
+          "x": -4.139456215698994e-05,
+          "y": 8.544063942142202e-06,
+          "z": 2.643968163367377
         },
         "is_valid": true,
-        "volume_mm3": 552.0031662021752
-      }
-    },
-    {
-      "_source_label": "ShoulderNotches",
-      "_source_name": "Pocket",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.000000016362385,
-          "x_min": -8.0000000163624,
-          "y_max": 3.8500000000000028,
-          "y_min": -3.8500000000000014,
-          "z_max": 4.5000000135548985,
-          "z_min": -9.992007221626409e-16
-        },
-        "is_valid": true,
-        "volume_mm3": 451.85008805174704
-      }
-    },
-    {
-      "_source_label": "Corners",
-      "_source_name": "Pocket001",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.00000001636272,
-          "x_min": -8.00000001636272,
-          "y_max": 3.8500000000000028,
-          "y_min": -3.8500000000000094,
-          "z_max": 6.000000000000002,
-          "z_min": -1.7048717320447402e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 547.8094067620954
-      }
-    },
-    {
-      "_source_label": "ScrewHole",
-      "_source_name": "Hole",
-      "_source_type_id": "PartDesign::Hole",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.00000001636272,
-          "x_min": -8.00000001636272,
-          "y_max": 3.8500000000000028,
-          "y_min": -3.8500000000000094,
-          "z_max": 6.000000000000002,
-          "z_min": -1.7048717320447402e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 429.9996670315981
-      }
-    },
-    {
-      "_source_label": "ScrewHoleChamfer",
-      "_source_name": "Chamfer",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.00000001636272,
-          "x_min": -8.00000001636272,
-          "y_max": 3.8500000000000028,
-          "y_min": -3.8500000000000094,
-          "z_max": 6.000000000000002,
-          "z_min": -1.7048717320447402e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 421.0984747170004
+        "solid_count": 1,
+        "total_area_mm2": 507.8514319367989,
+        "total_volume_mm3": 421.0984747170003
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:20:16.744509+00:00",
+    "data_creation_date": "2026-04-07T02:37:28.387581+00:00",
     "document_label": "FL_AP3030S8_TNutM6",
     "document_name": "FL_AP3030S8_TNutM6",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",
@@ -325,7 +237,7 @@
       "metrics": {
         "is_valid": true,
         "template_loaded": true,
-        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmptv44si3n/temp/FreeCAD_Doc_b8037ab8-3688-4c99-8383-857f9895677c_f5d5df_36972/A4_Landscape.svg",
+        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmpejdlu6e6/temp/FreeCAD_Doc_b8037ab8-3688-4c99-8383-857f9895677c_f5d5df_37672/A4_Landscape.svg",
         "view_count": 10,
         "view_types": {
           "TechDraw::DrawViewClip": 2,

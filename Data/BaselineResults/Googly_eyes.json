@@ -152,49 +152,22 @@
       "_source_type_id": "App::Part",
       "metrics": {
         "bounding_box": {
-          "x_max": 6.500769858486844,
-          "x_min": -8.500769858486773,
-          "y_max": 2.109423746787798e-15,
-          "y_min": -4.000000000001247,
-          "z_max": 10.500000000000203,
-          "z_min": -9.500000000000234
-        },
-        "is_valid": true,
-        "volume_mm3": 775.21894470884
-      }
-    },
-    {
-      "_source_label": "Googly eyes",
-      "_source_name": "Part",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.0,
-          "x_min": -15.0,
-          "y_max": 0.40000000000000446,
-          "y_min": -4.440892098500633e-15,
-          "z_max": 20.000000000000032,
-          "z_min": -20.000000000000032
-        },
-        "is_valid": true,
-        "volume_mm3": 376.9911184307758
-      }
-    },
-    {
-      "_source_label": "Googly eyes",
-      "_source_name": "Part",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
           "x_max": 15.000162269023798,
           "x_min": -29.999999999999993,
           "y_max": 13.856406460551012,
           "y_min": -13.856406460551021,
-          "z_max": 20.0,
-          "z_min": -20.0
+          "z_max": 20.000000000000032,
+          "z_min": -20.000000000000032
+        },
+        "center_of_mass": {
+          "x": -0.13088836711365848,
+          "y": -2.6478665495691422,
+          "z": 0.0640120506420183
         },
         "is_valid": true,
-        "volume_mm3": 5032.2251234935275
+        "solid_count": 3,
+        "total_area_mm2": 4741.951498765111,
+        "total_volume_mm3": 6184.4351866331435
       }
     },
     {
@@ -210,25 +183,15 @@
           "z_max": 10.500000000000203,
           "z_min": -9.500000000000234
         },
-        "is_valid": true,
-        "volume_mm3": 775.21894470884
-      }
-    },
-    {
-      "_source_label": "Pad",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 6.5,
-          "x_min": -8.5,
-          "y_max": 2.109423746787798e-15,
-          "y_min": -4.000000000000003,
-          "z_max": 10.500000000000002,
-          "z_min": -9.500000000000004
+        "center_of_mass": {
+          "x": -0.9999999999999976,
+          "y": -1.7681780891308496,
+          "z": 0.5000001549129253
         },
         "is_valid": true,
-        "volume_mm3": 942.4777960769379
+        "solid_count": 1,
+        "total_area_mm2": 591.3779961074653,
+        "total_volume_mm3": 775.21894470884
       }
     },
     {
@@ -244,42 +207,15 @@
           "z_max": 20.000000000000032,
           "z_min": -20.000000000000032
         },
-        "is_valid": true,
-        "volume_mm3": 376.9911184307758
-      }
-    },
-    {
-      "_source_label": "Pad001",
-      "_source_name": "Pad001",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.0,
-          "x_min": -15.0,
-          "y_max": 0.40000000000000446,
-          "y_min": -4.440892098500633e-15,
-          "z_max": 20.000000000000032,
-          "z_min": -20.000000000000032
+        "center_of_mass": {
+          "x": -1.879052469178001e-16,
+          "y": 0.19999999999999998,
+          "z": -3.0156370313135516e-15
         },
         "is_valid": true,
-        "volume_mm3": 376.9911184307758
-      }
-    },
-    {
-      "_source_label": "Fillet",
-      "_source_name": "Fillet",
-      "_source_type_id": "PartDesign::Fillet",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 6.500769858486844,
-          "x_min": -8.500769858486773,
-          "y_max": 2.109423746787798e-15,
-          "y_min": -4.000000000001247,
-          "z_max": 10.500000000000203,
-          "z_min": -9.500000000000234
-        },
-        "is_valid": true,
-        "volume_mm3": 775.2189447088401
+        "solid_count": 1,
+        "total_area_mm2": 1929.1625891117014,
+        "total_volume_mm3": 376.9911184307758
       }
     },
     {
@@ -295,53 +231,26 @@
           "z_max": 20.0,
           "z_min": -20.0
         },
-        "is_valid": true,
-        "volume_mm3": 5032.2251234935275
-      }
-    },
-    {
-      "_source_label": "Ellipsoid",
-      "_source_name": "Ellipsoid",
-      "_source_type_id": "PartDesign::AdditiveEllipsoid",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.0,
-          "x_min": -29.999999999999993,
-          "y_max": 13.856406460551012,
-          "y_min": -13.856406460551021,
-          "z_max": 20.0,
-          "z_min": -20.0
+        "center_of_mass": {
+          "x": -0.006806467824724239,
+          "y": -2.9967324115992597,
+          "z": 0.0016431669311819167
         },
         "is_valid": true,
-        "volume_mm3": 10048.699804303837
-      }
-    },
-    {
-      "_source_label": "Pocket",
-      "_source_name": "Pocket",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.000162269023798,
-          "x_min": -29.999999999999993,
-          "y_max": 13.856406460551012,
-          "y_min": -13.856406460551021,
-          "z_max": 20.0,
-          "z_min": -20.0
-        },
-        "is_valid": true,
-        "volume_mm3": 5032.2251234935275
+        "solid_count": 1,
+        "total_area_mm2": 2221.410913545944,
+        "total_volume_mm3": 5032.2251234935275
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:20:19.598985+00:00",
+    "data_creation_date": "2026-04-07T02:37:38.907003+00:00",
     "document_label": "Googly_eyes",
     "document_name": "Googly_eyes",
-    "freecad_version": "0.21.2 33799 (Git)",
+    "freecad_version": "0.21.2 33771 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Googly_eyes.FCStd",
     "platform": "Windows-10-10.0.26200",
-    "python_version": "3.8.17"
+    "python_version": "3.10.13"
   },
   "spreadsheets": [
     {

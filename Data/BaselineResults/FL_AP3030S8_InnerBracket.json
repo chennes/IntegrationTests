@@ -253,8 +253,15 @@
           "z_max": 21.0,
           "z_min": -7.105427357601002e-15
         },
+        "center_of_mass": {
+          "x": -5.30209063605695e-12,
+          "y": -11.773776632049097,
+          "z": 7.149636276292148
+        },
         "is_valid": true,
-        "volume_mm3": 3412.6720053541194
+        "solid_count": 1,
+        "total_area_mm2": 2121.5814725994924,
+        "total_volume_mm3": 3412.6720053541194
       }
     },
     {
@@ -270,166 +277,20 @@
           "z_max": 21.0,
           "z_min": -7.105427357601002e-15
         },
-        "is_valid": true,
-        "volume_mm3": 3412.6720053541194
-      }
-    },
-    {
-      "_source_label": "Y",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 7.999999999999999,
-          "x_min": -8.000000000000002,
-          "y_max": -6.0,
-          "y_min": -30.0,
-          "z_max": 7.8999999999999995,
-          "z_min": -6.661338147750939e-15
+        "center_of_mass": {
+          "x": -5.30209063605695e-12,
+          "y": -11.773776632049097,
+          "z": 7.149636276292148
         },
         "is_valid": true,
-        "volume_mm3": 2206.6470349528504
-      }
-    },
-    {
-      "_source_label": "Z",
-      "_source_name": "Pad001",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.0,
-          "x_min": -8.000000000000004,
-          "y_max": 4.623942922677583e-16,
-          "y_min": -30.0,
-          "z_max": 21.0,
-          "z_min": -6.661338147750939e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 4017.780900227444
-      }
-    },
-    {
-      "_source_label": "EdgeCutLeft",
-      "_source_name": "Pocket",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.0,
-          "x_min": -8.000000000000004,
-          "y_max": 4.623942922677583e-16,
-          "y_min": -30.0,
-          "z_max": 21.0,
-          "z_min": -6.661338147750939e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 3888.1983269476887
-      }
-    },
-    {
-      "_source_label": "EdgeCutRight",
-      "_source_name": "Mirrored",
-      "_source_type_id": "PartDesign::Mirrored",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.0,
-          "x_min": -8.000000000000004,
-          "y_max": 4.623942922677583e-16,
-          "y_min": -30.0,
-          "z_max": 21.0,
-          "z_min": -6.661338147750939e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 3758.615753675561
-      }
-    },
-    {
-      "_source_label": "ScrewHoleBottom",
-      "_source_name": "Hole",
-      "_source_type_id": "PartDesign::Hole",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.0,
-          "x_min": -8.000000000000004,
-          "y_max": 4.623942922677583e-16,
-          "y_min": -30.0,
-          "z_max": 21.0,
-          "z_min": -6.661338147750939e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 3739.6140268475237
-      }
-    },
-    {
-      "_source_label": "ScrewHoleBack",
-      "_source_name": "Hole001",
-      "_source_type_id": "PartDesign::Hole",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.0,
-          "x_min": -8.000000000000004,
-          "y_max": 4.623942922677583e-16,
-          "y_min": -30.0,
-          "z_max": 21.0,
-          "z_min": -6.661338147750939e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 3720.6123000527145
-      }
-    },
-    {
-      "_source_label": "BevelScrewHoleBottom",
-      "_source_name": "Groove001",
-      "_source_type_id": "PartDesign::Groove",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.0,
-          "x_min": -8.000000000000002,
-          "y_max": 9.742937183486282e-15,
-          "y_min": -30.0,
-          "z_max": 21.000000000000004,
-          "z_min": -1.8677957401222467e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 3430.581120769375
-      }
-    },
-    {
-      "_source_label": "BevelScrewHoleBack",
-      "_source_name": "Groove002",
-      "_source_type_id": "PartDesign::Groove",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.0,
-          "x_min": -8.000000000000002,
-          "y_max": 1.2116601328499531e-14,
-          "y_min": -30.0,
-          "z_max": 21.000000000000004,
-          "z_min": -1.8677957401222467e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 3412.77876242102
-      }
-    },
-    {
-      "_source_label": "BevelY",
-      "_source_name": "Pocket001",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 8.0,
-          "x_min": -8.000000000000002,
-          "y_max": 1.2116601328499531e-14,
-          "y_min": -30.0,
-          "z_max": 21.000000000000004,
-          "z_min": -1.326133814775094e-16
-        },
-        "is_valid": true,
-        "volume_mm3": 3412.672005354119
+        "solid_count": 1,
+        "total_area_mm2": 2121.5814725994924,
+        "total_volume_mm3": 3412.6720053541194
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:20:10.027850+00:00",
+    "data_creation_date": "2026-04-07T02:37:23.652664+00:00",
     "document_label": "FL_AP3030S8_InnerBracket",
     "document_name": "FL_AP3030S8_InnerBracket",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",
@@ -445,7 +306,7 @@
       "metrics": {
         "is_valid": true,
         "template_loaded": true,
-        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmp5zy494ee/temp/FreeCAD_Doc_b8037ab8-3688-4c99-8383-857f9895677c_300560_5488/A4_Landscape.svg",
+        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmpu_vx5ivw/temp/FreeCAD_Doc_b8037ab8-3688-4c99-8383-857f9895677c_300560_27536/A4_Landscape.svg",
         "view_count": 20,
         "view_types": {
           "TechDraw::DrawViewClip": 3,

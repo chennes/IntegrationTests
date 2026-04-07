@@ -282,176 +282,6 @@
   ],
   "solids": [
     {
-      "_source_label": "Array004",
-      "_source_name": "Array004",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": 1.7763568394002505e-15,
-          "y_min": -198.49894689187653,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.8240581728305
-      }
-    },
-    {
-      "_source_label": "Array004",
-      "_source_name": "Array004",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -400.0,
-          "y_min": -598.4989468918765,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.8240581728305
-      }
-    },
-    {
-      "_source_label": "Array004",
-      "_source_name": "Array004",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -800.0,
-          "y_min": -998.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Array004",
-      "_source_name": "Array004",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -1200.0,
-          "y_min": -1398.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172828
-      }
-    },
-    {
-      "_source_label": "Array004",
-      "_source_name": "Array004",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -1600.0,
-          "y_min": -1798.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Array005",
-      "_source_name": "Array005",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -201.5010531081235,
-          "y_min": -400.00000000000006,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172831
-      }
-    },
-    {
-      "_source_label": "Array005",
-      "_source_name": "Array005",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -601.5010531081234,
-          "y_min": -800.0,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Array005",
-      "_source_name": "Array005",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1001.5010531081234,
-          "y_min": -1200.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172831
-      }
-    },
-    {
-      "_source_label": "Array005",
-      "_source_name": "Array005",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1401.5010531081234,
-          "y_min": -1600.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Array005",
-      "_source_name": "Array005",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1801.5010531081234,
-          "y_min": -2000.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
       "_source_label": "Banzo_Inf_003",
       "_source_name": "Body008",
       "_source_type_id": "PartDesign::Body",
@@ -464,8 +294,15 @@
           "z_max": 2.5000000000004547,
           "z_min": -2.5
         },
+        "center_of_mass": {
+          "x": -44.99999999999999,
+          "y": -1000.0,
+          "z": 2.2254116605058273e-13
+        },
         "is_valid": true,
-        "volume_mm3": 39269.908169872426
+        "solid_count": 1,
+        "total_area_mm2": 31455.19644406781,
+        "total_volume_mm3": 39269.908169872426
       }
     },
     {
@@ -481,8 +318,15 @@
           "z_max": 2.500000000000682,
           "z_min": -2.5
         },
+        "center_of_mass": {
+          "x": 44.99999999999999,
+          "y": -1000.0,
+          "z": 3.3426003354097844e-13
+        },
         "is_valid": true,
-        "volume_mm3": 39269.908169872426
+        "solid_count": 1,
+        "total_area_mm2": 31455.19644406781,
+        "total_volume_mm3": 39269.908169872426
       }
     },
     {
@@ -498,8 +342,15 @@
           "z_max": 83.00000000000068,
           "z_min": 77.0
         },
+        "center_of_mass": {
+          "x": -1.6083397500338965e-16,
+          "y": -1000.0,
+          "z": 80.00000000000033
+        },
         "is_valid": true,
-        "volume_mm3": 56548.667764616286
+        "solid_count": 1,
+        "total_area_mm2": 37755.66051084213,
+        "total_volume_mm3": 56548.667764616286
       }
     },
     {
@@ -515,8 +366,15 @@
           "z_max": 81.00514556499326,
           "z_min": -1.1928737810479642
         },
+        "center_of_mass": {
+          "x": -2.5755966759550538e-14,
+          "y": -97.53689081574338,
+          "z": 39.00450406098576
+        },
         "is_valid": true,
-        "volume_mm3": 5868.8240581728305
+        "solid_count": 1,
+        "total_area_mm2": 5674.467998767328,
+        "total_volume_mm3": 5868.8240581728305
       }
     },
     {
@@ -532,886 +390,50 @@
           "z_max": 13.75,
           "z_min": -13.75
         },
-        "is_valid": true,
-        "volume_mm3": 7974999.999999998
-      }
-    },
-    {
-      "_source_label": "Chamfer001",
-      "_source_name": "Chamfer001",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.62618844843968,
-          "x_min": -1.5205913269088187,
-          "y_max": -1.1102230246251565e-15,
-          "y_min": -198.49817600907514,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479502
+        "center_of_mass": {
+          "x": 6.465938895416913e-16,
+          "y": -1000.0,
+          "z": 0.0
         },
         "is_valid": true,
-        "volume_mm3": 2935.629310542486
+        "solid_count": 1,
+        "total_area_mm2": 697974.9999999998,
+        "total_volume_mm3": 7974999.999999998
       }
     },
     {
-      "_source_label": "Compound003",
-      "_source_name": "Clone001",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.626188448439684,
-          "y_max": -201.5010531081235,
-          "y_min": -400.0,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
+      "_source_label": "Trelica_Gerdau",
+      "_source_name": "Compound005",
+      "_source_type_id": "Part::Compound",
       "metrics": {
         "bounding_box": {
           "x_max": 72.5,
           "x_min": -72.5,
-          "y_max": 0.0,
-          "y_min": -1999.9999999999998,
-          "z_max": 13.75,
-          "z_min": -13.75
-        },
-        "is_valid": true,
-        "volume_mm3": 7974999.999999998
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.0,
-          "x_min": -3.0,
           "y_max": 2.7644553313166398e-14,
-          "y_min": -2000.0,
-          "z_max": 83.00000000000068,
-          "z_min": 77.0
-        },
-        "is_valid": true,
-        "volume_mm3": 56548.667764616286
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 47.5,
-          "x_min": 42.5,
-          "y_max": 8.326672684688674e-16,
-          "y_min": -2000.0,
-          "z_max": 2.500000000000682,
-          "z_min": -2.5
-        },
-        "is_valid": true,
-        "volume_mm3": 39269.908169872426
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -42.5,
-          "x_min": -47.5,
-          "y_max": 5.551115123125783e-16,
-          "y_min": -2000.0,
-          "z_max": 2.5000000000004547,
-          "z_min": -2.5
-        },
-        "is_valid": true,
-        "volume_mm3": 39269.908169872426
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": 1.7763568394002505e-15,
-          "y_min": -198.49894689187653,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.8240581728305
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -400.0,
-          "y_min": -598.4989468918765,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.8240581728305
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -800.0,
-          "y_min": -998.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -1200.0,
-          "y_min": -1398.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172828
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -1600.0,
-          "y_min": -1798.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -201.5010531081235,
-          "y_min": -400.00000000000006,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172831
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -601.5010531081234,
-          "y_min": -800.0,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1001.5010531081234,
-          "y_min": -1200.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172831
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1401.5010531081234,
-          "y_min": -1600.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau_",
-      "_source_name": "Component003",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1801.5010531081234,
           "y_min": -2000.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 72.5,
-          "x_min": -72.5,
-          "y_max": 0.0,
-          "y_min": -1999.9999999999998,
-          "z_max": 13.75,
-          "z_min": -13.75
-        },
-        "is_valid": true,
-        "volume_mm3": 7974999.999999998
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.0,
-          "x_min": -3.0,
-          "y_max": 2.7644553313166398e-14,
-          "y_min": -2000.0,
           "z_max": 83.00000000000068,
-          "z_min": 77.0
-        },
-        "is_valid": true,
-        "volume_mm3": 56548.667764616286
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 47.5,
-          "x_min": 42.5,
-          "y_max": 8.326672684688674e-16,
-          "y_min": -2000.0,
-          "z_max": 2.500000000000682,
-          "z_min": -2.5
-        },
-        "is_valid": true,
-        "volume_mm3": 39269.908169872426
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -42.5,
-          "x_min": -47.5,
-          "y_max": 5.551115123125783e-16,
-          "y_min": -2000.0,
-          "z_max": 2.5000000000004547,
-          "z_min": -2.5
-        },
-        "is_valid": true,
-        "volume_mm3": 39269.908169872426
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": 1.7763568394002505e-15,
-          "y_min": -198.49894689187653,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.8240581728305
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -400.0,
-          "y_min": -598.4989468918765,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.8240581728305
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -800.0,
-          "y_min": -998.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -1200.0,
-          "y_min": -1398.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172828
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -1600.0,
-          "y_min": -1798.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -201.5010531081235,
-          "y_min": -400.00000000000006,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172831
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -601.5010531081234,
-          "y_min": -800.0,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1001.5010531081234,
-          "y_min": -1200.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172831
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1401.5010531081234,
-          "y_min": -1600.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Compound004",
-      "_source_name": "Compound003",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1801.5010531081234,
-          "y_min": -2000.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Compound005",
-      "_source_name": "Compound004",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": 1.7763568394002505e-15,
-          "y_min": -198.49894689187653,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.8240581728305
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 72.5,
-          "x_min": -72.5,
-          "y_max": 0.0,
-          "y_min": -1999.9999999999998,
-          "z_max": 13.75,
           "z_min": -13.75
         },
-        "is_valid": true,
-        "volume_mm3": 7974999.999999998
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.0,
-          "x_min": -3.0,
-          "y_max": 2.7644553313166398e-14,
-          "y_min": -2000.0,
-          "z_max": 83.00000000000068,
-          "z_min": 77.0
+        "center_of_mass": {
+          "x": 1.0251217967925963e-15,
+          "y": -999.9999999999997,
+          "z": 0.8340293007008686
         },
         "is_valid": true,
-        "volume_mm3": 56548.667764616286
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 47.5,
-          "x_min": 42.5,
-          "y_max": 8.326672684688674e-16,
-          "y_min": -2000.0,
-          "z_max": 2.500000000000682,
-          "z_min": -2.5
-        },
-        "is_valid": true,
-        "volume_mm3": 39269.908169872426
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -42.5,
-          "x_min": -47.5,
-          "y_max": 5.551115123125783e-16,
-          "y_min": -2000.0,
-          "z_max": 2.5000000000004547,
-          "z_min": -2.5
-        },
-        "is_valid": true,
-        "volume_mm3": 39269.908169872426
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": 1.7763568394002505e-15,
-          "y_min": -198.49894689187653,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.8240581728305
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -400.0,
-          "y_min": -598.4989468918765,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.8240581728305
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -800.0,
-          "y_min": -998.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -1200.0,
-          "y_min": -1398.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172828
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439684,
-          "x_min": -46.6261884484397,
-          "y_max": -1600.0,
-          "y_min": -1798.4989468918766,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -201.5010531081235,
-          "y_min": -400.00000000000006,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172831
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -601.5010531081234,
-          "y_min": -800.0,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1001.5010531081234,
-          "y_min": -1200.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.824058172831
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1401.5010531081234,
-          "y_min": -1600.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Trelica_Gerdau",
-      "_source_name": "Compound005",
-      "_source_type_id": "Part::Compound",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.626188448439706,
-          "x_min": -46.62618844843968,
-          "y_max": -1801.5010531081234,
-          "y_min": -2000.0000000000002,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Mirrored002",
-      "_source_name": "Mirrored002",
-      "_source_type_id": "PartDesign::Mirrored",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 46.62618844843968,
-          "x_min": -46.62618844843969,
-          "y_max": 0.0,
-          "y_min": -198.49894689187653,
-          "z_max": 81.00514556499326,
-          "z_min": -1.1928737810479642
-        },
-        "is_valid": true,
-        "volume_mm3": 5868.82405817283
-      }
-    },
-    {
-      "_source_label": "Pad008",
-      "_source_name": "Pad008",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": -42.5,
-          "x_min": -47.5,
-          "y_max": 5.551115123125783e-16,
-          "y_min": -2000.0,
-          "z_max": 2.500000000000444,
-          "z_min": -2.5
-        },
-        "is_valid": true,
-        "volume_mm3": 39269.908169872426
-      }
-    },
-    {
-      "_source_label": "Pad009",
-      "_source_name": "Pad009",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 47.5,
-          "x_min": 42.5,
-          "y_max": 8.326672684688674e-16,
-          "y_min": -2000.0,
-          "z_max": 2.500000000000666,
-          "z_min": -2.5
-        },
-        "is_valid": true,
-        "volume_mm3": 39269.908169872426
-      }
-    },
-    {
-      "_source_label": "Pad010",
-      "_source_name": "Pad010",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 3.0,
-          "x_min": -3.0,
-          "y_max": 2.7644553313166398e-14,
-          "y_min": -2000.0,
-          "z_max": 83.00000000000067,
-          "z_min": 77.0
-        },
-        "is_valid": true,
-        "volume_mm3": 56548.66776461627
-      }
-    },
-    {
-      "_source_label": "Pad011",
-      "_source_name": "Pad011",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 47.05562300961694,
-          "x_min": -1.5205913269088187,
-          "y_max": 0.8759300684245658,
-          "y_min": -198.49817600907514,
-          "z_max": 81.00514556499326,
-          "z_min": -1.956313000918629
-        },
-        "is_valid": true,
-        "volume_mm3": 2955.1794590395502
-      }
-    },
-    {
-      "_source_label": "Pad012",
-      "_source_name": "Pad012",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 72.5,
-          "x_min": -72.5,
-          "y_max": 0.0,
-          "y_min": -1999.9999999999998,
-          "z_max": 13.75,
-          "z_min": -13.75
-        },
-        "is_valid": true,
-        "volume_mm3": 7974999.999999998
+        "solid_count": 14,
+        "total_area_mm2": 855385.7333866514,
+        "total_volume_mm3": 8168776.724686091
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:22:09.116991+00:00",
+    "data_creation_date": "2026-04-07T02:38:34.907718+00:00",
     "document_label": "Precast_Beam_for_Slabs_BIM_Parametric",
     "document_name": "Precast_Beam_for_Slabs_BIM_Parametric",
-    "freecad_version": "1.0.2 39320 (Git)",
+    "freecad_version": "1.0.2 39319 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Precast_Beam_for_Slabs_BIM_Parametric.FCStd",
-    "platform": "Windows-11-10.0.26200-SP0",
-    "python_version": "3.12.3"
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.13"
   },
   "spreadsheets": [
     {

@@ -5,14 +5,6 @@
       "_source_name": "Part",
       "_source_type_id": "App::Part",
       "metrics": {
-        "bounding_box": {
-          "x_max": 16.432817,
-          "x_min": -16.432817,
-          "y_max": 17.936304,
-          "y_min": -17.936304,
-          "z_max": 100.0,
-          "z_min": 0.0
-        },
         "child_count": 1,
         "is_valid": true
       }
@@ -85,23 +77,6 @@
   ],
   "solids": [
     {
-      "_source_label": "Part",
-      "_source_name": "Part",
-      "_source_type_id": "App::Part",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 16.432817,
-          "x_min": -16.432817,
-          "y_max": 17.936304,
-          "y_min": -17.936304,
-          "z_max": 100.0,
-          "z_min": 0.0
-        },
-        "is_valid": true,
-        "volume_mm3": 63550.544017700566
-      }
-    },
-    {
       "_source_label": "Body",
       "_source_name": "Body",
       "_source_type_id": "PartDesign::Body",
@@ -114,35 +89,25 @@
           "z_max": 100.0,
           "z_min": 0.0
         },
-        "is_valid": true,
-        "volume_mm3": 63550.544017700566
-      }
-    },
-    {
-      "_source_label": "Pad",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 16.432817,
-          "x_min": -16.432817,
-          "y_max": 17.936304,
-          "y_min": -17.936304,
-          "z_max": 100.0,
-          "z_min": 0.0
+        "center_of_mass": {
+          "x": 0.06896917664379679,
+          "y": 0.03210795947450667,
+          "z": 49.99999999999998
         },
         "is_valid": true,
-        "volume_mm3": 63550.544017700566
+        "solid_count": 1,
+        "total_area_mm2": 32454.57962896702,
+        "total_volume_mm3": 63550.54401769866
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T22:01:13.324847+00:00",
+    "data_creation_date": "2026-04-07T02:38:39.844000Z",
     "document_label": "Profile_Bosch_30x30mm",
     "document_name": "Profile_Bosch_30x30mm",
-    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "freecad_version": "0.17.13541 (Git) git://github.com/FreeCAD/FreeCAD.git releases/FreeCAD-0-17",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Profile_Bosch_30x30mm.FCStd",
     "platform": "Windows-10-10.0.26100",
-    "python_version": "3.8.6+"
+    "python_version": "2.7.14"
   }
 }

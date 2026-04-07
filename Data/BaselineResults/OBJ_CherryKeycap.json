@@ -146,98 +146,20 @@
           "z_max": 11.227740036608234,
           "z_min": -1.1866957711326913
         },
-        "is_valid": true,
-        "volume_mm3": 949.7402495540107
-      }
-    },
-    {
-      "_source_label": "key-body",
-      "_source_name": "AdditiveLoft",
-      "_source_type_id": "PartDesign::AdditiveLoft",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 9.0,
-          "x_min": -9.0,
-          "y_max": 9.000000000000002,
-          "y_min": -8.999999999999998,
-          "z_max": 10.0,
-          "z_min": 0.0
+        "center_of_mass": {
+          "x": 2.6026069161396327e-15,
+          "y": 0.8462490182460599,
+          "z": 5.575109755862655
         },
         "is_valid": true,
-        "volume_mm3": 2419.9999999999995
-      }
-    },
-    {
-      "_source_label": "Inner-support",
-      "_source_name": "Pad001",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 9.0,
-          "x_min": -9.0,
-          "y_max": 9.000000000000002,
-          "y_min": -8.999999999999998,
-          "z_max": 10.0,
-          "z_min": -1.7763568394002505e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 1022.0737460343279
-      }
-    },
-    {
-      "_source_label": "cross-cutout",
-      "_source_name": "Pocket001",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 9.0,
-          "x_min": -9.0,
-          "y_max": 9.000000000000002,
-          "y_min": -8.999999999999998,
-          "z_max": 10.0,
-          "z_min": -1.7763568394002505e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 982.5537460343274
-      }
-    },
-    {
-      "_source_label": "Thickness",
-      "_source_name": "Thickness",
-      "_source_type_id": "PartDesign::Thickness",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 9.0,
-          "x_min": -9.0,
-          "y_max": 9.000000000000002,
-          "y_min": -8.999999999999998,
-          "z_max": 10.0,
-          "z_min": -1.7763568394002505e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 851.2730186328286
-      }
-    },
-    {
-      "_source_label": "Fillet",
-      "_source_name": "Fillet",
-      "_source_type_id": "PartDesign::Fillet",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 9.234025674472655,
-          "x_min": -9.234025674472655,
-          "y_max": 9.000000000000032,
-          "y_min": -9.244799999999998,
-          "z_max": 11.227740036608234,
-          "z_min": -1.1866957711326913
-        },
-        "is_valid": true,
-        "volume_mm3": 949.7402495540107
+        "solid_count": 1,
+        "total_area_mm2": 1640.3439048147297,
+        "total_volume_mm3": 949.7402495540106
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:21:47.690924+00:00",
+    "data_creation_date": "2026-04-07T02:38:04.481573+00:00",
     "document_label": "OBJ_CherryKeycap",
     "document_name": "OBJ_CherryKeycap",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

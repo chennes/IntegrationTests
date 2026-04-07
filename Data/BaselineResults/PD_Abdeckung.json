@@ -169,8 +169,15 @@
           "z_max": 0.6,
           "z_min": -5.5
         },
+        "center_of_mass": {
+          "x": -6.047775624472131e-14,
+          "y": 32.81030647348905,
+          "z": -0.18666248956157852
+        },
         "is_valid": true,
-        "volume_mm3": 8114.739491984226
+        "solid_count": 1,
+        "total_area_mm2": 26103.40423859231,
+        "total_volume_mm3": 8114.739491984226
       }
     },
     {
@@ -186,137 +193,25 @@
           "z_max": 0.6,
           "z_min": -5.5
         },
-        "is_valid": true,
-        "volume_mm3": 8114.739491984226
-      }
-    },
-    {
-      "_source_label": "Pad",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 39.5,
-          "x_min": -39.5,
-          "y_max": 75.5,
-          "y_min": -39.5,
-          "z_max": 0.0,
-          "z_min": -5.5
+        "center_of_mass": {
+          "x": -6.047775624472131e-14,
+          "y": 32.81030647348905,
+          "z": -0.18666248956157852
         },
         "is_valid": true,
-        "volume_mm3": 46284.34232884956
-      }
-    },
-    {
-      "_source_label": "Thickness",
-      "_source_name": "Thickness",
-      "_source_type_id": "PartDesign::Thickness",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 39.5,
-          "x_min": -39.5,
-          "y_max": 75.5,
-          "y_min": -39.5,
-          "z_max": 0.0,
-          "z_min": -5.5
-        },
-        "is_valid": true,
-        "volume_mm3": 1294.799778135306
-      }
-    },
-    {
-      "_source_label": "Pad001",
-      "_source_name": "Pad001",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 42.0,
-          "x_min": -41.99999999999994,
-          "y_max": 75.5,
-          "y_min": -41.99999999999978,
-          "z_max": 0.6,
-          "z_min": -5.5
-        },
-        "is_valid": true,
-        "volume_mm3": 6762.530610414999
-      }
-    },
-    {
-      "_source_label": "Pad002",
-      "_source_name": "Pad002",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 42.0,
-          "x_min": -42.0,
-          "y_max": 135.5,
-          "y_min": -41.99999999999978,
-          "z_max": 0.6,
-          "z_min": -5.5
-        },
-        "is_valid": true,
-        "volume_mm3": 7392.530610415001
-      }
-    },
-    {
-      "_source_label": "Mirrored",
-      "_source_name": "Mirrored",
-      "_source_type_id": "PartDesign::Mirrored",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 42.0,
-          "x_min": -42.0,
-          "y_max": 135.5,
-          "y_min": -41.99999999999978,
-          "z_max": 0.6,
-          "z_min": -5.5
-        },
-        "is_valid": true,
-        "volume_mm3": 8022.530610415004
-      }
-    },
-    {
-      "_source_label": "Chamfer",
-      "_source_name": "Chamfer",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 42.00000000000009,
-          "x_min": -42.0,
-          "y_max": 135.5,
-          "y_min": -41.99999999999978,
-          "z_max": 0.6,
-          "z_min": -5.5
-        },
-        "is_valid": true,
-        "volume_mm3": 8011.730610414999
-      }
-    },
-    {
-      "_source_label": "Fillet",
-      "_source_name": "Fillet",
-      "_source_type_id": "PartDesign::Fillet",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 42.00000000000009,
-          "x_min": -42.0,
-          "y_max": 135.5,
-          "y_min": -41.99999999999978,
-          "z_max": 0.6,
-          "z_min": -5.5
-        },
-        "is_valid": true,
-        "volume_mm3": 8114.739491984226
+        "solid_count": 1,
+        "total_area_mm2": 26103.40423859231,
+        "total_volume_mm3": 8114.739491984226
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:21:52.617680+00:00",
+    "data_creation_date": "2026-04-07T02:38:08.264903+00:00",
     "document_label": "PD_Abdeckung",
     "document_name": "PD_Abdeckung",
-    "freecad_version": "1.1.0 44790 (Git)",
+    "freecad_version": "1.2.0 46210 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Abdeckung.FCStd",
-    "platform": "Windows-11-10.0.26200-SP0",
-    "python_version": "3.14.2"
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
   }
 }

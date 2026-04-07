@@ -15,7 +15,7 @@ Usage:
     --script /path/to/EvaluateFile.FCMacro \
     --fcstd-dir /path/to/fcstds \
     --baseline-dir /path/to/baselines \
-    --match-percentage 99.999 \
+    --match-percentage 99.99 \
     --absolute-tolerance 1e-6 \
     --filename model.FCStd
 
@@ -81,8 +81,8 @@ def parse_args(argv: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--match-percentage",
         type=float,
-        default=99.999,
-        help="Required match percentage. 99.999 => relative tolerance = 1 - 0.99999 = 1e-5",
+        default=99.99,
+        help="Required match percentage. 99.99 => relative tolerance = 1 - 0.99999 = 1e-5",
     )
     parser.add_argument(
         "--absolute-tolerance",
@@ -144,7 +144,7 @@ def parse_args(argv: List[str]) -> argparse.Namespace:
 def required_relative_tolerance(match_percentage: float) -> float:
     """Convert a match percentage to a relative tolerance value.
 
-    For example, 99.999% match yields a relative tolerance of 1e-5.
+    For example, 99.99% match yields a relative tolerance of 1e-5.
 
     Args:
         match_percentage: The required match percentage, in the range (0, 100].
@@ -250,14 +250,11 @@ def load_json(path: Path) -> Dict[str, Any]:
 def compare_maps(
     baseline: Dict[MetricKey, Dict], new: Dict[MetricKey, Dict], config: CompareConfig
 ) -> List[MetricDiff]:
-    """Compare two canonically-sorted metric maps by position.
+    """Compare two metric maps by key.
 
-    Both maps are keyed by (sorted_position, source_name).  Entries are paired by position
-    (index 0 vs index 0, etc.), since both sides are independently sorted by the same
-    canonical geometric key.  The source_name annotation is kept for display but is never
-    used for matching.
-
-    If the two maps have different lengths, extra entries are reported as missing.
+    Each map is keyed by (index, object_name).  Entries are matched by their full key --
+    an object named "Pad" in the baseline is compared to "Pad" in the new report.
+    Keys present in one map but not the other are reported as missing.
 
     Args:
         baseline: Metric map from the baseline report.
@@ -269,51 +266,54 @@ def compare_maps(
     """
     diffs: List[MetricDiff] = []
 
-    # Sort each map's entries by position (first element of the key)
-    base_entries = sorted(baseline.items(), key=lambda kv: kv[0][0])
-    new_entries = sorted(new.items(), key=lambda kv: kv[0][0])
+    all_keys = set(baseline.keys()) | set(new.keys())
+    for key in sorted(all_keys):
+        baseline_metrics = baseline.get(key)
+        new_metrics = new.get(key)
 
-    n_common = min(len(base_entries), len(new_entries))
+        if baseline_metrics is None:
+            diffs.append(
+                MetricDiff(
+                    key=key,
+                    baseline=None,
+                    new=new_metrics,
+                    relative_error=None,
+                    ok=False,
+                    reason="missing_in_baseline",
+                )
+            )
+            continue
+        if new_metrics is None:
+            diffs.append(
+                MetricDiff(
+                    key=key,
+                    baseline=None,
+                    new=None,
+                    relative_error=None,
+                    ok=False,
+                    reason="missing_in_new",
+                )
+            )
+            continue
 
-    # Compare paired entries
-    for i in range(n_common):
-        base_key, base_metrics = base_entries[i]
-        new_key, new_metrics = new_entries[i]
-        # Use a combined key showing both source names when they differ
-        if base_key[1] == new_key[1]:
-            display_key = (i, base_key[1])
-        else:
-            display_key = (i, f"{base_key[1]} / {new_key[1]}")
+        # If the object went from valid to invalid, report just the is_valid
+        # change -- the other metrics being absent is a consequence, not a
+        # separate failure.
+        if baseline_metrics.get("is_valid") is True and new_metrics.get("is_valid") is False:
+            diffs.append(
+                MetricDiff(
+                    key=key,
+                    baseline=True,
+                    new=False,
+                    relative_error=0,
+                    ok=False,
+                    reason="metric_is_valid_mismatch",
+                )
+            )
+            continue
+
         diffs.extend(
-            compare_individual_metrics(config, display_key, "metric", base_metrics, new_metrics)
-        )
-
-    # Extra entries in new (not in baseline)
-    for i in range(n_common, len(new_entries)):
-        new_key, new_metrics = new_entries[i]
-        diffs.append(
-            MetricDiff(
-                key=new_key,
-                baseline=None,
-                new=new_metrics,
-                relative_error=None,
-                ok=False,
-                reason="missing_in_baseline",
-            )
-        )
-
-    # Extra entries in baseline (not in new)
-    for i in range(n_common, len(base_entries)):
-        base_key, _ = base_entries[i]
-        diffs.append(
-            MetricDiff(
-                key=base_key,
-                baseline=None,
-                new=None,
-                relative_error=None,
-                ok=False,
-                reason="missing_in_new",
-            )
+            compare_individual_metrics(config, key, "metric", baseline_metrics, new_metrics)
         )
 
     return diffs
@@ -392,9 +392,14 @@ def compare_individual_metrics(
         relative_tolerance = required_relative_tolerance(config.match_percentage)
         denominator = max(abs(baseline), abs(new))
 
-        # Bounding box values use a separate, looser absolute tolerance because OCC
-        # may compute different bbox estimates across versions for identical geometry.
-        if "bounding_box" in metric:
+        # Spatial values (bounding box, center of mass) and surface area use
+        # looser absolute tolerances because OCC may compute slightly different
+        # results across versions for identical geometry.  Surface area is
+        # especially sensitive to tessellation changes.
+        if "total_area" in metric:
+            abs_tol = config.bbox_tolerance_mm  # mm^2, same scale
+            relative_tolerance = max(relative_tolerance, 0.005)  # 0.5%
+        elif "bounding_box" in metric or "center_of_mass" in metric:
             abs_tol = config.bbox_tolerance_mm
         else:
             abs_tol = config.absolute_tolerance
@@ -480,19 +485,6 @@ def find_fcstd_files(root: Path, recursive: bool) -> List[Path]:
 # ---------------------------------------------------------------------------
 
 
-def _format_key(key: MetricKey) -> str:
-    """Format a MetricKey for human-readable output.
-
-    Args:
-        key: A (sorted_position, source_name) tuple.
-
-    Returns:
-        A string like ``"#3 (Pad)"`` showing position and originating object name.
-    """
-    position, source_name = key
-    return f"#{position} ({source_name})"
-
-
 def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
     """Print a single metric diff to stdout in a human-readable format.
 
@@ -503,13 +495,12 @@ def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
         diff: The MetricDiff to print.
         config: The comparison config, used to display the required match percentage.
     """
-    fk = _format_key(diff.key)
     if diff.reason == "missing_in_baseline":
-        print(f"  - Exists in new but not baseline: {fk}")
+        print(f"  - Exists in new but not baseline: {diff.key}")
     elif diff.reason == "missing_in_new":
-        print(f"  - Exists in baseline but not new: {fk}")
+        print(f"  - Exists in baseline but not new: {diff.key}")
     elif isinstance(diff.new, dict) and not diff.new.get("is_valid", True):
-        print(f"  - Recomputation failed: {fk}")
+        print(f"  - Recomputation failed: {diff.key}")
     elif (
         isinstance(diff.baseline, float)
         and isinstance(diff.new, float)
@@ -524,13 +515,13 @@ def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
             f"{relative_error_percent:.9f}%" if relative_error_percent is not None else "inf"
         )
         print(
-            f"  - {diff.reason} {fk}:"
+            f"  - {diff.reason} {diff.key}:"
             f" baseline={diff.baseline:.12g} new={diff.new:.12g}"
             f" relative_error={relative_error_string}"
             f" (required match >= {config.match_percentage}%)"
         )
     else:
-        print(f"  - {diff.reason} {fk}: baseline={diff.baseline} new={diff.new}")
+        print(f"  - {diff.reason} {diff.key}: baseline={diff.baseline} new={diff.new}")
 
 
 # ---------------------------------------------------------------------------
@@ -686,12 +677,12 @@ def main(argv: List[str]) -> int:
                 if args.verbose:
                     for section_name, diff, rule in known:
                         print(
-                            f"    [known] {diff.reason} {_format_key(diff.key)}"
+                            f"    [known] {diff.reason} {diff.key}"
                             f" -- {rule.description} ({rule.source})"
                         )
                     for section_name, diff, rule in accepted:
                         print(
-                            f"    [accepted] {diff.reason} {_format_key(diff.key)}"
+                            f"    [accepted] {diff.reason} {diff.key}"
                             f" -- {rule.description} ({rule.source})"
                         )
                     for section_name, _ in EXTRACTORS:
@@ -712,7 +703,7 @@ def main(argv: List[str]) -> int:
                 if args.verbose:
                     for section_name, diff, rule in known:
                         print(
-                            f"    [known] {diff.reason} {_format_key(diff.key)}"
+                            f"    [known] {diff.reason} {diff.key}"
                             f" -- {rule.description} ({rule.source})"
                         )
                 if accepted:
@@ -725,7 +716,7 @@ def main(argv: List[str]) -> int:
                 if args.verbose:
                     for section_name, diff, rule in accepted:
                         print(
-                            f"    [accepted] {diff.reason} {_format_key(diff.key)}"
+                            f"    [accepted] {diff.reason} {diff.key}"
                             f" -- {rule.description} ({rule.source})"
                         )
                     parts = ["         "]

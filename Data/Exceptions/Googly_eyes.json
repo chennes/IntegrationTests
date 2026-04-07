@@ -3,7 +3,7 @@
     {
       "section": "*",
       "object_pattern": "*",
-      "metric_pattern": "*volume_mm3*",
+      "metric_pattern": "*total_volume_mm3*",
       "description": "Ellipsoid/fillet volume computation changed slightly between FreeCAD 0.21 and 1.2+ due to OCC geometry kernel updates",
       "added": "2026-03-16"
     }

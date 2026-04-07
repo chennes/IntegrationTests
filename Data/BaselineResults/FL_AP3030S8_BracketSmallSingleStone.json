@@ -77,30 +77,20 @@
           "z_max": 8.800000000000033,
           "z_min": -6.499999999999978
         },
-        "is_valid": true,
-        "volume_mm3": 571.325390316441
-      }
-    },
-    {
-      "_source_label": "M6x12-Screw",
-      "_source_name": "Screw",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 6.799999999999998,
-          "x_min": -6.800000000000002,
-          "y_max": -9.45,
-          "y_min": -23.049999999999997,
-          "z_max": 8.800000000000033,
-          "z_min": -6.499999999999978
+        "center_of_mass": {
+          "x": 1.4023658112103789e-11,
+          "y": -16.250000000000007,
+          "z": 2.4264177956873483
         },
         "is_valid": true,
-        "volume_mm3": 571.325390316441
+        "solid_count": 1,
+        "total_area_mm2": 588.5749011795799,
+        "total_volume_mm3": 571.325390316441
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:20:06.085405+00:00",
+    "data_creation_date": "2026-04-07T02:37:20.137647+00:00",
     "document_label": "FL_AP3030S8_BracketSmallSingleStone",
     "document_name": "FL_AP3030S8_BracketSmallSingleStone",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

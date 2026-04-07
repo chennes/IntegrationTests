@@ -235,8 +235,15 @@
           "z_max": 15.000000000000002,
           "z_min": -15.000000000000004
         },
+        "center_of_mass": {
+          "x": 1.9975472702296957e-10,
+          "y": 1.3201071025398443,
+          "z": 0.2662844724025552
+        },
         "is_valid": true,
-        "volume_mm3": 3066.4168640674834
+        "solid_count": 1,
+        "total_area_mm2": 2944.2602760066857,
+        "total_volume_mm3": 3066.4168640674834
       }
     },
     {
@@ -252,132 +259,20 @@
           "z_max": 15.000000000000002,
           "z_min": -15.000000000000004
         },
-        "is_valid": true,
-        "volume_mm3": 3066.4168640674834
-      }
-    },
-    {
-      "_source_label": "Pad",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.000000000000004,
-          "x_min": -15.000000000000002,
-          "y_max": 3.9968028886505635e-15,
-          "y_min": -13.500000000000004,
-          "z_max": 15.000000000000002,
-          "z_min": -15.000000000000007
+        "center_of_mass": {
+          "x": 1.9975472702296957e-10,
+          "y": 1.3201071025398443,
+          "z": 0.2662844724025552
         },
         "is_valid": true,
-        "volume_mm3": 12103.646003293854
-      }
-    },
-    {
-      "_source_label": "Bevel",
-      "_source_name": "SubtractivePipe",
-      "_source_type_id": "PartDesign::SubtractivePipe",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.000000000000004,
-          "x_min": -15.000000000000004,
-          "y_max": 2.8865798640254074e-15,
-          "y_min": -13.500000000000002,
-          "z_max": 15.000000000000004,
-          "z_min": -15.000000000000004
-        },
-        "is_valid": true,
-        "volume_mm3": 3184.629119844857
-      }
-    },
-    {
-      "_source_label": "InnerPocket",
-      "_source_name": "Pocket",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.000000000000004,
-          "x_min": -15.000000000000002,
-          "y_max": 3.9968028886505635e-15,
-          "y_min": -13.500000000000004,
-          "z_max": 15.000000000000005,
-          "z_min": -15.000000000000004
-        },
-        "is_valid": true,
-        "volume_mm3": 5560.296003293856
-      }
-    },
-    {
-      "_source_label": "FittingInnerPocket",
-      "_source_name": "Pocket001",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.000000000000004,
-          "x_min": -15.000000000000002,
-          "y_max": 3.9968028886505635e-15,
-          "y_min": -13.500000000000004,
-          "z_max": 15.000000000000005,
-          "z_min": -15.000000000000004
-        },
-        "is_valid": true,
-        "volume_mm3": 5482.541585117504
-      }
-    },
-    {
-      "_source_label": "BorderPocket",
-      "_source_name": "Pocket002",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.000000000000004,
-          "x_min": -15.000000000000002,
-          "y_max": 3.552713678800501e-15,
-          "y_min": -13.500000000000002,
-          "z_max": 15.000000000000004,
-          "z_min": -15.000000000000004
-        },
-        "is_valid": true,
-        "volume_mm3": 3282.281064281089
-      }
-    },
-    {
-      "_source_label": "CapGuideBevel",
-      "_source_name": "Pocket003",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.000000000000004,
-          "x_min": -15.000000000000004,
-          "y_max": 2.8865798640254074e-15,
-          "y_min": -13.500000000000002,
-          "z_max": 15.000000000000004,
-          "z_min": -15.000000000000004
-        },
-        "is_valid": true,
-        "volume_mm3": 3069.284871763803
-      }
-    },
-    {
-      "_source_label": "FittingBevel",
-      "_source_name": "SubtractivePipe001",
-      "_source_type_id": "PartDesign::SubtractivePipe",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.000000000000004,
-          "x_min": -15.000000000000004,
-          "y_max": 2.8865798640254074e-15,
-          "y_min": -13.5,
-          "z_max": 15.000000000000004,
-          "z_min": -15.000000000000004
-        },
-        "is_valid": true,
-        "volume_mm3": 3066.416864067483
+        "solid_count": 1,
+        "total_area_mm2": 2944.2602760066857,
+        "total_volume_mm3": 3066.4168640674834
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:20:07.088068+00:00",
+    "data_creation_date": "2026-04-07T02:37:21.215684+00:00",
     "document_label": "FL_AP3030S8_Cap",
     "document_name": "FL_AP3030S8_Cap",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",
@@ -393,7 +288,7 @@
       "metrics": {
         "is_valid": true,
         "template_loaded": true,
-        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmps4uliex4/temp/FreeCAD_Doc_eda89fc4-9438-4d4c-bc47-c15db8b3f8c0_e09c90_34388/A4_Landscape.svg",
+        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmpmjuy43fg/temp/FreeCAD_Doc_eda89fc4-9438-4d4c-bc47-c15db8b3f8c0_e09c90_25296/A4_Landscape.svg",
         "view_count": 15,
         "view_types": {
           "TechDraw::DrawViewClip": 2,

@@ -152,23 +152,6 @@
   ],
   "solids": [
     {
-      "_source_label": "Pad-small-walls",
-      "_source_name": "Pad001",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 6.927310081871322,
-          "x_min": -6.927310081871322,
-          "y_max": 6.927310081871322,
-          "y_min": -6.927310081871322,
-          "z_max": 5.6000000000000005,
-          "z_min": -1.7000000000000037
-        },
-        "is_valid": true,
-        "volume_mm3": 385.05040191311855
-      }
-    },
-    {
       "_source_label": "Part-BF3-40XX-Keycap",
       "_source_name": "Part001",
       "_source_type_id": "App::Part",
@@ -181,25 +164,15 @@
           "z_max": 12.600000000000001,
           "z_min": 4.349999999999998
         },
-        "is_valid": true,
-        "volume_mm3": 398.46040145757956
-      }
-    },
-    {
-      "_source_label": "Pad-interior-supports",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 6.927310081871322,
-          "x_min": -6.927310081871322,
-          "y_max": 6.927310081871322,
-          "y_min": -6.927310081871322,
-          "z_max": 5.6000000000000005,
-          "z_min": -1.4210854715202005e-15
+        "center_of_mass": {
+          "x": 24.13999999989961,
+          "y": 7.900000000010569,
+          "z": 9.82478817341309
         },
         "is_valid": true,
-        "volume_mm3": 381.45040202783684
+        "solid_count": 1,
+        "total_area_mm2": 771.4557645062941,
+        "total_volume_mm3": 398.46040145757945
       }
     },
     {
@@ -215,42 +188,15 @@
           "z_max": 5.6000000000000005,
           "z_min": -2.650000000000002
         },
-        "is_valid": true,
-        "volume_mm3": 398.46040145757974
-      }
-    },
-    {
-      "_source_label": "Revolution-base",
-      "_source_name": "Revolution",
-      "_source_type_id": "PartDesign::Revolution",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 6.927310081871322,
-          "x_min": -6.927310081871322,
-          "y_max": 6.927310081871322,
-          "y_min": -6.927310081871322,
-          "z_max": 5.6000000000000005,
-          "z_min": -1.4210854715202005e-15
+        "center_of_mass": {
+          "x": -1.0038956927553827e-10,
+          "y": 1.0567447643150286e-11,
+          "z": 2.8247881734130895
         },
         "is_valid": true,
-        "volume_mm3": 342.0967159615331
-      }
-    },
-    {
-      "_source_label": "Pad-hooks",
-      "_source_name": "Pad002",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 6.927310081871322,
-          "x_min": -6.927310081871322,
-          "y_max": 6.927310081871322,
-          "y_min": -6.927310081871322,
-          "z_max": 5.6000000000000005,
-          "z_min": -2.6500000000000017
-        },
-        "is_valid": true,
-        "volume_mm3": 398.4604014575798
+        "solid_count": 1,
+        "total_area_mm2": 771.4557645062941,
+        "total_volume_mm3": 398.46040145757974
       }
     },
     {
@@ -266,13 +212,20 @@
           "z_max": 12.600000000000001,
           "z_min": 4.349999999999994
         },
+        "center_of_mass": {
+          "x": 24.13999999989961,
+          "y": 7.90000000001057,
+          "z": 9.82478817341309
+        },
         "is_valid": true,
-        "volume_mm3": 398.4604014575792
+        "solid_count": 1,
+        "total_area_mm2": 771.4557645062939,
+        "total_volume_mm3": 398.4604014575792
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:20:30.465342+00:00",
+    "data_creation_date": "2026-04-07T02:37:46.247543+00:00",
     "document_label": "MG_B3FKeycap",
     "document_name": "MG_B3FKeycap",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

@@ -1,0 +1,2532 @@
+{
+  "materials": [
+    {
+      "_source_label": "glass generic",
+      "_source_name": "Material047",
+      "_source_type_id": "App::MaterialObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "material_name": "glass generic"
+      }
+    },
+    {
+      "_source_label": "aluminum generic",
+      "_source_name": "Material048",
+      "_source_type_id": "App::MaterialObjectPython",
+      "metrics": {
+        "density": 2700.0,
+        "is_valid": true,
+        "material_name": "aluminum generic",
+        "poisson_ratio": 0.35,
+        "youngs_modulus_raw": "70000 MPa"
+      }
+    },
+    {
+      "_source_label": "iron generic",
+      "_source_name": "Material049",
+      "_source_type_id": "App::MaterialObjectPython",
+      "metrics": {
+        "density": 7874.0,
+        "is_valid": true,
+        "material_name": "iron generic",
+        "poisson_ratio": 0.29,
+        "youngs_modulus_raw": "211 GPa"
+      }
+    },
+    {
+      "_source_label": "wood generic",
+      "_source_name": "Material050",
+      "_source_type_id": "App::MaterialObjectPython",
+      "metrics": {
+        "density": 700.0,
+        "is_valid": true,
+        "material_name": "wood generic",
+        "poisson_ratio": 0.05,
+        "youngs_modulus_raw": "12000 MPa"
+      }
+    },
+    {
+      "_source_label": "white Formica generic",
+      "_source_name": "Material053",
+      "_source_type_id": "App::MaterialObjectPython",
+      "metrics": {
+        "density": 700.0,
+        "is_valid": true,
+        "material_name": "white Formica generic",
+        "poisson_ratio": 0.05,
+        "youngs_modulus_raw": "12000 MPa"
+      }
+    },
+    {
+      "_source_label": "black granit generic",
+      "_source_name": "Material052",
+      "_source_type_id": "App::MaterialObjectPython",
+      "metrics": {
+        "density": 7874.0,
+        "is_valid": true,
+        "material_name": "black granit generic",
+        "poisson_ratio": 0.29,
+        "youngs_modulus_raw": "211 GPa"
+      }
+    },
+    {
+      "_source_label": "white marble generic_",
+      "_source_name": "Material054",
+      "_source_type_id": "App::MaterialObjectPython",
+      "metrics": {
+        "density": 7874.0,
+        "is_valid": true,
+        "material_name": "white marble generic_",
+        "poisson_ratio": 0.29,
+        "youngs_modulus_raw": "211 GPa"
+      }
+    }
+  ],
+  "part_extrusions": [
+    {
+      "_source_label": "Panel_solid",
+      "_source_name": "Extrude039019",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 790.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "03-Side_panels",
+      "_source_name": "Extrude039020",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 800.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "05-Botton_panel",
+      "_source_name": "Extrude039021",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 25.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "06-Rear_panel",
+      "_source_name": "Extrude039022",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 800.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Rod_001",
+      "_source_name": "Extrude039222",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 17.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Handle_002",
+      "_source_name": "Extrude039223",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 120.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": true
+      }
+    },
+    {
+      "_source_label": "Handle_02",
+      "_source_name": "Extrude039439",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": -1.0
+        },
+        "is_valid": true,
+        "length_forward": 100.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": true
+      }
+    },
+    {
+      "_source_label": "04-Top_panel",
+      "_source_name": "Extrude084143338",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 30.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "04-Internal_panel",
+      "_source_name": "Extrude084143339",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 20.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "04-Internal_vertical_panel_",
+      "_source_name": "Extrude084143340",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 590.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Panel_solid001",
+      "_source_name": "Extrude039440",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -1.0
+        },
+        "is_valid": true,
+        "length_forward": 193.75,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Panel_solid002",
+      "_source_name": "Extrude084143341",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 165.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Handle_02_",
+      "_source_name": "Extrude084143342",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": -1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 100.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": true
+      }
+    },
+    {
+      "_source_label": "Rod_",
+      "_source_name": "Extrude084143343",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 17.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Rod_004",
+      "_source_name": "Extrude084143347",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 17.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Handle_004",
+      "_source_name": "Extrude084143348",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -1.0
+        },
+        "is_valid": true,
+        "length_forward": 120.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": true
+      }
+    },
+    {
+      "_source_label": "Rod_005",
+      "_source_name": "Extrude084143349",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 17.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Rod_006",
+      "_source_name": "Extrude084143350",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 2.220446049250313e-16
+        },
+        "is_valid": true,
+        "length_forward": 17.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Handle_005",
+      "_source_name": "Extrude084143351",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": -2.220446049250313e-16
+        },
+        "is_valid": true,
+        "length_forward": 120.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": true
+      }
+    },
+    {
+      "_source_label": "Rod_007",
+      "_source_name": "Extrude084143352",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 2.220446049250313e-16
+        },
+        "is_valid": true,
+        "length_forward": 17.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "11-Toe_kick_two_sides_",
+      "_source_name": "Extrude084143353",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 70.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Frame_",
+      "_source_name": "Extrude084143354",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 1060.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Frame_02_",
+      "_source_name": "Extrude084143355",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 2.220446049250313e-16
+        },
+        "is_valid": true,
+        "length_forward": 470.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Rod_008",
+      "_source_name": "Extrude084143356",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 2.220446049250313e-16
+        },
+        "is_valid": true,
+        "length_forward": 17.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Handle_006",
+      "_source_name": "Extrude084143357",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": -2.220446049250313e-16
+        },
+        "is_valid": true,
+        "length_forward": 120.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": true
+      }
+    },
+    {
+      "_source_label": "Rod_009",
+      "_source_name": "Extrude084143358",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 2.220446049250313e-16
+        },
+        "is_valid": true,
+        "length_forward": 17.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Handle_007",
+      "_source_name": "Extrude084143359",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": -1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 100.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": true
+      }
+    },
+    {
+      "_source_label": "Handle_02_clone",
+      "_source_name": "Extrude",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 100.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": true
+      }
+    },
+    {
+      "_source_label": "10-Rear_finish_",
+      "_source_name": "Extrude084143360",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 1200.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Rod_010",
+      "_source_name": "Extrude084143361",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 17.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Handle_008",
+      "_source_name": "Extrude084143362",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -1.0
+        },
+        "is_valid": true,
+        "length_forward": 120.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": true
+      }
+    },
+    {
+      "_source_label": "Rod_011",
+      "_source_name": "Extrude084143363",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "length_forward": 17.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": false
+      }
+    },
+    {
+      "_source_label": "Handle_02_right_single_",
+      "_source_name": "Extrude084143364",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "direction": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "length_forward": 100.0,
+        "length_reverse": 0.0,
+        "solid": true,
+        "symmetric": true
+      }
+    }
+  ],
+  "part_features": [
+    {
+      "_source_label": "10-Top_edges_",
+      "_source_name": "Sweep001",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Panel_solid",
+      "_source_name": "Extrude039019",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "03-Side_panels",
+      "_source_name": "Extrude039020",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "05-Botton_panel",
+      "_source_name": "Extrude039021",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "06-Rear_panel",
+      "_source_name": "Extrude039022",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "01-Front_panels",
+      "_source_name": "PathArray",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Rod_001",
+      "_source_name": "Extrude039222",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_002",
+      "_source_name": "Extrude039223",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_left_",
+      "_source_name": "Fusion003",
+      "_source_type_id": "Part::MultiFuse",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_02",
+      "_source_name": "Extrude039439",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Round_left_handle_",
+      "_source_name": "Sweep003",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "04-Top_panel",
+      "_source_name": "Extrude084143338",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "04-Internal_panel",
+      "_source_name": "Extrude084143339",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "07-Horizontal_internal_panels",
+      "_source_name": "PathArray011",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "04-Internal_vertical_panel_",
+      "_source_name": "Extrude084143340",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "08-Vertical_internal_panels",
+      "_source_name": "PathArray012",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "11-Toe_kick_panel_three_sides",
+      "_source_name": "Sweep002",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Panel_solid001",
+      "_source_name": "Extrude039440",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Panel_solid002",
+      "_source_name": "Extrude084143341",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "02-Superior_drawers_",
+      "_source_name": "PathArray013",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "09-Superior_left_handles_01_001",
+      "_source_name": "PathArray016",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "09-Superior_left_handles_01_",
+      "_source_name": "PathArray017",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Round_profile (2D)",
+      "_source_name": "Clone2D001",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Path (2D)",
+      "_source_name": "Clone2D002",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Round_right_handle_",
+      "_source_name": "Sweep",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Round_profile (2D)001",
+      "_source_name": "Clone2D003",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Path (2D)001",
+      "_source_name": "Clone2D004",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Round_right_handle_001",
+      "_source_name": "Sweep005",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "09-Handles_side_drawers_01_",
+      "_source_name": "PathArray022",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "09-Superior_left_handles_02_",
+      "_source_name": "PathArray024",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "09-Superior_left_handles_02_001",
+      "_source_name": "PathArray025",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Sketch228 (2D)001",
+      "_source_name": "Clone2D005",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Handle_02_",
+      "_source_name": "Extrude084143342",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "09-Handles_drawers_02_",
+      "_source_name": "PathArray029",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Sketch039 (2D)",
+      "_source_name": "Clone2D006",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Rod_",
+      "_source_name": "Extrude084143343",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "09-Superior_left_handles_03_",
+      "_source_name": "PathArray031",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "09-Superior_left_handles_03_001",
+      "_source_name": "PathArray032",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Sketch039 (2D)002",
+      "_source_name": "Clone2D008",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Rod_004",
+      "_source_name": "Extrude084143347",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_004",
+      "_source_name": "Extrude084143348",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Rod_005",
+      "_source_name": "Extrude084143349",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_right_",
+      "_source_name": "Fusion005",
+      "_source_type_id": "Part::MultiFuse",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Sketch039 (2D)003",
+      "_source_name": "Clone2D009",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Rod_006",
+      "_source_name": "Extrude084143350",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_005",
+      "_source_name": "Extrude084143351",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Rod_007",
+      "_source_name": "Extrude084143352",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_03_003",
+      "_source_name": "Fusion006",
+      "_source_type_id": "Part::MultiFuse",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "09-Handles_drawers_02_001",
+      "_source_name": "PathArray037",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "02-Side_drawers_",
+      "_source_name": "PathArray038",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "11-Toe_kick_two_sides_",
+      "_source_name": "Extrude084143353",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "12-Foot_frame_",
+      "_source_name": "Compound",
+      "_source_type_id": "Part::Compound",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "13-Feet_001",
+      "_source_name": "Compound001",
+      "_source_type_id": "Part::Compound",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Frame_",
+      "_source_name": "Extrude084143354",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Frame_02_",
+      "_source_name": "Extrude084143355",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Foot_01_",
+      "_source_name": "Loft",
+      "_source_type_id": "Part::Loft",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Foot_02_",
+      "_source_name": "Loft001",
+      "_source_type_id": "Part::Loft",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Foot_03_",
+      "_source_name": "Loft002",
+      "_source_type_id": "Part::Loft",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Foot_03_001",
+      "_source_name": "Loft003",
+      "_source_type_id": "Part::Loft",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "02-Superior_drawers_001",
+      "_source_name": "PathArray039",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Path (2D)002",
+      "_source_name": "Clone2D010",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Round_profile (2D)002",
+      "_source_name": "Clone2D011",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Sweep006",
+      "_source_name": "Sweep006",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Sketch039 (2D)004",
+      "_source_name": "Clone2D014",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Rod_008",
+      "_source_name": "Extrude084143356",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_006",
+      "_source_name": "Extrude084143357",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Rod_009",
+      "_source_name": "Extrude084143358",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_03_004",
+      "_source_name": "Fusion007",
+      "_source_type_id": "Part::MultiFuse",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_007",
+      "_source_name": "Extrude084143359",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_02_clone",
+      "_source_name": "Extrude",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Sketch228 (2D)",
+      "_source_name": "Clone2D",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "10-Rear_finish_",
+      "_source_name": "Extrude084143360",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "10-Top_edges_001",
+      "_source_name": "Cut",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handles_001",
+      "_source_name": "Compound004",
+      "_source_type_id": "Part::Compound",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "PathArray041_Handles_double_03",
+      "_source_name": "PathArray041",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Sketch039 (2D)005",
+      "_source_name": "Clone2D015",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Rod_010",
+      "_source_name": "Extrude084143361",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_008",
+      "_source_name": "Extrude084143362",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Rod_011",
+      "_source_name": "Extrude084143363",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_right_03_single_",
+      "_source_name": "Fusion008",
+      "_source_type_id": "Part::MultiFuse",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handles_02_",
+      "_source_name": "Compound005",
+      "_source_type_id": "Part::Compound",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "PathArray041_Handles_double_01",
+      "_source_name": "PathArray043",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Round_profile (2D)003",
+      "_source_name": "Clone2D016",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Path (2D)003",
+      "_source_name": "Clone2D017",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Round_right_handle_01_single_",
+      "_source_name": "Sweep008",
+      "_source_type_id": "Part::Sweep",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handles_02",
+      "_source_name": "Compound006",
+      "_source_type_id": "Part::Compound",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "PathArray045_Handles_double_02",
+      "_source_name": "PathArray045",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Sketch228 (2D)002",
+      "_source_name": "Clone2D018",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Wire"
+      }
+    },
+    {
+      "_source_label": "Handle_02_right_single_",
+      "_source_name": "Extrude084143364",
+      "_source_type_id": "Part::Extrusion",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Round_right_handle_01_single_001",
+      "_source_name": "Clone",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_02_right_single_001",
+      "_source_name": "Clone001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Handle_right_03_single_001",
+      "_source_name": "Clone002",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Plan_Kitchen cabinet - base",
+      "_source_name": "Shape2DView",
+      "_source_type_id": "Part::Part2DObjectPython",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound"
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Kitchen_cabinet_base_move_rotate_#_",
+      "_source_name": "Sketch022",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 34,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 12,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch029_Top_edge_profile_",
+      "_source_name": "Sketch029",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch030_Front_panel_profile_",
+      "_source_name": "Sketch030",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch031",
+      "_source_name": "Sketch031",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 22,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 8,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch032_Top_panel",
+      "_source_name": "Sketch032",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch033",
+      "_source_name": "Sketch033",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch037_Front_panels_horizontal_array",
+      "_source_name": "Sketch037",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch007",
+      "_source_name": "Sketch007",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch039",
+      "_source_name": "Sketch039",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch228",
+      "_source_name": "Sketch228",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 39,
+        "degrees_of_freedom": 1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 16,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Path",
+      "_source_name": "Sketch229",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 9,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 3,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Round_profile",
+      "_source_name": "Sketch230",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch233_Inferior_left_handles_horizontal_array",
+      "_source_name": "Sketch233",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch234",
+      "_source_name": "Sketch234",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch235",
+      "_source_name": "Sketch235",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch236_Internal_panels_horizontal_array",
+      "_source_name": "Sketch236",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch035",
+      "_source_name": "Sketch035",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch036",
+      "_source_name": "Sketch036",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 3,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch238_Path_side_drawers_",
+      "_source_name": "Sketch238",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch239_Superior_drawer_vertical_array",
+      "_source_name": "Sketch239",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch240_Drawers_profile_",
+      "_source_name": "Sketch240",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch246_Plane_inferior_left_handles",
+      "_source_name": "Sketch246",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 22,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 8,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch247_Plane_inferior_right_handles",
+      "_source_name": "Sketch247",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 22,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 8,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch251",
+      "_source_name": "Sketch251",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch252",
+      "_source_name": "Sketch252",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch253",
+      "_source_name": "Sketch253",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch254",
+      "_source_name": "Sketch254",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch255_Bottom_panel",
+      "_source_name": "Sketch255",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch256_Tope_kick_two_sides",
+      "_source_name": "Sketch256",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 28,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 10,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch257",
+      "_source_name": "Sketch257",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch258",
+      "_source_name": "Sketch258",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch259",
+      "_source_name": "Sketch259",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 53,
+        "degrees_of_freedom": 4,
+        "external_geometry_count": 1,
+        "fully_constrained": false,
+        "geometry_count": 22,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch260",
+      "_source_name": "Sketch260",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch261",
+      "_source_name": "Sketch261",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch262",
+      "_source_name": "Sketch262",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch263",
+      "_source_name": "Sketch263",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch264",
+      "_source_name": "Sketch264",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch265",
+      "_source_name": "Sketch265",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 10,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch266",
+      "_source_name": "Sketch266",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 52,
+        "degrees_of_freedom": 4,
+        "external_geometry_count": 1,
+        "fully_constrained": false,
+        "geometry_count": 22,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch267_Superior_drawers_profile_",
+      "_source_name": "Sketch267",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch268_Superior_drawers_horizontal_array",
+      "_source_name": "Sketch268",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch248_Plane_side_drawer_handles",
+      "_source_name": "Sketch248",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 22,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 8,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch269",
+      "_source_name": "Sketch269",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch270",
+      "_source_name": "Sketch270",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch271_Plane_superior_left_handles",
+      "_source_name": "Sketch271",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 22,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 8,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch272",
+      "_source_name": "Sketch272",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 39,
+        "degrees_of_freedom": 1,
+        "external_geometry_count": 0,
+        "fully_constrained": false,
+        "geometry_count": 16,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 4,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch1245_Internal_panels_vertical_array",
+      "_source_name": "Sketch1245",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch1246_Inferior_handles_horizontal_array",
+      "_source_name": "Sketch1246",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 1,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch1247_Plane_inferior_right_single_handle_",
+      "_source_name": "Sketch1247",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 22,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 8,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch1248",
+      "_source_name": "Sketch1248",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    },
+    {
+      "_source_label": "Sketch1249",
+      "_source_name": "Sketch1249",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": 0,
+        "external_geometry_count": 0,
+        "fully_constrained": true,
+        "geometry_count": 1,
+        "is_valid": true,
+        "solver_status": 0
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "09-Superior_left_handles_01_",
+      "_source_name": "PathArray017",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 453.3333333333334,
+          "x_min": -453.33333333333337,
+          "y_max": -275.0,
+          "y_min": -300.0,
+          "z_max": 825.0,
+          "z_min": 815.0
+        },
+        "center_of_mass": {
+          "x": -8.52544063787438e-12,
+          "y": -292.2364856810882,
+          "z": 820.0
+        },
+        "is_valid": true,
+        "solid_count": 3,
+        "total_area_mm2": 13537.166941149639,
+        "total_volume_mm3": 32772.12102602882
+      }
+    },
+    {
+      "_source_label": "09-Superior_left_handles_02_001",
+      "_source_name": "PathArray025",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 448.33333333333337,
+          "x_min": -448.33333333333337,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 820.0,
+          "z_min": 797.0
+        },
+        "center_of_mass": {
+          "x": 1.0125533485549333e-13,
+          "y": -283.6622714664011,
+          "z": 812.1515001611418
+        },
+        "is_valid": true,
+        "solid_count": 3,
+        "total_area_mm2": 31139.649718109053,
+        "total_volume_mm3": 55186.578126157
+      }
+    },
+    {
+      "_source_label": "09-Handles_drawers_02_",
+      "_source_name": "PathArray029",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 448.33333333333337,
+          "x_min": 348.33333333333337,
+          "y_max": -274.9999999999999,
+          "y_min": -300.2807466682572,
+          "z_max": 786.25,
+          "z_min": 167.0
+        },
+        "center_of_mass": {
+          "x": 398.3333333333333,
+          "y": -283.6622714664011,
+          "z": 480.2765001611416
+        },
+        "is_valid": true,
+        "solid_count": 4,
+        "total_area_mm2": 41519.53295747872,
+        "total_volume_mm3": 73582.10416820933
+      }
+    },
+    {
+      "_source_label": "09-Superior_left_handles_03_001",
+      "_source_name": "PathArray032",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 458.33333333333337,
+          "x_min": -458.33333333333337,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 825.0,
+          "z_min": 815.0
+        },
+        "center_of_mass": {
+          "x": 9.773075178377086e-06,
+          "y": -291.25588094938536,
+          "z": 820.0000001559332
+        },
+        "is_valid": true,
+        "solid_count": 3,
+        "total_area_mm2": 13184.197464320012,
+        "total_volume_mm3": 30350.185882624173
+      }
+    },
+    {
+      "_source_label": "09-Handles_drawers_02_001",
+      "_source_name": "PathArray037",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 458.33333333333337,
+          "x_min": 338.33333333333337,
+          "y_max": -274.9999999999999,
+          "y_min": -297.0,
+          "z_max": 791.25,
+          "z_min": 184.99999999999997
+        },
+        "center_of_mass": {
+          "x": 398.3333431064085,
+          "y": -291.2558809493854,
+          "z": 488.1250001559334
+        },
+        "is_valid": true,
+        "solid_count": 4,
+        "total_area_mm2": 17578.929952426686,
+        "total_volume_mm3": 40466.91451016556
+      }
+    },
+    {
+      "_source_label": "PathArray041_Handles_double_03",
+      "_source_name": "PathArray041",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -226.66666666666669,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 660.0,
+          "z_min": 540.0
+        },
+        "center_of_mass": {
+          "x": -199.16666666699376,
+          "y": -291.2558809493519,
+          "z": 600.0000000005555
+        },
+        "is_valid": true,
+        "solid_count": 2,
+        "total_area_mm2": 8789.464975590288,
+        "total_volume_mm3": 20233.457252240096
+      }
+    },
+    {
+      "_source_label": "PathArray045_Handles_double_02",
+      "_source_name": "PathArray045",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -153.66666666666669,
+          "x_min": -244.73268384464882,
+          "y_max": -274.99999999999994,
+          "y_min": -300.2807466682572,
+          "z_max": 650.0,
+          "z_min": 550.0
+        },
+        "center_of_mass": {
+          "x": -199.1996752556577,
+          "y": -283.66227146640114,
+          "z": 600.0
+        },
+        "is_valid": true,
+        "solid_count": 2,
+        "total_area_mm2": 20759.766478739366,
+        "total_volume_mm3": 36791.05208410466
+      }
+    },
+    {
+      "_source_label": "Handle_02_right_single_001",
+      "_source_name": "Clone001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -153.66666666666669,
+          "x_min": -176.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 650.0,
+          "z_min": 550.0
+        },
+        "center_of_mass": {
+          "x": -161.51516650552497,
+          "y": -283.66227146640114,
+          "z": 600.0
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 10379.883239369683,
+        "total_volume_mm3": 18395.52604205233
+      }
+    },
+    {
+      "_source_label": "Handle_right_03_single_001",
+      "_source_name": "Clone002",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -181.66666666666669,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 660.0,
+          "z_min": 540.0
+        },
+        "center_of_mass": {
+          "x": -176.66666651068428,
+          "y": -291.25588094934966,
+          "z": 599.9999902324071
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 4394.732487736737,
+        "total_volume_mm3": 10116.728625974125
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-04-07T02:37:11.533313+00:00",
+    "document_label": "Draft_Kitchen_cabinet_base",
+    "document_name": "Draft_Kitchen_cabinet_base",
+    "freecad_version": "1.0.2 39319 (Git)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Draft_Kitchen_cabinet_base.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.13"
+  },
+  "spreadsheets": [
+    {
+      "_source_label": "Kitchen_cabinet_base_outputs",
+      "_source_name": "Spreadsheet003",
+      "_source_type_id": "Spreadsheet::Sheet",
+      "metrics": {
+        "cell_count": 169,
+        "is_valid": true
+      }
+    }
+  ]
+}

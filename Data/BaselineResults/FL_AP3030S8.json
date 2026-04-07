@@ -83,25 +83,15 @@
           "z_max": 15.000000000000162,
           "z_min": -15.000000000198725
         },
-        "is_valid": true,
-        "volume_mm3": 3139.2993817696206
-      }
-    },
-    {
-      "_source_label": "Pad",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 15.000000436112455,
-          "x_min": -14.99999956408815,
-          "y_max": 5.000000000000005,
-          "y_min": -5.000000000000005,
-          "z_max": 15.000000000000162,
-          "z_min": -15.000000000198725
+        "center_of_mass": {
+          "x": 4.360733160543702e-07,
+          "y": 3.6214079607001627e-16,
+          "z": -1.885634782499626e-10
         },
         "is_valid": true,
-        "volume_mm3": 3139.2993817696197
+        "solid_count": 1,
+        "total_area_mm2": 3933.859879302749,
+        "total_volume_mm3": 3139.2993817696206
       }
     },
     {
@@ -117,13 +107,20 @@
           "z_max": 15.000000000000162,
           "z_min": -15.000000000198725
         },
+        "center_of_mass": {
+          "x": 4.360733160543702e-07,
+          "y": 3.6214079607001627e-16,
+          "z": -1.885634782499626e-10
+        },
         "is_valid": true,
-        "volume_mm3": 3139.2993817696206
+        "solid_count": 1,
+        "total_area_mm2": 3933.859879302749,
+        "total_volume_mm3": 3139.2993817696206
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:20:01.668769+00:00",
+    "data_creation_date": "2026-04-07T02:37:18.426700+00:00",
     "document_label": "FL_AP3030S8",
     "document_name": "FL_AP3030S8",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",
@@ -139,7 +136,7 @@
       "metrics": {
         "is_valid": true,
         "template_loaded": true,
-        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmpjxdgcuty/temp/FreeCAD_Doc_2c58634f-0c8d-49ee-81b5-27a1ca297670_aefb3c_40872/A4_Landscape_blank.svg",
+        "template_name": "C:/Users/chenn/AppData/Local/Temp/tmpq7ciyiul/temp/FreeCAD_Doc_2c58634f-0c8d-49ee-81b5-27a1ca297670_aefb3c_44744/A4_Landscape_blank.svg",
         "view_count": 8,
         "view_types": {
           "TechDraw::DrawViewClip": 1,

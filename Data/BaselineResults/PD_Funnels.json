@@ -115,42 +115,15 @@
           "z_max": 55.00000000000001,
           "z_min": -2.3425705819590805e-15
         },
-        "is_valid": true,
-        "volume_mm3": 8767.62630582317
-      }
-    },
-    {
-      "_source_label": "Revolution",
-      "_source_name": "Revolution",
-      "_source_type_id": "PartDesign::Revolution",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 40.0,
-          "x_min": -40.0,
-          "y_max": 40.000000000000014,
-          "y_min": -39.999999999999986,
-          "z_max": 55.00000000000001,
-          "z_min": -2.3425705819590805e-15
+        "center_of_mass": {
+          "x": 4.979197808203326e-14,
+          "y": 2.683761038895554e-14,
+          "z": 35.220689904707285
         },
         "is_valid": true,
-        "volume_mm3": 98373.21697862667
-      }
-    },
-    {
-      "_source_label": "Thickness",
-      "_source_name": "Thickness",
-      "_source_type_id": "PartDesign::Thickness",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 40.0,
-          "x_min": -40.0,
-          "y_max": 40.000000000000014,
-          "y_min": -39.999999999999986,
-          "z_max": 55.00000000000001,
-          "z_min": -2.3425705819590805e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 8767.62630582317
+        "solid_count": 1,
+        "total_area_mm2": 17900.963888827435,
+        "total_volume_mm3": 8767.62630582317
       }
     },
     {
@@ -166,69 +139,25 @@
           "z_max": 55.000000000000014,
           "z_min": -2.4424906541753444e-15
         },
-        "is_valid": true,
-        "volume_mm3": 10646.862654109627
-      }
-    },
-    {
-      "_source_label": "Clone",
-      "_source_name": "Clone",
-      "_source_type_id": "PartDesign::FeatureBase",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 40.0,
-          "x_min": -40.0,
-          "y_max": 40.000000000000014,
-          "y_min": -39.999999999999986,
-          "z_max": 55.00000000000001,
-          "z_min": -2.3425705819590805e-15
+        "center_of_mass": {
+          "x": 0.1675721569281897,
+          "y": 1.105416298734119e-07,
+          "z": 35.15838531629285
         },
         "is_valid": true,
-        "volume_mm3": 98373.21697862667
-      }
-    },
-    {
-      "_source_label": "SubtractivePipe",
-      "_source_name": "SubtractivePipe",
-      "_source_type_id": "PartDesign::SubtractivePipe",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 39.800000000000004,
-          "x_min": -40.00000000000001,
-          "y_max": 40.00000000000002,
-          "y_min": -39.99999999999999,
-          "z_max": 55.000000000000014,
-          "z_min": -2.3425705846060583e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 97057.89871923492
-      }
-    },
-    {
-      "_source_label": "Thickness001",
-      "_source_name": "Thickness001",
-      "_source_type_id": "PartDesign::Thickness",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 39.800000000000004,
-          "x_min": -40.00000000000001,
-          "y_max": 40.00000000000002,
-          "y_min": -39.99999999999999,
-          "z_max": 55.000000000000014,
-          "z_min": -2.4424906541753444e-15
-        },
-        "is_valid": true,
-        "volume_mm3": 10646.862654109635
+        "solid_count": 1,
+        "total_area_mm2": 18193.969731224144,
+        "total_volume_mm3": 10646.862653919125
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:21:54.269101+00:00",
+    "data_creation_date": "2026-04-07T02:38:10.361563+00:00",
     "document_label": "PD_Funnels",
     "document_name": "PD_Funnels",
-    "freecad_version": "1.1.0 44790 (Git)",
+    "freecad_version": "1.2.0 46210 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_Funnels.FCStd",
-    "platform": "Windows-11-10.0.26200-SP0",
-    "python_version": "3.14.2"
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
   }
 }

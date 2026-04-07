@@ -137,8 +137,15 @@
           "z_max": 15.5,
           "z_min": -1.5
         },
+        "center_of_mass": {
+          "x": -8.112688794707988e-08,
+          "y": 1.1495416615631045e-06,
+          "z": 3.827738546211032
+        },
         "is_valid": true,
-        "volume_mm3": 3167.886155135616
+        "solid_count": 1,
+        "total_area_mm2": 4635.599817897459,
+        "total_volume_mm3": 3167.886155135616
       }
     },
     {
@@ -154,103 +161,25 @@
           "z_max": 15.5,
           "z_min": -1.5
         },
-        "is_valid": true,
-        "volume_mm3": 3167.886155135616
-      }
-    },
-    {
-      "_source_label": "Pad",
-      "_source_name": "Pad",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 13.75,
-          "x_min": -13.75,
-          "y_max": 13.75,
-          "y_min": -13.75,
-          "z_max": 15.5,
-          "z_min": 0.0
+        "center_of_mass": {
+          "x": -8.112688794707988e-08,
+          "y": 1.1495416615631045e-06,
+          "z": 3.827738546211032
         },
         "is_valid": true,
-        "volume_mm3": 1809.3423657204899
-      }
-    },
-    {
-      "_source_label": "Pad001",
-      "_source_name": "Pad001",
-      "_source_type_id": "PartDesign::Pad",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 17.5,
-          "x_min": -17.5,
-          "y_max": 17.5,
-          "y_min": -17.5,
-          "z_max": 15.5,
-          "z_min": -1.5
-        },
-        "is_valid": true,
-        "volume_mm3": 3252.511490963302
-      }
-    },
-    {
-      "_source_label": "Chamfer",
-      "_source_name": "Chamfer",
-      "_source_type_id": "PartDesign::Chamfer",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 17.5,
-          "x_min": -17.5,
-          "y_max": 17.5,
-          "y_min": -17.5,
-          "z_max": 15.5,
-          "z_min": -1.5
-        },
-        "is_valid": true,
-        "volume_mm3": 3197.2770561254374
-      }
-    },
-    {
-      "_source_label": "Pocket",
-      "_source_name": "Pocket",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 17.5,
-          "x_min": -17.5,
-          "y_max": 17.5,
-          "y_min": -17.5,
-          "z_max": 15.5,
-          "z_min": -1.5
-        },
-        "is_valid": true,
-        "volume_mm3": 3182.4152773939236
-      }
-    },
-    {
-      "_source_label": "PolarPattern",
-      "_source_name": "PolarPattern",
-      "_source_type_id": "PartDesign::PolarPattern",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 17.5,
-          "x_min": -17.5,
-          "y_max": 17.500387282914765,
-          "y_min": -17.500387282914765,
-          "z_max": 15.5,
-          "z_min": -1.5
-        },
-        "is_valid": true,
-        "volume_mm3": 3167.886155135616
+        "solid_count": 1,
+        "total_area_mm2": 4635.599817897459,
+        "total_volume_mm3": 3167.886155135616
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:21:58.957271+00:00",
+    "data_creation_date": "2026-04-07T02:38:26.601036+00:00",
     "document_label": "PD_PipeEndCap",
     "document_name": "PD_PipeEndCap",
-    "freecad_version": "1.1.0 44790 (Git)",
+    "freecad_version": "1.2.0 46210 (Git)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PD_PipeEndCap.FCStd",
-    "platform": "Windows-11-10.0.26200-SP0",
-    "python_version": "3.14.2"
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
   }
 }

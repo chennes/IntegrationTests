@@ -54,30 +54,20 @@
           "z_max": 80.58390283768765,
           "z_min": -80.58390283768765
         },
-        "is_valid": true,
-        "volume_mm3": 364812.3308783159
-      }
-    },
-    {
-      "_source_label": "Revolution",
-      "_source_name": "Revolution",
-      "_source_type_id": "PartDesign::Revolution",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 80.58390283768765,
-          "x_min": -80.58390283768765,
-          "y_max": 55.184944404263135,
-          "y_min": -8.65227628867936,
-          "z_max": 80.58390283768765,
-          "z_min": -80.58390283768765
+        "center_of_mass": {
+          "x": 6.461980770550628e-15,
+          "y": 8.397002126707159,
+          "z": -5.91126874508858e-16
         },
         "is_valid": true,
-        "volume_mm3": 364812.3308783159
+        "solid_count": 1,
+        "total_area_mm2": 55508.98239580325,
+        "total_volume_mm3": 364812.33087831584
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:22:51.667444+00:00",
+    "data_creation_date": "2026-04-07T01:45:12.622788+00:00",
     "document_label": "Sketcher_ArcOfHyperbola",
     "document_name": "Sketcher_ArcOfHyperbola",
     "freecad_version": "1.1.0 44790 (Git)",

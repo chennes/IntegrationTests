@@ -150,25 +150,15 @@
           "z_max": 0.0,
           "z_min": -9.0
         },
-        "is_valid": true,
-        "volume_mm3": 140.6012192825179
-      }
-    },
-    {
-      "_source_label": "M6x8.0-ScrewTap",
-      "_source_name": "ScrewTap",
-      "_source_type_id": "Part::FeaturePython",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 2.4587341226347257,
-          "x_min": -2.4587341226347257,
-          "y_max": 2.4587341226347257,
-          "y_min": -2.4587341226347257,
-          "z_max": 1.0,
-          "z_min": -8.0
+        "center_of_mass": {
+          "x": 7.004027799316793e-13,
+          "y": 7.424872119159063e-17,
+          "z": -5.04972502069356
         },
         "is_valid": true,
-        "volume_mm3": 170.92890838099842
+        "solid_count": 1,
+        "total_area_mm2": 215.48974369805237,
+        "total_volume_mm3": 140.6012192825179
       }
     },
     {
@@ -184,81 +174,20 @@
           "z_max": 0.0,
           "z_min": -9.0
         },
-        "is_valid": true,
-        "volume_mm3": 140.6012192825179
-      }
-    },
-    {
-      "_source_label": "HeadHole",
-      "_source_name": "Pocket",
-      "_source_type_id": "PartDesign::Pocket",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 2.4587341226347257,
-          "x_min": -2.4587341226347257,
-          "y_max": 2.4587341226347257,
-          "y_min": -2.4587341226347257,
-          "z_max": 0.0,
-          "z_min": -9.0
+        "center_of_mass": {
+          "x": 7.004027799316793e-13,
+          "y": 7.424872119159063e-17,
+          "z": -5.04972502069356
         },
         "is_valid": true,
-        "volume_mm3": 136.8991081617886
-      }
-    },
-    {
-      "_source_label": "Bevels",
-      "_source_name": "Groove",
-      "_source_type_id": "PartDesign::Groove",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 2.4587341226347257,
-          "x_min": -2.4587341226347257,
-          "y_max": 2.4587341226347275,
-          "y_min": -2.4587341226347257,
-          "z_max": 2.220446049250313e-15,
-          "z_min": -8.0
-        },
-        "is_valid": true,
-        "volume_mm3": 110.00001726451372
-      }
-    },
-    {
-      "_source_label": "BaseFeature",
-      "_source_name": "BaseFeature",
-      "_source_type_id": "PartDesign::FeatureBase",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 2.4587341226347257,
-          "x_min": -2.4587341226347257,
-          "y_max": 2.4587341226347257,
-          "y_min": -2.4587341226347257,
-          "z_max": 0.0,
-          "z_min": -9.0
-        },
-        "is_valid": true,
-        "volume_mm3": 170.92890838099842
-      }
-    },
-    {
-      "_source_label": "Revolution",
-      "_source_name": "Revolution",
-      "_source_type_id": "PartDesign::Revolution",
-      "metrics": {
-        "bounding_box": {
-          "x_max": 2.4587341226347257,
-          "x_min": -2.4587341226347257,
-          "y_max": 2.4587341226347257,
-          "y_min": -2.4587341226347257,
-          "z_max": 0.0,
-          "z_min": -9.0
-        },
-        "is_valid": true,
-        "volume_mm3": 140.6012192825179
+        "solid_count": 1,
+        "total_area_mm2": 215.48974369805237,
+        "total_volume_mm3": 140.6012192825179
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-05T21:20:18.812008+00:00",
+    "data_creation_date": "2026-04-07T02:37:29.768551+00:00",
     "document_label": "FL_ISO4029_SetScrewCupPoint",
     "document_name": "FL_ISO4029_SetScrewCupPoint",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",
