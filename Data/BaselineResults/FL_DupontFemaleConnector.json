@@ -1,0 +1,230 @@
+{
+  "part_features": [
+    {
+      "_source_label": "CaseBig",
+      "_source_name": "Box",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "TipHole",
+      "_source_name": "Box001",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Case w Hole",
+      "_source_name": "Cut",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "CableHole",
+      "_source_name": "Box002",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "CaseOuter",
+      "_source_name": "Cut001",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "PinRear",
+      "_source_name": "Box003",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "PinFront",
+      "_source_name": "Box004",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Thickness",
+      "_source_name": "Thickness",
+      "_source_type_id": "Part::Thickness",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "FemalePin",
+      "_source_name": "Fusion",
+      "_source_type_id": "Part::MultiFuse",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "PinSingle",
+      "_source_name": "Fillet",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Case",
+      "_source_name": "Array",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Pins",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "CaseRA",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "CaseSingle",
+      "_source_name": "Chamfer",
+      "_source_type_id": "PartDesign::Chamfer",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound"
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "LidSketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 27,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": null,
+        "geometry_count": 9,
+        "is_valid": null
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "Case",
+      "_source_name": "Array",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.35,
+          "x_min": -1.27,
+          "y_max": 1.2700000000000018,
+          "y_min": -1.27,
+          "z_max": 12.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 2.54,
+          "y": -0.08158251578802038,
+          "z": 6.909178608645439
+        },
+        "is_valid": true,
+        "solid_count": 3,
+        "total_area_mm2": 622.73026578651,
+        "total_volume_mm3": 99.56124999999996
+      }
+    },
+    {
+      "_source_label": "Pins",
+      "_source_name": "Array001",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.984119610014619,
+          "x_min": -0.9041196100146197,
+          "y_max": 0.9041196100146197,
+          "y_min": -0.9,
+          "z_max": 10.00411961001462,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 2.54006190528815,
+          "y": -0.0002740282690807793,
+          "z": 4.545926668796542
+        },
+        "is_valid": true,
+        "solid_count": 3,
+        "total_area_mm2": 241.44145980685494,
+        "total_volume_mm3": 86.01025994654827
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-04-07T04:50:31.784000Z",
+    "document_label": "FL_DupontFemaleConnector",
+    "document_name": "FL_DupontFemaleConnector",
+    "freecad_version": "0.16.6712 (Git) git://github.com/FreeCAD/FreeCAD.git releases/FreeCAD-0-16",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_DupontFemaleConnector.FCStd",
+    "platform": "Windows-8-6.2.9200",
+    "python_version": "2.7.8"
+  },
+  "spreadsheets": [
+    {
+      "_source_label": "Pincount",
+      "_source_name": "Spreadsheet",
+      "_source_type_id": "Spreadsheet::Sheet",
+      "metrics": {
+        "cell_count": -1,
+        "is_valid": null
+      }
+    }
+  ]
+}

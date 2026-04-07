@@ -363,8 +363,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 4,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -377,8 +376,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -391,8 +389,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -405,8 +402,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -419,8 +415,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -433,8 +428,7 @@
         "external_geometry_count": 0,
         "fully_constrained": false,
         "geometry_count": 4,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -447,8 +441,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -461,8 +454,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -475,8 +467,7 @@
         "external_geometry_count": 0,
         "fully_constrained": false,
         "geometry_count": 4,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -489,8 +480,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -503,8 +493,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -517,8 +506,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -531,8 +519,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -545,8 +532,7 @@
         "external_geometry_count": 1,
         "fully_constrained": false,
         "geometry_count": 4,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -559,8 +545,7 @@
         "external_geometry_count": 1,
         "fully_constrained": false,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -573,8 +558,7 @@
         "external_geometry_count": 1,
         "fully_constrained": false,
         "geometry_count": 2,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     },
     {
@@ -587,8 +571,7 @@
         "external_geometry_count": 0,
         "fully_constrained": false,
         "geometry_count": 3,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": true
       }
     }
   ],

@@ -1,0 +1,139 @@
+{
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Draft",
+      "_source_name": "Draft",
+      "_source_type_id": "PartDesign::Draft",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Pad002",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid"
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": null,
+        "geometry_count": 4,
+        "is_valid": null
+      }
+    },
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": null,
+        "geometry_count": 1,
+        "is_valid": null
+      }
+    },
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 1,
+        "fully_constrained": null,
+        "geometry_count": 1,
+        "is_valid": null
+      }
+    },
+    {
+      "_source_label": "Sketch003",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 70,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 1,
+        "fully_constrained": null,
+        "geometry_count": 25,
+        "is_valid": null
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "Pad002",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 14.0,
+          "x_min": 0.0,
+          "y_max": 1.25,
+          "y_min": -7.75,
+          "z_max": 5.205980500730985,
+          "z_min": -0.20598050073098495
+        },
+        "center_of_mass": {
+          "x": 6.3121649910973865,
+          "y": -3.245702223561384,
+          "z": 2.4866907568352525
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 518.043345748816,
+        "total_volume_mm3": 315.57016037728454
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-04-07T04:36:31.694000Z",
+    "document_label": "FL_AudioJack3_5mm",
+    "document_name": "FL_AudioJack3_5mm",
+    "freecad_version": "0.14.3700 (Git) ssh://wmayer@git.code.sf.net/p/free-cad/code",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AudioJack3_5mm.FCStd",
+    "platform": "Windows-8-6.2.9200",
+    "python_version": "2.7.6"
+  }
+}

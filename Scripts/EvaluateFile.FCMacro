@@ -14,6 +14,7 @@ import sys
 import os
 import json
 import argparse
+from typing import Optional
 
 import FreeCAD as App
 
@@ -26,7 +27,8 @@ def is_obj_valid(obj) -> bool:
     """Check whether a FreeCAD document object is valid.
 
     Falls back to True on older FreeCAD versions (< 0.19) where
-    DocumentObject.isValid() does not exist.
+    DocumentObject.isValid() does not exist.  Use this for gate checks
+    (should we analyze this object?) where "unknown" should mean "try it."
 
     Args:
         obj: A FreeCAD document object.
@@ -38,6 +40,25 @@ def is_obj_valid(obj) -> bool:
         return obj.isValid()
     except AttributeError:
         return True
+
+
+def report_obj_valid(obj) -> Optional[bool]:
+    """Report whether a FreeCAD document object is valid, for recording as a metric.
+
+    Returns None on older FreeCAD versions (< 0.19) where
+    DocumentObject.isValid() does not exist, so the comparison logic
+    can distinguish "unknown" from a definite True/False.
+
+    Args:
+        obj: A FreeCAD document object.
+
+    Returns:
+        True/False if the object reports validity, or None if the API is unavailable.
+    """
+    try:
+        return obj.isValid()
+    except AttributeError:
+        return None
 
 
 def is_shape_valid(shape) -> bool:
@@ -200,8 +221,10 @@ class SketchAnalyzer(Analyzer):
     def evaluate(self, obj) -> dict:
         try:
             metrics = {
-                "is_valid": is_obj_valid(obj),
-                "fully_constrained": bool(getattr(obj, "FullyConstrained", False)),
+                "is_valid": report_obj_valid(obj),
+                "fully_constrained": (
+                    bool(obj.FullyConstrained) if hasattr(obj, "FullyConstrained") else None
+                ),
                 "degrees_of_freedom": int(getattr(obj, "DoF", -1)),
                 "constraint_count": int(getattr(obj, "ConstraintCount", 0)),
                 "geometry_count": int(getattr(obj, "GeometryCount", 0)),
@@ -210,10 +233,6 @@ class SketchAnalyzer(Analyzer):
                 metrics["external_geometry_count"] = len(obj.ExternalGeometry)
             except Exception:
                 metrics["external_geometry_count"] = 0
-            try:
-                metrics["solver_status"] = int(obj.solve())
-            except Exception:
-                metrics["solver_status"] = -1
         except Exception:
             metrics = {"is_valid": False}
 
@@ -238,7 +257,7 @@ class PartDesignBodyAnalyzer(Analyzer):
 
     def evaluate(self, obj) -> dict:
         try:
-            metrics = {"is_valid": is_obj_valid(obj)}
+            metrics = {"is_valid": report_obj_valid(obj)}
 
             group = getattr(obj, "Group", [])
             metrics["feature_count"] = len(group)
@@ -246,7 +265,7 @@ class PartDesignBodyAnalyzer(Analyzer):
             tip = getattr(obj, "Tip", None)
             if tip is not None:
                 metrics["tip_name"] = tip.Name
-                metrics["tip_is_valid"] = is_obj_valid(tip)
+                metrics["tip_is_valid"] = report_obj_valid(tip)
             else:
                 metrics["tip_name"] = None
                 metrics["tip_is_valid"] = False
@@ -289,7 +308,7 @@ class PartDesignFeatureAnalyzer(Analyzer):
 
     def evaluate(self, obj) -> dict:
         try:
-            metrics = {"is_valid": is_obj_valid(obj)}
+            metrics = {"is_valid": report_obj_valid(obj)}
             shape = getattr(obj, "Shape", None)
             if shape is not None and is_shape_valid(shape):
                 metrics["shape_type"] = shape.ShapeType
@@ -318,7 +337,7 @@ class PartFeatureAnalyzer(Analyzer):
 
     def evaluate(self, obj) -> dict:
         try:
-            metrics = {"is_valid": is_obj_valid(obj)}
+            metrics = {"is_valid": report_obj_valid(obj)}
             shape = getattr(obj, "Shape", None)
             if shape is not None and is_shape_valid(shape):
                 metrics["shape_type"] = shape.ShapeType
@@ -352,7 +371,7 @@ class AppPartAnalyzer(Analyzer):
 
     def evaluate(self, obj) -> dict:
         try:
-            metrics = {"is_valid": is_obj_valid(obj)}
+            metrics = {"is_valid": report_obj_valid(obj)}
 
             group = getattr(obj, "Group", [])
             metrics["child_count"] = len(group)
@@ -391,7 +410,7 @@ class AssemblyAnalyzer(Analyzer):
 
     def evaluate(self, obj) -> dict:
         try:
-            metrics = {"is_valid": is_obj_valid(obj)}
+            metrics = {"is_valid": report_obj_valid(obj)}
 
             group = getattr(obj, "Group", [])
             metrics["child_count"] = len(group)
@@ -430,7 +449,7 @@ class TechDrawPageAnalyzer(Analyzer):
 
     def evaluate(self, obj) -> dict:
         try:
-            metrics = {"is_valid": is_obj_valid(obj)}
+            metrics = {"is_valid": report_obj_valid(obj)}
 
             views = getattr(obj, "Views", [])
             metrics["view_count"] = len(views)
@@ -473,7 +492,7 @@ class SpreadsheetAnalyzer(Analyzer):
 
     def evaluate(self, obj) -> dict:
         try:
-            metrics = {"is_valid": is_obj_valid(obj)}
+            metrics = {"is_valid": report_obj_valid(obj)}
 
             try:
                 used_cells = obj.getUsedCells()
@@ -524,12 +543,12 @@ class LinkAnalyzer(Analyzer):
 
     def evaluate(self, obj) -> dict:
         try:
-            metrics = {"is_valid": is_obj_valid(obj)}
+            metrics = {"is_valid": report_obj_valid(obj)}
 
             linked = getattr(obj, "LinkedObject", None)
             metrics["linked_object_name"] = linked.Name if linked is not None else None
             metrics["linked_object_is_valid"] = (
-                is_obj_valid(linked) if linked is not None else False
+                report_obj_valid(linked) if linked is not None else False
             )
 
             shape = getattr(obj, "Shape", None)
@@ -562,7 +581,7 @@ class PartExtrusionAnalyzer(Analyzer):
 
     def evaluate(self, obj) -> dict:
         try:
-            metrics = {"is_valid": is_obj_valid(obj)}
+            metrics = {"is_valid": report_obj_valid(obj)}
 
             if obj.TypeId == "Part::Extrusion":
                 direction = getattr(obj, "Dir", None)
@@ -625,7 +644,7 @@ class MaterialAnalyzer(Analyzer):
 
     def evaluate(self, obj) -> dict:
         try:
-            metrics = {"is_valid": is_obj_valid(obj)}
+            metrics = {"is_valid": report_obj_valid(obj)}
 
             material = getattr(obj, "Material", None)
             if isinstance(material, dict):

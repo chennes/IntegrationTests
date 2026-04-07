@@ -29,12 +29,25 @@ import FreeCAD as App
 def is_obj_valid(obj):
     """Check whether a FreeCAD document object is valid.
 
-    Returns True on older FreeCAD where isValid() does not exist.
+    Falls back to True on older FreeCAD where isValid() does not exist.
+    Use this for gate checks (should we analyze this object?).
     """
     try:
         return obj.isValid()
     except AttributeError:
         return True
+
+
+def report_obj_valid(obj):
+    """Report whether a FreeCAD document object is valid, for recording as a metric.
+
+    Returns None on older FreeCAD where isValid() does not exist, so the
+    comparison logic can distinguish "unknown" from a definite True/False.
+    """
+    try:
+        return obj.isValid()
+    except AttributeError:
+        return None
 
 
 def is_shape_valid(shape):
@@ -172,8 +185,10 @@ def analyze_sketch(obj):
         return None
     try:
         metrics = {
-            "is_valid": is_obj_valid(obj),
-            "fully_constrained": bool(getattr(obj, "FullyConstrained", False)),
+            "is_valid": report_obj_valid(obj),
+            "fully_constrained": (
+                bool(obj.FullyConstrained) if hasattr(obj, "FullyConstrained") else None
+            ),
             "degrees_of_freedom": int(getattr(obj, "DoF", -1)),
             "constraint_count": int(getattr(obj, "ConstraintCount", 0)),
             "geometry_count": int(getattr(obj, "GeometryCount", 0)),
@@ -182,10 +197,6 @@ def analyze_sketch(obj):
             metrics["external_geometry_count"] = len(obj.ExternalGeometry)
         except Exception:
             metrics["external_geometry_count"] = 0
-        try:
-            metrics["solver_status"] = int(obj.solve())
-        except Exception:
-            metrics["solver_status"] = -1
     except Exception:
         metrics = {"is_valid": False}
     return dict(_source_dict(obj), metrics=metrics)
@@ -196,7 +207,7 @@ def analyze_pd_body(obj):
     if getattr(obj, "TypeId", "") != "PartDesign::Body":
         return None
     try:
-        metrics = {"is_valid": is_obj_valid(obj)}
+        metrics = {"is_valid": report_obj_valid(obj)}
         group = getattr(obj, "Group", [])
         metrics["feature_count"] = len(group)
         tip = getattr(obj, "Tip", None)
@@ -221,7 +232,7 @@ def analyze_pd_feature(obj):
     if not hasattr(obj, "Shape"):
         return None
     try:
-        metrics = {"is_valid": is_obj_valid(obj)}
+        metrics = {"is_valid": report_obj_valid(obj)}
         shape = getattr(obj, "Shape", None)
         if shape is not None and is_shape_valid(shape):
             metrics["shape_type"] = shape.ShapeType
@@ -237,7 +248,7 @@ def analyze_part_feature(obj):
     if not hasattr(obj, "Shape"):
         return None
     try:
-        metrics = {"is_valid": is_obj_valid(obj)}
+        metrics = {"is_valid": report_obj_valid(obj)}
         shape = getattr(obj, "Shape", None)
         if shape is not None and is_shape_valid(shape):
             metrics["shape_type"] = shape.ShapeType
@@ -257,7 +268,7 @@ def analyze_app_part(obj):
     if getattr(obj, "TypeId", "") != "App::Part":
         return None
     try:
-        metrics = {"is_valid": is_obj_valid(obj)}
+        metrics = {"is_valid": report_obj_valid(obj)}
         group = getattr(obj, "Group", [])
         metrics["child_count"] = len(group)
         shape = getattr(obj, "Shape", None)
@@ -280,7 +291,7 @@ def analyze_spreadsheet(obj):
     if getattr(obj, "TypeId", "") != "Spreadsheet::Sheet":
         return None
     try:
-        metrics = {"is_valid": is_obj_valid(obj)}
+        metrics = {"is_valid": report_obj_valid(obj)}
         try:
             used_cells = obj.getUsedCells()
             metrics["cell_count"] = len(used_cells)
@@ -298,7 +309,7 @@ def analyze_material(obj):
         if not (hasattr(obj, "Material") and isinstance(getattr(obj, "Material", None), dict)):
             return None
     try:
-        metrics = {"is_valid": is_obj_valid(obj)}
+        metrics = {"is_valid": report_obj_valid(obj)}
         material = getattr(obj, "Material", None)
         if isinstance(material, dict):
             if "Name" in material:

@@ -1,0 +1,512 @@
+{
+  "part_features": [
+    {
+      "_source_label": "Cubo",
+      "_source_name": "Box",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Cubo001",
+      "_source_name": "Box001",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Cubo002",
+      "_source_name": "Box002",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Fusion",
+      "_source_name": "Fusion",
+      "_source_type_id": "Part::MultiFuse",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Chamfer",
+      "_source_name": "Chamfer",
+      "_source_type_id": "Part::Chamfer",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Cilindro",
+      "_source_name": "Cylinder",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Cilindro001",
+      "_source_name": "Cylinder001",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Cubo003",
+      "_source_name": "Box003",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Cut",
+      "_source_name": "Cut",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Cubo004",
+      "_source_name": "Box004",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "ParteBaja",
+      "_source_name": "Fillet001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Cut001",
+      "_source_name": "Cut001",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "ParteAlta",
+      "_source_name": "Cut002",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Cubo005",
+      "_source_name": "Box005",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Fillet002",
+      "_source_name": "Fillet002",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Fillet003",
+      "_source_name": "Fillet003",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Cubo006",
+      "_source_name": "Box006",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Pletina",
+      "_source_name": "Cut003",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Compound",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "Cubo007",
+      "_source_name": "Box007",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "GND",
+      "_source_name": "Cylinder002",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "NC",
+      "_source_name": "Cylinder003",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    },
+    {
+      "_source_label": "NO",
+      "_source_name": "Cylinder004",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid",
+        "shell_is_closed": true
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": null,
+        "shape_type": "Solid"
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "degrees_of_freedom": -1,
+        "external_geometry_count": 0,
+        "fully_constrained": null,
+        "geometry_count": 4,
+        "is_valid": null
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "Cilindro",
+      "_source_name": "Cylinder",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.132392200292394,
+          "x_min": 1.967607799707606,
+          "y_max": 8.0,
+          "y_min": -2.0000000000000004,
+          "z_max": 2.2823922002923958,
+          "z_min": 0.11760779970760615
+        },
+        "center_of_mass": {
+          "x": 3.05,
+          "y": 3.000000000000001,
+          "z": 1.200000000000001
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 69.11503837897544,
+        "total_volume_mm3": 31.41592653589792
+      }
+    },
+    {
+      "_source_label": "Cilindro001",
+      "_source_name": "Cylinder001",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.632392200292394,
+          "x_min": 8.467607799707608,
+          "y_max": 8.0,
+          "y_min": -2.0000000000000004,
+          "z_max": 2.2823922002923958,
+          "z_min": 0.11760779970760615
+        },
+        "center_of_mass": {
+          "x": 9.55,
+          "y": 3.0,
+          "z": 1.200000000000001
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 69.11503837897544,
+        "total_volume_mm3": 31.415926535897917
+      }
+    },
+    {
+      "_source_label": "ParteBaja",
+      "_source_name": "Fillet001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 12.6,
+          "x_min": 0.0,
+          "y_max": 5.8,
+          "y_min": -2.4033934848786e-16,
+          "z_max": 2.741196100146197,
+          "z_min": -0.30000000000000027
+        },
+        "center_of_mass": {
+          "x": 6.300000000000002,
+          "y": 2.899999999999998,
+          "z": 1.2156421202131245
+        },
+        "is_valid": true,
+        "solid_count": 2,
+        "total_area_mm2": 365.61654673714304,
+        "total_volume_mm3": 144.12717989221093
+      }
+    },
+    {
+      "_source_label": "Cut001",
+      "_source_name": "Cut001",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 12.6,
+          "x_min": 0.0,
+          "y_max": 5.8,
+          "y_min": 0.0,
+          "z_max": 6.1,
+          "z_min": 0.7
+        },
+        "center_of_mass": {
+          "x": 6.299999999999998,
+          "y": 2.8999999999999995,
+          "z": 4.139829345090636
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 341.8052205320128,
+        "total_volume_mm3": 275.1943453261474
+      }
+    },
+    {
+      "_source_label": "ParteAlta",
+      "_source_name": "Cut002",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 12.6,
+          "x_min": 0.0,
+          "y_max": 5.8,
+          "y_min": 0.0,
+          "z_max": 6.1,
+          "z_min": 0.7
+        },
+        "center_of_mass": {
+          "x": 6.299999999999999,
+          "y": 2.9,
+          "z": 4.139829345090636
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 341.8052205320128,
+        "total_volume_mm3": 275.19434532614736
+      }
+    },
+    {
+      "_source_label": "Pletina",
+      "_source_name": "Cut003",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 13.1706946696165,
+          "x_min": 1.4661596200750417,
+          "y_max": 4.982392200292394,
+          "y_min": 0.8176077997076059,
+          "z_max": 9.420338377089871,
+          "z_min": 6.1
+        },
+        "center_of_mass": {
+          "x": 7.6151320730736645,
+          "y": 2.9,
+          "z": 7.84201147529963
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 93.23256600888212,
+        "total_volume_mm3": 8.507721210260904
+      }
+    },
+    {
+      "_source_label": "Cubo007",
+      "_source_name": "Box007",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 7.3,
+          "x_min": 5.3,
+          "y_max": 3.9,
+          "y_min": 1.9,
+          "z_max": 7.1,
+          "z_min": 6.1
+        },
+        "center_of_mass": {
+          "x": 6.3,
+          "y": 2.9,
+          "z": 6.6
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 15.999999999999996,
+        "total_volume_mm3": 4.0
+      }
+    },
+    {
+      "_source_label": "GND",
+      "_source_name": "Cylinder002",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1.2164784400584787,
+          "x_min": 0.7835215599415212,
+          "y_max": 3.116478440058479,
+          "y_min": 2.683521559941521,
+          "z_max": 1.0,
+          "z_min": -3.0
+        },
+        "center_of_mass": {
+          "x": 1.0,
+          "y": 2.9,
+          "z": -1.0
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 5.277875658030853,
+        "total_volume_mm3": 0.502654824574367
+      }
+    },
+    {
+      "_source_label": "NC",
+      "_source_name": "Cylinder003",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.516478440058479,
+          "x_min": 6.083521559941521,
+          "y_max": 3.116478440058479,
+          "y_min": 2.683521559941521,
+          "z_max": 1.0,
+          "z_min": -3.0
+        },
+        "center_of_mass": {
+          "x": 6.3,
+          "y": 2.9,
+          "z": -1.0
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 5.277875658030853,
+        "total_volume_mm3": 0.5026548245743669
+      }
+    },
+    {
+      "_source_label": "NO",
+      "_source_name": "Cylinder004",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 11.816478440058479,
+          "x_min": 11.38352155994152,
+          "y_max": 3.116478440058479,
+          "y_min": 2.683521559941521,
+          "z_max": 1.0,
+          "z_min": -3.0
+        },
+        "center_of_mass": {
+          "x": 11.6,
+          "y": 2.9,
+          "z": -0.9999999999999996
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 5.277875658030853,
+        "total_volume_mm3": 0.5026548245743667
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-04-07T04:36:28.393000Z",
+    "document_label": "FL_EndstopSmall",
+    "document_name": "FL_EndstopSmall",
+    "freecad_version": "0.14.3700 (Git) ssh://wmayer@git.code.sf.net/p/free-cad/code",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_EndstopSmall.FCStd",
+    "platform": "Windows-8-6.2.9200",
+    "python_version": "2.7.6"
+  }
+}

@@ -341,21 +341,12 @@ def compare_individual_metrics(
     Raises:
         ValueError: If the metric value is not a supported type (float, int, bool, str, or dict).
     """
-    if baseline is None and new is None:
-        return [
-            MetricDiff(key=key, baseline=None, new=None, relative_error=0, ok=True, reason="ok")
-        ]
     if baseline is None or new is None:
-        ok = baseline == new
+        # None means "not reported by this FreeCAD version" (e.g. isValid() and
+        # FullyConstrained were unavailable before 0.19).  When either side is
+        # None the comparison is meaningless, so always pass.
         return [
-            MetricDiff(
-                key=key,
-                baseline=baseline,
-                new=new,
-                relative_error=0,
-                ok=ok,
-                reason="ok" if ok else f"{metric}_mismatch",
-            )
+            MetricDiff(key=key, baseline=baseline, new=new, relative_error=0, ok=True, reason="ok")
         ]
     # A baseline value of -1 for int metrics is a sentinel meaning "not reported by this FreeCAD
     # version" (e.g. Sketcher DoF was unavailable before 0.21, Spreadsheet cell_count before 1.0).

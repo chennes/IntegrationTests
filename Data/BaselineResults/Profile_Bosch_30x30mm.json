@@ -6,7 +6,7 @@
       "_source_type_id": "App::Part",
       "metrics": {
         "child_count": 1,
-        "is_valid": true
+        "is_valid": null
       }
     }
   ],
@@ -16,7 +16,7 @@
       "_source_name": "Part",
       "_source_type_id": "App::Part",
       "metrics": {
-        "is_valid": true
+        "is_valid": null
       }
     }
   ],
@@ -27,7 +27,7 @@
       "_source_type_id": "PartDesign::Body",
       "metrics": {
         "feature_count": 2,
-        "is_valid": true,
+        "is_valid": null,
         "tip_is_valid": true,
         "tip_name": "Pad"
       }
@@ -39,7 +39,7 @@
       "_source_name": "Pad",
       "_source_type_id": "PartDesign::Pad",
       "metrics": {
-        "is_valid": true,
+        "is_valid": null,
         "shape_type": "Solid"
       }
     }
@@ -54,10 +54,9 @@
         "constraint_count": 0,
         "degrees_of_freedom": -1,
         "external_geometry_count": 0,
-        "fully_constrained": false,
+        "fully_constrained": null,
         "geometry_count": 116,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": null
       }
     },
     {
@@ -68,10 +67,9 @@
         "constraint_count": 200,
         "degrees_of_freedom": -1,
         "external_geometry_count": 0,
-        "fully_constrained": false,
+        "fully_constrained": null,
         "geometry_count": 121,
-        "is_valid": true,
-        "solver_status": 0
+        "is_valid": null
       }
     }
   ],
@@ -90,19 +88,19 @@
           "z_min": 0.0
         },
         "center_of_mass": {
-          "x": 0.06896917664379679,
-          "y": 0.03210795947450667,
-          "z": 49.99999999999998
+          "x": 0.06896917664379897,
+          "y": 0.032107959474585335,
+          "z": 49.999999999999986
         },
         "is_valid": true,
         "solid_count": 1,
-        "total_area_mm2": 32454.57962896702,
-        "total_volume_mm3": 63550.54401769866
+        "total_area_mm2": 32454.579628967007,
+        "total_volume_mm3": 63550.54401769955
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T02:38:39.844000Z",
+    "data_creation_date": "2026-04-07T04:45:38.618000Z",
     "document_label": "Profile_Bosch_30x30mm",
     "document_name": "Profile_Bosch_30x30mm",
     "freecad_version": "0.17.13541 (Git) git://github.com/FreeCAD/FreeCAD.git releases/FreeCAD-0-17",

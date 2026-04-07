@@ -64,8 +64,7 @@
         "external_geometry_count": 0,
         "fully_constrained": true,
         "geometry_count": 12,
-        "is_valid": false,
-        "solver_status": -2
+        "is_valid": false
       }
     }
   ],
