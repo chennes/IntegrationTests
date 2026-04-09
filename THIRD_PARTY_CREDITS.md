@@ -25,12 +25,12 @@ A community-maintained library of reusable parts for FreeCAD.
 | FPL_KitchenCabinetBase.FCStd            | Francisco Rosa                     | CC-BY-3.0       | Architectural Parts/Kitchen/                    |
 | FPL_DuctFlexComplete.FCStd              | Francisco Rosa                     | CC-BY-3.0       | HVAC/Ducts/Flex/                                |
 | FPL_DuctLinearRectangularComplete.FCStd | Francisco Rosa                     | CC-BY-3.0       | HVAC/Ducts/Rectangular/                         |
-| FPL_PinHeader2x18.FCStd                 | (unknown)                          | CC-BY-3.0       | Electronics Parts/Headers/2.54mm-pitch/female/  |
+| FPL_PinHeader2x18.FCStd                 | FreeCAD Parts Library contributors | CC-BY-3.0       | Electronics Parts/Headers/2.54mm-pitch/female/  |
 | FPL_ServoSG90.FCStd                     | (unknown)                          | CC-BY-3.0       | Electrical Parts/Servos/SG-90/                  |
 | FPL_ToyDoll.FCStd                       | (unknown)                          | CC-BY-3.0       | Generic objects/LEGO Doll/                      |
-| FPL_AudioJack3_5mm.FCStd                | (unknown)                          | CC-BY-3.0       | Electronics Parts/Connectors/Audio-connectors/  |
+| FPL_AudioJack3_5mm.FCStd                | FreeCAD Parts Library contributors | CC-BY-3.0       | Electronics Parts/Connectors/Audio-connectors/  |
 | FPL_DupontFemaleConnector.FCStd         | Pablo Bacho                        | CC-BY-SA        | Electronics Parts/Connectors/dupont-connectors/ |
-| FPL_LED5mm.FCStd                        | (unknown)                          | CC-BY-3.0       | Electronics Parts/LEDs/                         |
+| FPL_LED5mm.FCStd                        | FreeCAD Parts Library contributors | CC-BY-3.0       | Electronics Parts/LEDs/                         |
 | FPL_TrapezoidalThread.FCStd             | Marcelo Vioque                     | CC-BY-SA        | Mechanical Parts/4-wire thread/                 |
 | FPL_GooglyEyes.FCStd                    | @hasecilu                          | CC-BY-3.0       | --                                              |
 | FPL_HirthJointGenerator.FCStd           | Robert Goossens (RBGO.web)         | CC-BY-SA-4.0    | Mechanical Parts/Coupling/Hirth-joint/          |
