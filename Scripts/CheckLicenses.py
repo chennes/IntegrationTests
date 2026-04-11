@@ -29,11 +29,6 @@ from defusedxml.ElementTree import fromstring as parse_xml  # noqa: E402
 from license_utils import normalize_license, is_incompatible  # noqa: E402
 
 
-# ---------------------------------------------------------------------------
-# Data types
-# ---------------------------------------------------------------------------
-
-
 @dataclass
 class FileInfo:
     """Metadata extracted from a single FCStd file."""
@@ -46,11 +41,6 @@ class FileInfo:
     company: str = ""
     spdx_id: Optional[str] = None
     problems: List[str] = field(default_factory=list)
-
-
-# ---------------------------------------------------------------------------
-# Extraction
-# ---------------------------------------------------------------------------
 
 
 def extract_metadata(path: Path) -> FileInfo:
@@ -96,11 +86,6 @@ def extract_metadata(path: Path) -> FileInfo:
                 break
 
     return info
-
-
-# ---------------------------------------------------------------------------
-# Validation
-# ---------------------------------------------------------------------------
 
 
 def check_file(info: FileInfo) -> None:
@@ -187,11 +172,6 @@ def check_license_files(files: List[FileInfo], licenses_dir: Path) -> List[str]:
             )
 
     return problems
-
-
-# ---------------------------------------------------------------------------
-# CLI
-# ---------------------------------------------------------------------------
 
 
 def parse_args(argv: List[str]) -> argparse.Namespace:

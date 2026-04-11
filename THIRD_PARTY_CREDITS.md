@@ -38,6 +38,8 @@ A community-maintained library of reusable parts for FreeCAD.
 | FPL_PrecastBeamParametric.FCStd         | Bruno (Linhares Engenharia)        | CC-BY-3.0       | Architectural Parts/Beams/Precast Concrete/     |
 | FPL_ProfileBosch30x30mm.FCStd           | Alejandro Alvarez (BERSERK.DESIGN) | CC-BY-3.0       | Mechanical Parts/Profiles EN/BOSCH/             |
 | FPL_T8HousingBracket.FCStd              | @hasecilu                          | CC-BY-4.0       | --                                              |
+| FPL_CornerBracket.FCStd                 | @hasecilu                          | CC-BY           | Mechanical Parts/Mountings/Corner/              |
+| FPL_MicroswitchSPDTVertical.FCStd       | @hasecilu                          | CC-BY           | Electronics Parts/Switch/Limit switch/          |
 
 ## FreeCAD-Library -- Philipp Serr
 
@@ -54,7 +56,6 @@ Reusable mechanical parts modeled in FreeCAD, focused on aluminum slot profiles 
 | PS_AP3030S8_BracketSmallTwoStones.FCStd   | AP3030S8_BracketSmall_With_Two_StoneM6Heavy.FCStd    |
 | PS_AP3030S8_Cap.FCStd                     | AP3030S8_Cap.FCStd                                   |
 | PS_AP3030S8_ConnectorSquare.FCStd         | AP3030S8_ConnectorSquare.FCStd                       |
-| PS_AP3030S8_InnerBracket.FCStd            | AP3030S8_InnerBracket.FCStd                          |
 | PS_AP3030S8_InnerBracketWithScrews.FCStd  | AP3030S8_InnerBracketWithScrews.FCStd                |
 | PS_AP3030S8_StoneM6Heavy.FCStd            | AP3030S8_StoneM6Heavy.FCStd                          |
 | PS_AP3030S8_StoneM8Heavy.FCStd            | AP3030S8_StoneM8Heavy.FCStd                          |

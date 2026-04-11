@@ -13,11 +13,6 @@ from pathlib import Path
 from typing import Dict, List, Optional, Set
 
 
-# ---------------------------------------------------------------------------
-# Data model
-# ---------------------------------------------------------------------------
-
-
 @dataclass(frozen=True)
 class LicenseInfo:
     """Metadata for a single known license.
@@ -38,10 +33,6 @@ class LicenseInfo:
     aliases: List[str] = field(default_factory=list)
     pattern: Optional[re.Pattern[str]] = None
 
-
-# ---------------------------------------------------------------------------
-# Regex building helpers
-# ---------------------------------------------------------------------------
 
 # Common fragments used in multiple patterns.
 _CC = r"(?:creative\s*commons|cc)"
@@ -83,10 +74,6 @@ def _cc_bare_pattern(sharealike: bool = False) -> re.Pattern[str]:
     expr = rf"^{_CC}{_SEP}{_BY}{no_sa}{sa_part}\s*$"
     return re.compile(expr, re.IGNORECASE)
 
-
-# ---------------------------------------------------------------------------
-# Known licenses registry
-# ---------------------------------------------------------------------------
 
 # ORDER MATTERS: more-specific entries (CC-BY-SA) must come before less-specific
 # ones (CC-BY) so that regex matching returns the correct result on first hit.
@@ -260,11 +247,6 @@ for _lic in KNOWN_LICENSES:
 # Build a lookup by SPDX ID.
 _SPDX_MAP: Dict[str, LicenseInfo] = {lic.spdx_id: lic for lic in KNOWN_LICENSES}
 
-
-# ---------------------------------------------------------------------------
-# Incompatible / placeholder patterns
-# ---------------------------------------------------------------------------
-
 INCOMPATIBLE_PATTERNS: List[str] = [
     "noncommercial",
     "non-commercial",
@@ -272,11 +254,6 @@ INCOMPATIBLE_PATTERNS: List[str] = [
     "no derivatives",
     "no-derivatives",
 ]
-
-
-# ---------------------------------------------------------------------------
-# Public API
-# ---------------------------------------------------------------------------
 
 
 def normalize_license(license_str: str) -> Optional[str]:

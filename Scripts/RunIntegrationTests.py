@@ -49,10 +49,6 @@ from accepted_changes import (
     find_matching_rule,
 )  # noqa: E402
 
-# ---------------------------------------------------------------------------
-# CLI
-# ---------------------------------------------------------------------------
-
 
 def parse_args(argv: List[str]) -> argparse.Namespace:
     """Parse command-line arguments for the test runner.
@@ -116,17 +112,23 @@ def parse_args(argv: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--filename", required=False, help="Individual file to test (FCStd name only, not path)"
     )
+    default_exceptions_dir = str(Path(__file__).resolve().parent.parent / "Data" / "Exceptions")
+    default_known_failures_dir = str(
+        Path(__file__).resolve().parent.parent / "Data" / "KnownFailures"
+    )
     parser.add_argument(
         "--exceptions-dir",
         required=False,
-        default=None,
-        help="Folder containing accepted-change exception JSON files (optional)",
+        default=default_exceptions_dir,
+        help="Folder containing accepted-change exception JSON files "
+        f"(default: {default_exceptions_dir})",
     )
     parser.add_argument(
         "--known-failures-dir",
         required=False,
-        default=None,
-        help="Folder containing known-failure rule JSON files (optional)",
+        default=default_known_failures_dir,
+        help="Folder containing known-failure rule JSON files "
+        f"(default: {default_known_failures_dir})",
     )
     parser.add_argument(
         "--strict",
@@ -134,11 +136,6 @@ def parse_args(argv: List[str]) -> argparse.Namespace:
         help="Ignore all accepted-change exceptions and known failures; report every mismatch",
     )
     return parser.parse_args(argv)
-
-
-# ---------------------------------------------------------------------------
-# Tolerance helpers
-# ---------------------------------------------------------------------------
 
 
 def required_relative_tolerance(match_percentage: float) -> float:
@@ -158,11 +155,6 @@ def required_relative_tolerance(match_percentage: float) -> float:
     if not (0.0 < match_percentage <= 100.0):
         raise ValueError("match_percentage must be in (0, 100].")
     return 1.0 - (match_percentage / 100.0)
-
-
-# ---------------------------------------------------------------------------
-# FreeCAD invocation
-# ---------------------------------------------------------------------------
 
 
 def run_freecad_script(
@@ -240,11 +232,6 @@ def load_json(path: Path) -> Dict[str, Any]:
     """
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
-
-
-# ---------------------------------------------------------------------------
-# Comparison engine
-# ---------------------------------------------------------------------------
 
 
 def compare_maps(
@@ -451,11 +438,6 @@ def compare_individual_metrics(
     raise ValueError(f"Unrecognized data type for {metric}")
 
 
-# ---------------------------------------------------------------------------
-# File discovery
-# ---------------------------------------------------------------------------
-
-
 def find_fcstd_files(root: Path, recursive: bool) -> List[Path]:
     """Find all .FCStd files in a directory, sorted alphabetically.
 
@@ -469,11 +451,6 @@ def find_fcstd_files(root: Path, recursive: bool) -> List[Path]:
     if recursive:
         return sorted([path for path in root.rglob("*.FCStd") if path.is_file()])
     return sorted([path for path in root.glob("*.FCStd") if path.is_file()])
-
-
-# ---------------------------------------------------------------------------
-# Diff reporting
-# ---------------------------------------------------------------------------
 
 
 def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
@@ -513,11 +490,6 @@ def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
         )
     else:
         print(f"  - {diff.reason} {diff.key}: baseline={diff.baseline} new={diff.new}")
-
-
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
 
 
 def main(argv: List[str]) -> int:

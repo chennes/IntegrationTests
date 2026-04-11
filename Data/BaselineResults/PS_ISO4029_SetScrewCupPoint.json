@@ -99,9 +99,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 20,
-        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
-        "fully_constrained": true,
         "geometry_count": 7,
         "is_valid": true
       }
@@ -112,9 +110,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 26,
-        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
-        "fully_constrained": false,
         "geometry_count": 11,
         "is_valid": true
       }
@@ -125,9 +121,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 12,
-        "degrees_of_freedom": -1,
         "external_geometry_count": 1,
-        "fully_constrained": true,
         "geometry_count": 4,
         "is_valid": true
       }

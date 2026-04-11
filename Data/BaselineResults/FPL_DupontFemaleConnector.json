@@ -149,9 +149,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 27,
-        "degrees_of_freedom": -1,
         "external_geometry_count": 0,
-        "fully_constrained": null,
         "geometry_count": 9,
         "is_valid": null
       }

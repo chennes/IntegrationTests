@@ -26,7 +26,6 @@
 | PS_AP3030S8_BracketSmallTwoStones.FCStd   | 2026-03-27 | 0.19                     | Profile bracket assembly with two stones                       |
 | PS_AP3030S8_Cap.FCStd                     | 2026-03-27 | 0.19                     | Profile end cap with SubtractivePipe                           |
 | PS_AP3030S8_ConnectorSquare.FCStd         | 2026-03-27 | 0.19                     | Square connector for slot profile                              |
-| PS_AP3030S8_InnerBracket.FCStd            | 2026-03-27 | 0.19                     | Inner bracket with Hole feature                                |
 | PS_AP3030S8_InnerBracketWithScrews.FCStd  | 2026-03-27 | 0.19                     | Inner bracket assembly with screws                             |
 | PS_AP3030S8_StoneM6Heavy.FCStd            | 2026-03-27 | 0.19                     | M6 heavy T-slot stone with Hole and Groove                     |
 | PS_AP3030S8_StoneM8Heavy.FCStd            | 2026-03-27 | 0.19                     | M8 heavy T-slot stone with Hole and Groove                     |
@@ -52,3 +51,5 @@
 | FPL_DupontFemaleConnector.FCStd           | 2026-04-06 | 0.16                     | Dupont 2.54mm connector with Part Fillet, MultiFuse, Thickness |
 | FPL_LED5mm.FCStd                          | 2026-04-06 | 0.16                     | 5mm LED with Part Cylinder, MultiFuse, Sphere                  |
 | FPL_TrapezoidalThread.FCStd               | 2026-04-06 | 0.16                     | Trapezoidal thread with Part Helix, Cylinder, MultiFuse        |
+| FPL_CornerBracket.FCStd                   | 2026-04-07 | 0.21                     | Parametric corner bracket with DatumPlane and Links            |
+| FPL_MicroswitchSPDTVertical.FCStd         | 2026-04-07 | 0.21                     | SPDT microswitch with ShapeBinder cross-body references        |

@@ -21,7 +21,7 @@
       "object_pattern": "*",
       "metric_pattern": "*is_valid*",
       "accepted_values": [true],
-      "description": "Shapes that were invalid in older FreeCAD may become valid in newer versions due to OCC and algorithm improvements",
+      "description": "Shapes that were invalid in older FreeCAD may become valid in newer versions -- this is good, not bad!",
       "added": "2026-03-16"
     },
     {
@@ -41,13 +41,6 @@
     {
       "section": "sketches",
       "object_pattern": "*",
-      "metric_pattern": "*fully_constrained*",
-      "description": "Some sketches report different constraint status between FreeCAD 0.19/0.20 and 1.2dev due to solver changes",
-      "added": "2026-03-27"
-    },
-    {
-      "section": "sketches",
-      "object_pattern": "*",
       "metric_pattern": "*solver_status*",
       "description": "Sketch solver status codes changed between FreeCAD 0.19/0.20 and 1.2dev",
       "added": "2026-03-27"
@@ -56,7 +49,8 @@
       "section": "sketches",
       "object_pattern": "*",
       "metric_pattern": "*is_valid*",
-      "description": "Sketch validity may change between FreeCAD versions due to solver and constraint engine changes",
+      "accepted_values": [true],
+      "description": "Sketches that were invalid in older FreeCAD may become valid in newer versions due to solver improvements",
       "added": "2026-03-27"
     },
     {

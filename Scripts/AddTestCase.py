@@ -38,10 +38,6 @@ from license_utils import (  # noqa: E402
     get_license_info,
 )
 
-# ---------------------------------------------------------------------------
-# Resolve project root (one level up from Scripts/)
-# ---------------------------------------------------------------------------
-
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 CAD_DIR = PROJECT_ROOT / "Data" / "CADFiles"
@@ -51,10 +47,6 @@ LICENSES_DIR = PROJECT_ROOT / "LICENSES"
 CREDITS_PATH = PROJECT_ROOT / "THIRD_PARTY_CREDITS.md"
 MACRO_PATH = SCRIPT_DIR / "EvaluateFile.FCMacro"
 TEST_RUNNER = SCRIPT_DIR / "RunIntegrationTests.py"
-
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
 
 
 def prompt(message: str, default: str = "") -> str:
@@ -153,11 +145,6 @@ def update_metadata(path: Path, updates: Dict[str, str]) -> None:
             zout.writestr(item, data)
 
     shutil.move(tmp_path, str(path))
-
-
-# ---------------------------------------------------------------------------
-# Interactive steps
-# ---------------------------------------------------------------------------
 
 
 def step_inspect_metadata(source_path: Path) -> Dict[str, str]:
@@ -574,11 +561,6 @@ def step_credits_reminder(dest_name: str, metadata: Dict[str, str]) -> None:
     print(f"\n  Remember to add {dest_name} to Tests.md with a description.")
 
 
-# ---------------------------------------------------------------------------
-# FreeCAD executable resolution
-# ---------------------------------------------------------------------------
-
-
 def _msys2_to_windows(path_str: str) -> str:
     """Translate MSYS2/Git Bash paths like /g/... to G:\\ on Windows.
 
@@ -626,11 +608,6 @@ def resolve_freecad_exe(freecad_exe: Optional[str]) -> Optional[str]:
     if str(p) != freecad_exe:
         print(f"  (translated to: '{p}')")
     return None
-
-
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
 
 
 def parse_args(argv: List[str]) -> argparse.Namespace:

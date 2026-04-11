@@ -18,10 +18,6 @@ from typing import Optional
 
 import FreeCAD as App
 
-# ---------------------------------------------------------------------------
-# Utility helpers
-# ---------------------------------------------------------------------------
-
 
 def is_obj_valid(obj) -> bool:
     """Check whether a FreeCAD document object is valid.
@@ -117,11 +113,6 @@ def get_freecad_version_string():
         return ".".join(v[:3]) + (" " + v[3] if len(v) > 3 else "")
     except Exception:
         return "unknown"
-
-
-# ---------------------------------------------------------------------------
-# Analyzer base and implementations
-# ---------------------------------------------------------------------------
 
 
 class Analyzer:
@@ -222,10 +213,6 @@ class SketchAnalyzer(Analyzer):
         try:
             metrics = {
                 "is_valid": report_obj_valid(obj),
-                "fully_constrained": (
-                    bool(obj.FullyConstrained) if hasattr(obj, "FullyConstrained") else None
-                ),
-                "degrees_of_freedom": int(getattr(obj, "DoF", -1)),
                 "constraint_count": int(getattr(obj, "ConstraintCount", 0)),
                 "geometry_count": int(getattr(obj, "GeometryCount", 0)),
             }
@@ -767,11 +754,6 @@ def _find_final_solid_objects(doc):
     return finals
 
 
-# ---------------------------------------------------------------------------
-# Report builder
-# ---------------------------------------------------------------------------
-
-
 def build_report_dict(doc, source_path: str) -> dict:
     """Build the complete metrics report for a FreeCAD document.
 
@@ -813,16 +795,18 @@ def build_report_dict(doc, source_path: str) -> dict:
     return report
 
 
-# ---------------------------------------------------------------------------
-# CLI
-# ---------------------------------------------------------------------------
-
-
 def parse_args(argv):
     """Parse command-line arguments for the macro.
 
-    Because this script is passed as an argument to FreeCADCmd, argument parsing starts from
-    argv[2] rather than argv[1].
+    Supports two invocation styles:
+
+    1. **Command-line arguments** (traditional): FreeCADCmd passes the FCStd path and options
+       starting at argv[2] (argv[0] is FreeCADCmd, argv[1] is this script).
+
+    2. **Environment variables**: When FreeCADCmd consumes positional arguments before the macro
+       can see them (e.g. when launched via ``pixi run``), set ``EVALUATE_FCSTD`` and optionally
+       ``EVALUATE_OUT`` instead.  Environment variables take precedence when ``EVALUATE_FCSTD``
+       is set.
 
     Args:
         argv: The full sys.argv list, where argv[0] is the FreeCADCmd executable and argv[1] is
@@ -832,6 +816,13 @@ def parse_args(argv):
         An argparse.Namespace with ``fcstd`` (path to .FCStd file) and ``out`` (optional output
         file path, or None for stdout).
     """
+    env_fcstd = os.environ.get("EVALUATE_FCSTD")
+    if env_fcstd:
+        ns = argparse.Namespace()
+        ns.fcstd = env_fcstd
+        ns.out = os.environ.get("EVALUATE_OUT")
+        return ns
+
     parser = argparse.ArgumentParser(
         prog=os.path.basename(argv[1]),
         description="Compute per-object metrics from an FCStd file and output JSON.",

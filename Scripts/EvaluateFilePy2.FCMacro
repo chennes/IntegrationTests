@@ -21,11 +21,6 @@ import argparse
 import FreeCAD as App
 
 
-# ---------------------------------------------------------------------------
-# Utility helpers
-# ---------------------------------------------------------------------------
-
-
 def is_obj_valid(obj):
     """Check whether a FreeCAD document object is valid.
 
@@ -82,10 +77,6 @@ def get_freecad_version_string():
     except Exception:
         return "unknown"
 
-
-# ---------------------------------------------------------------------------
-# Analyzers
-# ---------------------------------------------------------------------------
 
 # TypeIds that have a Shape but are non-solid construction geometry
 _NON_SOLID_TYPES = set(
@@ -392,11 +383,6 @@ def _find_final_solid_objects(doc):
     return finals
 
 
-# ---------------------------------------------------------------------------
-# Report builder
-# ---------------------------------------------------------------------------
-
-
 def build_report_dict(doc, source_path):
     """Build the complete metrics report for a FreeCAD document."""
     report = {
@@ -423,11 +409,6 @@ def build_report_dict(doc, source_path):
             report.setdefault(section_name, []).append(result)
 
     return report
-
-
-# ---------------------------------------------------------------------------
-# CLI
-# ---------------------------------------------------------------------------
 
 
 def parse_args(argv):

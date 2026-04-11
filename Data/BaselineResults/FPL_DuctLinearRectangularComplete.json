@@ -177,9 +177,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 20,
-        "degrees_of_freedom": 0,
         "external_geometry_count": 0,
-        "fully_constrained": true,
         "geometry_count": 8,
         "is_valid": true
       }
@@ -190,9 +188,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 34,
-        "degrees_of_freedom": 0,
         "external_geometry_count": 0,
-        "fully_constrained": true,
         "geometry_count": 13,
         "is_valid": true
       }
@@ -203,9 +199,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 16,
-        "degrees_of_freedom": 0,
         "external_geometry_count": 0,
-        "fully_constrained": true,
         "geometry_count": 6,
         "is_valid": true
       }
@@ -216,9 +210,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 18,
-        "degrees_of_freedom": 0,
         "external_geometry_count": 0,
-        "fully_constrained": true,
         "geometry_count": 7,
         "is_valid": true
       }
@@ -229,9 +221,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 16,
-        "degrees_of_freedom": 0,
         "external_geometry_count": 0,
-        "fully_constrained": true,
         "geometry_count": 6,
         "is_valid": true
       }
@@ -242,9 +232,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 18,
-        "degrees_of_freedom": 0,
         "external_geometry_count": 0,
-        "fully_constrained": true,
         "geometry_count": 7,
         "is_valid": true
       }
@@ -255,9 +243,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 16,
-        "degrees_of_freedom": 0,
         "external_geometry_count": 0,
-        "fully_constrained": true,
         "geometry_count": 6,
         "is_valid": true
       }
@@ -268,9 +254,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 18,
-        "degrees_of_freedom": 0,
         "external_geometry_count": 0,
-        "fully_constrained": true,
         "geometry_count": 7,
         "is_valid": true
       }
@@ -281,9 +265,7 @@
       "_source_type_id": "Sketcher::SketchObject",
       "metrics": {
         "constraint_count": 18,
-        "degrees_of_freedom": 0,
         "external_geometry_count": 0,
-        "fully_constrained": true,
         "geometry_count": 7,
         "is_valid": true
       }
