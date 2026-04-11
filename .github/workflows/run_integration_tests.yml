@@ -159,7 +159,7 @@ jobs:
 
     - name: Open issue on failure
       if: always() && steps.integration_tests.outputs.exit_code != '0'
-      uses: actions/github-script@v8
+      uses: actions/github-script@v9
       with:
         script: |
           const title = `FreeCAD integration tests failed (${process.env.GITHUB_REF_NAME})`;
