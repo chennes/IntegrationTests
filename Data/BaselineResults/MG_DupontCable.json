@@ -24,9 +24,29 @@
       "_source_name": "Part001",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 100.00000000000001,
+          "x_min": -1.000000000000001,
+          "y_max": 2.400000000000004,
+          "y_min": -6.382044604925031e-15,
+          "z_max": 1.200000000000006,
+          "z_min": -1.2000000000000046
+        },
+        "center_of_mass": {
+          "x": 36.212952158308056,
+          "y": 1.1999999999999957,
+          "z": 1.2480629544844191e-14
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 1.2,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 620.6931897737576,
+        "total_volume_mm3": 257.3545867644259
       }
     },
     {
@@ -34,9 +54,29 @@
       "_source_name": "Part002",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 100.00000000000001,
+          "x_min": -1.000000000000001,
+          "y_max": 3.774758283725532e-15,
+          "y_min": -2.4000000000000066,
+          "z_max": 1.200000000000006,
+          "z_min": -1.2000000000000046
+        },
+        "center_of_mass": {
+          "x": 36.212952158308056,
+          "y": -1.2000000000000044,
+          "z": 1.2479477131775254e-14
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": -1.2,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 620.6931897737576,
+        "total_volume_mm3": 257.3545867644259
       }
     },
     {
@@ -44,9 +84,29 @@
       "_source_name": "Part003",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 100.00000000000001,
+          "x_min": -7.000000000000001,
+          "y_max": 1.270000000000004,
+          "y_min": -1.2700000000000065,
+          "z_max": -8.729999999999993,
+          "z_min": -11.270000000000005
+        },
+        "center_of_mass": {
+          "x": 34.85882959826264,
+          "y": -4.112105181830506e-15,
+          "z": -10.0001311376865
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -10.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 642.3860816187272,
+        "total_volume_mm3": 268.81902728217455
       }
     }
   ],
@@ -234,8 +294,8 @@
         },
         "center_of_mass": {
           "x": 34.858829598262645,
-          "y": -9.871513344330257e-15,
-          "z": -0.0001311376864990266
+          "y": -9.871439133363215e-15,
+          "z": -0.0001311376864990267
         },
         "is_valid": true,
         "solid_count": 3,
@@ -306,13 +366,13 @@
         },
         "center_of_mass": {
           "x": -3.8983812949640293,
-          "y": 2.4664734406876487e-15,
-          "z": -0.019781988667915782
+          "y": 2.4776680907391168e-15,
+          "z": -0.019781988667915792
         },
         "is_valid": true,
         "solid_count": 1,
         "total_area_mm2": 12.469691844969791,
-        "total_volume_mm3": 1.782040517748619
+        "total_volume_mm3": 1.7820405177486192
       }
     },
     {
@@ -341,7 +401,7 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T02:37:47.088176+00:00",
+    "data_creation_date": "2026-05-01T20:01:02.977380+00:00",
     "document_label": "MG_DupontCable",
     "document_name": "MG_DupontCable",
     "freecad_version": "0.20.2 29603 (Git)",

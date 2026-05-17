@@ -40,8 +40,22 @@
       "_source_name": "Line",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -1000.0,
+          "x_min": -3000.0,
+          "y_max": -3535.91650390625,
+          "y_min": -3535.91650390625,
+          "z_max": 838.3477783203125,
+          "z_min": 838.3477783203125
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -3000.0,
+          "y": -3535.91650390625,
+          "z": 838.3477783203125
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -49,8 +63,22 @@
       "_source_name": "Line001",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -107.465087890625,
+          "x_min": -107.465087890625,
+          "y_max": -5384.61767578125,
+          "y_min": -5384.61767578125,
+          "z_max": 1000.0,
+          "z_min": 0.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -107.465087890625,
+          "y": -5384.61767578125,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -58,9 +86,29 @@
       "_source_name": "Sweep",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": 19.542474701449056,
+          "x_min": -3000.0000000000005,
+          "y_max": -3408.9119030207453,
+          "y_min": -5547.644622325061,
+          "z_max": 1000.889500128759,
+          "z_min": -1.1368683772161603e-13
+        },
+        "center_of_mass": {
+          "x": -1268.7862825138202,
+          "y": -4295.927029858242,
+          "z": 718.9334058095342
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 3288420.122505871,
+        "total_volume_mm3": 202379491.77986902
       }
     },
     {
@@ -68,8 +116,22 @@
       "_source_name": "BezCurve",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -107.465087890625,
+          "x_min": -3000.0,
+          "y_max": -3535.91650390625,
+          "y_min": -5384.61767578125,
+          "z_max": 1000.0,
+          "z_min": 0.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -77,9 +139,29 @@
       "_source_name": "Sweep001",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": 20.542534249418562,
+          "x_min": -3000.0000000000005,
+          "y_max": -3407.9118667933453,
+          "y_min": -5548.928299069072,
+          "z_max": 1002.0775327159762,
+          "z_min": -1.1368683772161603e-13
+        },
+        "center_of_mass": {
+          "x": -1268.7703210129637,
+          "y": -4295.927029948829,
+          "z": 718.9493671697697
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 3315117.4420549823,
+        "total_volume_mm3": 205579117.95741427
       }
     },
     {
@@ -87,9 +169,29 @@
       "_source_name": "Cut",
       "_source_type_id": "Part::Cut",
       "metrics": {
+        "bounding_box": {
+          "x_max": 20.542534249418562,
+          "x_min": -3000.0000000000005,
+          "y_max": -3407.9118667933453,
+          "y_min": -5548.928299069072,
+          "z_max": 1002.0775327159762,
+          "z_min": -1.1368683772161603e-13
+        },
+        "center_of_mass": {
+          "x": -1267.7607409177917,
+          "y": -4295.927035108445,
+          "z": 719.958939217434
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 6400854.572918309,
+        "total_volume_mm3": 3199626.1749425232
       }
     },
     {
@@ -97,9 +199,29 @@
       "_source_name": "Sweep002",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": 45.939479438604984,
+          "x_min": -3000.000000000001,
+          "y_max": -3382.5109466162253,
+          "y_min": -5581.533688378118,
+          "z_max": 1032.2535604350287,
+          "z_min": -5.684341886080802e-14
+        },
+        "center_of_mass": {
+          "x": -1268.3229134096591,
+          "y": -4295.927042165775,
+          "z": 719.3967524655594
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 3997442.6179934195,
+        "total_volume_mm3": 295263511.16755813
       }
     },
     {
@@ -107,9 +229,29 @@
       "_source_name": "Cut001",
       "_source_type_id": "Part::Cut",
       "metrics": {
+        "bounding_box": {
+          "x_max": 45.939479438604984,
+          "x_min": -3000.000000000001,
+          "y_max": -3382.5109466162253,
+          "y_min": -5581.533688378118,
+          "z_max": 1032.2535604350287,
+          "z_min": -1.1368683772161603e-13
+        },
+        "center_of_mass": {
+          "x": -1267.2973433144819,
+          "y": -4295.927069772265,
+          "z": 720.4222719452838
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 7106672.64389914,
+        "total_volume_mm3": 89684393.16184872
       }
     },
     {
@@ -117,9 +259,29 @@
       "_source_name": "Sweep003",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": 46.93950921258982,
+          "x_min": -3000.000000000001,
+          "y_max": -3381.510910388718,
+          "y_min": -5582.817365121702,
+          "z_max": 1033.4415930218331,
+          "z_min": -5.684341886080802e-14
+        },
+        "center_of_mass": {
+          "x": -1268.3036470504899,
+          "y": -4295.927042176574,
+          "z": 719.4160188117653
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4024471.6897680196,
+        "total_volume_mm3": 299125648.18058157
       }
     },
     {
@@ -127,9 +289,29 @@
       "_source_name": "Cut002",
       "_source_type_id": "Part::Cut",
       "metrics": {
+        "bounding_box": {
+          "x_max": 46.93950921258982,
+          "x_min": -3000.000000000001,
+          "y_max": -3381.510910388718,
+          "y_min": -5582.817365121702,
+          "z_max": 1033.4415930218331,
+          "z_min": -5.684341886080802e-14
+        },
+        "center_of_mass": {
+          "x": -1266.8307184344144,
+          "y": -4295.927042747193,
+          "z": 720.8889466814095
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 7726208.003662234,
+        "total_volume_mm3": 3862137.011829704
       }
     }
   ],
@@ -225,11 +407,11 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T02:37:15.545075+00:00",
-    "document_label": "Duct_flex_complete",
-    "document_name": "Duct_flex_complete",
+    "data_creation_date": "2026-05-01T19:58:38.121087+00:00",
+    "document_label": "FPL_DuctFlexComplete",
+    "document_name": "FPL_DuctFlexComplete",
     "freecad_version": "1.0.2 39319 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Duct_flex_complete.FCStd",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FPL_DuctFlexComplete.FCStd",
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.11.13"
   },

@@ -5,9 +5,29 @@
       "_source_name": "Part__Feature",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 43.77000000000001,
+          "x_min": -1.2700000000000002,
+          "y_max": 3.810000000000008,
+          "y_min": -1.270000000000003,
+          "z_max": 8.300000000000004,
+          "z_min": -2.8199664825478996e-16
+        },
+        "center_of_mass": {
+          "x": 21.250000000000078,
+          "y": 1.2699999999999987,
+          "z": 3.915780236665203
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1838.3334647362851,
+        "total_volume_mm3": 1731.0665599999982
       }
     },
     {
@@ -15,9 +35,29 @@
       "_source_name": "Loft",
       "_source_type_id": "Part::Loft",
       "metrics": {
+        "bounding_box": {
+          "x_max": 0.32,
+          "x_min": -0.32,
+          "y_max": 0.32,
+          "y_min": -0.32,
+          "z_max": -3.0,
+          "z_min": -3.5460000000000003
+        },
+        "center_of_mass": {
+          "x": -1.87268125241166e-17,
+          "y": -1.2388731367463805e-17,
+          "z": -3.2145
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -3.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1.6044040746903139,
+        "total_volume_mm3": 0.13045760000000006
       }
     },
     {
@@ -25,9 +65,29 @@
       "_source_name": "Fusion",
       "_source_type_id": "Part::MultiFuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": 0.32,
+          "x_min": -0.32,
+          "y_max": 0.32,
+          "y_min": -0.32,
+          "z_max": 0.0,
+          "z_min": -3.5460000000000003
+        },
+        "center_of_mass": {
+          "x": 1.4601476422221959e-18,
+          "y": 6.3811431916099155e-18,
+          "z": -1.6645527346692781
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 9.284404074690313,
+        "total_volume_mm3": 1.3592576000000003
       }
     },
     {
@@ -35,9 +95,29 @@
       "_source_name": "Loft001",
       "_source_type_id": "Part::Loft",
       "metrics": {
+        "bounding_box": {
+          "x_max": 1.0,
+          "x_min": -1.0,
+          "y_max": 1.0,
+          "y_min": -1.0,
+          "z_max": 8.3,
+          "z_min": 7.8
+        },
+        "center_of_mass": {
+          "x": 3.865955175034023e-17,
+          "y": -2.891334864981876e-17,
+          "z": 8.103571428571428
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 7.8
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 9.242640687119287,
+        "total_volume_mm3": 1.1666666666666679
       }
     },
     {
@@ -45,9 +125,29 @@
       "_source_name": "Array",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 43.68,
+          "x_min": -0.5,
+          "y_max": 7.04,
+          "y_min": 0.9999999999999998,
+          "z_max": 8.3,
+          "z_min": 7.3
+        },
+        "center_of_mass": {
+          "x": 21.59000000000001,
+          "y": 4.02,
+          "z": 7.800000000000001
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 576.0,
+        "total_volume_mm3": 126.00000000000001
       }
     },
     {
@@ -55,9 +155,29 @@
       "_source_name": "Cut",
       "_source_type_id": "Part::Cut",
       "metrics": {
+        "bounding_box": {
+          "x_max": 44.45,
+          "x_min": -1.2700000000000031,
+          "y_max": 3.81,
+          "y_min": -1.27,
+          "z_max": 8.3,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 21.589999999999968,
+          "y": 1.2394174397928162,
+          "z": 4.051650797571608
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1408.9551999999971,
+        "total_volume_mm3": 1877.1580800000033
       }
     },
     {
@@ -65,9 +185,29 @@
       "_source_name": "Array001",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 43.5,
+          "x_min": -0.32,
+          "y_max": 2.8600000000000003,
+          "y_min": -0.32,
+          "z_max": 0.0,
+          "z_min": -3.5460000000000003
+        },
+        "center_of_mass": {
+          "x": 21.590000000000007,
+          "y": 1.2699999999999998,
+          "z": -1.6645527346692788
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 334.238546688852,
+        "total_volume_mm3": 48.93327359999999
       }
     },
     {
@@ -75,9 +215,29 @@
       "_source_name": "Cut001",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 44.45,
+          "x_min": -1.2700000000000031,
+          "y_max": 3.81,
+          "y_min": -1.27,
+          "z_max": 8.3,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 21.590000000000078,
+          "y": 1.270000000000001,
+          "z": 3.919596393572421
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1856.5302647362873,
+        "total_volume_mm3": 1759.7380799999924
       }
     },
     {
@@ -85,9 +245,29 @@
       "_source_name": "Array002",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 43.5,
+          "x_min": -0.32,
+          "y_max": 2.8600000000000003,
+          "y_min": -0.32,
+          "z_max": 0.0,
+          "z_min": -3.5460000000000003
+        },
+        "center_of_mass": {
+          "x": 21.590000000000007,
+          "y": 1.27,
+          "z": -1.6645527346692788
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 334.238546688852,
+        "total_volume_mm3": 48.93327359999999
       }
     },
     {
@@ -95,9 +275,29 @@
       "_source_name": "Compound",
       "_source_type_id": "Part::Compound",
       "metrics": {
+        "bounding_box": {
+          "x_max": 44.45,
+          "x_min": -1.2700000000000031,
+          "y_max": 3.81,
+          "y_min": -1.27,
+          "z_max": 8.3,
+          "z_min": -3.5460000000000003
+        },
+        "center_of_mass": {
+          "x": 21.590000000000035,
+          "y": 1.269999999999999,
+          "z": 3.7685182573639957
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 2190.7688114251546,
+        "total_volume_mm3": 1808.6713535999957
       }
     }
   ],
@@ -281,11 +481,11 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T02:40:55.147198+00:00",
-    "document_label": "FL_PinHeader2x18",
-    "document_name": "FL_PinHeader2x18",
-    "freecad_version": "1.2.0 46210 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_PinHeader2x18.FCStd",
+    "data_creation_date": "2026-05-12T04:48:50.666180+00:00",
+    "document_label": "FPL_PinHeader2x18",
+    "document_name": "FPL_PinHeader2x18",
+    "freecad_version": "1.2.0 20260415 (Git shallow)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FPL_PinHeader2x18.FCStd",
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.11.14"
   }

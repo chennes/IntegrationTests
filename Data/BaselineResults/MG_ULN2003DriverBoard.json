@@ -5,9 +5,29 @@
       "_source_name": "Body001001",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 5.2250000000000005,
+          "x_min": 1.725,
+          "y_max": 13.25,
+          "y_min": 10.0,
+          "z_max": 5.25,
+          "z_min": -2.54
+        },
+        "center_of_mass": {
+          "x": 3.4750000000000014,
+          "y": 11.513327073637088,
+          "z": 2.19116625175208
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 3.475,
+          "y": 11.5,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 70.65140831048708,
+        "total_volume_mm3": 36.636079946337865
       }
     },
     {
@@ -15,9 +35,29 @@
       "_source_name": "Body001002",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 0.7000000000000006,
+          "x_min": -2.8,
+          "y_max": 13.25,
+          "y_min": 10.0,
+          "z_max": 5.25,
+          "z_min": -2.54
+        },
+        "center_of_mass": {
+          "x": -1.0499999999999987,
+          "y": 11.513327073637088,
+          "z": 2.1911662517520787
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -1.05,
+          "y": 11.5,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 70.65140831048708,
+        "total_volume_mm3": 36.63607994633788
       }
     },
     {
@@ -25,9 +65,29 @@
       "_source_name": "Body001003",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": -3.8499999999999988,
+          "x_min": -7.35,
+          "y_max": 13.25,
+          "y_min": 10.0,
+          "z_max": 5.25,
+          "z_min": -2.54
+        },
+        "center_of_mass": {
+          "x": -5.599999999999998,
+          "y": 11.513327073637088,
+          "z": 2.19116625175208
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -5.6,
+          "y": 11.5,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 70.65140831048708,
+        "total_volume_mm3": 36.63607994633787
       }
     },
     {
@@ -35,9 +95,29 @@
       "_source_name": "Body001004",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": -8.4,
+          "x_min": -11.9,
+          "y_max": 13.25,
+          "y_min": 10.0,
+          "z_max": 5.25,
+          "z_min": -2.54
+        },
+        "center_of_mass": {
+          "x": -10.149999999999999,
+          "y": 11.513327073637088,
+          "z": 2.19116625175208
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -10.15,
+          "y": 11.5,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 70.65140831048708,
+        "total_volume_mm3": 36.636079946337865
       }
     },
     {
@@ -45,9 +125,29 @@
       "_source_name": "Shape006",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": -0.9249999999999985,
+          "x_min": -11.084999999999999,
+          "y_max": -9.300000000000006,
+          "y_min": -11.840000000000007,
+          "z_max": 8.54000000000022,
+          "z_min": -3.00000000000022
+        },
+        "center_of_mass": {
+          "x": -6.00500000000001,
+          "y": -10.570000000000006,
+          "z": 1.6259096576217067
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -9.815,
+          "y": -10.570000000000006,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 206.69281960129797,
+        "total_volume_mm3": 78.764437546667
       }
     },
     {
@@ -55,9 +155,29 @@
       "_source_name": "Shape014",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 12.56,
+          "x_min": 10.02,
+          "y_max": 1.69,
+          "y_min": -8.47,
+          "z_max": 8.54000000000022,
+          "z_min": -3.00000000000022
+        },
+        "center_of_mass": {
+          "x": 11.290000000000001,
+          "y": -3.3899999999999864,
+          "z": 1.6259096576217038
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 11.29,
+          "y": 0.42,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 206.69281960129797,
+        "total_volume_mm3": 78.76443754666705
       }
     },
     {
@@ -65,9 +185,29 @@
       "_source_name": "Shape013",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 8.309999999999986,
+          "x_min": 5.809999999999986,
+          "y_max": -1.5949999999999962,
+          "y_min": -7.094999999999996,
+          "z_max": 5.100000000000001,
+          "z_min": -2.0
+        },
+        "center_of_mass": {
+          "x": 7.060000857778276,
+          "y": -4.344999825848104,
+          "z": 2.4580483676569376
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 7.059999999999985,
+          "y": -1.844999999999996,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 60.47395389270937,
+        "total_volume_mm3": 28.01650366002548
       }
     },
     {
@@ -75,9 +215,29 @@
       "_source_name": "Part__Feature",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 4.965000000000002,
+          "x_min": -15.355,
+          "y_max": 1.8600000000000043,
+          "y_min": -8.299999999999997,
+          "z_max": 5.159999999999999,
+          "z_min": -3.300000000000002
+        },
+        "center_of_mass": {
+          "x": -5.125752959725192,
+          "y": -3.219999999975619,
+          "z": 2.18029565964099
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -15.354999999999999,
+          "y": -3.219999999999996,
+          "z": -2e-15
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1060.5030571034006,
+        "total_volume_mm3": 774.0296884022747
       }
     },
     {
@@ -85,9 +245,29 @@
       "_source_name": "Part__Feature001",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": -0.12500000000000108,
+          "x_min": -15.025000000000004,
+          "y_max": 7.760000000000002,
+          "y_min": 2.0099999999999985,
+          "z_max": 7.0,
+          "z_min": -3.4000000000002646
+        },
+        "center_of_mass": {
+          "x": -7.575000000000004,
+          "y": 4.868921662299603,
+          "z": 2.686339058997353
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -12.575000000000001,
+          "y": 5.41,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 749.0187800871416,
+        "total_volume_mm3": 293.2650465306672
       }
     },
     {
@@ -95,9 +275,29 @@
       "_source_name": "Fusion001001",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 12.539999999999978,
+          "x_min": 10.039999999999973,
+          "y_max": 1.6500000000000008,
+          "y_min": -3.35,
+          "z_max": 8.54,
+          "z_min": 2.54
+        },
+        "center_of_mass": {
+          "x": 11.310127153815088,
+          "y": -0.8624391944854697,
+          "z": 5.27535859745085
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 11.290000000000003,
+          "y": -2.16,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 224.0130206083383,
+        "total_volume_mm3": 49.55823652697374
       }
     },
     {
@@ -105,9 +305,29 @@
       "_source_name": "Fusion001002",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 4.465,
+          "x_min": -14.835000000000006,
+          "y_max": 0.8300000000019412,
+          "y_min": -7.290000000000002,
+          "z_max": 7.970000000000003,
+          "z_min": 1.169999999999554
+        },
+        "center_of_mass": {
+          "x": -5.177749124845469,
+          "y": -3.229999999999887,
+          "z": 6.192271896433824
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -5.185000000000001,
+          "y": -3.229999999999999,
+          "z": 4.17
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 595.2234538323977,
+        "total_volume_mm3": 416.13546838862226
       }
     },
     {
@@ -115,9 +335,29 @@
       "_source_name": "Body001005001",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 12.770129621103287,
+          "x_min": 6.869870378896715,
+          "y_max": 4.49,
+          "y_min": 2.79,
+          "z_max": 1.8900000000000001,
+          "z_min": -2.140000000014023
+        },
+        "center_of_mass": {
+          "x": 9.820000000026845,
+          "y": 3.6400000000000055,
+          "z": 0.9585752877756206
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 9.82,
+          "y": 3.64,
+          "z": 1.04
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 25.325120196955393,
+        "total_volume_mm3": 6.094377970214701
       }
     },
     {
@@ -125,9 +365,29 @@
       "_source_name": "Body001005002",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 12.770129621103287,
+          "x_min": 6.869870378896715,
+          "y_max": 7.01,
+          "y_min": 5.3100000000000005,
+          "z_max": 1.8900000000000001,
+          "z_min": -2.140000000014023
+        },
+        "center_of_mass": {
+          "x": 9.820000000026845,
+          "y": 6.1600000000000055,
+          "z": 0.9585752877756206
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 9.82,
+          "y": 6.16,
+          "z": 1.04
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 25.325120196955393,
+        "total_volume_mm3": 6.094377970214701
       }
     },
     {
@@ -135,9 +395,29 @@
       "_source_name": "Body001005003",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 12.770129621103287,
+          "x_min": 6.869870378896715,
+          "y_max": 9.5,
+          "y_min": 7.800000000000001,
+          "z_max": 1.8900000000000001,
+          "z_min": -2.140000000014023
+        },
+        "center_of_mass": {
+          "x": 9.820000000026845,
+          "y": 8.650000000000006,
+          "z": 0.9585752877756207
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 9.82,
+          "y": 8.65,
+          "z": 1.04
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 25.325120196955393,
+        "total_volume_mm3": 6.094377970214701
       }
     },
     {
@@ -145,9 +425,29 @@
       "_source_name": "Body001005004",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 12.770129621103287,
+          "x_min": 6.869870378896715,
+          "y_max": 12.02,
+          "y_min": 10.32,
+          "z_max": 1.8900000000000001,
+          "z_min": -2.140000000014023
+        },
+        "center_of_mass": {
+          "x": 9.820000000026845,
+          "y": 11.170000000000005,
+          "z": 0.9585752877756207
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 9.82,
+          "y": 11.17,
+          "z": 1.04
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 25.325120196955393,
+        "total_volume_mm3": 6.094377970214701
       }
     },
     {
@@ -155,9 +455,29 @@
       "_source_name": "Array001",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -1.22687105101012,
+          "x_min": -10.77312894898988,
+          "y_max": -9.60687105101012,
+          "y_min": -11.53312894898988,
+          "z_max": 0.09526249034443701,
+          "z_min": -2.6
+        },
+        "center_of_mass": {
+          "x": -6.000000000000053,
+          "y": -10.57,
+          "z": -1.1408838361026723
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -9.81,
+          "y": -10.57,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 48.919591718945185,
+        "total_volume_mm3": 7.965782930826114
       }
     },
     {
@@ -165,9 +485,29 @@
       "_source_name": "Array",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 4.6731289489898815,
+          "x_min": -15.03312894898988,
+          "y_max": 1.5431289489898807,
+          "y_min": -8.00312894898988,
+          "z_max": 0.09526249034443701,
+          "z_min": -2.6
+        },
+        "center_of_mass": {
+          "x": -5.180000000000054,
+          "y": -3.230000000000001,
+          "z": -1.1408838361026725
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -14.07,
+          "y": -7.04,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 195.6783668757805,
+        "total_volume_mm3": 31.863131723304452
       }
     },
     {
@@ -175,9 +515,29 @@
       "_source_name": "Array002",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 13.58812894898988,
+          "x_min": 6.06187105101012,
+          "y_max": 12.12312894898988,
+          "y_min": 2.6968710510101204,
+          "z_max": 0.09526249034443701,
+          "z_min": -2.6
+        },
+        "center_of_mass": {
+          "x": 9.824999999999948,
+          "y": 7.409999999999998,
+          "z": -1.1408838361026723
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 7.025,
+          "y": 3.66,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 97.83918343789033,
+        "total_volume_mm3": 15.931565861652231
       }
     },
     {
@@ -185,9 +545,29 @@
       "_source_name": "Array003",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 4.46812894898988,
+          "x_min": -11.10812894898988,
+          "y_max": 13.761128948989878,
+          "y_min": 9.29487105101012,
+          "z_max": 0.09526249034443701,
+          "z_min": -2.6
+        },
+        "center_of_mass": {
+          "x": -3.320000000000051,
+          "y": 11.527999999999997,
+          "z": -1.1408838361026723
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -10.145,
+          "y": 10.258,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 97.83918343789033,
+        "total_volume_mm3": 15.93156586165223
       }
     },
     {
@@ -195,9 +575,29 @@
       "_source_name": "Array004",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 12.26312894898988,
+          "x_min": 10.336871051010121,
+          "y_max": 1.3831289489898806,
+          "y_min": -8.16312894898988,
+          "z_max": 0.09526249034443701,
+          "z_min": -2.6
+        },
+        "center_of_mass": {
+          "x": 11.299999999999947,
+          "y": -3.3899999999999997,
+          "z": -1.1408838361026723
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 11.3,
+          "y": -7.2,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 48.919591718945185,
+        "total_volume_mm3": 7.965782930826116
       }
     },
     {
@@ -205,9 +605,29 @@
       "_source_name": "Array005",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -1.6068710510101198,
+          "x_min": -13.53312894898988,
+          "y_max": 6.3881289489898805,
+          "y_min": 4.461871051010119,
+          "z_max": 0.09526249034443701,
+          "z_min": -2.6
+        },
+        "center_of_mass": {
+          "x": -7.570000000000053,
+          "y": 5.425,
+          "z": -1.1408838361026723
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -12.57,
+          "y": 5.425,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 61.14948964868148,
+        "total_volume_mm3": 9.957228663532645
       }
     },
     {
@@ -215,9 +635,29 @@
       "_source_name": "Array006",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 8.01312894898988,
+          "x_min": 6.086871051010119,
+          "y_max": -0.8368710510101189,
+          "y_min": -7.8431289489898806,
+          "z_max": 0.09526249034443701,
+          "z_min": -2.6
+        },
+        "center_of_mass": {
+          "x": 7.049999999999947,
+          "y": -4.34,
+          "z": -1.1408838361026725
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 7.05,
+          "y": -6.88,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 24.459795859472596,
+        "total_volume_mm3": 3.982891465413057
       }
     },
     {
@@ -225,9 +665,29 @@
       "_source_name": "Body001005007",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 15.85,
+          "x_min": -15.85,
+          "y_max": 17.25,
+          "y_min": -17.25,
+          "z_max": 0.0001,
+          "z_min": -1.6
+        },
+        "center_of_mass": {
+          "x": 0.022319972597040258,
+          "y": -0.02566163217652459,
+          "z": -0.7999996534675574
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 2575.705734748654,
+        "total_volume_mm3": 1641.7699238302457
       }
     }
   ],
@@ -504,7 +964,7 @@
       "_source_type_id": "PartDesign::Body",
       "metrics": {
         "bounding_box": {
-          "x_max": 1.5000000000002685,
+          "x_max": 1.5000000000002756,
           "x_min": -1.75,
           "y_max": 1.75,
           "y_min": -1.7500000000001035,
@@ -512,14 +972,14 @@
           "z_min": -2.540000000000021
         },
         "center_of_mass": {
-          "x": -0.013327073637089635,
-          "y": -2.284991691508991e-13,
-          "z": 2.1911662517520805
+          "x": -0.01332707363708614,
+          "y": -2.2847985029420777e-13,
+          "z": 2.191166251752077
         },
         "is_valid": true,
         "solid_count": 1,
-        "total_area_mm2": 70.65140831048657,
-        "total_volume_mm3": 36.63607994633786
+        "total_area_mm2": 70.65140831048689,
+        "total_volume_mm3": 36.63607994633794
       }
     },
     {
@@ -536,14 +996,14 @@
           "z_min": -3.1800000000140183
         },
         "center_of_mass": {
-          "x": 2.6918150792274487e-11,
-          "y": -1.1918866283744909e-14,
-          "z": -0.08142471222437979
+          "x": 2.6916941627802214e-11,
+          "y": 4.778732992731736e-15,
+          "z": -0.08142471222438899
         },
         "is_valid": true,
         "solid_count": 1,
-        "total_area_mm2": 25.32512019695254,
-        "total_volume_mm3": 6.094377970213619
+        "total_area_mm2": 25.32512019695263,
+        "total_volume_mm3": 6.09437797021348
       }
     },
     {
@@ -572,7 +1032,7 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T02:38:00.781880+00:00",
+    "data_creation_date": "2026-05-01T20:01:37.692836+00:00",
     "document_label": "MG_ULN2003DriverBoard",
     "document_name": "MG_ULN2003DriverBoard",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

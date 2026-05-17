@@ -66,9 +66,29 @@
       "_source_name": "Screw",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 6.799999999999998,
+          "x_min": -6.800000000000002,
+          "y_max": -7.450000000000001,
+          "y_min": -21.05,
+          "z_max": 8.80000000000003,
+          "z_min": -6.499999999999981
+        },
+        "center_of_mass": {
+          "x": 1.4023079645640811e-11,
+          "y": -14.250000000000009,
+          "z": 2.426417795687343
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -2e-15,
+          "y": -14.250000000000002,
+          "z": 5.500000000000023
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 588.5749011795799,
+        "total_volume_mm3": 571.3253903164408
       }
     },
     {
@@ -76,9 +96,29 @@
       "_source_name": "Screw001",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 6.799999999999997,
+          "x_min": -6.8000000000000025,
+          "y_max": 6.500000000000003,
+          "y_min": -8.800000000000002,
+          "z_max": 21.05,
+          "z_min": 7.450000000000002
+        },
+        "center_of_mass": {
+          "x": 1.4026573735986018e-11,
+          "y": -2.4264177956873216,
+          "z": 14.25
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -2e-15,
+          "y": -5.5,
+          "z": 14.250000000000002
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 588.5749011795799,
+        "total_volume_mm3": 571.325390316441
       }
     }
   ],
@@ -110,11 +150,11 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T02:37:20.526729+00:00",
-    "document_label": "FL_AP3030S8_BracketSmallTwoStones",
-    "document_name": "FL_AP3030S8_BracketSmallTwoStones",
+    "data_creation_date": "2026-05-01T20:01:48.303467+00:00",
+    "document_label": "PS_AP3030S8_BracketSmallTwoStones",
+    "document_name": "PS_AP3030S8_BracketSmallTwoStones",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_AP3030S8_BracketSmallTwoStones.FCStd",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\PS_AP3030S8_BracketSmallTwoStones.FCStd",
     "platform": "Windows-10-10.0.26100",
     "python_version": "3.8.6+"
   }

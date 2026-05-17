@@ -34,9 +34,29 @@
       "_source_name": "Part001001",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 31.06731008187132,
+          "x_min": 17.21268991812868,
+          "y_max": 14.827310081871321,
+          "y_min": 0.9726899181286806,
+          "z_max": 12.600000000000001,
+          "z_min": 4.349999999999994
+        },
+        "center_of_mass": {
+          "x": 24.13999999989961,
+          "y": 7.90000000001057,
+          "z": 9.82478817341309
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 24.14,
+          "y": 7.9,
+          "z": 7.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 771.4557645062939,
+        "total_volume_mm3": 398.4604014575792
       }
     }
   ],
@@ -213,7 +233,7 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T02:37:46.247543+00:00",
+    "data_creation_date": "2026-05-01T20:01:01.695227+00:00",
     "document_label": "MG_B3FKeycap",
     "document_name": "MG_B3FKeycap",
     "freecad_version": "0.19.24267 +99 (Git) Unknown",

@@ -163,9 +163,29 @@
       "_source_name": "Shape001",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 44.00000000000001,
+          "x_min": -44.00000000000012,
+          "y_max": 25.000000000000004,
+          "y_min": -94.48187929913335,
+          "z_max": 106.00000000000004,
+          "z_min": -3.44e-14
+        },
+        "center_of_mass": {
+          "x": -2.931794408219134e-14,
+          "y": -35.04770276689643,
+          "z": 41.46056007989434
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 52655.50879964555,
+        "total_volume_mm3": 241280.9395115904
       }
     },
     {
@@ -173,9 +193,29 @@
       "_source_name": "Shape012",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 10.0,
+          "x_min": -10.0,
+          "y_max": 69.16000000000003,
+          "y_min": 49.16000000000002,
+          "z_max": 100.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 4.726226035058943e-16,
+          "y": 59.16000000000001,
+          "z": 49.99999999999999
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 6911.503837897546,
+        "total_volume_mm3": 31415.926535897932
       }
     },
     {
@@ -183,9 +223,29 @@
       "_source_name": "Shape013",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 15.299999999999955,
+          "x_min": -14.700000000000053,
+          "y_max": -656.12,
+          "y_min": -1044.516781849646,
+          "z_max": 368.39401797418674,
+          "z_min": 258.5584707448439
+        },
+        "center_of_mass": {
+          "x": 0.2999999999999505,
+          "y": -844.3185098409386,
+          "z": 303.3138377139542
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 63214.45815110947,
+        "total_volume_mm3": 333942.1786069555
       }
     },
     {
@@ -193,9 +253,29 @@
       "_source_name": "Shape014",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 20.099999999999913,
+          "x_min": -9.900000000000095,
+          "y_max": -995.6154985201181,
+          "y_min": -1026.98,
+          "z_max": 165.6745213748832,
+          "z_min": 104.2
+        },
+        "center_of_mass": {
+          "x": 5.099999999999911,
+          "y": -1012.8041421906756,
+          "z": 130.47876929987603
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 6947.397982531332,
+        "total_volume_mm3": 12304.424386084183
       }
     },
     {
@@ -203,9 +283,29 @@
       "_source_name": "Shape015",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 56.600000000000186,
+          "x_min": -46.39999999999991,
+          "y_max": -1080.8400000000001,
+          "y_min": -1189.4875103033628,
+          "z_max": 247.88998270397252,
+          "z_min": 123.86376214781501
+        },
+        "center_of_mass": {
+          "x": 5.099999999999176,
+          "y": -1144.8853559118934,
+          "z": 203.6762293593887
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 70112.20000657642,
+        "total_volume_mm3": 58312.05357449856
       }
     },
     {
@@ -213,9 +313,29 @@
       "_source_name": "Shape016",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 9.751999999999953,
+          "x_min": -5.248000000000047,
+          "y_max": -150.90125836050535,
+          "y_min": -291.09971778962614,
+          "z_max": 343.15295487206527,
+          "z_min": 202.95449544294425
+        },
+        "center_of_mass": {
+          "x": 2.2520014178945282,
+          "y": -225.88506746040042,
+          "z": 277.93830807170616
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 8569.711925710144,
+        "total_volume_mm3": 22989.41692396437
       }
     },
     {
@@ -223,9 +343,29 @@
       "_source_name": "Shape017",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 5.671999999999684,
+          "x_min": -9.328000000000316,
+          "y_max": -506.5876196978643,
+          "y_min": -652.8756912422045,
+          "z_max": 212.5199455509029,
+          "z_min": 78.7624813033308
+        },
+        "center_of_mass": {
+          "x": -1.8279985821057403,
+          "y": -584.9489303153752,
+          "z": 150.16326718564534
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 8569.71192571014,
+        "total_volume_mm3": 22989.41692396436
       }
     },
     {
@@ -233,9 +373,29 @@
       "_source_name": "Shape018",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 7.712000000000163,
+          "x_min": -7.28799999999984,
+          "y_max": -917.8772363407865,
+          "y_min": -1100.5665230747547,
+          "z_max": 320.18168199801084,
+          "z_min": 280.3018110843754
+        },
+        "center_of_mass": {
+          "x": 0.21200033247354028,
+          "y": -1027.164345932218,
+          "z": 299.5021195790223
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 5335.388999950471,
+        "total_volume_mm3": 9045.578366152828
       }
     },
     {
@@ -243,9 +403,29 @@
       "_source_name": "Shape019",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 26.781083518149103,
+          "x_min": -21.2189164818477,
+          "y_max": -979.0517265955671,
+          "y_min": -1057.0517442776702,
+          "z_max": 217.38103034879077,
+          "z_min": 179.81592977546782
+        },
+        "center_of_mass": {
+          "x": 2.7810835181504263,
+          "y": -1023.9078466808969,
+          "z": 199.95785920548303
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 8895.053812538175,
+        "total_volume_mm3": 17079.25988420046
       }
     },
     {
@@ -253,9 +433,29 @@
       "_source_name": "Shape020",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 17.759999999999998,
+          "x_min": -12.24,
+          "y_max": -129.24978336205578,
+          "y_min": -272.23611075682095,
+          "z_max": 272.23611075682066,
+          "z_min": 129.24978336205567
+        },
+        "center_of_mass": {
+          "x": 2.759999709040966,
+          "y": -187.0954582414445,
+          "z": 187.09545395379251
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 21055.652113708635,
+        "total_volume_mm3": 48197.411440688076
       }
     },
     {
@@ -263,9 +463,29 @@
       "_source_name": "Shape021",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 12.660000000000021,
+          "x_min": -17.33999999999998,
+          "y_max": -491.59649126114704,
+          "y_min": -640.3655624813703,
+          "z_max": 157.68999252354072,
+          "z_min": 20.837210581402104
+        },
+        "center_of_mass": {
+          "x": -2.3400002909590114,
+          "y": -551.6258167734854,
+          "z": 76.3817933049889
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 21055.652113708642,
+        "total_volume_mm3": 48197.411440688105
       }
     },
     {
@@ -273,9 +493,29 @@
       "_source_name": "Shape022",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 7.859999999998507,
+          "x_min": -7.140000000001493,
+          "y_max": -875.2528738519441,
+          "y_min": -1054.6968886830334,
+          "z_max": 369.7943797438405,
+          "z_min": 324.1916948447226
+        },
+        "center_of_mass": {
+          "x": 0.3600000721745532,
+          "y": -952.1422137510713,
+          "z": 347.99998461072
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 11524.316806825003,
+        "total_volume_mm3": 16011.734991211933
       }
     },
     {
@@ -283,9 +523,29 @@
       "_source_name": "Shape",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 27.02417968750005,
+          "x_min": -32.97582031249996,
+          "y_max": -241.3771169192164,
+          "y_min": -605.3771169192164,
+          "z_max": 346.8643794668926,
+          "z_min": 27.864379466892526
+        },
+        "center_of_mass": {
+          "x": -2.975820312499938,
+          "y": -409.3219734899811,
+          "z": 188.4125731604808
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 172924.3669695482,
+        "total_volume_mm3": 1204575.2487515295
       }
     }
   ],
@@ -297,30 +557,30 @@
       "_source_type_id": "Assembly::AssemblyObject",
       "metrics": {
         "bounding_box": {
-          "x_max": -157.59136825809617,
-          "x_min": -261.0083458153418,
+          "x_max": -157.5913682580969,
+          "x_min": -261.0083458153424,
           "y_max": 124.41569915771487,
-          "y_min": -551.5392465000085,
-          "z_max": 932.2694669631423,
+          "y_min": -551.5392465000087,
+          "z_max": 932.2694669631433,
           "z_min": 364.2680053710937
         },
         "center_of_mass": {
-          "x": -207.39425636422126,
-          "y": -89.92762417417416,
-          "z": 611.8706524855214
+          "x": -207.3942563642216,
+          "y": -89.92762417417433,
+          "z": 611.8706524855218
         },
         "is_valid": true,
         "solid_count": 13,
         "total_area_mm2": 457770.92344546,
-        "total_volume_mm3": 2066341.001337427
+        "total_volume_mm3": 2066341.0013374265
       }
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T02:37:09.483712+00:00",
+    "data_creation_date": "2026-05-01T19:58:09.978304+00:00",
     "document_label": "AssemblyExample",
     "document_name": "AssemblyExample",
-    "freecad_version": "1.2.0 46210 (Git)",
+    "freecad_version": "1.1.0 20260325 (Git shallow)",
     "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\AssemblyExample.FCStd",
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.11.14"

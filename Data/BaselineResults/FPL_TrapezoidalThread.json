@@ -5,8 +5,22 @@
       "_source_name": "Helix",
       "_source_type_id": "Part::Helix",
       "metrics": {
+        "bounding_box": {
+          "x_max": 2.121526015632234,
+          "x_min": -2.1215238625102892,
+          "y_max": 2.101168954134848,
+          "y_min": -2.101168954134846,
+          "z_max": 140.05764544768445,
+          "z_min": -0.12152601563216517
+        },
         "is_valid": null,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -14,9 +28,29 @@
       "_source_name": "Sweep",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": 5.664638569127601,
+          "x_min": -6.59994240953498,
+          "y_max": 6.601565099122004,
+          "y_min": -6.603091493424468,
+          "z_max": 140.0010125434734,
+          "z_min": -1.3322676295501878e-15
+        },
+        "center_of_mass": {
+          "x": -2.3064387846561743e-05,
+          "y": -9.176441014046881e-07,
+          "z": 69.99947286160541
+        },
         "is_valid": null,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4483.727347007094,
+        "total_volume_mm3": 5478.858289080528
       }
     },
     {
@@ -24,9 +58,29 @@
       "_source_name": "Cylinder",
       "_source_type_id": "Part::Cylinder",
       "metrics": {
+        "bounding_box": {
+          "x_max": 3.5718942609649,
+          "x_min": -3.5718942609649,
+          "y_max": 3.5718942609649,
+          "y_min": -3.5718942609649,
+          "z_max": 140.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": -6.64603202493346e-16,
+          "y": 1.0521305331141061e-16,
+          "z": 70.0
+        },
         "is_valid": null,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 2971.255499912154,
+        "total_volume_mm3": 4789.672159662998
       }
     },
     {
@@ -34,9 +88,29 @@
       "_source_name": "Fusion",
       "_source_type_id": "Part::MultiFuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": 5.664638569127601,
+          "x_min": -6.59994240953498,
+          "y_max": 6.601565099122004,
+          "y_min": -6.603091493424468,
+          "z_max": 140.0010125434734,
+          "z_min": -1.6653345369377348e-15
+        },
+        "center_of_mass": {
+          "x": -1.169756160504461e-05,
+          "y": -6.906240017114e-07,
+          "z": 69.99994780128549
+        },
         "is_valid": null,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4426.3114235964795,
+        "total_volume_mm3": 5553.382915956411
       }
     }
   ],
@@ -69,8 +143,8 @@
           "z_min": -1.6653345369377348e-15
         },
         "center_of_mass": {
-          "x": -1.1697561605280033e-05,
-          "y": -6.906240017804918e-07,
+          "x": -1.169756160504461e-05,
+          "y": -6.906240017114e-07,
           "z": 69.99994780128549
         },
         "is_valid": true,
@@ -81,11 +155,11 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T04:50:36.501000Z",
-    "document_label": "FL_TrapezoidalThread",
-    "document_name": "FL_TrapezoidalThread",
+    "data_creation_date": "2026-05-12T04:46:51.956000Z",
+    "document_label": "FPL_TrapezoidalThread",
+    "document_name": "FPL_TrapezoidalThread",
     "freecad_version": "0.16.6712 (Git) git://github.com/FreeCAD/FreeCAD.git releases/FreeCAD-0-16",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_TrapezoidalThread.FCStd",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FPL_TrapezoidalThread.FCStd",
     "platform": "Windows-8-6.2.9200",
     "python_version": "2.7.8"
   }

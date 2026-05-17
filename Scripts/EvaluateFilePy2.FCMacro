@@ -177,10 +177,6 @@ def analyze_sketch(obj):
     try:
         metrics = {
             "is_valid": report_obj_valid(obj),
-            "fully_constrained": (
-                bool(obj.FullyConstrained) if hasattr(obj, "FullyConstrained") else None
-            ),
-            "degrees_of_freedom": int(getattr(obj, "DoF", -1)),
             "constraint_count": int(getattr(obj, "ConstraintCount", 0)),
             "geometry_count": int(getattr(obj, "GeometryCount", 0)),
         }
@@ -233,7 +229,14 @@ def analyze_pd_feature(obj):
 
 
 def analyze_part_feature(obj):
-    """Analyze a Part:: feature.  Returns an entry dict, or None."""
+    """Analyze a Part:: feature.  Returns an entry dict, or None.
+
+    Records validity, shape type, shell closure, total volume / area, bounding
+    box, center of mass, and Placement.Base. The geometric metrics let the test
+    suite catch regressions where a Part::Feature's visible geometry is the same
+    across versions but its internal coordinates / Placement diverge (see
+    FreeCAD issue #29733 for the canonical case).
+    """
     if not getattr(obj, "TypeId", "").startswith("Part::"):
         return None
     if not hasattr(obj, "Shape"):
@@ -247,6 +250,61 @@ def analyze_part_feature(obj):
                 shells = shape.Shells
                 if shells:
                     metrics["shell_is_closed"] = all(shell.isClosed() for shell in shells)
+            except Exception:
+                pass
+            try:
+                base = shape.Placement.Base
+                metrics["placement_base"] = {
+                    "x": float(base.x),
+                    "y": float(base.y),
+                    "z": float(base.z),
+                }
+            except Exception:
+                pass
+            try:
+                metrics["bounding_box"] = {
+                    "x_min": float(shape.BoundBox.XMin),
+                    "y_min": float(shape.BoundBox.YMin),
+                    "z_min": float(shape.BoundBox.ZMin),
+                    "x_max": float(shape.BoundBox.XMax),
+                    "y_max": float(shape.BoundBox.YMax),
+                    "z_max": float(shape.BoundBox.ZMax),
+                }
+            except Exception:
+                pass
+            try:
+                metrics["total_area_mm2"] = float(shape.Area)
+            except Exception:
+                pass
+            try:
+                solids = get_solids_from_shape(shape)
+                valid_solids = [s for s in solids if is_shape_valid(s)]
+                if valid_solids:
+                    total_volume = sum(float(s.Volume) for s in valid_solids)
+                    metrics["total_volume_mm3"] = total_volume
+                    try:
+                        com = shape.CenterOfMass
+                        metrics["center_of_mass"] = {
+                            "x": float(com.x),
+                            "y": float(com.y),
+                            "z": float(com.z),
+                        }
+                    except AttributeError:
+                        if total_volume > 0:
+                            wx = sum(
+                                float(s.CenterOfMass.x) * float(s.Volume) for s in valid_solids
+                            )
+                            wy = sum(
+                                float(s.CenterOfMass.y) * float(s.Volume) for s in valid_solids
+                            )
+                            wz = sum(
+                                float(s.CenterOfMass.z) * float(s.Volume) for s in valid_solids
+                            )
+                            metrics["center_of_mass"] = {
+                                "x": wx / total_volume,
+                                "y": wy / total_volume,
+                                "z": wz / total_volume,
+                            }
             except Exception:
                 pass
     except Exception:
@@ -412,7 +470,19 @@ def build_report_dict(doc, source_path):
 
 
 def parse_args(argv):
-    """Parse command-line arguments."""
+    """Parse command-line arguments, or read from EVALUATE_FCSTD/EVALUATE_OUT env vars.
+
+    Env-var mode is used by callers that cannot reliably pass non-ASCII paths via
+    the Windows command line (FreeCADCmd's argv parsing mangles UTF-8 in the
+    presence of spaces). When EVALUATE_FCSTD is set we skip argparse entirely.
+    """
+    env_fcstd = os.environ.get("EVALUATE_FCSTD")
+    if env_fcstd:
+        ns = argparse.Namespace()
+        ns.fcstd = env_fcstd
+        ns.out = os.environ.get("EVALUATE_OUT")
+        return ns
+
     parser = argparse.ArgumentParser(
         prog=os.path.basename(argv[1]),
         description="Compute per-object metrics from an FCStd file (Python 2 compatible).",
@@ -445,7 +515,11 @@ def main(argv):
 
     report = build_report_dict(doc, fcstd_path)
 
-    json_text = json.dumps(report, indent=2, sort_keys=True)
+    # Explicit separators: Python 2's json defaults to ", " as the item
+    # separator, which leaves trailing whitespace on every line when indent is
+    # set.  Matching Python 3's indent-mode default keeps the output clean and
+    # identical to EvaluateFile.FCMacro.
+    json_text = json.dumps(report, indent=2, sort_keys=True, separators=(",", ": "))
 
     if args.out:
         out_path = os.path.abspath(args.out)

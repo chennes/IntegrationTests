@@ -51,6 +51,15 @@ PORTABLE_BINARIES: Dict[Tuple[int, int], str] = {
     (1, 1): f"{_P}/FreeCAD-1.1/bin/FreeCADCmd.exe",
 }
 
+# Path to the latest stable release binary (used for "release_eval" runs).
+# Update this when a newer release is published. We use os.path.normpath to
+# ensure all separators are native (backslash on Windows), because FreeCADCmd
+# 1.1.1 mis-parses argv when the exe path mixes \ and / and contains a space.
+import os as _os  # noqa: E402
+
+LATEST_RELEASE_VERSION = "1.1.1"
+LATEST_RELEASE_EXE = _os.path.normpath(f"{_P}/FreeCAD_1.1.1-Windows-x86_64-py311/FreeCADCmd.exe")
+
 
 def parse_version(version_string: str) -> Optional[Tuple[int, int]]:
     """Extract (major, minor) from a FreeCAD ProgramVersion string.

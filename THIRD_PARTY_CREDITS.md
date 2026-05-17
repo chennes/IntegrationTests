@@ -132,3 +132,11 @@ The following files were created by Chris Hennes specifically for this test suit
 | CH_ArcOfEllipse.FCStd   | Sketcher arc of ellipse geometry test   |
 | CH_ArcOfHyperbola.FCStd | Sketcher arc of hyperbola geometry test |
 | CH_ArcOfParabola.FCStd  | Sketcher arc of parabola geometry test  |
+
+## Issue Repros -- Various Authors
+
+These FCStd files were originally attached to FreeCAD GitHub issues and contributed to this test suite by their authors under permissive licenses specifically to guard against the regressions they document.
+
+| Test file                      | Author                      | License | Source                                                                                                                |
+|--------------------------------|-----------------------------|---------|-----------------------------------------------------------------------------------------------------------------------|
+| EW_BrokenExplodeCompound.FCStd | Ed Williams (@edwilliams16) | CC0-1.0 | [FreeCAD issue #29733](https://github.com/FreeCAD/FreeCAD/issues/29733) -- Part::transformShape regression in 1.2-dev |

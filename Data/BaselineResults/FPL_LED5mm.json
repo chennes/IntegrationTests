@@ -5,9 +5,29 @@
       "_source_name": "Cylinder",
       "_source_type_id": "Part::Cylinder",
       "metrics": {
+        "bounding_box": {
+          "x_max": 2.705980500730985,
+          "x_min": -2.705980500730985,
+          "y_max": 2.705980500730985,
+          "y_min": -2.705980500730985,
+          "z_max": 6.2,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 1.7510150504401297e-16,
+          "y": -5.605689717902858e-17,
+          "z": 3.1
+        },
         "is_valid": null,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 136.659280431156,
+        "total_volume_mm3": 121.73671532660448
       }
     },
     {
@@ -15,9 +35,29 @@
       "_source_name": "Sphere",
       "_source_type_id": "Part::Sphere",
       "metrics": {
+        "bounding_box": {
+          "x_max": 2.7059805007309845,
+          "x_min": -2.7059805007309845,
+          "y_max": 2.7059805007309845,
+          "y_min": -2.7059805007309845,
+          "z_max": 8.7,
+          "z_min": 6.199999999999999
+        },
+        "center_of_mass": {
+          "x": 3.22139146376315e-17,
+          "y": 2.992534496428804e-16,
+          "z": 7.1375
+        },
         "is_valid": null,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 6.2
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 58.90455258130012,
+        "total_volume_mm3": 32.72492347489367
       }
     },
     {
@@ -25,9 +65,29 @@
       "_source_name": "Cylinder001",
       "_source_type_id": "Part::Cylinder",
       "metrics": {
+        "bounding_box": {
+          "x_max": 3.1389373808479424,
+          "x_min": -3.1389373808479424,
+          "y_max": 3.1389373808479424,
+          "y_min": -3.1389373808479424,
+          "z_max": 1.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": -2.6893314785792714e-16,
+          "y": 6.651444157523145e-17,
+          "z": 0.49999999999999994
+        },
         "is_valid": null,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 71.06282582420113,
+        "total_volume_mm3": 26.42079421669016
       }
     },
     {
@@ -35,9 +95,29 @@
       "_source_name": "Fusion",
       "_source_type_id": "Part::MultiFuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": 3.1389373808479424,
+          "x_min": -3.1389373808479424,
+          "y_max": 3.1389373808479424,
+          "y_min": -3.1389373808479424,
+          "z_max": 8.7,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 4.406535472435059e-17,
+          "y": 2.3236820841558554e-17,
+          "z": 3.809987498376412
+        },
         "is_valid": null,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 172.37887922896346,
+        "total_volume_mm3": 161.2474789332521
       }
     }
   ],
@@ -161,11 +241,11 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T04:38:33.034000Z",
-    "document_label": "FL_LED5mm",
-    "document_name": "FL_LED5mm",
+    "data_creation_date": "2026-05-12T04:47:24.911000Z",
+    "document_label": "FPL_LED5mm",
+    "document_name": "FPL_LED5mm",
     "freecad_version": "0.16.6712 (Git) git://github.com/FreeCAD/FreeCAD.git releases/FreeCAD-0-16",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_LED5mm.FCStd",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FPL_LED5mm.FCStd",
     "platform": "Windows-8-6.2.9200",
     "python_version": "2.7.8"
   }

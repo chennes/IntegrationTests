@@ -5,9 +5,29 @@
       "_source_name": "Array004",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 46.626188448439684,
+          "x_min": -46.6261884484397,
+          "y_max": 1.7763568394002505e-15,
+          "y_min": -1798.4989468918766,
+          "z_max": 81.00514556499326,
+          "z_min": -1.1928737810479642
+        },
+        "center_of_mass": {
+          "x": -2.823549504053591e-14,
+          "y": -897.5368908157433,
+          "z": 39.00450406098577
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 28372.33999383663,
+        "total_volume_mm3": 29344.12029086415
       }
     },
     {
@@ -15,9 +35,29 @@
       "_source_name": "Array005",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 46.626188448439706,
+          "x_min": -46.62618844843968,
+          "y_max": -201.5010531081235,
+          "y_min": -2000.0000000000002,
+          "z_max": 81.00514556499326,
+          "z_min": -1.1928737810479642
+        },
+        "center_of_mass": {
+          "x": 1.390487305708913e-13,
+          "y": -1102.4631091842564,
+          "z": 39.00450406098575
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 28372.33999383663,
+        "total_volume_mm3": 29344.120290864157
       }
     },
     {
@@ -25,9 +65,29 @@
       "_source_name": "Clone001",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 46.626188448439706,
+          "x_min": -46.626188448439684,
+          "y_max": -201.5010531081235,
+          "y_min": -400.0,
+          "z_max": 81.00514556499326,
+          "z_min": -1.1928737810479642
+        },
+        "center_of_mass": {
+          "x": 8.61583622990795e-14,
+          "y": -302.4631091842566,
+          "z": 39.00450406098577
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": -400.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 5674.467998767328,
+        "total_volume_mm3": 5868.82405817283
       }
     },
     {
@@ -35,9 +95,29 @@
       "_source_name": "Component003",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 72.5,
+          "x_min": -72.5,
+          "y_max": 2.7644553313166398e-14,
+          "y_min": -2000.0000000000002,
+          "z_max": 83.00000000000068,
+          "z_min": -13.75
+        },
+        "center_of_mass": {
+          "x": 1.0251217967925963e-15,
+          "y": -999.9999999999997,
+          "z": 0.8340293007008686
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 855385.7333866514,
+        "total_volume_mm3": 8168776.724686091
       }
     },
     {
@@ -45,9 +125,29 @@
       "_source_name": "Compound003",
       "_source_type_id": "Part::Compound",
       "metrics": {
+        "bounding_box": {
+          "x_max": 72.5,
+          "x_min": -72.5,
+          "y_max": 2.7644553313166398e-14,
+          "y_min": -2000.0000000000002,
+          "z_max": 83.00000000000068,
+          "z_min": -13.75
+        },
+        "center_of_mass": {
+          "x": 1.0251217967925963e-15,
+          "y": -999.9999999999997,
+          "z": 0.8340293007008686
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 855385.7333866514,
+        "total_volume_mm3": 8168776.724686091
       }
     },
     {
@@ -55,9 +155,29 @@
       "_source_name": "Compound004",
       "_source_type_id": "Part::Compound",
       "metrics": {
+        "bounding_box": {
+          "x_max": 46.626188448439684,
+          "x_min": -46.6261884484397,
+          "y_max": 1.7763568394002505e-15,
+          "y_min": -198.49894689187653,
+          "z_max": 81.00514556499326,
+          "z_min": -1.1928737810479642
+        },
+        "center_of_mass": {
+          "x": -2.5755966759550538e-14,
+          "y": -97.53689081574338,
+          "z": 39.00450406098576
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 5674.467998767328,
+        "total_volume_mm3": 5868.8240581728305
       }
     },
     {
@@ -65,9 +185,29 @@
       "_source_name": "Compound005",
       "_source_type_id": "Part::Compound",
       "metrics": {
+        "bounding_box": {
+          "x_max": 72.5,
+          "x_min": -72.5,
+          "y_max": 2.7644553313166398e-14,
+          "y_min": -2000.0000000000002,
+          "z_max": 83.00000000000068,
+          "z_min": -13.75
+        },
+        "center_of_mass": {
+          "x": 1.0251217967925963e-15,
+          "y": -999.9999999999997,
+          "z": 0.8340293007008686
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 855385.7333866514,
+        "total_volume_mm3": 8168776.724686091
       }
     }
   ],
@@ -409,11 +549,11 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T02:38:34.907718+00:00",
-    "document_label": "Precast_Beam_for_Slabs_BIM_Parametric",
-    "document_name": "Precast_Beam_for_Slabs_BIM_Parametric",
+    "data_creation_date": "2026-05-01T20:00:10.707081+00:00",
+    "document_label": "FPL_PrecastBeamParametric",
+    "document_name": "FPL_PrecastBeamParametric",
     "freecad_version": "1.0.2 39319 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Precast_Beam_for_Slabs_BIM_Parametric.FCStd",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FPL_PrecastBeamParametric.FCStd",
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.11.13"
   },

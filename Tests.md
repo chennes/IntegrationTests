@@ -53,3 +53,4 @@
 | FPL_TrapezoidalThread.FCStd               | 2026-04-06 | 0.16                     | Trapezoidal thread with Part Helix, Cylinder, MultiFuse        |
 | FPL_CornerBracket.FCStd                   | 2026-04-07 | 0.21                     | Parametric corner bracket with DatumPlane and Links            |
 | FPL_MicroswitchSPDTVertical.FCStd         | 2026-04-07 | 0.21                     | SPDT microswitch with ShapeBinder cross-body references        |
+| EW_BrokenExplodeCompound.FCStd            | 2026-05-01 | 1.1                      | Compound of two spheres; guards against issue #29733 (Part::transformShape regression in 1.2-dev) |

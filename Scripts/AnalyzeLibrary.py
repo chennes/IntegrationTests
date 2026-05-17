@@ -27,6 +27,7 @@ import subprocess
 import sys
 import tempfile
 import zipfile
+from collections import Counter
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -95,13 +96,27 @@ def extract_fcstd_metadata(path: Path) -> Dict[str, Any]:
                 meta["object_type_counts"][t] = meta["object_type_counts"].get(t, 0) + 1
             meta["object_count"] = len(obj_types)
 
-            # Draft module usage
-            draft_modules = sorted(set(re.findall(r'module="(draftobjects\.\w+)"', content)))
-            meta["draft_modules"] = draft_modules
+            # Draft module usage (modern "draftobjects.<type>" form, FreeCAD >= 0.19).
+            draft_module_hits = re.findall(r'module="(draftobjects\.\w+)"', content)
+            meta["draft_modules"] = sorted(set(draft_module_hits))
+            meta["draft_module_counts"] = dict(Counter(draft_module_hits))
 
-            # Python proxy modules (broader)
-            proxy_modules = sorted(set(re.findall(r'module="(\w+(?:\.\w+)*)"', content)))
-            meta["python_modules"] = proxy_modules
+            # Legacy Draft objects: FreeCAD < 0.19 stored these as module="Draft" with
+            # the concrete type on the class attribute (e.g. class="_Wire", "_Clone").
+            # These show up only as "Draft" in python_modules, so break them out by class.
+            legacy_draft_hits = re.findall(
+                r'<Python\b[^>]*\bmodule="Draft"[^>]*\bclass="(\w+)"', content
+            )
+            legacy_draft_hits += re.findall(
+                r'<Python\b[^>]*\bclass="(\w+)"[^>]*\bmodule="Draft"', content
+            )
+            if legacy_draft_hits:
+                meta["draft_legacy_class_counts"] = dict(Counter(legacy_draft_hits))
+
+            # Python proxy modules (all proxies, not just Draft).
+            proxy_module_hits = re.findall(r'module="(\w+(?:\.\w+)*)"', content)
+            meta["python_modules"] = sorted(set(proxy_module_hits))
+            meta["python_module_counts"] = dict(Counter(proxy_module_hits))
 
     except Exception as e:
         meta["error"] = str(e)

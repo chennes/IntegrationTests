@@ -651,9 +651,29 @@
       "_source_name": "Sweep001",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": 600.0,
+          "x_min": -600.0,
+          "y_max": 300.0,
+          "y_min": -300.0,
+          "z_max": 920.0,
+          "z_min": 899.9999999999998
+        },
+        "center_of_mass": {
+          "x": 1.767934378931131e-12,
+          "y": -142.54237288135727,
+          "z": 910.0000000000002
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 900.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 189600.0000000002,
+        "total_volume_mm3": 943999.9999999716
       }
     },
     {
@@ -661,9 +681,29 @@
       "_source_name": "Extrude039019",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -201.66666666666669,
+          "x_min": -595.0,
+          "y_max": -260.0,
+          "y_min": -275.0,
+          "z_max": 790.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": -398.33333333333337,
+          "y": -267.5,
+          "z": 395.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 656966.6666666665,
+        "total_volume_mm3": 4660999.999999999
       }
     },
     {
@@ -671,9 +711,29 @@
       "_source_name": "Extrude039020",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 600.0,
+          "x_min": -600.0,
+          "y_max": 300.0,
+          "y_min": -260.00000000000006,
+          "z_max": 870.0,
+          "z_min": 70.0
+        },
+        "center_of_mass": {
+          "x": 0.0,
+          "y": 19.999999999999964,
+          "z": 470.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 70.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1900800.0,
+        "total_volume_mm3": 17920000.0
       }
     },
     {
@@ -681,9 +741,29 @@
       "_source_name": "Extrude039021",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 580.0,
+          "x_min": -580.0,
+          "y_max": 285.0,
+          "y_min": -260.0,
+          "z_max": 95.0,
+          "z_min": 70.0
+        },
+        "center_of_mass": {
+          "x": 2.9132252166164114e-15,
+          "y": 12.500000000000009,
+          "z": 82.5
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 70.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1349650.0,
+        "total_volume_mm3": 15805000.0
       }
     },
     {
@@ -691,9 +771,29 @@
       "_source_name": "Extrude039022",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 580.0,
+          "x_min": -580.0,
+          "y_max": 300.0,
+          "y_min": 285.0,
+          "z_max": 870.0,
+          "z_min": 70.0
+        },
+        "center_of_mass": {
+          "x": 2.9132252166164106e-15,
+          "y": 292.5,
+          "z": 470.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 70.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1914800.0,
+        "total_volume_mm3": 13920000.0
       }
     },
     {
@@ -701,9 +801,29 @@
       "_source_name": "PathArray",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 196.66666666666669,
+          "x_min": -595.0,
+          "y_max": -260.0,
+          "y_min": -275.0,
+          "z_max": 865.0,
+          "z_min": 75.0
+        },
+        "center_of_mass": {
+          "x": -199.16666666666663,
+          "y": -267.5,
+          "z": 469.9999999999999
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1313933.333333333,
+        "total_volume_mm3": 9322000.0
       }
     },
     {
@@ -711,9 +831,29 @@
       "_source_name": "Extrude039222",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -218.66666666666669,
+          "x_min": -224.66666666666669,
+          "y_max": -275.0,
+          "y_min": -292.0,
+          "z_max": -47.0,
+          "z_min": -53.0
+        },
+        "center_of_mass": {
+          "x": -221.66666666666666,
+          "y": -283.5,
+          "z": -50.00000000000001
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 376.9911184307752,
+        "total_volume_mm3": 480.6636759992384
       }
     },
     {
@@ -721,9 +861,29 @@
       "_source_name": "Extrude039223",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -216.66666666666669,
+          "x_min": -226.66666666666669,
+          "y_max": -287.0,
+          "y_min": -297.0,
+          "z_max": 60.0,
+          "z_min": -60.0
+        },
+        "center_of_mass": {
+          "x": -221.66666666666669,
+          "y": -292.00000000000006,
+          "z": 6.1760246401301704e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 3926.990816987242,
+        "total_volume_mm3": 9424.77796076937
       }
     },
     {
@@ -731,9 +891,29 @@
       "_source_name": "Fusion003",
       "_source_type_id": "Part::MultiFuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": -216.66666666666669,
+          "x_min": -226.66666666666669,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 60.0,
+          "z_min": -60.0
+        },
+        "center_of_mass": {
+          "x": -221.6666668226542,
+          "y": -291.2558809493542,
+          "z": 9.768704030792822e-06
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4394.732487853553,
+        "total_volume_mm3": 10116.728626265967
       }
     },
     {
@@ -741,9 +921,29 @@
       "_source_name": "Extrude039439",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -221.73268384464882,
+          "x_min": -244.73268384464882,
+          "y_max": -274.99999999999994,
+          "y_min": -300.2807466682572,
+          "z_max": 49.99999999999999,
+          "z_min": -50.00000000000002
+        },
+        "center_of_mass": {
+          "x": -236.8841840057904,
+          "y": -283.6622714664011,
+          "z": -2.294066180319771e-14
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 10379.883239369683,
+        "total_volume_mm3": 18395.526042052334
       }
     },
     {
@@ -751,9 +951,29 @@
       "_source_name": "Sweep003",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": -216.66666666666669,
+          "x_min": -226.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.0,
+          "z_max": 55.0,
+          "z_min": -55.0
+        },
+        "center_of_mass": {
+          "x": -221.66666666666882,
+          "y": -292.2364856810776,
+          "z": -8.477318521734853e-12
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4512.388980376896,
+        "total_volume_mm3": 10924.040342059896
       }
     },
     {
@@ -761,9 +981,29 @@
       "_source_name": "Extrude084143338",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 600.0,
+          "x_min": -600.0,
+          "y_max": 300.0,
+          "y_min": -300.0,
+          "z_max": 900.0,
+          "z_min": 870.0
+        },
+        "center_of_mass": {
+          "x": 9.794447393047718e-15,
+          "y": -2.243736061144672e-15,
+          "z": 885.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 870.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1548000.0,
+        "total_volume_mm3": 21600000.0
       }
     },
     {
@@ -771,9 +1011,29 @@
       "_source_name": "Extrude084143339",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 580.0,
+          "x_min": -580.0,
+          "y_max": 285.0,
+          "y_min": -260.0,
+          "z_max": 707.0,
+          "z_min": 687.0
+        },
+        "center_of_mass": {
+          "x": -1.084921656538142e-14,
+          "y": 12.500000000000005,
+          "z": 697.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1332600.0,
+        "total_volume_mm3": 12644000.0
       }
     },
     {
@@ -781,9 +1041,29 @@
       "_source_name": "PathArray011",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 580.0,
+          "x_min": -580.0,
+          "y_max": 285.0,
+          "y_min": -260.0,
+          "z_max": 707.0,
+          "z_min": 687.0
+        },
+        "center_of_mass": {
+          "x": -1.084921656538142e-14,
+          "y": 12.500000000000005,
+          "z": 697.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1332600.0,
+        "total_volume_mm3": 12644000.0
       }
     },
     {
@@ -791,9 +1071,29 @@
       "_source_name": "Extrude084143340",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -190.0,
+          "x_min": -210.0,
+          "y_max": 285.0,
+          "y_min": -260.0,
+          "z_max": 685.0,
+          "z_min": 95.0
+        },
+        "center_of_mass": {
+          "x": -199.99999999999994,
+          "y": 12.499999999999991,
+          "z": 389.99999999999994
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 688500.0,
+        "total_volume_mm3": 6431000.000000002
       }
     },
     {
@@ -801,9 +1101,29 @@
       "_source_name": "PathArray012",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 210.0,
+          "x_min": -210.0,
+          "y_max": 285.0,
+          "y_min": -260.0,
+          "z_max": 685.0,
+          "z_min": 95.0
+        },
+        "center_of_mass": {
+          "x": 5.560999357057124e-14,
+          "y": 12.499999999999991,
+          "z": 389.99999999999994
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 1377000.0,
+        "total_volume_mm3": 12862000.000000004
       }
     },
     {
@@ -811,9 +1131,29 @@
       "_source_name": "Sweep002",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": 600.0,
+          "x_min": -600.0,
+          "y_max": 300.0,
+          "y_min": -255.0,
+          "z_max": 70.00000000000026,
+          "z_min": -3.797865083234896e-14
+        },
+        "center_of_mass": {
+          "x": -1.0503021105795787e-12,
+          "y": -114.19603524229103,
+          "z": 34.9999999999998
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 411400.00000000023,
+        "total_volume_mm3": 3177999.999999975
       }
     },
     {
@@ -821,9 +1161,29 @@
       "_source_name": "Extrude039440",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 595.0,
+          "x_min": 201.66666666666669,
+          "y_max": -260.0,
+          "y_min": -275.0,
+          "z_max": 193.75,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 398.3333333333333,
+          "y": -267.5,
+          "z": 96.87500000000001
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 170029.16666666663,
+        "total_volume_mm3": 1143125.0
       }
     },
     {
@@ -831,9 +1191,29 @@
       "_source_name": "Extrude084143341",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -201.66666666666669,
+          "x_min": -595.0,
+          "y_max": -260.0,
+          "y_min": -275.0,
+          "z_max": 165.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": -398.33333333333337,
+          "y": -267.5,
+          "z": 82.50000000000001
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 146549.99999999997,
+        "total_volume_mm3": 973500.0
       }
     },
     {
@@ -841,9 +1221,29 @@
       "_source_name": "PathArray013",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 595.0,
+          "x_min": -595.0,
+          "y_max": -260.0,
+          "y_min": -275.0,
+          "z_max": 865.0,
+          "z_min": 700.0
+        },
+        "center_of_mass": {
+          "x": 2.0409054879435243e-14,
+          "y": -267.5,
+          "z": 782.5
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 439649.99999999994,
+        "total_volume_mm3": 2920500.0
       }
     },
     {
@@ -851,9 +1251,29 @@
       "_source_name": "PathArray016",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 453.3333333333334,
+          "x_min": -453.33333333333337,
+          "y_max": -275.0,
+          "y_min": -300.0,
+          "z_max": 825.0,
+          "z_min": 815.0
+        },
+        "center_of_mass": {
+          "x": -8.52544063787438e-12,
+          "y": -292.2364856810882,
+          "z": 820.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 13537.166941149639,
+        "total_volume_mm3": 32772.12102602882
       }
     },
     {
@@ -861,9 +1281,29 @@
       "_source_name": "PathArray017",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 453.3333333333334,
+          "x_min": -453.33333333333337,
+          "y_max": -275.0,
+          "y_min": -300.0,
+          "z_max": 825.0,
+          "z_min": 815.0
+        },
+        "center_of_mass": {
+          "x": -8.52544063787438e-12,
+          "y": -292.2364856810882,
+          "z": 820.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 13537.166941149639,
+        "total_volume_mm3": 32772.12102602882
       }
     },
     {
@@ -871,8 +1311,22 @@
       "_source_name": "Clone2D001",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -181.66666666666669,
+          "y_max": -275.0,
+          "y_min": -275.0,
+          "z_max": 55.0,
+          "z_min": 45.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -176.66666666666669,
+          "y": -275.0,
+          "z": 50.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -880,8 +1334,22 @@
       "_source_name": "Clone2D002",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -176.66666666666666,
+          "x_min": -176.66666666666669,
+          "y_max": -275.0,
+          "y_min": -295.0,
+          "z_max": 50.0,
+          "z_min": -50.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -176.66666666666669,
+          "y": -275.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -889,9 +1357,29 @@
       "_source_name": "Sweep",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -181.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.0,
+          "z_max": 55.0,
+          "z_min": -55.0
+        },
+        "center_of_mass": {
+          "x": -176.66666666666657,
+          "y": -292.2364856810883,
+          "z": 8.466828233489705e-12
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4512.3889803837765,
+        "total_volume_mm3": 10924.040342008691
       }
     },
     {
@@ -899,8 +1387,22 @@
       "_source_name": "Clone2D003",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 453.33333333333337,
+          "x_min": 443.33333333333337,
+          "y_max": -275.0,
+          "y_min": -275.0,
+          "z_max": 5.0,
+          "z_min": -5.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": 448.33333333333337,
+          "y": -275.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -908,8 +1410,22 @@
       "_source_name": "Clone2D004",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 448.33333333333337,
+          "x_min": 348.33333333333337,
+          "y_max": -275.0,
+          "y_min": -295.0,
+          "z_max": 0.0,
+          "z_min": 0.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": 398.33333333333337,
+          "y": -275.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -917,9 +1433,29 @@
       "_source_name": "Sweep005",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": 453.33333333333337,
+          "x_min": 343.3333333333333,
+          "y_max": -275.0,
+          "y_min": -300.0,
+          "z_max": 5.0,
+          "z_min": -5.0
+        },
+        "center_of_mass": {
+          "x": 398.33333333334036,
+          "y": -292.2364856810881,
+          "z": 8.840949536951508e-14
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4512.388980383207,
+        "total_volume_mm3": 10924.040342010014
       }
     },
     {
@@ -927,9 +1463,29 @@
       "_source_name": "PathArray022",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 453.33333333333337,
+          "x_min": 343.3333333333333,
+          "y_max": -274.9999999999999,
+          "y_min": -300.0,
+          "z_max": 791.25,
+          "z_min": 185.0
+        },
+        "center_of_mass": {
+          "x": 398.3333333333404,
+          "y": -292.236485681088,
+          "z": 488.1250000000003
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 18049.555921532825,
+        "total_volume_mm3": 43696.16136804009
       }
     },
     {
@@ -937,9 +1493,29 @@
       "_source_name": "PathArray024",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 448.33333333333337,
+          "x_min": -448.33333333333337,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 820.0,
+          "z_min": 797.0
+        },
+        "center_of_mass": {
+          "x": 1.0125533485549333e-13,
+          "y": -283.6622714664011,
+          "z": 812.1515001611418
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 31139.649718109053,
+        "total_volume_mm3": 55186.578126157
       }
     },
     {
@@ -947,9 +1523,29 @@
       "_source_name": "PathArray025",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 448.33333333333337,
+          "x_min": -448.33333333333337,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 820.0,
+          "z_min": 797.0
+        },
+        "center_of_mass": {
+          "x": 1.0125533485549333e-13,
+          "y": -283.6622714664011,
+          "z": 812.1515001611418
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 31139.649718109053,
+        "total_volume_mm3": 55186.578126157
       }
     },
     {
@@ -957,8 +1553,22 @@
       "_source_name": "Clone2D005",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 398.33333333333337,
+          "x_min": 398.33333333333337,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 3.774758283725532e-15,
+          "z_min": -23.000000000000004
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": 398.33333333333337,
+          "y": -275.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -966,9 +1576,29 @@
       "_source_name": "Extrude084143342",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 448.33333333333337,
+          "x_min": 348.33333333333337,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 3.774758283725532e-15,
+          "z_min": -23.000000000000004
+        },
+        "center_of_mass": {
+          "x": 398.33333333333337,
+          "y": -283.6622714664009,
+          "z": -7.848499838858333
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 10379.883239369683,
+        "total_volume_mm3": 18395.526042052337
       }
     },
     {
@@ -976,9 +1606,29 @@
       "_source_name": "PathArray029",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 448.33333333333337,
+          "x_min": 348.33333333333337,
+          "y_max": -274.9999999999999,
+          "y_min": -300.2807466682572,
+          "z_max": 786.25,
+          "z_min": 167.0
+        },
+        "center_of_mass": {
+          "x": 398.3333333333333,
+          "y": -283.6622714664011,
+          "z": 480.2765001611416
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 41519.53295747872,
+        "total_volume_mm3": 73582.10416820933
       }
     },
     {
@@ -986,8 +1636,22 @@
       "_source_name": "Clone2D006",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -218.66666666666669,
+          "x_min": -224.66666666666669,
+          "y_max": -275.0,
+          "y_min": -275.0,
+          "z_max": 53.0,
+          "z_min": 47.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -221.66666666666669,
+          "y": -275.0,
+          "z": 50.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -995,9 +1659,29 @@
       "_source_name": "Extrude084143343",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -218.66666666666669,
+          "x_min": -224.66666666666669,
+          "y_max": -275.0,
+          "y_min": -292.0,
+          "z_max": 53.0,
+          "z_min": 47.0
+        },
+        "center_of_mass": {
+          "x": -221.66666666666666,
+          "y": -283.5,
+          "z": 50.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 376.9911184307752,
+        "total_volume_mm3": 480.6636759992384
       }
     },
     {
@@ -1005,9 +1689,29 @@
       "_source_name": "PathArray031",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 458.33333333333337,
+          "x_min": -458.33333333333337,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 825.0,
+          "z_min": 815.0
+        },
+        "center_of_mass": {
+          "x": 9.773075178377086e-06,
+          "y": -291.25588094938536,
+          "z": 820.0000001559332
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 13184.197464320012,
+        "total_volume_mm3": 30350.185882624173
       }
     },
     {
@@ -1015,9 +1719,29 @@
       "_source_name": "PathArray032",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 458.33333333333337,
+          "x_min": -458.33333333333337,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 825.0,
+          "z_min": 815.0
+        },
+        "center_of_mass": {
+          "x": 9.773075178377086e-06,
+          "y": -291.25588094938536,
+          "z": 820.0000001559332
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 13184.197464320012,
+        "total_volume_mm3": 30350.185882624173
       }
     },
     {
@@ -1025,8 +1749,22 @@
       "_source_name": "Clone2D008",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -173.66666666666669,
+          "x_min": -179.66666666666669,
+          "y_max": -275.0,
+          "y_min": -275.0,
+          "z_max": -47.0,
+          "z_min": -53.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -176.66666666666669,
+          "y": -275.0,
+          "z": -50.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -1034,9 +1772,29 @@
       "_source_name": "Extrude084143347",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -173.66666666666669,
+          "x_min": -179.66666666666669,
+          "y_max": -275.0,
+          "y_min": -292.0,
+          "z_max": 53.0,
+          "z_min": 47.0
+        },
+        "center_of_mass": {
+          "x": -176.66666666666666,
+          "y": -283.49999999999994,
+          "z": 50.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 376.9911184307752,
+        "total_volume_mm3": 480.6636759992385
       }
     },
     {
@@ -1044,9 +1802,29 @@
       "_source_name": "Extrude084143348",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -181.66666666666669,
+          "y_max": -287.0,
+          "y_min": -297.0,
+          "z_max": 60.0,
+          "z_min": -60.0
+        },
+        "center_of_mass": {
+          "x": -176.66666666666669,
+          "y": -292.0,
+          "z": -6.1760246401301704e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 3926.990816987242,
+        "total_volume_mm3": 9424.77796076937
       }
     },
     {
@@ -1054,9 +1832,29 @@
       "_source_name": "Extrude084143349",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -173.66666666666669,
+          "x_min": -179.66666666666669,
+          "y_max": -275.0,
+          "y_min": -292.0,
+          "z_max": -47.0,
+          "z_min": -53.0
+        },
+        "center_of_mass": {
+          "x": -176.66666666666666,
+          "y": -283.49999999999994,
+          "z": -50.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 376.9911184307752,
+        "total_volume_mm3": 480.6636759992385
       }
     },
     {
@@ -1064,9 +1862,29 @@
       "_source_name": "Fusion005",
       "_source_type_id": "Part::MultiFuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -181.66666666666669,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 60.0,
+          "z_min": -60.0
+        },
+        "center_of_mass": {
+          "x": -176.66666651068434,
+          "y": -291.25588094934966,
+          "z": -9.76759298539672e-06
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4394.732487736737,
+        "total_volume_mm3": 10116.728625974123
       }
     },
     {
@@ -1074,8 +1892,22 @@
       "_source_name": "Clone2D009",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 451.33333333333337,
+          "x_min": 445.33333333333337,
+          "y_max": -275.0,
+          "y_min": -275.0,
+          "z_max": 3.0,
+          "z_min": -3.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": 448.33333333333337,
+          "y": -275.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -1083,9 +1915,29 @@
       "_source_name": "Extrude084143350",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 351.33333333333337,
+          "x_min": 345.33333333333337,
+          "y_max": -275.0,
+          "y_min": -292.0,
+          "z_max": 3.0000000000000036,
+          "z_min": -3.0
+        },
+        "center_of_mass": {
+          "x": 348.33333333333337,
+          "y": -283.49999999999994,
+          "z": 1.988225533739078e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 376.9911184307752,
+        "total_volume_mm3": 480.66367599923797
       }
     },
     {
@@ -1093,9 +1945,29 @@
       "_source_name": "Extrude084143351",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 458.33333333333337,
+          "x_min": 338.33333333333337,
+          "y_max": -287.0,
+          "y_min": -297.0,
+          "z_max": 5.000000000000013,
+          "z_min": -5.000000000000013
+        },
+        "center_of_mass": {
+          "x": 398.33333333333337,
+          "y": -292.0,
+          "z": 1.1097544275233897e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 3926.990816987242,
+        "total_volume_mm3": 9424.777960769372
       }
     },
     {
@@ -1103,9 +1975,29 @@
       "_source_name": "Extrude084143352",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 451.33333333333337,
+          "x_min": 445.33333333333337,
+          "y_max": -275.0,
+          "y_min": -292.0,
+          "z_max": 3.0000000000000036,
+          "z_min": -3.0
+        },
+        "center_of_mass": {
+          "x": 448.33333333333337,
+          "y": -283.49999999999994,
+          "z": 1.9543020524310873e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 376.9911184307752,
+        "total_volume_mm3": 480.66367599923797
       }
     },
     {
@@ -1113,9 +2005,29 @@
       "_source_name": "Fusion006",
       "_source_type_id": "Part::MultiFuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": 458.33333333333337,
+          "x_min": 338.33333333333337,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 5.000000000000013,
+          "z_min": -5.000000000000013
+        },
+        "center_of_mass": {
+          "x": 398.3333431064087,
+          "y": -291.2558809493854,
+          "z": 1.5593336643139984e-07
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4394.7324881066725,
+        "total_volume_mm3": 10116.728627541383
       }
     },
     {
@@ -1123,9 +2035,29 @@
       "_source_name": "PathArray037",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 458.33333333333337,
+          "x_min": 338.33333333333337,
+          "y_max": -274.9999999999999,
+          "y_min": -297.0,
+          "z_max": 791.25,
+          "z_min": 184.99999999999997
+        },
+        "center_of_mass": {
+          "x": 398.3333431064085,
+          "y": -291.2558809493854,
+          "z": 488.1250001559334
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 17578.929952426686,
+        "total_volume_mm3": 40466.91451016556
       }
     },
     {
@@ -1133,9 +2065,29 @@
       "_source_name": "PathArray038",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 595.0,
+          "x_min": 201.66666666666669,
+          "y_max": -259.9999999999999,
+          "y_min": -275.0,
+          "z_max": 865.0,
+          "z_min": 75.0
+        },
+        "center_of_mass": {
+          "x": 398.3333333333333,
+          "y": -267.49999999999994,
+          "z": 470.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 680116.6666666665,
+        "total_volume_mm3": 4572500.0
       }
     },
     {
@@ -1143,9 +2095,29 @@
       "_source_name": "Extrude084143353",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 600.0,
+          "x_min": -600.0,
+          "y_max": 255.0,
+          "y_min": -255.0,
+          "z_max": 70.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 3.778251785509686e-15,
+          "y": 0.0,
+          "z": 35.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 437600.0,
+        "total_volume_mm3": 3360000.0
       }
     },
     {
@@ -1153,9 +2125,29 @@
       "_source_name": "Compound",
       "_source_type_id": "Part::Compound",
       "metrics": {
+        "bounding_box": {
+          "x_max": 530.0,
+          "x_min": -530.0,
+          "y_max": 260.0,
+          "y_min": -260.0,
+          "z_max": 70.00000000000006,
+          "z_min": 34.99999999999995
+        },
+        "center_of_mass": {
+          "x": 3.673776325987321e-13,
+          "y": 2.561045996481546e-14,
+          "z": 52.75504205603584
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 328980.52686528256,
+        "total_volume_mm3": 2109165.9189998065
       }
     },
     {
@@ -1163,9 +2155,29 @@
       "_source_name": "Compound001",
       "_source_type_id": "Part::Compound",
       "metrics": {
+        "bounding_box": {
+          "x_max": 563.4024230294513,
+          "x_min": -563.4024230294544,
+          "y_max": 265.00000000001086,
+          "y_min": -265.00000000001154,
+          "z_max": 70.00000000010041,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 1.4914655467923679e-10,
+          "y": 8.585456751049782e-14,
+          "z": 44.07291747959922
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 36586.87060627455,
+        "total_volume_mm3": 216953.53004989552
       }
     },
     {
@@ -1173,9 +2185,29 @@
       "_source_name": "Extrude084143354",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 530.0,
+          "x_min": -530.0,
+          "y_max": 260.0,
+          "y_min": -260.0,
+          "z_max": 70.0,
+          "z_min": 35.0
+        },
+        "center_of_mass": {
+          "x": 5.098764313099232e-15,
+          "y": 2.0395057252396927e-14,
+          "z": 52.755042056035805
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 226857.96176073133,
+        "total_volume_mm3": 1461252.2053201296
       }
     },
     {
@@ -1183,9 +2215,29 @@
       "_source_name": "Extrude084143355",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 530.0,
+          "x_min": -530.0,
+          "y_max": 235.00000000000003,
+          "y_min": -235.0,
+          "z_max": 70.00000000000006,
+          "z_min": 34.99999999999995
+        },
+        "center_of_mass": {
+          "x": 1.1959314422894938e-12,
+          "y": 3.737285757154668e-14,
+          "z": 52.7550420560359
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 102122.56510455119,
+        "total_volume_mm3": 647913.7136796769
       }
     },
     {
@@ -1193,9 +2245,29 @@
       "_source_name": "Loft",
       "_source_type_id": "Part::Loft",
       "metrics": {
+        "bounding_box": {
+          "x_max": -488.1951539404901,
+          "x_min": -563.4024230294544,
+          "y_max": -234.99999999999196,
+          "y_min": -265.00000000001154,
+          "z_max": 70.00000000010041,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": -530.4635412602058,
+          "y": -250.00000000000017,
+          "z": 44.07291747960424
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 9146.717651567038,
+        "total_volume_mm3": 54238.3825124587
       }
     },
     {
@@ -1203,9 +2275,29 @@
       "_source_name": "Loft001",
       "_source_type_id": "Part::Loft",
       "metrics": {
+        "bounding_box": {
+          "x_max": -488.19515394091763,
+          "x_min": -563.4024230294224,
+          "y_max": 265.00000000000216,
+          "y_min": 234.9999999999967,
+          "z_max": 70.00000000001998,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": -530.463541260206,
+          "y": 249.9999999999999,
+          "z": 44.07291747960427
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 9146.717651567,
+        "total_volume_mm3": 54238.38251245825
       }
     },
     {
@@ -1213,9 +2305,29 @@
       "_source_name": "Loft002",
       "_source_type_id": "Part::Loft",
       "metrics": {
+        "bounding_box": {
+          "x_max": 563.4024230294513,
+          "x_min": 488.1951539406456,
+          "y_max": -235.0,
+          "y_min": -265.0,
+          "z_max": 70.00000000008531,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 530.463541260203,
+          "y": -250.00000000000003,
+          "z": 44.07291747959424
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 9146.717651570218,
+        "total_volume_mm3": 54238.38251248898
       }
     },
     {
@@ -1223,9 +2335,29 @@
       "_source_name": "Loft003",
       "_source_type_id": "Part::Loft",
       "metrics": {
+        "bounding_box": {
+          "x_max": 563.4024230294134,
+          "x_min": 488.1951539409997,
+          "y_max": 265.00000000001086,
+          "y_min": 234.99999999998892,
+          "z_max": 70.0000000000395,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 530.4635412602028,
+          "y": 249.99999999999997,
+          "z": 44.07291747959417
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 9146.717651570292,
+        "total_volume_mm3": 54238.38251248958
       }
     },
     {
@@ -1233,9 +2365,29 @@
       "_source_name": "PathArray039",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 595.0,
+          "x_min": -595.0,
+          "y_max": -260.0,
+          "y_min": -275.0,
+          "z_max": 865.0,
+          "z_min": 700.0
+        },
+        "center_of_mass": {
+          "x": 2.0409054879435243e-14,
+          "y": -267.5,
+          "z": 782.5
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 439649.99999999994,
+        "total_volume_mm3": 2920500.0
       }
     },
     {
@@ -1243,8 +2395,22 @@
       "_source_name": "Clone2D010",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -348.33333333333337,
+          "x_min": -448.33333333333337,
+          "y_max": -275.0,
+          "y_min": -295.0,
+          "z_max": 0.0,
+          "z_min": 0.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -398.33333333333337,
+          "y": -275.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -1252,8 +2418,22 @@
       "_source_name": "Clone2D011",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -443.33333333333337,
+          "x_min": -453.33333333333337,
+          "y_max": -275.0,
+          "y_min": -275.0,
+          "z_max": 5.0,
+          "z_min": -5.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -448.33333333333337,
+          "y": -275.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -1261,9 +2441,29 @@
       "_source_name": "Sweep006",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": -343.3333333333333,
+          "x_min": -453.33333333333337,
+          "y_max": -275.0,
+          "y_min": -300.0,
+          "z_max": 5.0,
+          "z_min": -5.0
+        },
+        "center_of_mass": {
+          "x": -398.33333333334184,
+          "y": -292.2364856810882,
+          "z": -5.971382018790376e-14
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4512.388980383214,
+        "total_volume_mm3": 10924.040342009592
       }
     },
     {
@@ -1271,8 +2471,22 @@
       "_source_name": "Clone2D014",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -345.33333333333337,
+          "x_min": -351.33333333333337,
+          "y_max": -275.0,
+          "y_min": -275.0,
+          "z_max": 3.0,
+          "z_min": -3.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -348.33333333333337,
+          "y": -275.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -1280,9 +2494,29 @@
       "_source_name": "Extrude084143356",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -445.33333333333337,
+          "x_min": -451.33333333333337,
+          "y_max": -275.0,
+          "y_min": -292.0,
+          "z_max": 3.0000000000000036,
+          "z_min": -3.0
+        },
+        "center_of_mass": {
+          "x": -448.3333333333333,
+          "y": -283.49999999999994,
+          "z": 1.988225533739078e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 376.9911184307752,
+        "total_volume_mm3": 480.66367599923797
       }
     },
     {
@@ -1290,9 +2524,29 @@
       "_source_name": "Extrude084143357",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -338.33333333333337,
+          "x_min": -458.33333333333337,
+          "y_max": -287.0,
+          "y_min": -297.0,
+          "z_max": 5.000000000000013,
+          "z_min": -5.000000000000013
+        },
+        "center_of_mass": {
+          "x": -398.33333333333337,
+          "y": -291.99999999999994,
+          "z": 1.4716308712810165e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 3926.990816987242,
+        "total_volume_mm3": 9424.777960769374
       }
     },
     {
@@ -1300,9 +2554,29 @@
       "_source_name": "Extrude084143358",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -345.33333333333337,
+          "x_min": -351.33333333333337,
+          "y_max": -275.0,
+          "y_min": -292.0,
+          "z_max": 3.0000000000000036,
+          "z_min": -3.0
+        },
+        "center_of_mass": {
+          "x": -348.33333333333337,
+          "y": -283.49999999999994,
+          "z": 1.9543020524310873e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 376.9911184307752,
+        "total_volume_mm3": 480.66367599923797
       }
     },
     {
@@ -1310,9 +2584,29 @@
       "_source_name": "Fusion007",
       "_source_type_id": "Part::MultiFuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": -338.33333333333337,
+          "x_min": -458.33333333333337,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 5.000000000000013,
+          "z_min": -5.000000000000013
+        },
+        "center_of_mass": {
+          "x": -398.3333235602581,
+          "y": -291.25588094938536,
+          "z": 1.5593336608444172e-07
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4394.7324881066725,
+        "total_volume_mm3": 10116.728627541383
       }
     },
     {
@@ -1320,9 +2614,29 @@
       "_source_name": "Extrude084143359",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -348.33333333333337,
+          "x_min": -448.33333333333337,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 3.774758283725532e-15,
+          "z_min": -23.000000000000004
+        },
+        "center_of_mass": {
+          "x": -398.33333333333337,
+          "y": -283.66227146640097,
+          "z": -7.848499838858335
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 10379.883239369683,
+        "total_volume_mm3": 18395.526042052334
       }
     },
     {
@@ -1330,9 +2644,29 @@
       "_source_name": "Extrude",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -153.66666666666669,
+          "x_min": -176.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 50.0,
+          "z_min": -50.0
+        },
+        "center_of_mass": {
+          "x": -161.51516650552497,
+          "y": -283.66227146640114,
+          "z": -1.5821146071170837e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 10379.883239369683,
+        "total_volume_mm3": 18395.52604205233
       }
     },
     {
@@ -1340,8 +2674,22 @@
       "_source_name": "Clone2D",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -153.66666666666669,
+          "x_min": -176.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 0.0,
+          "z_min": 0.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -153.66666666666669,
+          "y": -275.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -1349,9 +2697,29 @@
       "_source_name": "Extrude084143360",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": 600.0,
+          "x_min": -600.0,
+          "y_max": 300.0,
+          "y_min": 285.0,
+          "z_max": 950.0,
+          "z_min": 900.0
+        },
+        "center_of_mass": {
+          "x": 1.655684577094184e-14,
+          "y": 292.5,
+          "z": 925.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 157500.0,
+        "total_volume_mm3": 900000.0
       }
     },
     {
@@ -1359,9 +2727,29 @@
       "_source_name": "Cut",
       "_source_type_id": "Part::Cut",
       "metrics": {
+        "bounding_box": {
+          "x_max": 600.0,
+          "x_min": -600.0,
+          "y_max": 285.0,
+          "y_min": -300.0,
+          "z_max": 920.0000000000001,
+          "z_min": 899.9999999999998
+        },
+        "center_of_mass": {
+          "x": 2.3622817235955516e-12,
+          "y": -148.14377682403568,
+          "z": 909.9999999999997
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 187200.0000000002,
+        "total_volume_mm3": 931999.9999999733
       }
     },
     {
@@ -1369,9 +2757,29 @@
       "_source_name": "Compound004",
       "_source_type_id": "Part::Compound",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -226.66666666666669,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 60.0,
+          "z_min": -60.0
+        },
+        "center_of_mass": {
+          "x": -199.1666666669938,
+          "y": -291.25588094935193,
+          "z": 5.555228389453669e-10
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 8789.464975590288,
+        "total_volume_mm3": 20233.457252240092
       }
     },
     {
@@ -1379,9 +2787,29 @@
       "_source_name": "PathArray041",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -226.66666666666669,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 660.0,
+          "z_min": 540.0
+        },
+        "center_of_mass": {
+          "x": -199.16666666699376,
+          "y": -291.2558809493519,
+          "z": 600.0000000005555
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 8789.464975590288,
+        "total_volume_mm3": 20233.457252240096
       }
     },
     {
@@ -1389,8 +2817,22 @@
       "_source_name": "Clone2D015",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -173.66666666666669,
+          "x_min": -179.66666666666669,
+          "y_max": -275.0,
+          "y_min": -275.0,
+          "z_max": -47.0,
+          "z_min": -53.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -176.66666666666669,
+          "y": -275.0,
+          "z": -50.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -1398,9 +2840,29 @@
       "_source_name": "Extrude084143361",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -173.66666666666669,
+          "x_min": -179.66666666666669,
+          "y_max": -275.0,
+          "y_min": -292.0,
+          "z_max": 53.0,
+          "z_min": 47.0
+        },
+        "center_of_mass": {
+          "x": -176.66666666666666,
+          "y": -283.49999999999994,
+          "z": 50.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 376.9911184307752,
+        "total_volume_mm3": 480.6636759992385
       }
     },
     {
@@ -1408,9 +2870,29 @@
       "_source_name": "Extrude084143362",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -181.66666666666669,
+          "y_max": -287.0,
+          "y_min": -297.0,
+          "z_max": 60.0,
+          "z_min": -60.0
+        },
+        "center_of_mass": {
+          "x": -176.66666666666669,
+          "y": -292.0,
+          "z": -6.1760246401301704e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 3926.990816987242,
+        "total_volume_mm3": 9424.77796076937
       }
     },
     {
@@ -1418,9 +2900,29 @@
       "_source_name": "Extrude084143363",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -173.66666666666669,
+          "x_min": -179.66666666666669,
+          "y_max": -275.0,
+          "y_min": -292.0,
+          "z_max": -47.0,
+          "z_min": -53.0
+        },
+        "center_of_mass": {
+          "x": -176.66666666666666,
+          "y": -283.49999999999994,
+          "z": -50.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 376.9911184307752,
+        "total_volume_mm3": 480.6636759992385
       }
     },
     {
@@ -1428,9 +2930,29 @@
       "_source_name": "Fusion008",
       "_source_type_id": "Part::MultiFuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -181.66666666666669,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 60.0,
+          "z_min": -60.0
+        },
+        "center_of_mass": {
+          "x": -176.66666651068434,
+          "y": -291.25588094934966,
+          "z": -9.76759298539672e-06
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4394.732487736737,
+        "total_volume_mm3": 10116.728625974123
       }
     },
     {
@@ -1438,9 +2960,29 @@
       "_source_name": "Compound005",
       "_source_type_id": "Part::Compound",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -226.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.0,
+          "z_max": 55.0,
+          "z_min": -55.0
+        },
+        "center_of_mass": {
+          "x": -199.1666666667204,
+          "y": -292.23648568108297,
+          "z": -5.245144142429787e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 9024.77796076067,
+        "total_volume_mm3": 21848.080684068587
       }
     },
     {
@@ -1448,9 +2990,29 @@
       "_source_name": "PathArray043",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -226.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.0,
+          "z_max": 655.0,
+          "z_min": 545.0
+        },
+        "center_of_mass": {
+          "x": -199.16666666672052,
+          "y": -292.23648568108297,
+          "z": 600.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 9024.77796076067,
+        "total_volume_mm3": 21848.080684068584
       }
     },
     {
@@ -1458,8 +3020,22 @@
       "_source_name": "Clone2D016",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -181.66666666666669,
+          "y_max": -275.0,
+          "y_min": -275.0,
+          "z_max": 55.0,
+          "z_min": 45.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -176.66666666666669,
+          "y": -275.0,
+          "z": 50.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -1467,8 +3043,22 @@
       "_source_name": "Clone2D017",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -176.66666666666666,
+          "x_min": -176.66666666666669,
+          "y_max": -275.0,
+          "y_min": -295.0,
+          "z_max": 50.0,
+          "z_min": -50.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -176.66666666666669,
+          "y": -275.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -1476,9 +3066,29 @@
       "_source_name": "Sweep008",
       "_source_type_id": "Part::Sweep",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -181.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.0,
+          "z_max": 55.0,
+          "z_min": -55.0
+        },
+        "center_of_mass": {
+          "x": -176.66666666666657,
+          "y": -292.2364856810883,
+          "z": 8.466828233489705e-12
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4512.3889803837765,
+        "total_volume_mm3": 10924.040342008691
       }
     },
     {
@@ -1486,9 +3096,29 @@
       "_source_name": "Compound006",
       "_source_type_id": "Part::Compound",
       "metrics": {
+        "bounding_box": {
+          "x_max": -153.66666666666669,
+          "x_min": -244.73268384464882,
+          "y_max": -274.99999999999994,
+          "y_min": -300.2807466682572,
+          "z_max": 50.0,
+          "z_min": -50.00000000000002
+        },
+        "center_of_mass": {
+          "x": -199.19967525565767,
+          "y": -283.6622714664011,
+          "z": -1.2261388205157396e-14
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 20759.766478739366,
+        "total_volume_mm3": 36791.05208410467
       }
     },
     {
@@ -1496,9 +3126,29 @@
       "_source_name": "PathArray045",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -153.66666666666669,
+          "x_min": -244.73268384464882,
+          "y_max": -274.99999999999994,
+          "y_min": -300.2807466682572,
+          "z_max": 650.0,
+          "z_min": 550.0
+        },
+        "center_of_mass": {
+          "x": -199.1996752556577,
+          "y": -283.66227146640114,
+          "z": 600.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 20759.766478739366,
+        "total_volume_mm3": 36791.05208410466
       }
     },
     {
@@ -1506,8 +3156,22 @@
       "_source_name": "Clone2D018",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -153.66666666666669,
+          "x_min": -176.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 0.0,
+          "z_min": 0.0
+        },
         "is_valid": true,
-        "shape_type": "Wire"
+        "placement_base": {
+          "x": -153.66666666666669,
+          "y": -275.0,
+          "z": 0.0
+        },
+        "shape_type": "Wire",
+        "total_area_mm2": 0.0
       }
     },
     {
@@ -1515,9 +3179,29 @@
       "_source_name": "Extrude084143364",
       "_source_type_id": "Part::Extrusion",
       "metrics": {
+        "bounding_box": {
+          "x_max": -153.66666666666669,
+          "x_min": -176.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 50.0,
+          "z_min": -50.0
+        },
+        "center_of_mass": {
+          "x": -161.51516650552497,
+          "y": -283.66227146640114,
+          "z": -1.5821146071170837e-15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 10379.883239369683,
+        "total_volume_mm3": 18395.52604205233
       }
     },
     {
@@ -1525,9 +3209,29 @@
       "_source_name": "Clone",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -181.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.0,
+          "z_max": 655.0,
+          "z_min": 545.0
+        },
+        "center_of_mass": {
+          "x": -176.66666666666663,
+          "y": -292.23648568108825,
+          "z": 600.0000000000084
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 600.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4512.3889803837765,
+        "total_volume_mm3": 10924.040342008693
       }
     },
     {
@@ -1535,9 +3239,29 @@
       "_source_name": "Clone001",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -153.66666666666669,
+          "x_min": -176.66666666666669,
+          "y_max": -275.0,
+          "y_min": -300.2807466682572,
+          "z_max": 650.0,
+          "z_min": 550.0
+        },
+        "center_of_mass": {
+          "x": -161.51516650552497,
+          "y": -283.66227146640114,
+          "z": 600.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 600.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 10379.883239369683,
+        "total_volume_mm3": 18395.52604205233
       }
     },
     {
@@ -1545,9 +3269,29 @@
       "_source_name": "Clone002",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": -171.66666666666669,
+          "x_min": -181.66666666666669,
+          "y_max": -275.0,
+          "y_min": -297.0,
+          "z_max": 660.0,
+          "z_min": 540.0
+        },
+        "center_of_mass": {
+          "x": -176.66666651068428,
+          "y": -291.25588094934966,
+          "z": 599.9999902324071
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 600.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 4394.732487736737,
+        "total_volume_mm3": 10116.728625974125
       }
     },
     {
@@ -1555,8 +3299,22 @@
       "_source_name": "Shape2DView",
       "_source_type_id": "Part::Part2DObjectPython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 600.0,
+          "x_min": -600.0,
+          "y_max": 300.0,
+          "y_min": -300.0,
+          "z_max": 0.0,
+          "z_min": 0.0
+        },
         "is_valid": true,
-        "shape_type": "Compound"
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "total_area_mm2": 0.0
       }
     }
   ],
@@ -2354,11 +4112,11 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T02:37:11.533313+00:00",
-    "document_label": "Draft_Kitchen_cabinet_base",
-    "document_name": "Draft_Kitchen_cabinet_base",
+    "data_creation_date": "2026-05-01T19:59:40.999361+00:00",
+    "document_label": "FPL_KitchenCabinetBase",
+    "document_name": "FPL_KitchenCabinetBase",
     "freecad_version": "1.0.2 39319 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\Draft_Kitchen_cabinet_base.FCStd",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FPL_KitchenCabinetBase.FCStd",
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.11.13"
   },

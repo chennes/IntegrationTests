@@ -5,9 +5,29 @@
       "_source_name": "Box",
       "_source_type_id": "Part::Box",
       "metrics": {
+        "bounding_box": {
+          "x_max": 11.8,
+          "x_min": 0.0,
+          "y_max": 22.5,
+          "y_min": 0.0,
+          "z_max": 22.7,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 5.9,
+          "y": 11.250000000000002,
+          "z": 11.350000000000001
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 2088.2199999999993,
+        "total_volume_mm3": 6026.849999999999
       }
     },
     {
@@ -15,9 +35,29 @@
       "_source_name": "Box001",
       "_source_type_id": "Part::Box",
       "metrics": {
+        "bounding_box": {
+          "x_max": 11.8,
+          "x_min": 0.0,
+          "y_max": 27.7,
+          "y_min": -4.7,
+          "z_max": 18.4,
+          "z_min": 15.9
+        },
+        "center_of_mass": {
+          "x": 5.900000000000001,
+          "y": 11.5,
+          "z": 17.15
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": -4.7,
+          "z": 15.9
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 985.6399999999999,
+        "total_volume_mm3": 955.7999999999997
       }
     },
     {
@@ -25,9 +65,29 @@
       "_source_name": "Fusion",
       "_source_type_id": "Part::Fuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": 11.8,
+          "x_min": 0.0,
+          "y_max": 27.7,
+          "y_min": -4.7,
+          "z_max": 22.7,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 5.900000000000001,
+          "y": 11.287815126050422,
+          "z": 11.618067226890757
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 2371.36,
+        "total_volume_mm3": 6318.900000000001
       }
     },
     {
@@ -35,9 +95,29 @@
       "_source_name": "Cylinder",
       "_source_type_id": "Part::Cylinder",
       "metrics": {
+        "bounding_box": {
+          "x_max": 11.8,
+          "x_min": 0.0,
+          "y_max": 22.5,
+          "y_min": 10.700000000000001,
+          "z_max": 26.7,
+          "z_min": 22.7
+        },
+        "center_of_mass": {
+          "x": 5.8999999999999995,
+          "y": 16.6,
+          "z": 24.7
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 5.9,
+          "y": 16.6,
+          "z": 22.7
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 367.00085379235964,
+        "total_volume_mm3": 437.4353610858427
       }
     },
     {
@@ -45,9 +125,29 @@
       "_source_name": "Cylinder001",
       "_source_type_id": "Part::Cylinder",
       "metrics": {
+        "bounding_box": {
+          "x_max": 8.4,
+          "x_min": 3.4000000000000004,
+          "y_max": 12.8,
+          "y_min": 7.800000000000001,
+          "z_max": 26.7,
+          "z_min": 22.7
+        },
+        "center_of_mass": {
+          "x": 5.9,
+          "y": 10.3,
+          "z": 24.7
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 5.9,
+          "y": 10.3,
+          "z": 22.7
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 102.10176124166829,
+        "total_volume_mm3": 78.53981633974483
       }
     },
     {
@@ -55,9 +155,29 @@
       "_source_name": "Fusion001",
       "_source_type_id": "Part::Fuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": 11.8,
+          "x_min": 0.0,
+          "y_max": 22.5,
+          "y_min": 7.800000000000001,
+          "z_max": 26.7,
+          "z_min": 22.7
+        },
+        "center_of_mass": {
+          "x": 5.9,
+          "y": 15.869672919139049,
+          "z": 24.700000000000003
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 411.64211296536143,
+        "total_volume_mm3": 487.91717819608846
       }
     },
     {
@@ -65,9 +185,29 @@
       "_source_name": "Fusion003",
       "_source_type_id": "Part::Fuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": 11.8,
+          "x_min": 0.0,
+          "y_max": 27.7,
+          "y_min": -4.7,
+          "z_max": 26.7,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 5.8999999999999995,
+          "y": 11.61624573712378,
+          "z": 12.555788860498366
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 2539.0435238673163,
+        "total_volume_mm3": 6806.817178196088
       }
     },
     {
@@ -75,9 +215,29 @@
       "_source_name": "Cylinder003",
       "_source_type_id": "Part::Cylinder",
       "metrics": {
+        "bounding_box": {
+          "x_max": 6.9,
+          "x_min": 4.9,
+          "y_max": -1.35,
+          "y_min": -3.35,
+          "z_max": 21.0,
+          "z_min": 11.0
+        },
+        "center_of_mass": {
+          "x": 5.9,
+          "y": -2.35,
+          "z": 16.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 5.9,
+          "y": -2.35,
+          "z": 11.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 69.11503837897546,
+        "total_volume_mm3": 31.415926535897924
       }
     },
     {
@@ -85,9 +245,29 @@
       "_source_name": "Cylinder004",
       "_source_type_id": "Part::Cylinder",
       "metrics": {
+        "bounding_box": {
+          "x_max": 6.9,
+          "x_min": 4.9,
+          "y_max": 25.85,
+          "y_min": 23.85,
+          "z_max": 21.0,
+          "z_min": 11.0
+        },
+        "center_of_mass": {
+          "x": 5.8999999999999995,
+          "y": 24.85,
+          "z": 16.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 5.9,
+          "y": 24.85,
+          "z": 11.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 69.11503837897546,
+        "total_volume_mm3": 31.41592653589792
       }
     },
     {
@@ -95,9 +275,29 @@
       "_source_name": "Fusion004",
       "_source_type_id": "Part::Fuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": 6.9,
+          "x_min": 4.9,
+          "y_max": 25.85,
+          "y_min": -3.35,
+          "z_max": 21.0,
+          "z_min": 11.0
+        },
+        "center_of_mass": {
+          "x": 5.8999999999999995,
+          "y": 11.249999999999998,
+          "z": 16.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 138.23007675795088,
+        "total_volume_mm3": 62.83185307179585
       }
     },
     {
@@ -105,9 +305,29 @@
       "_source_name": "Box002",
       "_source_type_id": "Part::Box",
       "metrics": {
+        "bounding_box": {
+          "x_max": 6.55,
+          "x_min": 5.25,
+          "y_max": -2.7,
+          "y_min": -6.0,
+          "z_max": 22.0,
+          "z_min": 12.0
+        },
+        "center_of_mass": {
+          "x": 5.9,
+          "y": -4.35,
+          "z": 17.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 5.25,
+          "y": -6.0,
+          "z": 12.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 100.57999999999998,
+        "total_volume_mm3": 42.89999999999999
       }
     },
     {
@@ -115,9 +335,29 @@
       "_source_name": "Box003",
       "_source_type_id": "Part::Box",
       "metrics": {
+        "bounding_box": {
+          "x_max": 6.55,
+          "x_min": 5.25,
+          "y_max": 28.3,
+          "y_min": 25.0,
+          "z_max": 22.0,
+          "z_min": 12.0
+        },
+        "center_of_mass": {
+          "x": 5.9,
+          "y": 26.650000000000002,
+          "z": 17.0
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 5.25,
+          "y": 25.0,
+          "z": 12.0
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 100.57999999999998,
+        "total_volume_mm3": 42.9
       }
     },
     {
@@ -125,9 +365,29 @@
       "_source_name": "Fusion005",
       "_source_type_id": "Part::Fuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": 6.55,
+          "x_min": 5.25,
+          "y_max": 28.3,
+          "y_min": -6.0,
+          "z_max": 22.0,
+          "z_min": 12.0
+        },
+        "center_of_mass": {
+          "x": 5.900000000000001,
+          "y": 11.150000000000004,
+          "z": 17.000000000000004
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 201.15999999999997,
+        "total_volume_mm3": 85.79999999999998
       }
     },
     {
@@ -135,9 +395,29 @@
       "_source_name": "Fusion006",
       "_source_type_id": "Part::Fuse",
       "metrics": {
+        "bounding_box": {
+          "x_max": 6.9,
+          "x_min": 4.9,
+          "y_max": 28.3,
+          "y_min": -6.0,
+          "z_max": 22.0,
+          "z_min": 11.0
+        },
+        "center_of_mass": {
+          "x": 5.900000000000001,
+          "y": 10.941473585833547,
+          "z": 16.586441240476805
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 268.6532388725453,
+        "total_volume_mm3": 132.85410298090073
       }
     },
     {
@@ -145,9 +425,29 @@
       "_source_name": "Cut",
       "_source_type_id": "Part::Cut",
       "metrics": {
+        "bounding_box": {
+          "x_max": 5.9,
+          "x_min": -5.9,
+          "y_max": 27.7,
+          "y_min": -4.7,
+          "z_max": 26.7,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 8.881784197001252e-16,
+          "y": 11.613799979086737,
+          "z": 12.537764778260161
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": -5.9,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 2554.004060031682,
+        "total_volume_mm3": 6780.216923286723
       }
     },
     {
@@ -155,9 +455,29 @@
       "_source_name": "Cylinder006",
       "_source_type_id": "Part::Cylinder",
       "metrics": {
+        "bounding_box": {
+          "x_max": 2.86021,
+          "x_min": 2.1602099999999997,
+          "y_max": 16.901100000000003,
+          "y_min": 16.2011,
+          "z_max": 29.9,
+          "z_min": 26.9
+        },
+        "center_of_mass": {
+          "x": 2.51021,
+          "y": 16.5511,
+          "z": 28.4
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 2.51021,
+          "y": 16.5511,
+          "z": 26.9
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 7.367034772668065,
+        "total_volume_mm3": 1.1545353001942489
       }
     },
     {
@@ -165,9 +485,29 @@
       "_source_name": "Array",
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
+        "bounding_box": {
+          "x_max": 2.86021,
+          "x_min": -2.86021,
+          "y_max": 19.460210000000004,
+          "y_min": 13.739790000000001,
+          "z_max": 29.900000000000006,
+          "z_min": 26.899999999999995
+        },
+        "center_of_mass": {
+          "x": -2.884856853935163e-16,
+          "y": 16.6,
+          "z": 28.4
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 147.34069545336135,
+        "total_volume_mm3": 23.09070600388498
       }
     },
     {
@@ -175,9 +515,29 @@
       "_source_name": "Cylinder002",
       "_source_type_id": "Part::Cylinder",
       "metrics": {
+        "bounding_box": {
+          "x_max": 2.3,
+          "x_min": -2.3,
+          "y_max": 18.900000000000002,
+          "y_min": 14.3,
+          "z_max": 29.9,
+          "z_min": 26.7
+        },
+        "center_of_mass": {
+          "x": -4.676303879488474e-16,
+          "y": 16.6,
+          "z": 28.299999999999997
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 16.6,
+          "z": 26.7
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 79.48229413582175,
+        "total_volume_mm3": 53.18088043996801
       }
     },
     {
@@ -185,9 +545,29 @@
       "_source_name": "Cylinder005",
       "_source_type_id": "Part::Cylinder",
       "metrics": {
+        "bounding_box": {
+          "x_max": 0.85,
+          "x_min": -0.85,
+          "y_max": 17.450000000000003,
+          "y_min": 15.750000000000002,
+          "z_max": 29.9,
+          "z_min": 26.7
+        },
+        "center_of_mass": {
+          "x": -1.1463937000661466e-16,
+          "y": 16.6,
+          "z": 28.299999999999997
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 16.6,
+          "z": 26.7
+        },
         "shape_type": "Solid",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 21.62986541996572,
+        "total_volume_mm3": 7.263362215099601
       }
     },
     {
@@ -195,9 +575,29 @@
       "_source_name": "Cut001",
       "_source_type_id": "Part::Cut",
       "metrics": {
+        "bounding_box": {
+          "x_max": 2.3,
+          "x_min": -2.3,
+          "y_max": 18.900000000000002,
+          "y_min": 14.3,
+          "z_max": 29.9,
+          "z_min": 26.7
+        },
+        "center_of_mass": {
+          "x": 7.978950350323546e-17,
+          "y": 16.6,
+          "z": 28.299999999999997
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 92.03295678691298,
+        "total_volume_mm3": 45.91751822486842
       }
     },
     {
@@ -205,9 +605,29 @@
       "_source_name": "Fillet",
       "_source_type_id": "Part::Fillet",
       "metrics": {
+        "bounding_box": {
+          "x_max": 2.489502060672506,
+          "x_min": -2.489502060672506,
+          "y_max": 19.08950206067251,
+          "y_min": 14.110497939327495,
+          "z_max": 29.9,
+          "z_min": 26.7
+        },
+        "center_of_mass": {
+          "x": -5.691389021105021e-16,
+          "y": 16.599999999999998,
+          "z": 28.29090426744312
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 90.13215372012799,
+        "total_volume_mm3": 45.64653493179179
       }
     },
     {
@@ -215,9 +635,29 @@
       "_source_name": "Cut002",
       "_source_type_id": "Part::Cut",
       "metrics": {
+        "bounding_box": {
+          "x_max": 2.489502060672506,
+          "x_min": -2.489502060672506,
+          "y_max": 19.08950206067251,
+          "y_min": 14.110497939327495,
+          "z_max": 29.9,
+          "z_min": 26.7
+        },
+        "center_of_mass": {
+          "x": -2.8685354968250185e-09,
+          "y": 16.59999984576416,
+          "z": 28.28812585187825
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 94.97584144754629,
+        "total_volume_mm3": 42.70250823897092
       }
     },
     {
@@ -225,9 +665,29 @@
       "_source_name": "Fusion007001",
       "_source_type_id": "Part::Feature",
       "metrics": {
+        "bounding_box": {
+          "x_max": 5.9,
+          "x_min": -5.9,
+          "y_max": 27.700000000000003,
+          "y_min": -4.700000000000001,
+          "z_max": 29.9,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 1.231022458861298e-09,
+          "y": 11.627203795878588,
+          "z": 12.650684290664415
+        },
         "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
         "shape_type": "Compound",
-        "shell_is_closed": true
+        "shell_is_closed": true,
+        "total_area_mm2": 2649.081568874861,
+        "total_volume_mm3": 6809.959684602157
       }
     }
   ],
@@ -283,11 +743,11 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-04-07T02:40:59.383544+00:00",
-    "document_label": "FL_ServoSG90",
-    "document_name": "FL_ServoSG90",
-    "freecad_version": "1.2.0 46210 (Git)",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_ServoSG90.FCStd",
+    "data_creation_date": "2026-05-12T04:48:55.501096+00:00",
+    "document_label": "FPL_ServoSG90",
+    "document_name": "FPL_ServoSG90",
+    "freecad_version": "1.2.0 20260415 (Git shallow)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FPL_ServoSG90.FCStd",
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.11.14"
   }

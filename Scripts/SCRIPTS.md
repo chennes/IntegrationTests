@@ -170,6 +170,133 @@ Results are written back into `library_analysis.json` under a `version_tests` ke
 
 ---
 
+## Inventory Pipeline
+
+The scripts below build a unified picture of every `.FCStd` file we have available locally for test-suite consideration -- not just those already in the suite. The data flow is:
+
+```
+BuildInventory.py         -> Data/Inventory.json + Data/Inventory.md
+EvaluateNativeAndRelease.py -> Data/EvaluationMatrix.json
+AnalyzeSuiteSuitability.py  -> Data/SuiteSuitabilityMatrix.json
+```
+
+Each step is independent and resume-safe. `BuildInventory.py` reads the other two files when present and merges their results into the inventory.
+
+### BuildInventory.py
+
+Walks one or more source-collection roots, extracts metadata from each `.FCStd` file's `Document.xml`, and writes a unified inventory. Handles both ordinary ZIP-archive `.FCStd` files and zippey-decoded plaintext (the `freecad-models` repo uses the latter on checkout). Optionally enriches each entry with evaluation results from `AnalyzeLibrary.py` outputs and the native/release evaluation matrix.
+
+```
+python Scripts/BuildInventory.py --root path[=name] [--root path[=name] ...] [options]
+```
+
+| Argument         | Default                            | Description                                                  |
+|------------------|------------------------------------|--------------------------------------------------------------|
+| `--root`         | *(at least one required)*          | A source-collection root. Use `path=name` to set an explicit collection name; otherwise the directory's basename is used. |
+| `--merge`        | *(none)*                           | An `AnalyzeLibrary.py` output JSON to merge solid counts/test-suitability from. Repeatable. |
+| `--eval-matrix`  | `Data/EvaluationMatrix.json`       | Path to the native+release evaluation matrix. If present, `native_pass`/`release_pass` are added to each entry. |
+| `--output`, `-o` | `Data/Inventory.json`              | Output JSON inventory                                        |
+| `--md`           | `Data/Inventory.md`                | Markdown summary (per-collection counts, license buckets, version distribution, recompute results) |
+
+Each inventory entry records the source collection, absolute and relative paths, file size, FreeCAD version that wrote it, license, author, comment, object count, draft modules, python proxy modules, and any merged evaluation data.
+
+---
+
+### EvaluateNativeAndRelease.py
+
+For every file in `Data/Inventory.json`, runs `EvaluateFile.FCMacro` against (a) the FreeCAD version that wrote the file ("native") and (b) the latest stable release pinned in `freecad_binaries.LATEST_RELEASE_EXE`. Writes per-file pass/fail and solid counts to `Data/EvaluationMatrix.json`.
+
+Always uses environment-variable invocation so non-ASCII paths and Windows ANSI argv quirks do not break the evaluation. Resume-safe: existing matrix entries are skipped, and partial results are saved every N files.
+
+```
+python Scripts/EvaluateNativeAndRelease.py [options]
+```
+
+| Argument          | Default                          | Description                                              |
+|-------------------|----------------------------------|----------------------------------------------------------|
+| `--inventory`     | `Data/Inventory.json`            | Source inventory                                         |
+| `--output`        | `Data/EvaluationMatrix.json`     | Where to write per-file results                          |
+| `--timeout`       | 90                               | Per-evaluation FreeCAD timeout in seconds                |
+| `--workers`       | 8                                | Parallel evaluation workers                              |
+| `--max-size-mb`   | 20                               | Skip files larger than this (recorded as `skipped`)      |
+| `--collections`   | *(none)*                         | Restrict to specific collection names                    |
+| `--limit`         | *(none)*                         | Cap fresh evaluations (smoke-testing)                    |
+| `--reuse-native`  | *(none)*                         | An `AnalyzeLibrary.py` output to reuse native results from |
+| `--no-native`     | off                              | Skip native evaluation (release only)                    |
+| `--no-release`    | off                              | Skip release evaluation (native only)                    |
+| `--save-every`    | 25                               | Save partial output every N files                        |
+
+The release binary path comes from `freecad_binaries.LATEST_RELEASE_EXE` -- update that constant when a newer release is published.
+
+---
+
+### AnalyzeSuiteSuitability.py
+
+For every inventory file that already passes recompute in 1.1.1, runs `EvaluateFile.FCMacro` against 1.1.1 **twice** in independent FreeCAD subprocesses with separate user-config dirs, then compares the two reports section-by-section using the same `compare_maps` logic the test suite itself uses. Any non-zero diff means the file is non-deterministic under recompute and is unsuitable as a baseline-vs-rerun test case.
+
+Also classifies every reported object into a workbench bucket (PartDesign / Part / Sketcher / Assembly / TechDraw / Spreadsheet / Material / FEM / Path / etc.) and builds a per-file feature index covering object-type counts, addons detected (Draft / Arch / BIM / A2plus / FastenersWB / ThreadProfile / Path), and presence flags (`has_assembly`, `has_techdraw`, `has_spreadsheet`, ...).
+
+```
+python Scripts/AnalyzeSuiteSuitability.py [options]
+```
+
+| Argument          | Default                                | Description                                              |
+|-------------------|----------------------------------------|----------------------------------------------------------|
+| `--inventory`     | `Data/Inventory.json`                  | Source inventory                                         |
+| `--eval-matrix`   | `Data/EvaluationMatrix.json`           | Used to filter to files that pass release recompute      |
+| `--output`        | `Data/SuiteSuitabilityMatrix.json`     | Where to write per-file analysis                         |
+| `--file`          | *(none)*                               | Single-file diagnostic mode (skips inventory, prints JSON) |
+| `--collections`   | *(none)*                               | Restrict to specific collection names                    |
+| `--max-size-mb`   | 50                                     | Skip files larger than this                              |
+| `--workers`       | 8                                      | Parallel analysis workers (uses `ProcessPoolExecutor`)   |
+| `--timeout`       | 300                                    | Per-FreeCAD-run timeout in seconds                       |
+| `--limit`         | *(none)*                               | Cap fresh analyses                                       |
+| `--save-every`    | 25                                     | Save partial output every N files                        |
+
+The `would_pass_suite` field in each entry is the headline answer: `true` only if the file is deterministic, has at least one comparable section, and has zero invalid solids. The `feature_index` and `workbench_counts` fields support queries like "all PartDesign+Spreadsheet files in the parts library that use no addons and would pass cleanly."
+
+Files in `Data/SlowFiles.md` (extreme recompute time, e.g. KiCAD-derived PCBs) are always skipped via a hardcoded list in the script.
+
+---
+
+## Utilities
+
+### UnzippeyFCStd.py
+
+Converts zippey-decoded `.FCStd` files back into real `.FCStd` ZIP archives. The `freecad-models` repo (and others) use the [zippey](https://github.com/sippey/zippey) git filter, which decodes the FCStd zip into plaintext at checkout for diff-friendliness. The on-disk layout is a sequence of entries, each starting with a header line `<stored_size>|<original_size>|<A|B>|<filename>` followed by the raw or base64-encoded content. This script reverses that.
+
+```
+python Scripts/UnzippeyFCStd.py <src> <dst> [options]
+```
+
+| Argument         | Default                | Description                                             |
+|------------------|------------------------|---------------------------------------------------------|
+| `src`            | *(required)*           | Single zippey-decoded `.FCStd` file or a directory      |
+| `dst`            | *(required)*           | Output `.FCStd` file (single-file mode) or directory    |
+| `--recursive`    | off                    | Recurse into directories looking for `*.FCStd`          |
+| `--only-zippey`  | off                    | When scanning a directory, skip files that are already real ZIPs |
+
+Handles Windows CRLF expansion that occurs at checkout, and base64-decodes binary entries. The output `.FCStd` always places `Document.xml` first by convention; everything else preserves the original entry order and uses deflate compression.
+
+---
+
+### ScanForViewProviderOrigin.py
+
+Walks a directory tree of `.FCStd` files and reports any file whose `Document.xml` references the legacy `Gui::ViewProviderOrigin` class as an exact-name match. Used to find files that need FreeCAD PR #29608 (`Gui: Re-add ViewProviderOrigin`) to load correctly.
+
+```
+python Scripts/ScanForViewProviderOrigin.py <root> [--workers N]
+```
+
+| Argument    | Default      | Description                                  |
+|-------------|--------------|----------------------------------------------|
+| `root`      | *(required)* | Directory to scan recursively                |
+| `--workers` | 8            | Parallel scan workers                        |
+
+The match requires a non-identifier character after the class name so it does not falsely match the longer `Gui::ViewProviderOriginGroupExtension` class.
+
+---
+
 ## FreeCAD Macros
 
 ### EvaluateFile.FCMacro
@@ -202,12 +329,26 @@ The macro checks for environment variables first. If `EVALUATE_FCSTD` is set, it
 
 **Analyzers:** solids, sketches, partdesign_bodies, partdesign_features, part_features, app_parts, assemblies, techdraw_pages, spreadsheets, links, part_extrusions, materials.
 
+The `part_features` analyzer records `is_valid`, `shape_type`, `shell_is_closed`,
+`placement_base`, `bounding_box`, `total_area_mm2`, `total_volume_mm3`, and
+`center_of_mass`. The geometric metrics (added 2026-05) let the suite catch
+regressions where a Part::Feature's visible position is unchanged across
+versions but its internal coordinates and Placement diverge -- the class of
+bug behind FreeCAD issue #29733 (`transformShape()` no longer bakes the
+transform in 1.2-dev). When extending or regenerating baselines, ensure the
+target FreeCAD version is the same one that wrote each FCStd file.
+
 ### EvaluateFilePy2.FCMacro
 
-Python 2 compatible version for FreeCAD 0.14--0.17. Produces the same schema v4 JSON output but avoids type annotations, f-strings, and APIs added after 0.17. Does not support the environment variable invocation method.
+Python 2 compatible version for FreeCAD 0.14--0.17. Produces the same schema v4 JSON output but avoids type annotations, f-strings, and APIs added after 0.17. Supports both command-line and environment-variable invocation modes, identical to `EvaluateFile.FCMacro`. Env-var mode is the safer choice on Windows because `FreeCADCmd` mangles `argv` containing UTF-8 paths plus spaces.
 
 ```
+# Command-line mode
 FreeCADCmd Scripts/EvaluateFilePy2.FCMacro input.FCStd --out report.json
+
+# Env-var mode (preferred on Windows for non-ASCII paths)
+EVALUATE_FCSTD=input.FCStd EVALUATE_OUT=report.json \
+  FreeCADCmd Scripts/EvaluateFilePy2.FCMacro
 ```
 
 ---
@@ -218,7 +359,13 @@ These are not invoked directly -- they provide shared types and utilities used b
 
 ### freecad_binaries.py
 
-Single source of truth for FreeCAD binary paths, version parsing, and macro selection. All scripts that need to locate a FreeCADCmd executable import from here. Provides `PORTABLE_BINARIES` (version tuple to path mapping), `FREECAD_PIXI_DIR`, `PY2_VERSIONS`, `parse_version()`, `needs_py2()`, `macro_for_version()`, and `resolve_freecad()` (which tries exact match, then archived 7z extraction, then closest version fallback).
+Single source of truth for FreeCAD binary paths, version parsing, and macro selection. All scripts that need to locate a FreeCADCmd executable import from here. Provides:
+
+- `PORTABLE_BINARIES` -- version tuple `(major, minor)` to FreeCADCmd path mapping (0.13 through 1.1).
+- `FREECAD_PIXI_DIR` -- pixi dev build location.
+- `LATEST_RELEASE_VERSION` and `LATEST_RELEASE_EXE` -- the latest stable release used by `EvaluateNativeAndRelease.py`. Update both when a newer release is published.
+- `PY2_VERSIONS` -- the set of versions that ship Python 2 and require `EvaluateFilePy2.FCMacro`.
+- Helpers: `parse_version()`, `needs_py2()`, `macro_for_version()`, `resolve_freecad()` (tries exact match, then closest version fallback, then most-recent weekly extracted on demand via 7-Zip).
 
 ### metric_types.py
 
