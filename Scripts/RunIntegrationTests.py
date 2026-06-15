@@ -453,22 +453,25 @@ def find_fcstd_files(root: Path, recursive: bool) -> List[Path]:
     return sorted([path for path in root.glob("*.FCStd") if path.is_file()])
 
 
-def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
-    """Print a single metric diff to stdout in a human-readable format.
+def format_diff(diff: MetricDiff, config: CompareConfig) -> str:
+    """Format a single metric diff as a human-readable one-line string.
 
     Formats the output differently depending on the type of mismatch: missing objects, failed
     recomputation, floating-point deviations, or exact-match failures.
 
     Args:
-        diff: The MetricDiff to print.
+        diff: The MetricDiff to format.
         config: The comparison config, used to display the required match percentage.
+
+    Returns:
+        A single-line description of the diff (no trailing newline).
     """
     if diff.reason == "missing_in_baseline":
-        print(f"  - Exists in new but not baseline: {diff.key}")
+        return f"  - Exists in new but not baseline: {diff.key}"
     elif diff.reason == "missing_in_new":
-        print(f"  - Exists in baseline but not new: {diff.key}")
+        return f"  - Exists in baseline but not new: {diff.key}"
     elif isinstance(diff.new, dict) and not diff.new.get("is_valid", True):
-        print(f"  - Recomputation failed: {diff.key}")
+        return f"  - Recomputation failed: {diff.key}"
     elif (
         isinstance(diff.baseline, float)
         and isinstance(diff.new, float)
@@ -482,14 +485,24 @@ def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
         relative_error_string = (
             f"{relative_error_percent:.9f}%" if relative_error_percent is not None else "inf"
         )
-        print(
+        return (
             f"  - {diff.reason} {diff.key}:"
             f" baseline={diff.baseline:.12g} new={diff.new:.12g}"
             f" relative_error={relative_error_string}"
             f" (required match >= {config.match_percentage}%)"
         )
     else:
-        print(f"  - {diff.reason} {diff.key}: baseline={diff.baseline} new={diff.new}")
+        return f"  - {diff.reason} {diff.key}: baseline={diff.baseline} new={diff.new}"
+
+
+def print_diff(diff: MetricDiff, config: CompareConfig) -> None:
+    """Print a single metric diff to stdout in a human-readable format.
+
+    Args:
+        diff: The MetricDiff to print.
+        config: The comparison config, used to display the required match percentage.
+    """
+    print(format_diff(diff, config))
 
 
 def main(argv: List[str]) -> int:
@@ -553,6 +566,11 @@ def main(argv: List[str]) -> int:
     total_accepted = 0
     total_known_failures = 0
 
+    # Per-file failure/error records emitted as machine-readable JSON for CI.
+    # Each record identifies one file so the workflow can open (at most) one
+    # issue per file rather than a single blanket issue per run.
+    failure_records: List[Dict[str, Any]] = []
+
     date_string = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
     for fcstd_path in fcstd_files:
@@ -565,6 +583,14 @@ def main(argv: List[str]) -> int:
         if not baseline_path.exists():
             print(f"[FAIL] {fcstd_path.name}: baseline missing: {baseline_path}", file=sys.stderr)
             mismatch_files += 1
+            failure_records.append(
+                {
+                    "file": fcstd_path.name,
+                    "kind": "fail",
+                    "summary": f"baseline missing: {baseline_path.name}",
+                    "details": [],
+                }
+            )
             continue
 
         try:
@@ -629,6 +655,14 @@ def main(argv: List[str]) -> int:
             if truly_bad:
                 mismatch_files += 1
                 print(f"[FAIL] {fcstd_path.name}: {len(truly_bad)} failure(s)")
+                failure_records.append(
+                    {
+                        "file": fcstd_path.name,
+                        "kind": "fail",
+                        "summary": f"{len(truly_bad)} failure(s)",
+                        "details": [format_diff(diff, config) for _, diff in truly_bad],
+                    }
+                )
                 for _, diff in truly_bad:
                     print_diff(diff, config)
                 if known:
@@ -699,10 +733,27 @@ def main(argv: List[str]) -> int:
         except subprocess.TimeoutExpired:
             error_files += 1
             print(f"[ERROR] {fcstd_path.name}: timed out after {args.timeout}s", file=sys.stderr)
+            failure_records.append(
+                {
+                    "file": fcstd_path.name,
+                    "kind": "error",
+                    "summary": f"timed out after {args.timeout}s",
+                    "details": [],
+                }
+            )
         except Exception as e:
             error_files += 1
             print(f"[ERROR] {fcstd_path.name}: {e}", file=sys.stderr)
             traceback.print_exception(type(e), e, e.__traceback__, file=sys.stderr)
+            message = str(e)
+            failure_records.append(
+                {
+                    "file": fcstd_path.name,
+                    "kind": "error",
+                    "summary": message.splitlines()[0] if message.strip() else type(e).__name__,
+                    "details": message.splitlines(),
+                }
+            )
 
     print("\n" + 35 * "=" + " Summary " + 35 * "=")
     print(f"Files checked: {total_files}")
@@ -742,6 +793,10 @@ def main(argv: List[str]) -> int:
         f'{{"ok":{ok_files},"xfail":{known_failure_files},'
         f'"fail":{mismatch_files},"error":{error_files}}}'
     )
+
+    # Machine-readable per-file failure records for CI issue creation. Emitted on
+    # a single line so it can be extracted from mixed stdout/stderr output.
+    print("FAILURES_JSON:" + json.dumps(failure_records))
 
     if error_files > 0:
         return 3

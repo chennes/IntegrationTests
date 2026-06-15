@@ -140,6 +140,9 @@ jobs:
           echo "badge_fail=$fail" >> "$GITHUB_OUTPUT"
           echo "badge_error=$error" >> "$GITHUB_OUTPUT"
         fi
+        # Persist the per-file failure records for the issue-creation step.
+        failures_json=$(echo "$output" | grep '^FAILURES_JSON:' | sed 's/^FAILURES_JSON://')
+        printf '%s' "$failures_json" > "${{ github.workspace }}/failures.json"
 
     - name: Update status badge
       if: always() && github.ref == 'refs/heads/main' && steps.integration_tests.outputs.badge_ok != ''
@@ -157,22 +160,153 @@ jobs:
             'brightgreen'
           }}
 
-    - name: Open issue on failure
-      if: always() && steps.integration_tests.outputs.exit_code != '0'
+    - name: Reconcile failure issues
+      if: always() && steps.integration_tests.outputs.exit_code != ''
       uses: actions/github-script@v9
+      env:
+        EXIT_CODE: ${{ steps.integration_tests.outputs.exit_code }}
       with:
         script: |
-          const title = `FreeCAD integration tests failed (${process.env.GITHUB_REF_NAME})`;
-          const body = [
-            `Run: https://github.com/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`,
-            `Exit code: ${{ steps.integration_tests.outputs.exit_code }}`,
-          ].join('\n');
-          await github.rest.issues.create({
+          const fs = require('fs');
+          const path = require('path');
+
+          const label = 'integration-test-failure';
+          const titlePrefix = 'Integration test failure: ';
+          const genericTitle = 'FreeCAD integration tests failed';
+          const exitCode = process.env.EXIT_CODE;
+          const runUrl =
+            `https://github.com/${process.env.GITHUB_REPOSITORY}` +
+            `/actions/runs/${process.env.GITHUB_RUN_ID}`;
+
+          // Ensure the shared label exists before we attach it to any issue.
+          try {
+            await github.rest.issues.getLabel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: label,
+            });
+          } catch (e) {
+            await github.rest.issues.createLabel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: label,
+              color: 'd73a4a',
+              description: 'A FreeCAD integration test is failing for this file',
+            });
+          }
+
+          // Load the per-file failure records produced by the test runner. An
+          // empty array means the suite ran and nothing failed. A failure to
+          // read/parse means the runner never emitted records (e.g. it crashed
+          // before reporting), in which case we must NOT close anything because
+          // we have no trustworthy view of what passed.
+          let records = [];
+          let reconcile = false;
+          const failuresPath = path.join(process.env.GITHUB_WORKSPACE, 'failures.json');
+          try {
+            const raw = fs.readFileSync(failuresPath, 'utf8').trim();
+            if (raw) {
+              records = JSON.parse(raw);
+              reconcile = true;
+            }
+          } catch (e) {
+            core.warning(`Could not read failures.json: ${e}`);
+          }
+
+          // All currently-open failure issues. We keep at most one open issue
+          // per file, so we look these up once and reconcile against them.
+          const openIssues = await github.paginate(github.rest.issues.listForRepo, {
             owner: context.repo.owner,
             repo: context.repo.repo,
-            title,
-            body
+            state: 'open',
+            labels: label,
+            per_page: 100,
           });
+          const openByTitle = new Map(openIssues.map((i) => [i.title, i]));
+
+          // Set of files that are failing right now (only meaningful when we
+          // have a trustworthy set of records).
+          const failingFiles = new Set(records.map((r) => r.file));
+
+          // Open an issue for each failing file that does not already have one.
+          for (const rec of records) {
+            const title = `${titlePrefix}${rec.file}`;
+            if (openByTitle.has(title)) {
+              core.info(`Issue already open for ${rec.file}; skipping.`);
+              continue;
+            }
+            const kind = rec.kind === 'error' ? 'error' : 'failure';
+            const bodyLines = [
+              `The integration test for \`${rec.file}\` reported a ${kind}.`,
+              '',
+              `**Summary:** ${rec.summary}`,
+            ];
+            if (rec.details && rec.details.length) {
+              bodyLines.push('', '```', ...rec.details, '```');
+            }
+            bodyLines.push('', `Run: ${runUrl}`);
+            const created = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              labels: [label],
+              body: bodyLines.join('\n'),
+            });
+            openByTitle.set(title, created.data);
+            core.info(`Opened issue for ${rec.file}.`);
+          }
+
+          // Fallback: the runner exited non-zero but produced no per-file
+          // records (e.g. it crashed before reporting). Open a single generic
+          // issue, de-duplicated against any existing open one. We cannot
+          // reconcile per-file issues in this case, so leave them untouched.
+          if (!reconcile) {
+            if (exitCode !== '0' && !openByTitle.has(genericTitle)) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: genericTitle,
+                labels: [label],
+                body: [
+                  'The integration test suite exited non-zero but produced no ' +
+                    'per-file failure records.',
+                  '',
+                  `Run: ${runUrl}`,
+                ].join('\n'),
+              });
+            }
+            return;
+          }
+
+          // Auto-close any open issue whose failure is now resolved: per-file
+          // issues whose file is no longer failing, plus the generic fallback
+          // issue once the suite produces a clean run again.
+          for (const [title, issue] of openByTitle) {
+            let resolved = false;
+            if (title.startsWith(titlePrefix)) {
+              const file = title.slice(titlePrefix.length);
+              resolved = !failingFiles.has(file);
+            } else if (title === genericTitle) {
+              resolved = exitCode === '0';
+            }
+            if (!resolved) {
+              continue;
+            }
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body: `Resolved: this test passed in a later run.\n\nRun: ${runUrl}`,
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              state: 'closed',
+              state_reason: 'completed',
+            });
+            core.info(`Closed resolved issue #${issue.number} (${title}).`);
+          }
 
     - name: Save Compiler Cache
       id: cache-save
