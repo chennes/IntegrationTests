@@ -51,6 +51,11 @@ def report_obj_valid(obj) -> Optional[bool]:
     Returns:
         True/False if the object reports validity, or None if the API is unavailable.
     """
+    # An object that did not recompute cleanly (still touched, or in error) is
+    # reported as invalid regardless of what isValid() says, because its shape
+    # is stale on-disk geometry rather than a recompute result.
+    if not recompute_clean(obj):
+        return False
     try:
         return obj.isValid()
     except AttributeError:
@@ -71,6 +76,89 @@ def is_shape_valid(shape) -> bool:
         return (shape is not None) and (not shape.isNull()) and shape.isValid()
     except Exception:
         return False
+
+
+# Construction/datum object types carry no measured solid geometry.  They are
+# frequently left "Invalid" after a load+recompute (App::Origin especially)
+# without affecting the solids we measure, so they must NOT count as a recompute
+# failure when judging whether a shape is trustworthy.
+_CONSTRUCTION_TYPE_IDS = frozenset(
+    [
+        "App::Origin",
+        "App::Line",
+        "App::Plane",
+        "App::Axis",
+        "App::OriginFeature",
+        "PartDesign::CoordinateSystem",
+        "PartDesign::Plane",
+        "PartDesign::Line",
+        "PartDesign::Point",
+    ]
+)
+
+
+def _is_construction(obj) -> bool:
+    """True if obj is a datum/origin construction object with no measured solid."""
+    tid = getattr(obj, "TypeId", "") or ""
+    return tid in _CONSTRUCTION_TYPE_IDS or "Datum" in tid or "Origin" in tid
+
+
+def _object_failed_recompute(obj) -> bool:
+    """True if obj's own State shows a real, geometry-relevant recompute failure.
+
+    Construction/datum objects are ignored: an Invalid Origin or local
+    coordinate system does not make the solids built in the document stale.
+    """
+    if _is_construction(obj):
+        return False
+    try:
+        state = list(obj.State)
+    except Exception:
+        return False
+    return ("Invalid" in state) or ("Error" in state)
+
+
+def recompute_clean(obj) -> bool:
+    """Return True if a reported object's shape is a trustworthy recompute result.
+
+    After the macro forces a full recompute, a healthy object's shape is the
+    output of that recompute.  But when a geometry feature fails to execute --
+    e.g. a pre-1.0 PartDesign feature with no Body raising "Missing container
+    body", or a sketch that no longer solves -- modern FreeCAD aborts the
+    recompute chain.  The failed feature is marked ``Invalid``/``Error`` and
+    every object downstream of it is left ``Touched`` while still exposing the
+    geometry that was loaded from the saved file.  Reading that ``Shape`` would
+    grade stale on-disk geometry rather than a recompute result.
+
+    To detect this without false positives, walk the object together with its
+    transitive dependencies (``OutList`` -- the objects this one is built from).
+    If any *geometry-producing* object in that closure failed to recompute, the
+    shape is untrustworthy.  Merely ``Touched`` objects with no failed
+    dependency (e.g. static ``Part::Feature`` imports, or ``App::Part``
+    containers whose only invalid child is an Origin) are trustworthy.
+
+    Args:
+        obj: A FreeCAD document object (typically a reported final solid).
+
+    Returns:
+        True if the shape can be trusted, False if a real recompute failure in
+        the object or its dependency closure makes the shape stale.
+    """
+    seen = set()
+    stack = [obj]
+    while stack:
+        cur = stack.pop()
+        name = getattr(cur, "Name", None)
+        if name in seen:
+            continue
+        seen.add(name)
+        if _object_failed_recompute(cur):
+            return False
+        try:
+            stack.extend(list(cur.OutList))
+        except Exception:
+            pass
+    return True
 
 
 def get_solids_from_shape(shape):
@@ -142,6 +230,14 @@ def evaluate_shape(obj) -> dict:
         "_source_label": getattr(obj, "Label", obj.Name),
         "_source_type_id": getattr(obj, "TypeId", None),
     }
+
+    # A final solid that did not recompute cleanly is reporting the shape that
+    # was loaded from the saved file, not a recomputed result -- treat it as
+    # invalid so the comparison flags it instead of silently grading stale
+    # on-disk geometry.
+    if not recompute_clean(obj):
+        result["metrics"] = {"is_valid": False}
+        return result
 
     if not is_obj_valid(obj) or not hasattr(obj, "Shape") or not is_shape_valid(obj.Shape):
         result["metrics"] = {"is_valid": False}
@@ -301,6 +397,11 @@ class PartDesignFeatureAnalyzer(Analyzer):
             shape = getattr(obj, "Shape", None)
             if shape is not None and is_shape_valid(shape):
                 metrics["shape_type"] = shape.ShapeType
+                # solid_count > 1 is a hard error on FreeCAD <= 1.0; allowed from 1.1 on.
+                try:
+                    metrics["solid_count"] = len(get_solids_from_shape(shape))
+                except Exception:
+                    pass
         except Exception:
             metrics = {"is_valid": False}
 
@@ -819,6 +920,81 @@ def _find_final_solid_objects(doc):
     return finals
 
 
+def detect_dag_cycles(doc) -> list:
+    """Find dependency-graph cycles among the document's objects.
+
+    Builds the adjacency list from `obj.OutList` (the set of objects this
+    object depends on) and runs Tarjan's strongly-connected-components
+    algorithm. Any SCC of size > 1, or a self-edge SCC of size 1, is a cycle.
+
+    Returns a list of cycles, each cycle being a list of object names in the
+    order Tarjan emitted them. Empty list means the graph is a proper DAG.
+    A cyclic dependency graph is the most common explanation for
+    non-deterministic recompute results, since the topological order of
+    recomputation is not well defined.
+    """
+    graph = {}
+    for obj in doc.Objects:
+        deps = []
+        try:
+            for dep in obj.OutList:
+                name = getattr(dep, "Name", None)
+                if name:
+                    deps.append(name)
+        except Exception:
+            pass
+        graph[obj.Name] = deps
+
+    index_counter = [0]
+    index_of = {}
+    lowlink = {}
+    on_stack = {}
+    stack = []
+    cycles = []
+
+    # Iterative Tarjan to avoid recursion limits on large documents.
+    def strongconnect(start):
+        work = [(start, 0)]
+        call_stack = []
+        while work:
+            v, i = work[-1]
+            if i == 0:
+                index_of[v] = index_counter[0]
+                lowlink[v] = index_counter[0]
+                index_counter[0] += 1
+                stack.append(v)
+                on_stack[v] = True
+            successors = graph.get(v, [])
+            if i < len(successors):
+                w = successors[i]
+                work[-1] = (v, i + 1)
+                if w not in index_of:
+                    work.append((w, 0))
+                elif on_stack.get(w):
+                    lowlink[v] = min(lowlink[v], index_of[w])
+            else:
+                if lowlink[v] == index_of[v]:
+                    scc = []
+                    while True:
+                        w = stack.pop()
+                        on_stack[w] = False
+                        scc.append(w)
+                        if w == v:
+                            break
+                    if len(scc) > 1 or v in graph.get(v, []):
+                        cycles.append(scc)
+                work.pop()
+                if work:
+                    parent = work[-1][0]
+                    lowlink[parent] = min(lowlink[parent], lowlink[v])
+
+    for node in graph:
+        if node not in index_of:
+            strongconnect(node)
+
+    return cycles
+
+
 def build_report_dict(doc, source_path: str) -> dict:
     """Build the complete metrics report for a FreeCAD document.
 
@@ -845,6 +1021,7 @@ def build_report_dict(doc, source_path: str) -> dict:
             "platform": platform.platform(),
             "python_version": platform.python_version(),
         },
+        "dag_cycles": detect_dag_cycles(doc),
     }
 
     # Solid geometry: only final shapes

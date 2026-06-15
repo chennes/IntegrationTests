@@ -39,6 +39,10 @@ def report_obj_valid(obj):
     Returns None on older FreeCAD where isValid() does not exist, so the
     comparison logic can distinguish "unknown" from a definite True/False.
     """
+    # An object that did not recompute cleanly is reported as invalid: its
+    # shape is stale on-disk geometry rather than a recompute result.
+    if not recompute_clean(obj):
+        return False
     try:
         return obj.isValid()
     except AttributeError:
@@ -51,6 +55,76 @@ def is_shape_valid(shape):
         return (shape is not None) and (not shape.isNull()) and shape.isValid()
     except Exception:
         return False
+
+
+# Construction/datum object types carry no measured solid geometry. They are
+# frequently left "Invalid" after a load+recompute (App::Origin especially)
+# without affecting the solids we measure, so they must NOT count as a recompute
+# failure when judging whether a shape is trustworthy.
+_CONSTRUCTION_TYPE_IDS = set(
+    [
+        "App::Origin",
+        "App::Line",
+        "App::Plane",
+        "App::Axis",
+        "App::OriginFeature",
+        "PartDesign::CoordinateSystem",
+        "PartDesign::Plane",
+        "PartDesign::Line",
+        "PartDesign::Point",
+    ]
+)
+
+
+def _is_construction(obj):
+    """True if obj is a datum/origin construction object with no measured solid."""
+    tid = getattr(obj, "TypeId", "") or ""
+    return tid in _CONSTRUCTION_TYPE_IDS or "Datum" in tid or "Origin" in tid
+
+
+def _object_failed_recompute(obj):
+    """True if obj's own State shows a real, geometry-relevant recompute failure.
+
+    Construction/datum objects are ignored: an Invalid Origin or local
+    coordinate system does not make the solids built in the document stale.
+    """
+    if _is_construction(obj):
+        return False
+    try:
+        state = list(obj.State)
+    except Exception:
+        return False
+    return ("Invalid" in state) or ("Error" in state)
+
+
+def recompute_clean(obj):
+    """Return True if a reported object's shape is a trustworthy recompute result.
+
+    When a geometry feature fails to execute (e.g. a pre-1.0 PartDesign feature
+    with no Body raising "Missing container body", or a sketch that no longer
+    solves), FreeCAD aborts the recompute chain: the failed feature is marked
+    Invalid/Error and downstream objects are left Touched while still exposing
+    the geometry loaded from the saved file.  Walk the object together with its
+    transitive dependencies (OutList) and report it untrustworthy if any
+    geometry-producing object in that closure failed to recompute.  Merely
+    Touched objects with no failed dependency (static Part::Feature imports, or
+    App::Part containers whose only invalid child is an Origin) are trustworthy.
+    """
+    seen = set()
+    stack = [obj]
+    while stack:
+        cur = stack.pop()
+        name = getattr(cur, "Name", None)
+        if name in seen:
+            continue
+        seen.add(name)
+        if _object_failed_recompute(cur):
+            return False
+        try:
+            stack.extend(list(cur.OutList))
+        except Exception:
+            pass
+    return True
 
 
 def get_solids_from_shape(shape):
@@ -118,6 +192,12 @@ def _source_dict(obj):
 def evaluate_shape(obj):
     """Compute aggregate solid metrics for an object's shape."""
     result = _source_dict(obj)
+
+    # A final solid that did not recompute cleanly is reporting the shape loaded
+    # from the saved file, not a recomputed result -- treat it as invalid.
+    if not recompute_clean(obj):
+        result["metrics"] = {"is_valid": False}
+        return result
 
     if not is_obj_valid(obj) or not hasattr(obj, "Shape") or not is_shape_valid(obj.Shape):
         result["metrics"] = {"is_valid": False}
@@ -223,6 +303,11 @@ def analyze_pd_feature(obj):
         shape = getattr(obj, "Shape", None)
         if shape is not None and is_shape_valid(shape):
             metrics["shape_type"] = shape.ShapeType
+            # solid_count > 1 is a hard error on FreeCAD <= 1.0; allowed from 1.1 on.
+            try:
+                metrics["solid_count"] = len(get_solids_from_shape(shape))
+            except Exception:
+                pass
     except Exception:
         metrics = {"is_valid": False}
     return dict(_source_dict(obj), metrics=metrics)
