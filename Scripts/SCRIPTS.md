@@ -33,7 +33,7 @@ python Scripts/RunIntegrationTests.py \
 | `--match-percentage`   | 99.99        | Required match percentage (99.99 = 0.01% relative tolerance) |
 | `--absolute-tolerance` | 1e-6         | Absolute tolerance floor for near-zero comparisons           |
 | `--bbox-tolerance-mm`  | 1.0          | Absolute tolerance in mm for bounding box and center of mass |
-| `--recursive`          | off          | Recurse into subfolders of `--fcstd-dir`                     |
+| `--recursive`          | **on**       | Recurse into subfolders of `--fcstd-dir` (so bundle subdirs are found). Use `--no-recursive` for a flat scan. |
 | `--timeout`            | 300          | Per-file FreeCAD timeout in seconds                          |
 | `--verbose`            | off          | Print per-file diffs (otherwise only summary and failures)   |
 | `--filename`           | *(none)*     | Test a single `.FCStd` file by name                          |
@@ -42,6 +42,15 @@ python Scripts/RunIntegrationTests.py \
 | `--strict`             | off          | Ignore all exceptions and known failures                     |
 
 **Exit codes:** 0 = all pass, 2 = mismatches found, 3 = errors (crashes, missing files, bad JSON).
+
+**Multi-file bundles.** A test case is normally a single self-contained `.FCStd` directly in `--fcstd-dir`. For models with cross-document dependencies -- e.g. an external VarSet in one file driving geometry in others, or assemblies that link sibling parts -- put the interdependent files together in a **subdirectory** of `--fcstd-dir` (recursion is on by default, so the bundle is discovered). Because the harness opens each file in place, FreeCAD resolves co-located dependencies automatically. Two rules apply to bundles:
+
+- **Baselines mirror the relative path.** `CADFiles/<bundle>/<name>.FCStd` is compared against `BaselineResults/<bundle>/<name>.json`, so bundle members never collide with each other or with flat files on a bare stem. (Flat files are unchanged: `Pincher.FCStd` -> `Pincher.json`.)
+- **Dependency-only files go in `_deps.txt`.** A file whose name is listed in a `_deps.txt` in the same bundle directory is kept on disk (so co-located references resolve) but is **not** itself a test target -- it needs no baseline and its own validity is not graded. Use this for parameter/driver documents (e.g. a VarSet master) or any dependency that is not a final-geometry file.
+
+Keep the original filenames inside a bundle: cross-document references resolve by FreeCAD document name (derived from the filename at save time), so renaming a dependency would break resolution.
+
+Example: `Data/CADFiles/ServoQuetsch/` holds 6 parts plus `V.FCStd` (the VarSet master, listed in `_deps.txt`); the parts are driven by `V#VarSet.<param>` expressions.
 
 ---
 
