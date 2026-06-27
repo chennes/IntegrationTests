@@ -1,0 +1,149 @@
+{
+  "dag_cycles": [],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Pincher001",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 9,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored001",
+      "_source_name": "Mirrored001",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Pincher",
+      "_source_name": "Sketch004",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 40,
+        "external_geometry_count": 0,
+        "geometry_count": 16,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 1,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "ServoConnect",
+      "_source_name": "Sketch005",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 17,
+        "external_geometry_count": 1,
+        "geometry_count": 6,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "Pincher001",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.25,
+          "x_min": 0.0,
+          "y_max": 7.221491736126927,
+          "y_min": -7.221491736126927,
+          "z_max": 8.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 7.604924988917929,
+          "y": -3.533910576522255e-16,
+          "z": 3.4653418400468587
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 1125.895954037108,
+        "total_volume_mm3": 1125.959255078933
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-06-27T22:42:20.120598+00:00",
+    "document_label": "Pincher",
+    "document_name": "Pincher",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\ServoQuetsch\\Pincher.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

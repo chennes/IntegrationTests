@@ -1,0 +1,2 @@
+# Dependency-only: present for cross-document VarSet resolution, not a test target.
+V.FCStd

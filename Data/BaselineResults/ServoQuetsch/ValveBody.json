@@ -1,0 +1,259 @@
+{
+  "dag_cycles": [],
+  "part_features": [
+    {
+      "_source_label": "DatumPlane",
+      "_source_name": "DatumPlane",
+      "_source_type_id": "Part::DatumPlane",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1e+100,
+          "x_min": -1e+100,
+          "y_max": 1e+100,
+          "y_min": -1e+100,
+          "z_max": 1e+100,
+          "z_min": -1e+100
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": -9.25,
+          "y": 2.699999999999999,
+          "z": 75.0
+        },
+        "shape_type": "Face",
+        "total_area_mm2": 8.000000000000003e+100
+      }
+    }
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "ValveBody",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 18,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket005"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket002",
+      "_source_name": "Pocket002",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket003",
+      "_source_name": "Pocket003",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket004",
+      "_source_name": "Pocket004",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket005",
+      "_source_name": "Pocket005",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 28,
+        "external_geometry_count": 0,
+        "geometry_count": 10,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Tubehousing",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 13,
+        "external_geometry_count": 1,
+        "geometry_count": 5,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 14,
+        "external_geometry_count": 1,
+        "geometry_count": 6,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "TubeZipTieCut",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 23,
+        "external_geometry_count": 1,
+        "geometry_count": 8,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "ServoCutout",
+      "_source_name": "Sketch004",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 61,
+        "external_geometry_count": 1,
+        "geometry_count": 22,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "ConnectingHoles",
+      "_source_name": "Sketch006",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 19,
+        "external_geometry_count": 1,
+        "geometry_count": 7,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "MaintainanceHole",
+      "_source_name": "Sketch007",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 4,
+        "external_geometry_count": 1,
+        "geometry_count": 2,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "ConnectorScrewHole",
+      "_source_name": "Sketch008",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 13,
+        "external_geometry_count": 1,
+        "geometry_count": 5,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "ValveBody",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 16.25,
+          "x_min": -16.25,
+          "y_max": 12.000000000000002,
+          "y_min": -14.0,
+          "z_max": 75.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": -1.3470503938426066,
+          "y": -0.15044888664691025,
+          "z": 36.22661682773106
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 16832.040724011124,
+        "total_volume_mm3": 24792.19989081763
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-06-27T22:42:22.638345+00:00",
+    "document_label": "ValveBody",
+    "document_name": "ValveBody",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\ServoQuetsch\\ValveBody.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

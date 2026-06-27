@@ -1,0 +1,129 @@
+{
+  "assemblies": [
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "child_count": 11,
+        "is_valid": true,
+        "joint_count": 0,
+        "joint_types": {}
+      }
+    }
+  ],
+  "dag_cycles": [],
+  "links": [
+    {
+      "_source_label": "ValveBody",
+      "_source_name": "ValveBody",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Body",
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Servo",
+      "_source_name": "Servo",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Body",
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "ServoConnector",
+      "_source_name": "ServoConnector",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Body",
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Pincher001",
+      "_source_name": "Pincher001",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Body",
+        "shape_type": "Solid"
+      }
+    },
+    {
+      "_source_label": "Tube",
+      "_source_name": "Tube",
+      "_source_type_id": "App::Link",
+      "metrics": {
+        "is_valid": true,
+        "linked_object_is_valid": true,
+        "linked_object_name": "Body",
+        "shape_type": "Solid"
+      }
+    }
+  ],
+  "schema_version": 4,
+  "solids": [
+    {
+      "_source_label": "Assembly",
+      "_source_name": "Assembly",
+      "_source_type_id": "Assembly::AssemblyObject",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 16.25,
+          "x_min": -16.25,
+          "y_max": 12.000000000000002,
+          "y_min": -44.7,
+          "z_max": 95.0,
+          "z_min": -20.0
+        },
+        "center_of_mass": {
+          "x": 0.413921865963913,
+          "y": -13.136465731148569,
+          "z": 42.55460555910787
+        },
+        "is_valid": true,
+        "solid_count": 5,
+        "total_area_mm2": 27323.22359533614,
+        "total_volume_mm3": 61108.26444785348
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-06-27T22:42:26.050838+00:00",
+    "document_label": "ValveAssembly",
+    "document_name": "ValveAssembly",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\ServoQuetsch\\ValveAssembly.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  },
+  "techdraw_pages": [
+    {
+      "_source_label": "Page",
+      "_source_name": "Page",
+      "_source_type_id": "TechDraw::DrawPage",
+      "metrics": {
+        "is_valid": true,
+        "template_loaded": true,
+        "template_name": "/tmp/.mount_FreeCAEkDNJi/usr/share/Mod/TechDraw/Templates/ISO/A4_Landscape_ISO5457_minimal.svg",
+        "view_count": 11,
+        "view_types": {
+          "TechDraw::DrawProjGroup": 1,
+          "TechDraw::DrawProjGroupItem": 1,
+          "TechDraw::DrawViewAnnotation": 3,
+          "TechDraw::DrawViewBalloon": 3,
+          "TechDraw::DrawViewDimension": 3
+        }
+      }
+    }
+  ]
+}

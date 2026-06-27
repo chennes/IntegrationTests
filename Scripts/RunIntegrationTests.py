@@ -96,7 +96,11 @@ def parse_args(argv: List[str]) -> argparse.Namespace:
         "when the underlying geometry is identical.",
     )
     parser.add_argument(
-        "--recursive", action="store_true", help="Recurse into subfolders of fcstd-dir"
+        "--recursive",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Recurse into subfolders of fcstd-dir (default: on, so multi-file "
+        "bundle subdirectories are discovered). Use --no-recursive for a flat scan.",
     )
     parser.add_argument(
         "--timeout",
@@ -576,9 +580,26 @@ def main(argv: List[str]) -> int:
     for fcstd_path in fcstd_files:
         if single_test_to_run and fcstd_path != single_test_to_run:
             continue
+        # Dependency-only files (named in a sibling _deps.txt) are kept on disk so that
+        # co-located cross-document references -- e.g. an external VarSet driving geometry
+        # in other files -- resolve when a bundle member is opened, but they are not
+        # themselves test targets.
+        deps_manifest = fcstd_path.parent / "_deps.txt"
+        if deps_manifest.is_file():
+            dep_names = {
+                line.strip()
+                for line in deps_manifest.read_text(encoding="utf-8").splitlines()
+                if line.strip() and not line.lstrip().startswith("#")
+            }
+            if fcstd_path.name in dep_names:
+                continue
         total_files += 1
         stem = fcstd_path.stem
-        baseline_path = baseline_dir / f"{stem}.json"
+        # Baseline path mirrors the file's path relative to fcstd-dir, so bundle members
+        # in subdirectories map to BaselineResults/<bundle>/<stem>.json and never collide
+        # on a bare stem. Flat files (rel == "<stem>.FCStd") are unchanged.
+        rel = fcstd_path.relative_to(fcstd_dir)
+        baseline_path = baseline_dir / rel.with_suffix(".json")
 
         if not baseline_path.exists():
             print(f"[FAIL] {fcstd_path.name}: baseline missing: {baseline_path}", file=sys.stderr)

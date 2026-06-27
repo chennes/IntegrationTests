@@ -1,0 +1,118 @@
+{
+  "dag_cycles": [],
+  "partdesign_bodies": [
+    {
+      "_source_label": "ServoConnector",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 6,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 18,
+        "external_geometry_count": 0,
+        "geometry_count": 6,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "ServoConnector",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.65,
+          "x_min": -5.65,
+          "y_max": 8.990300740545756,
+          "y_min": -5.990300740545756,
+          "z_max": 2.6,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 3.3547053940891767e-16,
+          "y": 1.6229022526445525,
+          "z": 1.3000000000000005
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 387.59476683101866,
+        "total_volume_mm3": 285.9364923567522
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-06-27T22:42:21.321177+00:00",
+    "document_label": "ServoConnector",
+    "document_name": "ServoConnector",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\ServoQuetsch\\ServoConnector.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}
