@@ -588,6 +588,12 @@ def main(argv):
         raise SystemExit("Input file not found: " + fcstd_path)
 
     doc = App.openDocument(fcstd_path)
+    # Exit non-zero on a soft open failure so the harness counts it as an error, not a false
+    # geometry mismatch from grading an empty report.  FreeCADCmd swallows SystemExit's message,
+    # so write the reason to stderr explicitly for the harness to surface.
+    if doc is None or not doc.Objects:
+        sys.stderr.write("Document opened with no objects (load failed): " + fcstd_path + "\n")
+        raise SystemExit(1)
     for obj in doc.Objects:
         try:
             obj.touch()
