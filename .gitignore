@@ -4,3 +4,11 @@
 *~
 /.vscode/
 /.idea/
+
+# Content-addressed v4 report archive -- regenerable from FCStd files via the
+# eval pipeline. The DB only stores relative paths into this tree.
+/Reports/
+
+# SQLite write-ahead-log sidecar files; index.sqlite itself is tracked.
+/Data/index.sqlite-wal
+/Data/index.sqlite-shm

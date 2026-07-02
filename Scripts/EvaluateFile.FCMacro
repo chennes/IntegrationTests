@@ -995,6 +995,44 @@ def detect_dag_cycles(doc) -> list:
     return cycles
 
 
+def scan_invalid_shapes(doc) -> list:
+    """Scan every object for a geometrically invalid BRep Shape (OCCT BRepCheck).
+
+    This catches latent invalid geometry that a file's native FreeCAD version tolerates but
+    stricter later versions reject.  Unlike the per-section ``is_valid`` (which grades only final
+    solids), this walks EVERY object: a defective intermediate feature (e.g. a Sweep consumed by
+    a Cut) can be ``shape.isValid()`` False while every final solid, ``obj.isValid()`` and the
+    recompute all report valid.  Reported as a top-level list; the comparison harness ignores
+    top-level keys, so this does not affect baselines or pass/fail of the running suite.
+
+    Returns:
+        A list of dicts (one per invalid object) with name, label, type_id and obj_valid.
+    """
+    invalid = []
+    for obj in doc.Objects:
+        shape = getattr(obj, "Shape", None)
+        if shape is None:
+            continue
+        try:
+            if shape.isNull() or shape.isValid():
+                continue
+        except Exception:
+            continue
+        try:
+            obj_valid = obj.isValid()
+        except Exception:
+            obj_valid = None
+        invalid.append(
+            {
+                "name": obj.Name,
+                "label": getattr(obj, "Label", obj.Name),
+                "type_id": obj.TypeId,
+                "obj_valid": obj_valid,
+            }
+        )
+    return invalid
+
+
 def build_report_dict(doc, source_path: str) -> dict:
     """Build the complete metrics report for a FreeCAD document.
 
@@ -1033,6 +1071,9 @@ def build_report_dict(doc, source_path: str) -> dict:
         for analyzer in ANALYZERS:
             if analyzer.can_handle(obj):
                 report.setdefault(analyzer.section, []).append(analyzer.evaluate(obj))
+
+    # All-object BRep validity scan (final-solids is_valid does not cover intermediates).
+    report["invalid_shapes"] = scan_invalid_shapes(doc)
 
     return report
 

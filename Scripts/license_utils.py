@@ -95,7 +95,10 @@ KNOWN_LICENSES: List[LicenseInfo] = [
             "creative commons zero 1.0 universal",
         ],
         pattern=re.compile(
-            r"(?:creative\s*commons\s+)?(?:cc\s*)?(?:zero|0)\s*(?:v?\s*1[\.\s]*0)?"
+            # Require an actual CC0 identifier (not a bare "0", which would
+            # otherwise match the "0" in version strings like "v3.0").
+            r"(?:creative\s*commons\s+zero|cc\s*[-_]?\s*0)"
+            r"(?:\s*[-_]?\s*v?\s*1[\.\s]*0)?"
             r"(?:\s+universal)?",
             re.IGNORECASE,
         ),
@@ -155,12 +158,110 @@ KNOWN_LICENSES: List[LicenseInfo] = [
         aliases=[
             "lgpl-2.1",
             "lgpl-2.1-or-later",
+            # FreeCAD Parts Library parts declare their license as "same as FreeCAD",
+            # i.e. FreeCAD's software license, LGPL-2.1-or-later (decision 2026-06-04).
+            "(same license as freecad)",
+            "same license as freecad",
+            "same as freecad",
         ],
         pattern=re.compile(
             r"(?:gnu\s+)?(?:lesser\s+)?(?:general\s+public\s+licen[cs]e\s+)?"
             r"lgpl\s*[-\s]*2[\.\s]*1(?:\s*[-\s]*or\s*[-\s]*later)?",
             re.IGNORECASE,
         ),
+    ),
+    LicenseInfo(
+        spdx_id="GPL-3.0-or-later",
+        name="GNU General Public License v3.0 or later",
+        url="https://www.gnu.org/licenses/gpl-3.0.html",
+        download_url="https://www.gnu.org/licenses/gpl-3.0.txt",
+        aliases=[
+            "gpl-3.0",
+            "gpl-3.0-or-later",
+            "gpl-3",
+            "gplv3",
+            "gnu general public license v3.0 or later",
+            "gnu general public license v3.0",
+            "gnu general public license v3",
+            "gnu general public license version 3",
+            "gnu gpl v3",
+            "gnu gpl version 3",
+        ],
+        pattern=re.compile(
+            # Negative lookbehind on the "gpl" alternative blocks "lgpl" from matching.
+            r"(?:gnu\s+)?(?:general\s+public\s+licen[cs]e|(?<!l)gpl)"
+            r"\s*[-\s,]*(?:v(?:ersion)?\s*)?3(?:[\.\s]*0)?"
+            r"(?:\s*[-\s]*or\s*[-\s]*later)?",
+            re.IGNORECASE,
+        ),
+    ),
+    LicenseInfo(
+        spdx_id="GPL-2.0-or-later",
+        name="GNU General Public License v2.0 or later",
+        url="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+        download_url="https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+        aliases=[
+            "gpl-2.0",
+            "gpl-2.0-or-later",
+            "gpl-2",
+            "gplv2",
+            "gnu general public license v2.0 or later",
+            "gnu general public license v2.0",
+            "gnu general public license v2",
+            "gnu general public license version 2",
+            "gnu gpl v2",
+            "gnu gpl version 2",
+        ],
+        pattern=re.compile(
+            r"(?:gnu\s+)?(?:general\s+public\s+licen[cs]e|(?<!l)gpl)"
+            r"\s*[-\s,]*(?:v(?:ersion)?\s*)?2(?:[\.\s]*0)?"
+            r"(?:\s*[-\s]*or\s*[-\s]*later)?",
+            re.IGNORECASE,
+        ),
+    ),
+    # --- Permissive licenses ---
+    LicenseInfo(
+        spdx_id="MIT",
+        name="MIT License",
+        url="https://opensource.org/license/mit/",
+        aliases=[
+            "mit",
+            "mit license",
+            "the mit license",
+            "mit-license",
+        ],
+        pattern=re.compile(r"\bmit(?:\s+licen[cs]e)?\b", re.IGNORECASE),
+    ),
+    LicenseInfo(
+        spdx_id="Apache-2.0",
+        name="Apache License 2.0",
+        url="https://www.apache.org/licenses/LICENSE-2.0",
+        download_url="https://www.apache.org/licenses/LICENSE-2.0.txt",
+        aliases=[
+            "apache-2.0",
+            "apache 2.0",
+            "apache license 2.0",
+            "apache license, version 2.0",
+            "apache software license 2.0",
+        ],
+        pattern=re.compile(
+            r"apache(?:\s+(?:software\s+)?licen[cs]e)?(?:[,\s]+version)?\s*[-\s]*2[\.\s]*0",
+            re.IGNORECASE,
+        ),
+    ),
+    LicenseInfo(
+        spdx_id="BSD-3-Clause",
+        name="BSD 3-Clause License",
+        url="https://opensource.org/license/bsd-3-clause/",
+        aliases=[
+            "bsd-3-clause",
+            "bsd 3-clause",
+            "bsd 3 clause",
+            "bsd 3-clause license",
+            "new bsd license",
+            "modified bsd license",
+        ],
+        pattern=re.compile(r"bsd\s*[-\s]*3(?:\s*[-\s]*clause)?", re.IGNORECASE),
     ),
     # --- CERN Open Hardware Licence ---
     LicenseInfo(
@@ -225,6 +326,20 @@ KNOWN_LICENSES: List[LicenseInfo] = [
         ],
         pattern=re.compile(
             r"cern\s+(?:open\s+hardware\s+licen[cs]e\s+)?" r"(?:o\.?h\.?l\.?\s*)?v?\s*1[\.\s]*2",
+            re.IGNORECASE,
+        ),
+    ),
+    LicenseInfo(
+        spdx_id="CERN-OHL-1.1",
+        name="CERN Open Hardware Licence v1.1",
+        url="https://ohwr.org/cernohl",
+        aliases=[
+            "cern ohl v1.1",
+            "cern open hardware licence v1.1",
+            "cern-ohl-1.1",
+        ],
+        pattern=re.compile(
+            r"cern\s+(?:open\s+hardware\s+licen[cs]e\s+)?" r"(?:o\.?h\.?l\.?\s*)?v?\s*1[\.\s]*1",
             re.IGNORECASE,
         ),
     ),

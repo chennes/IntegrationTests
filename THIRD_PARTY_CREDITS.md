@@ -23,6 +23,7 @@ A community-maintained library of reusable parts for FreeCAD.
 | Test file                               | Author                             | License in file | Original path                                   |
 |-----------------------------------------|------------------------------------|-----------------|-------------------------------------------------|
 | FPL_KitchenCabinetBase.FCStd            | Francisco Rosa                     | CC-BY-3.0       | Architectural Parts/Kitchen/                    |
+| FPL_DoorsWindowsModule01.FCStd          | Francisco Rosa                     | CC-BY-3.0       | Architectural Parts/Doors_Windows/              |
 | FPL_DuctFlexComplete.FCStd              | Francisco Rosa                     | CC-BY-3.0       | HVAC/Ducts/Flex/                                |
 | FPL_DuctLinearRectangularComplete.FCStd | Francisco Rosa                     | CC-BY-3.0       | HVAC/Ducts/Rectangular/                         |
 | FPL_PinHeader2x18.FCStd                 | FreeCAD Parts Library contributors | CC-BY-3.0       | Electronics Parts/Headers/2.54mm-pitch/female/  |

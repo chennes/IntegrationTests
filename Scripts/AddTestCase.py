@@ -107,7 +107,16 @@ def extract_metadata(path: Path) -> Dict[str, str]:
 
         for prop_el in root.iter("Property"):
             pname = prop_el.get("name", "")
-            if pname in ("CreatedBy", "License", "LicenseURL", "Comment", "Company"):
+            if pname in (
+                "CreatedBy",
+                "License",
+                "LicenseURL",
+                "Comment",
+                "Company",
+                "CreationDate",
+                "LastModifiedBy",
+                "LastModifiedDate",
+            ):
                 for s in prop_el.iter("String"):
                     val = s.get("value", "")
                     if val and pname not in metadata:
@@ -123,6 +132,13 @@ def extract_metadata(path: Path) -> Dict[str, str]:
 def update_metadata(path: Path, updates: Dict[str, str]) -> None:
     """Write updated document properties into an FCStd file.
 
+    Handles three cases per requested update:
+      1. The Property element and its String child both exist -> overwrite the value.
+      2. The Property element exists but has no String child -> insert one.
+      3. No Property element exists -> append a new
+         `<Property name="X" type="App::PropertyString"><String value="..."/></Property>`
+         inside `<Properties>` and bump its `Count` attribute.
+
     Args:
         path: Path to the FCStd file (modified in-place).
         updates: Dict of property names to new values.
@@ -135,16 +151,57 @@ def update_metadata(path: Path, updates: Dict[str, str]) -> None:
             data = zin.read(item.filename)
             if item.filename == "Document.xml":
                 root = ET.fromstring(data)
-                for prop_el in root.iter("Property"):
-                    pname = prop_el.get("name", "")
-                    if pname in updates:
-                        for s in prop_el.iter("String"):
-                            s.set("value", updates[pname])
-                            break
+                _apply_property_updates(root, updates)
                 data = ET.tostring(root, encoding="unicode").encode("utf-8")
             zout.writestr(item, data)
 
     shutil.move(tmp_path, str(path))
+
+
+def _apply_property_updates(root: ET.Element, updates: Dict[str, str]) -> None:
+    """Apply property-name -> value updates to a Document.xml ElementTree root.
+
+    Inserts missing String children or whole Property elements as needed so
+    files with old/incomplete property tables get a complete metadata block.
+    """
+    existing: Dict[str, ET.Element] = {}
+    for prop_el in root.iter("Property"):
+        name = prop_el.get("name", "")
+        if name and name not in existing:
+            existing[name] = prop_el
+
+    properties_container: Optional[ET.Element] = None
+    added_count = 0
+
+    for pname, value in updates.items():
+        prop_el = existing.get(pname)
+        if prop_el is not None:
+            string_child = next(iter(prop_el.iter("String")), None)
+            if string_child is not None:
+                string_child.set("value", value)
+            else:
+                ET.SubElement(prop_el, "String", {"value": value})
+            continue
+
+        if properties_container is None:
+            properties_container = root.find("Properties")
+            if properties_container is None:
+                properties_container = ET.SubElement(root, "Properties", {"Count": "0"})
+        new_prop = ET.SubElement(
+            properties_container,
+            "Property",
+            {"name": pname, "type": "App::PropertyString"},
+        )
+        ET.SubElement(new_prop, "String", {"value": value})
+        existing[pname] = new_prop
+        added_count += 1
+
+    if added_count and properties_container is not None:
+        try:
+            current_count = int(properties_container.get("Count", "0"))
+        except ValueError:
+            current_count = sum(1 for _ in properties_container.iter("Property"))
+        properties_container.set("Count", str(current_count + added_count))
 
 
 def step_inspect_metadata(source_path: Path) -> Dict[str, str]:
@@ -470,6 +527,30 @@ def step_generate_baseline(
             return False
 
     if baseline_path.exists() and baseline_path.stat().st_size > 0:
+        # Hard reject: a file that produces invalid geometry in its own native FreeCAD version is
+        # unsuitable -- such latent BRep-invalid shapes are silently tolerated here but break in
+        # stricter later versions.  scan_invalid_shapes in EvaluateFile walks EVERY object, so this
+        # also catches invalid intermediate features that the final-solids grading misses.
+        import json
+
+        try:
+            with open(baseline_path, "r", encoding="utf-8") as f:
+                baseline_report = json.load(f)
+        except Exception:
+            baseline_report = {}
+        invalid = baseline_report.get("invalid_shapes", [])
+        if invalid:
+            print(f"\n  REJECTED: {len(invalid)} object(s) have invalid geometry in the file's")
+            print(f"  native FreeCAD version (BRep shape.isValid() is False):")
+            for entry in invalid[:15]:
+                name = entry.get("label") or entry.get("name", "?")
+                print(f"    - {name} ({entry.get('type_id', '?')})")
+            if len(invalid) > 15:
+                print(f"    ... and {len(invalid) - 15} more")
+            print("  Files with latent invalid geometry are not suitable for the test suite.")
+            baseline_path.unlink(missing_ok=True)
+            return False
+
         print(f"  Generated {baseline_path.name} ({baseline_path.stat().st_size / 1024:.1f} KB)")
         return True
     else:

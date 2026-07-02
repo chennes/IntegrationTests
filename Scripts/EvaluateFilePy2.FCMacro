@@ -526,6 +526,39 @@ def _find_final_solid_objects(doc):
     return finals
 
 
+def scan_invalid_shapes(doc):
+    """Scan every object for a geometrically invalid BRep Shape (OCCT BRepCheck).
+
+    Catches latent invalid geometry that the file's native FreeCAD tolerates but stricter later
+    versions reject.  Walks EVERY object, not just final solids: an intermediate feature can be
+    shape.isValid() False while final solids, obj.isValid() and the recompute all report valid.
+    Top-level list; the comparison harness ignores top-level keys.
+    """
+    invalid = []
+    for obj in doc.Objects:
+        shape = getattr(obj, "Shape", None)
+        if shape is None:
+            continue
+        try:
+            if shape.isNull() or shape.isValid():
+                continue
+        except Exception:
+            continue
+        try:
+            obj_valid = obj.isValid()
+        except Exception:
+            obj_valid = None
+        invalid.append(
+            {
+                "name": obj.Name,
+                "label": getattr(obj, "Label", obj.Name),
+                "type_id": obj.TypeId,
+                "obj_valid": obj_valid,
+            }
+        )
+    return invalid
+
+
 def build_report_dict(doc, source_path):
     """Build the complete metrics report for a FreeCAD document."""
     report = {
@@ -550,6 +583,8 @@ def build_report_dict(doc, source_path):
             if result is None:
                 continue
             report.setdefault(section_name, []).append(result)
+
+    report["invalid_shapes"] = scan_invalid_shapes(doc)
 
     return report
 

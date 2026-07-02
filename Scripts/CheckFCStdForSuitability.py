@@ -214,7 +214,12 @@ def run_evaluation_pixi(
 
 
 def check_report_health(report: Dict[str, Any]) -> Tuple[bool, List[str]]:
-    """Check that all solids are valid and all sketches are solved.
+    """Check that all solids are valid, all sketches are solved, and no object has invalid geometry.
+
+    The per-section ``is_valid`` grades only final solids.  ``invalid_shapes`` is a top-level scan
+    of EVERY object's BRep validity (``shape.isValid()``), which catches latent invalid geometry
+    on intermediate features that a file's native FreeCAD tolerates but stricter later versions
+    reject.  Any such object is a hard fail here.
 
     Args:
         report: Parsed JSON report from EvaluateFile.FCMacro.
@@ -239,6 +244,13 @@ def check_report_health(report: Dict[str, Any]) -> Tuple[bool, List[str]]:
         metrics = entry.get("metrics", {})
         if not metrics.get("is_valid", False):
             problems.append(f"Sketch '{name}' is not solved")
+
+    for entry in report.get("invalid_shapes", []):
+        name = entry.get("label") or entry.get("name", "?")
+        type_id = entry.get("type_id", "?")
+        problems.append(
+            f"Object '{name}' ({type_id}) has invalid geometry (BRep shape.isValid() is False)"
+        )
 
     return len(problems) == 0, problems
 

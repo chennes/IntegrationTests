@@ -191,6 +191,11 @@ def resolve_freecad(version_string: str) -> Tuple[Optional[str], str]:
       2. Closest available installed version.
       3. Most recent weekly build archive (extracted on demand via 7-Zip).
 
+    The ProgramVersion field was added in FreeCAD 0.13, so an empty or
+    unparseable value implies a pre-0.13 file. We resolve to the oldest
+    available binary in that case, not the newest -- otherwise we'd be
+    running ancient files through a modern release that's likely to drift.
+
     Args:
         version_string: The ProgramVersion from the FCStd file.
 
@@ -199,7 +204,14 @@ def resolve_freecad(version_string: str) -> Tuple[Optional[str], str]:
     """
     parsed = parse_version(version_string)
     if parsed is None:
-        return str(PORTABLE_BINARIES.get((1, 1), "")), f"fallback (unparseable: {version_string})"
+        for v in sorted(PORTABLE_BINARIES.keys()):
+            exe = PORTABLE_BINARIES[v]
+            if Path(exe).is_file():
+                return (
+                    exe,
+                    f"fallback to oldest {v[0]}.{v[1]} (no ProgramVersion -- file predates 0.13)",
+                )
+        return None, f"fallback failed (no installed binary; version_string={version_string!r})"
 
     major, minor = parsed
 
