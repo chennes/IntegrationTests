@@ -13,3 +13,12 @@ repos:
     hooks:
         -   id: black
             args: ['--line-length', '100']
+-   repo: local
+    hooks:
+        -   id: check-licenses
+            name: Check FCStd license/author metadata
+            entry: python Scripts/CheckLicenses.py
+            language: python
+            additional_dependencies: ['defusedxml']
+            pass_filenames: false
+            files: '^(Data/CADFiles/.*\.FCStd|THIRD_PARTY_CREDITS\.md|LICENSES/.*)$'
