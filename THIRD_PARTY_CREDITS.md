@@ -109,6 +109,18 @@ Open-source satellite ground station network hardware.
 |--------------------------|--------------------------------------|
 | UHF_Antenna_Phasma.FCStd | Based on KiCAD design by Daniel Bita |
 
+## Pinch Valve -- laura
+
+- **Author:** laura (lilaura.eu)
+- **Project:** [pinchvalve](https://git.lilaura.eu/la/pinchvalve) -- entry to the [2026 FreeCAD Design Contest](https://forum.freecad.org/viewtopic.php?t=105082)
+- **License:** [CERN-OHL-W-2.0](https://ohwr.org/cern_ohl_w_v2.txt) (CERN Open Hardware Licence Version 2 -- Weakly Reciprocal)
+
+Servo-actuated pinch valve for the 2026 FreeCAD design contest.
+
+| Test file           | Notes                                             |
+|---------------------|---------------------------------------------------|
+| LA_PinchValve.FCStd | Design revision V0.2 (original filename V0.2.FCStd) |
+
 ## Original Files -- Max Wilfinger
 
 The following files were created by Max Wilfinger specifically for this test suite and are licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).

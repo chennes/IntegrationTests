@@ -1,0 +1,1234 @@
+{
+  "app_parts": [
+    {
+      "_source_label": "V0.2",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 19.25,
+          "x_min": -19.25,
+          "y_max": 17.041753674795327,
+          "y_min": -19.8,
+          "z_max": 12.800000000000017,
+          "z_min": -18.4
+        },
+        "child_count": 15,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Linkage001",
+      "_source_name": "Part001",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -3.608815549696679,
+          "x_min": -7.608815549696679,
+          "y_max": 7.0,
+          "y_min": -17.7856717892971,
+          "z_max": -1.7999999999999974,
+          "z_min": -5.200000000000001
+        },
+        "child_count": 2,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Crank",
+      "_source_name": "Part002",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 0.7499999999999973,
+          "x_min": -11.249999999999996,
+          "y_max": -5.300000000000002,
+          "y_min": -17.299999999999997,
+          "z_max": 2.5000000000000013,
+          "z_min": -9.7
+        },
+        "child_count": 2,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Housing",
+      "_source_name": "Part003",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 19.25,
+          "x_min": -19.25,
+          "y_max": 17.041753674795327,
+          "y_min": -19.8,
+          "z_max": 5.500000000000002,
+          "z_min": -18.4
+        },
+        "child_count": 2,
+        "is_valid": true
+      }
+    }
+  ],
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "DatumPlane",
+      "_source_name": "DatumPlane",
+      "_source_type_id": "Part::DatumPlane",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1e+100,
+          "x_min": -1e+100,
+          "y_max": -11.299999999999997,
+          "y_min": -11.299999999999997,
+          "z_max": 1e+100,
+          "z_min": -1e+100
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": -4.25,
+          "y": -11.299999999999997,
+          "z": 5.8
+        },
+        "shape_type": "Face",
+        "total_area_mm2": 8e+100
+      }
+    }
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Bell Crank",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 9,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket"
+      }
+    },
+    {
+      "_source_label": "Lower Link",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 5,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket001"
+      }
+    },
+    {
+      "_source_label": "Upper Link",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 5,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket002"
+      }
+    },
+    {
+      "_source_label": "Lower Crank",
+      "_source_name": "Body003",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 9,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket026"
+      }
+    },
+    {
+      "_source_label": "Upper Crank",
+      "_source_name": "Body004",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 5,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket004"
+      }
+    },
+    {
+      "_source_label": "Lower Housing",
+      "_source_name": "Body005",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 18,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket021"
+      }
+    },
+    {
+      "_source_label": "Upper Housing",
+      "_source_name": "Body006",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 22,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket023"
+      }
+    },
+    {
+      "_source_label": "Knob",
+      "_source_name": "Body007",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 10,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "PolarPattern"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad002",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad003",
+      "_source_name": "Pad003",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad004",
+      "_source_name": "Pad004",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad005",
+      "_source_name": "Pad005",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad006",
+      "_source_name": "Pad006",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket002",
+      "_source_name": "Pocket002",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad007",
+      "_source_name": "Pad007",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad008",
+      "_source_name": "Pad008",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad009",
+      "_source_name": "Pad009",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad010",
+      "_source_name": "Pad010",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket003",
+      "_source_name": "Pocket003",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad011",
+      "_source_name": "Pad011",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad012",
+      "_source_name": "Pad012",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket004",
+      "_source_name": "Pocket004",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad013",
+      "_source_name": "Pad013",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Servo Mounting Holes",
+      "_source_name": "Pocket005",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored001",
+      "_source_name": "Mirrored001",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Casing Mounting Holes",
+      "_source_name": "Pocket006",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "MultiTransform",
+      "_source_name": "MultiTransform",
+      "_source_type_id": "PartDesign::MultiTransform",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirror",
+      "_source_name": "Mirror",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Mirror001",
+      "_source_name": "Mirror001",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Bell Crank Clearance001",
+      "_source_name": "Pocket007",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pinch Pin Clearance",
+      "_source_name": "Pocket008",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Linkage Clearance001",
+      "_source_name": "Pocket009",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Linkage Pin Clearance",
+      "_source_name": "Pocket010",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad014",
+      "_source_name": "Pad014",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket011",
+      "_source_name": "Pocket011",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket012",
+      "_source_name": "Pocket012",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket013",
+      "_source_name": "Pocket013",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket014",
+      "_source_name": "Pocket014",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket015",
+      "_source_name": "Pocket015",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket016",
+      "_source_name": "Pocket016",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket017",
+      "_source_name": "Pocket017",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket018",
+      "_source_name": "Pocket018",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket019",
+      "_source_name": "Pocket019",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "MultiTransform001",
+      "_source_name": "MultiTransform001",
+      "_source_type_id": "PartDesign::MultiTransform",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirror002",
+      "_source_name": "Mirror002",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Mirror003",
+      "_source_name": "Mirror003",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Pocket020",
+      "_source_name": "Pocket020",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket021",
+      "_source_name": "Pocket021",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket022",
+      "_source_name": "Pocket022",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored002",
+      "_source_name": "Mirrored002",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket023",
+      "_source_name": "Pocket023",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Revolution",
+      "_source_name": "Revolution",
+      "_source_type_id": "PartDesign::Revolution",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket024",
+      "_source_name": "Pocket024",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad015",
+      "_source_name": "Pad015",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket025",
+      "_source_name": "Pocket025",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "PolarPattern",
+      "_source_name": "PolarPattern",
+      "_source_type_id": "PartDesign::PolarPattern",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket026",
+      "_source_name": "Pocket026",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "main",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 178,
+        "external_geometry_count": 0,
+        "geometry_count": 76,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Bell Crank 1",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "external_geometry_count": 1,
+        "geometry_count": 6,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Bell Crank 2",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 8,
+        "external_geometry_count": 1,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Bell Crank 3",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 1,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Linkage",
+      "_source_name": "Sketch005",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 39,
+        "external_geometry_count": 1,
+        "geometry_count": 16,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Crankshaft",
+      "_source_name": "Sketch006",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 34,
+        "external_geometry_count": 1,
+        "geometry_count": 13,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Linkage Clearance",
+      "_source_name": "Sketch007",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 25,
+        "external_geometry_count": 4,
+        "geometry_count": 11,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Bell Crank Clearance",
+      "_source_name": "Sketch008",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 29,
+        "external_geometry_count": 6,
+        "geometry_count": 14,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch009",
+      "_source_name": "Sketch009",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 0,
+        "external_geometry_count": 1,
+        "geometry_count": 0,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch010",
+      "_source_name": "Sketch010",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 0,
+        "external_geometry_count": 1,
+        "geometry_count": 0,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch011",
+      "_source_name": "Sketch011",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 32,
+        "external_geometry_count": 1,
+        "geometry_count": 10,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch012",
+      "_source_name": "Sketch012",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 29,
+        "external_geometry_count": 1,
+        "geometry_count": 10,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch013",
+      "_source_name": "Sketch013",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 1,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch014",
+      "_source_name": "Sketch014",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "external_geometry_count": 1,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch016",
+      "_source_name": "Sketch016",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 17,
+        "external_geometry_count": 0,
+        "geometry_count": 6,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch017",
+      "_source_name": "Sketch017",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 13,
+        "external_geometry_count": 1,
+        "geometry_count": 5,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch018",
+      "_source_name": "Sketch018",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "external_geometry_count": 1,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch019",
+      "_source_name": "Sketch019",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "external_geometry_count": 1,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch020",
+      "_source_name": "Sketch020",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "external_geometry_count": 1,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "V0.2",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 19.25,
+          "x_min": -19.25,
+          "y_max": 17.041753674795327,
+          "y_min": -19.8,
+          "z_max": 12.800000000000017,
+          "z_min": -18.4
+        },
+        "center_of_mass": {
+          "x": 0.00027250306924615075,
+          "y": -0.6271236189227134,
+          "z": -5.889026151313626
+        },
+        "is_valid": true,
+        "solid_count": 8,
+        "total_area_mm2": 15163.028399384239,
+        "total_volume_mm3": 26209.739507737293
+      }
+    },
+    {
+      "_source_label": "Bell Crank",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 7.264279132293421,
+          "x_min": -7.608815549696679,
+          "y_max": 8.0,
+          "y_min": -0.4847787923669822,
+          "z_max": 3.0,
+          "z_min": -4.0
+        },
+        "center_of_mass": {
+          "x": 3.091145566632055,
+          "y": 4.617155076815617,
+          "z": -1.1421924527815015
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 396.0546333151823,
+        "total_volume_mm3": 240.28431210253973
+      }
+    },
+    {
+      "_source_label": "Lower Link",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -3.608815549696679,
+          "x_min": -7.608815549696679,
+          "y_max": 7.0,
+          "y_min": -17.7856717892971,
+          "z_max": 2.220446049250313e-16,
+          "z_min": -1.7000000000000002
+        },
+        "center_of_mass": {
+          "x": -5.660385829218683,
+          "y": -6.317167153940525,
+          "z": -0.929969990167924
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 282.5315479296834,
+        "total_volume_mm3": 133.46228322843882
+      }
+    },
+    {
+      "_source_label": "Linkage001",
+      "_source_name": "Part001",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -3.608815549696679,
+          "x_min": -7.608815549696679,
+          "y_max": 7.0,
+          "y_min": -17.7856717892971,
+          "z_max": -1.7999999999999974,
+          "z_min": -5.200000000000001
+        },
+        "center_of_mass": {
+          "x": -5.660385829218684,
+          "y": -6.317167153940528,
+          "z": -3.500000000000001
+        },
+        "is_valid": true,
+        "solid_count": 2,
+        "total_area_mm2": 565.0630958593669,
+        "total_volume_mm3": 266.9245664568775
+      }
+    },
+    {
+      "_source_label": "Upper Link",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -3.608815549696679,
+          "x_min": -7.608815549696679,
+          "y_max": 7.0,
+          "y_min": -17.7856717892971,
+          "z_max": 1.7000000000000026,
+          "z_min": -2.220446049250313e-16
+        },
+        "center_of_mass": {
+          "x": -5.660385829218683,
+          "y": -6.3171671539405265,
+          "z": 0.9299699901679239
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 282.53154792968337,
+        "total_volume_mm3": 133.46228322843876
+      }
+    },
+    {
+      "_source_label": "Crank",
+      "_source_name": "Part002",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 0.7499999999999973,
+          "x_min": -11.249999999999996,
+          "y_max": -5.300000000000002,
+          "y_min": -17.299999999999997,
+          "z_max": 2.5000000000000013,
+          "z_min": -9.7
+        },
+        "center_of_mass": {
+          "x": -4.989358687554229,
+          "y": -11.163916930940914,
+          "z": -3.4085756027689826
+        },
+        "is_valid": true,
+        "solid_count": 2,
+        "total_area_mm2": 1125.805666408506,
+        "total_volume_mm3": 869.8664025709152
+      }
+    },
+    {
+      "_source_label": "Lower Crank",
+      "_source_name": "Body003",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 0.7499999999999973,
+          "x_min": -11.249999999999996,
+          "y_max": -5.300000000000002,
+          "y_min": -17.299999999999997,
+          "z_max": 2.6645352591003757e-15,
+          "z_min": -6.2
+        },
+        "center_of_mass": {
+          "x": -5.055730667133052,
+          "y": -11.156688024493524,
+          "z": -3.649357514679579
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 574.9861600056264,
+        "total_volume_mm3": 422.82761092667084
+      }
+    },
+    {
+      "_source_label": "Upper Crank",
+      "_source_name": "Body004",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 0.7499999999999973,
+          "x_min": -11.249999999999996,
+          "y_max": -5.300000000000002,
+          "y_min": -17.299999999999997,
+          "z_max": 6.000000000000002,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": -4.926581349027149,
+          "y": -11.170754326934047,
+          "z": 3.6296092446649997
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 550.8195064028796,
+        "total_volume_mm3": 447.03879164424416
+      }
+    },
+    {
+      "_source_label": "Housing",
+      "_source_name": "Part003",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 19.25,
+          "x_min": -19.25,
+          "y_max": 17.041753674795327,
+          "y_min": -19.8,
+          "z_max": 5.500000000000002,
+          "z_min": -18.4
+        },
+        "center_of_mass": {
+          "x": 0.4425198188513442,
+          "y": 0.2404944078198879,
+          "z": -6.709038887610233
+        },
+        "is_valid": true,
+        "solid_count": 2,
+        "total_area_mm2": 12365.512551494254,
+        "total_volume_mm3": 23787.94245866778
+      }
+    },
+    {
+      "_source_label": "Lower Housing",
+      "_source_name": "Body005",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 19.25,
+          "x_min": -19.25,
+          "y_max": 17.041753674795327,
+          "y_min": -19.8,
+          "z_max": -3.5,
+          "z_min": -18.4
+        },
+        "center_of_mass": {
+          "x": 0.18480862941828163,
+          "y": 1.1889569224579468,
+          "z": -11.234316004436735
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 6807.487711676062,
+        "total_volume_mm3": 15035.861901370361
+      }
+    },
+    {
+      "_source_label": "Upper Housing",
+      "_source_name": "Body006",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 19.25,
+          "x_min": -19.25,
+          "y_max": 17.041753674795327,
+          "y_min": -19.8,
+          "z_max": 5.500000000000002,
+          "z_min": -3.5000000000000075
+        },
+        "center_of_mass": {
+          "x": 0.8852613852006798,
+          "y": -1.388941164140615,
+          "z": 1.0652773276698289
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 5558.024839818182,
+        "total_volume_mm3": 8752.08055729742
+      }
+    },
+    {
+      "_source_label": "Knob",
+      "_source_name": "Body007",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.617654658177072,
+          "x_min": -13.113674156215524,
+          "y_max": -3.299999999999997,
+          "y_min": -19.299999999999997,
+          "z_max": 12.800000000000017,
+          "z_min": 5.79999999999999
+        },
+        "center_of_mass": {
+          "x": -5.179633639524486,
+          "y": -11.361609146675491,
+          "z": 9.01491883117173
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 710.5924523069273,
+        "total_volume_mm3": 1044.7217679391808
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-07-02T23:34:25.907411+00:00",
+    "document_label": "LA_PinchValve",
+    "document_name": "LA_PinchValve",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\LA_PinchValve.FCStd",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}
