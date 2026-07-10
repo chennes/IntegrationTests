@@ -121,6 +121,24 @@ Servo-actuated pinch valve for the 2026 FreeCAD design contest.
 |---------------------|---------------------------------------------------|
 | LA_PinchValve.FCStd | Design revision V0.2 (original filename V0.2.FCStd) |
 
+## ServoQuetsch -- mikeventor1
+
+- **Author:** mikeventor1 (https://gitlab.com/mikeventor1)
+- **Project:** [ServoQuetsch](https://gitlab.com/mikeventor1/ServoQuetsch) -- entry to the [FreeCAD Community Design Competition 2026](https://forum.freecad.org/viewtopic.php?p=886426)
+- **License:** [CERN-OHL-P-2.0](https://ohwr.org/cernohl) (CERN Open Hardware Licence Version 2 -- Permissive)
+
+A compact servo-actuated pinch valve, fully parametrized. Added as a multi-file bundle: the six graded parts are driven by `V#VarSet.<param>` expressions, so `V.FCStd` travels with them as a dependency-only file (listed in `_deps.txt`, not graded).
+
+| Test file                        | Notes                                            |
+|----------------------------------|--------------------------------------------------|
+| ServoQuetsch/Pincher.FCStd       |                                                  |
+| ServoQuetsch/Servo.FCStd         |                                                  |
+| ServoQuetsch/ServoConnector.FCStd|                                                  |
+| ServoQuetsch/Tube.FCStd          |                                                  |
+| ServoQuetsch/ValveAssembly.FCStd |                                                  |
+| ServoQuetsch/ValveBody.FCStd     |                                                  |
+| ServoQuetsch/V.FCStd             | Dependency-only VarSet master; not graded        |
+
 ## Original Files -- Max Wilfinger
 
 The following files were created by Max Wilfinger specifically for this test suite and are licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
