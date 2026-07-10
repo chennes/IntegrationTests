@@ -41,7 +41,12 @@ from metric_types import CompareConfig, MetricDiff  # noqa: E402
 from extractors import EXTRACTORS  # noqa: E402
 from RunIntegrationTests import compare_maps  # noqa: E402
 
-ANALYSIS_PATH = Path("G:/FreeCAD/IntegrationTests/library_analysis.json")
+ANALYSIS_PATH = Path(
+    os.environ.get(
+        "LIBRARY_ANALYSIS_JSON",
+        Path(__file__).resolve().parents[1] / "library_analysis.json",
+    )
+)
 
 # Default comparison tolerances (same as RunIntegrationTests.py)
 DEFAULT_CONFIG = CompareConfig(

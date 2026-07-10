@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Check license metadata for all FCStd files in the test suite.
 
+Searches --fcstd-dir recursively, so multi-file bundles held in subdirectories are
+covered, including their dependency-only members.
+
 Verifies that every file has:
   - A compatible open-source license in its in-file metadata
   - A CreatedBy field identifying the author
@@ -34,6 +37,7 @@ class FileInfo:
     """Metadata extracted from a single FCStd file."""
 
     filename: str
+    relpath: str = ""
     created_by: str = ""
     license_str: str = ""
     license_url: str = ""
@@ -133,7 +137,9 @@ def check_credits(files: List[FileInfo], credits_path: Path) -> List[str]:
     credits_text = credits_path.read_text(encoding="utf-8")
     for info in files:
         if info.filename not in credits_text:
-            problems.append(f"{info.filename}: not listed in THIRD_PARTY_CREDITS.md")
+            problems.append(
+                f"{info.relpath or info.filename}: not listed in THIRD_PARTY_CREDITS.md"
+            )
 
     return problems
 
@@ -220,7 +226,9 @@ def main(argv: List[str]) -> int:
         print(f"ERROR: FCStd directory not found: {fcstd_dir}", file=sys.stderr)
         return 1
 
-    fcstd_files = sorted(fcstd_dir.glob("*.FCStd"))
+    # Recursive: multi-file bundles live in subdirectories of the FCStd dir, and every
+    # file shipped in one -- including dependency-only members -- needs license metadata.
+    fcstd_files = sorted(fcstd_dir.rglob("*.FCStd"))
     if not fcstd_files:
         print(f"ERROR: No FCStd files found in {fcstd_dir}", file=sys.stderr)
         return 1
@@ -229,6 +237,7 @@ def main(argv: List[str]) -> int:
     all_infos: List[FileInfo] = []
     for path in fcstd_files:
         info = extract_metadata(path)
+        info.relpath = path.relative_to(fcstd_dir).as_posix()
         check_file(info)
         all_infos.append(info)
 
@@ -247,7 +256,7 @@ def main(argv: List[str]) -> int:
         print("=== Per-file problems ===")
         for info in files_with_problems:
             for problem in info.problems:
-                print(f"  {info.filename}: {problem}")
+                print(f"  {info.relpath}: {problem}")
             total_problems += len(info.problems)
         print()
 

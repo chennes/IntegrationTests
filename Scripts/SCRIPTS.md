@@ -12,7 +12,8 @@ The main test harness. For each `.FCStd` file in the test directory, it spawns F
 
 Example invocation:
 ```
-cd G:/FreeCAD/FreeCAD && eval "$(pixi shell-hook)" && python G:/FreeCAD/IntegrationTests/Scripts/RunIntegrationTests.py --freecad G:/FreeCAD/FreeCAD/.pixi/envs/default/Library/bin/FreeCADCmd.exe  --script G:/FreeCAD/IntegrationTests/Scripts/EvaluateFile.FCMacro --fcstd-dir G:/FreeCAD/IntegrationTests/Data/CADFiles/ --baseline-dir G:/FreeCAD/IntegrationTests/Data/BaselineResults/  --exceptions-dir G:/FreeCAD/IntegrationTests/Data/Exceptions/ --known-failures-dir G:/FreeCAD/IntegrationTests/Data/KnownFailures/
+IT=/path/to/IntegrationTests
+cd G:/FreeCAD/FreeCAD && eval "$(pixi shell-hook)" && python $IT/Scripts/RunIntegrationTests.py --freecad G:/FreeCAD/FreeCAD/.pixi/envs/default/Library/bin/FreeCADCmd.exe --script $IT/Scripts/EvaluateFile.FCMacro --fcstd-dir $IT/Data/CADFiles/ --baseline-dir $IT/Data/BaselineResults/ --exceptions-dir $IT/Data/Exceptions/ --known-failures-dir $IT/Data/KnownFailures/
 ```
 
 ```

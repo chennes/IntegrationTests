@@ -26,7 +26,7 @@ from pathlib import Path
 
 FREECAD_REPO = Path("G:/FreeCAD/FreeCAD")
 WORKTREE_ROOT = FREECAD_REPO / "worktrees"
-INTEGRATION_TESTS = Path("G:/FreeCAD/IntegrationTests")
+INTEGRATION_TESTS = Path(__file__).resolve().parents[1]
 
 
 def run(
