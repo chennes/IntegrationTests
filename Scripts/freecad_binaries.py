@@ -57,8 +57,8 @@ PORTABLE_BINARIES: Dict[Tuple[int, int], str] = {
 # 1.1.1 mis-parses argv when the exe path mixes \ and / and contains a space.
 import os as _os  # noqa: E402
 
-LATEST_RELEASE_VERSION = "1.1.1"
-LATEST_RELEASE_EXE = _os.path.normpath(f"{_P}/FreeCAD_1.1.1-Windows-x86_64-py311/FreeCADCmd.exe")
+LATEST_RELEASE_VERSION = "1.1.3"
+LATEST_RELEASE_EXE = _os.path.normpath(f"{_P}/FreeCAD_1.1.3-Windows-x86_64-py311/FreeCADCmd.exe")
 
 
 def parse_version(version_string: str) -> Optional[Tuple[int, int]]:
