@@ -165,8 +165,40 @@ KNOWN_LICENSES: List[LicenseInfo] = [
             "same as freecad",
         ],
         pattern=re.compile(
-            r"(?:gnu\s+)?(?:lesser\s+)?(?:general\s+public\s+licen[cs]e\s+)?"
-            r"lgpl\s*[-\s]*2[\.\s]*1(?:\s*[-\s]*or\s*[-\s]*later)?",
+            # Accept the spelled-out name as well as the "lgpl" token. Without the
+            # former, "GNU Lesser General Public License v2.1 or later" -- the exact
+            # string BatchStampMetadata writes -- missed this entry and fell through
+            # to GPL-2.0-or-later.
+            r"(?:gnu\s+)?(?:lesser\s+general\s+public\s+licen[cs]e|lgpl)"
+            r"\s*[-\s,]*(?:v(?:ersion)?\s*)?2[\.\s]*1"
+            r"(?:\s*[-\s]*or\s*[-\s]*later)?",
+            re.IGNORECASE,
+        ),
+    ),
+    # MUST precede GPL-3.0-or-later: an Affero string contains "general public
+    # licence ... 3", so whichever entry is listed first wins the regex tier.
+    LicenseInfo(
+        spdx_id="AGPL-3.0-or-later",
+        name="GNU Affero General Public License v3.0 or later",
+        url="https://www.gnu.org/licenses/agpl-3.0.html",
+        download_url="https://www.gnu.org/licenses/agpl-3.0.txt",
+        aliases=[
+            "agpl-3.0",
+            "agpl-3.0-or-later",
+            "agpl-3",
+            "agplv3",
+            "gnu affero general public license v3.0 or later",
+            "gnu affero general public license v3.0",
+            "gnu affero general public license v3",
+            "gnu affero general public license version 3",
+            "affero general public license v3",
+            "gnu agpl v3",
+            "gnu agpl version 3",
+        ],
+        pattern=re.compile(
+            r"(?:gnu\s+)?(?:affero\s+general\s+public\s+licen[cs]e|agpl)"
+            r"\s*[-\s,]*(?:v(?:ersion)?\s*)?3(?:[\.\s]*0)?"
+            r"(?:\s*[-\s]*or\s*[-\s]*later)?",
             re.IGNORECASE,
         ),
     ),
@@ -188,8 +220,10 @@ KNOWN_LICENSES: List[LicenseInfo] = [
             "gnu gpl version 3",
         ],
         pattern=re.compile(
-            # Negative lookbehind on the "gpl" alternative blocks "lgpl" from matching.
-            r"(?:gnu\s+)?(?:general\s+public\s+licen[cs]e|(?<!l)gpl)"
+            # The lookbehind on the "gpl" alternative blocks both "lgpl" and "agpl".
+            # The spelled-out alternative additionally refuses a preceding "affero",
+            # so an Affero string cannot fall through to plain GPL.
+            r"(?:gnu\s+)?(?:(?<!affero\s)(?<!lesser\s)general\s+public\s+licen[cs]e|(?<![la])gpl)"
             r"\s*[-\s,]*(?:v(?:ersion)?\s*)?3(?:[\.\s]*0)?"
             r"(?:\s*[-\s]*or\s*[-\s]*later)?",
             re.IGNORECASE,
@@ -213,7 +247,8 @@ KNOWN_LICENSES: List[LicenseInfo] = [
             "gnu gpl version 2",
         ],
         pattern=re.compile(
-            r"(?:gnu\s+)?(?:general\s+public\s+licen[cs]e|(?<!l)gpl)"
+            # Same guards as the v3 entry: block "lgpl"/"agpl" and a preceding "affero".
+            r"(?:gnu\s+)?(?:(?<!affero\s)(?<!lesser\s)general\s+public\s+licen[cs]e|(?<![la])gpl)"
             r"\s*[-\s,]*(?:v(?:ersion)?\s*)?2(?:[\.\s]*0)?"
             r"(?:\s*[-\s]*or\s*[-\s]*later)?",
             re.IGNORECASE,
@@ -262,6 +297,20 @@ KNOWN_LICENSES: List[LicenseInfo] = [
             "modified bsd license",
         ],
         pattern=re.compile(r"bsd\s*[-\s]*3(?:\s*[-\s]*clause)?", re.IGNORECASE),
+    ),
+    LicenseInfo(
+        spdx_id="BSD-2-Clause",
+        name="BSD 2-Clause License",
+        url="https://opensource.org/license/bsd-2-clause/",
+        aliases=[
+            "bsd-2-clause",
+            "bsd 2-clause",
+            "bsd 2 clause",
+            "bsd 2-clause license",
+            "simplified bsd license",
+            "freebsd license",
+        ],
+        pattern=re.compile(r"bsd\s*[-\s]*2(?:\s*[-\s]*clause)?", re.IGNORECASE),
     ),
     # --- CERN Open Hardware Licence ---
     LicenseInfo(
@@ -340,6 +389,31 @@ KNOWN_LICENSES: List[LicenseInfo] = [
         ],
         pattern=re.compile(
             r"cern\s+(?:open\s+hardware\s+licen[cs]e\s+)?" r"(?:o\.?h\.?l\.?\s*)?v?\s*1[\.\s]*1",
+            re.IGNORECASE,
+        ),
+    ),
+    # --- TAPR Open Hardware License ---
+    LicenseInfo(
+        spdx_id="TAPR-OHL-1.0",
+        name="TAPR Open Hardware License v1.0",
+        url="https://tapr.org/the-tapr-open-hardware-license/",
+        download_url="https://tapr.org/wp-content/uploads/2019/02/OHL.txt",
+        aliases=[
+            "tapr-ohl-1.0",
+            "tapr ohl 1.0",
+            "tapr ohl v1.0",
+            "tapr open hardware license",
+            "tapr open hardware licence",
+            "tapr open hardware license 1.0",
+            "the tapr open hardware license",
+            "the tapr open hardware license version 1.0",
+        ],
+        pattern=re.compile(
+            # "TAPR" is distinctive enough to identify on its own, but require a word
+            # boundary so it cannot match inside an unrelated word, and require that
+            # something licence-ish follows.
+            r"\btapr\b\s*[-\s]*(?:open\s+hardware\s+licen[cs]e|o\.?h\.?l\.?)"
+            r"(?:\s*[-\s]*v(?:ersion)?\s*)?(?:\s*1[\.\s]*0)?",
             re.IGNORECASE,
         ),
     ),
