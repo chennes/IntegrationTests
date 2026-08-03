@@ -1,0 +1,273 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "jig_1001",
+      "_source_name": "jig_1001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -0.0029983520507776973,
+          "x_min": -32.5,
+          "y_max": 25.35,
+          "y_min": -25.400000000000006,
+          "z_max": 4.000000000000002,
+          "z_min": -4.0
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Shell",
+        "shell_is_closed": true,
+        "total_area_mm2": 3084.4629315718776
+      }
+    },
+    {
+      "_source_label": "jig_2001",
+      "_source_name": "jig_2001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -115.00599670410156,
+          "x_min": -138.0,
+          "y_max": -150.5,
+          "y_min": -201.25,
+          "z_max": 8.000000000000002,
+          "z_min": -2.220446049250313e-16
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Shell",
+        "shell_is_closed": true,
+        "total_area_mm2": 2552.37147147581
+      }
+    },
+    {
+      "_source_label": "jig_2002",
+      "_source_name": "jig_1001001",
+      "_source_type_id": "Part::Refine",
+      "metrics": {
+        "bounding_box": {
+          "x_max": -0.00299835205078125,
+          "x_min": -32.5,
+          "y_max": 25.349999999999994,
+          "y_min": -25.400000000000006,
+          "z_max": 4.0,
+          "z_min": -4.0
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Shell",
+        "shell_is_closed": true,
+        "total_area_mm2": 3084.4629315718776
+      }
+    },
+    {
+      "_source_label": "jig_2003",
+      "_source_name": "jig_2001001",
+      "_source_type_id": "Part::Refine",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 3.2958984377273737e-06,
+          "x_min": -22.994,
+          "y_max": -38.620000000000005,
+          "y_min": -89.37,
+          "z_max": 4.0,
+          "z_min": -4.0
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 115.006,
+          "y": 111.88,
+          "z": -4.0
+        },
+        "shape_type": "Shell",
+        "shell_is_closed": true,
+        "total_area_mm2": 2552.37147147581
+      }
+    }
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "jig_1_src",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket"
+      }
+    },
+    {
+      "_source_label": "jig_2_src",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket001"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "external_geometry_count": 0,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 23,
+        "external_geometry_count": 0,
+        "geometry_count": 8,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "external_geometry_count": 0,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch003",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 23,
+        "external_geometry_count": 0,
+        "geometry_count": 8,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "jig_1_src",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.745404152435186e-15,
+          "x_min": -32.5,
+          "y_max": 25.375,
+          "y_min": -25.375,
+          "z_max": 4.0,
+          "z_min": -4.0
+        },
+        "center_of_mass": {
+          "x": -22.240302841734096,
+          "y": -1.422488268558829e-14,
+          "z": 2.8769537859442358e-15
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 3085.0,
+        "total_volume_mm3": 2410.499999999999
+      }
+    },
+    {
+      "_source_label": "jig_2_src",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.745404152435186e-15,
+          "x_min": -23.0,
+          "y_max": -38.625,
+          "y_min": -89.375,
+          "z_max": 4.0,
+          "z_min": -4.0
+        },
+        "center_of_mass": {
+          "x": -16.409535759096613,
+          "y": -64.00000000000001,
+          "z": 1.825836289631977e-15
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 2553.0,
+        "total_volume_mm3": 1992.4999999999993
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T02:11:25.337946+00:00",
+    "document_label": "GX_LensJig",
+    "document_name": "GX_LensJig",
+    "freecad_version": "0.19.24267 +99 (Git) Unknown",
+    "platform": "Windows-10-10.0.26100",
+    "python_version": "3.8.6+"
+  }
+}

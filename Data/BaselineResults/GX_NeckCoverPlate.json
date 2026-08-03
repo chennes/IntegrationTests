@@ -1,0 +1,133 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "ref_neck_cover_plate002 (Solid)",
+      "_source_name": "neck_cover_plate002_solid",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 7.5,
+          "x_min": 0.0,
+          "y_max": 8.5,
+          "y_min": 0.0,
+          "z_max": 3.250000000000001,
+          "z_min": -5.018215802998747e-16
+        },
+        "center_of_mass": {
+          "x": 3.75,
+          "y": 4.25,
+          "z": 1.2192622950819672
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 3.75,
+          "y": 4.25,
+          "z": 1.116233373639662
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 206.75000000000006,
+        "total_volume_mm3": 114.37500000000009
+      }
+    }
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "NeckCoverPlate",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 2,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 23,
+        "external_geometry_count": 0,
+        "geometry_count": 8,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "ref_neck_cover_plate002 (Solid)",
+      "_source_name": "neck_cover_plate002_solid",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 7.5,
+          "x_min": 0.0,
+          "y_max": 8.5,
+          "y_min": 0.0,
+          "z_max": 3.250000000000001,
+          "z_min": -5.018215802998747e-16
+        },
+        "center_of_mass": {
+          "x": 3.75,
+          "y": 4.25,
+          "z": 1.2192622950819672
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 206.75000000000006,
+        "total_volume_mm3": 114.37500000000009
+      }
+    },
+    {
+      "_source_label": "NeckCoverPlate",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 7.500000000000005,
+          "x_min": -2.525769730501408e-15,
+          "y_max": 8.500000000000005,
+          "y_min": -3.3306690738754728e-15,
+          "z_max": 3.2500158906028074,
+          "z_min": -8.38218383591993e-15
+        },
+        "center_of_mass": {
+          "x": 3.7500000000000013,
+          "y": 4.249996537514217,
+          "z": 1.2192683290639341
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 206.75025822263996,
+        "total_volume_mm3": 114.3755214104046
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T02:11:27.041709+00:00",
+    "document_label": "GX_NeckCoverPlate",
+    "document_name": "GX_NeckCoverPlate",
+    "freecad_version": "0.21.2 33771 (Git)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.10.13"
+  }
+}

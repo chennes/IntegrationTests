@@ -1,0 +1,11 @@
+{
+  "rules": [
+    {
+      "section": "solids",
+      "object_pattern": "Body",
+      "metric_pattern": "*total_volume_mm3*",
+      "description": "Otoscope specula: a PartDesign::SubtractiveHelix body whose volume moves slightly across releases -- 528.667 in 0.20 and 0.21 (the baseline), 511.850 in 1.0, and 528.519 from 1.1 onward. The current 0.028% gap against the 0.20 baseline is just over the 0.01% default tolerance. Surface area is stable to 6e-5 across all of them, so this is helix discretisation drift rather than a geometry change. Scoped to volume on this one body; area, bounding box and centre of mass are still graded normally.",
+      "added": "2026-08-02"
+    }
+  ]
+}

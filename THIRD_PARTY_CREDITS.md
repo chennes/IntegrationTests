@@ -184,6 +184,38 @@ Selected as one representative per distinct feature signature from the 47 files 
 | VH_TSM01.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/cycle/                  |
 | VH_Wago_236-4xx.FCStd | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-boitier-elec/3D/                |
 
+## Glia -- open-source medical hardware
+
+- **Project:** [Glia](https://glia.org/), free open-source medical hardware for low-resource and conflict settings. Files come from [GliaX/Otoscope](https://github.com/GliaX/Otoscope) (commit `9d0b6c9a`) and [GliaX/tourniquet](https://github.com/GliaX/tourniquet) (commit `fd5de8ff`).
+- **License:** varies per file -- see the table. The Otoscope repository is licensed [TAPR OHL 1.0](https://tapr.org/the-tapr-open-hardware-license/) and the tourniquet repository [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html), but several tourniquet files and one Otoscope file declare [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) in their own document metadata, which governs those files.
+
+Twenty files selected from the 31 that recompute cleanly and deterministically: the nine that carry feature coverage the suite did not previously have (`SubtractiveHelix`, `SubtractiveLoft`, `SubtractiveSphere`, `Part::Refine`, `Mesh::FeaturePython`, `Path::FeaturePython`, and reinforcement of eleven thinly-covered types) plus the rest of the Otoscope block, which concentrates this collection's 0.21-era coverage.
+
+Each file is baselined against the release that saved it (0.19 through 1.0), not against the current pinned release, so cross-version drift stays visible. Two carry known-failure rules recording a genuine FreeCAD 1.0 -> 1.1 regression; see `Data/KnownFailures/GX_BatteryHolder*.json`.
+
+| Test file               | Author             | License      | Original path                                                           |
+|-------------------------|--------------------|--------------|-------------------------------------------------------------------------|
+| GX_BatteryBoxV3.FCStd   | Romain Marguerie   | TAPR-OHL-1.0 | Otoscope/Battery_box/source file/                                       |
+| GX_BatteryHolder.FCStd  | Mohammed Chamma    | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_BatteryHolder2.FCStd | Romain Marguerie   | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_Buckle.FCStd         | Adrian Insaurralde | CC-BY-4.0    | tourniquet/injection_molding/Inj. Molding Part Models (FreeCAD)/        |
+| GX_ButtonCover.FCStd    | Mohammed Chamma    | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_ButtonCover2.FCStd   | Romain Marguerie   | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_EjectorPlate.FCStd   | Adrian Insaurralde | CC-BY-4.0    | tourniquet/injection_molding/Glia Tourniquet Inj-Mold Design (FreeCAD)/ |
+| GX_Handle.FCStd         | Mohammed Chamma    | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_Head.FCStd           | Mohammed Chamma    | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_LabelPlate.FCStd     | Mohammed Chamma    | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_LensJig.FCStd        | Tarek Loubani      | CC-BY-4.0    | Otoscope/source_files/lens_jig/                                         |
+| GX_LensLarge.FCStd      | Mohammed Chamma    | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_NeckCoverPlate.FCStd | Mohammed Chamma    | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_NeckLedHolder.FCStd  | Mohammed Chamma    | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_NewLensjig2024.FCStd | Jen Wilson         | TAPR-OHL-1.0 | Otoscope/source_files/lens_jig/                                         |
+| GX_NozzleSlot.FCStd     | adam.popanda       | GPL-3.0      | tourniquet/injection_molding/desktop_injection/                         |
+| GX_PlatePin.FCStd       | Mohammed Chamma    | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_Rails.FCStd          | Adrian Insaurralde | CC-BY-4.0    | tourniquet/injection_molding/Glia Tourniquet Inj-Mold Design (FreeCAD)/ |
+| GX_Specula.FCStd        | Mohammed Chamma    | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
+| GX_StrapSpacer.FCStd    | Jen Wilson         | GPL-3.0      | tourniquet/quality_control/                                             |
+
 ## Original Files -- Max Wilfinger
 
 The following files were created by Max Wilfinger specifically for this test suite and are licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).

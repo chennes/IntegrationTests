@@ -1,0 +1,375 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "head001 (Solid)002",
+      "_source_name": "head001_solid002",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.659999999999997,
+          "x_min": -20.090000000000003,
+          "y_max": 20.001998901367188,
+          "y_min": -20.006000518798828,
+          "z_max": 17.49599838256836,
+          "z_min": -17.5
+        },
+        "center_of_mass": {
+          "x": 0.8192704199023169,
+          "y": -0.0020139935354990257,
+          "z": 0.4304732083114331
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": -43.09,
+          "y": -70.0,
+          "z": -17.5
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 8229.166358286844,
+        "total_volume_mm3": 13626.820736976684
+      }
+    }
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 25,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket006"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad002",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "SubtractiveLoft",
+      "_source_name": "SubtractiveLoft",
+      "_source_type_id": "PartDesign::SubtractiveLoft",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket002",
+      "_source_name": "Pocket002",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket003",
+      "_source_name": "Pocket003",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket004",
+      "_source_name": "Pocket004",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad004",
+      "_source_name": "Pad004",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket005",
+      "_source_name": "Pocket005",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket006",
+      "_source_name": "Pocket006",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch003",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch004",
+      "_source_name": "Sketch004",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch005",
+      "_source_name": "Sketch005",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch006",
+      "_source_name": "Sketch006",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch007",
+      "_source_name": "Sketch007",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch008",
+      "_source_name": "Sketch008",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 56,
+        "external_geometry_count": 0,
+        "geometry_count": 22,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch009",
+      "_source_name": "Sketch009",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 23,
+        "external_geometry_count": 0,
+        "geometry_count": 8,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch011",
+      "_source_name": "Sketch011",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "external_geometry_count": 0,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch012",
+      "_source_name": "Sketch012",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 12,
+        "external_geometry_count": 0,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch013",
+      "_source_name": "Sketch013",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "external_geometry_count": 0,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "head001 (Solid)002",
+      "_source_name": "head001_solid002",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.659999999999997,
+          "x_min": -20.090000000000003,
+          "y_max": 20.001998901367188,
+          "y_min": -20.006000518798828,
+          "z_max": 17.49599838256836,
+          "z_min": -17.5
+        },
+        "center_of_mass": {
+          "x": 0.8192704199023169,
+          "y": -0.0020139935354990257,
+          "z": 0.4304732083114331
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 8229.166358286844,
+        "total_volume_mm3": 13626.820736976684
+      }
+    },
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.660000000000284,
+          "x_min": -20.0000000000003,
+          "y_max": 20.000000000000085,
+          "y_min": -20.0,
+          "z_max": 20.0,
+          "z_min": -20.0
+        },
+        "center_of_mass": {
+          "x": 0.8122602280593445,
+          "y": -5.668205042839609e-11,
+          "z": 0.4327512867447408
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 8214.1237942046,
+        "total_volume_mm3": 13715.031553667766
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T02:11:21.705204+00:00",
+    "document_label": "GX_Head",
+    "document_name": "GX_Head",
+    "freecad_version": "0.21.2 33771 (Git)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.10.13"
+  }
+}

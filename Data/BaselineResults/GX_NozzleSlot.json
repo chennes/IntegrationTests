@@ -1,0 +1,237 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "Model-Body",
+      "_source_name": "Clone",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 36.0,
+          "x_min": 6.0,
+          "y_max": -0.9999999999999982,
+          "y_min": -21.000000000000004,
+          "z_max": -0.9999999999999967,
+          "z_min": -21.000000000000004
+        },
+        "center_of_mass": {
+          "x": 21.0,
+          "y": -11.0,
+          "z": -11.377405180118265
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 21.0,
+          "y": -11.000000000000002,
+          "z": -21.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 3578.672761669366,
+        "total_volume_mm3": 10520.727346913425
+      }
+    },
+    {
+      "_source_label": "Endmill",
+      "_source_name": "ToolBit",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.0,
+          "x_min": -2.0,
+          "y_max": 2.0,
+          "y_min": -2.000000000000011,
+          "z_max": 50.0,
+          "z_min": -4.4e-16
+        },
+        "center_of_mass": {
+          "x": 1.1308638867425837e-17,
+          "y": -5.574335127049576e-15,
+          "z": 25.0
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 653.4512719466769,
+        "total_volume_mm3": 628.3185307179587
+      }
+    },
+    {
+      "_source_label": "Stock",
+      "_source_name": "Stock",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 37.0,
+          "x_min": 0.0,
+          "y_max": 7.105427357601002e-15,
+          "y_min": -22.0,
+          "z_max": 7.105427357601002e-15,
+          "z_min": -22.0
+        },
+        "center_of_mass": {
+          "x": 18.5,
+          "y": -10.999999999999996,
+          "z": -10.999999999999996
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 6.0,
+          "y": -21.0,
+          "z": -21.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 4224.000000000001,
+        "total_volume_mm3": 17908.00000000001
+      }
+    }
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Cylinder"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Sphere",
+      "_source_name": "Sphere",
+      "_source_type_id": "PartDesign::SubtractiveSphere",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Cylinder",
+      "_source_name": "Cylinder",
+      "_source_type_id": "PartDesign::SubtractiveCylinder",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "external_geometry_count": 0,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.0,
+          "x_min": -15.0,
+          "y_max": 10.000000000000004,
+          "y_min": -9.999999999999998,
+          "z_max": 20.000000000000004,
+          "z_min": -2.4492935992912173e-15
+        },
+        "center_of_mass": {
+          "x": 7.131951092552539e-16,
+          "y": 2.9170866358407376e-15,
+          "z": 9.622594819881735
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 3578.672761669366,
+        "total_volume_mm3": 10520.727346913425
+      }
+    },
+    {
+      "_source_label": "Endmill",
+      "_source_name": "ToolBit",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.0,
+          "x_min": -2.0,
+          "y_max": 2.0,
+          "y_min": -2.000000000000011,
+          "z_max": 50.0,
+          "z_min": -4.4e-16
+        },
+        "center_of_mass": {
+          "x": 1.1308638867425837e-17,
+          "y": -5.574335127049576e-15,
+          "z": 25.0
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 653.4512719466769,
+        "total_volume_mm3": 628.3185307179587
+      }
+    },
+    {
+      "_source_label": "Stock",
+      "_source_name": "Stock",
+      "_source_type_id": "Part::FeaturePython",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 37.0,
+          "x_min": 0.0,
+          "y_max": 7.105427357601002e-15,
+          "y_min": -22.0,
+          "z_max": 7.105427357601002e-15,
+          "z_min": -22.0
+        },
+        "center_of_mass": {
+          "x": 18.5,
+          "y": -10.999999999999996,
+          "z": -10.999999999999996
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 4224.000000000001,
+        "total_volume_mm3": 17908.00000000001
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T02:11:34.187396+00:00",
+    "document_label": "GX_NozzleSlot",
+    "document_name": "GX_NozzleSlot",
+    "freecad_version": "0.20.2 29603 (Git)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.8.10"
+  }
+}

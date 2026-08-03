@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {
+      "section": "part_features",
+      "object_pattern": "Clone",
+      "metric_pattern": "*shape_type*",
+      "accepted_values": ["Compound"],
+      "description": "Draft Clone (Part::FeaturePython) returns its result wrapped in a Compound from FreeCAD 1.1 onward, where 0.20/0.21/1.0 returned a bare Solid. Verified across versions: total_volume_mm3 and total_area_mm2 are identical (10520.727 / 3578.673) in every release from 0.20 to 1.1.3, so only the container type changed, not the geometry. Scoped to this Clone and to shape_type so any real geometry change on it still fails.",
+      "added": "2026-08-02"
+    }
+  ]
+}

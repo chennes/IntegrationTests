@@ -1,0 +1,290 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 58.11794150219295,
+          "x_min": -58.11794150219295,
+          "y_max": 8.117941502192956,
+          "y_min": -8.117941502192956,
+          "z_max": 3.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": -1.827244269983863e-15,
+          "y": -4.040754540877974e-17,
+          "z": 1.4864806154087595
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 3988.2895352595274,
+        "total_volume_mm3": 4977.411705228443
+      }
+    },
+    {
+      "_source_label": "Fillet001",
+      "_source_name": "Fillet001",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 50.00000000000001,
+          "x_min": -1.579114036797183e-14,
+          "y_max": 9.999999999999998,
+          "y_min": -7.500000000000024,
+          "z_max": 24.234553087316748,
+          "z_min": -0.499999999999987
+        },
+        "center_of_mass": {
+          "x": 24.97930427272904,
+          "y": -1.730069964772243,
+          "z": 11.344132070873176
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 5363.5571619673965,
+        "total_volume_mm3": 7883.824857579006
+      }
+    },
+    {
+      "_source_label": "Fillet002",
+      "_source_name": "Fillet002",
+      "_source_type_id": "Part::Fillet",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.000000000000007,
+          "x_min": -44.000000000000014,
+          "y_max": 9.999999999999998,
+          "y_min": -7.500000000000024,
+          "z_max": 24.234553087316748,
+          "z_min": -0.5000000000000068
+        },
+        "center_of_mass": {
+          "x": -18.999999999999996,
+          "y": -1.7331470506201654,
+          "z": 11.342636082529635
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": -44.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 5349.652817239938,
+        "total_volume_mm3": 7877.239272482201
+      }
+    },
+    {
+      "_source_label": "spacer",
+      "_source_name": "Fusion",
+      "_source_type_id": "Part::Fuse",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 58.11794150219295,
+          "x_min": -58.11794150219295,
+          "y_max": 9.999999999999998,
+          "y_min": -8.117941502192956,
+          "z_max": 24.234553087316748,
+          "z_min": -0.5000000000000068
+        },
+        "center_of_mass": {
+          "x": -11.165587118221367,
+          "y": -1.091488736588566,
+          "z": 7.914267481699272
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 8189.717353608348,
+        "total_volume_mm3": 12071.2073520245
+      }
+    }
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 3,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad"
+      }
+    },
+    {
+      "_source_label": "Body001",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 2,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad001"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 0,
+        "external_geometry_count": 0,
+        "geometry_count": 0,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 9,
+        "external_geometry_count": 0,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 24,
+        "external_geometry_count": 0,
+        "geometry_count": 8,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 57.49999999999999,
+          "x_min": -57.49999999999999,
+          "y_max": 7.5,
+          "y_min": -7.5,
+          "z_max": 3.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": -1.0391276476961158e-15,
+          "y": 1.197447069371353e-16,
+          "z": 1.4999999999999998
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 4094.8008429403912,
+        "total_volume_mm3": 5030.1437602932765
+      }
+    },
+    {
+      "_source_label": "Body001",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.000000000000047,
+          "x_min": -48.00000000000002,
+          "y_max": 10.000000000000002,
+          "y_min": -7.5000000000000275,
+          "z_max": 24.000000000000032,
+          "z_min": -2.1316282072803006e-14
+        },
+        "center_of_mass": {
+          "x": -22.999999999999996,
+          "y": -1.7269980136160479,
+          "z": 11.345625560216602
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 5377.461506694856,
+        "total_volume_mm3": 7890.410444823563
+      }
+    },
+    {
+      "_source_label": "spacer",
+      "_source_name": "Fusion",
+      "_source_type_id": "Part::Fuse",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 58.11794150219295,
+          "x_min": -58.11794150219295,
+          "y_max": 9.999999999999998,
+          "y_min": -8.117941502192956,
+          "z_max": 24.234553087316748,
+          "z_min": -0.5000000000000068
+        },
+        "center_of_mass": {
+          "x": -11.165587118221367,
+          "y": -1.091488736588566,
+          "z": 7.914267481699272
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 8189.717353608348,
+        "total_volume_mm3": 12071.2073520245
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T02:11:37.052056+00:00",
+    "document_label": "GX_StrapSpacer",
+    "document_name": "GX_StrapSpacer",
+    "freecad_version": "0.20.2 29603 (Git)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.8.10"
+  }
+}

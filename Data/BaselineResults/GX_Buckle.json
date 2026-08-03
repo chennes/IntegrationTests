@@ -1,0 +1,357 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "logo",
+      "_source_name": "Binder001",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 2.32716795216436,
+          "x_min": -3.75829788114001,
+          "y_max": 12.1886174078506,
+          "y_min": -13.6886506116847,
+          "z_max": 9.75,
+          "z_min": 9.75
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "total_area_mm2": 57.438385872708075
+      }
+    }
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "buckle",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 8,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Boolean"
+      }
+    },
+    {
+      "_source_label": "auxiliary",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 13,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet001"
+      }
+    },
+    {
+      "_source_label": "auxiliary clone",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 1,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Clone"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad002",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad003",
+      "_source_name": "Pad003",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored001",
+      "_source_name": "Mirrored001",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad004",
+      "_source_name": "Pad004",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Box",
+      "_source_name": "Box",
+      "_source_type_id": "PartDesign::AdditiveBox",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet001",
+      "_source_name": "Fillet001",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Clone",
+      "_source_name": "Clone",
+      "_source_type_id": "PartDesign::FeatureBase",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Boolean",
+      "_source_name": "Boolean",
+      "_source_type_id": "PartDesign::Boolean",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 26,
+        "external_geometry_count": 0,
+        "geometry_count": 10,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 18,
+        "external_geometry_count": 0,
+        "geometry_count": 8,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 48,
+        "external_geometry_count": 0,
+        "geometry_count": 16,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch003",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 9,
+        "external_geometry_count": 0,
+        "geometry_count": 3,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch004",
+      "_source_name": "Sketch004",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 15,
+        "external_geometry_count": 0,
+        "geometry_count": 5,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch005",
+      "_source_name": "Sketch005",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 15,
+        "external_geometry_count": 0,
+        "geometry_count": 5,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "buckle",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 15.000706332867189,
+          "x_min": -15.000706332867185,
+          "y_max": 26.000706332867193,
+          "y_min": -26.000706332867193,
+          "z_max": 9.750000000000002,
+          "z_min": -0.020226726886863
+        },
+        "center_of_mass": {
+          "x": -0.7768643900914662,
+          "y": -0.004861505423178043,
+          "z": 3.9618425736817198
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 4553.640143793808,
+        "total_volume_mm3": 7641.978910513199
+      }
+    },
+    {
+      "_source_label": "auxiliary",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.0,
+          "x_min": -15.0,
+          "y_max": 20.525000000000002,
+          "y_min": -20.52500000000001,
+          "z_max": 12.000000000000012,
+          "z_min": -1.0
+        },
+        "center_of_mass": {
+          "x": 1.1811796182845908,
+          "y": 0.0026212847432423455,
+          "z": 5.516996618188623
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 3843.862449936138,
+        "total_volume_mm3": 5722.379497508793
+      }
+    },
+    {
+      "_source_label": "auxiliary clone",
+      "_source_name": "Body002",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 17.0,
+          "x_min": -15.0,
+          "y_max": 20.525000000000002,
+          "y_min": -20.52500000000001,
+          "z_max": 12.000000000000012,
+          "z_min": -1.0
+        },
+        "center_of_mass": {
+          "x": 1.1811796182845908,
+          "y": 0.0026212847432423455,
+          "z": 5.516996618188623
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 3843.862449936138,
+        "total_volume_mm3": 5722.379497508793
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T02:11:14.303444+00:00",
+    "document_label": "GX_Buckle",
+    "document_name": "GX_Buckle",
+    "freecad_version": "0.20.2 29603 (Git)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.8.10"
+  }
+}

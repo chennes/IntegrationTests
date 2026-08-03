@@ -1,0 +1,196 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "ref_handle002 (Solid)",
+      "_source_name": "ref_handle002_solid",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 16.17820102293546,
+          "x_min": -16.180386607410476,
+          "y_max": 16.170602439355527,
+          "y_min": -16.188053955937928,
+          "z_max": 117.24999999999996,
+          "z_min": -8.250000000000057
+        },
+        "center_of_mass": {
+          "x": -0.0009710832413728707,
+          "y": -0.008368403178020303,
+          "z": 57.651389198539285
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": -0.0375,
+          "y": 0.06,
+          "z": 0.25
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 25440.538904787787,
+        "total_volume_mm3": 35413.41006828984
+      }
+    }
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 8,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket002"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket002",
+      "_source_name": "Pocket002",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 38,
+        "external_geometry_count": 0,
+        "geometry_count": 13,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 38,
+        "external_geometry_count": 0,
+        "geometry_count": 13,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 45,
+        "external_geometry_count": 0,
+        "geometry_count": 16,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch003",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 80,
+        "external_geometry_count": 0,
+        "geometry_count": 31,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "Body",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 16.17925759034198,
+          "x_min": -16.17925759034198,
+          "y_max": 16.179257590341894,
+          "y_min": -16.179257590341898,
+          "z_max": 117.25,
+          "z_min": -8.250000000000014
+        },
+        "center_of_mass": {
+          "x": 2.0685244058386955e-15,
+          "y": 1.0171422726660556e-13,
+          "z": 57.73001429218931
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 25453.089755740464,
+        "total_volume_mm3": 35394.46925840623
+      }
+    },
+    {
+      "_source_label": "ref_handle002 (Solid)",
+      "_source_name": "ref_handle002_solid",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 16.17820102293546,
+          "x_min": -16.180386607410476,
+          "y_max": 16.170602439355527,
+          "y_min": -16.188053955937928,
+          "z_max": 117.24999999999996,
+          "z_min": -8.250000000000057
+        },
+        "center_of_mass": {
+          "x": -0.0009710832413728707,
+          "y": -0.008368403178020303,
+          "z": 57.651389198539285
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 25440.538904787787,
+        "total_volume_mm3": 35413.41006828984
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T02:11:20.781203+00:00",
+    "document_label": "GX_Handle",
+    "document_name": "GX_Handle",
+    "freecad_version": "0.21.2 33771 (Git)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.10.13"
+  }
+}
