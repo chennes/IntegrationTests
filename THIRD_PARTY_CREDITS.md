@@ -216,6 +216,23 @@ Each file is baselined against the release that saved it (0.19 through 1.0), not
 | GX_Specula.FCStd        | Mohammed Chamma    | TAPR-OHL-1.0 | Otoscope/source_files/                                                  |
 | GX_StrapSpacer.FCStd    | Jen Wilson         | GPL-3.0      | tourniquet/quality_control/                                             |
 
+## Bath Open Instrumentation Group -- mech-jiwe
+
+- **Author:** Julian Stirling, [Bath Open Instrumentation Group](https://gitlab.com/bath_open_instrumentation_group) (the OpenFlexure team)
+- **Project:** [mech-jiwe](https://gitlab.com/bath_open_instrumentation_group/mech-jiwe), commit `c5836d74`
+- **License:** [CERN-OHL-1.2](https://ohwr.org/cernohl). The repository splits its licensing -- hardware CERN-OHL-1.2, software GPL-3.0 -- and FCStd files are hardware, so CERN-OHL-1.2 governs them.
+
+Four parts selected specifically for TechDraw coverage. The collection adds no object type the suite lacks, but these four each carry a full drawing (`DrawPage`, `DrawSVGTemplate`, `DrawProjGroup`, `DrawProjGroupItem`, `DrawViewDimension`, and in `BOIG_BasePlate` the suite's second `DrawViewAnnotation`), taking the `techdraw_pages` section from 8 files to 12. The rest of the collection was deliberately not promoted.
+
+Baselined against their native 0.18. `BOIG_BasePlate` carries an accepted-change rule for a volume shift that occurred at the 0.18 -> 0.19 transition and has been stable through 1.1.3.
+
+| Test file                   | Author          | License in file | Original path      |
+|-----------------------------|-----------------|-----------------|--------------------|
+| BOIG_BasePlate.FCStd        | Julian Stirling | CERN-OHL-1.2    | mech-jiwe/Parts/   |
+| BOIG_Frame.FCStd            | Julian Stirling | CERN-OHL-1.2    | mech-jiwe/Parts/   |
+| BOIG_LowerCrossBar.FCStd    | Julian Stirling | CERN-OHL-1.2    | mech-jiwe/Parts/   |
+| BOIG_UpperCrossBar.FCStd    | Julian Stirling | CERN-OHL-1.2    | mech-jiwe/Parts/   |
+
 ## Original Files -- Max Wilfinger
 
 The following files were created by Max Wilfinger specifically for this test suite and are licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
