@@ -744,7 +744,8 @@
       "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
-        "shape_type": "Solid"
+        "shape_type": "Solid",
+        "solid_count": 1
       }
     },
     {
@@ -753,7 +754,8 @@
       "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
-        "shape_type": "Solid"
+        "shape_type": "Solid",
+        "solid_count": 1
       }
     },
     {
@@ -762,7 +764,8 @@
       "_source_type_id": "PartDesign::Revolution",
       "metrics": {
         "is_valid": true,
-        "shape_type": "Solid"
+        "shape_type": "Solid",
+        "solid_count": 1
       }
     },
     {
@@ -771,7 +774,8 @@
       "_source_type_id": "PartDesign::Revolution",
       "metrics": {
         "is_valid": true,
-        "shape_type": "Solid"
+        "shape_type": "Solid",
+        "solid_count": 1
       }
     },
     {
@@ -780,7 +784,8 @@
       "_source_type_id": "PartDesign::AdditivePipe",
       "metrics": {
         "is_valid": true,
-        "shape_type": "Solid"
+        "shape_type": "Solid",
+        "solid_count": 1
       }
     },
     {
@@ -789,7 +794,8 @@
       "_source_type_id": "PartDesign::Revolution",
       "metrics": {
         "is_valid": true,
-        "shape_type": "Solid"
+        "shape_type": "Solid",
+        "solid_count": 1
       }
     },
     {
@@ -798,7 +804,8 @@
       "_source_type_id": "PartDesign::Pocket",
       "metrics": {
         "is_valid": true,
-        "shape_type": "Solid"
+        "shape_type": "Solid",
+        "solid_count": 1
       }
     },
     {
@@ -807,7 +814,8 @@
       "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
-        "shape_type": "Solid"
+        "shape_type": "Solid",
+        "solid_count": 1
       }
     },
     {
@@ -816,7 +824,8 @@
       "_source_type_id": "PartDesign::Pad",
       "metrics": {
         "is_valid": true,
-        "shape_type": "Solid"
+        "shape_type": "Solid",
+        "solid_count": 1
       }
     }
   ],
