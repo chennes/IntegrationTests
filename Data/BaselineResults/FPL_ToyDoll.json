@@ -917,7 +917,6 @@
     "document_label": "FL_ToyDoll",
     "document_name": "FL_ToyDoll",
     "freecad_version": "0.18.4 (GitTag) git://github.com/FreeCAD/FreeCAD.git releases/FreeCAD-0-18",
-    "path": "G:\\FreeCAD\\IntegrationTests\\Data\\CADFiles\\FL_ToyDoll.FCStd",
     "platform": "Windows-10-10.0.26100",
     "python_version": "3.6.6"
   },

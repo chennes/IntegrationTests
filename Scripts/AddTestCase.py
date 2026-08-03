@@ -440,6 +440,39 @@ def step_check_license_file(metadata: Dict[str, str]) -> None:
             )
 
 
+def strip_baseline_source_path(baseline_path: Path) -> bool:
+    """Drop the absolute `source.path` the macro records into a generated baseline.
+
+    The macro writes the full on-disk path of the FCStd it evaluated, which is useful
+    in a diagnostic report but wrong to commit: it embeds whoever generated the
+    baseline's directory layout (temp dirs included), it goes stale as soon as
+    anything moves, and it makes the file churn when the same geometry is baselined
+    from a different location. Nothing grades it -- the comparison only walks the
+    list-valued sections -- so it is dropped rather than rewritten.
+
+    The file is rewritten with a trailing newline to match what the macro emits;
+    without one, end-of-file-fixer appends a bare LF to an otherwise-CRLF file and
+    mixed-line-ending then rewrites it, which aborts the commit.
+
+    Args:
+        baseline_path: Path to the freshly generated baseline JSON.
+
+    Returns:
+        True if a path was present and removed.
+    """
+    import json
+
+    try:
+        report = json.loads(baseline_path.read_text(encoding="utf-8"))
+    except Exception:
+        return False
+    if not isinstance(report.get("source"), dict) or "path" not in report["source"]:
+        return False
+    report["source"].pop("path")
+    baseline_path.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return True
+
+
 def step_generate_baseline(
     dest_path: Path, freecad_exe: Optional[str], metadata: Dict[str, str]
 ) -> bool:
@@ -550,6 +583,8 @@ def step_generate_baseline(
             print("  Files with latent invalid geometry are not suitable for the test suite.")
             baseline_path.unlink(missing_ok=True)
             return False
+
+        strip_baseline_source_path(baseline_path)
 
         print(f"  Generated {baseline_path.name} ({baseline_path.stat().st_size / 1024:.1f} KB)")
         return True
