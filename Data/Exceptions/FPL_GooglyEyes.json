@@ -4,14 +4,14 @@
       "section": "solids",
       "object_pattern": "Body002",
       "metric_pattern": "*total_volume_mm3*",
-      "description": "Ellipsoid/fillet volume on the FreeCAD 1.1 release line differs from the baseline by ~0.24% due to an OCC kernel difference; main matches the baseline to 3e-8. Scoped to Body002 (the ellipsoid body) so volume regressions on the other bodies still fail.",
+      "description": "Boolean fuzzy-tolerance change (PR #29984, PD: Add FuzzyTolerance property, in main from 2026-05-18; not backported to releases/FreeCAD-1-1) shifts this body's volume ~0.24%. main matches the 0.21 baseline to 3e-8; the 1.1.x line still carries the pre-#29984 value. Scoped to Body002 (the affected body) so volume regressions on the other bodies still fail.",
       "added": "2026-07-10"
     },
     {
       "section": "solids",
       "object_pattern": "Part",
       "metric_pattern": "*total_volume_mm3*",
-      "description": "App::Part aggregate carries Body002's ellipsoid volume difference on the FreeCAD 1.1 release line (see the Body002 rule). Main matches the baseline to 3e-8.",
+      "description": "App::Part aggregate carries Body002's volume difference on the FreeCAD 1.1.x line (see the Body002 rule; root cause PR #29984, absent from releases/FreeCAD-1-1). Main matches the baseline to 3e-8.",
       "added": "2026-07-10"
     }
   ]
