@@ -1,0 +1,235 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "partdesign_bodies": [
+    {
+      "_source_label": "CHO15",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 21,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet002"
+      }
+    },
+    {
+      "_source_label": "Front_View_Body",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 5,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Mirrored001"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Lateral_View_Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Front_View_Pad",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet001",
+      "_source_name": "Fillet001",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Trous_V",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored001",
+      "_source_name": "Mirrored001",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Trous_H",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Intersection_Front_VIew",
+      "_source_name": "Boolean",
+      "_source_type_id": "PartDesign::Boolean",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet002",
+      "_source_name": "Fillet002",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Lateral_View_Sketch",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 22,
+        "external_geometry_count": 0,
+        "geometry_count": 8,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Front_View_Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 17,
+        "external_geometry_count": 0,
+        "geometry_count": 6,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Trous_V_Sketch",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 29,
+        "external_geometry_count": 0,
+        "geometry_count": 12,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Trous_H_Sketch",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 8,
+        "external_geometry_count": 0,
+        "geometry_count": 3,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "CHO15",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 24.999999999973173,
+          "x_min": 0.0,
+          "y_max": 55.000000000000014,
+          "y_min": -55.000000000000114,
+          "z_max": 215.00000000000034,
+          "z_min": -2.142730437526552e-14
+        },
+        "center_of_mass": {
+          "x": 22.38515984938981,
+          "y": -6.332836568139911e-14,
+          "z": 86.57876096676772
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 39370.40170590589,
+        "total_volume_mm3": 37555.503281127196
+      }
+    },
+    {
+      "_source_label": "Front_View_Body",
+      "_source_name": "Body001",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 50.00000000000011,
+          "x_min": -50.00000000000029,
+          "y_max": 55.00000000000005,
+          "y_min": -55.00000000000014,
+          "z_max": 215.0000000000003,
+          "z_min": -4.263256414560601e-14
+        },
+        "center_of_mass": {
+          "x": -6.635268549555137e-14,
+          "y": -2.074267790650832e-14,
+          "z": 98.4337507910608
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 95655.52510259589,
+        "total_volume_mm3": 1684313.2741228733
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:40.022542+00:00",
+    "document_label": "VH_CHO15",
+    "document_name": "VH_CHO15",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

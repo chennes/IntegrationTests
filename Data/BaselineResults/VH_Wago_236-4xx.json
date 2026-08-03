@@ -1,0 +1,170 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "partdesign_bodies": [
+    {
+      "_source_label": "Wago_236-4xx",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 11,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "LinearPattern002"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "LinearPattern",
+      "_source_name": "LinearPattern",
+      "_source_type_id": "PartDesign::LinearPattern",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "LinearPattern001",
+      "_source_name": "LinearPattern001",
+      "_source_type_id": "PartDesign::LinearPattern",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket001",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "LinearPattern002",
+      "_source_name": "LinearPattern002",
+      "_source_type_id": "PartDesign::LinearPattern",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 18,
+        "external_geometry_count": 0,
+        "geometry_count": 6,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 23,
+        "external_geometry_count": 0,
+        "geometry_count": 8,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 27,
+        "external_geometry_count": 0,
+        "geometry_count": 10,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch003",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "external_geometry_count": 0,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "Wago_236-4xx",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 8.080000000000032,
+          "x_min": -3.0000000000000404,
+          "y_max": 8.400000000000022,
+          "y_min": -5.300000000000025,
+          "z_max": 13.000000000000043,
+          "z_min": -4.200000000000032
+        },
+        "center_of_mass": {
+          "x": 2.5399999999999916,
+          "y": 0.6581971710958061,
+          "z": 5.042606105709523
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 1013.3681895115981,
+        "total_volume_mm3": 1339.8705399624594
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:44.376492+00:00",
+    "document_label": "VH_Wago_236-4xx",
+    "document_name": "VH_Wago_236_4xx",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

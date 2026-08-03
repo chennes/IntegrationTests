@@ -1,0 +1,162 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "partdesign_bodies": [
+    {
+      "_source_label": "CHO34",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 16,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Hole005"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Contour",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Trous_Etrier",
+      "_source_name": "Hole003",
+      "_source_type_id": "PartDesign::Hole",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "PreTrous001",
+      "_source_name": "Hole004",
+      "_source_type_id": "PartDesign::Hole",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "TrousFixationChassis",
+      "_source_name": "Hole005",
+      "_source_type_id": "PartDesign::Hole",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Master_Sketch",
+      "_source_name": "Sketch015",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 46,
+        "external_geometry_count": 0,
+        "geometry_count": 18,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Contour_Sketch",
+      "_source_name": "Sketch016",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 80,
+        "external_geometry_count": 1,
+        "geometry_count": 30,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch017",
+      "_source_name": "Sketch017",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 8,
+        "external_geometry_count": 0,
+        "geometry_count": 3,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch018",
+      "_source_name": "Sketch018",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 6,
+        "external_geometry_count": 1,
+        "geometry_count": 3,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch019",
+      "_source_name": "Sketch019",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 6,
+        "external_geometry_count": 1,
+        "geometry_count": 3,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "VisualisationCentreDisque",
+      "_source_name": "Sketch020",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 1,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "CHO34",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.000000000000018,
+          "x_min": -1.9008076329551104e-14,
+          "y_max": 31.511235796996665,
+          "y_min": -84.0,
+          "z_max": 2.0560000000000003e-14,
+          "z_min": -60.88704819061425
+        },
+        "center_of_mass": {
+          "x": 4.948431243602851,
+          "y": -20.142147107392997,
+          "z": -25.021978433253317
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 11676.23764341593,
+        "total_volume_mm3": 36570.48919379472
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:40.802115+00:00",
+    "document_label": "VH_CHO34",
+    "document_name": "VH_CHO34",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

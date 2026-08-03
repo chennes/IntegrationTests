@@ -1,0 +1,270 @@
+{
+  "app_parts": [
+    {
+      "_source_label": "QIN53",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 13.0,
+          "x_min": -13.0,
+          "y_max": 13.0,
+          "y_min": -13.0,
+          "z_max": 4.5,
+          "z_min": -4.5
+        },
+        "child_count": 9,
+        "is_valid": true
+      }
+    }
+  ],
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "Exterieur",
+      "_source_name": "Cylinder",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 13.0,
+          "x_min": -13.0,
+          "y_max": 13.0,
+          "y_min": -13.0,
+          "z_max": 4.5,
+          "z_min": -4.5
+        },
+        "center_of_mass": {
+          "x": -1.9033606509276883e-16,
+          "y": 5.782794849575703e-17,
+          "z": -8.881784197001252e-16
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -4.5
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1796.9909978533615,
+        "total_volume_mm3": 4778.362426110076
+      }
+    },
+    {
+      "_source_label": "Separation",
+      "_source_name": "Box",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 50.0,
+          "x_min": -50.0,
+          "y_max": 50.0,
+          "y_min": -50.0,
+          "z_max": 0.5,
+          "z_min": -0.5
+        },
+        "center_of_mass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": -50.0,
+          "y": -50.0,
+          "z": -0.5
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 20400.0,
+        "total_volume_mm3": 10000.0
+      }
+    },
+    {
+      "_source_label": "Cut",
+      "_source_name": "Cut",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 13.0,
+          "x_min": -13.0,
+          "y_max": 13.0,
+          "y_min": -13.0,
+          "z_max": 4.5,
+          "z_min": -4.5
+        },
+        "center_of_mass": {
+          "x": -2.1412807322936496e-16,
+          "y": 6.9068865378878e-17,
+          "z": -2.1412807322936496e-16
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 2777.1679057733772,
+        "total_volume_mm3": 4247.4332676534
+      }
+    },
+    {
+      "_source_label": "LogementBilles",
+      "_source_name": "Torus",
+      "_source_type_id": "Part::Torus",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 11.906314203216334,
+          "x_min": -11.906314203216334,
+          "y_max": 11.906314203216334,
+          "y_min": -11.906314203216334,
+          "z_max": 1.5,
+          "z_min": -1.5
+        },
+        "center_of_mass": {
+          "x": 0.0,
+          "y": -3.0774603138732426e-16,
+          "z": 2.395502827683964e-16
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 562.5674508620933,
+        "total_volume_mm3": 421.92558814656996
+      }
+    },
+    {
+      "_source_label": "Cut001",
+      "_source_name": "Cut001",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 13.0,
+          "x_min": -13.0,
+          "y_max": 13.0,
+          "y_min": -13.0,
+          "z_max": 4.5,
+          "z_min": -4.5
+        },
+        "center_of_mass": {
+          "x": -1.072596479245434e-15,
+          "y": 7.70420330410309e-17,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 2880.366531585226,
+        "total_volume_mm3": 4001.204746644496
+      }
+    },
+    {
+      "_source_label": "Interieur",
+      "_source_name": "Cylinder001",
+      "_source_type_id": "Part::Cylinder",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 6.0,
+          "x_min": -6.0,
+          "y_max": 6.0,
+          "y_min": -6.0,
+          "z_max": 10.0,
+          "z_min": -10.0
+        },
+        "center_of_mass": {
+          "x": -1.1057335781483041e-15,
+          "y": 3.53810961327687e-16,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -10.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 980.1769079200155,
+        "total_volume_mm3": 2261.946710584651
+      }
+    },
+    {
+      "_source_label": "Cut002",
+      "_source_name": "Cut002",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 13.0,
+          "x_min": -13.0,
+          "y_max": 13.0,
+          "y_min": -13.0,
+          "z_max": 4.5,
+          "z_min": -4.5
+        },
+        "center_of_mass": {
+          "x": -5.186064677312706e-16,
+          "y": -3.8533516306854325e-16,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 2729.5700842129154,
+        "total_volume_mm3": 3096.4260624106355
+      }
+    }
+  ],
+  "schema_version": 4,
+  "solids": [
+    {
+      "_source_label": "QIN53",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 13.0,
+          "x_min": -13.0,
+          "y_max": 13.0,
+          "y_min": -13.0,
+          "z_max": 4.5,
+          "z_min": -4.5
+        },
+        "center_of_mass": {
+          "x": -5.186064677312706e-16,
+          "y": -3.8533516306854325e-16,
+          "z": 0.0
+        },
+        "is_valid": true,
+        "solid_count": 2,
+        "total_area_mm2": 2729.5700842129154,
+        "total_volume_mm3": 3096.4260624106355
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:42.881183+00:00",
+    "document_label": "VH_QIN53",
+    "document_name": "VH_QIN53",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

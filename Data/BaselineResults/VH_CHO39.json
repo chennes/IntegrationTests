@@ -1,0 +1,77 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "partdesign_bodies": [
+    {
+      "_source_label": "CHO39",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 24,
+        "external_geometry_count": 0,
+        "geometry_count": 8,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "CHO39",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1.0000000000000033,
+          "x_min": -1.6930901125533645e-13,
+          "y_max": 12.500000000000037,
+          "y_min": -12.500000000000043,
+          "z_max": 300.00000000000017,
+          "z_min": -7.549516567451064e-15
+        },
+        "center_of_mass": {
+          "x": 0.49999999999993255,
+          "y": 9.031267087097323e-15,
+          "z": 150.0
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 15522.765497529621,
+        "total_volume_mm3": 7401.825229575326
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:40.540173+00:00",
+    "document_label": "VH_CHO39",
+    "document_name": "VH_CHO39",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

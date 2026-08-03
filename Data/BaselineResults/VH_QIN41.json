@@ -1,0 +1,77 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "partdesign_bodies": [
+    {
+      "_source_label": "QIN41",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pad"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 4,
+        "external_geometry_count": 0,
+        "geometry_count": 2,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "QIN41",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 12.0,
+          "x_min": -12.0,
+          "y_max": 12.0,
+          "y_min": -12.0,
+          "z_max": 2.0,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": -2.2910822650055513e-15,
+          "y": -1.9560256478092405e-16,
+          "z": 1.0
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 997.5184993678312,
+        "total_volume_mm3": 793.9432954152124
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:42.800288+00:00",
+    "document_label": "VH_QIN41",
+    "document_name": "VH_QIN41",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

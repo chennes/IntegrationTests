@@ -1,0 +1,1260 @@
+{
+  "app_parts": [
+    {
+      "_source_label": "ROU99",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 106.65002949224595,
+          "x_min": -103.34997050775986,
+          "y_max": 293.53073786333874,
+          "y_min": -293.530737863342,
+          "z_max": 451.34343265787004,
+          "z_min": -451.343432657876
+        },
+        "child_count": 43,
+        "is_valid": true
+      }
+    }
+  ],
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "Enviolo CA HUB 36T_Enviolo CA HUB 36T_01",
+      "_source_name": "Part__Feature638",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 363.87326766995193,
+          "x_min": 216.12673233004,
+          "y_max": 94.4891734299879,
+          "y_min": -94.81053315703092,
+          "z_max": 324.600347644094,
+          "z_min": 176.85381230418204
+        },
+        "center_of_mass": {
+          "x": 290.0000146218085,
+          "y": -2.1116085242498297,
+          "z": 250.72708860222164
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 79636.34952091982,
+        "total_volume_mm3": 939210.7776607977
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Jante AR_01",
+      "_source_name": "Part__Feature670",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 583.530737863342,
+          "x_min": -3.53073786333876,
+          "y_max": 13.000192320804707,
+          "y_min": -13.00020399968499,
+          "z_max": 702.34343265787,
+          "z_min": -200.343432657876
+        },
+        "center_of_mass": {
+          "x": 289.962891042024,
+          "y": 0.052143131129719564,
+          "z": 251.10766503597563
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 122091.63783198931,
+        "total_volume_mm3": 153746.5279278557
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Pneu_01",
+      "_source_name": "Part__Feature728",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 554.9996212533845,
+          "x_min": 25.000378746617685,
+          "y_max": 24.75349218129829,
+          "y_min": -24.753492181298398,
+          "z_max": 515.9996212533854,
+          "z_min": -13.999621253381406
+        },
+        "center_of_mass": {
+          "x": 289.91222878663996,
+          "y": 0.011236361057854844,
+          "z": 250.98269416758498
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 257951.02055713753,
+        "total_volume_mm3": 3564790.9648907576
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_01",
+      "_source_name": "Part__Feature760",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 361.29787780291275,
+          "x_min": 277.1776303948202,
+          "y_max": 1.3479324220214528,
+          "y_min": -20.497529224328925,
+          "z_max": 433.35554519502097,
+          "z_min": 275.38875937963525
+        },
+        "center_of_mass": {
+          "x": 326.0483149919276,
+          "y": -6.832442856626533,
+          "z": 367.92746239439964
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1150.2775646051173,
+        "total_volume_mm3": 583.4383126765487
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_002",
+      "_source_name": "Part__Feature761",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 425.1088494815602,
+          "x_min": 316.465386787098,
+          "y_max": 1.3652416917129278,
+          "y_min": -23.136466605191142,
+          "z_max": 393.40119703426865,
+          "z_min": 248.91763795583896
+        },
+        "center_of_mass": {
+          "x": 379.7228699846147,
+          "y": -9.57891836199233,
+          "z": 333.3373568316938
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.674716013434,
+        "total_volume_mm3": 588.5531046992996
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_003",
+      "_source_name": "Part__Feature762",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 281.0094446257989,
+          "x_min": 111.99603900610728,
+          "y_max": 1.3479324220214441,
+          "y_min": -20.497529224328925,
+          "z_max": 226.64781665908276,
+          "z_min": 169.83084577933198
+        },
+        "center_of_mass": {
+          "x": 181.82978955785816,
+          "y": -6.832442736031133,
+          "z": 193.80980612111517
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1150.277562187864,
+        "total_volume_mm3": 583.4383060322745
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_004",
+      "_source_name": "Part__Feature763",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 271.915850067478,
+          "x_min": 95.47123224786937,
+          "y_max": 1.3652416917128902,
+          "y_min": -23.136466605191142,
+          "z_max": 273.220879932783,
+          "z_min": 243.45903589021083
+        },
+        "center_of_mass": {
+          "x": 168.33505059134814,
+          "y": -9.578918614302944,
+          "z": 256.22234698469765
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.6747184305505,
+        "total_volume_mm3": 588.553132089778
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_005",
+      "_source_name": "Part__Feature764",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 265.61124062036777,
+          "x_min": 107.64445480498298,
+          "y_max": 1.3479324220214515,
+          "y_min": -20.497529224328925,
+          "z_max": 322.29787780291474,
+          "z_min": 238.1776303948212
+        },
+        "center_of_mass": {
+          "x": 173.07253676397417,
+          "y": -6.832442735932159,
+          "z": 287.0483154173372
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1150.277562181684,
+        "total_volume_mm3": 583.4383060230783
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_006",
+      "_source_name": "Part__Feature765",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 292.08236204416505,
+          "x_min": 147.59880296573445,
+          "y_max": 1.3652416917129364,
+          "y_min": -23.136466605191142,
+          "z_max": 386.1088494815612,
+          "z_min": 277.46538678709896
+        },
+        "center_of_mass": {
+          "x": 207.66264620705837,
+          "y": -9.57891861430845,
+          "z": 340.72286772613086
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.6747184300725,
+        "total_volume_mm3": 588.5531320890889
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_007",
+      "_source_name": "Part__Feature766",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 265.64781665908174,
+          "x_min": 208.83084577933062,
+          "y_max": 1.3479324220214526,
+          "y_min": -20.497529224328925,
+          "z_max": 429.0039609938962,
+          "z_min": 259.99055537420406
+        },
+        "center_of_mass": {
+          "x": 232.809806415014,
+          "y": -6.832442856597134,
+          "z": 359.1702095475139
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1150.2775645981692,
+        "total_volume_mm3": 583.4383126707268
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_008",
+      "_source_name": "Part__Feature767",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 312.22087993278103,
+          "x_min": 282.45903589020946,
+          "y_max": 1.3652416917128902,
+          "y_min": -23.136466605191142,
+          "z_max": 445.52876775213366,
+          "z_min": 269.084149932526
+        },
+        "center_of_mass": {
+          "x": 295.22234643297503,
+          "y": -9.578918361992592,
+          "z": 372.6649531543034
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.6747160135687,
+        "total_volume_mm3": 588.5531046993289
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_013",
+      "_source_name": "Part__Feature772",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 468.00396099389474,
+          "x_min": 298.9905553742031,
+          "y_max": 1.3479324220214526,
+          "y_min": -20.497529224328925,
+          "z_max": 332.169154220673,
+          "z_min": 275.35218334092224
+        },
+        "center_of_mass": {
+          "x": 398.1702104430345,
+          "y": -6.832442735937514,
+          "z": 308.19019387917234
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1150.277562181093,
+        "total_volume_mm3": 583.4383060221736
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_024",
+      "_source_name": "Part__Feature783",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 484.5287677521327,
+          "x_min": 308.084149932524,
+          "y_max": 1.3652416917129828,
+          "y_min": -23.136466605191142,
+          "z_max": 258.54096410979355,
+          "z_min": 228.7791200672219
+        },
+        "center_of_mass": {
+          "x": 411.6649494086609,
+          "y": -9.578918614302001,
+          "z": 245.77765301530795
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.6747184305245,
+        "total_volume_mm3": 588.5531320898575
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_035",
+      "_source_name": "Part__Feature794",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 472.35554519501903,
+          "x_min": 314.3887593796342,
+          "y_max": 1.3479324220214715,
+          "y_min": -20.497529224328925,
+          "z_max": 263.8223696051828,
+          "z_min": 179.70212219709032
+        },
+        "center_of_mass": {
+          "x": 406.9274632351847,
+          "y": -6.832442736026129,
+          "z": 214.9516845831041
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1150.277562187908,
+        "total_volume_mm3": 583.4383060320448
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_044",
+      "_source_name": "Part__Feature803",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 432.4011970342676,
+          "x_min": 287.917637955837,
+          "y_max": 1.3652416917128902,
+          "y_min": -23.136466605191142,
+          "z_max": 224.53461321290604,
+          "z_min": 115.89115051844372
+        },
+        "center_of_mass": {
+          "x": 372.33735379265005,
+          "y": -9.57891861435719,
+          "z": 161.27713227409134
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.6747184371256,
+        "total_volume_mm3": 588.5531320946682
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_045",
+      "_source_name": "Part__Feature804",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 371.16915422067103,
+          "x_min": 314.35218334092025,
+          "y_max": 1.347932422021434,
+          "y_min": -20.497529224328925,
+          "z_max": 242.00944462580077,
+          "z_min": 72.99603900610857
+        },
+        "center_of_mass": {
+          "x": 347.190193584986,
+          "y": -6.832442856598038,
+          "z": 142.829790452497
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1150.2775645981671,
+        "total_volume_mm3": 583.4383126708169
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_046",
+      "_source_name": "Part__Feature805",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 297.5409641097926,
+          "x_min": 267.77912006721994,
+          "y_max": 1.3652416917128902,
+          "y_min": -23.136466605191142,
+          "z_max": 232.91585006747906,
+          "z_min": 56.47123224787089
+        },
+        "center_of_mass": {
+          "x": 284.7776535670269,
+          "y": -9.578918361992491,
+          "z": 129.3350468456992
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.67471601345,
+        "total_volume_mm3": 588.5531046992656
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_047",
+      "_source_name": "Part__Feature806",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 302.8223696051818,
+          "x_min": 218.7021221970886,
+          "y_max": 1.3479324220214575,
+          "y_min": -20.497529224328925,
+          "z_max": 226.61124062036882,
+          "z_min": 68.6444548049841
+        },
+        "center_of_mass": {
+          "x": 253.95168458268546,
+          "y": -6.832442735937368,
+          "z": 134.07253676401325
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1150.2775621816752,
+        "total_volume_mm3": 583.4383060233008
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon D_048",
+      "_source_name": "Part__Feature807",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 263.534613212904,
+          "x_min": 154.89115051844175,
+          "y_max": 1.365241691712983,
+          "y_min": -23.136466605191142,
+          "z_max": 253.08236204416602,
+          "z_min": 108.59880296573641
+        },
+        "center_of_mass": {
+          "x": 200.277130015394,
+          "y": -9.578918361993415,
+          "z": 168.66264316831987
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.674716013563,
+        "total_volume_mm3": 588.5531046993244
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_01",
+      "_source_name": "Part__Feature808",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 263.9786318790217,
+          "x_min": 184.05049815135075,
+          "y_max": 38.141408156503346,
+          "y_min": -1.342597480598331,
+          "z_max": 247.4271005118637,
+          "z_min": 86.01236142950515
+        },
+        "center_of_mass": {
+          "x": 217.69507951430464,
+          "y": 15.92837127974005,
+          "z": 153.11467384936063
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1175.032620781447,
+        "total_volume_mm3": 594.5830025385018
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_002",
+      "_source_name": "Part__Feature809",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 307.76687961900575,
+          "x_min": 254.4524427218813,
+          "y_max": 35.50247077564538,
+          "y_min": -1.36972309093577,
+          "z_max": 229.24948452807075,
+          "z_min": 59.010003836502214
+        },
+        "center_of_mass": {
+          "x": 277.0076737583577,
+          "y": 13.119389450099332,
+          "z": 129.4611665674388
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.4910800231996,
+        "total_volume_mm3": 588.447118944607
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_003",
+      "_source_name": "Part__Feature810",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 450.03118782391397,
+          "x_min": 293.63405175449026,
+          "y_max": 35.50247077564538,
+          "y_min": -1.3697230909358704,
+          "z_max": 364.42442320016454,
+          "z_min": 276.97013278988527
+        },
+        "center_of_mass": {
+          "x": 385.127895286545,
+          "y": 13.119389450095287,
+          "z": 327.75397130882885
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.4910800302375,
+        "total_volume_mm3": 588.4471189437027
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_004",
+      "_source_name": "Part__Feature811",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 480.336317239711,
+          "x_min": 311.7300043222693,
+          "y_max": 38.141408156503346,
+          "y_min": -1.3425974805984326,
+          "z_max": 295.3870645759765,
+          "z_min": 233.18623937699732
+        },
+        "center_of_mass": {
+          "x": 410.34268054808183,
+          "y": 15.928370793039214,
+          "z": 269.088079386303
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1175.0326183577447,
+        "total_volume_mm3": 594.5829787970927
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_005",
+      "_source_name": "Part__Feature812",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 481.9899961635011,
+          "x_min": 311.75051547193226,
+          "y_max": 35.50247077564538,
+          "y_min": -1.3697230909358042,
+          "z_max": 268.7668796190068,
+          "z_min": 215.4524427218833
+        },
+        "center_of_mass": {
+          "x": 411.53883343259264,
+          "y": 13.119389450094483,
+          "z": 238.00767375835096
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.4910800302737,
+        "total_volume_mm3": 588.4471189437337
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_006",
+      "_source_name": "Part__Feature813",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 454.98763857049795,
+          "x_min": 293.5728994881403,
+          "y_max": 38.141408156503346,
+          "y_min": -1.34259748059831,
+          "z_max": 224.97863187902269,
+          "z_min": 145.05049815135175
+        },
+        "center_of_mass": {
+          "x": 387.88532907449775,
+          "y": 15.928370793021257,
+          "z": 178.6950781109387
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1175.0326183648829,
+        "total_volume_mm3": 594.5829787955344
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_013",
+      "_source_name": "Part__Feature820",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 286.36594824551173,
+          "x_min": 129.968812176088,
+          "y_max": 35.50247077564538,
+          "y_min": -1.36972309093577,
+          "z_max": 225.02986721011877,
+          "z_min": 137.57557679984046
+        },
+        "center_of_mass": {
+          "x": 194.87210343313387,
+          "y": 13.119389137458045,
+          "z": 174.2460279763111
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.491077606845,
+        "total_volume_mm3": 588.447108248706
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_024",
+      "_source_name": "Part__Feature831",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 268.2699956777327,
+          "x_min": 99.6636827602913,
+          "y_max": 38.141408156503346,
+          "y_min": -1.34259748059831,
+          "z_max": 268.81376062300774,
+          "z_min": 206.61293542402788
+        },
+        "center_of_mass": {
+          "x": 169.65732251174674,
+          "y": 15.928371279761684,
+          "z": 232.91192168885595
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1175.0326207742387,
+        "total_volume_mm3": 594.5830025400744
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_035",
+      "_source_name": "Part__Feature842",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 268.24948452806973,
+          "x_min": 98.01000383650077,
+          "y_max": 35.50247077564538,
+          "y_min": -1.3697230909357874,
+          "z_max": 286.5475572781216,
+          "z_min": 233.23312038099726
+        },
+        "center_of_mass": {
+          "x": 168.46116515654145,
+          "y": 13.119389137445449,
+          "z": 263.9923266415097
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.4910776138643,
+        "total_volume_mm3": 588.4471082474731
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_042",
+      "_source_name": "Part__Feature849",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 403.0708663821805,
+          "x_min": 315.6165759719013,
+          "y_max": 35.5024707756451,
+          "y_min": -1.3697230909372018,
+          "z_max": 247.51239627458978,
+          "z_min": 91.11526020516641
+        },
+        "center_of_mass": {
+          "x": 366.4004152056906,
+          "y": 13.119389137465774,
+          "z": 156.01855146224582
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.4910776068305,
+        "total_volume_mm3": 588.4471082490023
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_043",
+      "_source_name": "Part__Feature850",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 334.03350775799214,
+          "x_min": 271.8326825590133,
+          "y_max": 38.141408156503545,
+          "y_min": -1.3425974805990002,
+          "z_max": 229.4164437068107,
+          "z_min": 60.810130789369595
+        },
+        "center_of_mass": {
+          "x": 307.73452256831627,
+          "y": 15.928370793040779,
+          "z": 130.8037674810053
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1175.0326183571235,
+        "total_volume_mm3": 594.5829787970102
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_044",
+      "_source_name": "Part__Feature851",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 286.4271005118617,
+          "x_min": 125.01236142950401,
+          "y_max": 38.141408156503346,
+          "y_min": -1.3425974805984113,
+          "z_max": 356.94950184865286,
+          "z_min": 277.0213681209813
+        },
+        "center_of_mass": {
+          "x": 192.11467092559926,
+          "y": 15.928370793041355,
+          "z": 323.30492188902014
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1175.0326183569966,
+        "total_volume_mm3": 594.5829787969138
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_045",
+      "_source_name": "Part__Feature852",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 264.02986721011774,
+          "x_min": 176.57557679983847,
+          "y_max": 35.50247077564538,
+          "y_min": -1.36972309093577,
+          "z_max": 411.031187823915,
+          "z_min": 254.63405175449225
+        },
+        "center_of_mass": {
+          "x": 213.24602869120542,
+          "y": 13.119389450107729,
+          "z": 346.12789528649023
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.4910800231942,
+        "total_volume_mm3": 588.4471189448242
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_046",
+      "_source_name": "Part__Feature853",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 307.8137606230067,
+          "x_min": 245.6129354240267,
+          "y_max": 38.141408156503346,
+          "y_min": -1.3425974805983856,
+          "z_max": 441.336317239712,
+          "z_min": 272.7300043222703
+        },
+        "center_of_mass": {
+          "x": 271.911920613666,
+          "y": 15.928370793020715,
+          "z": 371.3426805481813
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1175.0326183641266,
+        "total_volume_mm3": 594.5829787954053
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_047",
+      "_source_name": "Part__Feature854",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 325.5475572781207,
+          "x_min": 272.23312038099624,
+          "y_max": 35.50247077564538,
+          "y_min": -1.3697230909359277,
+          "z_max": 442.98999616350216,
+          "z_min": 272.7505154719332
+        },
+        "center_of_mass": {
+          "x": 302.99232624164273,
+          "y": 13.119389450100204,
+          "z": 372.538833432561
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1161.4910800231942,
+        "total_volume_mm3": 588.4471189445768
+      }
+    },
+    {
+      "_source_label": "Roues pedales accessoires_Rayon G_048",
+      "_source_name": "Part__Feature855",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 395.94950184865127,
+          "x_min": 316.02136812098036,
+          "y_max": 38.141408156503346,
+          "y_min": -1.3425974805984318,
+          "z_max": 415.9876385704993,
+          "z_min": 254.5728994881413
+        },
+        "center_of_mass": {
+          "x": 362.304921889066,
+          "y": 15.928370793020365,
+          "z": 348.8853290745025
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1175.0326183649145,
+        "total_volume_mm3": 594.5829787955591
+      }
+    },
+    {
+      "_source_label": "Enviolo CA HUB 36T_Rondelle de Serrage SHIMANO NEXUS/ALFINE_1 Cao non conforme_1",
+      "_source_name": "Part__Feature858",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 302.5429692748759,
+          "x_min": 277.449607425879,
+          "y_max": 78.4000003558401,
+          "y_min": 69.39148546998878,
+          "z_max": 263.59558842354204,
+          "z_min": 238.4546578466616
+        },
+        "center_of_mass": {
+          "x": 290.00332091949815,
+          "y": 74.8212297582181,
+          "z": 250.62851431862205
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1474.6078274445306,
+        "total_volume_mm3": 2550.7363828394396
+      }
+    },
+    {
+      "_source_label": "Enviolo CA HUB 36T_Rondelle de Serrage SHIMANO NEXUS/ALFINE_1 Cao non conforme_01",
+      "_source_name": "Part__Feature859",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 302.54542081098657,
+          "x_min": 277.4122508150106,
+          "y_max": -69.24144382131868,
+          "y_min": -78.24995856577709,
+          "z_max": 263.5898729709448,
+          "z_min": 238.41416070029675
+        },
+        "center_of_mass": {
+          "x": 290.199604468605,
+          "y": -74.67122081702435,
+          "z": 250.68668676866483
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1474.627123245416,
+        "total_volume_mm3": 2550.771000257667
+      }
+    },
+    {
+      "_source_label": "Enviolo CA HUB 36T_Shimano Alfine SG-S700 Cap Nut - 3/8\" - Y72A01000_1",
+      "_source_name": "Part__Feature866",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 300.35642830680996,
+          "x_min": 279.6435716932021,
+          "y_max": 106.650029492246,
+          "y_min": 83.15002949223889,
+          "z_max": 261.356428306757,
+          "z_min": 240.64357169314903
+        },
+        "center_of_mass": {
+          "x": 290.00001603879116,
+          "y": 94.21098985220438,
+          "z": 251.0000111036704
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1842.3631215527798,
+        "total_volume_mm3": 3285.4855544211564
+      }
+    },
+    {
+      "_source_label": "Enviolo CA HUB 36T_Shimano Alfine SG-S700 Cap Nut - 3/8\" - Y72A01000_01",
+      "_source_name": "Part__Feature867",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 300.3564283067999,
+          "x_min": 279.64357169319203,
+          "y_max": -79.84997050775196,
+          "y_min": -103.34997050775979,
+          "z_max": 261.35642830685396,
+          "z_min": 240.643571693246
+        },
+        "center_of_mass": {
+          "x": 290.0000702372049,
+          "y": -90.91136061594511,
+          "z": 250.9999370485062
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1842.3008317431074,
+        "total_volume_mm3": 3285.431302123718
+      }
+    },
+    {
+      "_source_label": "Pneu",
+      "_source_name": "Torus",
+      "_source_type_id": "Part::Torus",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 576.8339330774845,
+          "x_min": 3.1660669225155402,
+          "y_max": 30.000000000000064,
+          "y_min": -30.000000000000064,
+          "z_max": 537.8339330774845,
+          "z_min": -35.83393307748446
+        },
+        "center_of_mass": {
+          "x": 290.00000000000006,
+          "y": -4.035140004422539e-15,
+          "z": 251.0
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 290.0,
+          "y": 0.0,
+          "z": 251.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 278322.84411072003,
+        "total_volume_mm3": 4174842.6616607998
+      }
+    }
+  ],
+  "schema_version": 4,
+  "solids": [
+    {
+      "_source_label": "ROU99",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 106.65002949224595,
+          "x_min": -103.34997050775986,
+          "y_max": 293.53073786333874,
+          "y_min": -293.530737863342,
+          "z_max": 451.34343265787004,
+          "z_min": -451.343432657876
+        },
+        "center_of_mass": {
+          "x": -0.35925937171718925,
+          "y": 0.0010554324284806332,
+          "z": -0.04555070456334903
+        },
+        "is_valid": true,
+        "solid_count": 39,
+        "total_area_mm2": 523872.53819479654,
+        "total_volume_mm3": 5298312.563701728
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:43.522316+00:00",
+    "document_label": "VH_ROU99",
+    "document_name": "VH_ROU99",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

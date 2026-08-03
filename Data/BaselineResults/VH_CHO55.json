@@ -1,0 +1,182 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "partdesign_bodies": [
+    {
+      "_source_label": "CHO55",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 16,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Pocket001"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Arceau",
+      "_source_name": "AdditivePipe",
+      "_source_type_id": "PartDesign::AdditivePipe",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Tube_D",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Tube_G",
+      "_source_name": "Pad002",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "InterieurTubes",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "TrousFixation",
+      "_source_name": "Pocket001",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "InterieurTubes_Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 4,
+        "external_geometry_count": 1,
+        "geometry_count": 2,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "ProfilArceaux",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 4,
+        "external_geometry_count": 0,
+        "geometry_count": 2,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "CheminArceaux",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 15,
+        "external_geometry_count": 0,
+        "geometry_count": 5,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Tubes_Sketch",
+      "_source_name": "Sketch003",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "TrousFixation_Sketch",
+      "_source_name": "Sketch004",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 6,
+        "external_geometry_count": 0,
+        "geometry_count": 2,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch010",
+      "_source_name": "Sketch010",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 3,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "CHO55",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 125.00000000000006,
+          "x_min": -125.00000000000011,
+          "y_max": 209.50000000000006,
+          "y_min": -209.50580518931963,
+          "z_max": 11.000000000000064,
+          "z_min": -94.99999999999989
+        },
+        "center_of_mass": {
+          "x": 0.2684555836179066,
+          "y": 0.004741235756788129,
+          "z": -41.33530119679264
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 183205.97494150576,
+        "total_volume_mm3": 91599.64250680886
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:41.347697+00:00",
+    "document_label": "VH_CHO55",
+    "document_name": "VH_CHO55",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

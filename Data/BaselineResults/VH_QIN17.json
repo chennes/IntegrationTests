@@ -1,0 +1,90 @@
+{
+  "app_parts": [
+    {
+      "_source_label": "QIN17",
+      "_source_name": "QIN17",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.63124128304321,
+          "x_min": -21.934210168578602,
+          "y_max": 6.680127017332197,
+          "y_min": -2.480127020512299,
+          "z_max": 10.282675093073436,
+          "z_min": -11.501823796918607
+        },
+        "child_count": 1,
+        "is_valid": true
+      }
+    }
+  ],
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "MaillonRapide",
+      "_source_name": "Part__Feature719",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.63124128304321,
+          "x_min": -21.934210168578602,
+          "y_max": 6.680127017332197,
+          "y_min": -2.480127020512299,
+          "z_max": 10.282675093073436,
+          "z_min": -11.501823796918607
+        },
+        "center_of_mass": {
+          "x": -2.0256107121803097,
+          "y": 2.09999598362905,
+          "z": -2.577144734836338
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": -967.4257974258994,
+          "y": 54.6,
+          "z": -160.17202315288344
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 1434.5954190199009,
+        "total_volume_mm3": 1744.1053871690235
+      }
+    }
+  ],
+  "schema_version": 4,
+  "solids": [
+    {
+      "_source_label": "QIN17",
+      "_source_name": "QIN17",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 20.63124128304321,
+          "x_min": -21.934210168578602,
+          "y_max": 6.680127017332197,
+          "y_min": -2.480127020512299,
+          "z_max": 10.282675093073436,
+          "z_min": -11.501823796918607
+        },
+        "center_of_mass": {
+          "x": -2.0256107121803097,
+          "y": 2.09999598362905,
+          "z": -2.577144734836338
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 1434.5954190199009,
+        "total_volume_mm3": 1744.1053871690235
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:42.144891+00:00",
+    "document_label": "VH_QIN17",
+    "document_name": "VH_QIN17",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

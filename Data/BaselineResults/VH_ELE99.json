@@ -1,0 +1,300 @@
+{
+  "app_parts": [
+    {
+      "_source_label": "ELE99",
+      "_source_name": "ELE99",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1790.9999999254908,
+          "x_min": 1587.7385204424572,
+          "y_max": 65.00000000001509,
+          "y_min": -42.40000000000363,
+          "z_max": 420.99999991059684,
+          "z_min": 180.99999991058914
+        },
+        "child_count": 9,
+        "is_valid": true
+      }
+    }
+  ],
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "Boitier_electrique",
+      "_source_name": "Part__Feature592",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1790.9999999254908,
+          "x_min": 1599.9999999254899,
+          "y_max": 65.00000000001509,
+          "y_min": -42.40000000000363,
+          "z_max": 420.99999991059684,
+          "z_min": 180.99999991058914
+        },
+        "center_of_mass": {
+          "x": 1695.499952197181,
+          "y": 13.324507096641922,
+          "z": 300.999994474843
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 367646.5112662273,
+        "total_volume_mm3": 653904.5920929594
+      }
+    },
+    {
+      "_source_label": "Cube",
+      "_source_name": "Box",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1821.0,
+          "x_min": 1521.0,
+          "y_max": 139.0,
+          "y_min": 39.0,
+          "z_max": 443.0,
+          "z_min": 143.0
+        },
+        "center_of_mass": {
+          "x": 1671.0,
+          "y": 89.0,
+          "z": 293.0
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 1521.0,
+          "y": 39.0,
+          "z": 143.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 300000.0,
+        "total_volume_mm3": 9000000.0
+      }
+    },
+    {
+      "_source_label": "Boitier",
+      "_source_name": "Cut",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1790.9999999254908,
+          "x_min": 1599.9999999254899,
+          "y_max": 38.9999999999967,
+          "y_min": -42.40000000000363,
+          "z_max": 420.99999991059684,
+          "z_min": 180.99999991058914
+        },
+        "center_of_mass": {
+          "x": 1695.4999948616478,
+          "y": -9.292186919433231,
+          "z": 300.999992204461
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 242779.31672297325,
+        "total_volume_mm3": 430723.48926350084
+      }
+    },
+    {
+      "_source_label": "Cube001",
+      "_source_name": "Box001",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1821.0,
+          "x_min": 1521.0,
+          "y_max": 39.0,
+          "y_min": -61.0,
+          "z_max": 443.0,
+          "z_min": 143.0
+        },
+        "center_of_mass": {
+          "x": 1671.0,
+          "y": -11.0,
+          "z": 293.0
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 1521.0,
+          "y": -61.0,
+          "z": 143.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 300000.0,
+        "total_volume_mm3": 9000000.0
+      }
+    },
+    {
+      "_source_label": "Couvercle",
+      "_source_name": "Cut001",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1790.954381950122,
+          "x_min": 1600.0456179008693,
+          "y_max": 65.00000000001509,
+          "y_min": 38.99999999999643,
+          "z_max": 420.9543819352228,
+          "z_min": 181.04561788596322
+        },
+        "center_of_mass": {
+          "x": 1695.4999947988765,
+          "y": 56.97307058491994,
+          "z": 300.9999938512041
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 130602.48953645336,
+        "total_volume_mm3": 223182.26194066892
+      }
+    },
+    {
+      "_source_label": "PresseEtoupe01",
+      "_source_name": "Part__Feature1268",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1623.4700150416168,
+          "x_min": 1587.7385204424572,
+          "y_max": 11.631747646118757,
+          "y_min": -10.365338456016467,
+          "z_max": 306.0002300253076,
+          "z_min": 283.9997650787884
+        },
+        "center_of_mass": {
+          "x": 1604.5402604789379,
+          "y": 0.8074461622653558,
+          "z": 294.99996282500905
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 3431.0974181914016,
+        "total_volume_mm3": 8941.212551656043
+      }
+    },
+    {
+      "_source_label": "PresseEtoupe02",
+      "_source_name": "Part__Feature1269",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1623.4700150416168,
+          "x_min": 1587.7385204424572,
+          "y_max": 11.631747646118756,
+          "y_min": -10.365338456016465,
+          "z_max": 376.00023002530753,
+          "z_min": 353.99976507878836
+        },
+        "center_of_mass": {
+          "x": 1604.540260478939,
+          "y": 0.8074461622654109,
+          "z": 364.99996282500905
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 3431.097418191387,
+        "total_volume_mm3": 8941.21255165592
+      }
+    },
+    {
+      "_source_label": "PresseEtoupe03",
+      "_source_name": "Part__Feature1270",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1623.4700150416168,
+          "x_min": 1587.7385204424572,
+          "y_max": 11.631747646118766,
+          "y_min": -10.36533845601648,
+          "z_max": 236.0002300253076,
+          "z_min": 213.9997650787884
+        },
+        "center_of_mass": {
+          "x": 1604.5402604789372,
+          "y": 0.8074461622653797,
+          "z": 224.99996282500916
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 3431.09741819143,
+        "total_volume_mm3": 8941.212551656152
+      }
+    }
+  ],
+  "schema_version": 4,
+  "solids": [
+    {
+      "_source_label": "ELE99",
+      "_source_name": "ELE99",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 1790.9999999254908,
+          "x_min": 1587.7385204424572,
+          "y_max": 65.00000000001509,
+          "y_min": -42.40000000000363,
+          "z_max": 420.99999991059684,
+          "z_min": 180.99999991058914
+        },
+        "center_of_mass": {
+          "x": 1691.915793841074,
+          "y": 12.831345871436772,
+          "z": 300.7635660282098
+        },
+        "is_valid": true,
+        "solid_count": 5,
+        "total_area_mm2": 383675.09851400007,
+        "total_volume_mm3": 680729.388859138
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:43.557703+00:00",
+    "document_label": "VH_ELE99",
+    "document_name": "VH_ELE99",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

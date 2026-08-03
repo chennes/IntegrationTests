@@ -1,0 +1,129 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "partdesign_bodies": [
+    {
+      "_source_label": "QIN58 (experimental)",
+      "_source_name": "QIN92",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 8,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pad001",
+      "_source_name": "Pad001",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Hole",
+      "_source_name": "Hole",
+      "_source_type_id": "PartDesign::Hole",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 11,
+        "external_geometry_count": 0,
+        "geometry_count": 4,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch002",
+      "_source_name": "Sketch002",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "QIN58 (experimental)",
+      "_source_name": "QIN92",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.1,
+          "x_min": -5.1,
+          "y_max": 9.25,
+          "y_min": -9.25,
+          "z_max": 1.0,
+          "z_min": -1.55
+        },
+        "center_of_mass": {
+          "x": 1.316765897934707e-16,
+          "y": -2.860274594165097e-17,
+          "z": -0.7527552322369534
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 477.38592653589785,
+        "total_volume_mm3": 258.8451516663016
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:43.022113+00:00",
+    "document_label": "VH_QIN58",
+    "document_name": "VH_QIN58",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "partdesign_bodies": [
+    {
+      "_source_label": "CHO17",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 15,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet001"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet001",
+      "_source_name": "Fillet001",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 42,
+        "external_geometry_count": 0,
+        "geometry_count": 16,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "CHO17",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 75.0,
+          "x_min": -25.0,
+          "y_max": 24.999999999999996,
+          "y_min": -75.00005212482236,
+          "z_max": 1.0,
+          "z_min": -1.0
+        },
+        "center_of_mass": {
+          "x": 8.474029301626864,
+          "y": -8.06360279487188,
+          "z": 7.031977081070734e-17
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 9082.25200267355,
+        "total_volume_mm3": 8083.561451561595
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:39.546883+00:00",
+    "document_label": "VH_CHO17",
+    "document_name": "VH_CHO17",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

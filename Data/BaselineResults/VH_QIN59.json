@@ -1,0 +1,312 @@
+{
+  "app_parts": [
+    {
+      "_source_label": "QIN59 (experimental)",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.0,
+          "x_min": -10.0,
+          "y_max": 500.0,
+          "y_min": -500.0,
+          "z_max": 10.00000000000011,
+          "z_min": -10.000000000000096
+        },
+        "child_count": 9,
+        "is_valid": true
+      }
+    }
+  ],
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "part_features": [
+    {
+      "_source_label": "QIN93_Base (Mirror #1)",
+      "_source_name": "Part__Mirroring",
+      "_source_type_id": "Part::Mirroring",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.0,
+          "x_min": -4.440892098500626e-16,
+          "y_max": 500.0,
+          "y_min": -500.0,
+          "z_max": 10.00000000000011,
+          "z_min": -10.000000000000112
+        },
+        "center_of_mass": {
+          "x": 6.066894883157026,
+          "y": -3.3723053464523383e-13,
+          "z": -4.625003237746884e-16
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 95431.58077910749,
+        "total_volume_mm3": 98060.72109208992
+      }
+    },
+    {
+      "_source_label": "Fusion",
+      "_source_name": "Fusion",
+      "_source_type_id": "Part::MultiFuse",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.0,
+          "x_min": -10.0,
+          "y_max": 500.0,
+          "y_min": -500.0,
+          "z_max": 10.00000000000011,
+          "z_min": -10.000000000000112
+        },
+        "center_of_mass": {
+          "x": -2.1685306295566105e-15,
+          "y": -1.6603253050226629e-12,
+          "z": -8.526587426496793e-16
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 182463.161558215,
+        "total_volume_mm3": 196121.44218417894
+      }
+    },
+    {
+      "_source_label": "Cube",
+      "_source_name": "Box",
+      "_source_type_id": "Part::Box",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 49.0,
+          "x_min": -51.0,
+          "y_max": -434.0,
+          "y_min": -500.0,
+          "z_max": -5.5,
+          "z_min": -10.0
+        },
+        "center_of_mass": {
+          "x": -1.0,
+          "y": -467.0,
+          "z": -7.75
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": -51.0,
+          "y": -500.0,
+          "z": -10.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 14694.0,
+        "total_volume_mm3": 29700.0
+      }
+    },
+    {
+      "_source_label": "Cube (Mirror #2)",
+      "_source_name": "Part__Mirroring001",
+      "_source_type_id": "Part::Mirroring",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 49.0,
+          "x_min": -51.0,
+          "y_max": 500.0,
+          "y_min": 434.0,
+          "z_max": -5.5,
+          "z_min": -10.0
+        },
+        "center_of_mass": {
+          "x": -1.0,
+          "y": 467.0,
+          "z": -7.75
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Solid",
+        "shell_is_closed": true,
+        "total_area_mm2": 14694.0,
+        "total_volume_mm3": 29700.0
+      }
+    },
+    {
+      "_source_label": "Fusion001",
+      "_source_name": "Fusion001",
+      "_source_type_id": "Part::MultiFuse",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 49.0,
+          "x_min": -51.0,
+          "y_max": 500.0,
+          "y_min": -500.0,
+          "z_max": -5.5,
+          "z_min": -10.0
+        },
+        "center_of_mass": {
+          "x": -1.0,
+          "y": 0.0,
+          "z": -7.75
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 29388.0,
+        "total_volume_mm3": 59400.0
+      }
+    },
+    {
+      "_source_label": "Cut",
+      "_source_name": "Cut",
+      "_source_type_id": "Part::Cut",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.0,
+          "x_min": -10.0,
+          "y_max": 500.0,
+          "y_min": -500.0,
+          "z_max": 10.00000000000011,
+          "z_min": -10.000000000000096
+        },
+        "center_of_mass": {
+          "x": 1.7043343131765668e-15,
+          "y": -1.0182847234890063e-12,
+          "z": 0.2540525939114397
+        },
+        "is_valid": true,
+        "placement_base": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "shape_type": "Compound",
+        "shell_is_closed": true,
+        "total_area_mm2": 178201.6465985291,
+        "total_volume_mm3": 189974.5321841791
+      }
+    }
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "QIN93_Base",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 3,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Mirrored"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 52,
+        "external_geometry_count": 0,
+        "geometry_count": 18,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "QIN93_Base",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 4.440892098500626e-16,
+          "x_min": -10.0,
+          "y_max": 500.0,
+          "y_min": -500.0,
+          "z_max": 10.00000000000011,
+          "z_min": -10.000000000000112
+        },
+        "center_of_mass": {
+          "x": -6.066894883157026,
+          "y": -3.3723053464523383e-13,
+          "z": -4.625003237746884e-16
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 95431.58077910749,
+        "total_volume_mm3": 98060.72109208992
+      }
+    },
+    {
+      "_source_label": "QIN59 (experimental)",
+      "_source_name": "Part",
+      "_source_type_id": "App::Part",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 10.0,
+          "x_min": -10.0,
+          "y_max": 500.0,
+          "y_min": -500.0,
+          "z_max": 10.00000000000011,
+          "z_min": -10.000000000000096
+        },
+        "center_of_mass": {
+          "x": 1.7043343131765668e-15,
+          "y": -1.0182847234890063e-12,
+          "z": 0.2540525939114397
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 178201.6465985291,
+        "total_volume_mm3": 189974.5321841791
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:43.463247+00:00",
+    "document_label": "VH_QIN59",
+    "document_name": "VH_QIN59",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

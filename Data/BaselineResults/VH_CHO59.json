@@ -1,0 +1,128 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [],
+  "partdesign_bodies": [
+    {
+      "_source_label": "CHO59 (experimental)",
+      "_source_name": "CHO59",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 21,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Fillet001"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet",
+      "_source_name": "Fillet",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Pocket",
+      "_source_name": "Pocket",
+      "_source_type_id": "PartDesign::Pocket",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Mirrored",
+      "_source_name": "Mirrored",
+      "_source_type_id": "PartDesign::Mirrored",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Fillet001",
+      "_source_name": "Fillet001",
+      "_source_type_id": "PartDesign::Fillet",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Compound",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 37,
+        "external_geometry_count": 0,
+        "geometry_count": 14,
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Sketch001",
+      "_source_name": "Sketch001",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 22,
+        "external_geometry_count": 0,
+        "geometry_count": 9,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "CHO59 (experimental)",
+      "_source_name": "CHO59",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 82.5,
+          "x_min": -82.5,
+          "y_max": 125.0,
+          "y_min": -125.0,
+          "z_max": 3.0000000000000013,
+          "z_min": 0.0
+        },
+        "center_of_mass": {
+          "x": 1.5738150635069323e-15,
+          "y": 1.385657742300365e-15,
+          "z": 1.4999999999999993
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 66054.08411868071,
+        "total_volume_mm3": 91890.8431434356
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T00:41:41.352993+00:00",
+    "document_label": "VH_CHO59",
+    "document_name": "VH_CHO59",
+    "freecad_version": "1.1.1 20260414 (Git shallow)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.11.14"
+  }
+}

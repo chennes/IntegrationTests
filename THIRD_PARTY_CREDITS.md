@@ -139,6 +139,51 @@ A compact servo-actuated pinch valve, fully parametrized. Added as a multi-file 
 | ServoQuetsch/ValveBody.FCStd     |                                                  |
 | ServoQuetsch/V.FCStd             | Dependency-only VarSet master; not graded        |
 
+## vheliotech -- Velo solaire pour tous
+
+- **Author:** Youen Toupin, for the association [Velo solaire pour tous](https://vhelio.org/)
+- **Project:** [vheliotech-freecad](https://git.vhelio.org/vhelio/vheliotech-freecad) and [vheliotech-boitier-elec](https://git.vhelio.org/vhelio/vheliotech-boitier-elec)
+- **License:** [CERN-OHL-S-2.0](https://ohwr.org/cernohl) (CERN Open Hardware Licence Version 2 -- Strongly Reciprocal), declared at the repository level
+
+The vheliotech is a solar-assisted cargo tricycle. These files are the project's own parametric PartDesign and Part models; the two `vheliotech-boitier-elec` entries are original models of commercial components drawn from vendor datasheets, not vendor-supplied geometry.
+
+Selected as one representative per distinct feature signature from the 47 files of the collection that recompute cleanly and deterministically in FreeCAD 1.1.1 without addon dependencies. Files in the upstream repositories carry FreeCAD's default "All rights reserved" placeholder metadata; the repository LICENSE governs, and the promoted copies are stamped accordingly.
+
+| Test file             | Author       | License in file | Original path                              |
+|-----------------------|--------------|-----------------|--------------------------------------------|
+| VH_CF13JL-02.FCStd    | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-boitier-elec/3D/                |
+| VH_CHO04.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO11.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO15.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO16.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO17.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO21.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO23.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO34.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO39.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO52.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO55.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO56.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO57.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_CHO59.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/chaudronnerie/          |
+| VH_E16.FCStd          | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/tubes/                  |
+| VH_E21.FCStd          | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/tubes/                  |
+| VH_E36.FCStd          | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/tubes/                  |
+| VH_ELE03.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/electricite/            |
+| VH_ELE04.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/electricite/            |
+| VH_ELE15.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/electricite/            |
+| VH_ELE99.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/electricite/            |
+| VH_FRN03.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/cycle/                  |
+| VH_QIN17.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/quincaillerie/          |
+| VH_QIN36.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/quincaillerie/visserie/ |
+| VH_QIN41.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/quincaillerie/visserie/ |
+| VH_QIN53.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/quincaillerie/          |
+| VH_QIN58.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/quincaillerie/visserie/ |
+| VH_QIN59.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/quincaillerie/          |
+| VH_ROU99.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/roues/                  |
+| VH_TSM01.FCStd        | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-freecad/cycle/                  |
+| VH_Wago_236-4xx.FCStd | Youen Toupin | CERN-OHL-S-2.0  | vheliotech-boitier-elec/3D/                |
+
 ## Original Files -- Max Wilfinger
 
 The following files were created by Max Wilfinger specifically for this test suite and are licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
