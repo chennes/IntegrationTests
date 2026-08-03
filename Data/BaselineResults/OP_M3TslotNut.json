@@ -1,0 +1,118 @@
+{
+  "dag_cycles": [],
+  "invalid_shapes": [
+    {
+      "label": "M3-tslot-nut",
+      "name": "Part__Feature",
+      "obj_valid": true,
+      "type_id": "Part::Feature"
+    },
+    {
+      "label": "BaseFeature",
+      "name": "BaseFeature",
+      "obj_valid": true,
+      "type_id": "PartDesign::FeatureBase"
+    }
+  ],
+  "part_features": [
+    {
+      "_source_label": "M3-tslot-nut",
+      "_source_name": "Part__Feature",
+      "_source_type_id": "Part::Feature",
+      "metrics": {
+        "is_valid": true
+      }
+    }
+  ],
+  "partdesign_bodies": [
+    {
+      "_source_label": "M3-tslot-nut001",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "feature_count": 4,
+        "is_valid": true,
+        "tip_is_valid": true,
+        "tip_name": "Hole"
+      }
+    }
+  ],
+  "partdesign_features": [
+    {
+      "_source_label": "BaseFeature",
+      "_source_name": "BaseFeature",
+      "_source_type_id": "PartDesign::FeatureBase",
+      "metrics": {
+        "is_valid": true
+      }
+    },
+    {
+      "_source_label": "Pad",
+      "_source_name": "Pad",
+      "_source_type_id": "PartDesign::Pad",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    },
+    {
+      "_source_label": "Hole",
+      "_source_name": "Hole",
+      "_source_type_id": "PartDesign::Hole",
+      "metrics": {
+        "is_valid": true,
+        "shape_type": "Solid",
+        "solid_count": 1
+      }
+    }
+  ],
+  "schema_version": 4,
+  "sketches": [
+    {
+      "_source_label": "Sketch",
+      "_source_name": "Sketch",
+      "_source_type_id": "Sketcher::SketchObject",
+      "metrics": {
+        "constraint_count": 2,
+        "external_geometry_count": 0,
+        "geometry_count": 1,
+        "is_valid": true
+      }
+    }
+  ],
+  "solids": [
+    {
+      "_source_label": "M3-tslot-nut001",
+      "_source_name": "Body",
+      "_source_type_id": "PartDesign::Body",
+      "metrics": {
+        "bounding_box": {
+          "x_max": 5.146615384615355,
+          "x_min": -5.146615384615355,
+          "y_max": 5.250000000000165,
+          "y_min": -5.250000000000165,
+          "z_max": 4.68125,
+          "z_min": 0.024999640942897194
+        },
+        "center_of_mass": {
+          "x": 0.00035543119179763655,
+          "y": -0.000489802459119554,
+          "z": 2.1418156847589724
+        },
+        "is_valid": true,
+        "solid_count": 1,
+        "total_area_mm2": 277.3711830929696,
+        "total_volume_mm3": 168.4954844142643
+      }
+    }
+  ],
+  "source": {
+    "data_creation_date": "2026-08-03T03:45:39.697526+00:00",
+    "document_label": "OP_M3TslotNut",
+    "document_name": "OP_M3TslotNut",
+    "freecad_version": "0.20.2 29603 (Git)",
+    "platform": "Windows-10-10.0.26200",
+    "python_version": "3.8.10"
+  }
+}

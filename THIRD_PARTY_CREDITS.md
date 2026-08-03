@@ -233,6 +233,18 @@ Baselined against their native 0.18. `BOIG_BasePlate` carries an accepted-change
 | BOIG_LowerCrossBar.FCStd    | Julian Stirling | CERN-OHL-1.2    | mech-jiwe/Parts/   |
 | BOIG_UpperCrossBar.FCStd    | Julian Stirling | CERN-OHL-1.2    | mech-jiwe/Parts/   |
 
+## Opulo LumenPnP -- Lucian Chapar
+
+- **Author:** Lucian Chapar, [Opulo Inc](https://opulo.io/)
+- **Project:** [LumenPnP](https://github.com/opulo-inc/lumenpnp), an open-source pick-and-place machine
+- **License:** [CERN-OHL-W-2.0](https://ohwr.org/cernohl) (CERN Open Hardware Licence Version 2 -- Weakly Reciprocal), declared in the file's own metadata
+
+Added as a regression guard rather than for coverage. This is the first repro listed on [FreeCAD issue #30856](https://github.com/FreeCAD/FreeCAD/issues/30856), "Invalid shape for boolean FUS" (Blocker, confirmed, bisected to the 2026.06.03 weekly). The body is valid and identical at 168.495 mm3 in 0.20 through 1.1.3 and fails to recompute on current main, so the file carries known-failure rules and the suite will announce the fix when it lands.
+
+| Test file             | Author         | License in file | Original path |
+|-----------------------|----------------|-----------------|---------------|
+| OP_M3TslotNut.FCStd   | Lucian Chapar  | CERN-OHL-W-2.0  | pnp/cad/FST/  |
+
 ## Original Files -- Max Wilfinger
 
 The following files were created by Max Wilfinger specifically for this test suite and are licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).

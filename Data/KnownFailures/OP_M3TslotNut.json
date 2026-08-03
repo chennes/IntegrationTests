@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "section": "solids",
+      "object_pattern": "Body",
+      "metric_pattern": "*",
+      "description": "REGRESSION, tracked as FreeCAD issue #30856 (https://github.com/FreeCAD/FreeCAD/issues/30856) -- 'Invalid shape for boolean FUS', labelled Blocker / Type: Regression / Status: Confirmed / Bisected successfully. Recompute fails with 'Invalid input shape for boolean FUS' and the Body tip is left with a null shape. Bisected upstream to the 2026.06.03 weekly, with 2026.05.27 good. Verified here: the Body is valid and identical at 168.495 mm3 / 277.371 mm2 in 0.20 (its native version), 0.21, 1.0, 1.1 and 1.1.3, and invalid with no metrics in the 2026.07.29 weekly (26.3.0 20260728) deterministically over 3 runs -- so the bug is still live on main. Baselined against its native 0.20, so this rule fires only against dev/weekly builds and the suite will report the file as fixed once #30856 is resolved.",
+      "added": "2026-08-02"
+    },
+    {
+      "section": "partdesign_bodies",
+      "object_pattern": "Body",
+      "metric_pattern": "*",
+      "description": "Same #30856 regression seen through the partdesign_bodies section.",
+      "added": "2026-08-02"
+    },
+    {
+      "section": "partdesign_features",
+      "object_pattern": "Pad",
+      "metric_pattern": "*is_valid*",
+      "description": "Same #30856 regression at its source: the Pad feeding the failing boolean FUS reports is_valid False on dev/weekly builds while valid in 0.20 through 1.1.3. Scoped to is_valid on this feature, so any other metric change on it still fails.",
+      "added": "2026-08-02"
+    },
+    {
+      "section": "partdesign_features",
+      "object_pattern": "Hole",
+      "metric_pattern": "*is_valid*",
+      "description": "Same #30856 regression: the Hole feature downstream of the failing boolean FUS reports is_valid False on dev/weekly builds while valid in 0.20 through 1.1.3. Scoped to is_valid.",
+      "added": "2026-08-02"
+    }
+  ]
+}
