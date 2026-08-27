@@ -1,4 +1,6 @@
 {
+  "dag_cycles": [],
+  "invalid_shapes": [],
   "part_features": [
     {
       "_source_label": "female-pins",
@@ -126,17 +128,17 @@
       "_source_type_id": "Part::FeaturePython",
       "metrics": {
         "bounding_box": {
-          "x_max": 43.68,
-          "x_min": -0.5,
-          "y_max": 7.04,
-          "y_min": 0.9999999999999998,
-          "z_max": 8.3,
-          "z_min": 7.3
+          "x_max": 44.18,
+          "x_min": -1.0,
+          "y_max": 3.54,
+          "y_min": -1.0,
+          "z_max": 9.3,
+          "z_min": 4.300000000000001
         },
         "center_of_mass": {
-          "x": 21.59000000000001,
-          "y": 4.02,
-          "z": 7.800000000000001
+          "x": 21.589999999999993,
+          "y": 1.2699999999999996,
+          "z": 7.595673076923079
         },
         "is_valid": true,
         "placement_base": {
@@ -146,8 +148,8 @@
         },
         "shape_type": "Compound",
         "shell_is_closed": true,
-        "total_area_mm2": 576.0,
-        "total_volume_mm3": 126.00000000000001
+        "total_area_mm2": 1124.735064736291,
+        "total_volume_mm3": 312.0
       }
     },
     {
@@ -164,9 +166,9 @@
           "z_min": 0.0
         },
         "center_of_mass": {
-          "x": 21.589999999999968,
-          "y": 1.2394174397928162,
-          "z": 4.051650797571608
+          "x": 21.590000000000067,
+          "y": 1.2700000000000007,
+          "z": 3.9195963935724163
         },
         "is_valid": true,
         "placement_base": {
@@ -176,8 +178,8 @@
         },
         "shape_type": "Compound",
         "shell_is_closed": true,
-        "total_area_mm2": 1408.9551999999971,
-        "total_volume_mm3": 1877.1580800000033
+        "total_area_mm2": 1856.5302647362873,
+        "total_volume_mm3": 1759.7380799999937
       }
     },
     {
@@ -485,10 +487,10 @@
     }
   ],
   "source": {
-    "data_creation_date": "2026-05-12T04:48:50.666180+00:00",
+    "data_creation_date": "2026-08-27T00:45:54.643405+00:00",
     "document_label": "FPL_PinHeader2x18",
     "document_name": "FPL_PinHeader2x18",
-    "freecad_version": "1.2.0 20260415 (Git shallow)",
+    "freecad_version": "26.3.0 48073 (Git)",
     "platform": "Windows-10-10.0.26200",
     "python_version": "3.11.14"
   }

@@ -4,7 +4,7 @@
       "section": "solids",
       "object_pattern": "Body001",
       "metric_pattern": "*",
-      "description": "REGRESSION, FreeCAD 1.0 -> 1.1. Body001 loses roughly 69% of its volume: 14113.476 mm3 in 0.20, 0.21 and 1.0, then 4308.973 mm3 from 1.1 onward (still 4308.973 in 1.1.3). Surface area falls 12203.795 -> 4008.865 and the bounding box loses its whole upper Y extent (y_max 67.45 -> -45). The recompute reports no error and no invalid shape, so this is a silent geometry loss. Baselined against its native 0.21 deliberately, so the suite will report this as fixed the moment the volume returns.",
+      "description": "REGRESSION, FreeCAD 1.0 -> 1.1. Body001 loses roughly 69% of its volume: 14113.476 mm3 in 0.20, 0.21 and 1.0, then 4308.973 mm3 from 1.1 onward (still 4308.973 in 1.1.3). Surface area falls 12203.795 -> 4008.865 and the bounding box loses its whole upper Y extent (y_max 67.45 -> -45). The recompute reports no error and no invalid shape, so this is a silent geometry loss. Baselined against its native 0.21 deliberately, so the suite will report this as fixed the moment the volume returns. Weekly-bisected 2026-08-03: the history is not monotone. Body001 is NULL (fully invalid, no metrics) in every weekly from 2025.04.21 through 2025.09.24, then becomes valid-but-short from the 2025.10.01 weekly onward -- so the 69% figure dates from the 2025-09-24 -> 2025-10-01 window, very likely PR #24256 (e77f181393, Part Boolean Refine default), while the original break to NULL happened between the 1.0 branch point and 2025.04.21, a stretch of main with no archived weeklies. See Data/RegressionCandidates.md.",
       "added": "2026-08-02"
     },
     {
