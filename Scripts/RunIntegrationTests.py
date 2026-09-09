@@ -130,8 +130,10 @@ def parse_args(argv: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--known-failures-dir",
         required=False,
-        default=default_known_failures_dir,
-        help="Folder containing known-failure rule JSON files "
+        action="append",
+        default=None,
+        help="Folder containing known-failure rule JSON files; may be given multiple times "
+        "to layer additional rule sets (e.g. platform-specific ones) on top of the default "
         f"(default: {default_known_failures_dir})",
     )
     parser.add_argument(
@@ -193,6 +195,12 @@ def run_freecad_script(
 
         env = os.environ.copy()
         env["FREECAD_USER_HOME"] = config_dir
+        # Pixi-environment dev builds consume positional file arguments before
+        # the macro sees them, so the macro accepts EVALUATE_FCSTD/EVALUATE_OUT
+        # with precedence over argv. Feed both channels: portable binaries use
+        # argv as before, pixi-launched ones pick up the environment.
+        env["EVALUATE_FCSTD"] = str(fcstd_path)
+        env["EVALUATE_OUT"] = output_file
 
         proc = subprocess.run(
             cmd,
@@ -530,9 +538,14 @@ def main(argv: List[str]) -> int:
     fcstd_dir = Path(args.fcstd_dir)
     baseline_dir = Path(args.baseline_dir)
     exceptions_dir = Path(args.exceptions_dir) if args.exceptions_dir else None
-    known_failures_dir = Path(args.known_failures_dir) if args.known_failures_dir else None
+    # --known-failures-dir is repeatable; when absent, fall back to the default
+    # (kept out of argparse's default= so appending never mutates the fallback).
+    if args.known_failures_dir:
+        known_failures_dirs = [Path(d) for d in args.known_failures_dir]
+    else:
+        known_failures_dirs = [Path(__file__).resolve().parent.parent / "Data" / "KnownFailures"]
     use_exceptions = exceptions_dir is not None and not args.strict
-    use_known_failures = known_failures_dir is not None and not args.strict
+    use_known_failures = bool(known_failures_dirs) and not args.strict
 
     single_test_to_run = None
     if args.filename:
@@ -544,8 +557,7 @@ def main(argv: List[str]) -> int:
     required_paths = [freecad_exe, script_path, fcstd_dir, baseline_dir]
     if exceptions_dir is not None:
         required_paths.append(exceptions_dir)
-    if known_failures_dir is not None:
-        required_paths.append(known_failures_dir)
+    required_paths.extend(known_failures_dirs)
     for path in required_paths:
         if not path.exists():
             print(f"ERROR: Path does not exist: {path}", file=sys.stderr)
@@ -658,7 +670,9 @@ def main(argv: List[str]) -> int:
 
             # Second pass: known failures
             if use_known_failures and remaining:
-                kf_rules = load_accepted_changes(known_failures_dir, stem)
+                kf_rules = []
+                for kf_dir in known_failures_dirs:
+                    kf_rules.extend(load_accepted_changes(kf_dir, stem))
                 next_remaining = []
                 for section_name, diff in remaining:
                     rule = find_matching_rule(diff, section_name, kf_rules)
@@ -796,7 +810,7 @@ def main(argv: List[str]) -> int:
     if use_exceptions:
         print(f"Exceptions:    {exceptions_dir}")
     if use_known_failures:
-        print(f"Known fails:   {known_failures_dir}")
+        print(f"Known fails:   {', '.join(str(d) for d in known_failures_dirs)}")
     if args.strict:
         print("Strict mode:   all exceptions and known failures disabled")
     print(79 * "=")
