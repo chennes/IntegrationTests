@@ -13,6 +13,11 @@ Input manifest (--files-from) is JSON: {"files": [{"id": "<unique id>",
 --out-dir/<id>.json; the summary lands in --out-dir/index.json as
 {"results": {id: {"ok": bool, "error": str|null, "runtime_s": float}}}.
 
+Progress: one machine-readable line per finished file is printed (and flushed)
+to stdout as it completes, so a supervising process can stream a running tally:
+  FILE_RESULT: {"id": "<id>", "ok": bool, "error": str|null, "runtime_s": float}
+A human-readable count follows every 25 files.
+
 --arg-style controls how the macro receives its input and output paths:
   positional  (default) FreeCADCmd <macro> <fcstd> --out <report>  -- correct
               for portable/release binaries, which pass arguments through.
@@ -141,16 +146,21 @@ def main(argv: List[str]) -> int:
             "runtime_s": round(time.monotonic() - started, 2),
         }
 
-    print(f"Evaluating {len(entries)} files with {freecad_exe.name} (workers={args.workers})")
+    print(
+        f"Evaluating {len(entries)} files with {freecad_exe.name} (workers={args.workers})",
+        flush=True,
+    )
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = [pool.submit(one, e) for e in entries]
+        futures = {pool.submit(one, e): str(e["id"]) for e in entries}
         done = 0
         for fut in as_completed(futures):
             fut.result()
             done += 1
+            entry_id = futures[fut]
+            print("FILE_RESULT: " + json.dumps({"id": entry_id, **results[entry_id]}), flush=True)
             if done % 25 == 0 or done == len(entries):
                 n_bad = sum(1 for r in results.values() if not r["ok"])
-                print(f"  [{done}/{len(entries)}] {n_bad} failed so far")
+                print(f"  [{done}/{len(entries)}] {n_bad} failed so far", flush=True)
 
     index = {"results": results, "n_files": len(entries)}
     (out_dir / "index.json").write_text(json.dumps(index, indent=2), encoding="utf-8")
